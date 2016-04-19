@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Cara update Firmware Pebble ke SDK 2 Beta version &middot; Khalid Scratch Board
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-8671044-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+
+  <body>
+
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">
+          Khalid Scratch Board
+        </a>
+      </h1>
+      <p class="lead">Spontaneously wrote, from me to you to others for everyone – khal.web.id</p>
+    </div>
+
+    <nav class="sidebar-nav">
+       <a class="sidebar-nav-item" href="http://about.me/khalidity">About Me</a>
+
+      
+
+      
+      
+        
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+
+    </nav>
+
+    <p style="font-size:0.7rem">Powered by <img style="height:45px;" src="/images/jekyll_logo.png"/></p>
+  </div>
+</div>
+
+
+    <div class="content container">
+      <div class="post">
+  <h1 class="post-title">Cara update Firmware Pebble ke SDK 2 Beta version</h1>
+  <span class="post-date">16 Dec 2013</span>
+  <p><strong>Update: Semua intruksi dibawah ini bisa dilakukan hanya dengan menggunakan browser henpon.</strong></p>
+
+<p>Halo Pebble&#39;ers (*ha ha namanya ga asik) belakangan ini Pebble mengeluarkan versi Firmware Beta untuk SDK2, update salah satunya adalah mengaktifkan kegunaan Accelerometer yg bisa mengukur movement dari pemakai dan <a href="https://developer.getpebble.com/2/guides/javascript-guide.html">Javascript Kit</a> yg memudahkan developer untuk mengintegrasikan aplikasi pebble dengan web service semacam facebook, foursquare, yahoo weather, dll tanpa menggunakan 3rd party app seperti <a href="http://forums.getpebble.com/discussion/5384/httpebble-framework-for-http-communication-and-other-things-via-watch-apps">httpebble</a>.</p>
+
+<p>Versi update terakhir pada saat artikel ini ditulis adalah <a href="https://developer.getpebble.com/2/releasenotice-beta3.html">Firmware 2.0 Beta 3</a> , versi ini kalo gw lihat sudah cukup stabil dan reliable. Pada versi BETA 2 sebelumnya masih terjadi kendala di Javascript Kit yg mengharuskan Pebble Android app harus berada di foreground. Untuk bisa melakukan instalasi firmware ini pemakai diharuskan registrasi terlebih dahulu di portal <a href="https://auth.getpebble.com/">auth.getpebble.com </a> setelah login semua langkah dan prosedur instalasi bisa dilakukan di <a href="https://developer.getpebble.com/2/getting-started/">developer.getpebble.com</a> , artikel ini hanya penjelasan tambahan untuk prosedur instalasi.</p>
+
+<p>Untuk proses instalasi BETA firmware ada 2 file yg di perlukan, semua file bisa di download di <a href="https://developer.getpebble.com/2/getting-started/">developer.getpebble.com</a> , proses instalasi juga sedikit berbeda untuk platform Android dan IOS, untuk IOS atau Iphone sayangnya akan melalui proses approval dari pihak pebble nya, lo harus mengisi form mengenai aplikasi apa yg akan lo buat, proses selanjutnya sama seperti platform android.</p>
+
+<ol>
+<li>Dari 3 poin yg tertera pada <a href="https://developer.getpebble.com/2/getting-started/">developer.getpebble.com</a> untuk end-user alias non dev, lo hanya download &quot;Android App&quot; dgn extension &quot;PebbleApp-2.0-BETA3.apk&quot; atau &quot;IOS App&quot; (poin 1) dan Firmware file dengan extension &quot;.pbz&quot;. Perlu diperhatikan disini, ada 2 jenis firmware file keduanya spesifik dengan serial number yg ada di belakang jam tangan, jika serial number <strong>diawali dengan angka</strong>, download <strong>Pebble Firmware 2.0-BETA3 for ev2_4</strong>. , jika <strong>diawali dengan huruf &quot;Q&quot;</strong>, download <strong>Pebble Firmware 2.0-BETA3 for v1_5.</strong></li>
+<li>Download kedua file yang dibutuhkan langsung ke henpon, gw harap aplikasi folder explorer (ES explorer, Astro) sudah ter-install di henpon.</li>
+<li>Hapus semua aplikasi yang ada di Jam tangan melalui Pebble Android/IOS app yg terinstall, agar nantinya setelah update ke firmware terbaru ga ada yang bentrok, karena aplikasi yang dibuat dengan SDK 1 sama sekali tidak bisa digunakan di firmware terbaru ini.</li>
+<li>Uninstall Pebble &quot;Android App&quot; yang terinstall di henpon, pastikan pada setting android di bagian security - Device administration box &quot;Unknown Source&quot; sudah di cek, gunanya untuk mengizinkan instalasi aplikasi selain dari Play Store.</li>
+<li>Lalu lakukan instalasi file &quot;<strong>PebbleApp-2.0-BETA3.apk</strong>&quot; dari folder explorer, di-klik saja lalu pilih &quot;package installer&quot; (logo android) untuk instalasi, pastikan pebble android app sudah terinstall.</li>
+<li>Setelah Pebble Android App terinstall, lakukan instalasi <strong>Pebble-2.0-BETA3-[ev2_4 atau v1_5].pbz</strong> dari folder explorer, di-klik saja, nanti file akan dikenali oleh Pebble Android App, proses &quot;Updating&quot; akan segera berlangsung, tunggu sekitar 2-3 menit sampai proses instalasi selesai, Jam tangan akan melakukan reboot ketika update firmware telah selesai.</li>
+<li>Setelah semua selesai, silahkan sujud sukur, potong kambing, tumpengan atau undang tetangga buat tahlilan (*Hahaha bcanda broh)</li>
+</ol>
+
+<p>Setelah itu lo bisa langsung menuju <a href="http://www.mypebblefaces.com/">MyPebbleFaces.com</a> silahkan di filter result berdasarkan SDK 2.0, ada beberapa aplikasi yg menurut gw cukup menarik seperti,</p>
+
+<ol>
+<li><a href="http://www.mypebblefaces.com/apps/9157/6582/">Aerotracker</a> sebuah aplikasi tracking GPS,</li>
+<li><a href="http://www.mypebblefaces.com/apps/9519/7122/"> Tap Time </a>watchface hemat energi,</li>
+<li><a href="http://www.mypebblefaces.com/apps/1444/7926/">Pebsona Golden</a> watchface paling bagus, tapi boros memori henpon,</li>
+<li><a href="http://www.mypebblefaces.com/apps/6659/5613/">Binary watchface</a> kayaknya susah sih kalo ga pernah blajar binary 8-4-2-1 ,</li>
+<li><a href="http://www.mypebblefaces.com/apps/8829/7900/">RChrono</a> aplikasi wajib buat para runner, tapi ini bisa juga sebagai timer serbaguna kalo menurut gw,</li>
+<li><a href="http://www.mypebblefaces.com/apps/10947/8172/">Spoon</a> bisa checkin foursquare dari pebble lo (*keren bro, cobain deh)</li>
+<li><a href="http://letsmuv.com/">LetsMuv</a> aplikasi ini mirip seperti fitbit, nike fuelband</li>
+</ol>
+
+<p>Oya, Pebble sdk 2 memperkenalkan fitur app config untuk pebble watchapp, config ini bisa dilihat di Pebble Android App di menu Watch App dgn gear icon,</p>
+
+<p><a href="/images/wpid-Screenshot_2013-12-17-00-30-16.png"><img src="/images/wpid-Screenshot_2013-12-17-00-30-16.png" alt="image" title="Screenshot_2013-12-17-00-30-16.png"></a></p>
+
+<p>Wokeh Bro Sis gitu deh, catatan aja, langkah diatas udah gw coba berulang2x di android dan sukses2x aja, untuk aplikasi IOS gw belum pernah coba, tapi kalo gw pikir sih mirip aja ya, sori banget nih kalo gw kurang nge-bantu :)</p>
+
+<p>Selamat mencoba!! Break a leg :))</p>
+
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/2016/01/25/nge-mix-android-di-macbookpc/">
+            Nge-mix Android di Macbook/PC
+            <small>25 Jan 2016</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2016/01/13/os-x-el-capitan-taktik-marketing-terbaru-apple/">
+            OS X El Capitan, taktik marketing terbaru Apple
+            <small>13 Jan 2016</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2016/01/11/kopi-kental-manis-team-building-dan-boardgaming/">
+            Kopi kental manis, Team Building dan Boardgaming
+            <small>11 Jan 2016</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+    </div>
+
+  </body>
+</html>

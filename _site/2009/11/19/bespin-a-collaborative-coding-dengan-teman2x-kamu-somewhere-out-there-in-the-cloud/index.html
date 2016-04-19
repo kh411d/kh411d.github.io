@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Bespin a Collaborative Coding dengan teman2x kamu somewhere out there in the cloud  &middot; Khalid Scratch Board
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-8671044-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+
+  <body>
+
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">
+          Khalid Scratch Board
+        </a>
+      </h1>
+      <p class="lead">Spontaneously wrote, from me to you to others for everyone – khal.web.id</p>
+    </div>
+
+    <nav class="sidebar-nav">
+       <a class="sidebar-nav-item" href="http://about.me/khalidity">About Me</a>
+
+      
+
+      
+      
+        
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+
+    </nav>
+
+    <p style="font-size:0.7rem">Powered by <img style="height:45px;" src="/images/jekyll_logo.png"/></p>
+  </div>
+</div>
+
+
+    <div class="content container">
+      <div class="post">
+  <h1 class="post-title">Bespin a Collaborative Coding dengan teman2x kamu somewhere out there in the cloud </h1>
+  <span class="post-date">19 Nov 2009</span>
+  <p>[caption id=&quot;&quot; align=&quot;alignleft&quot; width=&quot;180&quot; caption=&quot;bespin&quot;]<a href="https://wiki.mozilla.org/Labs/Bespin"><img src="http://people.mozilla.com/%7Ecbeard/Bespin_Logo.png" alt="bespin" title="bespinlogo"></a>[/caption]</p>
+
+<p>Pertama gw mo kasih tau dulu nih, apaan sih tuh &quot;Bespin&quot; , ini product adalah suatu terobosan baru oleh Mozilla Labs yang merupakan sebuah code editor dengan berbasis web, tentunya bertujuan untuk meningkatkan produktivitas dari developer, karena editor ini merupakan web based dengan kata lain bespin bisa di gunakan oleh seluruh developer di mana aja dengan istilah &quot;Code In The Cloud&quot;, tentu saja dengan browser yang menunjang (Firefox3,Chrome,Safari), karena tidak semua browser bisa menunjang aplikasi ini.</p>
+
+<p>Feature-feature yang ada pada Bespin cukup banyak, mungkin bisa di cek di <a href="http://https://wiki.mozilla.org/Labs/Bespin">websitenya </a>, satu hal yang menarik perhatian gw adalah feature collaborative coding (masih beta sih ..), yang tentunya akan gw bahas disini semampu gw, mudah2xan sih jelas (kekekekek)....</p>
+
+<p>Hal pertama yang harus lo lakukan adalah melakukan registrasi ke <a href="https://bespin.mozilla.com/index.html">http://bespin.mozilla.com</a> , setelah itu login dengan username dan password.<br>
+ Setelah Logged in, kalo dilihat di menu atas bespin punya 6 Menu,<br>
+ Command Line Access : Command line untuk berbagai macam feature seperti create project, open files, follow user, dll, <a href="https://wiki.mozilla.org/Labs/Bespin/UserGuide">https://wiki.mozilla.org/Labs/Bespin/UserGuide</a><br>
+ Show Files : Bertindak sebagai file manager, untuk melihat project2x yang udah lo buat dan project2x yang di share sama temen2x lo,<br>
+ Save, View in browser, Font size,<br>
+ terakhir Collaboration paling ujung kanan, untuk mengetahui siapa saja yang sedang mengedit file yang udah lo share.</p>
+
+<p>Ok sekarang kita mulai dengan membuat project baru, klik tombol &quot;Show Files&quot;, disini lo bisa melihat project2x yang ada ato ter-share, masukkan perintah berikut di konsol  </p>
+
+<blockquote>
+<p><strong>project create projectaku</strong></p>
+</blockquote>
+
+<p>buat file index.html di bawah projectaku  </p>
+
+<blockquote>
+<p>newfile /projectaku/index.html<br>
+ file index.html akan langsung terloaded di editor, klik button &quot;Save&quot;</p>
+</blockquote>
+
+<p>untuk memulai kolaborasi, tentunya lo harus mempunyai teman/group, misal username teman adalah &quot;kambing&quot; , untuk memulai koneksi dengan teman gunakan command line berikut:  </p>
+
+<blockquote>
+<p>follow kambing</p>
+</blockquote>
+
+<p>lalu share projectaku supaya bisa di edit bareng dengan user &quot;kambing&quot;,  </p>
+
+<blockquote>
+<p>share add projectaku kambing edit</p>
+</blockquote>
+
+<p>ketika user &quot;kambing&quot; logged in, user ini sudah bisa melihat project yang dishare melalui &quot;Show Files&quot;, atau ketikan  </p>
+
+<blockquote>
+<p>open /usersaya+projectaku/index.html</p>
+</blockquote>
+
+<p>jika file index.html di edit bersama , akan terlihat kolaborasi realtime, melalui menu collaboration kita bisa melihat siapa saja yang sedang mengedit file tersebut.</p>
+
+<p>Udah ya... met nyoba2x deh .....</p>
+
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/2016/01/25/nge-mix-android-di-macbookpc/">
+            Nge-mix Android di Macbook/PC
+            <small>25 Jan 2016</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2016/01/13/os-x-el-capitan-taktik-marketing-terbaru-apple/">
+            OS X El Capitan, taktik marketing terbaru Apple
+            <small>13 Jan 2016</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2016/01/11/kopi-kental-manis-team-building-dan-boardgaming/">
+            Kopi kental manis, Team Building dan Boardgaming
+            <small>11 Jan 2016</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+    </div>
+
+  </body>
+</html>
