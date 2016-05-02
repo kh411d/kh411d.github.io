@@ -1,24 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Using Facebook Test User
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 283
-wordpress_url: http://khalidadisendjaja.web.id/?p=283
 date: '2011-07-27 15:59:35 +0700'
 date_gmt: '2011-07-27 08:59:35 +0700'
 categories:
 - Internet &amp; Tech
 tags: []
-comments: []
 ---
 If you don't know what Facebook Test User is? you may check the documentation on [http://developers.facebook.com/docs/test\_users/](http://developers.facebook.com/docs/test_users/ "Facebook Test User Docs")
 

@@ -1,24 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: 'Nike WeRun Jakarta 2013 #BajakJkt finisher'
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 730
-wordpress_url: http://khalidadisendjaja.web.id/2013/12/15/730/
 date: '2013-12-15 10:17:29 +0700'
 date_gmt: '2013-12-15 03:17:29 +0700'
 categories:
 - Hobbies, Event &amp; Travelling
 tags: []
-comments: []
 ---
 [![](http://images.path.com.s3.amazonaws.com/photos2/356d2674-abf3-4bdc-bf87-a19409e8c5a1/original.jpg)](https://path.com/p/1zzRkQ) Numpang narsis di papan nama, boleh dong...
 

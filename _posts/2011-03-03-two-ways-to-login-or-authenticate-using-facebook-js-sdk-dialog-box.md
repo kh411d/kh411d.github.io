@@ -1,26 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Two ways to Login or Authenticate using Facebook JS SDK Dialog box
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-excerpt: "Two easy way to have your app users get authenticate with Facebook JS SDK,\r\nyou
-  may use FB.UI or FB.LOGIN, as example below,\r\n\r\nUsing FB.UI,"
-wordpress_id: 217
-wordpress_url: http://khalidadisendjaja.web.id/?p=217
 date: '2011-03-03 15:09:05 +0700'
 date_gmt: '2011-03-03 08:09:05 +0700'
 categories:
 - Internet &amp; Tech
 tags: []
-comments: []
 ---
 Two easy way to have your app users get authenticate with Facebook JS SDK,  
  you may use FB.UI or FB.LOGIN, as example below,

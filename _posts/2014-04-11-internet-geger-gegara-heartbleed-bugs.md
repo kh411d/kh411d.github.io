@@ -1,24 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: 'Internet geger gegara HeartBleed [BUG] '
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 907
-wordpress_url: http://khalidadisendjaja.web.id/?p=907
 date: '2014-04-11 15:51:42 +0700'
 date_gmt: '2014-04-11 08:51:42 +0700'
 categories:
 - Internet &amp; Tech
 tags: []
-comments: []
 ---
 [![heartbleed](/images/heartbleed.png)](http://heartbleed.com/)2 atau 3 hari yang lalu sekitar 66% website di seluruh dunia sempat geger dengan adanya [_bug_](https://en.wikipedia.org/wiki/Software_bug) pada [OpenSSL](http://en.wikipedia.org/wiki/Openssl) (\*yaitu sebuah software kriptografi yang banyak dipakai di sekian banyak aplikasi website dan berguna untuk melindungi data koneksi pengguna ketika sedang melakukan aktivitas internet)
 

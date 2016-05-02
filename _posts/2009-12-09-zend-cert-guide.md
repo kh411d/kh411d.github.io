@@ -1,24 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Zend cert guide ...
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 123
-wordpress_url: http://www.khalidadisendjaja.web.id/?p=123
 date: '2009-12-09 15:26:29 +0700'
 date_gmt: '2009-12-09 08:26:29 +0700'
 categories:
 - Internet &amp; Tech
 tags: []
-comments: []
 ---
 I've found an interesting comment from one of amazon book, which is  
  http://www.amazon.com/architects-Zend-Certification-Study-Guide/product-reviews/0973862149/ref=wl\_it\_o\_cm\_cr\_acr\_txt?ie=UTF8&showViewpoints=1

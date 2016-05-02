@@ -1,24 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Zend Lucene, getting document ID after indexing
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 158
-wordpress_url: http://www.khalidadisendjaja.web.id/?p=158
 date: '2010-03-29 12:43:41 +0700'
 date_gmt: '2010-03-29 05:43:41 +0700'
 categories:
 - Internet &amp; Tech
 tags: []
-comments: []
 ---
 Once upon a time I have a problem how to get the ID of the indexed document, I need to delete  
  the document that was not available on the database, apparently the document unique ID cannot  

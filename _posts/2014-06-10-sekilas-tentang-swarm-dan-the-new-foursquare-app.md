@@ -1,24 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Sekilas tentang Swarm dan The New Foursquare app
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 955
-wordpress_url: http://khalidadisendjaja.web.id/?p=955
 date: '2014-06-10 20:29:10 +0700'
 date_gmt: '2014-06-10 13:29:10 +0700'
 categories:
 - Internet &amp; Tech
 tags: []
-comments: []
 ---
 Belakangan ini Foursquare sedang sibuk2x nya membuat sebuah modifikasi baru pada sisi aplikasi dan user experience dengan tujuan untuk lebih menekankan, bahwa inti dari semua yang Foursquare lakukan selama ini adalah bukan untuk membuat sebuah famous check-in button yang mungkin tiap orang bisa bilang "Kalo mau check-in ya di Foursquare aja"
 

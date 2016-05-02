@@ -1,24 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Yay! Twitter featuring Piala Dunia 2014
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 957
-wordpress_url: http://khalidadisendjaja.web.id/?p=957
 date: '2014-06-12 15:53:39 +0700'
 date_gmt: '2014-06-12 08:53:39 +0700'
 categories:
 - Internet &amp; Tech
 tags: []
-comments: []
 ---
 Sepertinya untuk Piala Dunia 2014 ini, Twitter benar-benar memberikan wadah pada para tweeps untuk turut menyemarakan suasana piala dunia di sisi online digital social media, bisa dilihat pada tampilan home terbaru dari Twitter.com versi website, di bagian sidebar sebelah kanan sudah tersedia jadwal pertandingan dan para pengguna twitter bisa memantau pertandingan lewat twitter hashtag yang sudah disediakan oleh twitter,
 

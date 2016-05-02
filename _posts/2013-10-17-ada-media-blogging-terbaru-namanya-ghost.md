@@ -1,24 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Ada media blogging terbaru namanya GHOST, ngintip yuk!
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 671
-wordpress_url: http://khalidadisendjaja.web.id/?p=671
 date: '2013-10-17 14:42:15 +0700'
 date_gmt: '2013-10-17 07:42:15 +0700'
 categories:
 - Internet &amp; Tech
 tags: []
-comments: []
 ---
 ![GHOST](/images/GHOST-150x150.png)Namanya **GHOST** mungkin beberapa dari lo, udah pada denger media blogging yang satu ini, GHOST ini pertama kali dicetuskan oleh John O'Nolan member dari Core Wordpress UI team, mungkin lebih dikenal lagi krn hasil karyanya bersama sebuah perusahaan penerbangan ternama Virgin Atlantic Airways membuat sebuah online community untuk travellers, cekidot aja **vtravelled.com** , sebuah study case yg menurut gw cukup menarik untuk disimak pada saat pembuatan website tersebut cekidot [Virgin Atlantic Airways Blog Study Case](http://www.webdesignerdepot.com/2010/04/the-virgin-atlantic-airways-blog-a-case-study/ "Virgin Atlantic Blog - Study Case")
 

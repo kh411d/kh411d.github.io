@@ -1,18 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: Android On-Body phone lock, pinter juga neh!
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 1125
-wordpress_url: http://khalidadisendjaja.web.id/?p=1125
 date: '2015-05-02 15:50:00 +0700'
 date_gmt: '2015-05-02 08:50:00 +0700'
 categories:
@@ -25,7 +13,6 @@ tags:
 - lollipop
 - android-L
 - lock-screen
-comments: []
 ---
 [![android-smartlock](/images/android-smartlock.jpg)](/images/android-smartlock.jpg) Tentunya penting buat kita semua untuk menjaga privasi dan keamanan henpon pribadi entah dari kelalaian kita sendiri atau tangan-tangan usil lainnya.
 

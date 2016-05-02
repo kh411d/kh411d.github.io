@@ -1,24 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Gimana caranya bikin tampilan Firefox lo jadi kaya Chrome
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 103
-wordpress_url: http://www.khalidadisendjaja.web.id/?p=103
 date: '2009-11-11 14:55:29 +0700'
 date_gmt: '2009-11-11 07:55:29 +0700'
 categories:
 - Internet &amp; Tech
 tags: []
-comments: []
 ---
 Salah satu hal yang gw suka dari Chrome adalah themes nya yang simple clean dan enteng di liat deh pokoknya ..., masalahnya gw jarang pake tuh yang namanya Chrome kalo untuk development (Can't live whitout firefox), ya udah deh gw mulai cari sana sini gimana caranya bisa bikin firefox jadi kaya chrome, mudah2x nih artikel berguna dah ...
 

@@ -1,24 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Apaan tuh "Google Wave Robots" ??? Apaan aja sih ???
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 120
-wordpress_url: http://www.khalidadisendjaja.web.id/?p=120
 date: '2009-11-25 10:45:09 +0700'
 date_gmt: '2009-11-25 03:45:09 +0700'
 categories:
 - Internet &amp; Tech
 tags: []
-comments: []
 ---
 Pertama gw mau kasih tau dulu apaan sih google wave robot (GWR) itu, sebenernya simple aja... ya namanya juga robot jadi GWR itu adalah user otomatis (robot) yang bisa menjadi participant dari sebuah wave, user robot juga dapat membaca isi sebuah wave di mana robot itu berpartisipasi, google wave memodifikasi isi, menambah atau menghapus peserta, dan menciptakan wave baru. Singkatnya, user robot dapat melakukan banyak tindakan yang waver/peserta lainnya dapat melakukan.
 

@@ -1,40 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Apa, siapa, dimana, bagaimana, kenapa Pebble ?
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 688
-wordpress_url: http://khalidadisendjaja.web.id/?p=688
 date: '2013-11-11 17:37:11 +0700'
 date_gmt: '2013-11-11 10:37:11 +0700'
 categories:
 - Internet &amp; Tech
 tags: []
-comments:
-- id: 4085
-  author: pancevanbuncis
-  author_email: ''
-  author_url: ''
-  date: '2013-12-28 20:03:46 +0700'
-  date_gmt: '2013-12-28 13:03:46 +0700'
-  content: berapa sih kira" biaya bea cukai dan pajaknya?? ada yg sudah membeli online
-    shipping??
-- id: 4086
-  author: Khalid Adisendjaja
-  author_email: contact@khal.web.id
-  author_url: http://khal.web.id
-  date: '2013-12-28 21:52:23 +0700'
-  date_gmt: '2013-12-28 14:52:23 +0700'
-  content: Skarang dah gampang kok, udah ada DHL, biaya pengiriman dah termasuk cukai
-    spertinya, jadi langsung pintu rumah, coba cek aja website DHL
 ---
 Hmm dari judulnya panjang ya... sumpah males deh nerusin artikelnya, gw juga ga rajin2x amet nge-blog, tapi pengen aja sharing sama yg lain, banyak yg nanya soal gadget unik yg satu ini yg namanya [**Pebble**](http://getpebble.com), mungkin banyak "anak bertanya pada bapaknya... buat apa berlapar2x puasa ... tadarus tarawih apalah gunanya" (\*Halaaaah, ngaco kan, knapa jadi Bimbo, sori ya, Bimbo ama Pebble ga da hubungannya sama skali, titik. \*disclaimer )
 

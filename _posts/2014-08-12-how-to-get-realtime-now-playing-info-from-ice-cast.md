@@ -1,18 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: How to get realtime Now Playing info from Ice Cast
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 1022
-wordpress_url: http://khalidadisendjaja.web.id/?p=1022
 date: '2014-08-12 12:04:45 +0700'
 date_gmt: '2014-08-12 05:04:45 +0700'
 categories:
@@ -25,33 +13,6 @@ tags:
 - onlineradio
 - ajax
 - jquery
-comments:
-- id: 5631
-  author: dangkol
-  author_email: dangkol@outlook.com
-  author_url: ''
-  date: '2014-09-13 09:54:41 +0700'
-  date_gmt: '2014-09-13 02:54:41 +0700'
-  content: "itu cara buat \"small function to fetch xspf endpoint\" bagaimana ya?\r\ndisimpan
-    sebagai file php atau bagaimana?\r\n\r\nmaaf… newbie…"
-- id: 5727
-  author: Khalid Adisendjaja
-  author_email: contact@khal.web.id
-  author_url: http://khal.web.id
-  date: '2014-09-16 15:00:36 +0700'
-  date_gmt: '2014-09-16 08:00:36 +0700'
-  content: "Function nya itu kan nanti di pakai buat ajax request ke file current_track.php\r\ndi
-    langkah no.3  => \"$stream = getXSPF()\"\r\nKalo functionnya terserah mau ditaro
-    dimana, yang penting bisa dipanggil sama file current_track.php"
-- id: 5762
-  author: dangkol
-  author_email: dangkol@outlook.com
-  author_url: ''
-  date: '2014-09-18 04:13:34 +0700'
-  date_gmt: '2014-09-17 21:13:34 +0700'
-  content: "saya buat 3 file seperti tersebut ti atas…\r\nxspf_function.php current_track.php
-    index.html\r\n\r\ntapi hasilnya kok error seperti ini ya…?\r\nParse error: syntax
-    error, unexpected '$stream' (T_VARIABLE) in /radio/current_track.php on line 3"
 ---
 [![icecastxspf](/images/icecastxspf.png)](/images/icecastxspf.png)Getting a #NowPlaying info from your Ice Cast 2 server is pretty dead simple. You may get current track information just by fetching an XSPF url from Ice Cast 2 server, unlike M3U, XSPF is an XML data that you can fetch periodically by CURL command or a simple script like php, python, or everything else you like. You may want to check [www.xspf.org](http://www.xspf.org "www.xspf.org") to know more about it. Here I'm going to explain how it works, I'm gonna use a simple jquery ajax script, a short javascript code for periodically update the ajax request and a simple php script to fetch the xspf endpoint.
 

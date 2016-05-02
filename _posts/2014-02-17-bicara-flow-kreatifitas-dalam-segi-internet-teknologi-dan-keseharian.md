@@ -1,24 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: 'Bicara "Flow" kreatifitas dalam segi internet, teknologi, dan keseharian '
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 890
-wordpress_url: http://khalidadisendjaja.web.id/?p=890
 date: '2014-02-17 18:43:31 +0700'
 date_gmt: '2014-02-17 11:43:31 +0700'
 categories:
 - Internet &amp; Tech
 tags: []
-comments: []
 ---
 Flow? Apaan tuh? Kalo di translate, flow itu secara harfiah bisa berarti aliran atau arus. Flow yang gue maksud disini adalah sebuah konsep, metodologi atau desain psikologis yang menggunakan kondisi mental dan kejiwaan dari seseorang, bagaimana dan mengapa seseorang bisa mencurahkan segala fokus dan konsentrasi dalam satu aktivitas dengan jangka waktu yang sangat lama tanpa merasa bosan dan bahkan menikmati serta membuat efek ketagihan.
 

@@ -1,25 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
-title: 'Bespin a Collaborative Coding dengan teman2x kamu somewhere out there in the
-  cloud '
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 112
-wordpress_url: http://www.khalidadisendjaja.web.id/?p=112
+title: 'Bespin a Collaborative Coding dengan teman2x kamu somewhere out there in the cloud'
 date: '2009-11-19 15:10:30 +0700'
 date_gmt: '2009-11-19 08:10:30 +0700'
 categories:
 - Internet &amp; Tech
 tags: []
-comments: []
 ---
 [caption id="" align="alignleft" width="180" caption="bespin"][![bespin](http://people.mozilla.com/~cbeard/Bespin_Logo.png "bespinlogo")](https://wiki.mozilla.org/Labs/Bespin)[/caption]
 

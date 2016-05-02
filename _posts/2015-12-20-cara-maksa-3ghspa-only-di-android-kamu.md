@@ -1,24 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Cara maksa 3G/HSPA only di android kamu
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 1196
-wordpress_url: http://khalidadisendjaja.web.id/?p=1196
 date: '2015-12-20 11:18:37 +0700'
 date_gmt: '2015-12-20 04:18:37 +0700'
 categories:
 - Internet &amp; Tech
 tags: []
-comments: []
 ---
 ![3gonlyplease](/images/3gonlyplease.jpg)Pernah gak suatu ketika henpon kamu secara otomatis hanya menggunakan jaringan 2G padahal jaringan 3G nya available meskipun mungkin sinyal 3G nya hanya sekitar 5%. Hal ini juga yg menyebabkan pulsa kamu dimakan oleh provider telco dikarenakan paket data yg kamu beli hanya berguna untuk 3G saja.
 

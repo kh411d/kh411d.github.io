@@ -1,31 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Low RAM Android? No Worry at All
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 879
-wordpress_url: http://khalidadisendjaja.web.id/?p=879
 date: '2014-01-23 13:40:58 +0700'
 date_gmt: '2014-01-23 06:40:58 +0700'
 categories:
 - Internet &amp; Tech
 tags: []
-comments:
-- id: 19374
-  author: Anonymous
-  author_email: anonymous.cia@gmail.com
-  author_url: ''
-  date: '2015-01-01 04:55:13 +0700'
-  date_gmt: '2014-12-31 21:55:13 +0700'
-  content: Thanks man! You're really help me! keep up..
 ---
 [![lowramandroid](/images/lowramandroid.jpg)](/images/lowramandroid.jpg)Ever think to change my old android smartphone into a much better one, however the android market seems to change very fast, in every years you will see how many new android device being shipped with their new technology, hardware, and new operating system, which is IMHO I don't think that the enhancement they made, is having a big difference in a way I use my phone. So I somehow manage to wait for another 3 or 5 years for replacing my devices.
 

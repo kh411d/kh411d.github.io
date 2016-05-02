@@ -1,24 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Twitter Age Gateway Workflow Design
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 287
-wordpress_url: http://khalidadisendjaja.web.id/?p=287
 date: '2011-09-13 14:40:34 +0700'
 date_gmt: '2011-09-13 07:40:34 +0700'
 categories:
 - Internet &amp; Tech
 tags: []
-comments: []
 ---
 What I'm trying to do here is to explain as easy as possible how to make an age filtering for your twitter follower, as we know that twitter doesn't support any kind of filtering base on twitter user profile for following your twitter account.  
 ![](http://fbbhmublogcontest.think.web.id/tracker/174414662636405/tracker.png)  

@@ -1,18 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: Nge-mix Android di Macbook/PC
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 1468
-wordpress_url: http://khalidadisendjaja.web.id/?p=1468
 date: '2016-01-25 13:02:42 +0700'
 date_gmt: '2016-01-25 06:02:42 +0700'
 categories:
@@ -23,7 +11,6 @@ tags:
 - remixos
 - androidx86
 - macbook
-comments: []
 ---
 [![wpremixos](/images/wpremixos.jpg)](http://www.jide.com/remixos) Mungkin banyak yg sudah pada tahu kelebihan Android ini, tetapi kebanyakan orang terbiasa tahu bahwa android hanya running di henpon, tablet, IOT devices, atau mini PC dengan USB stick.
 

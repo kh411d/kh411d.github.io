@@ -1,18 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: TOMAHAWK cara males dengerin musik buat penggila musik
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 1116
-wordpress_url: http://khalidadisendjaja.web.id/?p=1116
 date: '2015-04-20 10:00:00 +0700'
 date_gmt: '2015-04-20 03:00:00 +0700'
 categories:
@@ -24,16 +12,6 @@ tags:
 - cloud
 - opensource
 - social
-comments:
-- id: 34901
-  author: thedyingsirens
-  author_email: thedyingsirens@gmail.com
-  author_url: http://thedyingsirens.com
-  date: '2015-04-21 10:54:00 +0700'
-  date_gmt: '2015-04-21 03:54:00 +0700'
-  content: keren nih Lid! tapi beda kaya Googoo Radio yah...kalo Googoo Radio itu
-    muterin playlist berdasarkan selera musik mayoritas pendengar yang login pake
-    facebook. yukcoba.in di http://googoo.fm!
 ---
 [![image](/images/wpid-img_20150420_000915.jpg "IMG_20150420_000915.jpg")](/images/wpid-img_20150420_000915.jpg) Mau dengerin musik ini itu, hmm.. itunes ada gak ya.. klo di spotify ada gak ya... duh coba di grooveshark deh ... apa coba cari di deezer aja ... di soundcloud ada gak ya... duh ga ada juga.. ujung-ujungnya donlot dari torrent atau ripping dari youtube deh.
 

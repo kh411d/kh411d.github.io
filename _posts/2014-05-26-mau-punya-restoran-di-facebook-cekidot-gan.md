@@ -1,31 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Mau punya Restoran di Facebook? Cekidot Gan!
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 937
-wordpress_url: http://khalidadisendjaja.web.id/?p=937
 date: '2014-05-26 12:02:01 +0700'
 date_gmt: '2014-05-26 05:02:01 +0700'
 categories:
 - Internet &amp; Tech
 tags: []
-comments:
-- id: 4129
-  author: Uganteng
-  author_email: thedyingsirens@gmail.com
-  author_url: ''
-  date: '2014-05-26 14:15:09 +0700'
-  date_gmt: '2014-05-26 07:15:09 +0700'
-  content: Handsome!
 ---
 [![fbresto](/images/fbresto.jpg)](/images/fbresto.jpg)Kabar gembira buat lo semua yang baru aja memulai bisnis resto/cafe/rumah makan/warteg atau yang sejenisnya.
 

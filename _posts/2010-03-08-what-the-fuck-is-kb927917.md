@@ -1,29 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: 'What the f**k is KB927917 '
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-excerpt: "Ok then ... what ??? , I've got a surprise from IE678, it getting on my
-  nerve (but not in a long time), I've found out that one of my web apps cannot be
-  view by any IE browser, so what the hell is happen, the browser keep telling me
-  this line below,\r\n\r\n\r\nWebpage error details\r\nUser Agent: Mozilla/4.0 (compatible;
-  MSIE 8.0; Windows NT 5.1; Trident/4.0)\r\nTimestamp: Mon, 8 Mar 2010 09:10:13 UTC"
-wordpress_id: 155
-wordpress_url: http://www.khalidadisendjaja.web.id/?p=155
 date: '2010-03-08 17:17:52 +0700'
 date_gmt: '2010-03-08 10:17:52 +0700'
 categories:
 - Internet &amp; Tech
 tags: []
-comments: []
 ---
 Ok then ... what ??? , I've got a surprise from IE678, it getting on my nerve (but not in a long time), I've found out that one of my web apps cannot be view by any IE browser, so what the hell is happen, the browser keep telling me this line below,
 

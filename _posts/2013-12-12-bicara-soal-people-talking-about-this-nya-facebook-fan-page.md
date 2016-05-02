@@ -1,24 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Bicara soal "People talking about this"-nya Facebook fan page
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 710
-wordpress_url: http://khalidadisendjaja.web.id/?p=710
 date: '2013-12-12 16:50:44 +0700'
 date_gmt: '2013-12-12 09:50:44 +0700'
 categories:
 - Internet &amp; Tech
 tags: []
-comments: []
 ---
 Wow topik lama nih, sumpah deh ga boong, kira-kira bulan Oktober tahun 2011 lalu, Facebook meluncurkan metrik baru buat Fan page insights yang namanya ["People talking about this"](https://developers.facebook.com/blog/post/573/) ato biasa disingkat "PTAT" artinya berapa banyak orang yang ngomongin soal fan page lo (\*Definisi gamblang). Banyak dari owner/admin dari fan page berpikiran bahwa ini merupakan salah satu ukuran seberapa besar user facebook engage dengan fan page-nya, tapi sebenernya PTAT itu tidak demikian, bahkan kalau gue bisa bilang, PTAT ga ada korelasi dengan engagement.
 

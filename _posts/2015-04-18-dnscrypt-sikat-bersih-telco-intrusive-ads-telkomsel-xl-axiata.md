@@ -1,18 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: DnsCrypt sikat bersih Telco intrusive ads ( Telkomsel, XL-Axiata )
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 1100
-wordpress_url: http://khalidadisendjaja.web.id/?p=1100
 date: '2015-04-18 23:30:00 +0700'
 date_gmt: '2015-04-18 16:30:00 +0700'
 categories:
@@ -25,7 +13,6 @@ tags:
 - ads
 - intrusive
 - opendns
-comments: []
 ---
 ![opendnsintrusiveads](/images/opendnsintrusiveads.jpg)Syebel, jengkel, kesal, bosan, gegara iklan pengganggu/ intrusive ads beberapa provider telco di Indonesia seperti Telkomsel dan XL Axiata, bahkan banyak dari beberapa orang/badan/lembaga yang membuat petisi akan hal ini tetapi tidak mendapatkan respon dari pemerintah.
 

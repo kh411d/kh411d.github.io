@@ -1,24 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Facebook add access permission to Application Security
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 234
-wordpress_url: http://khalidadisendjaja.web.id/?p=234
 date: '2011-03-07 15:45:37 +0700'
 date_gmt: '2011-03-07 08:45:37 +0700'
 categories:
 - Internet &amp; Tech
 tags: []
-comments: []
 ---
 Sometime when you made some apps, there were another user that only want to check about the insight of the apps, or maybe just want to test the apps, on the old days you might have to give all access to the apps from www.facebook.com/developer.
 

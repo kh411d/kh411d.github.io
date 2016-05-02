@@ -1,31 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Punya nama DOMAIN sendiri, penting gak sih?
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 857
-wordpress_url: http://khalidadisendjaja.web.id/?p=857
 date: '2014-01-13 16:33:33 +0700'
 date_gmt: '2014-01-13 09:33:33 +0700'
 categories:
 - Internet &amp; Tech
 tags: []
-comments:
-- id: 18397
-  author: enas nasrudin
-  author_email: sayaternyataganteng@enasnasrudin.com
-  author_url: ''
-  date: '2014-12-27 02:58:38 +0700'
-  date_gmt: '2014-12-26 19:58:38 +0700'
-  content: wow, nice info gan
 ---
 Domain ... apa tuh domain? istilah domain yang gue maksud disini adalah Domain Internet, atau secara tidak langsung baik sadar atau tidak, beberapa orang yang pekerjaannya lekat dengan Internet pasti tahu deh domain itu seperti apa, tapi mungkin banyak orang yang menyebutkannya dengan gamblang seperti URL, Website, atau Link.
 

@@ -1,24 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Set a facebook session app from access token
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 227
-wordpress_url: http://khalidadisendjaja.web.id/?p=227
 date: '2011-03-03 15:52:36 +0700'
 date_gmt: '2011-03-03 08:52:36 +0700'
 categories:
 - Internet &amp; Tech
 tags: []
-comments: []
 ---
 In some situation you will want to create a facebook session for your apps, for example you have a CODE  
  variable from facebook after user granting your application and then you fetch the access token like this way below,

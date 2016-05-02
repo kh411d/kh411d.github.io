@@ -1,18 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: PDKT sama uang dunia maya bernama BitCoin
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 1126
-wordpress_url: http://khalidadisendjaja.web.id/?p=1126
 date: '2015-04-23 17:48:39 +0700'
 date_gmt: '2015-04-23 10:48:39 +0700'
 categories:
@@ -20,7 +8,6 @@ categories:
 tags:
 - bitcoin
 - digital-currency
-comments: []
 ---
 [![pdkt-bitcoin](/images/pdkt-bitcoin.jpg)](/images/pdkt-bitcoin.jpg)**BUKAN MLM, bukan koin dinar, bukan juga koin emas** dan bahkan nggak punya bentuk fisik yang bisa kamu sisipkan ke dompet atau simpan di bank, apalagi disimpan di bawah kasur. Tapi tentu saja yang namanya uang pastinya bisa kamu belanjain dimanapun kapanpun secara online.
 

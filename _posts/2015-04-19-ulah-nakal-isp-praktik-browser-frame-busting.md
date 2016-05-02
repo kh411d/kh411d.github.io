@@ -1,18 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: Ulah nakal ISP praktik browser Frame Busting
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 1107
-wordpress_url: http://khalidadisendjaja.web.id/?p=1107
 date: '2015-04-19 15:42:06 +0700'
 date_gmt: '2015-04-19 08:42:06 +0700'
 categories:
@@ -23,7 +11,6 @@ tags:
 - frame-busting
 - isp
 - telco
-comments: []
 ---
 [![image](/images/wpid-img_20150419_141835.jpg "IMG_20150419_141835.jpg")](/images/wpid-img_20150419_141835.jpg) Beberapa ISP di indonesia tanpa konsumen sadari sebenarnya sangat sering melakukan praktik frame busting hampir di semua website yg konsumen kunjungi, alasan ISP melakukan hal ini tidak lain adalah penempatan iklan gratis dari ISP tersebut tanpa sepengetahuan si empunya website.
 

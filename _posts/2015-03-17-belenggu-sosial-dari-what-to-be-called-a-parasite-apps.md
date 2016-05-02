@@ -1,18 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: Belenggu sosial dari what to be called a "Parasite Apps"
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 1063
-wordpress_url: http://khalidadisendjaja.web.id/?p=1063
 date: '2015-03-17 13:12:12 +0700'
 date_gmt: '2015-03-17 06:12:12 +0700'
 categories:
@@ -21,7 +9,6 @@ tags:
 - parasite-app
 - 3rdparty
 - socialmedia
-comments: []
 ---
 [![parasiteapplogo](/images/parasiteapplogo.png)](/images/parasiteapplogo.png) In terms of Parasite kalo kita googling, di search result paling atas Parasite adalah organisme yang hidup di dalam atau di organisme lain (Inang). Dan mendapat keuntungan sumber daya dari inang-nya serta mengeksploitasi inangnya tanpa timbal balik.
 

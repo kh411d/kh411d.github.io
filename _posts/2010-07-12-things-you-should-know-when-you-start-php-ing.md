@@ -1,36 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Things you should know when you start PHP-ing
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 165
-wordpress_url: http://www.khalidadisendjaja.web.id/?p=165
 date: '2010-07-12 15:41:43 +0700'
 date_gmt: '2010-07-12 08:41:43 +0700'
 categories:
 - Internet &amp; Tech
 tags: []
-comments:
-- id: 12889
-  author: Tang
-  author_email: 1c66c75sote@mail.com
-  author_url: ''
-  date: '2014-11-26 08:20:44 +0700'
-  date_gmt: '2014-11-26 01:20:44 +0700'
-  content: A couple of notes, santiize your request variables before pulling data
-    directing into you code. Avoid using double quote for simple string echo as it
-    is extra load on php parsing   use single quote instead. Play with MVC type frameworks
-    such as Zends framework to get familiar with design patterns. Nice tutorial for
-    beginners but be warned, I had to fire a bunch of people recently who programmed
-    like this   go back to programming basics and learn popular framework methodologies.
 ---
 When you starting to get a grip on PHP, there are things that you should know, here I would descibe some of them, that might be useful,
 

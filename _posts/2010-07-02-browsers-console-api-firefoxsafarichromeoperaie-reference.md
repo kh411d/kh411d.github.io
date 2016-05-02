@@ -1,30 +1,18 @@
 ---
 layout: post
-status: publish
-published: true
 title: Browsers Console API (Firefox,Safari,Chrome,Opera,IE) reference
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-excerpt: "What is Console API ? , I think this is the first question that will cross
-  your mind if you dont know about this\r\nhelpfull tool, Console is a global variable/Object
-  that provided by major browser like firefox,safari,chrome, etc...  and contains
-  many methods that allow you to write to the browser console to expose information
-  that is flowing through your scripts."
-wordpress_id: 163
-wordpress_url: http://www.khalidadisendjaja.web.id/?p=163
 date: '2010-07-02 14:27:23 +0700'
 date_gmt: '2010-07-02 07:27:23 +0700'
 categories:
 - Internet &amp; Tech
 tags:
-- firefox console api javascript safari chrome opera ie
-comments: []
+- firefox 
+- console-api 
+- javascript
+- safari 
+- chrome 
+- opera 
+- ie
 ---
 What is Console API ? , I think this is the first question that will cross your mind if you dont know about this  
  helpfull tool, Console is a global variable/Object that provided by major browser like firefox,safari,chrome, etc... and contains many methods that allow you to write to the browser console to expose information that is flowing through your scripts.

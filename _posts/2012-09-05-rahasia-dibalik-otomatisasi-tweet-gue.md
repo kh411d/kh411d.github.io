@@ -1,34 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: 'Rahasia dibalik Otomatisasi (*baca: bukan bot) Tweet Gue'
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 502
-wordpress_url: http://khalidadisendjaja.web.id/?p=502
 date: '2012-09-05 16:51:54 +0700'
 date_gmt: '2012-09-05 09:51:54 +0700'
 categories:
 - Internet &amp; Tech
 tags: []
-comments:
-- id: 4206
-  author: Aplikasi mobile IFTTT bakal bikin Android lo makin canggih! | Khalid Scratch
-    Board
-  author_email: ''
-  author_url: http://khalidadisendjaja.web.id/2014/07/11/aplikasi-mobile-ifttt-bakal-bikin-android-lo-makin-canggih/
-  date: '2014-07-11 16:04:03 +0700'
-  date_gmt: '2014-07-11 09:04:03 +0700'
-  content: "[&#8230;] adalah sebuah alat yang akan memudahkan otomatisasi kegiatan
-    lo sehari-hari dengan dunia internet. Cara pemakaian IFTTT pun cukup mudah, sama
-    sekali gak perlu ngerti IT banget. Sumpah gak boong [&#8230;]"
 ---
 Oke deh beberapa bulan ini, tweet gw banyak datang dari auto tweet (\*baca: bukan bot) berupa link/Url artikel - artikel yg pernah gw baca di dunia aneh (\*baca: internet), ato mungkin ada beberapa celotehan ga penting yang tiba2x muncul di timeline beberapa orang, lalu mulailah banyak pertanyaan, lo pake bot ya, di hack ya, dll. Sebenernya karna akhir2x ini gw sering banyak baca Reader gw.
 

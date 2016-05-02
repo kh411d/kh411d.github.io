@@ -1,24 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Olahraga Scientific, hanya 7 menit
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 844
-wordpress_url: http://khalidadisendjaja.web.id/2013/12/31/844/
 date: '2013-12-31 16:17:45 +0700'
 date_gmt: '2013-12-31 09:17:45 +0700'
 categories:
 - Hobbies, Event &amp; Travelling
 tags: []
-comments: []
 ---
 [caption id="attachment\_851" align="aligncenter" width="592"][![12well_physed-tmagArticle](/images/12well_physed-tmagArticle.jpg)](/images/12well_physed-tmagArticle.jpg) Source: <http://well.blogs.nytimes.com/2013/05/09/the-scientific-7-minute-workout>[/caption]
 

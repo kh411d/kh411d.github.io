@@ -1,18 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: Bisnis "Missed-call" yang luar biasa dibalik Zero Marketing
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 1084
-wordpress_url: http://khalidadisendjaja.web.id/?p=1084
 date: '2015-03-31 18:14:06 +0700'
 date_gmt: '2015-03-31 11:14:06 +0700'
 categories:
@@ -27,7 +15,6 @@ tags:
 - india
 - acquisition
 - akusisi
-comments: []
 ---
 [![One-Missed-Call-Review-Logo1](/images/One-Missed-Call-Review-Logo1.jpg)](/images/One-Missed-Call-Review-Logo1.jpg) Missed-call sebenarnya adalah hal yang sangat sederhana dan sungguh membuat gue kagum sampai sekarang, karena hal seperti ini bisa dijadikan sebuah bisnis yang luar biasa dan sangat menguntungkan.
 

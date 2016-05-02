@@ -1,33 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Cara update Firmware Pebble ke SDK 2 Beta version
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 791
-wordpress_url: http://khalidadisendjaja.web.id/?p=791
 date: '2013-12-16 22:18:10 +0700'
 date_gmt: '2013-12-16 15:18:10 +0700'
 categories:
 - Internet &amp; Tech
 tags: []
-comments:
-- id: 4087
-  author: Woh! Pebble AppStore BETA Android tarik gan!! | Khalid Scratch Board
-  author_email: ''
-  author_url: http://khalidadisendjaja.web.id/2014/02/05/woh-pebble-appstore-beta-android-tarik-gan/
-  date: '2014-02-05 13:23:13 +0700'
-  date_gmt: '2014-02-05 06:23:13 +0700'
-  content: "[&#8230;] bisa di download lewat google play cara download dan instalasi
-    sama seperti artikel gue sebelumnya klik disini  semua bisa Lo lakukan lewat browser
-    henpon [&#8230;]"
 ---
 **Update: Semua intruksi dibawah ini bisa dilakukan hanya dengan menggunakan browser henpon.**
 

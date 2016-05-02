@@ -1,18 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: Aplikasi 3rd Party (Facebook,Paypal,dll) Aman gituh?? Lo harus tahu!
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 946
-wordpress_url: http://khalidadisendjaja.web.id/?p=946
 date: '2014-05-28 20:08:25 +0700'
 date_gmt: '2014-05-28 13:08:25 +0700'
 categories:
@@ -27,7 +15,6 @@ tags:
 - security
 - cover redirect
 - vulnerability
-comments: []
 ---
 [![48a572c60b93255986ba073bf5b1d865 (1)](/images/48a572c60b93255986ba073bf5b1d865-1.jpg)](/images/48a572c60b93255986ba073bf5b1d865-1.jpg)Yang gue maksud Aplikasi 3rd party disini adalah sebuah aplikasi yang berjalan sebagai aplikasi tambahan dari beberapa aplikasi yang sudah popular, aplikasi ini bisa berupa website, client app, mobile web, mobile app, desktop app, microsite, dll. (\*mengulang kata aplikasi... halah)
 

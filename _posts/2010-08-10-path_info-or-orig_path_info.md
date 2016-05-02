@@ -1,24 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: PATH_INFO OR ORIG_PATH_INFO
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 188
-wordpress_url: http://www.khalidadisendjaja.web.id/?p=188
 date: '2010-08-10 16:30:57 +0700'
 date_gmt: '2010-08-10 09:30:57 +0700'
 categories:
 - Internet &amp; Tech
 tags: []
-comments: []
 ---
 First of all I'm using codeigniter for the web app, which is hosted on php4 environment someday I moved the apps to another shared host which have php5 installed , on my URI\_PROTOCOL in config.php files , I change  
  $config['uri\_protocol'] = "PATH\_INFO";

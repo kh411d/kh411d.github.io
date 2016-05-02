@@ -1,18 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: Nah ini dia daftar gTLD kocak dan sedikit absurd
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 1071
-wordpress_url: http://khalidadisendjaja.web.id/?p=1071
 date: '2015-03-26 14:49:58 +0700'
 date_gmt: '2015-03-26 07:49:58 +0700'
 categories:
@@ -23,7 +11,6 @@ tags:
 - tld
 - domain-name
 - icann
-comments: []
 ---
 **[![namatld](/images/namatld.jpg)](/images/namatld.jpg) gTLD** adalah kepanjangan dari _"generic Top Level Domain"_ yang mungkin kamu semua sudah familiar dengan nama **.com**, **.net**, **.org**, **.web.id.** Tiga tahun belakangan ini banyak sekali gTLD baru yang telah disahkan oleh ICANN (_The Internet Corporation for Assigned Names and Numbers_).
 

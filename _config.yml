@@ -3,15 +3,6 @@ markdown:         redcarpet
 #highlighter:      pygments
 gems: [jekyll-paginate,redcarpet,jekyll-gist,glynn]
 
-ftp_host: 'ftp.khalidadisendjaja.web.id'
-ftp_dir: '/home/khalida1/public_html'
-ftp_passive: false
-
-# optional
-ftp_port: 21                  # default 21
-ftp_username: 'www@khalidadisendjaja.web.id'     # default read from stdin
-ftp_secure: true              # default false
-
 # Permalinks
 permalink:        /:year/:month/:day/:title/
 #relative_permalinks: true

@@ -1,24 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Getting Ready for IFRAME Facebook App based
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 190
-wordpress_url: http://www.khalidadisendjaja.web.id/?p=190
 date: '2010-10-28 13:58:22 +0700'
 date_gmt: '2010-10-28 06:58:22 +0700'
 categories:
 - Internet &amp; Tech
 tags: []
-comments: []
 ---
 Ok this time you need to be ready for migrating your facebook apps to IFrame based apps, as it written on [Facebook Developer Roadmap](http://developers.facebook.com/roadmap) that facebook,  
  "We will stop allowing new FBML applications, but will continue to support existing FBML tabs and applications. Instead, we recommend using IFrames." at the End of 2010.

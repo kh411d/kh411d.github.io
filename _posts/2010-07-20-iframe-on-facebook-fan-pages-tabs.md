@@ -1,24 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Iframe on Facebook Fan Pages Tabs
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 171
-wordpress_url: http://www.khalidadisendjaja.web.id/?p=171
 date: '2010-07-20 16:47:33 +0700'
 date_gmt: '2010-07-20 09:47:33 +0700'
 categories:
 - Internet &amp; Tech
 tags: []
-comments: []
 ---
 Iframe will not be supported on facebook fab pages tab, the strange thing is only on the first load of the tab that facebook will give you an error "iframe not supported"
 

@@ -1,31 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Berbagi Fotografi dengan Aplikasi Android Gratis
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 300
-wordpress_url: http://khalidadisendjaja.web.id/?p=300
 date: '2011-12-11 18:39:24 +0700'
 date_gmt: '2011-12-11 11:39:24 +0700'
 categories:
 - Internet &amp; Tech
 tags: []
-comments:
-- id: 4079
-  author: Redy
-  author_email: redysatria@gmail.com
-  author_url: http://gravatar.com/deezign
-  date: '2013-12-16 10:20:53 +0700'
-  date_gmt: '2013-12-16 03:20:53 +0700'
-  content: Now we also have VSCOcam in the house! :D
 ---
 Memasuki dunia android ternyata memang tidak membosankan dari segi banyaknya aplikasi yang menunjang sistem androidnya sendiri serta banyaknya komunitas pengguna android di indonesia.
 

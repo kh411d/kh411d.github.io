@@ -1,25 +1,12 @@
 ---
 layout: post
-status: publish
-published: true
 title: Hati-hati domain ".com.com"
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 900
-wordpress_url: http://khalidadisendjaja.web.id/?p=900
 date: '2014-04-01 12:09:39 +0700'
 date_gmt: '2014-04-01 05:09:39 +0700'
 categories:
 - Random Thought
 - Internet &amp; Tech
 tags: []
-comments: []
 ---
 Hati-hati sama domain yang namanya "\*.com.com" gue gak tau kenapa, percaya gak percaya ini domain bisa exist, domain yg satu ini bisa sangat mirip sama domain "\*.com", ya secara TLD .com penggunaan terbesar sejagad internet.
 

@@ -1,24 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Hmm.. PathWebsite... no related.. no official.. indeed suspicious
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 920
-wordpress_url: http://khalidadisendjaja.web.id/?p=920
 date: '2014-05-07 02:15:44 +0700'
 date_gmt: '2014-05-06 19:15:44 +0700'
 categories:
 - Internet &amp; Tech
 tags: []
-comments: []
 ---
 Oh wow, it's fake and suspicious...
 

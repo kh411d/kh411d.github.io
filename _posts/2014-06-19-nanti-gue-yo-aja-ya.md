@@ -1,18 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: Nanti gue "Yo!" aja ya...
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 987
-wordpress_url: http://khalidadisendjaja.web.id/?p=987
 date: '2014-06-19 16:20:34 +0700'
 date_gmt: '2014-06-19 09:20:34 +0700'
 categories:
@@ -22,7 +10,6 @@ tags:
 - iphone
 - yoapp
 - yo
-comments: []
 ---
 [![Screen Shot 2014-06-19 at 3.52.31 PM](/images/Screen-Shot-2014-06-19-at-3.52.31-PM-300x283.png)](/images/Screen-Shot-2014-06-19-at-3.52.31-PM.png)Yo, yo , yoooooo! .... Ha ha, satu lagi terobosan baru cara berkomunikasi dengan temen-temen lo, sebenernya sih ga baru-baru amet, kalo dulu jaman gw baru2x masuk kuliah taun 90-an pasti lo tau deh yang namanya "Miss Call" cuman buat ngasih tau kalo lo dah nyampe kelas, ato buat ngasih tau dah nyampe tempat janjian misalnya di mall, kafe, dll.
 

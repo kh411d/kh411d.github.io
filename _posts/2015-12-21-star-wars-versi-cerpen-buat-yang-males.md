@@ -1,24 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Star Wars versi cerpen, buat yang males ngikutin ....
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 1202
-wordpress_url: http://khalidadisendjaja.web.id/?p=1202
 date: '2015-12-21 12:25:19 +0700'
 date_gmt: '2015-12-21 05:25:19 +0700'
 categories:
 - Hobbies, Event &amp; Travelling
 tags: []
-comments: []
 ---
 [![starwars china](/images/starwars-china.jpg)](/images/starwars-china.jpg) Berawal dari sebuah acara talkshow "The Late Show with Stephen Colbert" Stephen menuturkan bahwa sebenarnya tidak semua orang begitu antusias dengan peluncuran film Star Wars yang baru-baru ini heboh di media massa, contoh saja China, dari sekian banyak penduduk bahkan tidak begitu mengetahui tentang film Star Wars ini.
 

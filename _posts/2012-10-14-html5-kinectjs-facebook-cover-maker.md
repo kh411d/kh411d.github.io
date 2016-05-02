@@ -1,24 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: HTML5 KineticJS Facebook Cover Maker
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 542
-wordpress_url: http://khalidadisendjaja.web.id/?p=542
 date: '2012-10-14 23:30:36 +0700'
 date_gmt: '2012-10-14 16:30:36 +0700'
 categories:
 - Internet &amp; Tech
 tags: []
-comments: []
 ---
  [  
 ![HTML5 Powered with Graphics, 3D & Effects](http://www.w3.org/html/logo/badge/html5-badge-h-graphics.png "HTML5 Powered with Graphics, 3D & Effects")  

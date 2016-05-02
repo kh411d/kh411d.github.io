@@ -1,24 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Wordpress ke Path ke Wordpress kemana aja boleeeeh...
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 854
-wordpress_url: http://khalidadisendjaja.web.id/?p=854
 date: '2014-01-10 15:51:34 +0700'
 date_gmt: '2014-01-10 08:51:34 +0700'
 categories:
 - Internet &amp; Tech
 tags: []
-comments: []
 ---
 Buat kamu yang belum tahu apa itu Path, gw bisa nge-jelasin sedikit soal makhluk internet yg satu ini, Path adalah sebuah Jaringan Sosial di dunia maya(t) yang bersifat lebih private/tertutup biasanya pengguna internet banyak membandingkan dengan jaringan sosial seperti Facebook, bedanya adalah facebook lebih bersifat terbuka dengan pilihan akses privasi yg banyak banget (\*Sumpah ga boong) sedangkan Path sebenernya digunakan hanya untuk lingkup pertemanan yang lebih sedikit atau sedikit tertutup, ato sedikit aja, atau ga bisa konek ke banyak temen, atau bukan buat nyari temen.. atau... udahlah ya.. pake G+ aja knapa sih.. ga ribet...
 

@@ -1,24 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Replacement of fb visible-to-connection for iframe apps on facebook page tabs
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 220
-wordpress_url: http://khalidadisendjaja.web.id/?p=220
 date: '2011-03-03 15:31:09 +0700'
 date_gmt: '2011-03-03 08:31:09 +0700'
 categories:
 - Internet &amp; Tech
 tags: []
-comments: []
 ---
 Doing an IFRAME apps an somehow you want to use this tag below.
 

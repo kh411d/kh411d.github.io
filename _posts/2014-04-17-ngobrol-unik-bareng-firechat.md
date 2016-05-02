@@ -1,24 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Ngobrol unik bareng FireChat
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 909
-wordpress_url: http://khalidadisendjaja.web.id/?p=909
 date: '2014-04-17 18:41:02 +0700'
 date_gmt: '2014-04-17 11:41:02 +0700'
 categories:
 - Internet &amp; Tech
 tags: []
-comments: []
 ---
 [![FireChat](/images/FireChat.jpg)](/images/FireChat.jpg)Ada yang baru nih, namanya [Firechat](http://opengarden.com/firechat), aplikasi chatting yang satu ini cukup unik dan bisa dibilang bermanfaat atau bisa dimanfaatkan ... he he. Salah satu keunikannya adalah lo ga perlu registrasi sama sekali untuk menggunakan aplikasi ini.... haaaaahh trus gimana cara kita mo chatting sama temen, ha ha itu dia uniknya, disini semua pengguna Firechat adalah anonymous/alias tak dikenal/alias bisa ganteng bisa cakep/alias bisa maling bisa dukun, jadi intinya semua pengguna firechat disini hanya dikategorikan oleh posisi/lokasi dari si pengguna itu sendiri.
 

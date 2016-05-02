@@ -1,24 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Bokek nih! Gimana kalo saweran, biar keren bilang aja Crowdfunding
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 1175
-wordpress_url: http://khalidadisendjaja.web.id/?p=1175
 date: '2015-08-26 15:56:02 +0700'
 date_gmt: '2015-08-26 08:56:02 +0700'
 categories:
 - Internet &amp; Tech
 tags: []
-comments: []
 ---
 [![minioncrowdfund](/images/minioncrowdfund.jpg)](/images/minioncrowdfund.jpg)Bicara soal saweran atau biasa kita bilang patungan atau sekarang ada istilah yang lebih kerennya yaitu Crowdfunding.
 

@@ -1,24 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Woh! Pebble AppStore BETA Android tarik gan!!
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 886
-wordpress_url: http://khalidadisendjaja.web.id/?p=886
 date: '2014-02-05 13:23:00 +0700'
 date_gmt: '2014-02-05 06:23:00 +0700'
 categories:
 - Internet &amp; Tech
 tags: []
-comments: []
 ---
 Akhirnya di release juga Pebble AppStore untuk pengguna Android, buat yang mau download harus lewat developer portal pebble karena masih BETA released, jadi belum bisa di download lewat google play. Cara download dan instalasi sama seperti artikel gue sebelumnya [klik disini ](http://khalidadisendjaja.web.id/2013/12/16/cara-update-firmware-pebble-ke-sdk-2-beta-version/), semua bisa Lo lakukan lewat browser henpon saja.
 

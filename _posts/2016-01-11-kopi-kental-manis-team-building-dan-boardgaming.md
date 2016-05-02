@@ -1,18 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: Kopi kental manis, Team Building dan Boardgaming
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 1227
-wordpress_url: http://khalidadisendjaja.web.id/?p=1227
 date: '2016-01-11 13:59:10 +0700'
 date_gmt: '2016-01-11 06:59:10 +0700'
 categories:
@@ -22,7 +10,6 @@ tags:
 - teamwork
 - team-building
 - co-op
-comments: []
 ---
 ![tbluhours](/images/tbluhours.jpg) Hmm... Boardgame, kalo mungkin dulu kita sering sebut ular tangga, halma, catur, monopoli, gaple, bola bekél atau yg gak kalah terkenalnya sebut aja congklak yg kalo di luar indo biasa disebut mancala. Tipikal jenis permainan dari boardgame biasanya lebih bersifat kompetitif dimana setiap pemain berusaha mendapatkan skor tertinggi atau menyelesaikan permainan lebih dulu, ataupun ada yg bersifat Co-op dimana setiap pemain diharuskan bekerja sama demi memenangkan sebuah permainan.
 

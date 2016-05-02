@@ -1,18 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: Ground rules to do promotion/contest on Facebook Page Timeline
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 1045
-wordpress_url: http://khalidadisendjaja.web.id/?p=1045
 date: '2014-10-15 12:10:17 +0700'
 date_gmt: '2014-10-15 05:10:17 +0700'
 categories:
@@ -21,7 +9,6 @@ tags:
 - facebook
 - promotion
 - guideline
-comments: []
 ---
 [![Facebook-Terms](/images/Facebook-Terms.jpg)](/images/Facebook-Terms.jpg)Facebook want to make it easier for businesses of all sizes to create and administer promotions on Facebook, as you can do for now when starting a promotion on facebook timelines based on [Facebook Announcement](https://www.facebook.com/business/news/page-promotions-terms) is,
 

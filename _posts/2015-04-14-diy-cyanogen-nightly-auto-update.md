@@ -1,18 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: DIY Cyanogen nightly Auto Update
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 1092
-wordpress_url: http://khalidadisendjaja.web.id/?p=1092
 date: '2015-04-14 07:20:00 +0700'
 date_gmt: '2015-04-14 00:20:00 +0700'
 categories:
@@ -24,7 +12,6 @@ tags:
 - cyanogen
 - oneplus
 - cyandelta
-comments: []
 ---
 [![image](/images/wpid-wp-1428958109831.png "wp-1428958109831")](/images/wpid-wp-1428958109831.png) Instead of waiting and whining when will your OnePlus One get an OTA update, you could just quickly fetch the latest nightly build from CyanogenMod.org download page, **just be careful not to download ROM that's not suitable with your phone or else it will bricked your phone**, as an example if your phone is OnePlus One, Bacon is the only ROM that you need to download.
 

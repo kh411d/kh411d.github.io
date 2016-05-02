@@ -1,19 +1,7 @@
 ---
 layout: post
-status: publish
-published: true
 title: Ahh.. a Dreadful battery life, Is it a Smartwatch, a Cellphone or just another
   complicated gadget?
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 1024
-wordpress_url: http://khalidadisendjaja.web.id/?p=1024
 date: '2014-08-18 13:39:28 +0700'
 date_gmt: '2014-08-18 06:39:28 +0700'
 categories:
@@ -24,7 +12,6 @@ tags:
 - watch
 - battery
 - iphone
-comments: []
 ---
 [![smartwatch](/images/smartwatch.jpg)](/images/smartwatch.jpg)Big vendors of wearable hardware are keep pushing themself to put their grip in the race of smartwatch technology, they seem to compete with who can have a fancy and killer feature. Some feature such as call from watch, texting, voice recognition, listen to music, expensive glass, heart rate sensor, overkill notification, fancy screen color, builtin camera, builtin gps, and etc. But still, you need to pair the watch with your daily phone to get it work.
 

@@ -1,18 +1,6 @@
 ---
 layout: post
-status: publish
-published: true
 title: OS X El Capitan, taktik marketing terbaru Apple
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 1370
-wordpress_url: http://khalidadisendjaja.web.id/?p=1370
 date: '2016-01-13 01:15:44 +0700'
 date_gmt: '2016-01-12 18:15:44 +0700'
 categories:
@@ -21,7 +9,6 @@ tags:
 - apple
 - elcapitan
 - osx
-comments: []
 ---
 ![el-cap-v-windows-10_thumb800](/images/el-cap-v-windows-10_thumb800.jpg) Setelah 4 tahun berlalu dari 2012 lalu sebagai pemakai produk Apple yakni Macbook Air mid 2011 OS X Lion dan sama sekali gak pernah upgrade OS _(\*baca Operating System)_ dikarenakan taktik Apple yg dari dulu memang lebih fokus ke jualan hardware dibanding efisiensi penggunaan hardware.
 

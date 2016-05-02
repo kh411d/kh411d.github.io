@@ -1,24 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Mainan lama yang gw bikin, iseng2x jaman kuliah dulu haha
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 245
-wordpress_url: http://khalidadisendjaja.web.id/?p=245
 date: '2011-05-26 20:23:08 +0700'
 date_gmt: '2011-05-26 13:23:08 +0700'
 categories:
 - Internet &amp; Tech
 tags: []
-comments: []
 ---
 Ha ha setelah oprak oprek tadinya sih cari cd gw yang isinya software enkripsi yang gw buat tugas akhir dulu, eh malah nemu nih mainan yang dulu gw bikin sembari waktu luang, ini game lumayan addict seru, ya biar cuman tebak kata tapi ini game wannabe lah ... halah.
 

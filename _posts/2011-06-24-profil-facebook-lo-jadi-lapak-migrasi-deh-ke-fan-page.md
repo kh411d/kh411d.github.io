@@ -1,24 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Profil Facebook lo jadi lapak ? Migrasi deh ke fan page!
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 260
-wordpress_url: http://khalidadisendjaja.web.id/?p=260
 date: '2011-06-24 17:00:12 +0700'
 date_gmt: '2011-06-24 10:00:12 +0700'
 categories:
 - Internet &amp; Tech
 tags: []
-comments: []
 ---
 Hmm ... btw anyway busway, sebenernya nih artikel bukan untuk menunjukkan kekesalan gw sama apa yg udah kejadin di facebook, dimana ... teman, kerabat, cucu, ato cicit lo berada pada foto (baca: di-Tag) yang tidak semestinya.
 

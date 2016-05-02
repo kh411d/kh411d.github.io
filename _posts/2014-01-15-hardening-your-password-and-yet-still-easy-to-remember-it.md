@@ -1,25 +1,12 @@
 ---
 layout: post
-status: publish
-published: true
 title: Hardening your password and yet still easy to remember it
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 865
-wordpress_url: http://khalidadisendjaja.web.id/?p=865
 date: '2014-01-15 19:16:53 +0700'
 date_gmt: '2014-01-15 12:16:53 +0700'
 categories:
 - Random Thought
 - Internet &amp; Tech
 tags: []
-comments: []
 ---
 Password... What is password? It's a secret thing that you, and only you, the one and only, who knows the secret that lies behind it. So why should you care about it? Passwords is a key for accessing your online properties on the internet. Many people like your friends, brothers, or maybe your colleague been using a password that actually very easy to guess, such as his dog name, mother name, his lastname, or maybe the very most favorite everyone password 12345. The easier a password is for the owner to remember, generally means it will be easier for an attacker to guess, please don't use [just hackme](http://www.nytimes.com/2010/01/21/technology/21password.html?_r=0) password. There are so many ways how people could easily guess your password, as easy as looking behind your shoulder while you're typing a password at the computer or maybe an ATM machine, according to wikipedia this is called _["Shoulder Surfing"](http://en.wikipedia.org/wiki/Shoulder_surfing_(computer_security) "Shoulder Surfing")_
 

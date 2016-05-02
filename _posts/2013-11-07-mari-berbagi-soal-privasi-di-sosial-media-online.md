@@ -1,52 +1,11 @@
 ---
 layout: post
-status: publish
-published: true
 title: Mari berbagi soal Privasi di Sosial Media Online
-author:
-  display_name: Khalid Adisendjaja
-  login: admin
-  email: contact@khal.web.id
-  url: http://khal.web.id
-author_login: admin
-author_email: contact@khal.web.id
-author_url: http://khal.web.id
-wordpress_id: 685
-wordpress_url: http://khalidadisendjaja.web.id/?p=685
 date: '2013-11-07 14:21:35 +0700'
 date_gmt: '2013-11-07 07:21:35 +0700'
 categories:
 - Internet &amp; Tech
 tags: []
-comments:
-- id: 4096
-  author: Tipe-tipe Social Media dan Aturan Privasi | radiotanpanama
-  author_email: ''
-  author_url: http://radiotanpanama.com/2013/11/tipe-tipe-social-media/
-  date: '2014-05-07 15:21:49 +0700'
-  date_gmt: '2014-05-07 08:21:49 +0700'
-  content: "[&#8230;] sumber: http://khalidadisendjaja.web.id/2013/11/07/mari-berbagi-soal-privasi-di-sosial-media-online/
-    [&#8230;]"
-- id: 4112
-  author: Hati-hati domain &#8220;.com.com&#8221; | Khalid Scratch Board
-  author_email: ''
-  author_url: http://khalidadisendjaja.web.id/2014/04/01/hati-hati-domain-com-com/
-  date: '2014-05-20 12:10:29 +0700'
-  date_gmt: '2014-05-20 05:10:29 +0700'
-  content: "[&#8230;] typo paling ampuh, contoh misalnya lo dapat referensi email user@yahoo.com.com ato
-    mungkin phising twitter.com.com atau misal lo mau donlot update dari microsoft.com.com huahahahaaa
-    soalnya [&#8230;]"
-- id: 4136
-  author: Aplikasi 3rd Party (Facebook,Paypal,dll) Aman gituh?? Lo harus tahu! | Khalid
-    Scratch Board
-  author_email: ''
-  author_url: http://khalidadisendjaja.web.id/2014/05/28/aplikasi-3rd-party-facebookpaypaldll-aman-gituh-lo-harus-tahu/
-  date: '2014-05-28 20:09:43 +0700'
-  date_gmt: '2014-05-28 13:09:43 +0700'
-  content: "[&#8230;] Aplikasi 3rd party tentunya bisa disalahgunakan oleh pembuatnya
-    untuk mencuri data user  atau mungkin karena adanya kelalaian dari pembuatnya
-    sehingga membuat data dari para pengguna aplikasi bisa dicuri seperti dijelaskan
-    disini. [&#8230;]"
 ---
 Sebelum kita ngomongin soal privasi di sosial media online, tentunya kita harus tau dulu bentukan dari sosial media itu atau "Apa sih sosial media itu?", sebenernya mudah saja untuk semua orang mendefinisikan artian dari sosial media (\*baca: SosMed), tapi pada intinya SosMed adalah sebuah wadah dimana semua member/pengguna/partisipan bisa membangun relasi dan koneksi dengan member lain, tempat dimana kita bisa selalu terhubung dengan teman2x, menjalin hubungan baru, berbagi interest dan ide. Namun, banyak orang selain teman-teman dan kenalan tertarik pada informasi yang kita kirimkan ke sosial media, contoh sederhana yg mungkin kita sering dengar seperti pencurian identitas, penipuan kartu kredit, _stalkers,_ atau mungkin data pribadi kita dipergunakan untuk keperluan advertising sebuah brand2x ternama. Perlu diketahui juga bahwa sosial media menyimpan informasi jauh di _server_ mereka, bukan di komputer pribadi pengguna.
 
