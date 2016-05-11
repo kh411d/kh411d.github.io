@@ -3,9 +3,9 @@ title: Bye Wordpress, Hello ... ?
 layout: post
 ---
 
-![Jekyll blogging these days](/images/jekyllbloggingthesedays.jpg) It's been a long years since I used wordpress on 2006 as my blogging platform, back in the old days there's nothing can beat what wordpress can offer for bloggers. So many themes, plugins, etc and It's still a most-used and well known blogging platform till now.
+![Jekyll blogging these days](/images/jekyllbloggingthesedays.jpg) It's been a long years since I used wordpress on 2006 as my blogging platform, back in the old days there's nothing can beat what wordpress offer for bloggers. So many themes, plugins, and It's still the most-used and well known blogging platform until now.
 
-According to [!W3Techs 2016 Survey](http://w3techs.com/technologies/details/cm-wordpress/all/all), WordPress is used by 59.3% of all the websites whose content management system we know. This is 26.4% of all websites. Every years website powered by wordpress is significantly rise.
+According to [W3Techs 2016 Survey](http://w3techs.com/technologies/details/cm-wordpress/all/all), WordPress is used by 59.3% of all the websites whose content management system we know. This is 26.4% of all websites. Every years website powered by wordpress is significantly rise.
 
 I really miss the old days when Wordpress was a pretty damn simple software that is very good at what it does, but nowadays the word "simple" is not included in Wordpress dictionary anymore. Wordpress is evolving bigger and bigger each days, even a basic installation requires maintenance. Themes, plugins, a database, the server, regular and multiple backups. All demand your attention. I ended up spending too much time configuring the system’s moving parts rather than focus on my content.
 
