@@ -1,0 +1,13 @@
+seURL: "http://khal.web.id"
+title: "Khalid Scratch Board"
+footnoteReturnLinkContents: "↩"
+permalinks:
+  post: /:year/:month/:title/
+params:
+  Subtitle: ""
+  AuthorName: "Khalid Adisendjaja"
+  GitHubUser: "kh411d"
+  ListOfFoo:
+    - "foo1"
+    - "foo2"
+  SidebarRecentLimit: 5
