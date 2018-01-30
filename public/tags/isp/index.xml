@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Isp on Khalid Scratch Board</title>
+    <link>http://khal.web.id/tags/isp/index.xml</link>
+    <description>Recent content in Isp on Khalid Scratch Board</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://khal.web.id/tags/isp/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Ulah nakal ISP praktik browser Frame Busting</title>
+      <link>http://khal.web.id/2015/04/19/ulah-nakal-isp-praktik-browser-frame-busting/</link>
+      <pubDate>Sun, 19 Apr 2015 15:42:06 +0000</pubDate>
+      
+      <guid>http://khal.web.id/2015/04/19/ulah-nakal-isp-praktik-browser-frame-busting/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://khal.web.id/images/wpid-img_20150419_141835.jpg&#34;&gt;&lt;img src=&#34;http://khal.web.id/images/wpid-img_20150419_141835.jpg&#34; alt=&#34;image&#34; title=&#34;IMG_20150419_141835.jpg&#34; /&gt;&lt;/a&gt; Beberapa ISP di indonesia tanpa konsumen sadari sebenarnya sangat sering melakukan praktik frame busting hampir di semua website yg konsumen kunjungi, alasan ISP melakukan hal ini tidak lain adalah penempatan iklan gratis dari ISP tersebut tanpa sepengetahuan si empunya website.&lt;/p&gt;
+
+&lt;p&gt;Lalu, bagaimanakah cara kerja Frame Busting ini? Ketika konsumen mengunjungi sebuah website misal &amp;ldquo;Forbes.com&amp;rdquo;, ISP akan membungkus &amp;ldquo;Forbes.com&amp;rdquo; dalam sebuah &lt;em&gt;iframe/frames&lt;/em&gt; lalu kemudian ditampilkan pada browser konsumen, bagian sisi diluar iframe biasanya akan menampilkan iklan gambar dari ISP tersebut.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://khal.web.id/images/wpid-img_20150419_144851.jpg&#34;&gt;&lt;img src=&#34;http://khal.web.id/images/wpid-img_20150419_144851.jpg&#34; alt=&#34;image&#34; title=&#34;IMG_20150419_144851.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ada juga cara iklan ISP yang lebih frontal lagi, yaitu dengan menerapkan Clickjacking pada konsumennya sendiri, dengan cara meng-overlay iframe dengan sebuah ads dari ISP tersebut.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://khal.web.id/images/wpid-img_20150419_152923.jpg&#34;&gt;&lt;img src=&#34;http://khal.web.id/images/wpid-img_20150419_152923.jpg&#34; alt=&#34;image&#34; title=&#34;IMG_20150419_152923.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ada beberapa website yg menerapkan mekanisme untuk mencegah frame busting, salah satunya adalah &lt;a href=&#34;http://stackoverflow.com&#34;&gt;Stackoverflow.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://khal.web.id/images/wpid-img_20150419_151511.jpg&#34;&gt;&lt;img src=&#34;http://khal.web.id/images/wpid-img_20150419_151511.jpg&#34; alt=&#34;image&#34; title=&#34;IMG_20150419_151511.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ketika situs ini dibuka, situs akan menotifikasi konsumen adanya framing, lalu kemudian framing akan dihilangkan oleh mekanisme tersebut.&lt;/p&gt;
+
+&lt;p&gt;Nah bagaimana caranya agar Frame Busting ini tidak terjadi pada blog/situs pribadi kamu, sebenarnya caranya cukup mudah, hanya dengan menyisipkan snippet javascript pada header halaman blog/situs, contoh script bisa dilihat pada thread stackoverflow berikut ini &lt;a href=&#34;http://stackoverflow.com/questions/958997/frame-buster-buster-buster-code-needed&#34;&gt;http://stackoverflow.com/questions/958997/frame-buster-buster-buster-code-needed&lt;/a&gt;, ok selamat mencoba.&lt;/p&gt;
+
+&lt;p&gt;Entah kenapa ISP sekarang tuh serakah semua, udah lah pulsa internet masih bisa dibilang mahal, ditambah lagi dengan iklan-iklan maksa seperti ini, masalah legal/ilegal nya juga pun sepertinya masih tidak jelas.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

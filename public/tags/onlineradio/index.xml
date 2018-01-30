@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Onlineradio on Khalid Scratch Board</title>
+    <link>http://khal.web.id/tags/onlineradio/index.xml</link>
+    <description>Recent content in Onlineradio on Khalid Scratch Board</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://khal.web.id/tags/onlineradio/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to get realtime Now Playing info from Ice Cast</title>
+      <link>http://khal.web.id/2014/08/12/how-to-get-realtime-now-playing-info-from-ice-cast/</link>
+      <pubDate>Tue, 12 Aug 2014 12:04:45 +0000</pubDate>
+      
+      <guid>http://khal.web.id/2014/08/12/how-to-get-realtime-now-playing-info-from-ice-cast/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://khal.web.id/images/icecastxspf.png&#34;&gt;&lt;img src=&#34;http://khal.web.id/images/icecastxspf.png&#34; alt=&#34;icecastxspf&#34; /&gt;&lt;/a&gt;Getting a #NowPlaying info from your Ice Cast 2 server is pretty dead simple. You may get current track information just by fetching an XSPF url from Ice Cast 2 server, unlike M3U, XSPF is an XML data that you can fetch periodically by CURL command or a simple script like php, python, or everything else you like. You may want to check &lt;a href=&#34;http://www.xspf.org&#34; title=&#34;www.xspf.org&#34;&gt;www.xspf.org&lt;/a&gt; to know more about it. Here I&amp;rsquo;m going to explain how it works, I&amp;rsquo;m gonna use a simple jquery ajax script, a short javascript code for periodically update the ajax request and a simple php script to fetch the xspf endpoint.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Locate your Ice Cast Server url, usually it will look like this &lt;a href=&#34;http://xxx.xxx.xxx.xxx:8000/status.xsl&#34;&gt;http://xxx.xxx.xxx.xxx:8000/status.xsl&lt;/a&gt;, check your mount point, ex: /mount. So your xspf url will be &lt;a href=&#34;http://xxx.xxx.xxx.xxx:8000/mount.xspf&#34;&gt;http://xxx.xxx.xxx.xxx:8000/mount.xspf&lt;/a&gt; &lt;a href=&#34;http://khal.web.id/images/Screen_Shot_2014-08-12_at_11_33_32_AM.jpg&#34;&gt;&lt;img src=&#34;http://khal.web.id/images/Screen_Shot_2014-08-12_at_11_33_32_AM-1024x359.jpg&#34; alt=&#34;Screen_Shot_2014-08-12_at_11_33_32_AM&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Create a small function to fetch xspf endpoint for your php file, and save it to file &amp;ldquo;xspf_function.php&amp;rdquo;
+&lt;pre lang=&#34;php&#34;&gt;function getXSPF(){
+    $XSPFurl = &amp;lsquo;&lt;a href=&#34;http://xxx.xxx.xxx.xxx:8000/mount.xspf&#39;&#34;&gt;http://xxx.xxx.xxx.xxx:8000/mount.xspf&#39;&lt;/a&gt;;
+    $xml = simplexml_load_file($XSPFurl);
+    $stream[&amp;lsquo;info&amp;rsquo;][&amp;lsquo;title&amp;rsquo;] = (string) $xml-&amp;gt;trackList-&amp;gt;track-&amp;gt;title;
+    $stream[&amp;lsquo;info&amp;rsquo;][&amp;lsquo;location&amp;rsquo;] = (string) $xml-&amp;gt;trackList-&amp;gt;track-&amp;gt;location;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;preg_match_all(&#39;/^(.*):(.*)/m&#39;, (string) $xml-&amp;gt;trackList-&amp;gt;track-&amp;gt;annotation,$matches);
+if(isset($matches[1]) &amp;amp;&amp;amp; isset($matches[2])){
+    $t = array_combine($matches[1], $matches[2]);
+    foreach($t as $key =&amp;gt; $val){
+        $fkey = str_replace(&amp;quot; &amp;quot;, &amp;quot;_&amp;quot;,$key);
+        $stream[&#39;info&#39;][strtolower($fkey)] = trim($val);
+    }
+}
+return $stream;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;}&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Setup your ajax php file, ex: current_track.php
+&lt;pre lang=&#34;php&#34;&gt;require_once &amp;ldquo;xspf_function.php&amp;rdquo;
+$stream = getXSPF();
+echo $stream[&amp;lsquo;info&amp;rsquo;][&amp;lsquo;title&amp;rsquo;];&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Set your javascript periodic track updater on your current streaming website
+&lt;pre lang=&#34;html&#34;&gt;&lt;script src=&#34;//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js&#34; type=&#34;text/javascript&#34;&gt;&lt;/script&gt;&lt;script type=&#34;text/javascript&#34;&gt;// &amp;lt;![CDATA[
+$(document).ready(function() {      setInterval(function(){        $(&amp;ldquo;#current-track&amp;rdquo;).load(&amp;ldquo;current_track.php&amp;rdquo;);      }, 10 * 1000);    });
+// ]]&amp;gt;&lt;/script&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The setInterval() function will periodically execute an ajax request to fetch new content from icecast xspf mount point.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

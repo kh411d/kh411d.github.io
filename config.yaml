@@ -1,13 +1,13 @@
+baseURL: http://khal.web.id
+disablePathToLower: true
+languageCode: en-us
+title: Khalid's Blog
 seURL: "http://khal.web.id"
-title: "Khalid Scratch Board"
-footnoteReturnLinkContents: "↩"
 permalinks:
-  post: /:year/:month/:title/
+  post: /:year/:month/:day/:title/
 params:
-  Subtitle: ""
+  description: "Spontaneously wrote, from me to you to others for everyone"
   AuthorName: "Khalid Adisendjaja"
   GitHubUser: "kh411d"
-  ListOfFoo:
-    - "foo1"
-    - "foo2"
   SidebarRecentLimit: 5
+disqusShortname: khalidity

@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Internet Amp Tech on Khalid Scratch Board</title>
+    <link>http://khal.web.id/categories/internet-amp-tech/index.xml</link>
+    <description>Recent content in Internet Amp Tech on Khalid Scratch Board</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://khal.web.id/categories/internet-amp-tech/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Nge-mix Android di Macbook/PC</title>
+      <link>http://khal.web.id/2016/01/25/nge-mix-android-di-macbookpc/</link>
+      <pubDate>Mon, 25 Jan 2016 13:02:42 +0000</pubDate>
+      
+      <guid>http://khal.web.id/2016/01/25/nge-mix-android-di-macbookpc/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.jide.com/remixos&#34;&gt;&lt;img src=&#34;http://khal.web.id/images/wpremixos.jpg&#34; alt=&#34;wpremixos&#34; /&gt;&lt;/a&gt; Mungkin banyak yg sudah pada tahu kelebihan Android ini, tetapi kebanyakan orang terbiasa tahu bahwa android hanya running di henpon, tablet, IOT devices, atau mini PC dengan USB stick.&lt;/p&gt;
+
+&lt;p&gt;Meskipun bisa di install di banyak device, akan tetapi Operating System yang terinstall pun adalah notabene sama seperti yg kita lihat pada android phone/tablet kebanyakan, misal meski bernama android mini PC, OS yg terinstall pun adalah varian untuk tablet device.&lt;/p&gt;
+
+&lt;p&gt;Berawal dari sebuah company bernama JIDE Technology yg diusung oleh 3 ex-Google membuat sebuah OS bernama Remix OS berdasarkan project open source Android-X86.&lt;/p&gt;
+
+&lt;p&gt;Bisa dibilang Remix OS adalah versi desktopnya Android, dimana experience pengguna ketika menggunakan RemixOS akan sama seperti halnya dalam menggunakan PC. Fitur-fitur seperti halnya start menu, taskbar, resizeable window, file manager, desktop shortcut, instalasi app, dan marketplace akan ditemukan dalam Remix OS.&lt;/p&gt;
+
+&lt;p&gt;Mungkin ada yg sudah mengenal Chrome OS yaitu sebuah operating system yg dipasang pada Chromebook, meskipun Chrome OS ditujukan untuk pengguna desktop, namun Chrome OS ini sangat berbeda dengan Remix OS karena Chrome OS berlandaskan engine sebuah browser yakni Google Chrome which is actually designed around web apps, sulit untuk melakukan apapun ketika kita tidak terhubung dengan internet. Berbeda halnya ketika kita menggunakan PC, online atau offline harusnya bukan menjadi kendala user dalam menggunakan OS tersebut.&lt;/p&gt;
+
+&lt;p&gt;Baru-baru ini Jide Team me-release versi alpha dari Remix OS for PC, it&amp;rsquo;s still buggy tapi sebenarnya ini ditujukan untuk developer atau enthusiast lainnya untuk mencoba, requirement yg dibutuhkan adalah sebuah flash drive USB 3.0 dan sebuah PC atau Macbook, source bisa download disini &lt;a href=&#34;http://www.jide.com/en/remixos-for-pc&#34;&gt;http://www.jide.com/en/remixos-for-pc&lt;/a&gt; .&lt;/p&gt;
+
+&lt;p&gt;Gw sempat mencoba Remix OS ini seadanya dengan apa yg ada aja, USB drive yg gw pake adalah USB 2.0 dan old Macbook Air Mid 2011, hmm lumayan effort spertinya karena gak akan langsung berhasil harus trial error googling sana sini, but it works and usable, suprisingly fast enough better than any android emulator such as bluestacks.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://khal.web.id/images/wp-1453475793855.jpg&#34; alt=&#34;wp-1453475793855.jpg&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Versi alpha RemixOS bisa running melalui bootable USB drive, loadingnya lumayan lama sekitar 5-10 menitan di Guest mode, ada dua mode boot up, Guest mode dimana instalasi app atau android setting setelah OS shutdown tidak akan disimpan dan Resident Mode dimana instalasi app atau android setting setelah OS shutdown akan tersimpan di flashdrive, jadi ketika bootup untuk kedua kalinya aplikasi yg sudah terinstall gak akan hilang.&lt;/p&gt;
+
+&lt;p&gt;Sampai artikel ini ditulis gw belum berhasil menggunakan resident mode, mungkin dikarenakan USB yg digunakan adalah USB 2.0 instead of USB 3.0, jadi mungkin permasalahan ada pada perbedaan speed USB 2 dan 3 yg cukup signifikan (jadi stuck di booting kelamaan), ditambah lagi Macbook Air 2011 hanya mempunyai builtin port USB 2.0.&lt;/p&gt;
+
+&lt;p&gt;Worth to try sih kalo gw bilang, tapi bisakah jadi pengganti os yg lain seperti Windows, Max, atau Ubuntu? hmm kayaknya untuk saat ini belum aja sih, soalnya banyak yang memakai os ini kebanyakan untuk media center atau entertainment, Penasaran? untuk cara instalasi bisa liat di link dibawah.&lt;/p&gt;
+
+&lt;p&gt;url: coming soon.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>OS X El Capitan, taktik marketing terbaru Apple</title>
+      <link>http://khal.web.id/2016/01/13/os-x-el-capitan-taktik-marketing-terbaru-apple/</link>
+      <pubDate>Wed, 13 Jan 2016 01:15:44 +0000</pubDate>
+      
+      <guid>http://khal.web.id/2016/01/13/os-x-el-capitan-taktik-marketing-terbaru-apple/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://khal.web.id/images/el-cap-v-windows-10_thumb800.jpg&#34; alt=&#34;el-cap-v-windows-10_thumb800&#34; /&gt; Setelah 4 tahun berlalu dari 2012 lalu sebagai pemakai produk Apple yakni Macbook Air mid 2011 OS X Lion dan sama sekali gak pernah upgrade OS &lt;em&gt;(*baca Operating System)&lt;/em&gt; dikarenakan taktik Apple yg dari dulu memang lebih fokus ke jualan hardware dibanding efisiensi penggunaan hardware.&lt;/p&gt;
+
+&lt;p&gt;Maksud gw cuman Apple sendiri yang jualan hardware melalui OS upgrade, alias kalo lo mau pake OS terbaru mending beli Macbook baru aja &amp;hellip; WTF &lt;em&gt;(*baca What The F**k)&lt;/em&gt; dikarenakan hardware Macbook lo yang lama udah gak dukung misal seperti kurang cepet lah cpu nya, kurang ram, harddisk blom ssd, dll.&lt;/p&gt;
+
+&lt;p&gt;Dilema ini dimulai ketika Apple mengeluarkan versi upgrade OS terbarunya yakni Maverick lalu kemudian Yosemite yg dimana ketika diaplikasikan pada old Macbook performanya akan turun drastis alias lemooooottt busyeeett dah.&lt;/p&gt;
+
+&lt;p&gt;Padahal kalo dari segi hardware sebenernya sih harusnya gak gitu-gitu amat. Jadinya banyak user yg mulai menilai kinerja OS terbaru dari Apple sudah mulai menurun dan gak efisien.&lt;/p&gt;
+
+&lt;p&gt;Pada akhirnya banyak juga pengguna yg tadinya loyal Apple user beralih ke PC atau Notebook alias Windows atau Linux, ya mau gimana lagi tiap kali ada upgrade OS kudu nambah ram, lama-lama jadi harus beli baru&amp;hellip;. situuuu Okeeeeee!!!&lt;/p&gt;
+
+&lt;p&gt;Tahun ini pun gw hampir me-museum-kan nih Macbook Air kalo Apple masih gitu-gitu juga, beralih totally ke Ubuntu, toh hardware apple pun klo dibanding dengan produk lain (Thinkpad, Dell, dll) masih kalah jauh juga. Kalo bukan karena XCode gak bakal gw jabanin deh nih barang.&lt;/p&gt;
+
+&lt;p&gt;Berbeda dengan taktik yang dilakukan oleh Microsoft, Linux atau Google dimana kalo upgrade OS lo gak perlu beli hardware baru atau laptop / PC baru.&lt;/p&gt;
+
+&lt;p&gt;Dan sepertinya Apple mulai mengubah taktik marketingnya dimana perkembangan OS mulai diselaraskan dengan hardware macbook, istilahnya Apple mulai melakukan efisiensi dan efektifitas kinerja OS untuk hardware-hardware yg gak terlalu jadul &lt;em&gt;(*baca Jaman Dulu)&lt;/em&gt; dan bisa dipastikan untuk Macbook mid 2011 performa dari OS X El Capitan terasa berbeda lebih cepat dibanding dengan versi OS yg sebelum-sebelumnya.&lt;/p&gt;
+
+&lt;p&gt;Hmm &amp;hellip; mungkin ini yg ngebikin orang-orang kayak gw mikir dua kali buat nge-ditch nih produk.&lt;/p&gt;
+
+&lt;p&gt;Tapiii &amp;hellip; ada tapinya nih, performa yg didapat juga bukan karena dari El Capitan-nya tapi lebih kepada improvement hardware yg memang masih mendukung misal seperti penggunaan SSD drive, processor intel yg belum kelewat jaman, dll.&lt;/p&gt;
+
+&lt;p&gt;Seperti yg dijelaskan pada wiki El Capitan, memang terbukti gw rasakan performanya Up to 40% faster app launch, Up to 2X faster app switching, Up to 2X faster display of first Mail messages, dan Up to 4X faster PDF opening in Preview. Coba dari dulu kayak gini pasti salesnya lebih banyak deh.&lt;/p&gt;
+
+&lt;p&gt;Biar lebih afdol dan terasa bedanya, kalo mau upgrade OS ini lebih baik lakukan clean install cuci tangan sebelum mandi, backup dulu semua data. Setelah instalasi kemungkinan ada aplikasi-aplikasi yg bakal hilang sendirinya karena belum support OS ini.&lt;/p&gt;
+
+&lt;p&gt;Jadi sekiranya yg pengen ganti Macbook lamanya, hmm santai aja dulu broh, Apple ato brand apapun itu selalu mempunyai strategi untuk membuat konsumennya lebih konsumtif, tetapi dengan kita bertindak smart, getting fact, take what you need, acknowledge before buying, lumayan cukup bisa menghemat kantong.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m totally not an Apple fanboy. But if you&amp;rsquo;re a fanboy, be a smart one.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cara maksa 3G/HSPA only di android kamu</title>
+      <link>http://khal.web.id/2015/12/20/cara-maksa-3ghspa-only-di-android-kamu/</link>
+      <pubDate>Sun, 20 Dec 2015 11:18:37 +0000</pubDate>
+      
+      <guid>http://khal.web.id/2015/12/20/cara-maksa-3ghspa-only-di-android-kamu/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://khal.web.id/images/3gonlyplease.jpg&#34; alt=&#34;3gonlyplease&#34; /&gt;Pernah gak suatu ketika henpon kamu secara otomatis hanya menggunakan jaringan 2G padahal jaringan 3G nya available meskipun mungkin sinyal 3G nya hanya sekitar 5%. Hal ini juga yg menyebabkan pulsa kamu dimakan oleh provider telco dikarenakan paket data yg kamu beli hanya berguna untuk 3G saja.&lt;/p&gt;
+
+&lt;p&gt;Hmm&amp;hellip; kenapa begitu ya? Ini dikarenakan kebanyakan henpon android sekarang yg mempunyai mode pengaturan untuk 2G atau 3G sebenarnya ketika kita pilih misal 3G bukan berarti henpon akan melakukan koneksi ke 3G saja, melainkan lebih ke 3G preferred, artinya ketika sinyal 3G kurang kuat misal dibawah 10%, henpon akan melakukan koneksi 2G/edge, padahal sinyal 3Gnya masih bisa dipakai, annoying bukan!&lt;/p&gt;
+
+&lt;p&gt;Disini gue bakal jelasin cara simpel bagaimana caranya kita tetap bisa menggunakan sinyal 3G meskipun kekuatan sinyal 3G nya itu hanya 1%.&lt;/p&gt;
+
+&lt;p&gt;Cara pertama yg sering gue lakukan adalah dengan menggunakan USSD code yg kamu bisa input lewat aplikasi dialer kamu, kode yg dimasukkan adalah,&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;*#*#4636#*#*&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Pilih phone information,&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://khal.web.id/images/wpid-wp-1450584404657.jpg&#34;&gt;&lt;img src=&#34;http://khal.web.id/images/wpid-wp-1450584404657-300x267.jpg&#34; alt=&#34;wpid-wp-1450584404657.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;setelah itu scroll ke bawah dan liat option Set preferred network type,&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://khal.web.id/images/wpid-wp-1450584446137.jpg&#34;&gt;&lt;img src=&#34;http://khal.web.id/images/wpid-wp-1450584446137-300x277.jpg&#34; alt=&#34;wpid-wp-1450584446137.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;lalu pilih &amp;ldquo;WCDMA Only&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Cara kedua dipakai ketika henpon kamu tidak bisa mengakses USSD code diatas, yaitu dengan menggunakan aplikasi android Phone Testing yg kamu bisa download melalui playstore, &lt;a href=&#34;https://play.google.com/store/apps/details?id=diewland.testing.phone&amp;amp;hl=en&#34;&gt;Download Phone Testing&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Aplikasi Phone testing sama kegunaannya seperti USSD code diatas, Selamat mencoba!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bokek nih! Gimana kalo saweran, biar keren bilang aja Crowdfunding</title>
+      <link>http://khal.web.id/2015/08/26/bokek-nih-gimana-kalo-saweran-biar-keren-bilang-aja-crowdfunding/</link>
+      <pubDate>Wed, 26 Aug 2015 15:56:02 +0000</pubDate>
+      
+      <guid>http://khal.web.id/2015/08/26/bokek-nih-gimana-kalo-saweran-biar-keren-bilang-aja-crowdfunding/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://khal.web.id/images/minioncrowdfund.jpg&#34;&gt;&lt;img src=&#34;http://khal.web.id/images/minioncrowdfund.jpg&#34; alt=&#34;minioncrowdfund&#34; /&gt;&lt;/a&gt;Bicara soal saweran atau biasa kita bilang patungan atau sekarang ada istilah yang lebih kerennya yaitu Crowdfunding.&lt;/p&gt;
+
+&lt;p&gt;Patungan/Saweran sebenarnya adalah suatu kegiatan yang sudah ada sejak zaman nenek moyang kita dahulu kala, ini biasa dilakukan pada banyak kegiatan-kegiatan di masyarakat dan tentunya hasilnya pun untuk kepentingan masyarakat itu sendiri pula.&lt;/p&gt;
+
+&lt;p&gt;Yang ingin kita bahas disini adalah sebuah fenomena baru yang mungkin kalian sudah pada tahu dengan istilah &lt;em&gt;Crowdfunding.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;__ Sebenarnya crowdfunding ini adalah sebuah ekstensi atau modifikasi dari patungan/saweran, yang membedakan adalah dulu patungan dipakai untuk kegiatan amal atau sosial dan tujuannya adalah untuk &lt;em&gt;society&lt;/em&gt; juga.&lt;/p&gt;
+
+&lt;p&gt;Nah! kalo crowdfunding, penyandang dana atau konsumen memberikan dananya kepada seorang/badan inisiator dengan tujuan untuk investasi dan mengharapkan balikan insentif, uang, barang atau status sosial dengan begitu konsumen akan memberikan dukungan finansial agar ide inisiatif yang telah diusulkan itu bisa terwujud.&lt;/p&gt;
+
+&lt;p&gt;Jadi Crowdfunding itu adalah sebuah upaya kolektif dari orang-orang yang berada dalam suatu jaringan sosial untuk mengumpulkan dana/uang bersama dan tidak lain adalah untuk diinvestasikan dan mendukung upaya yang diprakarsai oleh seseorang atau organisasi lain.&lt;/p&gt;
+
+&lt;p&gt;Crowdfunding secara definisi bisa diartikan, &amp;ldquo;Praktek pendanaan suatu usaha dengan meningkatkan masukan dana/uang yang sedikit dari sejumlah besar orang, biasanya melalui internet.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Contoh Crowdfunding yang paling sukses saat ini adalah sebuah online gaming MMO Star Citizen yang pada 20 Oktober 2013 mengaku telah mengangkat $ 23.268.214, mengalahkan sebelumnya $ 10.266.844 rekor yang dibuat oleh Pebble Watch. Pada tahun 2014 Star Citizen masuk kedalam Guinness World Record sebagai &amp;ldquo;largest single amount ever raised via crowdsourcing&amp;rdquo; dana terkumpul sekitar US$39,680,576 dan berhasil mencapai US$87 juta pada bulan Agustus 2015.&lt;/p&gt;
+
+&lt;p&gt;Ketika kita dihadapkan kepada sebuah platform Crowfunding (Kickstarter, Indiegogo, etc.) Ada beberapa hal yang harus dipertanyakan maupun kita sebagai inisiator atau sebagai investor,&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Apa yang akan mendorong keterlibatan konsumen sebagai investor.&lt;/li&gt;
+&lt;li&gt;Fungsi atau Servis seperti apa yang diberikan platform tersebut.&lt;/li&gt;
+&lt;li&gt;Peran apakah yang akan konsumen dapatkan ketika mereka berpartisipasi dalam Crowdfunding tersebut&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Idenya dari &lt;em&gt;&lt;strong&gt;“its not what you do, but why you do&lt;/strong&gt;&lt;/em&gt; &lt;strong&gt;it,” akan menjadi pendorong atau kekuatan dibelakang sebuah inisiatif yang akan diwujudkan, seorang inisiator akan mampu membuat sebuah komunitas unik dan mencari individu-individu yang sependapat atau satu pikiran demi mewujudkan ide tersebut.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Dalam setiap campaign crowdfunding akan ditetapkan sejumlah Gol uang yang dibutuhkan dengan batasan hari misal dalam sebulan harus terkumpul sekitar $10xxxx agar ide ini bisa terwujud. Dan pada tiap harinya jumlah uang yang terkumpul harus bisa dilihat atau di follow up oleh para penyandang dana, untuk mengetahui keberhasilan campaign ini.&lt;/p&gt;
+
+&lt;p&gt;Penyandang dana pertama mungkin bisa dari teman, keluarga, kolega kantor, atau siapapun itu yang masih berhubungan, ketika campaign ini sudah menghasilkan daya tarik yang cukup bagus, konsumen-konsumen luar pun akan berdatangan untunk berinvestasi.&lt;/p&gt;
+
+&lt;p&gt;Ada sebuah kesalahpahaman dimana ketika kita mengadakan campaign crowdfunding, setelah menekan tombol submit. Kita tinggal tunggu dan campaign akan membuat viral dengan sendirinya, sebenarnya itu adalah hal yang tidak disarankan. Karena sebuah campaign tidak akan membentuk viral dengan sedirinya, kita harus mengutilisasi semua chanel sosial media, email blast/newsletter, dan menghubungi media lokal untuk menunjukan keseriusan dari campaign tersebut.&lt;/p&gt;
+
+&lt;p&gt;Ada 3 alasan dimana orang yang tadinya tidak terlibat dengan proyek jadi ingin mendukung proyek tersebut,&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Mereka suka dengan tujuan besar atas campaign tersebut.&lt;/li&gt;
+&lt;li&gt;Mereka suka reward yang didapat dari campaign tersebut.&lt;/li&gt;
+&lt;li&gt;Mereka suka dengan presentasi yang diberikan oleh campaign tersebut.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Poin-poin diatas itu sangat penting agar campaign crowdfunding bisa sukses dan lancar. Setiap campaign harus berisi alasan kuat di balik ide, hadiah menarik dan unik, dan layar eye-catching. Presentasi video juga mempunyai peran besar untuk keberhasilan campaign tersebut.&lt;/p&gt;
+
+&lt;p&gt;Banyak yang berpikiran bahwa crowdfunding ini hanya berguna untuk startups atau small businesss, sebenarnya itu tidak benar. Karena crowdfunding itu menciptakan sebuah funding opportunity untuk bisnis apapun yang didapat bukan dengan cara biasa dan ini bisa menjadi sebuat outlet baru dari bisnis yang sudah berkembang lama.&lt;/p&gt;
+
+&lt;p&gt;Misal sebuah perusahaan ternama tertarik dalam memperluas jangkauan produk mereka, investasi melalui crowdfunding bisa menjadi ide yang lebih baik, belum lagi kehebohan yang dihasilkan sebelum peluncuran. Crowdfunding telah membuktikan dirinya sebagai aset besar dalam menarik pelanggan potensial.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Android On-Body phone lock, pinter juga neh!</title>
+      <link>http://khal.web.id/2015/05/02/android-on-body-phone-lock-pinter-juga-neh/</link>
+      <pubDate>Sat, 02 May 2015 15:50:00 +0000</pubDate>
+      
+      <guid>http://khal.web.id/2015/05/02/android-on-body-phone-lock-pinter-juga-neh/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://khal.web.id/images/android-smartlock.jpg&#34;&gt;&lt;img src=&#34;http://khal.web.id/images/android-smartlock.jpg&#34; alt=&#34;android-smartlock&#34; /&gt;&lt;/a&gt; Tentunya penting buat kita semua untuk menjaga privasi dan keamanan henpon pribadi entah dari kelalaian kita sendiri atau tangan-tangan usil lainnya.&lt;/p&gt;
+
+&lt;p&gt;Oleh karena itulah pada umumnya setiap henpon memiliki beberapa sistem keamanan dan salah satunya adalah Lock Screen system, yang berguna untuk mengunci henpon pengguna dengan sebuah PIN atau Pattern matching ketika henpon sedang berada dalam kondisi tidak digunakan.&lt;/p&gt;
+
+&lt;p&gt;Pernahkah kamu pada suatu waktu sedang menggunakan henpon, diselingi dengan mengobrol dengan teman atau bermain game puzzle yg perlu mikir lama atau kegiatan lainnya, lalu kemudian henpon dengan sendirinya mengunci, karena ketika kita sedang mengobrol dengan teman, henpon masuk dalam keadaan idle atau sedang tidak digunakan.&lt;/p&gt;
+
+&lt;p&gt;Lalu secara sadar kamu harus terus menerus mengulangi memasukkan nomor PIN demi meng-unlock henpon, padahal henpon masih dalam konteks sedang digunakan hanya saja diselingi dengan kegiatan sementara.&lt;/p&gt;
+
+&lt;p&gt;Fitur on-body unlock atau bisa disebut Smartlock dari Google ini dibuat untuk mengatasi hal tersebut, fitur ini bisa digunakan untuk yang henponnya telah menggunakan OS Android Lollipop.&lt;/p&gt;
+
+&lt;p&gt;Cara kerjanya pun cukup sederhana, fitur smartlock ini akan mendeteksi si pengguna henpon apakah sedang memegang henpon atau berada di depan henponnya sendiri.&lt;/p&gt;
+
+&lt;p&gt;Henpon akan tetap berada dalam posisi unlock sampai henpon tersebut tidak berada dalam genggaman pengguna, atau misalnya ketika henpon berada dalam saku atau tas pengguna maka henpon akan kembali dalam posisi mengunci.&lt;/p&gt;
+
+&lt;p&gt;Cara mengaktifkan fitur ini juga cukup mudah, bisa di cari di menu Setting henpon kamu, kemudian pilih menu Lock Screen&lt;br /&gt;
+&lt;a href=&#34;http://khal.web.id/images/wpid-img_20150502_154225.jpg&#34;&gt;&lt;img src=&#34;http://khal.web.id/images/wpid-img_20150502_154225.jpg&#34; alt=&#34;image&#34; title=&#34;IMG_20150502_154225.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Kamu bisa melihat contoh setting diatas untuk mengaktifkan fitur smartlock berdasarkan On-body detection, kamu juga bisa mengaktifkan fitur ini berdasarkan lokasi, suara pengguna dan device yg sedang dipakai.&lt;/p&gt;
+
+&lt;p&gt;Silahkan eksplorasi saja fitur ini, test and run, semoga berguna and happy smartlock weekend guys.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PDKT sama uang dunia maya bernama BitCoin</title>
+      <link>http://khal.web.id/2015/04/23/pdkt-sama-uang-dunia-maya-bernama-bitcoin/</link>
+      <pubDate>Thu, 23 Apr 2015 17:48:39 +0000</pubDate>
+      
+      <guid>http://khal.web.id/2015/04/23/pdkt-sama-uang-dunia-maya-bernama-bitcoin/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://khal.web.id/images/pdkt-bitcoin.jpg&#34;&gt;&lt;img src=&#34;http://khal.web.id/images/pdkt-bitcoin.jpg&#34; alt=&#34;pdkt-bitcoin&#34; /&gt;&lt;/a&gt;&lt;strong&gt;BUKAN MLM, bukan koin dinar, bukan juga koin emas&lt;/strong&gt; dan bahkan nggak punya bentuk fisik yang bisa kamu sisipkan ke dompet atau simpan di bank, apalagi disimpan di bawah kasur. Tapi tentu saja yang namanya uang pastinya bisa kamu belanjain dimanapun kapanpun secara online.&lt;/p&gt;
+
+&lt;p&gt;Ha ha amazing ya, udah nggak bisa dipegang tapi masih bisa di belanjain. Daripada penasaran bikin kesasar, mending kita pdkt aja sama yang namanya Bitcoin ini.&lt;/p&gt;
+
+&lt;p&gt;Anggap kamu dan pacar kamu sedang berada di sebuah taman yg ramai dan penuh dengan penjaja makanan lalu datanglah seorang penjual bunga menghampiri, seketika itupun kamu membeli setangkai mawar lalu memberikan mawar tersebut pada pacar kamu.&lt;/p&gt;
+
+&lt;p&gt;Melihat dari situasi diatas, anggap setangkai mawar itu adalah sebuah bitcoin dan anggap proses memberikan mawar kepada pacar kamu adalah sebuah transaksi.&lt;/p&gt;
+
+&lt;p&gt;Pacar kamu secara sadar dan jelas mengetahui bahwa kamu memberikan satu-satunya setangkai mawar &lt;strong&gt;dari tangan kamu sendiri&lt;/strong&gt; kepadanya dan hanya kepadanya, pada saat itu dan detik itu, &lt;strong&gt;tanpa perantara&lt;/strong&gt; dan &lt;strong&gt;tanpa memerlukan seorang penjual bunga untuk mengkonfirmasi hal tersebut&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Dan juga tidak mungkin kamu bisa memberikan setangkai mawar yang sama pada orang lain pada waktu yang sama, karena pacar kamu dengan jelas melihat transaksi tersebut.&lt;/p&gt;
+
+&lt;p&gt;Sekarang coba kita misalkan bahwa mawar itu adalah setangkai mawar digital dimana proses transaksi tidak akan berlangsung secara tatap muka, melainkan melalui sebuah jaringan internet atau online.&lt;/p&gt;
+
+&lt;p&gt;Seperti halnya ketika ini diaplikasikan ke dalam dunia digital, tentu saja semuanya bisa dikopas alias copy-paste secara mudah, pacar kamu tidak akan mengetahui kalo kamu mengkopas setangkai mawar yg sama dan memberikannya pada orang lain pada waktu yang bersamaan, dikarenakan tidak ada saksi yang melihat dan mengkonfirmasi transaksi tersebut.&lt;/p&gt;
+
+&lt;p&gt;Problema ini dinamakan &lt;em&gt;double-spending,&lt;/em&gt; yaitu sebuah risiko dimana seseorang secara bersamaan bisa mengirim satu unit mata uang ke dua tempat yang berbeda.&lt;/p&gt;
+
+&lt;p&gt;[caption id=&amp;ldquo;attachment_1135&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;640&amp;rdquo;]&lt;a href=&#34;http://khal.web.id/images/split_blockchain_users-copy-640x174.jpg&#34;&gt;&lt;img src=&#34;http://khal.web.id/images/split_blockchain_users-copy-640x174.jpg&#34; alt=&#34;split_blockchain_users-copy-640x174&#34; /&gt;&lt;/a&gt; Source: &lt;a href=&#34;http://the-gist.org/2014/03/part-2-the-crafty-design-of-bitcoin/[/caption&#34;&gt;http://the-gist.org/2014/03/part-2-the-crafty-design-of-bitcoin/[/caption&lt;/a&gt;]&lt;/p&gt;
+
+&lt;p&gt;Untuk mengatasi masalah ini maka dari itu kita memerlukan sebuah buku kas atau kasbuk untuk mencatat semua transaksi tangkai mawar yang manakah yang sedang diberikan. Kasbuk ini harus memiliki tempatnya sendiri dan memiliki orang/badan yang bertanggung jawab atas kasbuk tersebut.&lt;/p&gt;
+
+&lt;p&gt;Bisa kita ambil contoh dari penjualan stiker-stiker aplikasi messaging seperti Line, Path, Kakao, dll. Pastinya mereka mempunyai sebuah kasbuk online untuk mencatat segala transaksi stiker yang berlangsung.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://khal.web.id/images/buku_kas.jpg&#34;&gt;&lt;img src=&#34;http://khal.web.id/images/buku_kas-221x300.jpg&#34; alt=&#34;buku_kas&#34; /&gt;&lt;/a&gt;Nah, sekarang muncullah sebuah problema baru. Bagaimana jika misal seorang admin kasbuk di Line dengan semena-mena menduplikasi stiker untuk dijual atau diberikan ke orang lain atau dipakai sendiri? Mengapa prosesnya jadi harus melibatkan pihak ketiga, nggak simpel seperti halnya kamu memberikan mawar langsung kepada pacar kamu?&lt;/p&gt;
+
+&lt;p&gt;Bagaimana jika kasbuk ini kita berikan ke semua orang, jadi tidak hanya dipegang oleh satu pihak sendiri melainkan kasbuk ini akan berada di tiap orang dan menjadi sebuah jaringan yang tersinkronisasi dimana semua orang bisa melihat semua transaksi yang sedang terjadi sehingga seseorang tidak bisa mencurangi sebuah transaksi.&lt;/p&gt;
+
+&lt;p&gt;Ketika buku kas menjadi publik maka semua orang mempunyai kontrol akan buku kas tersebut berdasarkan kode dan peraturan yang sudah dibuat dan ditaati dari awal. Semua orang bisa berpartisipasi dalam jaringan ini, seperti meng-update buku kas, memeriksa semua transaksi log yang sedang terjadi memastikan semua transaksi adalah valid, sebagai timbal balik akan usaha tersebut tiap orang akan mendapatkan 25 BitCoin, inilah proses yang dinamakan &lt;em&gt;&lt;a href=&#34;https://www.weusecoins.com/en/mining-guide/&#34;&gt;BitCoin Mining&lt;/a&gt;&lt;/em&gt; dimana proses ini memerlukan hardware yang cukup canggih dan banyak melakukan komputasi matematika yang sangat rumit.&lt;/p&gt;
+
+&lt;p&gt;Jadi sekarang tahu kan kenapa bitcoin bisa dijadikan sebuah solusi untuk &lt;em&gt;money-laundry&lt;/em&gt; karena proses transaksinya pun tidak melibatkan pihak ketiga seperti bank, dan setiap orang yang berpartisipasi di jaringan pun bisa mempunyai nama anonymous/fake/palsu pada akunnya tiap orang pun bisa mempunyai banyak akun. Tapi mengesampingkan hal-hal tersebut transaksi di BitCoin terbilang sangat aman dan sangat sulit untuk dihack.&lt;/p&gt;
+
+&lt;p&gt;Buat yg mau mengetahui berapa kurs bitcoin saat ini, bisa digoogling saja dengan keywords &amp;ldquo;Bitcoin chart&amp;rdquo;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>TOMAHAWK cara males dengerin musik buat penggila musik</title>
+      <link>http://khal.web.id/2015/04/20/tomahawk-cara-males-dengerin-musik-buat-penggila-musik/</link>
+      <pubDate>Mon, 20 Apr 2015 10:00:00 +0000</pubDate>
+      
+      <guid>http://khal.web.id/2015/04/20/tomahawk-cara-males-dengerin-musik-buat-penggila-musik/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://khal.web.id/images/wpid-img_20150420_000915.jpg&#34;&gt;&lt;img src=&#34;http://khal.web.id/images/wpid-img_20150420_000915.jpg&#34; alt=&#34;image&#34; title=&#34;IMG_20150420_000915.jpg&#34; /&gt;&lt;/a&gt; Mau dengerin musik ini itu, hmm.. itunes ada gak ya.. klo di spotify ada gak ya&amp;hellip; duh coba di grooveshark deh &amp;hellip; apa coba cari di deezer aja &amp;hellip; di soundcloud ada gak ya&amp;hellip; duh ga ada juga.. ujung-ujungnya donlot dari torrent atau ripping dari youtube deh.&lt;/p&gt;
+
+&lt;p&gt;Ha ha pernah kaya gitu gak brosis, bingung nyari mp3 kemana-mana, hal seperti ini sudah bisa diatasi kalo kamu memakai aplikasi yang namanya &lt;strong&gt;Tomahawk&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Tomahawk adalah sebuah social music player yang bisa dipakai di hampir semua internet enable device yg kamu miliki berbasis Windows, Mac, Linux, Android, dan IOS.&lt;/p&gt;
+
+&lt;p&gt;Tomahawk ini bisa dibilang sebagai aplikasi &lt;em&gt;cross platform&lt;/em&gt; dan Tomahawk ini akan selalu gratis alias &lt;em&gt;open source&lt;/em&gt;, artinya aplikasi ini akan terus hidup karena dukungan dari komunitas penggunanya.&lt;/p&gt;
+
+&lt;p&gt;Yang menjadi keunikan dari Tomahawk ini adalah adanya sebuah content music resolver, yaitu semacam plug-in yang bisa diinstall oleh penggunanya sendiri dan berguna sebagai mesin pencari lagu di beberapa &lt;em&gt;music streaming services&lt;/em&gt; melalui sebuah API dari tiap streaming service itu sendiri.&lt;/p&gt;
+
+&lt;p&gt;Contoh beberapa streaming service yang bisa dipakai seperti Soundcloud, Spotify, Official.fm, YouTube, Bandcamp, Deezer, Grooveshark dan lainnya.&lt;/p&gt;
+
+&lt;p&gt;Jadi setiap kali kamu mencoba untuk mencari dan memutar lagu, Tomahawk mungkin menggunakan kombinasi dari beberapa streaming service untuk memberikan audio. Kalo lagu yang dicari sudah ada di harddisk pengguna, tentunya Tomahawk akan memutar lagu dari hardisk pengguna.&lt;/p&gt;
+
+&lt;p&gt;Tomahawk akan lebih berguna ketika kamu mencoba untuk memutar lagu yang belum kamu miliki, misal seperti memutar playlist seorang teman yang juga menggunakan Tomahawk.&lt;/p&gt;
+
+&lt;p&gt;Ketika memutar playlist orang lain, sumber lagu bisa berbeda-beda, track pertama bisa jadi dari youtube, track ke-2 dari soundcloud atau track ke-3 mungkin dari harddisk sendiri.&lt;/p&gt;
+
+&lt;p&gt;Yang lebih canggih lagi adanya sistem Tomahawk P2P streaming client, dimana seorang pengguna bisa memutar lagu yang ada di komputer temannya dari komputer pribadinya, atau mungkin misalnya memutar lagu yang ada di komputer kantor dari laptop di rumah.&lt;/p&gt;
+
+&lt;p&gt;Buat yang kepengen nyoba dan donlot app nya, bisa cekidot disini&lt;br /&gt;
+&lt;a href=&#34;https://www.tomahawk-player.org&#34;&gt;https://www.tomahawk-player.org&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Kalo udah registrasi jangan lupa follow akun gue ya, &lt;strong&gt;khalidity&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Selamat menggila ;-)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ulah nakal ISP praktik browser Frame Busting</title>
+      <link>http://khal.web.id/2015/04/19/ulah-nakal-isp-praktik-browser-frame-busting/</link>
+      <pubDate>Sun, 19 Apr 2015 15:42:06 +0000</pubDate>
+      
+      <guid>http://khal.web.id/2015/04/19/ulah-nakal-isp-praktik-browser-frame-busting/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://khal.web.id/images/wpid-img_20150419_141835.jpg&#34;&gt;&lt;img src=&#34;http://khal.web.id/images/wpid-img_20150419_141835.jpg&#34; alt=&#34;image&#34; title=&#34;IMG_20150419_141835.jpg&#34; /&gt;&lt;/a&gt; Beberapa ISP di indonesia tanpa konsumen sadari sebenarnya sangat sering melakukan praktik frame busting hampir di semua website yg konsumen kunjungi, alasan ISP melakukan hal ini tidak lain adalah penempatan iklan gratis dari ISP tersebut tanpa sepengetahuan si empunya website.&lt;/p&gt;
+
+&lt;p&gt;Lalu, bagaimanakah cara kerja Frame Busting ini? Ketika konsumen mengunjungi sebuah website misal &amp;ldquo;Forbes.com&amp;rdquo;, ISP akan membungkus &amp;ldquo;Forbes.com&amp;rdquo; dalam sebuah &lt;em&gt;iframe/frames&lt;/em&gt; lalu kemudian ditampilkan pada browser konsumen, bagian sisi diluar iframe biasanya akan menampilkan iklan gambar dari ISP tersebut.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://khal.web.id/images/wpid-img_20150419_144851.jpg&#34;&gt;&lt;img src=&#34;http://khal.web.id/images/wpid-img_20150419_144851.jpg&#34; alt=&#34;image&#34; title=&#34;IMG_20150419_144851.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ada juga cara iklan ISP yang lebih frontal lagi, yaitu dengan menerapkan Clickjacking pada konsumennya sendiri, dengan cara meng-overlay iframe dengan sebuah ads dari ISP tersebut.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://khal.web.id/images/wpid-img_20150419_152923.jpg&#34;&gt;&lt;img src=&#34;http://khal.web.id/images/wpid-img_20150419_152923.jpg&#34; alt=&#34;image&#34; title=&#34;IMG_20150419_152923.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ada beberapa website yg menerapkan mekanisme untuk mencegah frame busting, salah satunya adalah &lt;a href=&#34;http://stackoverflow.com&#34;&gt;Stackoverflow.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://khal.web.id/images/wpid-img_20150419_151511.jpg&#34;&gt;&lt;img src=&#34;http://khal.web.id/images/wpid-img_20150419_151511.jpg&#34; alt=&#34;image&#34; title=&#34;IMG_20150419_151511.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ketika situs ini dibuka, situs akan menotifikasi konsumen adanya framing, lalu kemudian framing akan dihilangkan oleh mekanisme tersebut.&lt;/p&gt;
+
+&lt;p&gt;Nah bagaimana caranya agar Frame Busting ini tidak terjadi pada blog/situs pribadi kamu, sebenarnya caranya cukup mudah, hanya dengan menyisipkan snippet javascript pada header halaman blog/situs, contoh script bisa dilihat pada thread stackoverflow berikut ini &lt;a href=&#34;http://stackoverflow.com/questions/958997/frame-buster-buster-buster-code-needed&#34;&gt;http://stackoverflow.com/questions/958997/frame-buster-buster-buster-code-needed&lt;/a&gt;, ok selamat mencoba.&lt;/p&gt;
+
+&lt;p&gt;Entah kenapa ISP sekarang tuh serakah semua, udah lah pulsa internet masih bisa dibilang mahal, ditambah lagi dengan iklan-iklan maksa seperti ini, masalah legal/ilegal nya juga pun sepertinya masih tidak jelas.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DnsCrypt sikat bersih Telco intrusive ads ( Telkomsel, XL-Axiata )</title>
+      <link>http://khal.web.id/2015/04/18/dnscrypt-sikat-bersih-telco-intrusive-ads-telkomsel-xl-axiata/</link>
+      <pubDate>Sat, 18 Apr 2015 23:30:00 +0000</pubDate>
+      
+      <guid>http://khal.web.id/2015/04/18/dnscrypt-sikat-bersih-telco-intrusive-ads-telkomsel-xl-axiata/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://khal.web.id/images/opendnsintrusiveads.jpg&#34; alt=&#34;opendnsintrusiveads&#34; /&gt;Syebel, jengkel, kesal, bosan, gegara iklan pengganggu/ intrusive ads beberapa provider telco di Indonesia seperti Telkomsel dan XL Axiata, bahkan banyak dari beberapa orang/badan/lembaga yang membuat petisi akan hal ini tetapi tidak mendapatkan respon dari pemerintah.&lt;/p&gt;
+
+&lt;p&gt;Iklan tersebut dapat dikategorikan intrusive ads karena iklan yang diberikan oleh provider telekom ini dilakukan tanpa izin atau kerjasama dengan pemilik situs/website dan bahkan isi konten dari iklan tersebut sama sekali tidak berhubungan dengan konten website yang dituju oleh konsumen.&lt;/p&gt;
+
+&lt;p&gt;Berikut adalah sebuah solusi yang sebenarnya bisa dilakukan oleh orang banyak dari level end-user (pengguna biasa) atau advance-user (memiliki pengetahuan dasar soal IT networking)&lt;/p&gt;
+
+&lt;p&gt;DnsCrypt merupakan sebuah side-project dari OpenDNS (Penyedia jasa layanan DNS dan security). Nah dimanakah peranan dnscrypt ini? boleh kita ambil contoh, ketika kita mencari &amp;ldquo;www.google.com&amp;rdquo; pada browser, henpon/komputer akan meneruskan proses pencarian ke alamat DNS server yang terpasang oleh ISP (Telkomsel, XL Axiata) dimana nantinya akan diterjemahkan menjadi sebuah angka-angka yg kita kenal sebagai IP address contoh &amp;ldquo;74.125.200.139&amp;rdquo;, proses ini dinamakan DNS resolving.&lt;/p&gt;
+
+&lt;p&gt;Nah, proses DNS resolving ini sama sekali tidak terproteksi/terenkripsi jadi siapapun itu termasuk ISP bisa langsung membelokkan/mengubah hasil dari query sebuah alamat website, misal yang seharusnya masuk ke halaman google.com malah masuk ke halaman iklan intrusive ISP.&lt;/p&gt;
+
+&lt;p&gt;DnsCrypt akan melakukan sebuah proteksi/enkripsi dari semua dns traffic di henpon/komputer serta dnscrypt-proxy akan meneruskan DNS resolve ke alamat DNS yang mendukung dnscrypt seperti OpenDNS.&lt;/p&gt;
+
+&lt;p&gt;Jadi sebenarnya kegunaan DnsCrypt disini cukup besar, sebagai cara untuk melindungi diri sendiri, mempercepat pengalaman browsing, filter konten, dan bahkan ketika salah ketik URL akan langsung dibenerin oleh OpenDNS jadi terhindar phising deh.&lt;/p&gt;
+
+&lt;p&gt;Besar kemungkinan bahwa dnscrypt akan mem-ByPass program internet sehat atau nawala yang dilakukan oleh ISP di Indonesia.&lt;/p&gt;
+
+&lt;p&gt;DnsCrypt tersedia untuk pengguna windows, mac, linux, iphone, dan android.&lt;/p&gt;
+
+&lt;p&gt;Untuk pengguna Mac dan Windows semuanya sudah tinggal download,&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://opendns.github.com/dnscrypt-osx-client/&#34;&gt;Download DNSCrypt for Mac&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://github.com/opendns/dnscrypt-win-client&#34;&gt;Download DNSCrypt for Windows&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Untuk pengguna Linux,&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://opendesktop.org/content/show.php/DNScrypt+Tools?content=164488&#34;&gt;DNSCrypt Tools for Linux&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Untuk pengguna Iphone (Jailbroken)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://modmyi.com/cydia/com.guizmo.dns&#34;&gt;GuizmoDNS&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Untuk pengguna Android (Rooted &amp;amp; Flashable), bisa dibaca how to install nya disini &lt;a href=&#34;http://forum.xda-developers.com/showthread.php?p=56068030&#34;&gt;DNScrypt proxy for Android install&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;DnsCrypt untuk android sudah dicoba dg henpon sendiri menggunakan OnePlus One, CM 12 rom, Android 5.0.2, cekidot Post thread #13 dari link diatas.&lt;/p&gt;
+
+&lt;p&gt;Ketika berhasil menginstall, buka halaman &lt;a href=&#34;http://www.opendns.com/welcome&#34;&gt;http://www.opendns.com/welcome&lt;/a&gt;, hasilnya harus seperti gambar dibawah sebelah kiri, lalu buka &lt;a href=&#34;http://www.internetbadguys.com&#34;&gt;http://www.internetbadguys.com&lt;/a&gt; opendns akan mendeteksi bahwa ini adalah website phising seperti gambar sebelah kanan.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://khal.web.id/images/wpid-img_20150418_230228.jpg&#34;&gt;&lt;img src=&#34;http://khal.web.id/images/wpid-img_20150418_230228.jpg&#34; alt=&#34;image&#34; title=&#34;IMG_20150418_230228.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Reddit yg tadinya tidak bisa diakses, sudah bisa diakses kembali,&lt;br /&gt;
+&lt;a href=&#34;http://khal.web.id/images/wpid-20150418_231153.jpg&#34;&gt;&lt;img src=&#34;http://khal.web.id/images/wpid-20150418_231153-300x280.jpg&#34; alt=&#34;wpid-20150418_231153.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;sources:&lt;br /&gt;
+&lt;a href=&#34;https://www.opendns.com/about/innovations/dnscrypt/&#34;&gt;https://www.opendns.com/about/innovations/dnscrypt/&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://dnscrypt.org&#34;&gt;http://dnscrypt.org&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DIY Cyanogen nightly Auto Update</title>
+      <link>http://khal.web.id/2015/04/14/diy-cyanogen-nightly-auto-update/</link>
+      <pubDate>Tue, 14 Apr 2015 07:20:00 +0000</pubDate>
+      
+      <guid>http://khal.web.id/2015/04/14/diy-cyanogen-nightly-auto-update/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://khal.web.id/images/wpid-wp-1428958109831.png&#34;&gt;&lt;img src=&#34;http://khal.web.id/images/wpid-wp-1428958109831.png&#34; alt=&#34;image&#34; title=&#34;wp-1428958109831&#34; /&gt;&lt;/a&gt; Instead of waiting and whining when will your OnePlus One get an OTA update, you could just quickly fetch the latest nightly build from CyanogenMod.org download page, &lt;strong&gt;just be careful not to download ROM that&amp;rsquo;s not suitable with your phone or else it will bricked your phone&lt;/strong&gt;, as an example if your phone is OnePlus One, Bacon is the only ROM that you need to download.&lt;/p&gt;
+
+&lt;p&gt;Before going further, your phone need to be rooted and have one of these two recovery software installed, either ClockworkMod or TWRP recovery.&lt;/p&gt;
+
+&lt;p&gt;[spoiler title=&amp;ldquo;How to Root and Unlock your device&amp;rdquo;]&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You need &lt;a href=&#34;http://www.androidcentral.com/installing-android-sdk-windows-mac-and-linux-tutorial&#34;&gt;Fastboot and ADB&lt;/a&gt; installed on you PC&lt;/li&gt;
+&lt;li&gt;1. After Fastboot and ADB installed, go to your terminal windows, and do this next step
+
+&lt;ol&gt;
+&lt;li&gt;./fastboot oem unlock (You can skip this step if your phone’s bootloader is already unlocked).&lt;/li&gt;
+&lt;li&gt;./fastboot flash recovery . Image file should be the TWRP recovery image.&lt;/li&gt;
+&lt;li&gt;./fastboot reboot&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[/spoiler]&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;After one of the recovery above installed, make sure that you create a Nandroid backup from the recovery system and copy that backup to your external drive or PC.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Don&amp;rsquo;t forget to download the Gapps if you still want to use Google Play and friends. You may download the latest signed zip on &lt;a href=&#34;http://wiki.cyanogenmod.org/w/Google_Apps&#34;&gt;CyanogenMod.org&lt;/a&gt; websites.&lt;/p&gt;
+
+&lt;p&gt;The CM version of Gapps that you&amp;rsquo;re about to download must be the same with the ROM version that you&amp;rsquo;re going to flash/install, or else you might having a bootloop when rebooting your phone.&lt;/p&gt;
+
+&lt;p&gt;OK then here comes the magic where CyanDelta lets you update your CyanogenMod ROM by downloading just a small file (about 10 MB) instead of a big full zip file (about 200 MB) each time.&lt;/p&gt;
+
+&lt;p&gt;You may &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.cyandelta&amp;amp;feature=nav_result#?t=W251bGwsMSwxLDMsImNvbS5jeWFuZGVsdGEiXQ..&#34;&gt;install CyanDelta updater&lt;/a&gt; from playstore or check their website at &lt;a href=&#34;http://www.cyandelta.com&#34;&gt;www.cyandelta.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Now that you have 2 downloaded files, the CM12 ROM zipped and CM12 Gapps signed zipped. Copy these files to your phone.&lt;/p&gt;
+
+&lt;p&gt;Open the CyanDelta updater and then import your ROM file to CyanDelta,&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://khal.web.id/images/wpid-wp-1428957353905.jpeg&#34;&gt;&lt;img src=&#34;http://khal.web.id/images/wpid-wp-1428957353905.jpeg&#34; alt=&#34;image&#34; title=&#34;wp-1428957353905&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If there is an available update, please do update the file first before installing the ROM.&lt;/p&gt;
+
+&lt;p&gt;If the installation takes longer than it should, turn off your phone, reboot into recovery mode, wipe data/factory reset, and then reboot system.&lt;/p&gt;
+
+&lt;p&gt;After all installation step is finished, you may reboot once again into recovery mode and then install the Gapps signed zip file, reboot system.&lt;/p&gt;
+
+&lt;p&gt;Enjoy your nightly ROM, don&amp;rsquo;t forget to install CyanUpdater once again after a factory reset.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bisnis &#34;Missed-call&#34; yang luar biasa dibalik Zero Marketing</title>
+      <link>http://khal.web.id/2015/03/31/bisnis-missed-call-yang-luar-biasa-dibalik-zero-marketing/</link>
+      <pubDate>Tue, 31 Mar 2015 18:14:06 +0000</pubDate>
+      
+      <guid>http://khal.web.id/2015/03/31/bisnis-missed-call-yang-luar-biasa-dibalik-zero-marketing/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://khal.web.id/images/One-Missed-Call-Review-Logo1.jpg&#34;&gt;&lt;img src=&#34;http://khal.web.id/images/One-Missed-Call-Review-Logo1.jpg&#34; alt=&#34;One-Missed-Call-Review-Logo1&#34; /&gt;&lt;/a&gt; Missed-call sebenarnya adalah hal yang sangat sederhana dan sungguh membuat gue kagum sampai sekarang, karena hal seperti ini bisa dijadikan sebuah bisnis yang luar biasa dan sangat menguntungkan.&lt;/p&gt;
+
+&lt;p&gt;ZipDial namanya, adalah sebuah perusahaan berbasis di India yang memang fokus bergerak di bisnis &amp;ldquo;missed-call&amp;rdquo;. Secara tidak langsung bisa dibilang &lt;em&gt;they are selling missed-call&lt;/em&gt;. Yang membuat gue lebih kagum lagi adalah karena founder perusahaan ini adalah seorang perempuan bernama Valerie Wagoner yang banyak malang melintang di ranah teknologi dari Stanford, Silicon Valley, NING, Google, dan ebay. Tetapi Valerie lebih memilih untuk meninggalkan Silicon Valley dan semua hal untuk membangun sebuah bisnis di India. Ambisi membara broh.&lt;/p&gt;
+
+&lt;p&gt;Di India, sebuah missed-call itu mempunyai arti yang sangat banyak, jadi bukan hanya sekedar angin lewat saja. Kalau menurut gue sih tidak hanya di India saja, bahkan di Indonesia pun seperti itu karena tidak lain alasan yang sangat jelas yaitu pulsa mahal broh. Valerie Wagoner melihat ini sebuah kesempatan bisnis dengan menargetkan negara-negara berkembang seperti India, Indonesia, Afrika, Srilanka, Bangladesh, dll.&lt;/p&gt;
+
+&lt;p&gt;Pada awalnya ZipDial membuat sebuah produk marketing dan analitik based on missed-calls dan bekerja sama dengan brand-brand di India. Cara kerjanya adalah ZipDial memberikan beberapa nomor selular yang bisa digunakan customer untuk missed-call lalu nantinya brand akan sms beberapa info tentang promo ke telepon selular customer.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=00gaP1ZWZdk&#34;&gt;https://www.youtube.com/watch?v=00gaP1ZWZdk&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Dengan maraknya pertandingan kriket di India. ZipDial membuat sebuah polling system terhubung dengan beberapa nomor selular dimana nantinya nomor tersebut bisa dijadikan nomor missed-call sehingga customer bisa mendapatkan info tentang pertandingan kriket yang berlangsung diselingi dengan sms-sms promo dari brand terkait.&lt;/p&gt;
+
+&lt;p&gt;Valerie secara sadar telah mengimplementasi sebuah Zero-marketing yang artinya budget marketing mereka mendekati Nol atau hampir tidak memakai budget sama sekali tetapi tetap mengundang banyak pemakai. Strategi zero based marketing ini selalu dilakukan dengan berbagi biaya dengan vendor/brand terkait atau tanpa biaya sama sekali, contohnya customer pun tidak ditarik biaya hanya dengan melakukan missed-call, sms promo pun dibiayai oleh brand/vendor terkait.&lt;/p&gt;
+
+&lt;p&gt;Untuk end-user/customer tentunya ZipDial ini gratis free of charge, dan untuk brand sebagai pelanggan perusahaan ZipDial berusaha memaksimalkan ROI perusahaan tersebut dengan strategi-strategi campaign terbaik.&lt;/p&gt;
+
+&lt;p&gt;ZipDial telah menerima dana dari Mumbai Ventures di India dan Jungle Ventures di Singapura. Dan di awal Januari ZipDial diakusisi oleh Twitter dengan tujuan agar twitter to be more accessible around the world, kemungkinan besar konsep missed-call ini akan diterapkan di Indonesia berkaitan dengan akusisi ZipDial dan dibukanya kantor cabang Twitter di Indonesia.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Nah ini dia daftar gTLD kocak dan sedikit absurd</title>
+      <link>http://khal.web.id/2015/03/26/nah-ini-dia-daftar-gtld-kocak-dan-sedikit-absurd/</link>
+      <pubDate>Thu, 26 Mar 2015 14:49:58 +0000</pubDate>
+      
+      <guid>http://khal.web.id/2015/03/26/nah-ini-dia-daftar-gtld-kocak-dan-sedikit-absurd/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://khal.web.id/images/namatld.jpg&#34;&gt;&lt;img src=&#34;http://khal.web.id/images/namatld.jpg&#34; alt=&#34;namatld&#34; /&gt;&lt;/a&gt; gTLD&lt;/strong&gt; adalah kepanjangan dari &lt;em&gt;&amp;ldquo;generic Top Level Domain&amp;rdquo;&lt;/em&gt; yang mungkin kamu semua sudah familiar dengan nama &lt;strong&gt;.com&lt;/strong&gt;, &lt;strong&gt;.net&lt;/strong&gt;, &lt;strong&gt;.org&lt;/strong&gt;, &lt;strong&gt;.web.id.&lt;/strong&gt; Tiga tahun belakangan ini banyak sekali gTLD baru yang telah disahkan oleh ICANN (&lt;em&gt;The Internet Corporation for Assigned Names and Numbers&lt;/em&gt;).&lt;/p&gt;
+
+&lt;p&gt;ICANN adalah sebuah lembaga yang bertanggung jawab atas pengesahan TLD seperti .com, .porn, .id, dll.&lt;/p&gt;
+
+&lt;p&gt;Nah sekarang sedikit knowledge bagaimana cara ICANN mengesahkan TLD ternyata tidak mudah dan cukup kompleks dan mahal, ICANN melimitasi 500 pendaftar TLD pertama dan biaya sekitar $185.000 per TLD yang akan didaftarkan.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://khal.web.id/images/top-level-domain-300x115.jpg&#34; alt=&#34;top-level-domain&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Proses evaluasi akan berlangsung sekitar 9-12 bulan lamanya, mau tahu lebih banyak bisa cekidot di artikel mashabel ini &lt;a href=&#34;http://mashable.com/2011/06/20/new-gtld-faq/&#34;&gt;9 Things You Need to Know About ICANN&amp;rsquo;s New Top Level Domains&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Entah bagaimana proses approval ini berlangsung tapi nama-nama TLD yang muncul belakangan ini cukup kocak dan bisa dipakai untuk lucu-lucuan, tapi yang perlu diingat adalah beberapa domain mungkin hanya bisa dipakai untuk instansi tertentu saja.&lt;/p&gt;
+
+&lt;p&gt;Kalo kita list dari TLD yang mungkin dari penggunaan verbal seperti,&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;.SUCKS&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;.HAUS&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;.GRATIS&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;.COOL&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;.BOO&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;.FAIL&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Diambil dari internet slang seperti,&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;.WTF (WHAT THE FUCK)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;.RIP (REST IN PEACE)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;.IMMO (IN MY MODEST OPINION)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;.OOO (ON OUR OWN,OUT OF ORDER,ONE ON ONE)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;.XYZ&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Dari yang Jomblo sampai Married,&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;.SINGLES&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;.SEXY&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;.DATING&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;.WEDDING&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Yang mungkin mau usaha Pizza sama Catering,&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;.PIZZA&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;.CATERING&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Buat yang mau ganti profesi,&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;.NINJA&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;.CEO&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;.GURU&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Hobi banget sama motor,&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;.BIKE&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;.MOTORCYCLES&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Yang sayang bapak, suka hiphop hobi ngebir,&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;.DAD&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;.HIPHOP&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;.BEER&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Masih belum cukup sama list diatas, kamu bisa cekidot semua uncommon TLD di website &lt;a href=&#34;http://newgtlds.icann.org/en/program-status/delegated-strings&#34;&gt;ICANN delegated strings&lt;/a&gt;. Jadi sekarang mau pilih TLD yang mana nih?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Belenggu sosial dari what to be called a &#34;Parasite Apps&#34;</title>
+      <link>http://khal.web.id/2015/03/17/belenggu-sosial-dari-what-to-be-called-a-parasite-apps/</link>
+      <pubDate>Tue, 17 Mar 2015 13:12:12 +0000</pubDate>
+      
+      <guid>http://khal.web.id/2015/03/17/belenggu-sosial-dari-what-to-be-called-a-parasite-apps/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://khal.web.id/images/parasiteapplogo.png&#34;&gt;&lt;img src=&#34;http://khal.web.id/images/parasiteapplogo.png&#34; alt=&#34;parasiteapplogo&#34; /&gt;&lt;/a&gt; In terms of Parasite kalo kita googling, di search result paling atas Parasite adalah organisme yang hidup di dalam atau di organisme lain (Inang). Dan mendapat keuntungan sumber daya dari inang-nya serta mengeksploitasi inangnya tanpa timbal balik.&lt;/p&gt;
+
+&lt;p&gt;Begitupun halnya dengan banyak aplikasi 3rd party yang tentunya banyak mengambil keuntungan dari beberapa raksasa sosial media seperti facebook dan twitter.&lt;/p&gt;
+
+&lt;p&gt;How they done that, how they use it and what make they want to do that sudah bukan suatu hal yang rumit dan kompleks.&lt;/p&gt;
+
+&lt;p&gt;Karena pintu untuk melakukan semua itu sudah disediakan oleh beberapa raksasa sosial media, mungkin kamu sering mendengar istilah Social Graph.&lt;/p&gt;
+
+&lt;p&gt;Yang secara gamblangnya bisa diartikan sebagai bank data dari user relationship dalam sebuah social network, siapa teman siapa, siapa follower siapa, siapa follow siapa.&lt;/p&gt;
+
+&lt;p&gt;Lalu mungkin kamu sudah familiar dengan istilah Facebook connect, Twitter connect, login with LinkedIn, signup with Facebook, dll.&lt;/p&gt;
+
+&lt;p&gt;Apa yang disebut Bla.. bla.. bla.. connect ini adalah sebuah pintu/gateway/izin/paspor untuk aplikasi 3rd party demi mengakses data social graph user dari sosial media yang bersangkutan.&lt;/p&gt;
+
+&lt;p&gt;Secara tidak langsung, ketika user meng-connect-kan akun sosial medianya ke aplikasi 3rd party, user setuju untuk memberikan akses data sosial nya kepada aplikasi 3rd party.&lt;/p&gt;
+
+&lt;p&gt;Banyak Aplikasi 3rd party yang menggunakan keuntungan ini untuk menggaet banyak user demi menggunakan aplikasinya, serta mengambil keuntungan dari data social graph user tersebut.&lt;/p&gt;
+
+&lt;p&gt;Sebagai contoh dengan cara seperti menyebarkan foto-foto dari friends/followers user (contohnya Timehop, Pixable)&lt;/p&gt;
+
+&lt;p&gt;Lalu mengundang friends/followers user untuk melihat aktivitas dari aplikasi tersebut contoh live streaming app Periscope, Meerkat.&lt;/p&gt;
+
+&lt;p&gt;Social Graph kadang menjadi sebuah senjata makan tuan untuk raksasa seperti Facebook dan Twitter karena ketika Social Graph digunakan secara efektif tentunya akan membuat aplikasi 3rd party tersebut lebih populer dibandingkan dengan inangnya (Facebook/Twitter).&lt;/p&gt;
+
+&lt;p&gt;Aplikasi-aplikasi semacam ini pada akhirnya will end up dengan cara di akusisi oleh raksasa sosial media tersebut, sebagai contoh TwitPic acquired by Twitter just to be killed, LightBox acquired by Facebook and then killed.&lt;/p&gt;
+
+&lt;p&gt;Or else they’ll just died without any acquisition ex: Memolane similar with Timehop.&lt;/p&gt;
+
+&lt;p&gt;Aplikasi 3rd Party bisa disebut sebagai Parasite Apps ketika aplikasi tersebut sangat berketergantungan dengan inangnya, tanpa inangnya mereka tidak akan hidup.&lt;/p&gt;
+
+&lt;p&gt;Sebagai contoh ada beberapa aplikasi dimana user tidak perlu mengisi email, nama, password untuk registrasi, jadi hanya menggunakan facebook/twitter connect untuk manajemen user app tersebut.&lt;/p&gt;
+
+&lt;p&gt;Ada juga yang heavily menggunakan fitur Social Graph dari inangnya seperti checkin, user interest, foto, dll sebagai fitur utama di aplikasi 3rd Party tersebut. So you might called it a Parasite apps&lt;/p&gt;
+
+&lt;p&gt;Aplikasi-aplikasi semacam ini yang akhirnya akan membelenggu consumernya karena sangat dependant dengan inangnya.&lt;/p&gt;
+
+&lt;p&gt;Sebagai contoh ketika user mennonaktifkan akun sosial medianya misal facebook, user tidak akan bisa lagi login dengan facebook untuk menggunakan aplikasi tersebut.&lt;/p&gt;
+
+&lt;p&gt;it’s like living in feudal world.&lt;/p&gt;
+
+&lt;p&gt;Mungkin yang harus diperhatikan adalah tujuan dari aplikasi 3rd party tersebut, apakah untuk pada akhirnya di akusisi oleh raksasa sosial media atau memang untuk membantu consumer semata.&lt;/p&gt;
+
+&lt;p&gt;It’s like a 3rd party apps have a big ad flyer “Hello Facebook/Twitter, plz acquire us”.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ground rules to do promotion/contest on Facebook Page Timeline</title>
+      <link>http://khal.web.id/2014/10/15/ground-rules-to-do-promotioncontest-on-facebook-page-timeline/</link>
+      <pubDate>Wed, 15 Oct 2014 12:10:17 +0000</pubDate>
+      
+      <guid>http://khal.web.id/2014/10/15/ground-rules-to-do-promotioncontest-on-facebook-page-timeline/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://khal.web.id/images/Facebook-Terms.jpg&#34;&gt;&lt;img src=&#34;http://khal.web.id/images/Facebook-Terms.jpg&#34; alt=&#34;Facebook-Terms&#34; /&gt;&lt;/a&gt;Facebook want to make it easier for businesses of all sizes to create and administer promotions on Facebook, as you can do for now when starting a promotion on facebook timelines based on &lt;a href=&#34;https://www.facebook.com/business/news/page-promotions-terms&#34;&gt;Facebook Announcement&lt;/a&gt; is,&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Collect entries by having users post on the Page or comment/like a Page post&lt;/li&gt;
+&lt;li&gt;Collect entries by having users message the Page&lt;/li&gt;
+&lt;li&gt;Utilize likes as a voting mechanism&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;and what you can&amp;rsquo;t do,&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You can&amp;rsquo;t ask users or encourage users to tag themselves in a photo they are not pictured in.&lt;/li&gt;
+&lt;li&gt;You can&amp;rsquo;t administer promotions on personal timeline, it means that you can&amp;rsquo;t ask user to share a promotion or post something on their timelines or their friends’ timeline.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Despite facebook has loosened up their rules, but still there are rules you need to comply at &lt;a href=&#34;https://www.facebook.com/page_guidelines.php&#34;&gt;Facebook Page Guidelines&lt;/a&gt; ,&lt;/p&gt;
+
+&lt;p&gt;See this part about promotion,&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Promotions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;If you use Facebook to communicate or administer a promotion (ex: a contest or sweepstakes), you are responsible for the lawful operation of that promotion, including:
+
+&lt;ul&gt;
+&lt;li&gt;The official rules;&lt;/li&gt;
+&lt;li&gt;Offer terms and eligibility requirements (ex: age and residency restrictions); and&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Compliance with applicable rules and regulations governing the promotion and all prizes offered (ex: registration and obtaining necessary regulatory approvals)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Promotions on Facebook must include the following:
+
+&lt;ul&gt;
+&lt;li&gt;A complete release of Facebook by each entrant or participant.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Acknowledgement that the promotion is in no way sponsored, endorsed or administered by, or associated with, Facebook.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Promotions may be administered on Pages or within apps on Facebook. Personal Timelines must not be used to administer promotions (ex: “share on your Timeline to enter” or “share on your friend&amp;rsquo;s Timeline to get additional entries” is not permitted).&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;We will not assist you in the administration of your promotion, and you agree that if you use our service to administer your promotion, you do so at your own risk.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;First you need to comply with your local regulation, as example some alcohol related promotion maybe could not be run directly on the timeline as you cannot verify the participant age, your promotion would be illegal in most countries.&lt;/p&gt;
+
+&lt;p&gt;You still need to draft the rule that will give some information about the prizes you are giving away, how winners will be elected, how they will be contacted, who can enter, etc. And you need to link to them somewhere in the post so you can prove that participants had a chance to read them.&lt;/p&gt;
+
+&lt;p&gt;And last thing that mostly people forget is to add an announcement that the promotion is in no way sponsored, endorsed and associated with facebook. You can add some note at the end of your promotion post like this below,&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;This promotion does not have a connection with facebook in any way, is not sponsored, endorsed or administered by, or associated with, Facebook. It&amp;rsquo;s totally organized by _________&amp;ldquo;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Nb: &lt;a href=&#34;https://fbcdn-dragon-a.akamaihd.net/hphotos-ak-ash3/851577_158705844322839_2031667568_n.pdf&#34;&gt;Facebook Promotion Guidelines [PDF]&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ahh.. a Dreadful battery life, Is it a Smartwatch, a Cellphone or just another complicated gadget?</title>
+      <link>http://khal.web.id/2014/08/18/ahh-a-dreadful-battery-life-is-it-a-smartwatch-a-cellphone-or-just-another-complicated-gadget/</link>
+      <pubDate>Mon, 18 Aug 2014 13:39:28 +0000</pubDate>
+      
+      <guid>http://khal.web.id/2014/08/18/ahh-a-dreadful-battery-life-is-it-a-smartwatch-a-cellphone-or-just-another-complicated-gadget/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://khal.web.id/images/smartwatch.jpg&#34;&gt;&lt;img src=&#34;http://khal.web.id/images/smartwatch.jpg&#34; alt=&#34;smartwatch&#34; /&gt;&lt;/a&gt;Big vendors of wearable hardware are keep pushing themself to put their grip in the race of smartwatch technology, they seem to compete with who can have a fancy and killer feature. Some feature such as call from watch, texting, voice recognition, listen to music, expensive glass, heart rate sensor, overkill notification, fancy screen color, builtin camera, builtin gps, and etc. But still, you need to pair the watch with your daily phone to get it work.&lt;/p&gt;
+
+&lt;p&gt;From all of that, it keeps me thinking. What exactly they are trying to make, Is it smartwatch? or else they trying to make a smaller cellphone that can fit into your wrist and someday will replace your daily cellphone.. hmm maybe .. who knows. But for this present time I don&amp;rsquo;t think that we&amp;rsquo;re gonna use all of that fancy feature on daily use. For myself, I like a phone to be a phone, and a watch to be a watch.&lt;/p&gt;
+
+&lt;p&gt;Most of all, when all of that feature are packed into a smartwatch, How long do you think that smartwatch gonna hold the day regarding its battery life, is it a week? 2 weeks? or maybe a month without charging? Hmm, hard to say but they actually gonna hold the day only for a matter of hours, and so you need to bother yourself to charge your watch everyday besides your smartphone and your laptop.&lt;/p&gt;
+
+&lt;p&gt;Take examples from LG G Watch and Samsung Gear Live, both of which only run for about a day, Moto 360 and Sony SW2 maybe could last for 2 days on standby use, pebble could last for 7 days on standby use but not so fancy at all. I don&amp;rsquo;t test all the watches myself, but I do googled people who actually do test with an actual watch. So the more fancy, the more often to charge and the more expensive the watch.&lt;/p&gt;
+
+&lt;p&gt;And for me, I&amp;rsquo;m currently using a pebble, not because this watch is fancy, nope! there is no fancy thing on this watch, I like it bcoz its simple and has a lot of community backing this smartwatch, and most of all I don&amp;rsquo;t need to charge it everyday *it was really pain in the ass if I had to*.&lt;/p&gt;
+
+&lt;p&gt;Honestly I would like to have a smartwatch that act like a watch with a fancy smooth screen, great hardware and operating system, but I really don&amp;rsquo;t like to have to bother with charging the watch everyday, hmm maybe someday if there is a nano bio lithium battery that could last a month/year without charging, I&amp;rsquo;ll considered myself to buy it.&lt;/p&gt;
+
+&lt;p&gt;So in my opinion, if you really want to have a smartwatch, please ask yourself how you&amp;rsquo;re gonna use the watch in daily use, bcoz some people don&amp;rsquo;t bother to have to charge their watch everyday. Are you gonna use all of that fancy features or is it going to be a waste? is up to you.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

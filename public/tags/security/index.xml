@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security on Khalid Scratch Board</title>
+    <link>http://khal.web.id/tags/security/index.xml</link>
+    <description>Recent content in Security on Khalid Scratch Board</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://khal.web.id/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Android On-Body phone lock, pinter juga neh!</title>
+      <link>http://khal.web.id/2015/05/02/android-on-body-phone-lock-pinter-juga-neh/</link>
+      <pubDate>Sat, 02 May 2015 15:50:00 +0000</pubDate>
+      
+      <guid>http://khal.web.id/2015/05/02/android-on-body-phone-lock-pinter-juga-neh/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://khal.web.id/images/android-smartlock.jpg&#34;&gt;&lt;img src=&#34;http://khal.web.id/images/android-smartlock.jpg&#34; alt=&#34;android-smartlock&#34; /&gt;&lt;/a&gt; Tentunya penting buat kita semua untuk menjaga privasi dan keamanan henpon pribadi entah dari kelalaian kita sendiri atau tangan-tangan usil lainnya.&lt;/p&gt;
+
+&lt;p&gt;Oleh karena itulah pada umumnya setiap henpon memiliki beberapa sistem keamanan dan salah satunya adalah Lock Screen system, yang berguna untuk mengunci henpon pengguna dengan sebuah PIN atau Pattern matching ketika henpon sedang berada dalam kondisi tidak digunakan.&lt;/p&gt;
+
+&lt;p&gt;Pernahkah kamu pada suatu waktu sedang menggunakan henpon, diselingi dengan mengobrol dengan teman atau bermain game puzzle yg perlu mikir lama atau kegiatan lainnya, lalu kemudian henpon dengan sendirinya mengunci, karena ketika kita sedang mengobrol dengan teman, henpon masuk dalam keadaan idle atau sedang tidak digunakan.&lt;/p&gt;
+
+&lt;p&gt;Lalu secara sadar kamu harus terus menerus mengulangi memasukkan nomor PIN demi meng-unlock henpon, padahal henpon masih dalam konteks sedang digunakan hanya saja diselingi dengan kegiatan sementara.&lt;/p&gt;
+
+&lt;p&gt;Fitur on-body unlock atau bisa disebut Smartlock dari Google ini dibuat untuk mengatasi hal tersebut, fitur ini bisa digunakan untuk yang henponnya telah menggunakan OS Android Lollipop.&lt;/p&gt;
+
+&lt;p&gt;Cara kerjanya pun cukup sederhana, fitur smartlock ini akan mendeteksi si pengguna henpon apakah sedang memegang henpon atau berada di depan henponnya sendiri.&lt;/p&gt;
+
+&lt;p&gt;Henpon akan tetap berada dalam posisi unlock sampai henpon tersebut tidak berada dalam genggaman pengguna, atau misalnya ketika henpon berada dalam saku atau tas pengguna maka henpon akan kembali dalam posisi mengunci.&lt;/p&gt;
+
+&lt;p&gt;Cara mengaktifkan fitur ini juga cukup mudah, bisa di cari di menu Setting henpon kamu, kemudian pilih menu Lock Screen&lt;br /&gt;
+&lt;a href=&#34;http://khal.web.id/images/wpid-img_20150502_154225.jpg&#34;&gt;&lt;img src=&#34;http://khal.web.id/images/wpid-img_20150502_154225.jpg&#34; alt=&#34;image&#34; title=&#34;IMG_20150502_154225.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Kamu bisa melihat contoh setting diatas untuk mengaktifkan fitur smartlock berdasarkan On-body detection, kamu juga bisa mengaktifkan fitur ini berdasarkan lokasi, suara pengguna dan device yg sedang dipakai.&lt;/p&gt;
+
+&lt;p&gt;Silahkan eksplorasi saja fitur ini, test and run, semoga berguna and happy smartlock weekend guys.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ulah nakal ISP praktik browser Frame Busting</title>
+      <link>http://khal.web.id/2015/04/19/ulah-nakal-isp-praktik-browser-frame-busting/</link>
+      <pubDate>Sun, 19 Apr 2015 15:42:06 +0000</pubDate>
+      
+      <guid>http://khal.web.id/2015/04/19/ulah-nakal-isp-praktik-browser-frame-busting/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://khal.web.id/images/wpid-img_20150419_141835.jpg&#34;&gt;&lt;img src=&#34;http://khal.web.id/images/wpid-img_20150419_141835.jpg&#34; alt=&#34;image&#34; title=&#34;IMG_20150419_141835.jpg&#34; /&gt;&lt;/a&gt; Beberapa ISP di indonesia tanpa konsumen sadari sebenarnya sangat sering melakukan praktik frame busting hampir di semua website yg konsumen kunjungi, alasan ISP melakukan hal ini tidak lain adalah penempatan iklan gratis dari ISP tersebut tanpa sepengetahuan si empunya website.&lt;/p&gt;
+
+&lt;p&gt;Lalu, bagaimanakah cara kerja Frame Busting ini? Ketika konsumen mengunjungi sebuah website misal &amp;ldquo;Forbes.com&amp;rdquo;, ISP akan membungkus &amp;ldquo;Forbes.com&amp;rdquo; dalam sebuah &lt;em&gt;iframe/frames&lt;/em&gt; lalu kemudian ditampilkan pada browser konsumen, bagian sisi diluar iframe biasanya akan menampilkan iklan gambar dari ISP tersebut.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://khal.web.id/images/wpid-img_20150419_144851.jpg&#34;&gt;&lt;img src=&#34;http://khal.web.id/images/wpid-img_20150419_144851.jpg&#34; alt=&#34;image&#34; title=&#34;IMG_20150419_144851.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ada juga cara iklan ISP yang lebih frontal lagi, yaitu dengan menerapkan Clickjacking pada konsumennya sendiri, dengan cara meng-overlay iframe dengan sebuah ads dari ISP tersebut.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://khal.web.id/images/wpid-img_20150419_152923.jpg&#34;&gt;&lt;img src=&#34;http://khal.web.id/images/wpid-img_20150419_152923.jpg&#34; alt=&#34;image&#34; title=&#34;IMG_20150419_152923.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ada beberapa website yg menerapkan mekanisme untuk mencegah frame busting, salah satunya adalah &lt;a href=&#34;http://stackoverflow.com&#34;&gt;Stackoverflow.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://khal.web.id/images/wpid-img_20150419_151511.jpg&#34;&gt;&lt;img src=&#34;http://khal.web.id/images/wpid-img_20150419_151511.jpg&#34; alt=&#34;image&#34; title=&#34;IMG_20150419_151511.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ketika situs ini dibuka, situs akan menotifikasi konsumen adanya framing, lalu kemudian framing akan dihilangkan oleh mekanisme tersebut.&lt;/p&gt;
+
+&lt;p&gt;Nah bagaimana caranya agar Frame Busting ini tidak terjadi pada blog/situs pribadi kamu, sebenarnya caranya cukup mudah, hanya dengan menyisipkan snippet javascript pada header halaman blog/situs, contoh script bisa dilihat pada thread stackoverflow berikut ini &lt;a href=&#34;http://stackoverflow.com/questions/958997/frame-buster-buster-buster-code-needed&#34;&gt;http://stackoverflow.com/questions/958997/frame-buster-buster-buster-code-needed&lt;/a&gt;, ok selamat mencoba.&lt;/p&gt;
+
+&lt;p&gt;Entah kenapa ISP sekarang tuh serakah semua, udah lah pulsa internet masih bisa dibilang mahal, ditambah lagi dengan iklan-iklan maksa seperti ini, masalah legal/ilegal nya juga pun sepertinya masih tidak jelas.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DnsCrypt sikat bersih Telco intrusive ads ( Telkomsel, XL-Axiata )</title>
+      <link>http://khal.web.id/2015/04/18/dnscrypt-sikat-bersih-telco-intrusive-ads-telkomsel-xl-axiata/</link>
+      <pubDate>Sat, 18 Apr 2015 23:30:00 +0000</pubDate>
+      
+      <guid>http://khal.web.id/2015/04/18/dnscrypt-sikat-bersih-telco-intrusive-ads-telkomsel-xl-axiata/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://khal.web.id/images/opendnsintrusiveads.jpg&#34; alt=&#34;opendnsintrusiveads&#34; /&gt;Syebel, jengkel, kesal, bosan, gegara iklan pengganggu/ intrusive ads beberapa provider telco di Indonesia seperti Telkomsel dan XL Axiata, bahkan banyak dari beberapa orang/badan/lembaga yang membuat petisi akan hal ini tetapi tidak mendapatkan respon dari pemerintah.&lt;/p&gt;
+
+&lt;p&gt;Iklan tersebut dapat dikategorikan intrusive ads karena iklan yang diberikan oleh provider telekom ini dilakukan tanpa izin atau kerjasama dengan pemilik situs/website dan bahkan isi konten dari iklan tersebut sama sekali tidak berhubungan dengan konten website yang dituju oleh konsumen.&lt;/p&gt;
+
+&lt;p&gt;Berikut adalah sebuah solusi yang sebenarnya bisa dilakukan oleh orang banyak dari level end-user (pengguna biasa) atau advance-user (memiliki pengetahuan dasar soal IT networking)&lt;/p&gt;
+
+&lt;p&gt;DnsCrypt merupakan sebuah side-project dari OpenDNS (Penyedia jasa layanan DNS dan security). Nah dimanakah peranan dnscrypt ini? boleh kita ambil contoh, ketika kita mencari &amp;ldquo;www.google.com&amp;rdquo; pada browser, henpon/komputer akan meneruskan proses pencarian ke alamat DNS server yang terpasang oleh ISP (Telkomsel, XL Axiata) dimana nantinya akan diterjemahkan menjadi sebuah angka-angka yg kita kenal sebagai IP address contoh &amp;ldquo;74.125.200.139&amp;rdquo;, proses ini dinamakan DNS resolving.&lt;/p&gt;
+
+&lt;p&gt;Nah, proses DNS resolving ini sama sekali tidak terproteksi/terenkripsi jadi siapapun itu termasuk ISP bisa langsung membelokkan/mengubah hasil dari query sebuah alamat website, misal yang seharusnya masuk ke halaman google.com malah masuk ke halaman iklan intrusive ISP.&lt;/p&gt;
+
+&lt;p&gt;DnsCrypt akan melakukan sebuah proteksi/enkripsi dari semua dns traffic di henpon/komputer serta dnscrypt-proxy akan meneruskan DNS resolve ke alamat DNS yang mendukung dnscrypt seperti OpenDNS.&lt;/p&gt;
+
+&lt;p&gt;Jadi sebenarnya kegunaan DnsCrypt disini cukup besar, sebagai cara untuk melindungi diri sendiri, mempercepat pengalaman browsing, filter konten, dan bahkan ketika salah ketik URL akan langsung dibenerin oleh OpenDNS jadi terhindar phising deh.&lt;/p&gt;
+
+&lt;p&gt;Besar kemungkinan bahwa dnscrypt akan mem-ByPass program internet sehat atau nawala yang dilakukan oleh ISP di Indonesia.&lt;/p&gt;
+
+&lt;p&gt;DnsCrypt tersedia untuk pengguna windows, mac, linux, iphone, dan android.&lt;/p&gt;
+
+&lt;p&gt;Untuk pengguna Mac dan Windows semuanya sudah tinggal download,&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://opendns.github.com/dnscrypt-osx-client/&#34;&gt;Download DNSCrypt for Mac&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://github.com/opendns/dnscrypt-win-client&#34;&gt;Download DNSCrypt for Windows&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Untuk pengguna Linux,&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://opendesktop.org/content/show.php/DNScrypt+Tools?content=164488&#34;&gt;DNSCrypt Tools for Linux&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Untuk pengguna Iphone (Jailbroken)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://modmyi.com/cydia/com.guizmo.dns&#34;&gt;GuizmoDNS&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Untuk pengguna Android (Rooted &amp;amp; Flashable), bisa dibaca how to install nya disini &lt;a href=&#34;http://forum.xda-developers.com/showthread.php?p=56068030&#34;&gt;DNScrypt proxy for Android install&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;DnsCrypt untuk android sudah dicoba dg henpon sendiri menggunakan OnePlus One, CM 12 rom, Android 5.0.2, cekidot Post thread #13 dari link diatas.&lt;/p&gt;
+
+&lt;p&gt;Ketika berhasil menginstall, buka halaman &lt;a href=&#34;http://www.opendns.com/welcome&#34;&gt;http://www.opendns.com/welcome&lt;/a&gt;, hasilnya harus seperti gambar dibawah sebelah kiri, lalu buka &lt;a href=&#34;http://www.internetbadguys.com&#34;&gt;http://www.internetbadguys.com&lt;/a&gt; opendns akan mendeteksi bahwa ini adalah website phising seperti gambar sebelah kanan.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://khal.web.id/images/wpid-img_20150418_230228.jpg&#34;&gt;&lt;img src=&#34;http://khal.web.id/images/wpid-img_20150418_230228.jpg&#34; alt=&#34;image&#34; title=&#34;IMG_20150418_230228.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Reddit yg tadinya tidak bisa diakses, sudah bisa diakses kembali,&lt;br /&gt;
+&lt;a href=&#34;http://khal.web.id/images/wpid-20150418_231153.jpg&#34;&gt;&lt;img src=&#34;http://khal.web.id/images/wpid-20150418_231153-300x280.jpg&#34; alt=&#34;wpid-20150418_231153.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;sources:&lt;br /&gt;
+&lt;a href=&#34;https://www.opendns.com/about/innovations/dnscrypt/&#34;&gt;https://www.opendns.com/about/innovations/dnscrypt/&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://dnscrypt.org&#34;&gt;http://dnscrypt.org&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Aplikasi 3rd Party (Facebook,Paypal,dll) Aman gituh?? Lo harus tahu!</title>
+      <link>http://khal.web.id/2014/05/28/aplikasi-3rd-party-facebookpaypaldll-aman-gituh-lo-harus-tahu/</link>
+      <pubDate>Wed, 28 May 2014 20:08:25 +0000</pubDate>
+      
+      <guid>http://khal.web.id/2014/05/28/aplikasi-3rd-party-facebookpaypaldll-aman-gituh-lo-harus-tahu/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://khal.web.id/images/48a572c60b93255986ba073bf5b1d865-1.jpg&#34;&gt;&lt;img src=&#34;http://khal.web.id/images/48a572c60b93255986ba073bf5b1d865-1.jpg&#34; alt=&#34;48a572c60b93255986ba073bf5b1d865 (1)&#34; /&gt;&lt;/a&gt;Yang gue maksud Aplikasi 3rd party disini adalah sebuah aplikasi yang berjalan sebagai aplikasi tambahan dari beberapa aplikasi yang sudah popular, aplikasi ini bisa berupa website, client app, mobile web, mobile app, desktop app, microsite, dll. (*mengulang kata aplikasi&amp;hellip; halah)&lt;/p&gt;
+
+&lt;p&gt;Sebagai contoh kalo lo termasuk pengguna Twitter, lo pasti tau aplikasi yang namanya seismic, hootsuite, atau uber Twitter, semua aplikasi tersebut adalah aplikasi 3rd party dari Twitter. Aplikasi ini adalah aplikasi yang dibuat oleh pihak ketiga diluar dari Twitter, aplikasi ini mendapatkan izin dari pihak Twitter untuk mengakses data2x user dan menggunakannya di dalam aplikasi. Begitu hal nya sama dengan seperti Facebook, Google+, LinkedIn, Instagram, dan masih banyak lagi.&lt;/p&gt;
+
+&lt;p&gt;Aplikasi 3rd party tentunya bisa disalahgunakan oleh pembuatnya untuk mencuri data user atau mungkin karena adanya kelalaian dari pembuatnya sehingga membuat data dari para pengguna aplikasi bisa dicuri seperti dijelaskan &lt;a href=&#34;http://khalidadisendjaja.web.id/2013/11/07/mari-berbagi-soal-privasi-di-sosial-media-online/&#34;&gt;disini&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ada sebuah pattern/skema/pola yang selalu dipakai oleh aplikasi 3rd party untuk mendapatkan akses data penggunanya, misal ketika pengguna aplikasi ingin menggunakan aplikasi 3rd party, pengguna akan diberikan pilihan untuk login dengan akun facebook pengguna, dalam tahap ini pengguna akan di alihkan ke halaman facebook untuk memberikan izin akses data pengguna kepada aplikasi 3rd party, setelah proses selesai pengguna aplikasi akan dialihkan kembali ke halaman home aplikasi 3rd party, dalam hal ini aplikasi 3rd party telah mendapatkan &lt;strong&gt;access token&lt;/strong&gt; yang bisa digunakan sebagai kunci untuk mengakses data facebook pengguna. Proses ini dinamakan &lt;a href=&#34;https://www.owasp.org/index.php/Open_redirect&#34;&gt;Open Redirect&lt;/a&gt;, protokol yang digunakan untuk proses otorisasi dinamakan &lt;a href=&#34;http://en.wikipedia.org/wiki/OAuth&#34;&gt;OAuth&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Sekarang bayangkan jika ada sebuah situs/aplikasi malware yang berpura-pura menjadi Aplikasi 3rd party lalu mengalihkan pengguna ke situs Facebook untuk memberikan akses data, tapi setelah proses selesai, bukannya mengarahkan pengguna kembali ke halaman aplikasi 3rd party, aplikasi malware ini memberitahu Facebook untuk mengarahkan pengguna ke aplikasi malware daripada aplikasi 3rd party yang seharusnya.&lt;/p&gt;
+
+&lt;p&gt;Dengan cara ini hacker mungkin dapat mengarahkan pengguna ke situs sendiri dan mendapatkan akses token. Sehingga hacker dapat mengakses Facebook API seolah-olah itu dari aplikasi 3rd party yg seharusnya dan mencuri data pengguna. Proses hacking ini dinamakan &lt;a href=&#34;http://tetraph.com/covert_redirect/&#34;&gt;Cover Redirect Vulnerability&lt;/a&gt; , hal ini bisa terjadi karena kelalaian developer aplikasi 3rd party yang tidak memverifikasi redirect url yang akan diproses.&lt;/p&gt;
+
+&lt;p&gt;Simulasi dari proses hacking diatas bisa dilihat dibawah ini, (*Percepat ke 2:47 untuk proses simulasi)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://youtu.be/HUE8VbbwUms?t=2m47s&#34;&gt;http://youtu.be/HUE8VbbwUms?t=2m47s&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Sayangnya ini bisa terjadi tidak hanya dengan facebook saja, tapi situs popular lain seperti google,linkedin,paypal, dll yang menggunakan protokol OAuth dan OpenId bisa membocorkan data pengguna jika developer aplikasi 3rd party lalai dalam mengamankan aplikasinya.&lt;/p&gt;
+
+&lt;p&gt;Cara menanggulangi dari sisi pengguna sebenarnya cukup mudah, tetapi memerlukan awareness juga dari penggunanya, misal ketika setelah proses otorisasi selesai, pengguna dialihkan ke situs yang mencurigakan, pengguna bisa langsung membatalkan data akses aplikasi 3rd party melalui situs dimana pengguna memberikan izin akses datanya (Facebook, Twitter, LinkedIn, Google, dll) atau pengguna bisa menggunakan servis gratis seperti &lt;a href=&#34;http://mypermissions.org/&#34;&gt;MyPermissions.org&lt;/a&gt; di situs ini semua izin akses yang pengguna berikan pada aplikasi 3rd party akan terlisting.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

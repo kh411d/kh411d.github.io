@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Remixos on Khalid Scratch Board</title>
+    <link>http://khal.web.id/tags/remixos/index.xml</link>
+    <description>Recent content in Remixos on Khalid Scratch Board</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://khal.web.id/tags/remixos/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Nge-mix Android di Macbook/PC</title>
+      <link>http://khal.web.id/2016/01/25/nge-mix-android-di-macbookpc/</link>
+      <pubDate>Mon, 25 Jan 2016 13:02:42 +0000</pubDate>
+      
+      <guid>http://khal.web.id/2016/01/25/nge-mix-android-di-macbookpc/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.jide.com/remixos&#34;&gt;&lt;img src=&#34;http://khal.web.id/images/wpremixos.jpg&#34; alt=&#34;wpremixos&#34; /&gt;&lt;/a&gt; Mungkin banyak yg sudah pada tahu kelebihan Android ini, tetapi kebanyakan orang terbiasa tahu bahwa android hanya running di henpon, tablet, IOT devices, atau mini PC dengan USB stick.&lt;/p&gt;
+
+&lt;p&gt;Meskipun bisa di install di banyak device, akan tetapi Operating System yang terinstall pun adalah notabene sama seperti yg kita lihat pada android phone/tablet kebanyakan, misal meski bernama android mini PC, OS yg terinstall pun adalah varian untuk tablet device.&lt;/p&gt;
+
+&lt;p&gt;Berawal dari sebuah company bernama JIDE Technology yg diusung oleh 3 ex-Google membuat sebuah OS bernama Remix OS berdasarkan project open source Android-X86.&lt;/p&gt;
+
+&lt;p&gt;Bisa dibilang Remix OS adalah versi desktopnya Android, dimana experience pengguna ketika menggunakan RemixOS akan sama seperti halnya dalam menggunakan PC. Fitur-fitur seperti halnya start menu, taskbar, resizeable window, file manager, desktop shortcut, instalasi app, dan marketplace akan ditemukan dalam Remix OS.&lt;/p&gt;
+
+&lt;p&gt;Mungkin ada yg sudah mengenal Chrome OS yaitu sebuah operating system yg dipasang pada Chromebook, meskipun Chrome OS ditujukan untuk pengguna desktop, namun Chrome OS ini sangat berbeda dengan Remix OS karena Chrome OS berlandaskan engine sebuah browser yakni Google Chrome which is actually designed around web apps, sulit untuk melakukan apapun ketika kita tidak terhubung dengan internet. Berbeda halnya ketika kita menggunakan PC, online atau offline harusnya bukan menjadi kendala user dalam menggunakan OS tersebut.&lt;/p&gt;
+
+&lt;p&gt;Baru-baru ini Jide Team me-release versi alpha dari Remix OS for PC, it&amp;rsquo;s still buggy tapi sebenarnya ini ditujukan untuk developer atau enthusiast lainnya untuk mencoba, requirement yg dibutuhkan adalah sebuah flash drive USB 3.0 dan sebuah PC atau Macbook, source bisa download disini &lt;a href=&#34;http://www.jide.com/en/remixos-for-pc&#34;&gt;http://www.jide.com/en/remixos-for-pc&lt;/a&gt; .&lt;/p&gt;
+
+&lt;p&gt;Gw sempat mencoba Remix OS ini seadanya dengan apa yg ada aja, USB drive yg gw pake adalah USB 2.0 dan old Macbook Air Mid 2011, hmm lumayan effort spertinya karena gak akan langsung berhasil harus trial error googling sana sini, but it works and usable, suprisingly fast enough better than any android emulator such as bluestacks.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://khal.web.id/images/wp-1453475793855.jpg&#34; alt=&#34;wp-1453475793855.jpg&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Versi alpha RemixOS bisa running melalui bootable USB drive, loadingnya lumayan lama sekitar 5-10 menitan di Guest mode, ada dua mode boot up, Guest mode dimana instalasi app atau android setting setelah OS shutdown tidak akan disimpan dan Resident Mode dimana instalasi app atau android setting setelah OS shutdown akan tersimpan di flashdrive, jadi ketika bootup untuk kedua kalinya aplikasi yg sudah terinstall gak akan hilang.&lt;/p&gt;
+
+&lt;p&gt;Sampai artikel ini ditulis gw belum berhasil menggunakan resident mode, mungkin dikarenakan USB yg digunakan adalah USB 2.0 instead of USB 3.0, jadi mungkin permasalahan ada pada perbedaan speed USB 2 dan 3 yg cukup signifikan (jadi stuck di booting kelamaan), ditambah lagi Macbook Air 2011 hanya mempunyai builtin port USB 2.0.&lt;/p&gt;
+
+&lt;p&gt;Worth to try sih kalo gw bilang, tapi bisakah jadi pengganti os yg lain seperti Windows, Max, atau Ubuntu? hmm kayaknya untuk saat ini belum aja sih, soalnya banyak yang memakai os ini kebanyakan untuk media center atau entertainment, Penasaran? untuk cara instalasi bisa liat di link dibawah.&lt;/p&gt;
+
+&lt;p&gt;url: coming soon.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
