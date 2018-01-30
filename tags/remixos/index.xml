@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Remixos on Khalid&#39;s Blog</title>
+    <link>http://khal.web.id/tags/remixos/</link>
+    <description>Recent content in Remixos on Khalid&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Jan 2016 13:02:42 +0000</lastBuildDate>
+    
+	<atom:link href="http://khal.web.id/tags/remixos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Nge-mix Android di Macbook/PC</title>
+      <link>http://khal.web.id/2016/01/25/nge-mix-android-di-macbookpc/</link>
+      <pubDate>Mon, 25 Jan 2016 13:02:42 +0000</pubDate>
+      
+      <guid>http://khal.web.id/2016/01/25/nge-mix-android-di-macbookpc/</guid>
+      <description>Mungkin banyak yg sudah pada tahu kelebihan Android ini, tetapi kebanyakan orang terbiasa tahu bahwa android hanya running di henpon, tablet, IOT devices, atau mini PC dengan USB stick.
+Meskipun bisa di install di banyak device, akan tetapi Operating System yang terinstall pun adalah notabene sama seperti yg kita lihat pada android phone/tablet kebanyakan, misal meski bernama android mini PC, OS yg terinstall pun adalah varian untuk tablet device.</description>
+    </item>
+    
+  </channel>
+</rss>

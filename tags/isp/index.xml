@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Isp on Khalid&#39;s Blog</title>
+    <link>http://khal.web.id/tags/isp/</link>
+    <description>Recent content in Isp on Khalid&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 Apr 2015 15:42:06 +0000</lastBuildDate>
+    
+	<atom:link href="http://khal.web.id/tags/isp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ulah nakal ISP praktik browser Frame Busting</title>
+      <link>http://khal.web.id/2015/04/19/ulah-nakal-isp-praktik-browser-frame-busting/</link>
+      <pubDate>Sun, 19 Apr 2015 15:42:06 +0000</pubDate>
+      
+      <guid>http://khal.web.id/2015/04/19/ulah-nakal-isp-praktik-browser-frame-busting/</guid>
+      <description>Beberapa ISP di indonesia tanpa konsumen sadari sebenarnya sangat sering melakukan praktik frame busting hampir di semua website yg konsumen kunjungi, alasan ISP melakukan hal ini tidak lain adalah penempatan iklan gratis dari ISP tersebut tanpa sepengetahuan si empunya website.
+Lalu, bagaimanakah cara kerja Frame Busting ini? Ketika konsumen mengunjungi sebuah website misal &amp;ldquo;Forbes.com&amp;rdquo;, ISP akan membungkus &amp;ldquo;Forbes.com&amp;rdquo; dalam sebuah iframe/frames lalu kemudian ditampilkan pada browser konsumen, bagian sisi diluar iframe biasanya akan menampilkan iklan gambar dari ISP tersebut.</description>
+    </item>
+    
+  </channel>
+</rss>

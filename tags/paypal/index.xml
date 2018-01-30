@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Paypal on Khalid&#39;s Blog</title>
+    <link>http://khal.web.id/tags/paypal/</link>
+    <description>Recent content in Paypal on Khalid&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 May 2014 20:08:25 +0000</lastBuildDate>
+    
+	<atom:link href="http://khal.web.id/tags/paypal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Aplikasi 3rd Party (Facebook,Paypal,dll) Aman gituh?? Lo harus tahu!</title>
+      <link>http://khal.web.id/2014/05/28/aplikasi-3rd-party-facebookpaypaldll-aman-gituh-lo-harus-tahu/</link>
+      <pubDate>Wed, 28 May 2014 20:08:25 +0000</pubDate>
+      
+      <guid>http://khal.web.id/2014/05/28/aplikasi-3rd-party-facebookpaypaldll-aman-gituh-lo-harus-tahu/</guid>
+      <description>Yang gue maksud Aplikasi 3rd party disini adalah sebuah aplikasi yang berjalan sebagai aplikasi tambahan dari beberapa aplikasi yang sudah popular, aplikasi ini bisa berupa website, client app, mobile web, mobile app, desktop app, microsite, dll. (*mengulang kata aplikasi&amp;hellip; halah)
+Sebagai contoh kalo lo termasuk pengguna Twitter, lo pasti tau aplikasi yang namanya seismic, hootsuite, atau uber Twitter, semua aplikasi tersebut adalah aplikasi 3rd party dari Twitter. Aplikasi ini adalah aplikasi yang dibuat oleh pihak ketiga diluar dari Twitter, aplikasi ini mendapatkan izin dari pihak Twitter untuk mengakses data2x user dan menggunakannya di dalam aplikasi.</description>
+    </item>
+    
+  </channel>
+</rss>
