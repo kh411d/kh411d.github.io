@@ -1,8 +1,8 @@
-baseURL: http://khal.web.id
+baseURL: http://khal.web.id/
 disablePathToLower: true
 languageCode: en-us
 title: Khalid's Blog
-seURL: "http://khal.web.id"
+seURL: "http://khal.web.id/"
 permalinks:
   post: /:year/:month/:day/:title/
 params:
