@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/kh411d/kh411d.github.io.git
+	branch = master
