@@ -6,10 +6,29 @@
     <description>Recent content on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 May 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Sep 2016 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://khal.web.id/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Apa sih IoT (Internet Of Things)</title>
+      <link>http://khal.web.id/2016/09/01/apa-sih-iot/</link>
+      <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://khal.web.id/2016/09/01/apa-sih-iot/</guid>
+      <description>Berawal dari trend gaya hidup sekarang dan kebutuhan aktivitas sehari-hari, penggunaan internet sudah tidak seperti dulu yang dimana hanya digunakan untuk sekedar browsing, streaming lagu, atau download film. Sudah banyak orang yang mulai menyadari bahwa internet itu bisa menjadi jembatan untuk meningkatkan kualitas hidup seseorang secara overall.
+Terlihat sudah banyaknya beredar dijual device/alat yang terhubung dengan internet untuk mencatat kegiatan orang sehari-hari, entah orang itu sedang berolah-raga, tidur, atau sesederhana seperti berjalan kaki sambil tidur.</description>
+    </item>
+    
+    <item>
+      <title>How to retro gaming with RetroArch</title>
+      <link>http://khal.web.id/2016/05/16/how-to-retro-gaming-with-retroarch/</link>
+      <pubDate>Mon, 16 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://khal.web.id/2016/05/16/how-to-retro-gaming-with-retroarch/</guid>
+      <description>I&amp;rsquo;m actually accidentaly found this awesome stuff over the internet when I was googling about super mario game, a website called Emuparadise point me directly to RetroArch website. At first thought maybe it&amp;rsquo;s just another kind of emulator that specific to just one console, a little bit curious so then I tried this emulator, surprisingly it can run on many platform such as Linux, Windows, Blackberry, OSX, RaspberryPi, Android, iOS and it can be installed on some gaming device such as Xbox, Playstation, GameCube, Wii, 3DS.</description>
+    </item>
     
     <item>
       <title>Bye Wordpress, Hello ... ?</title>
