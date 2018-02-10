@@ -2,3 +2,7 @@
 	path = public
 	url = https://github.com/kh411d/kh411d.github.io.git
 	branch = master
+[submodule "themes/hyde"]
+	path = themes/hyde
+	url = https://github.com/kh411d/hyde
+	branch = master

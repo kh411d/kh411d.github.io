@@ -11,8 +11,8 @@ tags:
 - chrome
 - opera
 - ie
-title: Browsers Console API (Firefox,Safari,Chrome,Opera,IE) reference
-url: /2010/07/02/browsers-console-api-firefoxsafarichromeoperaie-reference/
+title: Browsers Console API (Firefox, Safari, Chrome, Opera, IE) reference
+url: /2010/07/02/browsers-console-api-reference/
 ---
 
 What is Console API ? , I think this is the first question that will cross your mind if you dont know about this  
@@ -42,6 +42,3 @@ Opera DragonFly
 Finally if your browser is to old and couldn't have any console api, you can use this  
  http://github.com/NV/console.js/  
  its a Crossbrowser Firebug console API. Improves Opera Dragonfly and IE developer tools
-
-Ok thats all I know, any addition please contact me...  
- ciauuuuu
