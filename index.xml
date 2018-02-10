@@ -501,17 +501,6 @@ Huaaaaah &amp;hellip; lanjut deh, jadinya &amp;hellip; Apa sih Pebble itu?</desc
     </item>
     
     <item>
-      <title>HTML5 KineticJS Facebook Cover Maker</title>
-      <link>http://khal.web.id/2012/10/14/html5-kinectjs-facebook-cover-maker/</link>
-      <pubDate>Sun, 14 Oct 2012 23:30:36 +0000</pubDate>
-      
-      <guid>http://khal.web.id/2012/10/14/html5-kinectjs-facebook-cover-maker/</guid>
-      <description>How To:
-Change cover by clicking on each &amp;ldquo;Cover Background&amp;rdquo; image.
-Add &amp;ldquo;Your photos&amp;rdquo; below to canvas by clicking on it, Photos on canvas is draggable, drag/click the tipping point to resize/rotate. Please deactivate &amp;ldquo;Pop Up Blocker&amp;rdquo; for saving cover when you&amp;rsquo;re done.Download code on https://github.com/kh411d/HTML5-KineticJS-Facebook-Cover-Maker</description>
-    </item>
-    
-    <item>
       <title>Rahasia dibalik Otomatisasi (*baca: bukan bot) Tweet Gue</title>
       <link>http://khal.web.id/2012/09/05/rahasia-dibalik-otomatisasi-tweet-gue/</link>
       <pubDate>Wed, 05 Sep 2012 16:51:54 +0000</pubDate>
@@ -688,11 +677,11 @@ Of course , you need to know where you will be working on, PHP can run in any Op
     </item>
     
     <item>
-      <title>Browsers Console API (Firefox,Safari,Chrome,Opera,IE) reference</title>
-      <link>http://khal.web.id/2010/07/02/browsers-console-api-firefoxsafarichromeoperaie-reference/</link>
+      <title>Browsers Console API (Firefox, Safari, Chrome, Opera, IE) reference</title>
+      <link>http://khal.web.id/2010/07/02/browsers-console-api-reference/</link>
       <pubDate>Fri, 02 Jul 2010 14:27:23 +0000</pubDate>
       
-      <guid>http://khal.web.id/2010/07/02/browsers-console-api-firefoxsafarichromeoperaie-reference/</guid>
+      <guid>http://khal.web.id/2010/07/02/browsers-console-api-reference/</guid>
       <description>What is Console API ? , I think this is the first question that will cross your mind if you dont know about this
 helpfull tool, Console is a global variable/Object that provided by major browser like firefox,safari,chrome, etc&amp;hellip; and contains many methods that allow you to write to the browser console to expose information that is flowing through your scripts.
 Console API has become a standard for debugging javascript, so I suppose many browser should support</description>
@@ -814,15 +803,6 @@ border:0;
 padding:0; }
 
 include this iepngfix_tilebg.js on you html header, it support for transparent image on background position and repeat.</description>
-    </item>
-    
-    <item>
-      <title>Tali Sepatu Macem 2x Aneh 2x</title>
-      <link>http://khal.web.id/2008/12/22/tali-sepatu-macem-2x-aneh-2x/</link>
-      <pubDate>Mon, 22 Dec 2008 18:19:59 +0000</pubDate>
-      
-      <guid>http://khal.web.id/2008/12/22/tali-sepatu-macem-2x-aneh-2x/</guid>
-      <description></description>
     </item>
     
   </channel>
