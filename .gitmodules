@@ -6,3 +6,7 @@
 	path = themes/hyde
 	url = https://github.com/kh411d/hyde
 	branch = master
+[submodule "themes/hugo-theme-casper"]
+	path = themes/hugo-theme-casper
+	url = https://github.com/kh411d/hugo-theme-casper.git
+	branch = master

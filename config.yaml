@@ -10,4 +10,18 @@ params:
   AuthorName: "Khalid Adisendjaja"
   GitHubUser: "kh411d"
   SidebarRecentLimit: 5
+  cover: "/images/sidebar.jpg"
+  author: "Khalid Adisendjaja"
+  authorlocation: "Jakarta, Indonesia"
+  authorwebsite: "http://khal.web.id"
+  authorbio: "Internet tech wanderer. Networking enthusiast. Radio Announcer. Casual Gamer. OpenSource Fans. Information Junkies. My tweet is my own."
+  logo: "images/logo.jpeg"
+  githubName: "kh411d"
+  twitterName: "khalidity"
+  facebookName: "khalidadisendjaja"
+  linkedinName: "khalidadisendjaja"
+  keybaseName: "khalidity"
+  email: "contact@khal.web.id"
+  hideHUGOSupport: false
+  hjsStyle: "default"
 disqusShortname: khalidity
