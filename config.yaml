@@ -18,10 +18,9 @@ params:
   logo: "images/logo.jpeg"
   githubName: "kh411d"
   twitterName: "khalidity"
-  facebookName: "khalidadisendjaja"
   linkedinName: "khalidadisendjaja"
   keybaseName: "khalidity"
   email: "contact@khal.web.id"
   hideHUGOSupport: false
   hjsStyle: "default"
-disqusShortname: khalidity
+disqusShortname: khal-web-id
