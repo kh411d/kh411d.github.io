@@ -23,4 +23,5 @@ params:
   email: "contact@khal.web.id"
   hideHUGOSupport: false
   hjsStyle: "default"
+  baseURL: "http://khal.web.id/"
 disqusShortname: khal-web-id
