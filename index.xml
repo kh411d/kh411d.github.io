@@ -6,10 +6,20 @@
     <description>Recent content on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Sep 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jan 2018 00:40:18 +0700</lastBuildDate>
     
 	<atom:link href="http://khal.web.id/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Rusty Macbook Air getting new Air from Archlinux</title>
+      <link>http://khal.web.id/2018/01/25/Rusty-Macbook-Air-getting-new-Air-from-Archlinux/</link>
+      <pubDate>Thu, 25 Jan 2018 00:40:18 +0700</pubDate>
+      
+      <guid>http://khal.web.id/2018/01/25/Rusty-Macbook-Air-getting-new-Air-from-Archlinux/</guid>
+      <description>Today I accidentally deleted my primary osx partition of my very old macbook air 4,2 (2011) last installed os was el capitan. Actually I just want to clean up/reset my macbook to give up some extra space, I seriously don&amp;rsquo;t know how in the hell this could happened, a lesson for me not to clean your HDD in the middle of the night.
+Following up the tutorial from apple website on show to reinstall osx, turns out that I have to download 10Gb update including el capitan.</description>
+    </item>
     
     <item>
       <title>Apa sih IoT (Internet Of Things)</title>
@@ -727,20 +737,6 @@ the Indexed documents may have two type of id&amp;rsquo;s, so I put database id 
       <guid>http://khal.web.id/2010/01/07/codeigniter-hmvc-and-your-own-layout-library/</guid>
       <description>I&amp;rsquo;m using HMVC to make my web apps more modular, if you don&amp;rsquo;t now what is HMVC you can check on Wiki, so then I&amp;rsquo;m trying to make a partial output from some module to the big layout template , and then I came into problems when I make a layout library as usual you have to generate an instance of CI like this,
 &amp;lt;pre lang=&amp;quot;php&amp;quot;&amp;gt;$this-&amp;gt;obj =&amp;amp; get_instance();  and then I&amp;rsquo;m trying to load a vew from some module,</description>
-    </item>
-    
-    <item>
-      <title>Zend cert guide ...</title>
-      <link>http://khal.web.id/2009/12/09/zend-cert-guide/</link>
-      <pubDate>Wed, 09 Dec 2009 15:26:29 +0000</pubDate>
-      
-      <guid>http://khal.web.id/2009/12/09/zend-cert-guide/</guid>
-      <description>I&amp;rsquo;ve found an interesting comment from one of amazon book, which is
-http://www.amazon.com/architects-Zend-Certification-Study-Guide/product-reviews/0973862149/ref=wl_it_o_cm_cr_acr_txt?ie=UTF8&amp;amp;showViewpoints=1
-its about a zend cert study guide, hopefull the comment is true &amp;hellip; some of friend told me that you need
-to get some more book for your reference and of course read the PHP manual to get pass the exam, he said
-it will be a headache &amp;hellip; so be prepare&amp;hellip;
-One can easily argue that the certification exam itself is a waste of money, but with this book and its associated practice exams, the case is a little more cut-and-dry.</description>
     </item>
     
     <item>

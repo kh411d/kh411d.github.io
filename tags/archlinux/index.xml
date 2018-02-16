@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Archlinux on Khalid&#39;s Blog</title>
+    <link>http://khal.web.id/tags/archlinux/</link>
+    <description>Recent content in Archlinux on Khalid&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Jan 2018 00:40:18 +0700</lastBuildDate>
+    
+	<atom:link href="http://khal.web.id/tags/archlinux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rusty Macbook Air getting new Air from Archlinux</title>
+      <link>http://khal.web.id/2018/01/25/Rusty-Macbook-Air-getting-new-Air-from-Archlinux/</link>
+      <pubDate>Thu, 25 Jan 2018 00:40:18 +0700</pubDate>
+      
+      <guid>http://khal.web.id/2018/01/25/Rusty-Macbook-Air-getting-new-Air-from-Archlinux/</guid>
+      <description>Today I accidentally deleted my primary osx partition of my very old macbook air 4,2 (2011) last installed os was el capitan. Actually I just want to clean up/reset my macbook to give up some extra space, I seriously don&amp;rsquo;t know how in the hell this could happened, a lesson for me not to clean your HDD in the middle of the night.
+Following up the tutorial from apple website on show to reinstall osx, turns out that I have to download 10Gb update including el capitan.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://khal.web.id/2018/01/25/Rusty-Macbook-Air-getting-new-Air-from-Archlinux/</loc>
+    <lastmod>2018-01-25T00:40:18+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://khal.web.id/2016/09/01/apa-sih-iot/</loc>
     <lastmod>2016-09-01T00:00:00+00:00</lastmod>
   </url>
@@ -348,11 +353,6 @@
   </url>
   
   <url>
-    <loc>http://khal.web.id/2009/12/09/zend-cert-guide/</loc>
-    <lastmod>2009-12-09T15:26:29+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://khal.web.id/2009/11/25/apaan-tuh-google-wave-robots-apaan-aja-sih/</loc>
     <lastmod>2009-11-25T10:45:09+00:00</lastmod>
   </url>
@@ -440,6 +440,12 @@
   <url>
     <loc>http://khal.web.id/tags/apple/</loc>
     <lastmod>2016-01-25T13:02:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/archlinux/</loc>
+    <lastmod>2018-01-25T00:40:18+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -666,13 +672,19 @@
   
   <url>
     <loc>http://khal.web.id/</loc>
-    <lastmod>2016-09-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-25T00:40:18+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://khal.web.id/tags/linkedin/</loc>
     <lastmod>2014-05-28T20:08:25+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/linux/</loc>
+    <lastmod>2018-01-25T00:40:18+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -691,6 +703,12 @@
   <url>
     <loc>http://khal.web.id/tags/macbook/</loc>
     <lastmod>2016-01-25T13:02:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/macbook-air/</loc>
+    <lastmod>2018-01-25T00:40:18+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -755,8 +773,14 @@
   </url>
   
   <url>
+    <loc>http://khal.web.id/tags/operating-system/</loc>
+    <lastmod>2018-01-25T00:40:18+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://khal.web.id/tags/osx/</loc>
-    <lastmod>2016-01-13T01:15:44+00:00</lastmod>
+    <lastmod>2018-01-25T00:40:18+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -774,7 +798,7 @@
   
   <url>
     <loc>http://khal.web.id/post/</loc>
-    <lastmod>2016-09-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-25T00:40:18+07:00</lastmod>
     <priority>0</priority>
   </url>
   
