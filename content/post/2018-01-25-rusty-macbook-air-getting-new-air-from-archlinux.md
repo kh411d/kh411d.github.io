@@ -11,7 +11,7 @@ tags = ["macbook-air", "archlinux","linux","operating-system","osx"]
 title = "Rusty Macbook Air getting new Air from Archlinux"
 +++
 
-
+![Archlinux Screenfetch](/images/arch-screenfetch.png)
 Today I accidentally deleted my primary osx partition of my very old macbook air 4,2 (2011) last installed os was el capitan. Actually I just want to clean up/reset my macbook to give up some extra space, I seriously don't know how in the hell this could happened, a lesson for me not to clean your HDD in the middle of the night.
 
 Following up the tutorial from apple website on show to reinstall osx, turns out that I have to download 10Gb update including el capitan. 
