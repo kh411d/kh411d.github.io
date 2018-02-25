@@ -581,6 +581,12 @@
   </url>
   
   <url>
+    <loc>http://khal.web.id/tags/gaming/</loc>
+    <lastmod>2016-05-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://khal.web.id/tags/google/</loc>
     <lastmod>2015-05-02T15:50:00+00:00</lastmod>
     <priority>0</priority>
@@ -647,6 +653,12 @@
   </url>
   
   <url>
+    <loc>http://khal.web.id/tags/iot/</loc>
+    <lastmod>2016-09-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://khal.web.id/tags/iphone/</loc>
     <lastmod>2014-08-18T13:39:28+00:00</lastmod>
     <priority>0</priority>
@@ -661,6 +673,12 @@
   <url>
     <loc>http://khal.web.id/tags/javascript/</loc>
     <lastmod>2010-07-02T14:27:23+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/jekyll/</loc>
+    <lastmod>2016-05-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -833,6 +851,18 @@
   </url>
   
   <url>
+    <loc>http://khal.web.id/tags/retro/</loc>
+    <lastmod>2016-05-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/retroarch/</loc>
+    <lastmod>2016-05-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://khal.web.id/tags/safari/</loc>
     <lastmod>2010-07-02T14:27:23+00:00</lastmod>
     <priority>0</priority>
@@ -919,6 +949,12 @@
   <url>
     <loc>http://khal.web.id/tags/watch/</loc>
     <lastmod>2014-08-18T13:39:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/wordpress/</loc>
+    <lastmod>2016-05-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

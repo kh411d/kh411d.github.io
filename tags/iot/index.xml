@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Iot on Khalid&#39;s Blog</title>
+    <link>http://khal.web.id/tags/iot/</link>
+    <description>Recent content in Iot on Khalid&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Sep 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://khal.web.id/tags/iot/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Apa sih IoT (Internet Of Things)</title>
+      <link>http://khal.web.id/2016/09/01/apa-sih-iot/</link>
+      <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://khal.web.id/2016/09/01/apa-sih-iot/</guid>
+      <description>Berawal dari trend gaya hidup sekarang dan kebutuhan aktivitas sehari-hari, penggunaan internet sudah tidak seperti dulu yang dimana hanya digunakan untuk sekedar browsing, streaming lagu, atau download film. Sudah banyak orang yang mulai menyadari bahwa internet itu bisa menjadi jembatan untuk meningkatkan kualitas hidup seseorang secara overall.
+Terlihat sudah banyaknya beredar dijual device/alat yang terhubung dengan internet untuk mencatat kegiatan orang sehari-hari, entah orang itu sedang berolah-raga, tidur, atau sesederhana seperti berjalan kaki sambil tidur.</description>
+    </item>
+    
+  </channel>
+</rss>
