@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  	<meta property="og:title" content="Burgle bros tool &middot; Khalid&#39;s Blog" />
+  	<meta property="og:site_name" content="Khalid&#39;s Blog" />
+  	<meta property="og:url" content="http://khal.web.id/burglebros/tool/" />
+
+
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Spontaneously wrote, from me to you to others for everyone" />
+
+    <title>Burgle bros tool &middot; Khalid&#39;s Blog</title>
+    <meta name="description" content="Spontaneously wrote, from me to you to others for everyone" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+	  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+ <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+<style type="text/css">
+	table.floor4x4 {
+  border: 0px solid #1C6EA4;
+  background-color: #FFF1D4;
+  width: 100%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+table.floor4x4 td {
+  border: 0.1em solid #CC4212;
+  padding-bottom: 25%;
+  width:25%;
+}
+img{
+	width: 100%;
+	height: auto;
+}
+
+.mark {
+	background: red;
+}
+.box {
+	margin-left: 5px;
+	margin-right: 5px; 
+	margin-bottom: 10px;
+}
+
+.center {
+  width: 80%;
+    height: 71%;
+    
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}  
+
+.hide {
+	display: none;
+} 
+.show {
+	display: visible;
+} 
+.width100 {
+	width:100%;
+}
+.width50 {
+	width:50%;
+}
+.pure-button {
+	background-color: #C15545
+}
+
+.guard {
+	background-image: url("/../../images/gbb.png"); 
+	background-size: cover;
+}
+
+body {
+	background-image: url("/../../images/bgbblayer.png");
+	background-position: -114px -45px;
+}
+</style>
+
+<script>
+   	
+
+   	$(function() {
+
+   		
+
+	   	deck = {
+	   		data : {
+	   			cards: [],
+		   		used:[],
+		   		discarded:[],
+		   		round: 1,
+		   		opt : {
+		   			ID : "",
+		   			css : "",
+			   		nrow : 0,
+			   		ncol : 0,
+			   		ndisc : 0,
+		   		}
+		   	},
+		   	init: function(opt) {
+		   		_self = jQuery.extend(true,{}, Object.create(this))
+		   		_self.data.opt.ID = opt.ID
+		   		_self.data.opt.css = opt.css
+		   		_self.data.opt.nrow = opt.nrow
+		   		_self.data.opt.ncol = opt.ncol
+		   		_self.load()
+		   		if (typeof opt.ndisc !== "undefined") {	
+		   			_self.data.opt.ndisc = opt.ndisc
+		   		}
+		   		if (_self.data.cards.length == 0) {
+		   			for (i=1;i<=(opt.nrow*opt.ncol);i++) {
+			   			_self.data.cards.push(i)
+			   		}
+			   		_self.shuffle()
+		   		}
+		   		return _self
+	   		},
+	   		count: function() {
+	   			return (this.data.opt.nrow * this.data.opt.ncol)
+	   		},
+	   		css: function() {
+	   			return this.data.opt.css
+	   		},
+	   		ndisc: function() {
+	   			return this.data.opt.ndisc
+	   		},
+	   		id : function() {
+	   			return this.data.opt.ID
+	   		},
+	   		set: function(cards) {
+	   			this.data.cards = cards
+	   			this.save()
+	   		},
+	   		shuffle: function() {
+	   			var currentIndex = this.data.cards.length, temporaryValue, randomIndex;
+				  while (0 !== currentIndex) {
+				    randomIndex = Math.floor(Math.random() * currentIndex);
+				    currentIndex -= 1;
+				    temporaryValue = this.data.cards[currentIndex];
+				    this.data.cards[currentIndex] = this.data.cards[randomIndex];
+				    this.data.cards[randomIndex] = temporaryValue;
+				  }
+				  this.discard()
+	   		},
+	   		pop: function(t) {
+	   			temp = []
+	   			if (this.data.cards.length == 0) {
+		   			this.reshuffle()
+		   		}
+	   			for (i=1;i<=t;i++) {
+		   			card = this.data.cards.pop()
+	   				this.data.used.push(card)
+	   				temp.push(card)
+		   		}
+		   		this.save()
+		   		if (temp.length == 1) return temp[0]  
+	   			return temp
+	   		},
+	   		reshuffle: function() {
+	   			this.data.cards = []
+	   			this.data.used = []
+			   	this.data.discarded = []
+	   			this.data.round++
+	   			for (i=1;i<=this.count();i++) {
+		   			this.data.cards.push(i)
+		   		}
+		   		this.shuffle()
+	   		},
+	   		discard: function() {
+	   			if (this.ndisc() > 0) {
+	   				for (i=1;i<=this.ndisc();i++) {
+			   			v = this.data.cards.splice(Math.floor(Math.random() * (this.data.cards.length - 1)), 1); 
+			   			this.data.discarded.push(v[0])
+			   		}	
+	   			} 
+	   			this.save()
+	   		},
+	   		rput: function(card) {
+	   			this.data.cards.push(card) 
+	   			this.remove(this.data.used,card)
+	   		},
+	   		lput: function(card) {
+	   			this.data.cards.unshift(card)
+	   			this.remove(this.data.used,card)
+	   		},
+	   		remove: function(array,card) {
+			    var idx = array.indexOf(card);
+				if (idx !== -1) array.splice(idx, 1);
+				this.save()
+			},
+			save : function() {
+				Cookies.set(this.id(),JSON.stringify(this.data))
+				
+				
+			},
+			load : function() {
+
+				if (typeof Cookies.get(this.id()) !== "undefined") {	
+					console.log("load "+this.id())
+		   		   this.data = JSON.parse(Cookies.get(this.id()))
+				}
+				return 
+			},
+			round : function() {
+		 		return parseInt(this.data.round)
+		 	},
+		 	incRound : function() {
+		 		this.data.round = this.round()+1
+		 		this.save()
+		 		return this.data.round
+		 	},
+		 	last: function() {
+		 		if (this.data.used.length > 1){
+		 			return this.data.used[this.data.used.length-2]	
+		 		} else {
+		 			return 0
+		 		}
+		 	},
+		 	reset : function() {
+			   	Cookies.remove(this.id())
+		 		this.data.cards = []
+			   	this.data.used = []
+			   	this.data.discarded = []
+			   	this.data.round = 1
+
+			   	for (i=1;i<=this.count();i++) {
+		   			this.data.cards.push(i)
+		   		}
+			   	this.shuffle()
+		 	}
+	   	}
+
+	   	display = {
+	   		card : function(domContainer,d,card) {
+	   			last = d.last()
+	   			css = d.css()
+	   			rows = d.data.opt.nrow 
+	   			cols = d.data.opt.ncol
+	   			num = 1
+	   			var t = $("<table>").addClass(css)
+			   	for(i=1; i<=rows; i++){
+				    var row = $('<tr>');
+				    for(j=1;j<=cols;j++){
+				    	var col = $('<td>');
+				    	  	if (card == num) {
+				    	  		col.addClass("mark");
+				    	  		if (last == 0) {
+				    	  			col.addClass('guard')
+				    	  		}
+				    	  	}
+				    	  	if (last == num) {
+				    	  		col.addClass('guard')
+				    	  	}
+				    	row.append(col);	
+				    	num++
+				    }	
+				    t.append(row)
+				}
+				domContainer.html(t);
+	   		},
+	   		toggle : function() {
+			    	$('#g-container').toggle()
+			    	$("#p-container").toggle()
+			    }
+	   	}
+
+	   	for (i=1;i<=3;i++) {
+	   			$("#g-container").append("<div class='pure-u-1-3'>"+
+											"<div class='box pure-button-group'>"+
+												"<button class='peek1 width50 pure-button'><i class='fa fa-eye'></i> 1</button>"+
+												"<button class='peek3 width50 pure-button'><i class='fa fa-eye'></i> 3</button>"+
+											"</div>"+
+											"<div class='handle box'>"+
+									    		"<img src='/images/bbguardback.png'>"+
+									    	"</div>"+
+									    	"<div class='box pure-g'>"+
+											    "<div class='pure-u-1-3'><button class='width100 pure-button'><i class='fa fa-flag-checkered'></i> <span class='round'></span></button></div>"+
+											    "<div class='pure-u-1-3'><button class='width100 pure-button'><i class='fa fa-paw'></i> <span class='left'></span></button></div>"+
+											    "<div class='pure-u-1-3'><button class='reset width100 pure-button'><i class='fa fa-recycle'></i></button></div>"+
+										    "</div>"+
+									    "</div>");
+   		}
+
+
+
+   	 	$('#g-container').children('div').each(function(idx) { 
+   	 		d = deck.init({
+		   			ID : (idx+1),
+		   			css : "floor4x4",
+			   		nrow : 4,
+			   		ncol : 4,
+			   		ndisc : 0
+		   		})
+   	 			
+   	 		
+		    $(this).children(".handle").on("click",{"d":d} , function(e) {
+				evt.card(e.data.d, $(this), $(this).next().find(".left"), $(this).next().find(".round"))
+			})
+		    $(this).find(".round").html(d.round())
+		    $(this).find(".left").html(d.data.cards.length)
+
+		    $(this).find(".peek1").on("click",{"d":d},function(e){
+		    	d = e.data.d
+		    	if (d.data.cards.length == 0) return;
+		    	
+			    $("#p-container").append("<div class='pure-u-1-3'>"+
+		    									"<button class='box pure-button width100'><i class='fa fa-level-down-alt'></i> Top</button>"+
+												"<div class='box'>"+
+										    	"</div>"+
+										    	"<button class='box width100 pure-button'><i class='fa fa-level-up-alt'></i> Bottom</button>"+
+										    "</div>")
+		    	
+		    	c = evt.peek1(d,$('#p-container div').find("div"))
+
+		    	$('#p-container div').find("button:first-child").on("click",{"d":d,"c":c},function(e){
+		    		evt.putTop(e.data.d,$(this).parent(),e.data.c)
+		    	})
+
+		    	$('#p-container div').find("button:last-child").on("click",{"d":d,"c":c},function(e){
+		    		evt.putBottom(e.data.d,$(this).parent(),e.data.c)
+		    	})
+		    })
+		    $(this).find(".peek3").on("click",{"d":d},function(e){
+		    	d = e.data.d
+		    	totalPeek = 3
+		    	if (d.data.cards.length == 0) {
+		    		return
+		    	}
+		    	if (d.data.cards.length < 3) {
+		    		totalPeek = d.data.cards.length
+		    	}
+		    	display.toggle()
+		    	for (i=1;i<=totalPeek;i++) {
+			    	 $("#p-container").append("<div class='pure-u-1-3'>"+
+												"<div class='box'>"+
+										    	"</div>"+
+										    "</div>")
+			 
+			    }
+
+			    $('#p-container').children('div').each(function(idx) { 
+			    	c = d.pop(1)
+			    	dom = $(this).find(":first-child")
+			    	display.card(dom,d,c)
+			    	dom.on("click",{"d":d,"c":c} , function(e) {
+						d = e.data.d
+						d.rput(e.data.c)
+						if ($(this).parent().parent().children().length == 1) {
+							display.toggle()
+						$(this).parent().remove()
+						return
+						}
+						$(this).parent().remove()
+					})
+
+			    })			   
+		    })
+
+		    $(this).find(".reset").on("click",{"d":d},function(e){
+		    	evt.reset(e.data.d,$(this).parent().parent())
+		    })
+
+
+		    evt = {
+		    	reset : function(d,dom) {
+						d.reset()
+				    	dom.parent().find(".handle").html("<img src='/images/bbguardback.png'>");
+				    	dom.find(".round").html(d.round())
+				    	dom.find(".left").html(d.data.cards.length)
+		    	},
+		    	card : function(d,domCard,domLeft,domRound) {
+		    		display.card(domCard,d,d.pop(1))
+					domLeft.html(d.data.cards.length)
+					domRound.html(d.round())
+		    	},
+		    	peek1 : function(d,domCard) {
+		    		c = d.pop(1)
+		    		display.toggle()
+		    		display.card(domCard,d,c)
+		    		return c
+		    	},
+		    	putTop : function(d,dom,cardToTop) {
+		    		d.rput(cardToTop)
+		    		display.toggle()
+					dom.remove()
+					return
+		    	},
+		    	putBottom : function(d,dom,cardToBottom) {
+		    		d.lput(cardToBottom)
+		    		display.toggle()
+					dom.remove()
+					return
+		    	}
+
+		    }
+		    
+
+
+		});
+	});
+
+
+   </script>
+
+</head>
+<body>
+	
+<div class="center">
+	<div class="pure-g show" id="g-container">
+	</div>
+	<div class="pure-g hide" id="p-container">
+	</div>
+</div>
+</body>
+</html>

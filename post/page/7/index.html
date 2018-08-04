@@ -66,7 +66,7 @@
         <link href="http://khal.web.id/post/index.xml" rel="alternate" type="application/rss+xml" title="Posts &middot; Khalid&#39;s Blog" />
       
     
-    <meta name="generator" content="Hugo 0.36" />
+    <meta name="generator" content="Hugo 0.44" />
 
     <link rel="canonical" href="http://khal.web.id/post/" />
 
@@ -192,6 +192,42 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </nav>
 
 	</div>
+
+	
+	   <article class="post post">
+    <header class="post-header">
+        <h2 class="post-title"><a href="/2011/03/03/replacement-of-fb-visible-to-connection-for-iframe-apps-on-facebook-page-tabs/">Replacement of fb visible-to-connection for iframe apps on facebook page tabs</a></h2>
+    </header>
+    <section class="post-excerpt">
+        
+            <p>Doing an IFRAME apps an somehow you want to use this tag below.
+&lt;pre lang=&quot;html&quot;&gt;&lt;fb:visible-to-connection&gt; Only connections should view this.. &lt;/fb:visible-to-connection&gt;  Don&rsquo;t worry , on each call from page tab you can get a &ldquo;signed_request&rdquo; variable, when you extract it you will get
+this,
+&lt;pre lang=&quot;html&quot;&gt; Array ( [algorithm] =&gt; HMAC-SHA256 [expires] =&gt; 0 [issued_at] =&gt; 1299140579 [oauth_token] =&gt; xxxxxxxxx|xxxxxxxxxxxxxxxx-xxxxxxxx|xxxxxx-xxxxxxxxxxxxxx [page] =&gt; Array ( [id] =&gt; xxxxxxxxxxxxxxxx [liked] =&gt; 1 [admin] =&gt; 1 ) [user] =&gt; Array ( [country] =&gt; id [locale] =&gt; en_US [age] =&gt; Array ( [min] =&gt; 21 ) ) [user_id] =&gt; xxxxxxxxxxx )  And then you can use &ldquo;liked&rdquo; value to determine if the user has already like the page. <a class="read-more" href="/2011/03/03/replacement-of-fb-visible-to-connection-for-iframe-apps-on-facebook-page-tabs/">&raquo;</a></p>
+        
+    </section>
+    <footer class="post-meta">
+        
+
+        
+            
+            
+
+            
+            <img class="author-thumb" src="/images/logo.jpeg" alt="Author image" nopin="nopin" />
+            
+            
+            
+            Khalid Adisendjaja
+                 
+        
+
+        
+        <time class="post-date" datetime="2011-03-03T15:31:09Z">
+            3 Mar 2011
+        </time>
+    </footer>
+</article>
 
 	
 	   <article class="post post">
@@ -522,40 +558,6 @@ the Indexed documents may have two type of id&rsquo;s, so I put database id on t
         
         <time class="post-date" datetime="2010-01-19T11:36:39Z">
             19 Jan 2010
-        </time>
-    </footer>
-</article>
-
-	
-	   <article class="post post">
-    <header class="post-header">
-        <h2 class="post-title"><a href="/2010/01/07/codeigniter-hmvc-and-your-own-layout-library/">Codeigniter HMVC and Your own Layout Library</a></h2>
-    </header>
-    <section class="post-excerpt">
-        
-            <p>I&rsquo;m using HMVC to make my web apps more modular, if you don&rsquo;t now what is HMVC you can check on Wiki, so then I&rsquo;m trying to make a partial output from some module to the big layout template , and then I came into problems when I make a layout library as usual you have to generate an instance of CI like this,
-&lt;pre lang=&quot;php&quot;&gt;$this-&gt;obj =&amp; get_instance();  and then I&rsquo;m trying to load a vew from some module, <a class="read-more" href="/2010/01/07/codeigniter-hmvc-and-your-own-layout-library/">&raquo;</a></p>
-        
-    </section>
-    <footer class="post-meta">
-        
-
-        
-            
-            
-
-            
-            <img class="author-thumb" src="/images/logo.jpeg" alt="Author image" nopin="nopin" />
-            
-            
-            
-            Khalid Adisendjaja
-                 
-        
-
-        
-        <time class="post-date" datetime="2010-01-07T20:12:51Z">
-            7 Jan 2010
         </time>
     </footer>
 </article>
