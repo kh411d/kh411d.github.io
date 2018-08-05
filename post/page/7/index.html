@@ -66,7 +66,7 @@
         <link href="http://khal.web.id/post/index.xml" rel="alternate" type="application/rss+xml" title="Posts &middot; Khalid&#39;s Blog" />
       
     
-    <meta name="generator" content="Hugo 0.44" />
+    <meta name="generator" content="Hugo 0.46" />
 
     <link rel="canonical" href="http://khal.web.id/post/" />
 
@@ -192,6 +192,41 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </nav>
 
 	</div>
+
+	
+	   <article class="post post">
+    <header class="post-header">
+        <h2 class="post-title"><a href="/2011/03/03/set-a-facebook-session-for-you-apps-from-access-token/">Set a facebook session app from access token</a></h2>
+    </header>
+    <section class="post-excerpt">
+        
+            <p>In some situation you will want to create a facebook session for your apps, for example you have a CODE
+variable from facebook after user granting your application and then you fetch the access token like this way below,
+&lt;pre lang=&quot;php&quot;&gt;$accessToken = file_get_contents(&quot;https://graph.facebook.com/oauth/access_token? client_id=YOUR_APP_ID&amp;redirect_uri=YOUR_URL&amp; client_secret=YOUR_APP_SECRET&amp;code=THE_CODE_FROM_ABOVE&quot;);  A session apps need these variables included (uid, access_token, and sig) I believe that you already had the latest facebook PHP-SDK, &ldquo;sig&rdquo; is a signature for your cookie base on your App Secret, your need to create session variables by manually and then set that variables with &ldquo;setSession&rdquo; method on PHP-SDK. <a class="read-more" href="/2011/03/03/set-a-facebook-session-for-you-apps-from-access-token/">&raquo;</a></p>
+        
+    </section>
+    <footer class="post-meta">
+        
+
+        
+            
+            
+
+            
+            <img class="author-thumb" src="/images/logo.jpeg" alt="Author image" nopin="nopin" />
+            
+            
+            
+            Khalid Adisendjaja
+                 
+        
+
+        
+        <time class="post-date" datetime="2011-03-03T15:52:36Z">
+            3 Mar 2011
+        </time>
+    </footer>
+</article>
 
 	
 	   <article class="post post">
@@ -525,39 +560,6 @@ the Indexed documents may have two type of id&rsquo;s, so I put database id on t
         
         <time class="post-date" datetime="2010-03-08T17:17:52Z">
             8 Mar 2010
-        </time>
-    </footer>
-</article>
-
-	
-	   <article class="post post">
-    <header class="post-header">
-        <h2 class="post-title"><a href="/2010/01/19/location-base-social-networkingapps/">Location base social networking apps</a></h2>
-    </header>
-    <section class="post-excerpt">
-        
-            <p>If anyone knows some apps like buddycloud, foyage, foursquare, I think their actually the same, the system telling you where your or someone nearby or a place nearby, interact with each others inside the system, fun isn&rsquo;t getting know where your friend are, hang out/shopping together, lost somewhere but thanks god you&rsquo;ve got your friend in the area, when I started google for others apps and it surprised me, that there&rsquo;s a lot of apps like that, just pick one of your favorite and then tell your friend, here the list I&rsquo;ve found, <a class="read-more" href="/2010/01/19/location-base-social-networkingapps/">&raquo;</a></p>
-        
-    </section>
-    <footer class="post-meta">
-        
-
-        
-            
-            
-
-            
-            <img class="author-thumb" src="/images/logo.jpeg" alt="Author image" nopin="nopin" />
-            
-            
-            
-            Khalid Adisendjaja
-                 
-        
-
-        
-        <time class="post-date" datetime="2010-01-19T11:36:39Z">
-            19 Jan 2010
         </time>
     </footer>
 </article>

@@ -363,6 +363,15 @@
     </item>
     
     <item>
+      <title>Hugo</title>
+      <link>http://khal.web.id/tags/hugo/</link>
+      <pubDate>Tue, 02 Jan 2018 23:18:55 +0700</pubDate>
+      
+      <guid>http://khal.web.id/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Icann</title>
       <link>http://khal.web.id/tags/icann/</link>
       <pubDate>Thu, 26 Mar 2015 14:49:58 +0000</pubDate>
@@ -455,7 +464,7 @@
     <item>
       <title>Jekyll</title>
       <link>http://khal.web.id/tags/jekyll/</link>
-      <pubDate>Tue, 03 May 2016 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 02 Jan 2018 23:18:55 +0700</pubDate>
       
       <guid>http://khal.web.id/tags/jekyll/</guid>
       <description></description>
@@ -764,6 +773,15 @@
       <pubDate>Tue, 17 Mar 2015 13:12:12 +0000</pubDate>
       
       <guid>http://khal.web.id/tags/socialmedia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Static Generator</title>
+      <link>http://khal.web.id/tags/static-generator/</link>
+      <pubDate>Tue, 02 Jan 2018 23:18:55 +0700</pubDate>
+      
+      <guid>http://khal.web.id/tags/static-generator/</guid>
       <description></description>
     </item>
     
