@@ -9,9 +9,10 @@ tags:
 - osx
 title: OS X El Capitan, taktik marketing terbaru Apple
 url: /2016/01/13/os-x-el-capitan-taktik-marketing-terbaru-apple/
+image: /images/el-cap-v-windows-10_thumb800.jpg
 ---
 
-![el-cap-v-windows-10_thumb800](/images/el-cap-v-windows-10_thumb800.jpg) Setelah 4 tahun berlalu dari 2012 lalu sebagai pemakai produk Apple yakni Macbook Air mid 2011 OS X Lion dan sama sekali gak pernah upgrade OS _(\*baca Operating System)_ dikarenakan taktik Apple yg dari dulu memang lebih fokus ke jualan hardware dibanding efisiensi penggunaan hardware.
+Setelah 4 tahun berlalu dari 2012 lalu sebagai pemakai produk Apple yakni Macbook Air mid 2011 OS X Lion dan sama sekali gak pernah upgrade OS _(\*baca Operating System)_ dikarenakan taktik Apple yg dari dulu memang lebih fokus ke jualan hardware dibanding efisiensi penggunaan hardware.
 
 Maksud gw cuman Apple sendiri yang jualan hardware melalui OS upgrade, alias kalo lo mau pake OS terbaru mending beli Macbook baru aja ... WTF _(\*baca What The F\*\*k)_ dikarenakan hardware Macbook lo yang lama udah gak dukung misal seperti kurang cepet lah cpu nya, kurang ram, harddisk blom ssd, dll.
 

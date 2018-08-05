@@ -1,9 +1,17 @@
----
-date: 2016-05-16T00:00:00Z
-title: How to retro gaming with RetroArch
-url: /2016/05/16/how-to-retro-gaming-with-retroarch/
----
-![RetroArch retro gaming](/images/retroarchgaming.jpg) I'm actually accidentaly found this awesome stuff over the internet when I was googling about super mario game, a website called [Emuparadise](www.emuparadise.me/
++++
+author = ""
+comments = true # set false to hide Disqus
+date = "2016-05-16T00:00:00Z"
+draft = false
+image = "/images/retroarchgaming.jpg"
+menu = ""       # set "main" to add this content to the main menu
+share = true    # set false to hide share buttons
+slug = "how-to-retro-gaming-with-retroarch"
+tags = ["gaming", "retro","retroarch"]
+title = "How to retro gaming with RetroArch"
+url = "/2016/05/16/how-to-retro-gaming-with-retroarch/"
++++
+I'm actually accidentaly found this awesome stuff over the internet when I was googling about super mario game, a website called [Emuparadise](www.emuparadise.me/
 ) point me directly to [RetroArch website](http://www.libretro.com/index.php/home-2/). At first thought maybe it's just another kind of emulator that specific to just one console, a little bit curious so then I tried this emulator, surprisingly it can run on many platform such as Linux, Windows, Blackberry, OSX, RaspberryPi, Android, iOS and it can be installed on some gaming device such as Xbox, Playstation, GameCube, Wii, 3DS. Crossplatform emulator is awesome don't you think?
 
 That's not all guys, RetroArch can emulate a lot of gaming console start form Atari to Nintendo, so this RetroArch is like a container for many retro gaming console, all console in one app! How awesome that can be. But there will always be a downward when we tight a different stuff into one bucket, ex. user will take long time to configure the system for a specific console device. But it doesn't matter for me, because it's worth it, the developers put a great effort on this, beers for all. 

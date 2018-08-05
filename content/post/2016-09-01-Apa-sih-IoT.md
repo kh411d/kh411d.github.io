@@ -1,9 +1,18 @@
----
-date: 2016-09-01T00:00:00Z
-title: Apa sih IoT (Internet Of Things)
-url: /2016/09/01/apa-sih-iot/
----
-![Apa sih IoT](/images/IoT.jpg) Berawal dari trend gaya hidup sekarang dan kebutuhan aktivitas sehari-hari, penggunaan internet sudah tidak seperti dulu yang dimana hanya digunakan untuk sekedar browsing, streaming lagu, atau download film. Sudah banyak orang yang mulai menyadari bahwa internet itu bisa menjadi jembatan untuk meningkatkan kualitas hidup seseorang secara overall.
++++
+author = ""
+comments = true # set false to hide Disqus
+date = "2016-09-01T00:00:00Z"
+draft = false
+image = "/images/IoT.jpg"
+menu = ""       # set "main" to add this content to the main menu
+share = true    # set false to hide share buttons
+slug = "Apa-sih-Iot"
+tags = ["iot"]
+title = "Apa sih IoT (Internet Of Things)"
+url = "/2016/09/01/apa-sih-iot/"
++++
+
+Berawal dari trend gaya hidup sekarang dan kebutuhan aktivitas sehari-hari, penggunaan internet sudah tidak seperti dulu yang dimana hanya digunakan untuk sekedar browsing, streaming lagu, atau download film. Sudah banyak orang yang mulai menyadari bahwa internet itu bisa menjadi jembatan untuk meningkatkan kualitas hidup seseorang secara overall.
 
 Terlihat sudah banyaknya beredar dijual device/alat yang terhubung dengan internet untuk mencatat kegiatan orang sehari-hari, entah orang itu sedang berolah-raga, tidur, atau sesederhana seperti berjalan kaki sambil tidur. 
 

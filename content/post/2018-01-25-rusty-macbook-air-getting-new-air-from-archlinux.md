@@ -11,24 +11,23 @@ tags = ["macbook-air", "archlinux","linux","operating-system","osx"]
 title = "Rusty Macbook Air getting new Air from Archlinux"
 +++
 
-![Archlinux Screenfetch](/images/arch-screenfetch.png)
-Today I accidentally deleted my primary osx partition of my very old macbook air 4,2 (2011) last installed os was el capitan. Actually I just want to clean up/reset my macbook to give up some extra space, I seriously don't know how in the hell this could happened, a lesson for me not to clean your HDD in the middle of the night.
+Today I accidentally deleted my primary osx partition from my very old macbook air 4,2 (2011) with last installed os was el capitan. From the beginning I just want to give my macbook some extra space but it turns out cleaning all the HDD ...LOL, I seriously don't know how in the hell this could happened, this is a lesson for not to clean your HDD in the middle of the night.
 
-Following up the tutorial from apple website on show to reinstall osx, turns out that I have to download 10Gb update including el capitan. 
+And then I follow up the step from apple website on how to reinstall osx, turns out that I have to download 10Gb update including el capitan. 
 
 # Whaaa whaa whaaaaattttt!!!
 
-Without a doubt I immediately cancel the download, had crossed my mind to install linux os, hmm but what distro can be installed? Googled around and I found that Archlinux is a better option because of its crowded community, simplicity and support for many file systems. And also I like how archlinux define simplicity,
+Without a doubt I immediately cancel the download, had crossed my mind to get a linux os. So many distro can be installed, googled around and I found that Archlinux is a better option because of its crowded community, simplicity and support for many file systems. And also I like how archlinux define simplicity,
 
 > without unnecessary additions or modifications 
 
-much more customable by your needs, imagine as one big playground of LEGO blocks for operating system. You just need to download 500Mb Archlinux Iso to get this done, Compare with 10Gb download and an endless waiting.
+much more customable by your needs, imagine it as a one big playground of LEGO blocks for operating system. You only need a 500Mb Archlinux Iso to get this done, Compare with 10Gb download and an endless waiting.
 
 I'd like to share my experience starting from installing Archlinux and get started with Archlinux, me myself is not a linux power user, I do a lot of googling to get through the installaion, so here I'll explain all of my finding.
 
 #### Get the ISO forget the Archboot
 
-I'd like to have something such as ubuntu light GUI that will guide you through the installation step, so then I found Archboot, been trying to install the usb bootdisk several times with no luck so its just wasting my time, it seems this archboot iso is outdated, I gave up.
+I'd like to have something such as ubuntu light GUI that will guide you through the installation step, so then I found Archboot, been trying to install Archlinux from Archboot usb bootdisk several times with no luck so its just wasting my time, it seems this archboot iso is outdated, I gave up.
 It would be better if you could just use the iso that you can download here [https://www.archlinux.org/download/](https://www.archlinux.org/download/)
 
 #### Boot to Arch ISO
@@ -143,7 +142,7 @@ My interface is **wlp2s0b1**
 # ping google.com
 ```
 
-To connect to WiFi network run
+If you can use WiFi, connect it with this command, 
 ```
 # wifi-menu
 ```

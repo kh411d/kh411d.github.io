@@ -6,9 +6,10 @@ date_gmt: 2015-08-26 08:56:02 +0700
 tags: []
 title: Bokek nih! Gimana kalo saweran, biar keren bilang aja Crowdfunding
 url: /2015/08/26/bokek-nih-gimana-kalo-saweran-biar-keren-bilang-aja-crowdfunding/
+image: /images/minioncrowdfund.jpg
 ---
 
-[![minioncrowdfund](/images/minioncrowdfund.jpg)](/images/minioncrowdfund.jpg)Bicara soal saweran atau biasa kita bilang patungan atau sekarang ada istilah yang lebih kerennya yaitu Crowdfunding.
+Bicara soal saweran atau biasa kita bilang patungan atau sekarang ada istilah yang lebih kerennya yaitu Crowdfunding.
 
 Patungan/Saweran sebenarnya adalah suatu kegiatan yang sudah ada sejak zaman nenek moyang kita dahulu kala, ini biasa dilakukan pada banyak kegiatan-kegiatan di masyarakat dan tentunya hasilnya pun untuk kepentingan masyarakat itu sendiri pula.
 

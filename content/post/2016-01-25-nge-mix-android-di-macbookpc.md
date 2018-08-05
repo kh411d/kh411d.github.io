@@ -11,9 +11,10 @@ tags:
 - macbook
 title: Nge-mix Android di Macbook/PC
 url: /2016/01/25/nge-mix-android-di-macbookpc/
+image: /images/wpremixos.jpg
 ---
 
-[![wpremixos](/images/wpremixos.jpg)](http://www.jide.com/remixos) Mungkin banyak yg sudah pada tahu kelebihan Android ini, tetapi kebanyakan orang terbiasa tahu bahwa android hanya running di henpon, tablet, IOT devices, atau mini PC dengan USB stick.
+Mungkin banyak yg sudah pada tahu kelebihan Android ini, tetapi kebanyakan orang terbiasa tahu bahwa android hanya running di henpon, tablet, IOT devices, atau mini PC dengan USB stick.
 
 Meskipun bisa di install di banyak device, akan tetapi Operating System yang terinstall pun adalah notabene sama seperti yg kita lihat pada android phone/tablet kebanyakan, misal meski bernama android mini PC, OS yg terinstall pun adalah varian untuk tablet device.
 

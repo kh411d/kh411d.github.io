@@ -1,10 +1,18 @@
----
-date: 2016-05-03T00:00:00Z
-title: Bye Wordpress, Hello ... ?
-url: /2016/05/03/bye-wordpress-hello/
----
++++
+author = ""
+comments = true # set false to hide Disqus
+draft = false
+image = "/images/jekyllbloggingthesedays.jpg"
+menu = ""       # set "main" to add this content to the main menu
+share = true    # set false to hide share buttons
+slug = "bye-wordpress-hello"
+tags = ["jekyll", "wordpress"]
+date = "2016-05-03T00:00:00Z"
+title = "Bye Wordpress, Hello ... ?"
+url = "/2016/05/03/bye-wordpress-hello/"
++++
 
-![Jekyll blogging these days](/images/jekyllbloggingthesedays.jpg) It's been a long years since I used wordpress on 2006 as my blogging platform, back in the old days there's nothing can beat what wordpress offer for bloggers. So many themes, plugins, and It's still the most-used and well known blogging platform until now.
+It's been a long years since I used wordpress on 2006 as my blogging platform, back in the old days there's nothing can beat what wordpress offer for bloggers. So many themes, plugins, and It's still the most-used and well known blogging platform until now.
 
 According to [W3Techs 2016 Survey](http://w3techs.com/technologies/details/cm-wordpress/all/all), WordPress is used by 59.3% of all the websites whose content management system we know. This is 26.4% of all websites. Every years website powered by wordpress is significantly rise.
 

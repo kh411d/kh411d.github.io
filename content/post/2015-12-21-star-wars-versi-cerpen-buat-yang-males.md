@@ -6,9 +6,10 @@ date_gmt: 2015-12-21 05:25:19 +0700
 tags: []
 title: Star Wars versi cerpen, buat yang males ngikutin ....
 url: /2015/12/21/star-wars-versi-cerpen-buat-yang-males/
+image: /images/starwars-china.jpg
 ---
 
-[![starwars china](/images/starwars-china.jpg)](/images/starwars-china.jpg) Berawal dari sebuah acara talkshow "The Late Show with Stephen Colbert" Stephen menuturkan bahwa sebenarnya tidak semua orang begitu antusias dengan peluncuran film Star Wars yang baru-baru ini heboh di media massa, contoh saja China, dari sekian banyak penduduk bahkan tidak begitu mengetahui tentang film Star Wars ini.
+Berawal dari sebuah acara talkshow "The Late Show with Stephen Colbert" Stephen menuturkan bahwa sebenarnya tidak semua orang begitu antusias dengan peluncuran film Star Wars yang baru-baru ini heboh di media massa, contoh saja China, dari sekian banyak penduduk bahkan tidak begitu mengetahui tentang film Star Wars ini.
 
 Lalu Stephen mulai menuturkan plot-plot simpel untuk non penggemar Star Wars dimana menurut gw cukup kocak, jenius dan menghibur berikut penuturannya,
 

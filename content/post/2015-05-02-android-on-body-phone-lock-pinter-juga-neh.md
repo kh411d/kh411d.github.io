@@ -13,9 +13,10 @@ tags:
 - lock-screen
 title: Android On-Body phone lock, pinter juga neh!
 url: /2015/05/02/android-on-body-phone-lock-pinter-juga-neh/
+image: /images/android-smartlock.jpg
 ---
 
-[![android-smartlock](/images/android-smartlock.jpg)](/images/android-smartlock.jpg) Tentunya penting buat kita semua untuk menjaga privasi dan keamanan henpon pribadi entah dari kelalaian kita sendiri atau tangan-tangan usil lainnya.
+Tentunya penting buat kita semua untuk menjaga privasi dan keamanan henpon pribadi entah dari kelalaian kita sendiri atau tangan-tangan usil lainnya.
 
 Oleh karena itulah pada umumnya setiap henpon memiliki beberapa sistem keamanan dan salah satunya adalah Lock Screen system, yang berguna untuk mengunci henpon pengguna dengan sebuah PIN atau Pattern matching ketika henpon sedang berada dalam kondisi tidak digunakan.
 

@@ -10,9 +10,10 @@ tags:
 - co-op
 title: Kopi kental manis, Team Building dan Boardgaming
 url: /2016/01/11/kopi-kental-manis-team-building-dan-boardgaming/
+image: /images/tbluhours.jpg
 ---
 
-![tbluhours](/images/tbluhours.jpg) Hmm... Boardgame, kalo mungkin dulu kita sering sebut ular tangga, halma, catur, monopoli, gaple, bola bekél atau yg gak kalah terkenalnya sebut aja congklak yg kalo di luar indo biasa disebut mancala. Tipikal jenis permainan dari boardgame biasanya lebih bersifat kompetitif dimana setiap pemain berusaha mendapatkan skor tertinggi atau menyelesaikan permainan lebih dulu, ataupun ada yg bersifat Co-op dimana setiap pemain diharuskan bekerja sama demi memenangkan sebuah permainan.
+Hmm... Boardgame, kalo mungkin dulu kita sering sebut ular tangga, halma, catur, monopoli, gaple, bola bekél atau yg gak kalah terkenalnya sebut aja congklak yg kalo di luar indo biasa disebut mancala. Tipikal jenis permainan dari boardgame biasanya lebih bersifat kompetitif dimana setiap pemain berusaha mendapatkan skor tertinggi atau menyelesaikan permainan lebih dulu, ataupun ada yg bersifat Co-op dimana setiap pemain diharuskan bekerja sama demi memenangkan sebuah permainan.
 
 Boardgame pun kini cukup berkembang dari sisi tema, grafis, mekanik, dan bahkan ada yg bisa dimainkan sampai 20 orang lebih. Publishernya pun beraneka ragam, ada yg dari Eropa, Amerika, sampai buatan lokal seperti Mat Goceng, Lagak Jakarta, Mahardika, dll.
 
