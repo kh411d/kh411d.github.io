@@ -68,7 +68,7 @@
     <item>
       <title>Android</title>
       <link>http://khal.web.id/tags/android/</link>
-      <pubDate>Mon, 25 Jan 2016 13:02:42 +0000</pubDate>
+      <pubDate>Mon, 06 Aug 2018 23:08:09 +0700</pubDate>
       
       <guid>http://khal.web.id/tags/android/</guid>
       <description></description>
@@ -426,6 +426,15 @@
     </item>
     
     <item>
+      <title>Ios</title>
+      <link>http://khal.web.id/tags/ios/</link>
+      <pubDate>Mon, 06 Aug 2018 23:08:09 +0700</pubDate>
+      
+      <guid>http://khal.web.id/tags/ios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Iot</title>
       <link>http://khal.web.id/tags/iot/</link>
       <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
@@ -660,6 +669,15 @@
     </item>
     
     <item>
+      <title>Pebble</title>
+      <link>http://khal.web.id/tags/pebble/</link>
+      <pubDate>Mon, 06 Aug 2018 23:08:09 +0700</pubDate>
+      
+      <guid>http://khal.web.id/tags/pebble/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Portainer</title>
       <link>http://khal.web.id/tags/portainer/</link>
       <pubDate>Sun, 18 Feb 2018 13:38:36 +0700</pubDate>
@@ -752,7 +770,7 @@
     <item>
       <title>Smartwatch</title>
       <link>http://khal.web.id/tags/smartwatch/</link>
-      <pubDate>Mon, 18 Aug 2014 13:39:28 +0000</pubDate>
+      <pubDate>Mon, 06 Aug 2018 23:08:09 +0700</pubDate>
       
       <guid>http://khal.web.id/tags/smartwatch/</guid>
       <description></description>
@@ -854,6 +872,15 @@
       <pubDate>Mon, 18 Aug 2014 13:39:28 +0000</pubDate>
       
       <guid>http://khal.web.id/tags/watch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wearos</title>
+      <link>http://khal.web.id/tags/wearos/</link>
+      <pubDate>Mon, 06 Aug 2018 23:08:09 +0700</pubDate>
+      
+      <guid>http://khal.web.id/tags/wearos/</guid>
       <description></description>
     </item>
     
