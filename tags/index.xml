@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Khalid&#39;s Blog</title>
@@ -6,17 +6,638 @@
     <description>Recent content in Tags on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Jul 2014 16:03:57 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Aug 2018 23:08:09 +0700</lastBuildDate>
     
 	<atom:link href="http://khal.web.id/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>#Ifttt</title>
-      <link>http://khal.web.id/tags/#ifttt/</link>
-      <pubDate>Fri, 11 Jul 2014 16:03:57 +0000</pubDate>
+      <title>android</title>
+      <link>http://khal.web.id/tags/android/</link>
+      <pubDate>Mon, 06 Aug 2018 23:08:09 +0700</pubDate>
       
-      <guid>http://khal.web.id/tags/#ifttt/</guid>
+      <guid>http://khal.web.id/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ios</title>
+      <link>http://khal.web.id/tags/ios/</link>
+      <pubDate>Mon, 06 Aug 2018 23:08:09 +0700</pubDate>
+      
+      <guid>http://khal.web.id/tags/ios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pebble</title>
+      <link>http://khal.web.id/tags/pebble/</link>
+      <pubDate>Mon, 06 Aug 2018 23:08:09 +0700</pubDate>
+      
+      <guid>http://khal.web.id/tags/pebble/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>smartwatch</title>
+      <link>http://khal.web.id/tags/smartwatch/</link>
+      <pubDate>Mon, 06 Aug 2018 23:08:09 +0700</pubDate>
+      
+      <guid>http://khal.web.id/tags/smartwatch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wearos</title>
+      <link>http://khal.web.id/tags/wearos/</link>
+      <pubDate>Mon, 06 Aug 2018 23:08:09 +0700</pubDate>
+      
+      <guid>http://khal.web.id/tags/wearos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>http://khal.web.id/tags/docker/</link>
+      <pubDate>Sun, 18 Feb 2018 13:38:36 +0700</pubDate>
+      
+      <guid>http://khal.web.id/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker-manager</title>
+      <link>http://khal.web.id/tags/docker-manager/</link>
+      <pubDate>Sun, 18 Feb 2018 13:38:36 +0700</pubDate>
+      
+      <guid>http://khal.web.id/tags/docker-manager/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>http://khal.web.id/tags/linux/</link>
+      <pubDate>Sun, 18 Feb 2018 13:38:36 +0700</pubDate>
+      
+      <guid>http://khal.web.id/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>osx</title>
+      <link>http://khal.web.id/tags/osx/</link>
+      <pubDate>Sun, 18 Feb 2018 13:38:36 +0700</pubDate>
+      
+      <guid>http://khal.web.id/tags/osx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>portainer</title>
+      <link>http://khal.web.id/tags/portainer/</link>
+      <pubDate>Sun, 18 Feb 2018 13:38:36 +0700</pubDate>
+      
+      <guid>http://khal.web.id/tags/portainer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows</title>
+      <link>http://khal.web.id/tags/windows/</link>
+      <pubDate>Sun, 18 Feb 2018 13:38:36 +0700</pubDate>
+      
+      <guid>http://khal.web.id/tags/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>archlinux</title>
+      <link>http://khal.web.id/tags/archlinux/</link>
+      <pubDate>Thu, 25 Jan 2018 00:40:18 +0700</pubDate>
+      
+      <guid>http://khal.web.id/tags/archlinux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>macbook-air</title>
+      <link>http://khal.web.id/tags/macbook-air/</link>
+      <pubDate>Thu, 25 Jan 2018 00:40:18 +0700</pubDate>
+      
+      <guid>http://khal.web.id/tags/macbook-air/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>operating-system</title>
+      <link>http://khal.web.id/tags/operating-system/</link>
+      <pubDate>Thu, 25 Jan 2018 00:40:18 +0700</pubDate>
+      
+      <guid>http://khal.web.id/tags/operating-system/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>http://khal.web.id/tags/hugo/</link>
+      <pubDate>Tue, 02 Jan 2018 23:18:55 +0700</pubDate>
+      
+      <guid>http://khal.web.id/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jekyll</title>
+      <link>http://khal.web.id/tags/jekyll/</link>
+      <pubDate>Tue, 02 Jan 2018 23:18:55 +0700</pubDate>
+      
+      <guid>http://khal.web.id/tags/jekyll/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>static-generator</title>
+      <link>http://khal.web.id/tags/static-generator/</link>
+      <pubDate>Tue, 02 Jan 2018 23:18:55 +0700</pubDate>
+      
+      <guid>http://khal.web.id/tags/static-generator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iot</title>
+      <link>http://khal.web.id/tags/iot/</link>
+      <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/iot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gaming</title>
+      <link>http://khal.web.id/tags/gaming/</link>
+      <pubDate>Mon, 16 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/gaming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>retro</title>
+      <link>http://khal.web.id/tags/retro/</link>
+      <pubDate>Mon, 16 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/retro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>retroarch</title>
+      <link>http://khal.web.id/tags/retroarch/</link>
+      <pubDate>Mon, 16 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/retroarch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wordpress</title>
+      <link>http://khal.web.id/tags/wordpress/</link>
+      <pubDate>Tue, 03 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/wordpress/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>androidx86</title>
+      <link>http://khal.web.id/tags/androidx86/</link>
+      <pubDate>Mon, 25 Jan 2016 13:02:42 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/androidx86/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>apple</title>
+      <link>http://khal.web.id/tags/apple/</link>
+      <pubDate>Mon, 25 Jan 2016 13:02:42 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/apple/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>macbook</title>
+      <link>http://khal.web.id/tags/macbook/</link>
+      <pubDate>Mon, 25 Jan 2016 13:02:42 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/macbook/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>remixos</title>
+      <link>http://khal.web.id/tags/remixos/</link>
+      <pubDate>Mon, 25 Jan 2016 13:02:42 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/remixos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>elcapitan</title>
+      <link>http://khal.web.id/tags/elcapitan/</link>
+      <pubDate>Wed, 13 Jan 2016 01:15:44 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/elcapitan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>boardgame</title>
+      <link>http://khal.web.id/tags/boardgame/</link>
+      <pubDate>Mon, 11 Jan 2016 13:59:10 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/boardgame/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>co-op</title>
+      <link>http://khal.web.id/tags/co-op/</link>
+      <pubDate>Mon, 11 Jan 2016 13:59:10 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/co-op/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>team-building</title>
+      <link>http://khal.web.id/tags/team-building/</link>
+      <pubDate>Mon, 11 Jan 2016 13:59:10 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/team-building/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>teamwork</title>
+      <link>http://khal.web.id/tags/teamwork/</link>
+      <pubDate>Mon, 11 Jan 2016 13:59:10 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/teamwork/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>android-L</title>
+      <link>http://khal.web.id/tags/android-L/</link>
+      <pubDate>Sat, 02 May 2015 15:50:00 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/android-L/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>google</title>
+      <link>http://khal.web.id/tags/google/</link>
+      <pubDate>Sat, 02 May 2015 15:50:00 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/google/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lock-screen</title>
+      <link>http://khal.web.id/tags/lock-screen/</link>
+      <pubDate>Sat, 02 May 2015 15:50:00 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/lock-screen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lollipop</title>
+      <link>http://khal.web.id/tags/lollipop/</link>
+      <pubDate>Sat, 02 May 2015 15:50:00 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/lollipop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>security</title>
+      <link>http://khal.web.id/tags/security/</link>
+      <pubDate>Sat, 02 May 2015 15:50:00 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>smartlock</title>
+      <link>http://khal.web.id/tags/smartlock/</link>
+      <pubDate>Sat, 02 May 2015 15:50:00 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/smartlock/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bitcoin</title>
+      <link>http://khal.web.id/tags/bitcoin/</link>
+      <pubDate>Thu, 23 Apr 2015 17:48:39 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/bitcoin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>digital-currency</title>
+      <link>http://khal.web.id/tags/digital-currency/</link>
+      <pubDate>Thu, 23 Apr 2015 17:48:39 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/digital-currency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cloud</title>
+      <link>http://khal.web.id/tags/cloud/</link>
+      <pubDate>Mon, 20 Apr 2015 10:00:00 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>music-player</title>
+      <link>http://khal.web.id/tags/music-player/</link>
+      <pubDate>Mon, 20 Apr 2015 10:00:00 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/music-player/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>opensource</title>
+      <link>http://khal.web.id/tags/opensource/</link>
+      <pubDate>Mon, 20 Apr 2015 10:00:00 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/opensource/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>social</title>
+      <link>http://khal.web.id/tags/social/</link>
+      <pubDate>Mon, 20 Apr 2015 10:00:00 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/social/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tomahawk</title>
+      <link>http://khal.web.id/tags/tomahawk/</link>
+      <pubDate>Mon, 20 Apr 2015 10:00:00 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/tomahawk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>frame-busting</title>
+      <link>http://khal.web.id/tags/frame-busting/</link>
+      <pubDate>Sun, 19 Apr 2015 15:42:06 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/frame-busting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iframe</title>
+      <link>http://khal.web.id/tags/iframe/</link>
+      <pubDate>Sun, 19 Apr 2015 15:42:06 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/iframe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>isp</title>
+      <link>http://khal.web.id/tags/isp/</link>
+      <pubDate>Sun, 19 Apr 2015 15:42:06 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/isp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>telco</title>
+      <link>http://khal.web.id/tags/telco/</link>
+      <pubDate>Sun, 19 Apr 2015 15:42:06 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/telco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ads</title>
+      <link>http://khal.web.id/tags/ads/</link>
+      <pubDate>Sat, 18 Apr 2015 23:30:00 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/ads/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dns</title>
+      <link>http://khal.web.id/tags/dns/</link>
+      <pubDate>Sat, 18 Apr 2015 23:30:00 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/dns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dnscrypt</title>
+      <link>http://khal.web.id/tags/dnscrypt/</link>
+      <pubDate>Sat, 18 Apr 2015 23:30:00 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/dnscrypt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>intrusive</title>
+      <link>http://khal.web.id/tags/intrusive/</link>
+      <pubDate>Sat, 18 Apr 2015 23:30:00 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/intrusive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>opendns</title>
+      <link>http://khal.web.id/tags/opendns/</link>
+      <pubDate>Sat, 18 Apr 2015 23:30:00 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/opendns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cyandelta</title>
+      <link>http://khal.web.id/tags/cyandelta/</link>
+      <pubDate>Tue, 14 Apr 2015 07:20:00 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/cyandelta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cyanogen</title>
+      <link>http://khal.web.id/tags/cyanogen/</link>
+      <pubDate>Tue, 14 Apr 2015 07:20:00 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/cyanogen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CyanogenMod</title>
+      <link>http://khal.web.id/tags/CyanogenMod/</link>
+      <pubDate>Tue, 14 Apr 2015 07:20:00 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/CyanogenMod/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>oneplus</title>
+      <link>http://khal.web.id/tags/oneplus/</link>
+      <pubDate>Tue, 14 Apr 2015 07:20:00 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/oneplus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>acquisition</title>
+      <link>http://khal.web.id/tags/acquisition/</link>
+      <pubDate>Tue, 31 Mar 2015 18:14:06 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/acquisition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>akusisi</title>
+      <link>http://khal.web.id/tags/akusisi/</link>
+      <pubDate>Tue, 31 Mar 2015 18:14:06 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/akusisi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bisnis</title>
+      <link>http://khal.web.id/tags/bisnis/</link>
+      <pubDate>Tue, 31 Mar 2015 18:14:06 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/bisnis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>facebook</title>
+      <link>http://khal.web.id/tags/facebook/</link>
+      <pubDate>Tue, 31 Mar 2015 18:14:06 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/facebook/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>india</title>
+      <link>http://khal.web.id/tags/india/</link>
+      <pubDate>Tue, 31 Mar 2015 18:14:06 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/india/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>missed-call</title>
+      <link>http://khal.web.id/tags/missed-call/</link>
+      <pubDate>Tue, 31 Mar 2015 18:14:06 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/missed-call/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>twitter</title>
+      <link>http://khal.web.id/tags/twitter/</link>
+      <pubDate>Tue, 31 Mar 2015 18:14:06 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/twitter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>zero-marketing</title>
+      <link>http://khal.web.id/tags/zero-marketing/</link>
+      <pubDate>Tue, 31 Mar 2015 18:14:06 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/zero-marketing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>zipdial</title>
+      <link>http://khal.web.id/tags/zipdial/</link>
+      <pubDate>Tue, 31 Mar 2015 18:14:06 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/zipdial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>domain-name</title>
+      <link>http://khal.web.id/tags/domain-name/</link>
+      <pubDate>Thu, 26 Mar 2015 14:49:58 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/domain-name/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gtld</title>
+      <link>http://khal.web.id/tags/gtld/</link>
+      <pubDate>Thu, 26 Mar 2015 14:49:58 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/gtld/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>icann</title>
+      <link>http://khal.web.id/tags/icann/</link>
+      <pubDate>Thu, 26 Mar 2015 14:49:58 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/icann/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tld</title>
+      <link>http://khal.web.id/tags/tld/</link>
+      <pubDate>Thu, 26 Mar 2015 14:49:58 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/tld/</guid>
       <description></description>
     </item>
     
@@ -30,628 +651,7 @@
     </item>
     
     <item>
-      <title>Acquisition</title>
-      <link>http://khal.web.id/tags/acquisition/</link>
-      <pubDate>Tue, 31 Mar 2015 18:14:06 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/acquisition/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ads</title>
-      <link>http://khal.web.id/tags/ads/</link>
-      <pubDate>Sat, 18 Apr 2015 23:30:00 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/ads/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ajax</title>
-      <link>http://khal.web.id/tags/ajax/</link>
-      <pubDate>Tue, 12 Aug 2014 12:04:45 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/ajax/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Akusisi</title>
-      <link>http://khal.web.id/tags/akusisi/</link>
-      <pubDate>Tue, 31 Mar 2015 18:14:06 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/akusisi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Android</title>
-      <link>http://khal.web.id/tags/android/</link>
-      <pubDate>Mon, 06 Aug 2018 23:08:09 +0700</pubDate>
-      
-      <guid>http://khal.web.id/tags/android/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Android L</title>
-      <link>http://khal.web.id/tags/android-l/</link>
-      <pubDate>Sat, 02 May 2015 15:50:00 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/android-l/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Androidx86</title>
-      <link>http://khal.web.id/tags/androidx86/</link>
-      <pubDate>Mon, 25 Jan 2016 13:02:42 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/androidx86/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>App</title>
-      <link>http://khal.web.id/tags/app/</link>
-      <pubDate>Fri, 11 Jul 2014 16:03:57 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/app/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Apple</title>
-      <link>http://khal.web.id/tags/apple/</link>
-      <pubDate>Mon, 25 Jan 2016 13:02:42 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/apple/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Archlinux</title>
-      <link>http://khal.web.id/tags/archlinux/</link>
-      <pubDate>Thu, 25 Jan 2018 00:40:18 +0700</pubDate>
-      
-      <guid>http://khal.web.id/tags/archlinux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Automatisation</title>
-      <link>http://khal.web.id/tags/automatisation/</link>
-      <pubDate>Fri, 11 Jul 2014 16:03:57 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/automatisation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Battery</title>
-      <link>http://khal.web.id/tags/battery/</link>
-      <pubDate>Mon, 18 Aug 2014 13:39:28 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/battery/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bisnis</title>
-      <link>http://khal.web.id/tags/bisnis/</link>
-      <pubDate>Tue, 31 Mar 2015 18:14:06 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/bisnis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bitcoin</title>
-      <link>http://khal.web.id/tags/bitcoin/</link>
-      <pubDate>Thu, 23 Apr 2015 17:48:39 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/bitcoin/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Boardgame</title>
-      <link>http://khal.web.id/tags/boardgame/</link>
-      <pubDate>Mon, 11 Jan 2016 13:59:10 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/boardgame/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Chrome</title>
-      <link>http://khal.web.id/tags/chrome/</link>
-      <pubDate>Fri, 02 Jul 2010 14:27:23 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/chrome/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cloud</title>
-      <link>http://khal.web.id/tags/cloud/</link>
-      <pubDate>Mon, 20 Apr 2015 10:00:00 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/cloud/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Co Op</title>
-      <link>http://khal.web.id/tags/co-op/</link>
-      <pubDate>Mon, 11 Jan 2016 13:59:10 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/co-op/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Console Api</title>
-      <link>http://khal.web.id/tags/console-api/</link>
-      <pubDate>Fri, 02 Jul 2010 14:27:23 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/console-api/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cover Redirect</title>
-      <link>http://khal.web.id/tags/cover-redirect/</link>
-      <pubDate>Wed, 28 May 2014 20:08:25 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/cover-redirect/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cyandelta</title>
-      <link>http://khal.web.id/tags/cyandelta/</link>
-      <pubDate>Tue, 14 Apr 2015 07:20:00 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/cyandelta/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cyanogen</title>
-      <link>http://khal.web.id/tags/cyanogen/</link>
-      <pubDate>Tue, 14 Apr 2015 07:20:00 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/cyanogen/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cyanogenmod</title>
-      <link>http://khal.web.id/tags/cyanogenmod/</link>
-      <pubDate>Tue, 14 Apr 2015 07:20:00 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/cyanogenmod/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Digital Currency</title>
-      <link>http://khal.web.id/tags/digital-currency/</link>
-      <pubDate>Thu, 23 Apr 2015 17:48:39 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/digital-currency/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dns</title>
-      <link>http://khal.web.id/tags/dns/</link>
-      <pubDate>Sat, 18 Apr 2015 23:30:00 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/dns/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dnscrypt</title>
-      <link>http://khal.web.id/tags/dnscrypt/</link>
-      <pubDate>Sat, 18 Apr 2015 23:30:00 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/dnscrypt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Docker</title>
-      <link>http://khal.web.id/tags/docker/</link>
-      <pubDate>Sun, 18 Feb 2018 13:38:36 +0700</pubDate>
-      
-      <guid>http://khal.web.id/tags/docker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Docker Manager</title>
-      <link>http://khal.web.id/tags/docker-manager/</link>
-      <pubDate>Sun, 18 Feb 2018 13:38:36 +0700</pubDate>
-      
-      <guid>http://khal.web.id/tags/docker-manager/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Domain Name</title>
-      <link>http://khal.web.id/tags/domain-name/</link>
-      <pubDate>Thu, 26 Mar 2015 14:49:58 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/domain-name/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Elcapitan</title>
-      <link>http://khal.web.id/tags/elcapitan/</link>
-      <pubDate>Wed, 13 Jan 2016 01:15:44 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/elcapitan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Facebook</title>
-      <link>http://khal.web.id/tags/facebook/</link>
-      <pubDate>Tue, 31 Mar 2015 18:14:06 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/facebook/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Firefox</title>
-      <link>http://khal.web.id/tags/firefox/</link>
-      <pubDate>Fri, 02 Jul 2010 14:27:23 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/firefox/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Frame Busting</title>
-      <link>http://khal.web.id/tags/frame-busting/</link>
-      <pubDate>Sun, 19 Apr 2015 15:42:06 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/frame-busting/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gaming</title>
-      <link>http://khal.web.id/tags/gaming/</link>
-      <pubDate>Mon, 16 May 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/gaming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Google</title>
-      <link>http://khal.web.id/tags/google/</link>
-      <pubDate>Sat, 02 May 2015 15:50:00 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/google/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gtld</title>
-      <link>http://khal.web.id/tags/gtld/</link>
-      <pubDate>Thu, 26 Mar 2015 14:49:58 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/gtld/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Guideline</title>
-      <link>http://khal.web.id/tags/guideline/</link>
-      <pubDate>Wed, 15 Oct 2014 12:10:17 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/guideline/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hugo</title>
-      <link>http://khal.web.id/tags/hugo/</link>
-      <pubDate>Tue, 02 Jan 2018 23:18:55 +0700</pubDate>
-      
-      <guid>http://khal.web.id/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Icann</title>
-      <link>http://khal.web.id/tags/icann/</link>
-      <pubDate>Thu, 26 Mar 2015 14:49:58 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/icann/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Icecast</title>
-      <link>http://khal.web.id/tags/icecast/</link>
-      <pubDate>Tue, 12 Aug 2014 12:04:45 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/icecast/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ie</title>
-      <link>http://khal.web.id/tags/ie/</link>
-      <pubDate>Fri, 02 Jul 2010 14:27:23 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/ie/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Iframe</title>
-      <link>http://khal.web.id/tags/iframe/</link>
-      <pubDate>Sun, 19 Apr 2015 15:42:06 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/iframe/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>India</title>
-      <link>http://khal.web.id/tags/india/</link>
-      <pubDate>Tue, 31 Mar 2015 18:14:06 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/india/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Intrusive</title>
-      <link>http://khal.web.id/tags/intrusive/</link>
-      <pubDate>Sat, 18 Apr 2015 23:30:00 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/intrusive/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ios</title>
-      <link>http://khal.web.id/tags/ios/</link>
-      <pubDate>Mon, 06 Aug 2018 23:08:09 +0700</pubDate>
-      
-      <guid>http://khal.web.id/tags/ios/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Iot</title>
-      <link>http://khal.web.id/tags/iot/</link>
-      <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/iot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Iphone</title>
-      <link>http://khal.web.id/tags/iphone/</link>
-      <pubDate>Mon, 18 Aug 2014 13:39:28 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/iphone/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Isp</title>
-      <link>http://khal.web.id/tags/isp/</link>
-      <pubDate>Sun, 19 Apr 2015 15:42:06 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/isp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Javascript</title>
-      <link>http://khal.web.id/tags/javascript/</link>
-      <pubDate>Fri, 02 Jul 2010 14:27:23 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/javascript/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jekyll</title>
-      <link>http://khal.web.id/tags/jekyll/</link>
-      <pubDate>Tue, 02 Jan 2018 23:18:55 +0700</pubDate>
-      
-      <guid>http://khal.web.id/tags/jekyll/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jquery</title>
-      <link>http://khal.web.id/tags/jquery/</link>
-      <pubDate>Tue, 12 Aug 2014 12:04:45 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/jquery/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Linkedin</title>
-      <link>http://khal.web.id/tags/linkedin/</link>
-      <pubDate>Wed, 28 May 2014 20:08:25 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/linkedin/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>http://khal.web.id/tags/linux/</link>
-      <pubDate>Sun, 18 Feb 2018 13:38:36 +0700</pubDate>
-      
-      <guid>http://khal.web.id/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lock Screen</title>
-      <link>http://khal.web.id/tags/lock-screen/</link>
-      <pubDate>Sat, 02 May 2015 15:50:00 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/lock-screen/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lollipop</title>
-      <link>http://khal.web.id/tags/lollipop/</link>
-      <pubDate>Sat, 02 May 2015 15:50:00 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/lollipop/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Macbook</title>
-      <link>http://khal.web.id/tags/macbook/</link>
-      <pubDate>Mon, 25 Jan 2016 13:02:42 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/macbook/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Macbook Air</title>
-      <link>http://khal.web.id/tags/macbook-air/</link>
-      <pubDate>Thu, 25 Jan 2018 00:40:18 +0700</pubDate>
-      
-      <guid>http://khal.web.id/tags/macbook-air/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Missed Call</title>
-      <link>http://khal.web.id/tags/missed-call/</link>
-      <pubDate>Tue, 31 Mar 2015 18:14:06 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/missed-call/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mobile</title>
-      <link>http://khal.web.id/tags/mobile/</link>
-      <pubDate>Fri, 11 Jul 2014 16:03:57 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/mobile/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Music Player</title>
-      <link>http://khal.web.id/tags/music-player/</link>
-      <pubDate>Mon, 20 Apr 2015 10:00:00 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/music-player/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Oauth</title>
-      <link>http://khal.web.id/tags/oauth/</link>
-      <pubDate>Wed, 28 May 2014 20:08:25 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/oauth/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Oneplus</title>
-      <link>http://khal.web.id/tags/oneplus/</link>
-      <pubDate>Tue, 14 Apr 2015 07:20:00 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/oneplus/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Onlineradio</title>
-      <link>http://khal.web.id/tags/onlineradio/</link>
-      <pubDate>Tue, 12 Aug 2014 12:04:45 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/onlineradio/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Opendns</title>
-      <link>http://khal.web.id/tags/opendns/</link>
-      <pubDate>Sat, 18 Apr 2015 23:30:00 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/opendns/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Openid</title>
-      <link>http://khal.web.id/tags/openid/</link>
-      <pubDate>Wed, 28 May 2014 20:08:25 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/openid/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Opensource</title>
-      <link>http://khal.web.id/tags/opensource/</link>
-      <pubDate>Mon, 20 Apr 2015 10:00:00 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/opensource/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Opera</title>
-      <link>http://khal.web.id/tags/opera/</link>
-      <pubDate>Fri, 02 Jul 2010 14:27:23 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/opera/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Operating System</title>
-      <link>http://khal.web.id/tags/operating-system/</link>
-      <pubDate>Thu, 25 Jan 2018 00:40:18 +0700</pubDate>
-      
-      <guid>http://khal.web.id/tags/operating-system/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Osx</title>
-      <link>http://khal.web.id/tags/osx/</link>
-      <pubDate>Sun, 18 Feb 2018 13:38:36 +0700</pubDate>
-      
-      <guid>http://khal.web.id/tags/osx/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Parasite App</title>
+      <title>parasite-app</title>
       <link>http://khal.web.id/tags/parasite-app/</link>
       <pubDate>Tue, 17 Mar 2015 13:12:12 +0000</pubDate>
       
@@ -660,133 +660,7 @@
     </item>
     
     <item>
-      <title>Paypal</title>
-      <link>http://khal.web.id/tags/paypal/</link>
-      <pubDate>Wed, 28 May 2014 20:08:25 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/paypal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pebble</title>
-      <link>http://khal.web.id/tags/pebble/</link>
-      <pubDate>Mon, 06 Aug 2018 23:08:09 +0700</pubDate>
-      
-      <guid>http://khal.web.id/tags/pebble/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Portainer</title>
-      <link>http://khal.web.id/tags/portainer/</link>
-      <pubDate>Sun, 18 Feb 2018 13:38:36 +0700</pubDate>
-      
-      <guid>http://khal.web.id/tags/portainer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Promotion</title>
-      <link>http://khal.web.id/tags/promotion/</link>
-      <pubDate>Wed, 15 Oct 2014 12:10:17 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/promotion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Radio</title>
-      <link>http://khal.web.id/tags/radio/</link>
-      <pubDate>Tue, 12 Aug 2014 12:04:45 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/radio/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Realtime</title>
-      <link>http://khal.web.id/tags/realtime/</link>
-      <pubDate>Tue, 12 Aug 2014 12:04:45 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/realtime/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Remixos</title>
-      <link>http://khal.web.id/tags/remixos/</link>
-      <pubDate>Mon, 25 Jan 2016 13:02:42 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/remixos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Retro</title>
-      <link>http://khal.web.id/tags/retro/</link>
-      <pubDate>Mon, 16 May 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/retro/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Retroarch</title>
-      <link>http://khal.web.id/tags/retroarch/</link>
-      <pubDate>Mon, 16 May 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/retroarch/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Safari</title>
-      <link>http://khal.web.id/tags/safari/</link>
-      <pubDate>Fri, 02 Jul 2010 14:27:23 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/safari/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Security</title>
-      <link>http://khal.web.id/tags/security/</link>
-      <pubDate>Sat, 02 May 2015 15:50:00 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/security/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Smartlock</title>
-      <link>http://khal.web.id/tags/smartlock/</link>
-      <pubDate>Sat, 02 May 2015 15:50:00 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/smartlock/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Smartwatch</title>
-      <link>http://khal.web.id/tags/smartwatch/</link>
-      <pubDate>Mon, 06 Aug 2018 23:08:09 +0700</pubDate>
-      
-      <guid>http://khal.web.id/tags/smartwatch/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Social</title>
-      <link>http://khal.web.id/tags/social/</link>
-      <pubDate>Mon, 20 Apr 2015 10:00:00 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/social/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Socialmedia</title>
+      <title>socialmedia</title>
       <link>http://khal.web.id/tags/socialmedia/</link>
       <pubDate>Tue, 17 Mar 2015 13:12:12 +0000</pubDate>
       
@@ -795,79 +669,43 @@
     </item>
     
     <item>
-      <title>Static Generator</title>
-      <link>http://khal.web.id/tags/static-generator/</link>
-      <pubDate>Tue, 02 Jan 2018 23:18:55 +0700</pubDate>
+      <title>guideline</title>
+      <link>http://khal.web.id/tags/guideline/</link>
+      <pubDate>Wed, 15 Oct 2014 12:10:17 +0000</pubDate>
       
-      <guid>http://khal.web.id/tags/static-generator/</guid>
+      <guid>http://khal.web.id/tags/guideline/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Team Building</title>
-      <link>http://khal.web.id/tags/team-building/</link>
-      <pubDate>Mon, 11 Jan 2016 13:59:10 +0000</pubDate>
+      <title>promotion</title>
+      <link>http://khal.web.id/tags/promotion/</link>
+      <pubDate>Wed, 15 Oct 2014 12:10:17 +0000</pubDate>
       
-      <guid>http://khal.web.id/tags/team-building/</guid>
+      <guid>http://khal.web.id/tags/promotion/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Teamwork</title>
-      <link>http://khal.web.id/tags/teamwork/</link>
-      <pubDate>Mon, 11 Jan 2016 13:59:10 +0000</pubDate>
+      <title>battery</title>
+      <link>http://khal.web.id/tags/battery/</link>
+      <pubDate>Mon, 18 Aug 2014 13:39:28 +0000</pubDate>
       
-      <guid>http://khal.web.id/tags/teamwork/</guid>
+      <guid>http://khal.web.id/tags/battery/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Telco</title>
-      <link>http://khal.web.id/tags/telco/</link>
-      <pubDate>Sun, 19 Apr 2015 15:42:06 +0000</pubDate>
+      <title>iphone</title>
+      <link>http://khal.web.id/tags/iphone/</link>
+      <pubDate>Mon, 18 Aug 2014 13:39:28 +0000</pubDate>
       
-      <guid>http://khal.web.id/tags/telco/</guid>
+      <guid>http://khal.web.id/tags/iphone/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Tld</title>
-      <link>http://khal.web.id/tags/tld/</link>
-      <pubDate>Thu, 26 Mar 2015 14:49:58 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/tld/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tomahawk</title>
-      <link>http://khal.web.id/tags/tomahawk/</link>
-      <pubDate>Mon, 20 Apr 2015 10:00:00 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/tomahawk/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Twitter</title>
-      <link>http://khal.web.id/tags/twitter/</link>
-      <pubDate>Tue, 31 Mar 2015 18:14:06 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/twitter/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vulnerability</title>
-      <link>http://khal.web.id/tags/vulnerability/</link>
-      <pubDate>Wed, 28 May 2014 20:08:25 +0000</pubDate>
-      
-      <guid>http://khal.web.id/tags/vulnerability/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Watch</title>
+      <title>watch</title>
       <link>http://khal.web.id/tags/watch/</link>
       <pubDate>Mon, 18 Aug 2014 13:39:28 +0000</pubDate>
       
@@ -876,34 +714,61 @@
     </item>
     
     <item>
-      <title>Wearos</title>
-      <link>http://khal.web.id/tags/wearos/</link>
-      <pubDate>Mon, 06 Aug 2018 23:08:09 +0700</pubDate>
+      <title>ajax</title>
+      <link>http://khal.web.id/tags/ajax/</link>
+      <pubDate>Tue, 12 Aug 2014 12:04:45 +0000</pubDate>
       
-      <guid>http://khal.web.id/tags/wearos/</guid>
+      <guid>http://khal.web.id/tags/ajax/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Windows</title>
-      <link>http://khal.web.id/tags/windows/</link>
-      <pubDate>Sun, 18 Feb 2018 13:38:36 +0700</pubDate>
+      <title>icecast</title>
+      <link>http://khal.web.id/tags/icecast/</link>
+      <pubDate>Tue, 12 Aug 2014 12:04:45 +0000</pubDate>
       
-      <guid>http://khal.web.id/tags/windows/</guid>
+      <guid>http://khal.web.id/tags/icecast/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Wordpress</title>
-      <link>http://khal.web.id/tags/wordpress/</link>
-      <pubDate>Tue, 03 May 2016 00:00:00 +0000</pubDate>
+      <title>jquery</title>
+      <link>http://khal.web.id/tags/jquery/</link>
+      <pubDate>Tue, 12 Aug 2014 12:04:45 +0000</pubDate>
       
-      <guid>http://khal.web.id/tags/wordpress/</guid>
+      <guid>http://khal.web.id/tags/jquery/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Xspf</title>
+      <title>onlineradio</title>
+      <link>http://khal.web.id/tags/onlineradio/</link>
+      <pubDate>Tue, 12 Aug 2014 12:04:45 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/onlineradio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>radio</title>
+      <link>http://khal.web.id/tags/radio/</link>
+      <pubDate>Tue, 12 Aug 2014 12:04:45 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/radio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>realtime</title>
+      <link>http://khal.web.id/tags/realtime/</link>
+      <pubDate>Tue, 12 Aug 2014 12:04:45 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/realtime/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>xspf</title>
       <link>http://khal.web.id/tags/xspf/</link>
       <pubDate>Tue, 12 Aug 2014 12:04:45 +0000</pubDate>
       
@@ -912,7 +777,43 @@
     </item>
     
     <item>
-      <title>Yo</title>
+      <title>#ifttt</title>
+      <link>http://khal.web.id/tags/#ifttt/</link>
+      <pubDate>Fri, 11 Jul 2014 16:03:57 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/#ifttt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>app</title>
+      <link>http://khal.web.id/tags/app/</link>
+      <pubDate>Fri, 11 Jul 2014 16:03:57 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/app/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>automatisation</title>
+      <link>http://khal.web.id/tags/automatisation/</link>
+      <pubDate>Fri, 11 Jul 2014 16:03:57 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/automatisation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mobile</title>
+      <link>http://khal.web.id/tags/mobile/</link>
+      <pubDate>Fri, 11 Jul 2014 16:03:57 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/mobile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>yo</title>
       <link>http://khal.web.id/tags/yo/</link>
       <pubDate>Thu, 19 Jun 2014 16:20:34 +0000</pubDate>
       
@@ -921,7 +822,7 @@
     </item>
     
     <item>
-      <title>Yoapp</title>
+      <title>yoapp</title>
       <link>http://khal.web.id/tags/yoapp/</link>
       <pubDate>Thu, 19 Jun 2014 16:20:34 +0000</pubDate>
       
@@ -930,20 +831,119 @@
     </item>
     
     <item>
-      <title>Zero Marketing</title>
-      <link>http://khal.web.id/tags/zero-marketing/</link>
-      <pubDate>Tue, 31 Mar 2015 18:14:06 +0000</pubDate>
+      <title>cover redirect</title>
+      <link>http://khal.web.id/tags/cover-redirect/</link>
+      <pubDate>Wed, 28 May 2014 20:08:25 +0000</pubDate>
       
-      <guid>http://khal.web.id/tags/zero-marketing/</guid>
+      <guid>http://khal.web.id/tags/cover-redirect/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Zipdial</title>
-      <link>http://khal.web.id/tags/zipdial/</link>
-      <pubDate>Tue, 31 Mar 2015 18:14:06 +0000</pubDate>
+      <title>linkedin</title>
+      <link>http://khal.web.id/tags/linkedin/</link>
+      <pubDate>Wed, 28 May 2014 20:08:25 +0000</pubDate>
       
-      <guid>http://khal.web.id/tags/zipdial/</guid>
+      <guid>http://khal.web.id/tags/linkedin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>oauth</title>
+      <link>http://khal.web.id/tags/oauth/</link>
+      <pubDate>Wed, 28 May 2014 20:08:25 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/oauth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>openid</title>
+      <link>http://khal.web.id/tags/openid/</link>
+      <pubDate>Wed, 28 May 2014 20:08:25 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/openid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paypal</title>
+      <link>http://khal.web.id/tags/paypal/</link>
+      <pubDate>Wed, 28 May 2014 20:08:25 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/paypal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vulnerability</title>
+      <link>http://khal.web.id/tags/vulnerability/</link>
+      <pubDate>Wed, 28 May 2014 20:08:25 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/vulnerability/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chrome</title>
+      <link>http://khal.web.id/tags/chrome/</link>
+      <pubDate>Fri, 02 Jul 2010 14:27:23 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/chrome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>console-api</title>
+      <link>http://khal.web.id/tags/console-api/</link>
+      <pubDate>Fri, 02 Jul 2010 14:27:23 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/console-api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>firefox</title>
+      <link>http://khal.web.id/tags/firefox/</link>
+      <pubDate>Fri, 02 Jul 2010 14:27:23 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/firefox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ie</title>
+      <link>http://khal.web.id/tags/ie/</link>
+      <pubDate>Fri, 02 Jul 2010 14:27:23 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/ie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>javascript</title>
+      <link>http://khal.web.id/tags/javascript/</link>
+      <pubDate>Fri, 02 Jul 2010 14:27:23 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>opera</title>
+      <link>http://khal.web.id/tags/opera/</link>
+      <pubDate>Fri, 02 Jul 2010 14:27:23 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/opera/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>safari</title>
+      <link>http://khal.web.id/tags/safari/</link>
+      <pubDate>Fri, 02 Jul 2010 14:27:23 +0000</pubDate>
+      
+      <guid>http://khal.web.id/tags/safari/</guid>
       <description></description>
     </item>
     

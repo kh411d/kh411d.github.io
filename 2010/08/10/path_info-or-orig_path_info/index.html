@@ -24,7 +24,7 @@
 
     
         
-            <meta property="og:image" content="http://khal.web.id/images/sidebar.jpg"/>
+            <meta property="og:image" content="/images/sidebar.jpg"/>
         
     
 
@@ -66,7 +66,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.46" />
+    <meta name="generator" content="Hugo 0.74.3" />
 
     <link rel="canonical" href="http://khal.web.id/2010/08/10/path_info-or-orig_path_info/" />
 
@@ -79,21 +79,21 @@
     "@type": "Article",
     "publisher": {
         "@type": "Organization",
-        "name": Khalid Adisendjaja,
-        "logo": http://khal.web.id/images/logo.jpeg
+        "name": "Khalid Adisendjaja",
+        "logo": "http://khal.web.id/images/logo.jpeg"
     },
     "author": {
         "@type": "Person",
-        "name": Khalid Adisendjaja,
+        "name": "Khalid Adisendjaja",
         
         "image": {
             "@type": "ImageObject",
-            "url": http://khal.web.id/images/logo.jpeg,
+            "url": "http://khal.web.id/images/logo.jpeg",
             "width": 250,
             "height": 250
         }, 
         
-        "url": http://khal.web.id,
+        "url": "http://khal.web.id",
         "sameAs": [
             
             
@@ -104,26 +104,26 @@
              
             
         ],
-        "description": Internet tech wanderer. Networking enthusiast. Radio Announcer. Casual Gamer. OpenSource Fans. Information Junkies. My tweet is my own.
+        "description": "a #Coder with a bit #InfoJunkie, proud #Muslim and also #Indonesian"
         
     },
-    "headline": PATH_INFO OR ORIG_PATH_INFO,
-    "name": PATH_INFO OR ORIG_PATH_INFO,
-    "wordCount": 206,
+    "headline": "PATH_INFO OR ORIG_PATH_INFO",
+    "name": "PATH_INFO OR ORIG_PATH_INFO",
+    "wordCount":  206 ,
     "timeRequired": "PT1M",
     "inLanguage": {
       "@type": "Language",
-      "alternateName": en
+      "alternateName": "en"
     },
-    "url": http://khal.web.id/2010/08/10/path_info-or-orig_path_info/,
-    "datePublished": 2010-08-10T16:30Z,
-    "dateModified": 2010-08-10T16:30Z,
+    "url": "http://khal.web.id/2010/08/10/path_info-or-orig_path_info/",
+    "datePublished": "2010-08-10T16:30Z",
+    "dateModified": "2010-08-10T16:30Z",
     
     
-    "description": ,
+    "description": "",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": http://khal.web.id/2010/08/10/path_info-or-orig_path_info/
+        "@id": "http://khal.web.id/2010/08/10/path_info-or-orig_path_info/"
     }
 }
     </script>
@@ -206,15 +206,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </header>
 
     <section class="post-content">
-      <p>First of all I&rsquo;m using codeigniter for the web app, which is hosted on php4 environment someday I moved the apps to another shared host which have php5 installed , on my URI_PROTOCOL in config.php files , I change<br />
- $config[&lsquo;uri_protocol&rsquo;] = &ldquo;PATH_INFO&rdquo;;</p>
-
+      <p>First of all I&rsquo;m using codeigniter for the web app, which is hosted on php4 environment someday I moved the apps to another shared host which have php5 installed , on my URI_PROTOCOL in config.php files , I change<br>
+$config[&lsquo;uri_protocol&rsquo;] = &ldquo;PATH_INFO&rdquo;;</p>
 <p>And then when testing the apps there was some problem with the route dunno is this an issue or else, it really takes time for me to find out why the route always looping back again again and again, my first guess was on htaccess that maybe the mod_rewrite module doesnt work, but the guess was wrong , and then I checked again on web apps route.php, hook configuration, site path, base dir, my adventure end in URL.php bcoz the segments/rsegments always return none.</p>
-
-<p>Try to print out $_SERVER variable , and now so this is the problem , the PATH_INFO variable was gone no where, but there is ORIG_PATH_INFO, an so my first guess of the problem was on PHP version so then I found this article,<br />
- <a href="http://www.binarytides.com/blog/path_info-orig_path_info-apache-and-php/">http://www.binarytides.com/blog/path_info-orig_path_info-apache-and-php/</a><br />
- ,well I think its explained very well, on his condition it happen when he use .htaccess redirect and in my condition it happen when I use .htaccess mod_rewrite.</p>
-
+<p>Try to print out $_SERVER variable , and now so this is the problem , the PATH_INFO variable was gone no where, but there is ORIG_PATH_INFO, an so my first guess of the problem was on PHP version so then I found this article,<br>
+<a href="http://www.binarytides.com/blog/path">http://www.binarytides.com/blog/path</a>_info-orig_path_info-apache-and-php/<br>
+,well I think its explained very well, on his condition it happen when he use .htaccess redirect and in my condition it happen when I use .htaccess mod_rewrite.</p>
 <p>PATH_INFO relies on the Apache <a href="http://httpd.apache.org/docs/2.0/mod/core.html#acceptpathinfo">AcceptPathInfo Directive</a></p>
 
     </section>
@@ -240,7 +237,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <section class="author">
   <h4><a href="http://khal.web.id/">Khalid Adisendjaja</a></h4>
   
-  <p>Internet tech wanderer. Networking enthusiast. Radio Announcer. Casual Gamer. OpenSource Fans. Information Junkies. My tweet is my own.</p>
+  <p>a #Coder with a bit #InfoJunkie, proud #Muslim and also #Indonesian</p>
   
   <div class="author-meta">
     <span class="author-location icon-location">Jakarta, Indonesia</span>
@@ -261,14 +258,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fkhal.web.id%2f2010%2f08%2f10%2fpath_info-or-orig_path_info%2f"
       onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
       <span class="hidden">Facebook</span>
-  </a>
-  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=http%3a%2f%2fkhal.web.id%2f2010%2f08%2f10%2fpath_info-or-orig_path_info%2f&amp;description=PATH_INFO%20OR%20ORIG_PATH_INFO"
-      onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
-      <span class="hidden">Pinterest</span>
-  </a>
-  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=http%3a%2f%2fkhal.web.id%2f2010%2f08%2f10%2fpath_info-or-orig_path_info%2f"
-     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
-      <span class="hidden">Google+</span>
   </a>
 </section>
 

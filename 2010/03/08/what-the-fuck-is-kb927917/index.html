@@ -24,7 +24,7 @@
 
     
         
-            <meta property="og:image" content="http://khal.web.id/images/sidebar.jpg"/>
+            <meta property="og:image" content="/images/sidebar.jpg"/>
         
     
 
@@ -66,7 +66,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.46" />
+    <meta name="generator" content="Hugo 0.74.3" />
 
     <link rel="canonical" href="http://khal.web.id/2010/03/08/what-the-fuck-is-kb927917/" />
 
@@ -79,21 +79,21 @@
     "@type": "Article",
     "publisher": {
         "@type": "Organization",
-        "name": Khalid Adisendjaja,
-        "logo": http://khal.web.id/images/logo.jpeg
+        "name": "Khalid Adisendjaja",
+        "logo": "http://khal.web.id/images/logo.jpeg"
     },
     "author": {
         "@type": "Person",
-        "name": Khalid Adisendjaja,
+        "name": "Khalid Adisendjaja",
         
         "image": {
             "@type": "ImageObject",
-            "url": http://khal.web.id/images/logo.jpeg,
+            "url": "http://khal.web.id/images/logo.jpeg",
             "width": 250,
             "height": 250
         }, 
         
-        "url": http://khal.web.id,
+        "url": "http://khal.web.id",
         "sameAs": [
             
             
@@ -104,26 +104,26 @@
              
             
         ],
-        "description": Internet tech wanderer. Networking enthusiast. Radio Announcer. Casual Gamer. OpenSource Fans. Information Junkies. My tweet is my own.
+        "description": "a #Coder with a bit #InfoJunkie, proud #Muslim and also #Indonesian"
         
     },
-    "headline": What the f**k is KB927917 ,
-    "name": What the f**k is KB927917 ,
-    "wordCount": 205,
+    "headline": "What the f**k is KB927917 ",
+    "name": "What the f**k is KB927917 ",
+    "wordCount":  205 ,
     "timeRequired": "PT1M",
     "inLanguage": {
       "@type": "Language",
-      "alternateName": en
+      "alternateName": "en"
     },
-    "url": http://khal.web.id/2010/03/08/what-the-fuck-is-kb927917/,
-    "datePublished": 2010-03-08T17:17Z,
-    "dateModified": 2010-03-08T17:17Z,
+    "url": "http://khal.web.id/2010/03/08/what-the-fuck-is-kb927917/",
+    "datePublished": "2010-03-08T17:17Z",
+    "dateModified": "2010-03-08T17:17Z",
     
     
-    "description": ,
+    "description": "",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": http://khal.web.id/2010/03/08/what-the-fuck-is-kb927917/
+        "@id": "http://khal.web.id/2010/03/08/what-the-fuck-is-kb927917/"
     }
 }
     </script>
@@ -207,7 +207,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <section class="post-content">
       <p>Ok then &hellip; what ??? , I&rsquo;ve got a surprise from IE678, it getting on my nerve (but not in a long time), I&rsquo;ve found out that one of my web apps cannot be view by any IE browser, so what the hell is happen, the browser keep telling me this line below,</p>
-
 <pre><code>&lt;br&gt;&lt;/br&gt;
 Webpage error details&lt;br&gt;&lt;/br&gt;
 User Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)&lt;br&gt;&lt;/br&gt;
@@ -218,14 +217,10 @@ Char: 0&lt;br&gt;&lt;/br&gt;
 Code: 0&lt;br&gt;&lt;/br&gt;
 URI: http://xxx.xxxxxx.com/apps/xxxxx/index.php&lt;br&gt;&lt;/br&gt;
 </code></pre>
-
 <p>Make me cofused for a while, figure it out what happen, are there un closing tag on the layout? are there a javascript error? which one the error details doesn&rsquo;t seem have enough information&hellip;&hellip;,</p>
-
-<p>So then, I started checking the layout and try to find my <script></script> tag, on the middle of the layout that might be trying to modify the DOM before all HTML load up.</p>
-
-<p>I move the script tag to the bottom of the layout before the tag body, or if you guys using jquery, you can use this,<br />
+<p>So then, I started checking the layout and try to find my <!-- raw HTML omitted --><!-- raw HTML omitted --> tag, on the middle of the layout that might be trying to modify the DOM before all HTML load up.</p>
+<p>I move the script tag to the bottom of the layout before the tag body, or if you guys using jquery, you can use this,<br>
 <code>$(document).ready(function() {});</code></p>
-
 <p>Ok then, all works properly, so my tips is &ldquo;kill IE&rdquo; !!@#@!!!????</p>
 
     </section>
@@ -251,7 +246,7 @@ URI: http://xxx.xxxxxx.com/apps/xxxxx/index.php&lt;br&gt;&lt;/br&gt;
 <section class="author">
   <h4><a href="http://khal.web.id/">Khalid Adisendjaja</a></h4>
   
-  <p>Internet tech wanderer. Networking enthusiast. Radio Announcer. Casual Gamer. OpenSource Fans. Information Junkies. My tweet is my own.</p>
+  <p>a #Coder with a bit #InfoJunkie, proud #Muslim and also #Indonesian</p>
   
   <div class="author-meta">
     <span class="author-location icon-location">Jakarta, Indonesia</span>
@@ -272,14 +267,6 @@ URI: http://xxx.xxxxxx.com/apps/xxxxx/index.php&lt;br&gt;&lt;/br&gt;
   <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fkhal.web.id%2f2010%2f03%2f08%2fwhat-the-fuck-is-kb927917%2f"
       onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
       <span class="hidden">Facebook</span>
-  </a>
-  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=http%3a%2f%2fkhal.web.id%2f2010%2f03%2f08%2fwhat-the-fuck-is-kb927917%2f&amp;description=What%20the%20f%2a%2ak%20is%20KB927917%20"
-      onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
-      <span class="hidden">Pinterest</span>
-  </a>
-  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=http%3a%2f%2fkhal.web.id%2f2010%2f03%2f08%2fwhat-the-fuck-is-kb927917%2f"
-     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
-      <span class="hidden">Google+</span>
   </a>
 </section>
 

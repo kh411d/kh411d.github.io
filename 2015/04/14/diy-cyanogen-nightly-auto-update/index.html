@@ -24,7 +24,7 @@
 
     
         
-            <meta property="og:image" content="http://khal.web.id/images/sidebar.jpg"/>
+            <meta property="og:image" content="/images/sidebar.jpg"/>
         
     
 
@@ -78,7 +78,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.46" />
+    <meta name="generator" content="Hugo 0.74.3" />
 
     <link rel="canonical" href="http://khal.web.id/2015/04/14/diy-cyanogen-nightly-auto-update/" />
 
@@ -91,21 +91,21 @@
     "@type": "Article",
     "publisher": {
         "@type": "Organization",
-        "name": Khalid Adisendjaja,
-        "logo": http://khal.web.id/images/logo.jpeg
+        "name": "Khalid Adisendjaja",
+        "logo": "http://khal.web.id/images/logo.jpeg"
     },
     "author": {
         "@type": "Person",
-        "name": Khalid Adisendjaja,
+        "name": "Khalid Adisendjaja",
         
         "image": {
             "@type": "ImageObject",
-            "url": http://khal.web.id/images/logo.jpeg,
+            "url": "http://khal.web.id/images/logo.jpeg",
             "width": 250,
             "height": 250
         }, 
         
-        "url": http://khal.web.id,
+        "url": "http://khal.web.id",
         "sameAs": [
             
             
@@ -116,26 +116,26 @@
              
             
         ],
-        "description": Internet tech wanderer. Networking enthusiast. Radio Announcer. Casual Gamer. OpenSource Fans. Information Junkies. My tweet is my own.
+        "description": "a #Coder with a bit #InfoJunkie, proud #Muslim and also #Indonesian"
         
     },
-    "headline": DIY Cyanogen nightly Auto Update,
-    "name": DIY Cyanogen nightly Auto Update,
-    "wordCount": 401,
+    "headline": "DIY Cyanogen nightly Auto Update",
+    "name": "DIY Cyanogen nightly Auto Update",
+    "wordCount":  400 ,
     "timeRequired": "PT2M",
     "inLanguage": {
       "@type": "Language",
-      "alternateName": en
+      "alternateName": "en"
     },
-    "url": http://khal.web.id/2015/04/14/diy-cyanogen-nightly-auto-update/,
-    "datePublished": 2015-04-14T07:20Z,
-    "dateModified": 2015-04-14T07:20Z,
+    "url": "http://khal.web.id/2015/04/14/diy-cyanogen-nightly-auto-update/",
+    "datePublished": "2015-04-14T07:20Z",
+    "dateModified": "2015-04-14T07:20Z",
     
-    "keywords": google, android, CyanogenMod, cyanogen, oneplus, cyandelta,
-    "description": ,
+    "keywords": "google, android, CyanogenMod, cyanogen, oneplus, cyandelta",
+    "description": "",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": http://khal.web.id/2015/04/14/diy-cyanogen-nightly-auto-update/
+        "@id": "http://khal.web.id/2015/04/14/diy-cyanogen-nightly-auto-update/"
     }
 }
     </script>
@@ -230,49 +230,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </header>
 
     <section class="post-content">
-      <p><a href="/images/wpid-wp-1428958109831.png"><img src="/images/wpid-wp-1428958109831.png" alt="image" title="wp-1428958109831" /></a> Instead of waiting and whining when will your OnePlus One get an OTA update, you could just quickly fetch the latest nightly build from CyanogenMod.org download page, <strong>just be careful not to download ROM that&rsquo;s not suitable with your phone or else it will bricked your phone</strong>, as an example if your phone is OnePlus One, Bacon is the only ROM that you need to download.</p>
-
+      <p><a href="/images/wpid-wp-1428958109831.png"><img src="/images/wpid-wp-1428958109831.png" alt="image" title="wp-1428958109831"></a> Instead of waiting and whining when will your OnePlus One get an OTA update, you could just quickly fetch the latest nightly build from CyanogenMod.org download page, <strong>just be careful not to download ROM that&rsquo;s not suitable with your phone or else it will bricked your phone</strong>, as an example if your phone is OnePlus One, Bacon is the only ROM that you need to download.</p>
 <p>Before going further, your phone need to be rooted and have one of these two recovery software installed, either ClockworkMod or TWRP recovery.</p>
-
-<p>[spoiler title=&ldquo;How to Root and Unlock your device&rdquo;]</p>
-
+<p>[spoiler title=&quot;How to Root and Unlock your device&rdquo;]</p>
 <ul>
 <li>You need <a href="http://www.androidcentral.com/installing-android-sdk-windows-mac-and-linux-tutorial">Fastboot and ADB</a> installed on you PC</li>
-<li>1. After Fastboot and ADB installed, go to your terminal windows, and do this next step
-
+<li>
 <ol>
+<li>After Fastboot and ADB installed, go to your terminal windows, and do this next step</li>
 <li>./fastboot oem unlock (You can skip this step if your phone’s bootloader is already unlocked).</li>
 <li>./fastboot flash recovery . Image file should be the TWRP recovery image.</li>
 <li>./fastboot reboot</li>
-</ol></li>
+</ol>
+</li>
 </ul>
-
 <p>[/spoiler]</p>
-
 <blockquote>
 <p><strong>After one of the recovery above installed, make sure that you create a Nandroid backup from the recovery system and copy that backup to your external drive or PC.</strong></p>
 </blockquote>
-
 <p>Don&rsquo;t forget to download the Gapps if you still want to use Google Play and friends. You may download the latest signed zip on <a href="http://wiki.cyanogenmod.org/w/Google_Apps">CyanogenMod.org</a> websites.</p>
-
 <p>The CM version of Gapps that you&rsquo;re about to download must be the same with the ROM version that you&rsquo;re going to flash/install, or else you might having a bootloop when rebooting your phone.</p>
-
 <p>OK then here comes the magic where CyanDelta lets you update your CyanogenMod ROM by downloading just a small file (about 10 MB) instead of a big full zip file (about 200 MB) each time.</p>
-
 <p>You may <a href="https://play.google.com/store/apps/details?id=com.cyandelta&amp;feature=nav_result#?t=W251bGwsMSwxLDMsImNvbS5jeWFuZGVsdGEiXQ..">install CyanDelta updater</a> from playstore or check their website at <a href="http://www.cyandelta.com">www.cyandelta.com</a>.</p>
-
 <p>Now that you have 2 downloaded files, the CM12 ROM zipped and CM12 Gapps signed zipped. Copy these files to your phone.</p>
-
 <p>Open the CyanDelta updater and then import your ROM file to CyanDelta,</p>
-
-<p><a href="/images/wpid-wp-1428957353905.jpeg"><img src="/images/wpid-wp-1428957353905.jpeg" alt="image" title="wp-1428957353905" /></a></p>
-
+<p><a href="/images/wpid-wp-1428957353905.jpeg"><img src="/images/wpid-wp-1428957353905.jpeg" alt="image" title="wp-1428957353905"></a></p>
 <p>If there is an available update, please do update the file first before installing the ROM.</p>
-
 <p>If the installation takes longer than it should, turn off your phone, reboot into recovery mode, wipe data/factory reset, and then reboot system.</p>
-
 <p>After all installation step is finished, you may reboot once again into recovery mode and then install the Gapps signed zip file, reboot system.</p>
-
 <p>Enjoy your nightly ROM, don&rsquo;t forget to install CyanUpdater once again after a factory reset.</p>
 
     </section>
@@ -298,7 +283,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <section class="author">
   <h4><a href="http://khal.web.id/">Khalid Adisendjaja</a></h4>
   
-  <p>Internet tech wanderer. Networking enthusiast. Radio Announcer. Casual Gamer. OpenSource Fans. Information Junkies. My tweet is my own.</p>
+  <p>a #Coder with a bit #InfoJunkie, proud #Muslim and also #Indonesian</p>
   
   <div class="author-meta">
     <span class="author-location icon-location">Jakarta, Indonesia</span>
@@ -319,14 +304,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fkhal.web.id%2f2015%2f04%2f14%2fdiy-cyanogen-nightly-auto-update%2f"
       onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
       <span class="hidden">Facebook</span>
-  </a>
-  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=http%3a%2f%2fkhal.web.id%2f2015%2f04%2f14%2fdiy-cyanogen-nightly-auto-update%2f&amp;description=DIY%20Cyanogen%20nightly%20Auto%20Update"
-      onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
-      <span class="hidden">Pinterest</span>
-  </a>
-  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=http%3a%2f%2fkhal.web.id%2f2015%2f04%2f14%2fdiy-cyanogen-nightly-auto-update%2f"
-     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
-      <span class="hidden">Google+</span>
   </a>
 </section>
 

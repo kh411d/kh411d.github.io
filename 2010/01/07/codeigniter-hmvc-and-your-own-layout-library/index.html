@@ -24,7 +24,7 @@
 
     
         
-            <meta property="og:image" content="http://khal.web.id/images/sidebar.jpg"/>
+            <meta property="og:image" content="/images/sidebar.jpg"/>
         
     
 
@@ -66,7 +66,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.46" />
+    <meta name="generator" content="Hugo 0.74.3" />
 
     <link rel="canonical" href="http://khal.web.id/2010/01/07/codeigniter-hmvc-and-your-own-layout-library/" />
 
@@ -79,21 +79,21 @@
     "@type": "Article",
     "publisher": {
         "@type": "Organization",
-        "name": Khalid Adisendjaja,
-        "logo": http://khal.web.id/images/logo.jpeg
+        "name": "Khalid Adisendjaja",
+        "logo": "http://khal.web.id/images/logo.jpeg"
     },
     "author": {
         "@type": "Person",
-        "name": Khalid Adisendjaja,
+        "name": "Khalid Adisendjaja",
         
         "image": {
             "@type": "ImageObject",
-            "url": http://khal.web.id/images/logo.jpeg,
+            "url": "http://khal.web.id/images/logo.jpeg",
             "width": 250,
             "height": 250
         }, 
         
-        "url": http://khal.web.id,
+        "url": "http://khal.web.id",
         "sameAs": [
             
             
@@ -104,26 +104,26 @@
              
             
         ],
-        "description": Internet tech wanderer. Networking enthusiast. Radio Announcer. Casual Gamer. OpenSource Fans. Information Junkies. My tweet is my own.
+        "description": "a #Coder with a bit #InfoJunkie, proud #Muslim and also #Indonesian"
         
     },
-    "headline": Codeigniter HMVC and Your own Layout Library,
-    "name": Codeigniter HMVC and Your own Layout Library,
-    "wordCount": 207,
+    "headline": "Codeigniter HMVC and Your own Layout Library",
+    "name": "Codeigniter HMVC and Your own Layout Library",
+    "wordCount":  207 ,
     "timeRequired": "PT1M",
     "inLanguage": {
       "@type": "Language",
-      "alternateName": en
+      "alternateName": "en"
     },
-    "url": http://khal.web.id/2010/01/07/codeigniter-hmvc-and-your-own-layout-library/,
-    "datePublished": 2010-01-07T20:12Z,
-    "dateModified": 2010-01-07T20:12Z,
+    "url": "http://khal.web.id/2010/01/07/codeigniter-hmvc-and-your-own-layout-library/",
+    "datePublished": "2010-01-07T20:12Z",
+    "dateModified": "2010-01-07T20:12Z",
     
     
-    "description": ,
+    "description": "",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": http://khal.web.id/2010/01/07/codeigniter-hmvc-and-your-own-layout-library/
+        "@id": "http://khal.web.id/2010/01/07/codeigniter-hmvc-and-your-own-layout-library/"
     }
 }
     </script>
@@ -207,25 +207,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <section class="post-content">
       <p>I&rsquo;m using HMVC to make my web apps more modular, if you don&rsquo;t now what is HMVC you can check on Wiki, so then I&rsquo;m trying to make a partial output from some module to the big layout template , and then I came into problems when I make a layout library as usual you have to generate an instance of CI like this,</p>
-
 <pre><code>&lt;pre lang=&quot;php&quot;&gt;$this-&gt;obj =&amp; get_instance();
 </code></pre>
-
 <p>and then I&rsquo;m trying to load a vew from some module,</p>
-
 <pre><code>&lt;pre lang=&quot;php&quot;&gt;$this-&gt;obj-&gt;load-&gt;view($view,$data);
 </code></pre>
-
-<p>It will become an error, because $view cannot be load up, why ????<br />
- After checking up inside $this-&gt;obj, it actually only load up the global view of CI (&lsquo;ex: ../application/views/ &hellip;&lsquo;)</p>
-
-<p>so I check the Modules.php on your libraries folder, HMVC is not overriding the default view of CI,<br />
- you might have to pass your controller object ( The $this object ) from your controller to your layout library</p>
-
+<p>It will become an error, because $view cannot be load up, why ????<br>
+After checking up inside $this-&gt;obj, it actually only load up the global view of CI (&lsquo;ex: ../application/views/ &hellip;')</p>
+<p>so I check the Modules.php on your libraries folder, HMVC is not overriding the default view of CI,<br>
+you might have to pass your controller object ( The $this object ) from your controller to your layout library</p>
 <p>as example :</p>
-
 <p>On your module controller :</p>
-
 <pre><code>&lt;pre lang=&quot;php&quot;&gt;class Post extends Controller {
 function Post()
 {
@@ -236,9 +228,7 @@ $this-&gt;layout-&gt;load('read.php',$this);
 }
 }
 </code></pre>
-
 <p>On your Layout library :</p>
-
 <pre><code>&lt;pre lang=&quot;php&quot;&gt;function load($view,$controller){
 
 $partial = $controller-&gt;load-&gt;view($view,true);
@@ -249,7 +239,6 @@ $controller-&gt;load-&gt;view($path_to_layout,$data);
 
 }
 </code></pre>
-
 <p>Hope this will help for somebody who have some problem like myself</p>
 
     </section>
@@ -275,7 +264,7 @@ $controller-&gt;load-&gt;view($path_to_layout,$data);
 <section class="author">
   <h4><a href="http://khal.web.id/">Khalid Adisendjaja</a></h4>
   
-  <p>Internet tech wanderer. Networking enthusiast. Radio Announcer. Casual Gamer. OpenSource Fans. Information Junkies. My tweet is my own.</p>
+  <p>a #Coder with a bit #InfoJunkie, proud #Muslim and also #Indonesian</p>
   
   <div class="author-meta">
     <span class="author-location icon-location">Jakarta, Indonesia</span>
@@ -296,14 +285,6 @@ $controller-&gt;load-&gt;view($path_to_layout,$data);
   <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fkhal.web.id%2f2010%2f01%2f07%2fcodeigniter-hmvc-and-your-own-layout-library%2f"
       onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
       <span class="hidden">Facebook</span>
-  </a>
-  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=http%3a%2f%2fkhal.web.id%2f2010%2f01%2f07%2fcodeigniter-hmvc-and-your-own-layout-library%2f&amp;description=Codeigniter%20HMVC%20and%20Your%20own%20Layout%20Library"
-      onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
-      <span class="hidden">Pinterest</span>
-  </a>
-  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=http%3a%2f%2fkhal.web.id%2f2010%2f01%2f07%2fcodeigniter-hmvc-and-your-own-layout-library%2f"
-     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
-      <span class="hidden">Google+</span>
   </a>
 </section>
 

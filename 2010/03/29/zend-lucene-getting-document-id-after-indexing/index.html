@@ -24,7 +24,7 @@
 
     
         
-            <meta property="og:image" content="http://khal.web.id/images/sidebar.jpg"/>
+            <meta property="og:image" content="/images/sidebar.jpg"/>
         
     
 
@@ -67,7 +67,7 @@ the document that was not available on the database, apparently th" />
       
       
     
-    <meta name="generator" content="Hugo 0.46" />
+    <meta name="generator" content="Hugo 0.74.3" />
 
     <link rel="canonical" href="http://khal.web.id/2010/03/29/zend-lucene-getting-document-id-after-indexing/" />
 
@@ -80,21 +80,21 @@ the document that was not available on the database, apparently th" />
     "@type": "Article",
     "publisher": {
         "@type": "Organization",
-        "name": Khalid Adisendjaja,
-        "logo": http://khal.web.id/images/logo.jpeg
+        "name": "Khalid Adisendjaja",
+        "logo": "http://khal.web.id/images/logo.jpeg"
     },
     "author": {
         "@type": "Person",
-        "name": Khalid Adisendjaja,
+        "name": "Khalid Adisendjaja",
         
         "image": {
             "@type": "ImageObject",
-            "url": http://khal.web.id/images/logo.jpeg,
+            "url": "http://khal.web.id/images/logo.jpeg",
             "width": 250,
             "height": 250
         }, 
         
-        "url": http://khal.web.id,
+        "url": "http://khal.web.id",
         "sameAs": [
             
             
@@ -105,26 +105,26 @@ the document that was not available on the database, apparently th" />
              
             
         ],
-        "description": Internet tech wanderer. Networking enthusiast. Radio Announcer. Casual Gamer. OpenSource Fans. Information Junkies. My tweet is my own.
+        "description": "a #Coder with a bit #InfoJunkie, proud #Muslim and also #Indonesian"
         
     },
-    "headline": Zend Lucene, getting document ID after indexing,
-    "name": Zend Lucene, getting document ID after indexing,
-    "wordCount": 155,
+    "headline": "Zend Lucene, getting document ID after indexing",
+    "name": "Zend Lucene, getting document ID after indexing",
+    "wordCount":  151 ,
     "timeRequired": "PT1M",
     "inLanguage": {
       "@type": "Language",
-      "alternateName": en
+      "alternateName": "en"
     },
-    "url": http://khal.web.id/2010/03/29/zend-lucene-getting-document-id-after-indexing/,
-    "datePublished": 2010-03-29T12:43Z,
-    "dateModified": 2010-03-29T12:43Z,
+    "url": "http://khal.web.id/2010/03/29/zend-lucene-getting-document-id-after-indexing/",
+    "datePublished": "2010-03-29T12:43Z",
+    "dateModified": "2010-03-29T12:43Z",
     
     
-    "description": ,
+    "description": "",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": http://khal.web.id/2010/03/29/zend-lucene-getting-document-id-after-indexing/
+        "@id": "http://khal.web.id/2010/03/29/zend-lucene-getting-document-id-after-indexing/"
     }
 }
     </script>
@@ -207,50 +207,39 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </header>
 
     <section class="post-content">
-      <p>Once upon a time I have a problem how to get the ID of the indexed document, I need to delete<br />
- the document that was not available on the database, apparently the document unique ID cannot<br />
- be use or kept bcoz, it changed after optimization, so then,</p>
-
+      <p>Once upon a time I have a problem how to get the ID of the indexed document, I need to delete<br>
+the document that was not available on the database, apparently the document unique ID cannot<br>
+be use or kept bcoz, it changed after optimization, so then,</p>
 <p>the Indexed documents may have two type of id&rsquo;s, so I put database id on the document;</p>
-
 <ol>
-<li><p>Internal document id returned by $hit-&gt;id and used by</p>
-
-<p><pre lang="php">$index-&gt;getDocument(), $index-&gt;delete()</p></li>
+<li>
+<p>Internal document id returned by $hit-&gt;id and used by</p>
+<!-- raw HTML omitted -->
+</li>
 </ol>
-
 <p>and some other methods.</p>
-
-<p>This id _may_ and _will_ be changed while index optimization (or<br />
- auto-optimization) and can&rsquo;t be used to refer indexed document.</p>
-
+<p>This id _may_ and _will_ be changed while index optimization (or<br>
+auto-optimization) and can&rsquo;t be used to refer indexed document.</p>
 <p>This id also can&rsquo;t be used in search queries.</p>
-
-<ol>
-<li><p>Some unique (or not unique) value added to document while indexing:<br />
+<ol start="2">
+<li>
+<p>Some unique (or not unique) value added to document while indexing:<br>
 &hellip;</p>
-
-<p><pre lang="php">
-$doc-&gt;addField(Zend_Search_Lucene_Field::Keyword(&lsquo;DB_id&rsquo;, $dbId));</p></li>
+<!-- raw HTML omitted -->
+</li>
 </ol>
-
 <p>&hellip;</p>
-
 <p>This field can be used for searching document:</p>
-
 <pre><code>&lt;pre lang=&quot;php&quot;&gt;$hits = $index-&gt;find('DB_id:2');
 </code></pre>
-
-<p>or (better) directly retrieving documents:<br />
- &hellip;</p>
-
+<p>or (better) directly retrieving documents:<br>
+&hellip;</p>
 <pre><code>&lt;pre lang=&quot;php&quot;&gt;
 $docIDs = $index-&gt;TermDocs(new Zend_Search_Lucene_Index_Term('2',
 'DB_id'));
 foreach ($docIDs as $docId) {
 $index-&gt;delete($docId);
-}
-</code></pre>
+}</code></pre>
 
     </section>
 
@@ -275,7 +264,7 @@ $index-&gt;delete($docId);
 <section class="author">
   <h4><a href="http://khal.web.id/">Khalid Adisendjaja</a></h4>
   
-  <p>Internet tech wanderer. Networking enthusiast. Radio Announcer. Casual Gamer. OpenSource Fans. Information Junkies. My tweet is my own.</p>
+  <p>a #Coder with a bit #InfoJunkie, proud #Muslim and also #Indonesian</p>
   
   <div class="author-meta">
     <span class="author-location icon-location">Jakarta, Indonesia</span>
@@ -296,14 +285,6 @@ $index-&gt;delete($docId);
   <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fkhal.web.id%2f2010%2f03%2f29%2fzend-lucene-getting-document-id-after-indexing%2f"
       onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
       <span class="hidden">Facebook</span>
-  </a>
-  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=http%3a%2f%2fkhal.web.id%2f2010%2f03%2f29%2fzend-lucene-getting-document-id-after-indexing%2f&amp;description=Zend%20Lucene%2c%20getting%20document%20ID%20after%20indexing"
-      onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
-      <span class="hidden">Pinterest</span>
-  </a>
-  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=http%3a%2f%2fkhal.web.id%2f2010%2f03%2f29%2fzend-lucene-getting-document-id-after-indexing%2f"
-     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
-      <span class="hidden">Google+</span>
   </a>
 </section>
 

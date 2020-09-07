@@ -24,7 +24,7 @@
 
     
         
-            <meta property="og:image" content="http://khal.web.id/images/sidebar.jpg"/>
+            <meta property="og:image" content="/images/sidebar.jpg"/>
         
     
 
@@ -80,7 +80,7 @@
       
       
     
-    <meta name="generator" content="Hugo 0.46" />
+    <meta name="generator" content="Hugo 0.74.3" />
 
     <link rel="canonical" href="http://khal.web.id/2015/04/18/dnscrypt-sikat-bersih-telco-intrusive-ads-telkomsel-xl-axiata/" />
 
@@ -93,21 +93,21 @@
     "@type": "Article",
     "publisher": {
         "@type": "Organization",
-        "name": Khalid Adisendjaja,
-        "logo": http://khal.web.id/images/logo.jpeg
+        "name": "Khalid Adisendjaja",
+        "logo": "http://khal.web.id/images/logo.jpeg"
     },
     "author": {
         "@type": "Person",
-        "name": Khalid Adisendjaja,
+        "name": "Khalid Adisendjaja",
         
         "image": {
             "@type": "ImageObject",
-            "url": http://khal.web.id/images/logo.jpeg,
+            "url": "http://khal.web.id/images/logo.jpeg",
             "width": 250,
             "height": 250
         }, 
         
-        "url": http://khal.web.id,
+        "url": "http://khal.web.id",
         "sameAs": [
             
             
@@ -118,26 +118,26 @@
              
             
         ],
-        "description": Internet tech wanderer. Networking enthusiast. Radio Announcer. Casual Gamer. OpenSource Fans. Information Junkies. My tweet is my own.
+        "description": "a #Coder with a bit #InfoJunkie, proud #Muslim and also #Indonesian"
         
     },
-    "headline": DnsCrypt sikat bersih Telco intrusive ads ( Telkomsel, XL-Axiata ),
-    "name": DnsCrypt sikat bersih Telco intrusive ads ( Telkomsel, XL-Axiata ),
-    "wordCount": 396,
+    "headline": "DnsCrypt sikat bersih Telco intrusive ads ( Telkomsel, XL-Axiata )",
+    "name": "DnsCrypt sikat bersih Telco intrusive ads ( Telkomsel, XL-Axiata )",
+    "wordCount":  396 ,
     "timeRequired": "PT2M",
     "inLanguage": {
       "@type": "Language",
-      "alternateName": en
+      "alternateName": "en"
     },
-    "url": http://khal.web.id/2015/04/18/dnscrypt-sikat-bersih-telco-intrusive-ads-telkomsel-xl-axiata/,
-    "datePublished": 2015-04-18T23:30Z,
-    "dateModified": 2015-04-18T23:30Z,
+    "url": "http://khal.web.id/2015/04/18/dnscrypt-sikat-bersih-telco-intrusive-ads-telkomsel-xl-axiata/",
+    "datePublished": "2015-04-18T23:30Z",
+    "dateModified": "2015-04-18T23:30Z",
     
-    "keywords": security, android, dns, dnscrypt, ads, intrusive, opendns,
-    "description": ,
+    "keywords": "security, android, dns, dnscrypt, ads, intrusive, opendns",
+    "description": "",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": http://khal.web.id/2015/04/18/dnscrypt-sikat-bersih-telco-intrusive-ads-telkomsel-xl-axiata/
+        "@id": "http://khal.web.id/2015/04/18/dnscrypt-sikat-bersih-telco-intrusive-ads-telkomsel-xl-axiata/"
     }
 }
     </script>
@@ -234,50 +234,30 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </header>
 
     <section class="post-content">
-      <p><img src="/images/opendnsintrusiveads.jpg" alt="opendnsintrusiveads" />Syebel, jengkel, kesal, bosan, gegara iklan pengganggu/ intrusive ads beberapa provider telco di Indonesia seperti Telkomsel dan XL Axiata, bahkan banyak dari beberapa orang/badan/lembaga yang membuat petisi akan hal ini tetapi tidak mendapatkan respon dari pemerintah.</p>
-
+      <p><img src="/images/opendnsintrusiveads.jpg" alt="opendnsintrusiveads">Syebel, jengkel, kesal, bosan, gegara iklan pengganggu/ intrusive ads beberapa provider telco di Indonesia seperti Telkomsel dan XL Axiata, bahkan banyak dari beberapa orang/badan/lembaga yang membuat petisi akan hal ini tetapi tidak mendapatkan respon dari pemerintah.</p>
 <p>Iklan tersebut dapat dikategorikan intrusive ads karena iklan yang diberikan oleh provider telekom ini dilakukan tanpa izin atau kerjasama dengan pemilik situs/website dan bahkan isi konten dari iklan tersebut sama sekali tidak berhubungan dengan konten website yang dituju oleh konsumen.</p>
-
 <p>Berikut adalah sebuah solusi yang sebenarnya bisa dilakukan oleh orang banyak dari level end-user (pengguna biasa) atau advance-user (memiliki pengetahuan dasar soal IT networking)</p>
-
-<p>DnsCrypt merupakan sebuah side-project dari OpenDNS (Penyedia jasa layanan DNS dan security). Nah dimanakah peranan dnscrypt ini? boleh kita ambil contoh, ketika kita mencari &ldquo;www.google.com&rdquo; pada browser, henpon/komputer akan meneruskan proses pencarian ke alamat DNS server yang terpasang oleh ISP (Telkomsel, XL Axiata) dimana nantinya akan diterjemahkan menjadi sebuah angka-angka yg kita kenal sebagai IP address contoh &ldquo;74.125.200.139&rdquo;, proses ini dinamakan DNS resolving.</p>
-
+<p>DnsCrypt merupakan sebuah side-project dari OpenDNS (Penyedia jasa layanan DNS dan security). Nah dimanakah peranan dnscrypt ini? boleh kita ambil contoh, ketika kita mencari &ldquo;<a href="http://www.google.com">www.google.com</a>&rdquo; pada browser, henpon/komputer akan meneruskan proses pencarian ke alamat DNS server yang terpasang oleh ISP (Telkomsel, XL Axiata) dimana nantinya akan diterjemahkan menjadi sebuah angka-angka yg kita kenal sebagai IP address contoh &ldquo;74.125.200.139&rdquo;, proses ini dinamakan DNS resolving.</p>
 <p>Nah, proses DNS resolving ini sama sekali tidak terproteksi/terenkripsi jadi siapapun itu termasuk ISP bisa langsung membelokkan/mengubah hasil dari query sebuah alamat website, misal yang seharusnya masuk ke halaman google.com malah masuk ke halaman iklan intrusive ISP.</p>
-
 <p>DnsCrypt akan melakukan sebuah proteksi/enkripsi dari semua dns traffic di henpon/komputer serta dnscrypt-proxy akan meneruskan DNS resolve ke alamat DNS yang mendukung dnscrypt seperti OpenDNS.</p>
-
 <p>Jadi sebenarnya kegunaan DnsCrypt disini cukup besar, sebagai cara untuk melindungi diri sendiri, mempercepat pengalaman browsing, filter konten, dan bahkan ketika salah ketik URL akan langsung dibenerin oleh OpenDNS jadi terhindar phising deh.</p>
-
 <p>Besar kemungkinan bahwa dnscrypt akan mem-ByPass program internet sehat atau nawala yang dilakukan oleh ISP di Indonesia.</p>
-
 <p>DnsCrypt tersedia untuk pengguna windows, mac, linux, iphone, dan android.</p>
-
 <p>Untuk pengguna Mac dan Windows semuanya sudah tinggal download,</p>
-
-<p><a href="http://opendns.github.com/dnscrypt-osx-client/">Download DNSCrypt for Mac</a><br />
+<p><a href="http://opendns.github.com/dnscrypt-osx-client/">Download DNSCrypt for Mac</a><br>
 <a href="https://github.com/opendns/dnscrypt-win-client">Download DNSCrypt for Windows</a></p>
-
 <p>Untuk pengguna Linux,</p>
-
 <p><a href="http://opendesktop.org/content/show.php/DNScrypt+Tools?content=164488">DNSCrypt Tools for Linux</a></p>
-
 <p>Untuk pengguna Iphone (Jailbroken)</p>
-
 <p><a href="http://modmyi.com/cydia/com.guizmo.dns">GuizmoDNS</a></p>
-
 <p>Untuk pengguna Android (Rooted &amp; Flashable), bisa dibaca how to install nya disini <a href="http://forum.xda-developers.com/showthread.php?p=56068030">DNScrypt proxy for Android install</a></p>
-
 <p>DnsCrypt untuk android sudah dicoba dg henpon sendiri menggunakan OnePlus One, CM 12 rom, Android 5.0.2, cekidot Post thread #13 dari link diatas.</p>
-
-<p>Ketika berhasil menginstall, buka halaman <a href="http://www.opendns.com/welcome">http://www.opendns.com/welcome</a>, hasilnya harus seperti gambar dibawah sebelah kiri, lalu buka <a href="http://www.internetbadguys.com">http://www.internetbadguys.com</a> opendns akan mendeteksi bahwa ini adalah website phising seperti gambar sebelah kanan.</p>
-
-<p><a href="/images/wpid-img_20150418_230228.jpg"><img src="/images/wpid-img_20150418_230228.jpg" alt="image" title="IMG_20150418_230228.jpg" /></a></p>
-
-<p>Reddit yg tadinya tidak bisa diakses, sudah bisa diakses kembali,<br />
-<a href="/images/wpid-20150418_231153.jpg"><img src="/images/wpid-20150418_231153-300x280.jpg" alt="wpid-20150418_231153.jpg" /></a></p>
-
-<p>sources:<br />
-<a href="https://www.opendns.com/about/innovations/dnscrypt/">https://www.opendns.com/about/innovations/dnscrypt/</a><br />
+<p>Ketika berhasil menginstall, buka halaman <a href="http://www.opendns.com/welcome,">http://www.opendns.com/welcome,</a> hasilnya harus seperti gambar dibawah sebelah kiri, lalu buka <a href="http://www.internetbadguys.com">http://www.internetbadguys.com</a> opendns akan mendeteksi bahwa ini adalah website phising seperti gambar sebelah kanan.</p>
+<p><a href="/images/wpid-img_20150418_230228.jpg"><img src="/images/wpid-img_20150418_230228.jpg" alt="image" title="IMG_20150418_230228.jpg"></a></p>
+<p>Reddit yg tadinya tidak bisa diakses, sudah bisa diakses kembali,<br>
+<a href="/images/wpid-20150418_231153.jpg"><img src="/images/wpid-20150418_231153-300x280.jpg" alt="wpid-20150418_231153.jpg"></a></p>
+<p>sources:<br>
+<a href="https://www.opendns.com/about/innovations/dnscrypt/">https://www.opendns.com/about/innovations/dnscrypt/</a><br>
 <a href="http://dnscrypt.org">http://dnscrypt.org</a></p>
 
     </section>
@@ -303,7 +283,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <section class="author">
   <h4><a href="http://khal.web.id/">Khalid Adisendjaja</a></h4>
   
-  <p>Internet tech wanderer. Networking enthusiast. Radio Announcer. Casual Gamer. OpenSource Fans. Information Junkies. My tweet is my own.</p>
+  <p>a #Coder with a bit #InfoJunkie, proud #Muslim and also #Indonesian</p>
   
   <div class="author-meta">
     <span class="author-location icon-location">Jakarta, Indonesia</span>
@@ -324,14 +304,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fkhal.web.id%2f2015%2f04%2f18%2fdnscrypt-sikat-bersih-telco-intrusive-ads-telkomsel-xl-axiata%2f"
       onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
       <span class="hidden">Facebook</span>
-  </a>
-  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=http%3a%2f%2fkhal.web.id%2f2015%2f04%2f18%2fdnscrypt-sikat-bersih-telco-intrusive-ads-telkomsel-xl-axiata%2f&amp;description=DnsCrypt%20sikat%20bersih%20Telco%20intrusive%20ads%20%28%20Telkomsel%2c%20XL-Axiata%20%29"
-      onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
-      <span class="hidden">Pinterest</span>
-  </a>
-  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=http%3a%2f%2fkhal.web.id%2f2015%2f04%2f18%2fdnscrypt-sikat-bersih-telco-intrusive-ads-telkomsel-xl-axiata%2f"
-     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
-      <span class="hidden">Google+</span>
   </a>
 </section>
 

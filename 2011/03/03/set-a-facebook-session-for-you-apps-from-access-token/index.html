@@ -24,7 +24,7 @@
 
     
         
-            <meta property="og:image" content="http://khal.web.id/images/sidebar.jpg"/>
+            <meta property="og:image" content="/images/sidebar.jpg"/>
         
     
 
@@ -67,7 +67,7 @@ variable from facebook after user granting your applicat" />
       
       
     
-    <meta name="generator" content="Hugo 0.46" />
+    <meta name="generator" content="Hugo 0.74.3" />
 
     <link rel="canonical" href="http://khal.web.id/2011/03/03/set-a-facebook-session-for-you-apps-from-access-token/" />
 
@@ -80,21 +80,21 @@ variable from facebook after user granting your applicat" />
     "@type": "Article",
     "publisher": {
         "@type": "Organization",
-        "name": Khalid Adisendjaja,
-        "logo": http://khal.web.id/images/logo.jpeg
+        "name": "Khalid Adisendjaja",
+        "logo": "http://khal.web.id/images/logo.jpeg"
     },
     "author": {
         "@type": "Person",
-        "name": Khalid Adisendjaja,
+        "name": "Khalid Adisendjaja",
         
         "image": {
             "@type": "ImageObject",
-            "url": http://khal.web.id/images/logo.jpeg,
+            "url": "http://khal.web.id/images/logo.jpeg",
             "width": 250,
             "height": 250
         }, 
         
-        "url": http://khal.web.id,
+        "url": "http://khal.web.id",
         "sameAs": [
             
             
@@ -105,26 +105,26 @@ variable from facebook after user granting your applicat" />
              
             
         ],
-        "description": Internet tech wanderer. Networking enthusiast. Radio Announcer. Casual Gamer. OpenSource Fans. Information Junkies. My tweet is my own.
+        "description": "a #Coder with a bit #InfoJunkie, proud #Muslim and also #Indonesian"
         
     },
-    "headline": Set a facebook session app from access token,
-    "name": Set a facebook session app from access token,
-    "wordCount": 214,
+    "headline": "Set a facebook session app from access token",
+    "name": "Set a facebook session app from access token",
+    "wordCount":  214 ,
     "timeRequired": "PT2M",
     "inLanguage": {
       "@type": "Language",
-      "alternateName": en
+      "alternateName": "en"
     },
-    "url": http://khal.web.id/2011/03/03/set-a-facebook-session-for-you-apps-from-access-token/,
-    "datePublished": 2011-03-03T15:52Z,
-    "dateModified": 2011-03-03T15:52Z,
+    "url": "http://khal.web.id/2011/03/03/set-a-facebook-session-for-you-apps-from-access-token/",
+    "datePublished": "2011-03-03T15:52Z",
+    "dateModified": "2011-03-03T15:52Z",
     
     
-    "description": ,
+    "description": "",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": http://khal.web.id/2011/03/03/set-a-facebook-session-for-you-apps-from-access-token/
+        "@id": "http://khal.web.id/2011/03/03/set-a-facebook-session-for-you-apps-from-access-token/"
     }
 }
     </script>
@@ -207,18 +207,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </header>
 
     <section class="post-content">
-      <p>In some situation you will want to create a facebook session for your apps, for example you have a CODE<br />
- variable from facebook after user granting your application and then you fetch the access token like this way below,</p>
-
+      <p>In some situation you will want to create a facebook session for your apps, for example you have a CODE<br>
+variable from facebook after user granting your application and then you fetch the access token like this way below,</p>
 <pre><code>&lt;pre lang=&quot;php&quot;&gt;$accessToken = file_get_contents(&quot;https://graph.facebook.com/oauth/access_token?
      client_id=YOUR_APP_ID&amp;redirect_uri=YOUR_URL&amp;
      client_secret=YOUR_APP_SECRET&amp;code=THE_CODE_FROM_ABOVE&quot;);
 </code></pre>
-
 <p>A session apps need these variables included (uid, access_token, and sig) I believe that you already had the latest facebook PHP-SDK, &ldquo;sig&rdquo; is a signature for your cookie base on your App Secret, your need to create session variables by manually and then set that variables with &ldquo;setSession&rdquo; method on PHP-SDK.</p>
-
 <p>These are functions that might help you,</p>
-
 <pre><code>&lt;pre lang=&quot;php&quot;&gt;//Build your session variables
 function generateSessionVars($accessToken)
 {
@@ -249,17 +245,14 @@ $base_string .= $secret;
 return md5($base_string);
 }
 </code></pre>
-
 <p>Wrap it out,</p>
-
 <pre><code>&lt;pre lang=&quot;php&quot;&gt;//get session variables
 $params = generateSessionVars($access_token);
 //SET COOKIE DIRECTLY TO BE USED BY PHP SDK
 $facebook-&gt;setSession($params);
 </code></pre>
-
-<p>If cookie created succesfully your PHP-SDK library could identify with getSession() method if session<br />
- is set or not.</p>
+<p>If cookie created succesfully your PHP-SDK library could identify with getSession() method if session<br>
+is set or not.</p>
 
     </section>
 
@@ -284,7 +277,7 @@ $facebook-&gt;setSession($params);
 <section class="author">
   <h4><a href="http://khal.web.id/">Khalid Adisendjaja</a></h4>
   
-  <p>Internet tech wanderer. Networking enthusiast. Radio Announcer. Casual Gamer. OpenSource Fans. Information Junkies. My tweet is my own.</p>
+  <p>a #Coder with a bit #InfoJunkie, proud #Muslim and also #Indonesian</p>
   
   <div class="author-meta">
     <span class="author-location icon-location">Jakarta, Indonesia</span>
@@ -305,14 +298,6 @@ $facebook-&gt;setSession($params);
   <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fkhal.web.id%2f2011%2f03%2f03%2fset-a-facebook-session-for-you-apps-from-access-token%2f"
       onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
       <span class="hidden">Facebook</span>
-  </a>
-  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=http%3a%2f%2fkhal.web.id%2f2011%2f03%2f03%2fset-a-facebook-session-for-you-apps-from-access-token%2f&amp;description=Set%20a%20facebook%20session%20app%20from%20access%20token"
-      onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
-      <span class="hidden">Pinterest</span>
-  </a>
-  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=http%3a%2f%2fkhal.web.id%2f2011%2f03%2f03%2fset-a-facebook-session-for-you-apps-from-access-token%2f"
-     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
-      <span class="hidden">Google+</span>
   </a>
 </section>
 

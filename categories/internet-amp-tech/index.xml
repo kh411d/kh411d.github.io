@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Internet Amp Tech on Khalid&#39;s Blog</title>
-    <link>http://khal.web.id/categories/internet-amp-tech/</link>
-    <description>Recent content in Internet Amp Tech on Khalid&#39;s Blog</description>
+    <title>Internet &amp;amp; Tech on Khalid&#39;s Blog</title>
+    <link>http://khal.web.id/categories/Internet-amp-Tech/</link>
+    <description>Recent content in Internet &amp;amp; Tech on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 25 Jan 2016 13:02:42 +0000</lastBuildDate>
     
-	<atom:link href="http://khal.web.id/categories/internet-amp-tech/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://khal.web.id/categories/Internet-amp-Tech/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -131,7 +131,7 @@ ZipDial namanya, adalah sebuah perusahaan berbasis di India yang memang fokus be
       <pubDate>Thu, 26 Mar 2015 14:49:58 +0000</pubDate>
       
       <guid>http://khal.web.id/2015/03/26/nah-ini-dia-daftar-gtld-kocak-dan-sedikit-absurd/</guid>
-      <description>gTLD adalah kepanjangan dari &amp;ldquo;generic Top Level Domain&amp;rdquo; yang mungkin kamu semua sudah familiar dengan nama .com, .net, .org, .web.id. Tiga tahun belakangan ini banyak sekali gTLD baru yang telah disahkan oleh ICANN (The Internet Corporation for Assigned Names and Numbers).
+      <description>** gTLD** adalah kepanjangan dari _&amp;ldquo;generic Top Level Domain&amp;rdquo;_ yang mungkin kamu semua sudah familiar dengan nama **.com**, **.net**, **.org**, **.web.id.** Tiga tahun belakangan ini banyak sekali gTLD baru yang telah disahkan oleh ICANN (_The Internet Corporation for Assigned Names and Numbers_).
 ICANN adalah sebuah lembaga yang bertanggung jawab atas pengesahan TLD seperti .com, .porn, .id, dll.
 Nah sekarang sedikit knowledge bagaimana cara ICANN mengesahkan TLD ternyata tidak mudah dan cukup kompleks dan mahal, ICANN melimitasi 500 pendaftar TLD pertama dan biaya sekitar $185.</description>
     </item>
@@ -301,7 +301,7 @@ sudo npm cache clean -f  Install &amp;ldquo;n&amp;rdquo; Node binary manager ,
 sudo npm install -g n  Upgrade Node ke versi terakhir,
 sudo n 0.10.26  Atau bisa langsung upgrade ke versi stable terakhir,
 sudo n stable  Cek versi node yg telah terupgrade,
-$node -v v0.10.26  </description>
+$node -v v0.10.26 </description>
     </item>
     
     <item>
@@ -615,7 +615,7 @@ Console API has become a standard for debugging javascript, so I suppose many br
 the document that was not available on the database, apparently the document unique ID cannot
 be use or kept bcoz, it changed after optimization, so then,
 the Indexed documents may have two type of id&amp;rsquo;s, so I put database id on the document;
- Internal document id returned by $hit-&amp;gt;id and used by</description>
+  Internal document id returned by $hit-&amp;gt;id and used by</description>
     </item>
     
     <item>
@@ -673,7 +673,7 @@ IE oh IE life would be more easier without you (hhmm &amp;hellip; so how can I d
       <pubDate>Thu, 19 Nov 2009 15:10:30 +0000</pubDate>
       
       <guid>http://khal.web.id/2009/11/19/bespin-a-collaborative-coding-dengan-teman2x-kamu-somewhere-out-there-in-the-cloud/</guid>
-      <description>[caption id=&amp;ldquo;&amp;rdquo; align=&amp;ldquo;alignleft&amp;rdquo; width=&amp;ldquo;180&amp;rdquo; caption=&amp;ldquo;bespin&amp;rdquo;][/caption]
+      <description>[caption id=&amp;rdquo;&amp;rdquo; align=&amp;quot;alignleft&amp;rdquo; width=&amp;quot;180&amp;rdquo; caption=&amp;quot;bespin&amp;rdquo;][/caption]
 Pertama gw mo kasih tau dulu nih, apaan sih tuh &amp;ldquo;Bespin&amp;rdquo; , ini product adalah suatu terobosan baru oleh Mozilla Labs yang merupakan sebuah code editor dengan berbasis web, tentunya bertujuan untuk meningkatkan produktivitas dari developer, karena editor ini merupakan web based dengan kata lain bespin bisa di gunakan oleh seluruh developer di mana aja dengan istilah &amp;ldquo;Code In The Cloud&amp;rdquo;, tentu saja dengan browser yang menunjang (Firefox3,Chrome,Safari), karena tidak semua browser bisa menunjang aplikasi ini.</description>
     </item>
     
@@ -696,16 +696,11 @@ Langsung aja ya &amp;hellip;.</description>
       <guid>http://khal.web.id/2009/05/04/png-fix-for-id/</guid>
       <description>Thanks to Angus Turnbull http://www.twinhelix.com, that have made this fix &amp;hellip;.
 Great tools for making PNG image looks good on IE &amp;hellip;. , there is two files that need to be used to make it work
- iepngfix.htc
+  iepngfix.htc
 http://code.google.com/p/widgetfx/source/browse/widgetfx.org/iepngfix.htc
- iepngfix_tilebg.js
+  iepngfix_tilebg.js
 http://code.google.com/p/widgetfx/source/browse/widgetfx.org/iepngfix_tilebg.js?r=144
   Include iepngfix.htc on your css style file
-*html img, *html #anydivid {
-behavior: url(style/iepngfix.htc);
-border:0;
-padding:0; }
-
 include this iepngfix_tilebg.js on you html header, it support for transparent image on background position and repeat.</description>
     </item>
     

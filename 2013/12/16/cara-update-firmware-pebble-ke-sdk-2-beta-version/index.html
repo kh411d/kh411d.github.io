@@ -24,7 +24,7 @@
 
     
         
-            <meta property="og:image" content="http://khal.web.id/images/sidebar.jpg"/>
+            <meta property="og:image" content="/images/sidebar.jpg"/>
         
     
 
@@ -67,7 +67,7 @@ Halo Pebble&amp;rsquo;ers (*ha ha namanya ga asik) belakangan ini Pebble " />
       
       
     
-    <meta name="generator" content="Hugo 0.46" />
+    <meta name="generator" content="Hugo 0.74.3" />
 
     <link rel="canonical" href="http://khal.web.id/2013/12/16/cara-update-firmware-pebble-ke-sdk-2-beta-version/" />
 
@@ -80,21 +80,21 @@ Halo Pebble&amp;rsquo;ers (*ha ha namanya ga asik) belakangan ini Pebble " />
     "@type": "Article",
     "publisher": {
         "@type": "Organization",
-        "name": Khalid Adisendjaja,
-        "logo": http://khal.web.id/images/logo.jpeg
+        "name": "Khalid Adisendjaja",
+        "logo": "http://khal.web.id/images/logo.jpeg"
     },
     "author": {
         "@type": "Person",
-        "name": Khalid Adisendjaja,
+        "name": "Khalid Adisendjaja",
         
         "image": {
             "@type": "ImageObject",
-            "url": http://khal.web.id/images/logo.jpeg,
+            "url": "http://khal.web.id/images/logo.jpeg",
             "width": 250,
             "height": 250
         }, 
         
-        "url": http://khal.web.id,
+        "url": "http://khal.web.id",
         "sameAs": [
             
             
@@ -105,26 +105,26 @@ Halo Pebble&amp;rsquo;ers (*ha ha namanya ga asik) belakangan ini Pebble " />
              
             
         ],
-        "description": Internet tech wanderer. Networking enthusiast. Radio Announcer. Casual Gamer. OpenSource Fans. Information Junkies. My tweet is my own.
+        "description": "a #Coder with a bit #InfoJunkie, proud #Muslim and also #Indonesian"
         
     },
-    "headline": Cara update Firmware Pebble ke SDK 2 Beta version,
-    "name": Cara update Firmware Pebble ke SDK 2 Beta version,
-    "wordCount": 621,
+    "headline": "Cara update Firmware Pebble ke SDK 2 Beta version",
+    "name": "Cara update Firmware Pebble ke SDK 2 Beta version",
+    "wordCount":  621 ,
     "timeRequired": "PT3M",
     "inLanguage": {
       "@type": "Language",
-      "alternateName": en
+      "alternateName": "en"
     },
-    "url": http://khal.web.id/2013/12/16/cara-update-firmware-pebble-ke-sdk-2-beta-version/,
-    "datePublished": 2013-12-16T22:18Z,
-    "dateModified": 2013-12-16T22:18Z,
+    "url": "http://khal.web.id/2013/12/16/cara-update-firmware-pebble-ke-sdk-2-beta-version/",
+    "datePublished": "2013-12-16T22:18Z",
+    "dateModified": "2013-12-16T22:18Z",
     
     
-    "description": ,
+    "description": "",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": http://khal.web.id/2013/12/16/cara-update-firmware-pebble-ke-sdk-2-beta-version/
+        "@id": "http://khal.web.id/2013/12/16/cara-update-firmware-pebble-ke-sdk-2-beta-version/"
     }
 }
     </script>
@@ -208,13 +208,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <section class="post-content">
       <p><strong>Update: Semua intruksi dibawah ini bisa dilakukan hanya dengan menggunakan browser henpon.</strong></p>
-
 <p>Halo Pebble&rsquo;ers (*ha ha namanya ga asik) belakangan ini Pebble mengeluarkan versi Firmware Beta untuk SDK2, update salah satunya adalah mengaktifkan kegunaan Accelerometer yg bisa mengukur movement dari pemakai dan <a href="https://developer.getpebble.com/2/guides/javascript-guide.html">Javascript Kit</a> yg memudahkan developer untuk mengintegrasikan aplikasi pebble dengan web service semacam facebook, foursquare, yahoo weather, dll tanpa menggunakan 3rd party app seperti <a href="http://forums.getpebble.com/discussion/5384/httpebble-framework-for-http-communication-and-other-things-via-watch-apps">httpebble</a>.</p>
-
 <p>Versi update terakhir pada saat artikel ini ditulis adalah <a href="https://developer.getpebble.com/2/releasenotice-beta3.html">Firmware 2.0 Beta 3</a> , versi ini kalo gw lihat sudah cukup stabil dan reliable. Pada versi BETA 2 sebelumnya masih terjadi kendala di Javascript Kit yg mengharuskan Pebble Android app harus berada di foreground. Untuk bisa melakukan instalasi firmware ini pemakai diharuskan registrasi terlebih dahulu di portal <a href="https://auth.getpebble.com/">auth.getpebble.com </a> setelah login semua langkah dan prosedur instalasi bisa dilakukan di <a href="https://developer.getpebble.com/2/getting-started/">developer.getpebble.com</a> , artikel ini hanya penjelasan tambahan untuk prosedur instalasi.</p>
-
 <p>Untuk proses instalasi BETA firmware ada 2 file yg di perlukan, semua file bisa di download di <a href="https://developer.getpebble.com/2/getting-started/">developer.getpebble.com</a> , proses instalasi juga sedikit berbeda untuk platform Android dan IOS, untuk IOS atau Iphone sayangnya akan melalui proses approval dari pihak pebble nya, lo harus mengisi form mengenai aplikasi apa yg akan lo buat, proses selanjutnya sama seperti platform android.</p>
-
 <ol>
 <li>Dari 3 poin yg tertera pada <a href="https://developer.getpebble.com/2/getting-started/">developer.getpebble.com</a> untuk end-user alias non dev, lo hanya download &ldquo;Android App&rdquo; dgn extension &ldquo;PebbleApp-2.0-BETA3.apk&rdquo; atau &ldquo;IOS App&rdquo; (poin 1) dan Firmware file dengan extension &ldquo;.pbz&rdquo;. Perlu diperhatikan disini, ada 2 jenis firmware file keduanya spesifik dengan serial number yg ada di belakang jam tangan, jika serial number <strong>diawali dengan angka</strong>, download <strong>Pebble Firmware 2.0-BETA3 for ev2_4</strong>. , jika <strong>diawali dengan huruf &ldquo;Q&rdquo;</strong>, download <strong>Pebble Firmware 2.0-BETA3 for v1_5.</strong></li>
 <li>Download kedua file yang dibutuhkan langsung ke henpon, gw harap aplikasi folder explorer (ES explorer, Astro) sudah ter-install di henpon.</li>
@@ -224,9 +220,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <li>Setelah Pebble Android App terinstall, lakukan instalasi <strong>Pebble-2.0-BETA3-[ev2_4 atau v1_5].pbz</strong> dari folder explorer, di-klik saja, nanti file akan dikenali oleh Pebble Android App, proses &ldquo;Updating&rdquo; akan segera berlangsung, tunggu sekitar 2-3 menit sampai proses instalasi selesai, Jam tangan akan melakukan reboot ketika update firmware telah selesai.</li>
 <li>Setelah semua selesai, silahkan sujud sukur, potong kambing, tumpengan atau undang tetangga buat tahlilan (*Hahaha bcanda broh)</li>
 </ol>
-
 <p>Setelah itu lo bisa langsung menuju <a href="http://www.mypebblefaces.com/">MyPebbleFaces.com</a> silahkan di filter result berdasarkan SDK 2.0, ada beberapa aplikasi yg menurut gw cukup menarik seperti,</p>
-
 <ol>
 <li><a href="http://www.mypebblefaces.com/apps/9157/6582/">Aerotracker</a> sebuah aplikasi tracking GPS,</li>
 <li><a href="http://www.mypebblefaces.com/apps/9519/7122/"> Tap Time </a>watchface hemat energi,</li>
@@ -236,13 +230,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <li><a href="http://www.mypebblefaces.com/apps/10947/8172/">Spoon</a> bisa checkin foursquare dari pebble lo (*keren bro, cobain deh)</li>
 <li><a href="http://letsmuv.com/">LetsMuv</a> aplikasi ini mirip seperti fitbit, nike fuelband</li>
 </ol>
-
 <p>Oya, Pebble sdk 2 memperkenalkan fitur app config untuk pebble watchapp, config ini bisa dilihat di Pebble Android App di menu Watch App dgn gear icon,</p>
-
-<p><a href="/images/wpid-Screenshot_2013-12-17-00-30-16.png"><img src="/images/wpid-Screenshot_2013-12-17-00-30-16.png" alt="image" title="Screenshot_2013-12-17-00-30-16.png" /></a></p>
-
+<p><a href="/images/wpid-Screenshot_2013-12-17-00-30-16.png"><img src="/images/wpid-Screenshot_2013-12-17-00-30-16.png" alt="image" title="Screenshot_2013-12-17-00-30-16.png"></a></p>
 <p>Wokeh Bro Sis gitu deh, catatan aja, langkah diatas udah gw coba berulang2x di android dan sukses2x aja, untuk aplikasi IOS gw belum pernah coba, tapi kalo gw pikir sih mirip aja ya, sori banget nih kalo gw kurang nge-bantu :)</p>
-
 <p>Selamat mencoba!! Break a leg :))</p>
 
     </section>
@@ -268,7 +258,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <section class="author">
   <h4><a href="http://khal.web.id/">Khalid Adisendjaja</a></h4>
   
-  <p>Internet tech wanderer. Networking enthusiast. Radio Announcer. Casual Gamer. OpenSource Fans. Information Junkies. My tweet is my own.</p>
+  <p>a #Coder with a bit #InfoJunkie, proud #Muslim and also #Indonesian</p>
   
   <div class="author-meta">
     <span class="author-location icon-location">Jakarta, Indonesia</span>
@@ -289,14 +279,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fkhal.web.id%2f2013%2f12%2f16%2fcara-update-firmware-pebble-ke-sdk-2-beta-version%2f"
       onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
       <span class="hidden">Facebook</span>
-  </a>
-  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=http%3a%2f%2fkhal.web.id%2f2013%2f12%2f16%2fcara-update-firmware-pebble-ke-sdk-2-beta-version%2f&amp;description=Cara%20update%20Firmware%20Pebble%20ke%20SDK%202%20Beta%20version"
-      onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
-      <span class="hidden">Pinterest</span>
-  </a>
-  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=http%3a%2f%2fkhal.web.id%2f2013%2f12%2f16%2fcara-update-firmware-pebble-ke-sdk-2-beta-version%2f"
-     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
-      <span class="hidden">Google+</span>
   </a>
 </section>
 

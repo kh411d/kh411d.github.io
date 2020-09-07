@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Portainer on Khalid&#39;s Blog</title>
+    <title>portainer on Khalid&#39;s Blog</title>
     <link>http://khal.web.id/tags/portainer/</link>
-    <description>Recent content in Portainer on Khalid&#39;s Blog</description>
+    <description>Recent content in portainer on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 18 Feb 2018 13:38:36 +0700</lastBuildDate>
@@ -17,7 +17,7 @@
       <pubDate>Sun, 18 Feb 2018 13:38:36 +0700</pubDate>
       
       <guid>http://khal.web.id/2018/02/18/Meet-Docker-managers-for-human/</guid>
-      <description>After more than a year using docker, just realized that there are many GUI docker managers out there, this tool is really useful, because you don&amp;rsquo;t need to remember all the command lines or googling every time you forget the command.
+      <description>After more than a year using docker, just realized that there are many GUI docker managers out there, this tool is really useful because you don&amp;rsquo;t need to remember all the command lines or googling every time you forget the command.
 So let me introduce Portainer IO. Basically, this tool will let you manage all the containers, images, logs, volume, network, consul, how you create the container, look at the image you&amp;rsquo;re creating from, and etc.</description>
     </item>
     

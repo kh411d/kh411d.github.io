@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
@@ -8,13 +8,113 @@
   </url>
   
   <url>
+    <loc>http://khal.web.id/tags/android/</loc>
+    <lastmod>2018-08-06T23:08:09+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/ios/</loc>
+    <lastmod>2018-08-06T23:08:09+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/</loc>
+    <lastmod>2018-08-06T23:08:09+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/pebble/</loc>
+    <lastmod>2018-08-06T23:08:09+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/post/</loc>
+    <lastmod>2018-08-06T23:08:09+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/smartwatch/</loc>
+    <lastmod>2018-08-06T23:08:09+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/</loc>
+    <lastmod>2018-08-06T23:08:09+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/wearos/</loc>
+    <lastmod>2018-08-06T23:08:09+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/docker/</loc>
+    <lastmod>2018-02-18T13:38:36+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/docker-manager/</loc>
+    <lastmod>2018-02-18T13:38:36+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/linux/</loc>
+    <lastmod>2018-02-18T13:38:36+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://khal.web.id/2018/02/18/Meet-Docker-managers-for-human/</loc>
     <lastmod>2018-02-18T13:38:36+07:00</lastmod>
   </url>
   
   <url>
+    <loc>http://khal.web.id/tags/osx/</loc>
+    <lastmod>2018-02-18T13:38:36+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/portainer/</loc>
+    <lastmod>2018-02-18T13:38:36+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/windows/</loc>
+    <lastmod>2018-02-18T13:38:36+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/archlinux/</loc>
+    <lastmod>2018-01-25T00:40:18+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/macbook-air/</loc>
+    <lastmod>2018-01-25T00:40:18+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/operating-system/</loc>
+    <lastmod>2018-01-25T00:40:18+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://khal.web.id/2018/01/25/Rusty-Macbook-Air-getting-new-Air-from-Archlinux/</loc>
     <lastmod>2018-01-25T00:40:18+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/hugo/</loc>
+    <lastmod>2018-01-02T23:18:55+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/jekyll/</loc>
+    <lastmod>2018-01-02T23:18:55+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/static-generator/</loc>
+    <lastmod>2018-01-02T23:18:55+07:00</lastmod>
   </url>
   
   <url>
@@ -28,7 +128,27 @@
   </url>
   
   <url>
+    <loc>http://khal.web.id/tags/iot/</loc>
+    <lastmod>2016-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/gaming/</loc>
+    <lastmod>2016-05-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://khal.web.id/2016/05/16/how-to-retro-gaming-with-retroarch/</loc>
+    <lastmod>2016-05-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/retro/</loc>
+    <lastmod>2016-05-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/retroarch/</loc>
     <lastmod>2016-05-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -38,8 +158,48 @@
   </url>
   
   <url>
+    <loc>http://khal.web.id/tags/wordpress/</loc>
+    <lastmod>2016-05-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/androidx86/</loc>
+    <lastmod>2016-01-25T13:02:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/apple/</loc>
+    <lastmod>2016-01-25T13:02:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/categories/</loc>
+    <lastmod>2016-01-25T13:02:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/categories/Internet-amp-Tech/</loc>
+    <lastmod>2016-01-25T13:02:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/macbook/</loc>
+    <lastmod>2016-01-25T13:02:42+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://khal.web.id/2016/01/25/nge-mix-android-di-macbookpc/</loc>
     <lastmod>2016-01-25T13:02:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/remixos/</loc>
+    <lastmod>2016-01-25T13:02:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/elcapitan/</loc>
+    <lastmod>2016-01-13T01:15:44+00:00</lastmod>
   </url>
   
   <url>
@@ -48,7 +208,32 @@
   </url>
   
   <url>
+    <loc>http://khal.web.id/tags/boardgame/</loc>
+    <lastmod>2016-01-11T13:59:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/co-op/</loc>
+    <lastmod>2016-01-11T13:59:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/categories/Hobbies-Event-amp-Travelling/</loc>
+    <lastmod>2016-01-11T13:59:10+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://khal.web.id/2016/01/11/kopi-kental-manis-team-building-dan-boardgaming/</loc>
+    <lastmod>2016-01-11T13:59:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/team-building/</loc>
+    <lastmod>2016-01-11T13:59:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/teamwork/</loc>
     <lastmod>2016-01-11T13:59:10+00:00</lastmod>
   </url>
   
@@ -73,8 +258,73 @@
   </url>
   
   <url>
+    <loc>http://khal.web.id/tags/android-L/</loc>
+    <lastmod>2015-05-02T15:50:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/google/</loc>
+    <lastmod>2015-05-02T15:50:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/lock-screen/</loc>
+    <lastmod>2015-05-02T15:50:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/lollipop/</loc>
+    <lastmod>2015-05-02T15:50:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/security/</loc>
+    <lastmod>2015-05-02T15:50:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/smartlock/</loc>
+    <lastmod>2015-05-02T15:50:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/bitcoin/</loc>
+    <lastmod>2015-04-23T17:48:39+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/digital-currency/</loc>
+    <lastmod>2015-04-23T17:48:39+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://khal.web.id/2015/04/23/pdkt-sama-uang-dunia-maya-bernama-bitcoin/</loc>
     <lastmod>2015-04-23T17:48:39+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/cloud/</loc>
+    <lastmod>2015-04-20T10:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/music-player/</loc>
+    <lastmod>2015-04-20T10:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/opensource/</loc>
+    <lastmod>2015-04-20T10:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/social/</loc>
+    <lastmod>2015-04-20T10:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/tomahawk/</loc>
+    <lastmod>2015-04-20T10:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -83,8 +333,43 @@
   </url>
   
   <url>
+    <loc>http://khal.web.id/tags/frame-busting/</loc>
+    <lastmod>2015-04-19T15:42:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/iframe/</loc>
+    <lastmod>2015-04-19T15:42:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/isp/</loc>
+    <lastmod>2015-04-19T15:42:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/telco/</loc>
+    <lastmod>2015-04-19T15:42:06+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://khal.web.id/2015/04/19/ulah-nakal-isp-praktik-browser-frame-busting/</loc>
     <lastmod>2015-04-19T15:42:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/ads/</loc>
+    <lastmod>2015-04-18T23:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/dns/</loc>
+    <lastmod>2015-04-18T23:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/dnscrypt/</loc>
+    <lastmod>2015-04-18T23:30:00+00:00</lastmod>
   </url>
   
   <url>
@@ -93,8 +378,53 @@
   </url>
   
   <url>
+    <loc>http://khal.web.id/tags/intrusive/</loc>
+    <lastmod>2015-04-18T23:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/opendns/</loc>
+    <lastmod>2015-04-18T23:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/cyandelta/</loc>
+    <lastmod>2015-04-14T07:20:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/cyanogen/</loc>
+    <lastmod>2015-04-14T07:20:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/CyanogenMod/</loc>
+    <lastmod>2015-04-14T07:20:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://khal.web.id/2015/04/14/diy-cyanogen-nightly-auto-update/</loc>
     <lastmod>2015-04-14T07:20:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/oneplus/</loc>
+    <lastmod>2015-04-14T07:20:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/acquisition/</loc>
+    <lastmod>2015-03-31T18:14:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/akusisi/</loc>
+    <lastmod>2015-03-31T18:14:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/bisnis/</loc>
+    <lastmod>2015-03-31T18:14:06+00:00</lastmod>
   </url>
   
   <url>
@@ -103,12 +433,77 @@
   </url>
   
   <url>
+    <loc>http://khal.web.id/tags/facebook/</loc>
+    <lastmod>2015-03-31T18:14:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/india/</loc>
+    <lastmod>2015-03-31T18:14:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/missed-call/</loc>
+    <lastmod>2015-03-31T18:14:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/twitter/</loc>
+    <lastmod>2015-03-31T18:14:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/zero-marketing/</loc>
+    <lastmod>2015-03-31T18:14:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/zipdial/</loc>
+    <lastmod>2015-03-31T18:14:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/domain-name/</loc>
+    <lastmod>2015-03-26T14:49:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/gtld/</loc>
+    <lastmod>2015-03-26T14:49:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/icann/</loc>
+    <lastmod>2015-03-26T14:49:58+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://khal.web.id/2015/03/26/nah-ini-dia-daftar-gtld-kocak-dan-sedikit-absurd/</loc>
     <lastmod>2015-03-26T14:49:58+00:00</lastmod>
   </url>
   
   <url>
+    <loc>http://khal.web.id/tags/tld/</loc>
+    <lastmod>2015-03-26T14:49:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/3rdparty/</loc>
+    <lastmod>2015-03-17T13:12:12+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://khal.web.id/2015/03/17/belenggu-sosial-dari-what-to-be-called-a-parasite-apps/</loc>
+    <lastmod>2015-03-17T13:12:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/parasite-app/</loc>
+    <lastmod>2015-03-17T13:12:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/socialmedia/</loc>
     <lastmod>2015-03-17T13:12:12+00:00</lastmod>
   </url>
   
@@ -118,8 +513,38 @@
   </url>
   
   <url>
+    <loc>http://khal.web.id/tags/guideline/</loc>
+    <lastmod>2014-10-15T12:10:17+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/promotion/</loc>
+    <lastmod>2014-10-15T12:10:17+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://khal.web.id/2014/08/18/ahh-a-dreadful-battery-life-is-it-a-smartwatch-a-cellphone-or-just-another-complicated-gadget/</loc>
     <lastmod>2014-08-18T13:39:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/battery/</loc>
+    <lastmod>2014-08-18T13:39:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/iphone/</loc>
+    <lastmod>2014-08-18T13:39:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/watch/</loc>
+    <lastmod>2014-08-18T13:39:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/ajax/</loc>
+    <lastmod>2014-08-12T12:04:45+00:00</lastmod>
   </url>
   
   <url>
@@ -128,12 +553,72 @@
   </url>
   
   <url>
+    <loc>http://khal.web.id/tags/icecast/</loc>
+    <lastmod>2014-08-12T12:04:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/jquery/</loc>
+    <lastmod>2014-08-12T12:04:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/onlineradio/</loc>
+    <lastmod>2014-08-12T12:04:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/radio/</loc>
+    <lastmod>2014-08-12T12:04:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/realtime/</loc>
+    <lastmod>2014-08-12T12:04:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/xspf/</loc>
+    <lastmod>2014-08-12T12:04:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/#ifttt/</loc>
+    <lastmod>2014-07-11T16:03:57+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://khal.web.id/2014/07/11/aplikasi-mobile-ifttt-bakal-bikin-android-lo-makin-canggih/</loc>
     <lastmod>2014-07-11T16:03:57+00:00</lastmod>
   </url>
   
   <url>
+    <loc>http://khal.web.id/tags/app/</loc>
+    <lastmod>2014-07-11T16:03:57+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/automatisation/</loc>
+    <lastmod>2014-07-11T16:03:57+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/mobile/</loc>
+    <lastmod>2014-07-11T16:03:57+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://khal.web.id/2014/06/19/nanti-gue-yo-aja-ya/</loc>
+    <lastmod>2014-06-19T16:20:34+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/yo/</loc>
+    <lastmod>2014-06-19T16:20:34+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/yoapp/</loc>
     <lastmod>2014-06-19T16:20:34+00:00</lastmod>
   </url>
   
@@ -148,12 +633,47 @@
   </url>
   
   <url>
+    <loc>http://khal.web.id/categories/Random-Thought/</loc>
+    <lastmod>2014-06-05T14:25:20+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://khal.web.id/2014/06/05/uhuk-facebook-ask-buat-gombalin-cewek-jomblo-lumayan-neh/</loc>
     <lastmod>2014-06-05T14:25:20+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://khal.web.id/2014/05/28/aplikasi-3rd-party-facebookpaypaldll-aman-gituh-lo-harus-tahu/</loc>
+    <lastmod>2014-05-28T20:08:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/cover-redirect/</loc>
+    <lastmod>2014-05-28T20:08:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/linkedin/</loc>
+    <lastmod>2014-05-28T20:08:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/oauth/</loc>
+    <lastmod>2014-05-28T20:08:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/openid/</loc>
+    <lastmod>2014-05-28T20:08:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/paypal/</loc>
+    <lastmod>2014-05-28T20:08:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/vulnerability/</loc>
     <lastmod>2014-05-28T20:08:25+00:00</lastmod>
   </url>
   
@@ -348,6 +868,41 @@
   </url>
   
   <url>
+    <loc>http://khal.web.id/tags/chrome/</loc>
+    <lastmod>2010-07-02T14:27:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/console-api/</loc>
+    <lastmod>2010-07-02T14:27:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/firefox/</loc>
+    <lastmod>2010-07-02T14:27:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/ie/</loc>
+    <lastmod>2010-07-02T14:27:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/javascript/</loc>
+    <lastmod>2010-07-02T14:27:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/opera/</loc>
+    <lastmod>2010-07-02T14:27:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/safari/</loc>
+    <lastmod>2010-07-02T14:27:23+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://khal.web.id/2010/03/29/zend-lucene-getting-document-id-after-indexing/</loc>
     <lastmod>2010-03-29T12:43:41+00:00</lastmod>
   </url>
@@ -393,677 +948,11 @@
   </url>
   
   <url>
-    <loc>http://khal.web.id/tags/#ifttt/</loc>
-    <lastmod>2014-07-11T16:03:57+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/3rdparty/</loc>
-    <lastmod>2015-03-17T13:12:12+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/acquisition/</loc>
-    <lastmod>2015-03-31T18:14:06+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/ads/</loc>
-    <lastmod>2015-04-18T23:30:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/ajax/</loc>
-    <lastmod>2014-08-12T12:04:45+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/akusisi/</loc>
-    <lastmod>2015-03-31T18:14:06+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/android/</loc>
-    <lastmod>2018-08-06T23:08:09+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/android-l/</loc>
-    <lastmod>2015-05-02T15:50:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/androidx86/</loc>
-    <lastmod>2016-01-25T13:02:42+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/app/</loc>
-    <lastmod>2014-07-11T16:03:57+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/apple/</loc>
-    <lastmod>2016-01-25T13:02:42+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/archlinux/</loc>
-    <lastmod>2018-01-25T00:40:18+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/automatisation/</loc>
-    <lastmod>2014-07-11T16:03:57+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/battery/</loc>
-    <lastmod>2014-08-18T13:39:28+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/bisnis/</loc>
-    <lastmod>2015-03-31T18:14:06+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/bitcoin/</loc>
-    <lastmod>2015-04-23T17:48:39+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/boardgame/</loc>
-    <lastmod>2016-01-11T13:59:10+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://khal.web.id/burglebros/tool/</loc>
   </url>
   
   <url>
     <loc>http://khal.web.id/burglebros/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/chrome/</loc>
-    <lastmod>2010-07-02T14:27:23+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/cloud/</loc>
-    <lastmod>2015-04-20T10:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/co-op/</loc>
-    <lastmod>2016-01-11T13:59:10+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/console-api/</loc>
-    <lastmod>2010-07-02T14:27:23+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/cover-redirect/</loc>
-    <lastmod>2014-05-28T20:08:25+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/cyandelta/</loc>
-    <lastmod>2015-04-14T07:20:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/cyanogen/</loc>
-    <lastmod>2015-04-14T07:20:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/cyanogenmod/</loc>
-    <lastmod>2015-04-14T07:20:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/digital-currency/</loc>
-    <lastmod>2015-04-23T17:48:39+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/dns/</loc>
-    <lastmod>2015-04-18T23:30:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/dnscrypt/</loc>
-    <lastmod>2015-04-18T23:30:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/docker/</loc>
-    <lastmod>2018-02-18T13:38:36+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/docker-manager/</loc>
-    <lastmod>2018-02-18T13:38:36+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/domain-name/</loc>
-    <lastmod>2015-03-26T14:49:58+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/elcapitan/</loc>
-    <lastmod>2016-01-13T01:15:44+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/facebook/</loc>
-    <lastmod>2015-03-31T18:14:06+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/firefox/</loc>
-    <lastmod>2010-07-02T14:27:23+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/frame-busting/</loc>
-    <lastmod>2015-04-19T15:42:06+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/gaming/</loc>
-    <lastmod>2016-05-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/google/</loc>
-    <lastmod>2015-05-02T15:50:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/gtld/</loc>
-    <lastmod>2015-03-26T14:49:58+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/guideline/</loc>
-    <lastmod>2014-10-15T12:10:17+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/categories/hobbies-event-amp-travelling/</loc>
-    <lastmod>2016-01-11T13:59:10+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/hugo/</loc>
-    <lastmod>2018-01-02T23:18:55+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/icann/</loc>
-    <lastmod>2015-03-26T14:49:58+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/icecast/</loc>
-    <lastmod>2014-08-12T12:04:45+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/ie/</loc>
-    <lastmod>2010-07-02T14:27:23+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/iframe/</loc>
-    <lastmod>2015-04-19T15:42:06+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/india/</loc>
-    <lastmod>2015-03-31T18:14:06+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/categories/internet-amp-tech/</loc>
-    <lastmod>2016-01-25T13:02:42+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/intrusive/</loc>
-    <lastmod>2015-04-18T23:30:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/ios/</loc>
-    <lastmod>2018-08-06T23:08:09+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/iot/</loc>
-    <lastmod>2016-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/iphone/</loc>
-    <lastmod>2014-08-18T13:39:28+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/isp/</loc>
-    <lastmod>2015-04-19T15:42:06+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/javascript/</loc>
-    <lastmod>2010-07-02T14:27:23+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/jekyll/</loc>
-    <lastmod>2018-01-02T23:18:55+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/jquery/</loc>
-    <lastmod>2014-08-12T12:04:45+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/</loc>
-    <lastmod>2018-08-06T23:08:09+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/linkedin/</loc>
-    <lastmod>2014-05-28T20:08:25+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/linux/</loc>
-    <lastmod>2018-02-18T13:38:36+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/lock-screen/</loc>
-    <lastmod>2015-05-02T15:50:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/lollipop/</loc>
-    <lastmod>2015-05-02T15:50:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/macbook/</loc>
-    <lastmod>2016-01-25T13:02:42+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/macbook-air/</loc>
-    <lastmod>2018-01-25T00:40:18+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/missed-call/</loc>
-    <lastmod>2015-03-31T18:14:06+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/mobile/</loc>
-    <lastmod>2014-07-11T16:03:57+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/music-player/</loc>
-    <lastmod>2015-04-20T10:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/oauth/</loc>
-    <lastmod>2014-05-28T20:08:25+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/oneplus/</loc>
-    <lastmod>2015-04-14T07:20:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/onlineradio/</loc>
-    <lastmod>2014-08-12T12:04:45+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/opendns/</loc>
-    <lastmod>2015-04-18T23:30:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/openid/</loc>
-    <lastmod>2014-05-28T20:08:25+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/opensource/</loc>
-    <lastmod>2015-04-20T10:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/opera/</loc>
-    <lastmod>2010-07-02T14:27:23+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/operating-system/</loc>
-    <lastmod>2018-01-25T00:40:18+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/osx/</loc>
-    <lastmod>2018-02-18T13:38:36+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/parasite-app/</loc>
-    <lastmod>2015-03-17T13:12:12+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/paypal/</loc>
-    <lastmod>2014-05-28T20:08:25+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/pebble/</loc>
-    <lastmod>2018-08-06T23:08:09+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/portainer/</loc>
-    <lastmod>2018-02-18T13:38:36+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/post/</loc>
-    <lastmod>2018-08-06T23:08:09+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/promotion/</loc>
-    <lastmod>2014-10-15T12:10:17+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/radio/</loc>
-    <lastmod>2014-08-12T12:04:45+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/categories/random-thought/</loc>
-    <lastmod>2014-06-05T14:25:20+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/realtime/</loc>
-    <lastmod>2014-08-12T12:04:45+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/remixos/</loc>
-    <lastmod>2016-01-25T13:02:42+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/retro/</loc>
-    <lastmod>2016-05-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/retroarch/</loc>
-    <lastmod>2016-05-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/safari/</loc>
-    <lastmod>2010-07-02T14:27:23+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/security/</loc>
-    <lastmod>2015-05-02T15:50:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/smartlock/</loc>
-    <lastmod>2015-05-02T15:50:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/smartwatch/</loc>
-    <lastmod>2018-08-06T23:08:09+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/social/</loc>
-    <lastmod>2015-04-20T10:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/socialmedia/</loc>
-    <lastmod>2015-03-17T13:12:12+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/static-generator/</loc>
-    <lastmod>2018-01-02T23:18:55+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/</loc>
-    <lastmod>2014-07-11T16:03:57+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/team-building/</loc>
-    <lastmod>2016-01-11T13:59:10+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/teamwork/</loc>
-    <lastmod>2016-01-11T13:59:10+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/telco/</loc>
-    <lastmod>2015-04-19T15:42:06+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/tld/</loc>
-    <lastmod>2015-03-26T14:49:58+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/tomahawk/</loc>
-    <lastmod>2015-04-20T10:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/twitter/</loc>
-    <lastmod>2015-03-31T18:14:06+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/vulnerability/</loc>
-    <lastmod>2014-05-28T20:08:25+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/watch/</loc>
-    <lastmod>2014-08-18T13:39:28+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/wearos/</loc>
-    <lastmod>2018-08-06T23:08:09+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/windows/</loc>
-    <lastmod>2018-02-18T13:38:36+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/wordpress/</loc>
-    <lastmod>2016-05-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/xspf/</loc>
-    <lastmod>2014-08-12T12:04:45+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/yo/</loc>
-    <lastmod>2014-06-19T16:20:34+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/yoapp/</loc>
-    <lastmod>2014-06-19T16:20:34+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/zero-marketing/</loc>
-    <lastmod>2015-03-31T18:14:06+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/zipdial/</loc>
-    <lastmod>2015-03-31T18:14:06+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
 </urlset>

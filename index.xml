@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Khalid&#39;s Blog</title>
@@ -17,9 +17,9 @@
       <pubDate>Mon, 06 Aug 2018 23:08:09 +0700</pubDate>
       
       <guid>http://khal.web.id/2018/08/06/20-Shades-of-Smartwatch/</guid>
-      <description>Had enough with all smartwatch vendor these days, and it&amp;rsquo;s time to give my feedback base on 3 years experience using pebble watch.
-I&amp;rsquo;m going to share about what feature is really works or not, and if you are a smartwatch maker that just happens reading this blog I&amp;rsquo;m hoping this post will be a clue for your next flagship idea.
-It&amp;rsquo;s all more to smartwatch functionality, I don&amp;rsquo;t care whether it comes with a fancy strap, stainless/plastic body, or a screen made by gorilla, as long as it sturdy enough, it&amp;rsquo;s ok with me.</description>
+      <description>Had enough with all smartwatch vendor these days, and it&amp;rsquo;s time to give my feedback base on 3 years experience using the pebble watch.
+I&amp;rsquo;m going to share about what feature is really working or not, and if you are a smartwatch maker that just happens reading this blog I&amp;rsquo;m hoping this post will be a clue for your next flagship idea.
+It&amp;rsquo;s all more to smartwatch functionality, I don&amp;rsquo;t care whether it comes with a fancy strap, stainless/plastic body, or a screen made by a gorilla, as long as it is sturdy enough, it&amp;rsquo;s ok with me.</description>
     </item>
     
     <item>
@@ -28,7 +28,7 @@ It&amp;rsquo;s all more to smartwatch functionality, I don&amp;rsquo;t care whet
       <pubDate>Sun, 18 Feb 2018 13:38:36 +0700</pubDate>
       
       <guid>http://khal.web.id/2018/02/18/Meet-Docker-managers-for-human/</guid>
-      <description>After more than a year using docker, just realized that there are many GUI docker managers out there, this tool is really useful, because you don&amp;rsquo;t need to remember all the command lines or googling every time you forget the command.
+      <description>After more than a year using docker, just realized that there are many GUI docker managers out there, this tool is really useful because you don&amp;rsquo;t need to remember all the command lines or googling every time you forget the command.
 So let me introduce Portainer IO. Basically, this tool will let you manage all the containers, images, logs, volume, network, consul, how you create the container, look at the image you&amp;rsquo;re creating from, and etc.</description>
     </item>
     
@@ -38,7 +38,7 @@ So let me introduce Portainer IO. Basically, this tool will let you manage all t
       <pubDate>Thu, 25 Jan 2018 00:40:18 +0700</pubDate>
       
       <guid>http://khal.web.id/2018/01/25/Rusty-Macbook-Air-getting-new-Air-from-Archlinux/</guid>
-      <description>Today I accidentally deleted my primary osx partition from my very old macbook air 4,2 (2011) with last installed os was el capitan. From the beginning I just want to give my macbook some extra space but it turns out cleaning all the HDD &amp;hellip;LOL, I seriously don&amp;rsquo;t know how in the hell this could happened, this is a lesson for not to clean your HDD in the middle of the night.</description>
+      <description>Today I accidentally deleted my primary OSX partition from my very old MacBook air 4,2 (2011) with the last installed os was el Capitan. From the beginning, I just want to give my MacBook some extra space but it turns out cleaning all the HDD &amp;hellip;LOL, I seriously don&amp;rsquo;t know how in the hell this could happen, this is a lesson for not to clean your HDD in the middle of the night.</description>
     </item>
     
     <item>
@@ -47,8 +47,10 @@ So let me introduce Portainer IO. Basically, this tool will let you manage all t
       <pubDate>Tue, 02 Jan 2018 23:18:55 +0700</pubDate>
       
       <guid>http://khal.web.id/2018/01/02/Thanks-Jekyll.-Hello-Hugo/</guid>
-      <description>I guess this is the time to say goodbye to Jekyll and thank you for everything after all this years. I just can&amp;rsquo;t go further with you, I feel like Ruby is too much for me, struggling with all dependencies, build errors, etc.
-Let me introduce Hugo, I can&amp;rsquo;t say much about Hugo but that&amp;rsquo;s a good thing, means that hugo is so damn simple. Easy setup, easy to customize, easy to handle.</description>
+      <description>I guess it&amp;rsquo;s time to say goodbye to Jekyll and thank you. I just can&amp;rsquo;t go further, I feel like Ruby is too much, struggling with all dependencies, build errors, etc.
+Let me introduce Hugo, I can&amp;rsquo;t say much about Hugo but that&amp;rsquo;s a good thing, means that Hugo is so damn simple. Easy installation, easy to customize, easy to maintain.
+ Hugo is so damn fast, no joke.
+ Hugo is single, yup Hugo is only a single binary file no Dependency Hell included, no worries if I updated my OS something would break, and it offers the same feature as Jekyll did.</description>
     </item>
     
     <item>
@@ -67,7 +69,7 @@ Terlihat sudah banyaknya beredar dijual device/alat yang terhubung dengan intern
       <pubDate>Mon, 16 May 2016 00:00:00 +0000</pubDate>
       
       <guid>http://khal.web.id/2016/05/16/how-to-retro-gaming-with-retroarch/</guid>
-      <description>I&amp;rsquo;m actually accidentaly found this awesome stuff over the internet when I was googling about super mario game, a website called Emuparadise point me directly to RetroArch website. At first thought maybe it&amp;rsquo;s just another kind of emulator that specific to just one console, a little bit curious so then I tried this emulator, surprisingly it can run on many platform such as Linux, Windows, Blackberry, OSX, RaspberryPi, Android, iOS and it can be installed on some gaming device such as Xbox, Playstation, GameCube, Wii, 3DS.</description>
+      <description>I&amp;rsquo;m accidentally found this awesome stuff over the internet when I was googling about the super Mario game, a website called Emuparadise point me directly to RetroArch website. At first thought maybe it&amp;rsquo;s just another kind of emulator that specific to just one console, a little bit curious so then I tried this emulator, surprisingly it can run on any platform such as Linux, Windows, Blackberry, OSX, RaspberryPi, Android, iOS and it can be installed on some gaming device such as Xbox, Playstation, GameCube, Wii, 3DS.</description>
     </item>
     
     <item>
@@ -76,8 +78,8 @@ Terlihat sudah banyaknya beredar dijual device/alat yang terhubung dengan intern
       <pubDate>Tue, 03 May 2016 00:00:00 +0000</pubDate>
       
       <guid>http://khal.web.id/2016/05/03/bye-wordpress-hello/</guid>
-      <description>It&amp;rsquo;s been a long years since I used wordpress on 2006 as my blogging platform, back in the old days there&amp;rsquo;s nothing can beat what wordpress offer for bloggers. So many themes, plugins, and It&amp;rsquo;s still the most-used and well known blogging platform until now.
-According to W3Techs 2016 Survey, WordPress is used by 59.3% of all the websites whose content management system we know. This is 26.4% of all websites.</description>
+      <description>It’s been long years since I used WordPress in 2006 as my blogging platform, back in the old days there’s nothing can beat what WordPress offers for bloggers. So many themes, plugins, and It’s still the most-used and well-known blogging platform until now.
+According to W3Techs Survey, WordPress is used by 63.6% of all the websites whose content management system we know. This is 38.3% of all websites. Every year&amp;rsquo;s website powered by WordPress is significantly rising.</description>
     </item>
     
     <item>
@@ -221,7 +223,7 @@ ZipDial namanya, adalah sebuah perusahaan berbasis di India yang memang fokus be
       <pubDate>Thu, 26 Mar 2015 14:49:58 +0000</pubDate>
       
       <guid>http://khal.web.id/2015/03/26/nah-ini-dia-daftar-gtld-kocak-dan-sedikit-absurd/</guid>
-      <description>gTLD adalah kepanjangan dari &amp;ldquo;generic Top Level Domain&amp;rdquo; yang mungkin kamu semua sudah familiar dengan nama .com, .net, .org, .web.id. Tiga tahun belakangan ini banyak sekali gTLD baru yang telah disahkan oleh ICANN (The Internet Corporation for Assigned Names and Numbers).
+      <description>** gTLD** adalah kepanjangan dari _&amp;ldquo;generic Top Level Domain&amp;rdquo;_ yang mungkin kamu semua sudah familiar dengan nama **.com**, **.net**, **.org**, **.web.id.** Tiga tahun belakangan ini banyak sekali gTLD baru yang telah disahkan oleh ICANN (_The Internet Corporation for Assigned Names and Numbers_).
 ICANN adalah sebuah lembaga yang bertanggung jawab atas pengesahan TLD seperti .com, .porn, .id, dll.
 Nah sekarang sedikit knowledge bagaimana cara ICANN mengesahkan TLD ternyata tidak mudah dan cukup kompleks dan mahal, ICANN melimitasi 500 pendaftar TLD pertama dan biaya sekitar $185.</description>
     </item>
@@ -391,7 +393,7 @@ sudo npm cache clean -f  Install &amp;ldquo;n&amp;rdquo; Node binary manager ,
 sudo npm install -g n  Upgrade Node ke versi terakhir,
 sudo n 0.10.26  Atau bisa langsung upgrade ke versi stable terakhir,
 sudo n stable  Cek versi node yg telah terupgrade,
-$node -v v0.10.26  </description>
+$node -v v0.10.26 </description>
     </item>
     
     <item>
@@ -457,7 +459,7 @@ Secara gamblang gw bisa bilang internet itu sebenarnya adalah sekumpulan alamat-
       <pubDate>Tue, 31 Dec 2013 16:17:45 +0000</pubDate>
       
       <guid>http://khal.web.id/2013/12/31/olahraga-7-menit/</guid>
-      <description>[caption id=&amp;ldquo;attachment_851&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;592&amp;rdquo;] Source: http://well.blogs.nytimes.com/2013/05/09/the-scientific-7-minute-workout[/caption]
+      <description>[caption id=&amp;quot;attachment_851&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;592&amp;rdquo;] Source: http://well.blogs.nytimes.com/2013/05/09/the-scientific-7-minute-workout[/caption]
 Hayo2x yg masih di kasur,
  Cuman 7 menit. Olahraga hemat tempat. Cuman butuh kursi dan dinding ato sandaran hati (*sori curcol) Ulangin 2-3x, udah kayak lari 10km ciyus ga boong. Keringet pasti berserakan, setiap gerakan harus intens sebanyak2xnya pake timer. Klo dah slese, coba tarik nafas dalem2x, rasakan sensasi bau badan sendiri :)) Aplikasi timernya banyak kok, ada di android, iphone, windows, pebble watch, search aja dgn keyword-nya &amp;ldquo;7 minute workout&amp;rdquo;.</description>
     </item>
@@ -739,7 +741,7 @@ Console API has become a standard for debugging javascript, so I suppose many br
 the document that was not available on the database, apparently the document unique ID cannot
 be use or kept bcoz, it changed after optimization, so then,
 the Indexed documents may have two type of id&amp;rsquo;s, so I put database id on the document;
- Internal document id returned by $hit-&amp;gt;id and used by</description>
+  Internal document id returned by $hit-&amp;gt;id and used by</description>
     </item>
     
     <item>
@@ -797,7 +799,7 @@ IE oh IE life would be more easier without you (hhmm &amp;hellip; so how can I d
       <pubDate>Thu, 19 Nov 2009 15:10:30 +0000</pubDate>
       
       <guid>http://khal.web.id/2009/11/19/bespin-a-collaborative-coding-dengan-teman2x-kamu-somewhere-out-there-in-the-cloud/</guid>
-      <description>[caption id=&amp;ldquo;&amp;rdquo; align=&amp;ldquo;alignleft&amp;rdquo; width=&amp;ldquo;180&amp;rdquo; caption=&amp;ldquo;bespin&amp;rdquo;][/caption]
+      <description>[caption id=&amp;rdquo;&amp;rdquo; align=&amp;quot;alignleft&amp;rdquo; width=&amp;quot;180&amp;rdquo; caption=&amp;quot;bespin&amp;rdquo;][/caption]
 Pertama gw mo kasih tau dulu nih, apaan sih tuh &amp;ldquo;Bespin&amp;rdquo; , ini product adalah suatu terobosan baru oleh Mozilla Labs yang merupakan sebuah code editor dengan berbasis web, tentunya bertujuan untuk meningkatkan produktivitas dari developer, karena editor ini merupakan web based dengan kata lain bespin bisa di gunakan oleh seluruh developer di mana aja dengan istilah &amp;ldquo;Code In The Cloud&amp;rdquo;, tentu saja dengan browser yang menunjang (Firefox3,Chrome,Safari), karena tidak semua browser bisa menunjang aplikasi ini.</description>
     </item>
     
@@ -820,16 +822,11 @@ Langsung aja ya &amp;hellip;.</description>
       <guid>http://khal.web.id/2009/05/04/png-fix-for-id/</guid>
       <description>Thanks to Angus Turnbull http://www.twinhelix.com, that have made this fix &amp;hellip;.
 Great tools for making PNG image looks good on IE &amp;hellip;. , there is two files that need to be used to make it work
- iepngfix.htc
+  iepngfix.htc
 http://code.google.com/p/widgetfx/source/browse/widgetfx.org/iepngfix.htc
- iepngfix_tilebg.js
+  iepngfix_tilebg.js
 http://code.google.com/p/widgetfx/source/browse/widgetfx.org/iepngfix_tilebg.js?r=144
   Include iepngfix.htc on your css style file
-*html img, *html #anydivid {
-behavior: url(style/iepngfix.htc);
-border:0;
-padding:0; }
-
 include this iepngfix_tilebg.js on you html header, it support for transparent image on background position and repeat.</description>
     </item>
     
