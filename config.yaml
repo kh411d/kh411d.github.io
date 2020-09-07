@@ -6,7 +6,7 @@ seURL: "http://khal.web.id/"
 permalinks:
   post: /:year/:month/:day/:title/
 params:
-  description: "Spontaneously wrote, from me to you to others for everyone"
+  description: "a coder who happen to be a spontaneous writer in a big pond who likes to write not in codes, talk in human and sense as a human"
   AuthorName: "Khalid Adisendjaja"
   GitHubUser: "kh411d"
   SidebarRecentLimit: 5
@@ -14,12 +14,12 @@ params:
   author: "Khalid Adisendjaja"
   authorlocation: "Jakarta, Indonesia"
   authorwebsite: "http://khal.web.id"
-  authorbio: "Internet tech wanderer. Networking enthusiast. Radio Announcer. Casual Gamer. OpenSource Fans. Information Junkies. My tweet is my own."
+  authorbio: "a #Coder with a bit #InfoJunkie, proud #Muslim and also #Indonesian"
   logo: "images/logo.jpeg"
   githubName: "kh411d"
   twitterName: "khalidity"
   linkedinName: "khalidadisendjaja"
-  keybaseName: "khalidity"
+  instagramName: "khalidity"
   email: "contact@khal.web.id"
   hideHUGOSupport: false
   hjsStyle: "default"
