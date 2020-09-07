@@ -10,3 +10,6 @@
 	path = themes/hugo-theme-casper
 	url = https://github.com/kh411d/hugo-theme-casper.git
 	branch = master
+[submodule "themes/anatole"]
+	path = themes/anatole
+	url = https://github.com/kh411d/anatole.git
