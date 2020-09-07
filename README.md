@@ -31,7 +31,7 @@ Docs about SubModule [https://www.vogella.com/tutorials/GitSubmodules/article.ht
 Add themes as Submodules, better to fork the repo themes before continuing
 ```
 $ cd themes
-$ git submodule add [Git forked repo url]
+$ git submodule add -b master [Git forked repo url]
 ```
 if theres is no .gitmodules file in root folder, init the submodules
 ```
