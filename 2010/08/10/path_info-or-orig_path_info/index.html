@@ -212,7 +212,7 @@ $config[&lsquo;uri_protocol&rsquo;] = &ldquo;PATH_INFO&rdquo;;</p>
 <p>Try to print out $_SERVER variable , and now so this is the problem , the PATH_INFO variable was gone no where, but there is ORIG_PATH_INFO, an so my first guess of the problem was on PHP version so then I found this article,<br>
 <a href="http://www.binarytides.com/blog/path">http://www.binarytides.com/blog/path</a>_info-orig_path_info-apache-and-php/<br>
 ,well I think its explained very well, on his condition it happen when he use .htaccess redirect and in my condition it happen when I use .htaccess mod_rewrite.</p>
-<p>PATH_INFO relies on the Apache <a href="http://httpd.apache.org/docs/2.0/mod/core.html#acceptpathinfo">AcceptPathInfo Directive</a></p>
+<p>PATH_INFO relies on the Apache <a href="http://httpd.apache.org/docs/2.0/mod/core.html#acceptpathinfo" target="_blank">AcceptPathInfo Directive</a></p>
 
     </section>
 

@@ -109,7 +109,7 @@
     },
     "headline": "Twitter Age Gateway Workflow Design",
     "name": "Twitter Age Gateway Workflow Design",
-    "wordCount":  269 ,
+    "wordCount":  277 ,
     "timeRequired": "PT2M",
     "inLanguage": {
       "@type": "Language",
@@ -211,15 +211,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 This could be useful when you&rsquo;re managing any adult or alcohol related twitter account that need legal attention to your follower for publishing related content.</p>
 <p>Actually this could be done easily (not so easily if you&rsquo;re not a developer) by yourself, its required two process,</p>
 <p>Daemon Process which is how your system monitoring the followers finding for unverified, blocked, or verified followers from database and twitter API (it will need your twitter username and password or a twitter OAUTH for authentication).</p>
-<p><a href="/images/twitterAgeGateway_daemon2.png"><img src="/images/twitterAgeGateway_daemon2.png" alt="" title="twitterAgeGateway_daemon2"></a></p>
+<p><a href="/images/twitterAgeGateway_daemon2.png">&lt;img src=&#34;/images/twitterAgeGateway_daemon2.png&#34; alt=&#34;&#34; title=&#34;twitterAgeGateway_daemon2&#34;&gt;</a></p>
 <p>And Follower verifying process, where your follower go to refferral link gateway that included from DM that you sent to your follower for verifying process, follower will be redirected to web page that have form submission to confirm his/her age,gender, etc.Â After validation completed you may mark that follower as verified.</p>
-<p><a href="/images/twitterAgeGateway_verifying.png"></a><a href="/images/twitterAgeGateway_verifying2.png"><img src="/images/twitterAgeGateway_verifying2.png" alt="" title="twitterAgeGateway_verifying2"></a></p>
+<p><a href="/images/twitterAgeGateway_verifying.png"></a><a href="/images/twitterAgeGateway_verifying2.png">&lt;img src=&#34;/images/twitterAgeGateway_verifying2.png&#34; alt=&#34;&#34; title=&#34;twitterAgeGateway_verifying2&#34;&gt;</a></p>
 <p>Okay now is that for tools to make this happen, I&rsquo;m gonna use PHP for development so here are some library that you might use :</p>
 <ul>
-<li>PEAR <a href="http://pear.php.net/package/System_Daemon/">System_Daemon</a> package, or maybe just create simple php script that make process id on background</li>
-<li><a href="https://github.com/abraham/twitteroauth">TwitterOAuth</a> Library, I&rsquo;m gonna use Abraham Library</li>
-<li>Small PHP framework like <a href="http://silex.sensiolabs.org">Silex</a> made from Symfony2 mantained by Fabpot</li>
-<li>Or maybe you want to use <a href="https://github.com/jmathai/epiphany">Ephipany</a> you may bundle it with <a href="https://github.com/jmathai/twitter-async">Twitter-async</a> both maintained by Jason Mathai</li>
+<li>PEAR <a href="http://pear.php.net/package/System_Daemon/" target="_blank">System_Daemon</a> package, or maybe just create simple php script that make process id on background</li>
+<li><a href="https://github.com/abraham/twitteroauth" target="_blank">TwitterOAuth</a> Library, I&rsquo;m gonna use Abraham Library</li>
+<li>Small PHP framework like <a href="http://silex.sensiolabs.org" target="_blank">Silex</a> made from Symfony2 mantained by Fabpot</li>
+<li>Or maybe you want to use <a href="https://github.com/jmathai/epiphany" target="_blank">Ephipany</a> you may bundle it with <a href="https://github.com/jmathai/twitter-async" target="_blank">Twitter-async</a> both maintained by Jason Mathai</li>
 </ul>
 <p>I&rsquo;m gonna give my work for my next article,<br>
 So its to be continued &hellip;</p>

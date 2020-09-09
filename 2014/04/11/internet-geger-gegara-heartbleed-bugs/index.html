@@ -39,7 +39,7 @@
     <title>Internet geger gegara HeartBleed [BUG]  &middot; Khalid&#39;s Blog</title>
 
     
-    <meta name="description" content="2 atau 3 hari yang lalu sekitar 66% website di seluruh dunia sempat geger dengan adanya bug pada OpenSSL (*yaitu sebuah software kriptografi yang banyak dipakai" />
+    <meta name="description" content="&amp;lt;img src=&amp;#34;/images/heartbleed.png&amp;#34; alt=&amp;#34;heartbleed&amp;#34;&amp;gt;2 atau 3 hari yang lalu sekitar 66% website di seluruh dunia sempat geger dengan adanya" />
     
 
     <meta name="HandheldFriendly" content="True" />
@@ -109,7 +109,7 @@
     },
     "headline": "Internet geger gegara HeartBleed [BUG] ",
     "name": "Internet geger gegara HeartBleed [BUG] ",
-    "wordCount":  269 ,
+    "wordCount":  274 ,
     "timeRequired": "PT2M",
     "inLanguage": {
       "@type": "Language",
@@ -206,11 +206,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </header>
 
     <section class="post-content">
-      <p><a href="http://heartbleed.com/"><img src="/images/heartbleed.png" alt="heartbleed"></a>2 atau 3 hari yang lalu sekitar 66% website di seluruh dunia sempat geger dengan adanya <a href="https://en.wikipedia.org/wiki/Software_bug"><em>bug</em></a> pada <a href="http://en.wikipedia.org/wiki/Openssl">OpenSSL</a> (*yaitu sebuah software kriptografi yang banyak dipakai di sekian banyak aplikasi website dan berguna untuk melindungi data koneksi pengguna ketika sedang melakukan aktivitas internet)</p>
-<p>Ada beberapa pihak yang menyalahgunakan bug ini untuk mencuri data2x pengguna internet yang bisa berupa password, kartu kredit, email, dll. Beberapa situs besar seperti Yahoo-pun terkena dampaknya, sebuah <a href="http://www.cnet.com/news/heartbleed-bug-undoes-web-encryption-reveals-user-passwords/">perusahaan security men-demokan mencuri username dan password</a>, dengan menggunakan Heartbleed script. Ada beberapa website lokal seperti Kaskus juga mengalami hal ini.</p>
-<p>List dari beberapa yang mengalami Heartbleed bug bisa dilihat di <a href="https://github.com/musalbas/heartbleed-masstest/blob/master/top1000.txt">heartbleed-masstest</a>, untuk mengetahui apakah website yang sering lo kunjungin masih mengalami bug ini, bisa dicoba tool yang satu ini <a href="http://filippo.io/Heartbleed/">heartbleed-test</a></p>
+      <p><a href="http://heartbleed.com/" target="_blank">&lt;img src=&#34;/images/heartbleed.png&#34; alt=&#34;heartbleed&#34;&gt;</a>2 atau 3 hari yang lalu sekitar 66% website di seluruh dunia sempat geger dengan adanya <a href="https://en.wikipedia.org/wiki/Software_bug" target="_blank">&lt;em&gt;bug&lt;/em&gt;</a> pada <a href="http://en.wikipedia.org/wiki/Openssl" target="_blank">OpenSSL</a> (*yaitu sebuah software kriptografi yang banyak dipakai di sekian banyak aplikasi website dan berguna untuk melindungi data koneksi pengguna ketika sedang melakukan aktivitas internet)</p>
+<p>Ada beberapa pihak yang menyalahgunakan bug ini untuk mencuri data2x pengguna internet yang bisa berupa password, kartu kredit, email, dll. Beberapa situs besar seperti Yahoo-pun terkena dampaknya, sebuah <a href="http://www.cnet.com/news/heartbleed-bug-undoes-web-encryption-reveals-user-passwords/" target="_blank">perusahaan security men-demokan mencuri username dan password</a>, dengan menggunakan Heartbleed script. Ada beberapa website lokal seperti Kaskus juga mengalami hal ini.</p>
+<p>List dari beberapa yang mengalami Heartbleed bug bisa dilihat di <a href="https://github.com/musalbas/heartbleed-masstest/blob/master/top1000.txt" target="_blank">heartbleed-masstest</a>, untuk mengetahui apakah website yang sering lo kunjungin masih mengalami bug ini, bisa dicoba tool yang satu ini <a href="http://filippo.io/Heartbleed/" target="_blank">heartbleed-test</a></p>
 <p>Ilustrasi dibawah bisa menjelaskan sedikit, bahaya dari Heartbleed,</p>
-<p><a href="https://xkcd.com/1353/"><img src="http://imgs.xkcd.com/comics/heartbleed.png" alt=""></a></p>
+<p><a href="https://xkcd.com/1353/" target="_blank">&lt;img src=&#34;http://imgs.xkcd.com/comics/heartbleed.png&#34; alt=&#34;&#34;&gt;</a></p>
 <p>Jadi sekarang, bagaimana caranya mencegah agar hal ini tidak terjadi pada kita sebagai pengguna internet, apalagi dengan maraknya aktivitas di internet banking yang notabene menggunakan OpenSSL. Ketika sebuah website menggunakan SSL, bisa kita lihat pada browser address bar, protokol yang digunakan adalah <strong>&ldquo;https://&hellip;..&quot;</strong> agar kita yakin apakah website tersebut aman, bisa di-cek dengan menggunakan tool diatas. Sayangnya fix untuk bug ini hanya bisa dilakukan di sisi server website, jadi pengguna hanya bisa menunggu apakah website tersebut sudah melakukan fix pada heartbleed bug.</p>
 <p>Untuk server admin, berikut ada penjelasan OpenSSL version yang terjangkit bug ini,</p>
 <ul>

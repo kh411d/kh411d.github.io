@@ -3,6 +3,51 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://khal.web.id/tags/blogging/</loc>
+    <lastmod>2020-09-08T19:08:09+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/cheatsheet/</loc>
+    <lastmod>2020-09-08T19:08:09+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/</loc>
+    <lastmod>2020-09-08T19:08:09+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/markdown/</loc>
+    <lastmod>2020-09-08T19:08:09+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/post/</loc>
+    <lastmod>2020-09-08T19:08:09+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/</loc>
+    <lastmod>2020-09-08T19:08:09+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/2020/09/08/The-Markdown-Rises/</loc>
+    <lastmod>2020-09-08T19:08:09+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/tutorial/</loc>
+    <lastmod>2020-09-08T19:08:09+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/writing/</loc>
+    <lastmod>2020-09-08T19:08:09+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://khal.web.id/2018/08/06/20-Shades-of-Smartwatch/</loc>
     <lastmod>2018-08-06T23:08:09+07:00</lastmod>
   </url>
@@ -18,27 +63,12 @@
   </url>
   
   <url>
-    <loc>http://khal.web.id/</loc>
-    <lastmod>2018-08-06T23:08:09+07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://khal.web.id/tags/pebble/</loc>
     <lastmod>2018-08-06T23:08:09+07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://khal.web.id/post/</loc>
-    <lastmod>2018-08-06T23:08:09+07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://khal.web.id/tags/smartwatch/</loc>
-    <lastmod>2018-08-06T23:08:09+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/</loc>
     <lastmod>2018-08-06T23:08:09+07:00</lastmod>
   </url>
   

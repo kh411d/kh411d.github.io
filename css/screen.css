@@ -578,6 +578,9 @@ body.nav-opened .site-wrapper {
 
 .main-header .inner {
     width: 80%;
+    text-shadow: 0 0 5px #312f23;
+    -moz-text-shadow: 0 0 5px #312f23;
+    -webkit-text-shadow: 0 0 5px #312f23;
 }
 
 .main-header a.bloglogo {

@@ -246,10 +246,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <p>I&rsquo;d like to share my experience starting from installing Archlinux and get started with Archlinux, me myself is not a Linux power user, I do a lot of googling to get through the installation, so here I&rsquo;ll explain all of my findings.</p>
 <h4 id="get-the-iso-forget-the-archboot">Get the ISO forget the Archboot</h4>
 <p>I&rsquo;d like to have something such as ubuntu light GUI that will guide you through the installation step, so then I found Archboot, been trying to install Archlinux from Archboot USB bootdisk several times with no luck so it&rsquo;s just wasting my time, it seems this arch boot iso is outdated, I gave up.
-It would be better if you could just use the iso that you can download here <a href="https://www.archlinux.org/download/">https://www.archlinux.org/download/</a></p>
+It would be better if you could just use the iso that you can download here <a href="https://www.archlinux.org/download/" target="_blank">https://www.archlinux.org/download/</a></p>
 <h4 id="boot-to-arch-iso">Boot to Arch ISO</h4>
 <ol>
-<li><a href="https://www.archlinux.org/download/">Download the iso</a> flash it to your usb disk with dd command or any software, check this great post of <a href="https://www.raspberrypi.org/documentation/installation/installing-images/mac.md">raspberrypi installation</a> for reference.</li>
+<li><a href="https://www.archlinux.org/download/" target="_blank">Download the iso</a> flash it to your usb disk with dd command or any software, check this great post of <a href="https://www.raspberrypi.org/documentation/installation/installing-images/mac.md" target="_blank">raspberrypi installation</a> for reference.</li>
 <li>You may need a usb-ethernet dongle to connect with the internet, or some people using their cellphone internet tether through usb cable.</li>
 </ol>
 <p>Plug in your USB bootdisk and hold ‘alt/option’ button while your system boots up, choose the USB to boot from.</p>
@@ -279,7 +279,7 @@ sda    8:0    0  113G  0 disk
     /dev/sda3       3147776    70256639    67108864     32G Linux root (x86-64)
     /dev/sda4      70256640   236978142   166721503   79.5G Linux home
 
-</code></pre><p>I&rsquo;m always keep this url open while partitioning <a href="https://www.rodsbooks.com/gdisk/cgdisk-walkthrough.html">cgdisk-walkthrough</a></p>
+</code></pre><p>I&rsquo;m always keep this url open while partitioning <a href="https://www.rodsbooks.com/gdisk/cgdisk-walkthrough.html" target="_blank">cgdisk-walkthrough</a></p>
 <pre><code># cgdisk /dev/sda
 </code></pre><p>After you&rsquo;re done, format and mount your newly created partition, File system root <strong>/</strong> inside the terminal belongs to USB stick, while everything mounted inside <strong>/mnt</strong> is the target media AKA your SSD.</p>
 <pre><code># mkfs.vfat -F32 /dev/sda1
@@ -334,7 +334,7 @@ en_US.UTF-8 UTF-8
 <pre><code># nano /etc/sudoers # uncomment wheel line
 </code></pre><pre><code> %wheel ALL=(ALL) NOPASSWD: ALL
 </code></pre><h3 id="the-bootloader">The Bootloader</h3>
-<p>I&rsquo;m not goin to dualboot this macbook so then I&rsquo;m not gonna use GRUB nor REFIND for booting into the system, I&rsquo;m gonna use <a href="https://wiki.archlinux.org/index.php/systemd-boot"><strong>systemd-boot</strong></a> to boot into archlinux,</p>
+<p>I&rsquo;m not goin to dualboot this macbook so then I&rsquo;m not gonna use GRUB nor REFIND for booting into the system, I&rsquo;m gonna use <a href="https://wiki.archlinux.org/index.php/systemd-boot" target="_blank">&lt;strong&gt;systemd-boot&lt;/strong&gt;</a> to boot into archlinux,</p>
 <pre><code># pacman -S dosfstools intel-ucode
 # bootctl --path=/boot install
 </code></pre><p>After the systemd-boot (gummiboot) installed, we need to add a boot entries for archlinux.</p>
@@ -353,7 +353,7 @@ options root=PARTUUID=ed724519-29ca-4e08-b27a-b4852d310dee rw quiet
 <pre><code># echo &quot;default arch&quot; &gt; /boot/loader/loader.conf
 </code></pre><p>Before rebooting, you may want to install some network tools,</p>
 <pre><code># pacman install iw wireless_tools wpa_supplicant dialog
-</code></pre><p>also install networkmanager and enable it using NetworkManager.service. <a href="https://wiki.archlinux.org/index.php/NetworkManager">Read Arch wiki for more info</a>.</p>
+</code></pre><p>also install networkmanager and enable it using NetworkManager.service. <a href="https://wiki.archlinux.org/index.php/NetworkManager" target="_blank">Read Arch wiki for more info</a>.</p>
 <p>You&rsquo;re done now for installation, lets reboot,</p>
 <pre><code># exit
 # umount -R /mnt
@@ -377,14 +377,14 @@ governor='powersave'
 <pre><code>$ sudo pacman -S xorg acpid
 $ systemctl enable acpid
 </code></pre><h3 id="install-desktop-gui">Install Desktop GUI</h3>
-<p>There is so many <a href="https://wiki.archlinux.org/index.php/desktop_environment#List_of_desktop_environments">desktop GUI</a> that you may want to experience yourself, but <a href="https://wiki.archlinux.org/index.php/xfce#Installation">XFCE4</a> is become my first choice because of speed and flexibility.</p>
+<p>There is so many <a href="https://wiki.archlinux.org/index.php/desktop_environment#List_of_desktop_environments" target="_blank">desktop GUI</a> that you may want to experience yourself, but <a href="https://wiki.archlinux.org/index.php/xfce#Installation" target="_blank">XFCE4</a> is become my first choice because of speed and flexibility.</p>
 <pre><code>$ sudo pacman -S xfce4 xfce4-goodies
 </code></pre><h3 id="install-display-manager-user-login">Install Display Manager (User Login)</h3>
-<p>Same as desktop GUI, there is so many <a href="https://wiki.archlinux.org/index.php/Display_manager">display manager</a> to experience yourself, as my choice fell to <a href="https://wiki.archlinux.org/index.php/LightDM">LightDM</a></p>
+<p>Same as desktop GUI, there is so many <a href="https://wiki.archlinux.org/index.php/Display_manager" target="_blank">display manager</a> to experience yourself, as my choice fell to <a href="https://wiki.archlinux.org/index.php/LightDM" target="_blank">LightDM</a></p>
 <pre><code>$ sudo pacman -S lightdm lightdm-gtk-greeter-setting
 $ systemctl enable lightdm.service
 </code></pre><p>Now you&rsquo;re all set, reboot and enjoy your new Macbook Arch.
-Things you may need to know, ArchLinux has a <a href="https://aur.archlinux.org/">community driven repository</a> that you can download and build yourself or using some package manager such as <strong>yaourt</strong>, <strong>pacaur</strong>, or <strong>trizen</strong> for easy install. I&rsquo;m not goin to explain all of these things it depends to your liking. I&rsquo;ll leave this to you to explore and have fun with it.</p>
+Things you may need to know, ArchLinux has a <a href="https://aur.archlinux.org/" target="_blank">community driven repository</a> that you can download and build yourself or using some package manager such as <strong>yaourt</strong>, <strong>pacaur</strong>, or <strong>trizen</strong> for easy install. I&rsquo;m not goin to explain all of these things it depends to your liking. I&rsquo;ll leave this to you to explore and have fun with it.</p>
 
     </section>
 

@@ -6,10 +6,55 @@
     <description>Recent content in Tags on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Aug 2018 23:08:09 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2020 19:08:09 +0700</lastBuildDate>
     
 	<atom:link href="http://khal.web.id/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>blogging</title>
+      <link>http://khal.web.id/tags/blogging/</link>
+      <pubDate>Tue, 08 Sep 2020 19:08:09 +0700</pubDate>
+      
+      <guid>http://khal.web.id/tags/blogging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cheatsheet</title>
+      <link>http://khal.web.id/tags/cheatsheet/</link>
+      <pubDate>Tue, 08 Sep 2020 19:08:09 +0700</pubDate>
+      
+      <guid>http://khal.web.id/tags/cheatsheet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>markdown</title>
+      <link>http://khal.web.id/tags/markdown/</link>
+      <pubDate>Tue, 08 Sep 2020 19:08:09 +0700</pubDate>
+      
+      <guid>http://khal.web.id/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tutorial</title>
+      <link>http://khal.web.id/tags/tutorial/</link>
+      <pubDate>Tue, 08 Sep 2020 19:08:09 +0700</pubDate>
+      
+      <guid>http://khal.web.id/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>writing</title>
+      <link>http://khal.web.id/tags/writing/</link>
+      <pubDate>Tue, 08 Sep 2020 19:08:09 +0700</pubDate>
+      
+      <guid>http://khal.web.id/tags/writing/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>android</title>
