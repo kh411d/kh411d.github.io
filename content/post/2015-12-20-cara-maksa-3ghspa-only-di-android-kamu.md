@@ -1,10 +1,7 @@
 ---
-categories:
-- Internet &amp; Tech
-date: 2015-12-20T11:18:37Z
-date_gmt: 2015-12-20 04:18:37 +0700
-tags: []
-title: Cara maksa 3G/HSPA only di android kamu
+date: 2015-12-20T04:18:37+07:00
+tags: ["telco","tutorial"]
+title: Cara maksa 3G/HSPA di android kamu
 url: /2015/12/20/cara-maksa-3ghspa-only-di-android-kamu/
 image: /images/3gonlyplease.jpg
 ---
@@ -17,15 +14,15 @@ Disini gue bakal jelasin cara simpel bagaimana caranya kita tetap bisa menggunak
 
 Cara pertama yg sering gue lakukan adalah dengan menggunakan USSD code yg kamu bisa input lewat aplikasi dialer kamu, kode yg dimasukkan adalah,
 
-`*#*#4636#*#*`
+## `*#*#4636#*#*`
 
 Pilih phone information,
 
-[![wpid-wp-1450584404657.jpg](/images/wpid-wp-1450584404657-300x267.jpg)](/images/wpid-wp-1450584404657.jpg)
+![wpid-wp-1450584404657.jpg](/images/wpid-wp-1450584404657-300x267.jpg)
 
 setelah itu scroll ke bawah dan liat option Set preferred network type,
 
-[![wpid-wp-1450584446137.jpg](/images/wpid-wp-1450584446137-300x277.jpg)](/images/wpid-wp-1450584446137.jpg)
+![wpid-wp-1450584446137.jpg](/images/wpid-wp-1450584446137-300x277.jpg)
 
 lalu pilih "WCDMA Only".
 

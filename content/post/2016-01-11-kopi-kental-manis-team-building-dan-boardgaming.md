@@ -1,77 +1,86 @@
 ---
-categories:
-- Hobbies, Event &amp; Travelling
-date: 2016-01-11T13:59:10Z
-date_gmt: 2016-01-11 06:59:10 +0700
+title: Kopi kental manis, Team Building dan Boardgaming
+date: 2016-01-11T06:59:10+07:00
 tags:
 - boardgame
-- teamwork
-- team-building
-- co-op
-title: Kopi kental manis, Team Building dan Boardgaming
+- gaming
 url: /2016/01/11/kopi-kental-manis-team-building-dan-boardgaming/
-image: /images/tbluhours.jpg
+image: /images/boardgamecover.jpg
 ---
 
-Hmm... Boardgame, kalo mungkin dulu kita sering sebut ular tangga, halma, catur, monopoli, gaple, bola bekél atau yg gak kalah terkenalnya sebut aja congklak yg kalo di luar indo biasa disebut mancala. Tipikal jenis permainan dari boardgame biasanya lebih bersifat kompetitif dimana setiap pemain berusaha mendapatkan skor tertinggi atau menyelesaikan permainan lebih dulu, ataupun ada yg bersifat Co-op dimana setiap pemain diharuskan bekerja sama demi memenangkan sebuah permainan.
+Jika mungkin kita dahulu kenal dengan Ular Tangga, Halma, Catur, Monopoli, Domino, atau permainan tradisional lainnya seperti Congklak/Mancala. Kesamaan dari setiap permainan yang ada di Indonesia biasanya lebih bersifat kompetitif, semua pemainnya berusaha secepat-cepatnya untuk menyelesaikan permainan atau meraih akhir dengan skor tertinggi.
 
-Boardgame pun kini cukup berkembang dari sisi tema, grafis, mekanik, dan bahkan ada yg bisa dimainkan sampai 20 orang lebih. Publishernya pun beraneka ragam, ada yg dari Eropa, Amerika, sampai buatan lokal seperti Mat Goceng, Lagak Jakarta, Mahardika, dll.
+Boardgame pada beberapa tahun ini memang cukup berkembang, banyak para pembuat boardgame menekankan nilai jual dari sisi tema, grafis, mekanik permainan, serta banyaknya pemain yg dapat berpartisipasi dalam sebuah permainan. Asal kreator-kreator boardgame ini pun beraneka ragam, ada yg dari Eropa, Amerika, dan tidak kalah kreasi dari anak bangsa yg telah menelurkan karyanya seperti Mat Goceng, Lagak Jakarta, Mahardika, dll.
 
-Good for team work karena setiap boardgame mempunyai mekanik yg bervariasi dan unik-unik, cocok banget untuk setiap pemain bisa lebih mengenal satu sama lain dan mengetahui kelebihan kekurangan masing-masing.
+Boardgame secara tidak langsung dapat mengikat tali silaturahmi dan memperkuat hubungan kerja sama antara sesama pemain, karena dalam setiap permainan biasanya kita jadi mudah mengenal satu sama lain dan setiap pemain juga bisa mempelajari hal-hal baru yang mungkin belum pernah ditemukan dalam pekerjaan sehari-harinya.
 
-Misalkan seperti kemampuan pemain untuk beradaptasi dengan pemain lain, kecepatan dalam memahami permainan, how to planning your next move, forecasting, gambling, investing, risk management, opportunist, strategic thinker, good negosiator, most persuasive person, good decision maker, sampai pemain dengan hokie tinggi atau paling sial sekalipun.
+Beberapa unsur yang mungkin bisa ditemukan dalam sebuah permainan misalnya adalah,
 
-Team building dalam sebuah boardgame sebenarnya bukan untuk menilai baik atau buruk kemampuan seseorang, tetapi lebih kepada kemampuan setiap pemain untuk saling memahami dan mengerti kelebihan dan kekurangan masing-masing sehingga bisa terjadi sebuah keselarasan dalam team dengan goal untuk memenangkan permainan and enjoying the game with lot of laugh each others, karena sebuah permainan tanpa tawa canda mending ke kuburan aje.
+1. _Adaptability_, kemampuan beradaptasi dari keadaan tertentu yang tidak terduga
+2. _Planner_, merencanakan langkah apa saja yang harus diambil kedepannya
+3. _Forecaster_, meramalkan hasil akhir dari sebuah permainan atau keadaan langkah selanjutnya
+4. _Speculator_, berani berspekulasi demi mendapatkan hasil yang terbaik
+5. _Investor_, belajar cara melihat peluang/celah untuk memenangkan permainan
+6. _Negotiator_, belajar untuk bernegosiasi dengan sesama pemain
 
-Berikut adalah beberapa contoh boardgame yg sudah pernah beberapa kali gw mainkan dan menurut gw cocok banget kalo dipakai untuk event team building karena cukup simpel gak ribet sehingga setiap pemain bisa cepat memahami aturan permainan.
+Team building dalam sebuah boardgame sebenarnya bukan untuk menilai baik atau buruk kemampuan seseorang, tetapi lebih kepada kemampuan setiap pemain untuk saling memahami dan mengerti kelebihan dan kekurangan masing-masing sehingga bisa terjadi sebuah ritme untuk mendapatkan hasil yang terbaik.
 
-**[Carcassonne](https://boardgamegeek.com/boardgame/822/carcassonne)**  
-[![Screen Shot 2016-01-11 at 12.23.04 PM](/images/Screen-Shot-2016-01-11-at-12.23.04-PM.png)](https://boardgamegeek.com/boardgame/822/carcassonne)Dimana setiap orang pemain akan berusaha menguasai sebuah kota, jalan, atau tanah, dengan meletakkan bidak dan tiles. Permainan ini lebih menekankan pada kemampuan investasi, kemampuan persuasive, dan forecasting. Misal seorang pemain bisa membujuk pemain lain untuk bersama-sama membentuk sebuah kota yg besar untuk poin yg besar pula. Bisa dimainkan 2-7 orang.
+Berikut adalah beberapa boardgame yg menurut saya mempunyai unsur-unsur seperti yang disebutkan diatas.
 
-**[Catan](https://boardgamegeek.com/boardgame/13/catan)**  
-[![Screen Shot 2016-01-11 at 12.25.27 PM](/images/Screen-Shot-2016-01-11-at-12.25.27-PM.png)](https://boardgamegeek.com/boardgame/13/catan)Setiap pemain berusaha mendapatkan Victory Points tertinggi dengan membangun jalan, kota, rumah dengan Sumber Daya Alam seperti kayu, bata, gandum, tambang, dll. Karena SDA yg terbatas dan bisa dipastikan setiap pemain mempunyai SDA yg berbeda-beda, setiap pemain bisa melakukan barter dengan yg lain untuk melengkapi bahan baku yg kurang, membutuhkan kemampuan negosiator yg baik dari pemain, willingness untuk bekerja sama pun terlihat disini. Bisa dimainkan 2-4 orang pemain.
+![Screen Shot 2016-01-11 at 12.23.04 PM](/images/boardgame1.jpg)
+Setiap pemain akan berusaha menguasai banyak kota, jalan, atau tanah. Permainan ini lebih menekankan pada kemampuan berinvestasi, forecasting dan bernegosiasi. Misal seorang pemain dapat membujuk pemain lain untuk bersama-sama menguasai sebuah kota yg besar. Bisa dimainkan 2-7 orang.
 
-**[Scotland Yard](https://boardgamegeek.com/boardgame/148740/scotland-yard-master), [Letter from Whitechapel](https://boardgamegeek.com/boardgame/59959/letters-whitechapel), [Specter Ops](https://boardgamegeek.com/boardgame/155624/specter-ops)**  
-[![Screen Shot 2016-01-11 at 12.28.34 PM](/images/Screen-Shot-2016-01-11-at-12.28.34-PM.png)](https://boardgamegeek.com/boardgame/148740/scotland-yard-master)[![Screen Shot 2016-01-11 at 12.30.27 PM](/images/Screen-Shot-2016-01-11-at-12.30.27-PM.png)](https://boardgamegeek.com/boardgame/59959/letters-whitechapel)[![Screen Shot 2016-01-11 at 12.32.39 PM](/images/Screen-Shot-2016-01-11-at-12.32.39-PM.png)](https://boardgamegeek.com/boardgame/155624/specter-ops)
+![Screen Shot 2016-01-11 at 12.25.27 PM](/images/boardgame2.jpg) 
+Permainan ini hampir mirip dengan Carcassonne hanya saja lebih menekankan kepada keberuntungan dan kemampuan negosiasi, setiap pemain berusaha membangun banyak kota dengan sumber daya alam yang ada seperti kayu, bata, gandum, tambang, dll. Karena SDA yg terbatas dan unik dari tiap pemain, dianjurkan kepada setiap pemain untuk melakukan barter dengan pemain lain untuk melengkapi bahan baku dalam membangun. Bisa dimainkan 2-4 orang pemain.
 
-Ketiga jenis permainan diatas sebenarnya mempunyai satu mekanisme yg sama yakni setiap pemain harus bekerja sama satu sama lain untuk meringkus satu pemain yg bertindak sebagai penjahat, lebih seperti petak umpet on a boardgame. Bisa dimainkan 3-4 atau lebih dari 5 orang.
+![Screen Shot 2016-01-11 at 12.28.34 PM](/images/boardgame3.jpg)
+Ketiga jenis permainan diatas sebenarnya mempunyai satu mekanisme yg sama yakni setiap pemain harus bekerja sama satu sama lain untuk meringkus satu pemain yg bertindak sebagai kriminal. Planning, Forecasting, dan Speculating sangat dibutuhkan dalam tipe permainan seperti ini. Bisa dimainkan 3-4 atau lebih dari 5 orang.
 
-**[Pandemic](https://boardgamegeek.com/boardgame/30549/pandemic)**  
-[![Screen Shot 2016-01-11 at 12.34.43 PM](/images/Screen-Shot-2016-01-11-at-12.34.43-PM.png)](https://boardgamegeek.com/boardgame/30549/pandemic)Permainan ini terbilang cukup unik, karena the enemy is actually the boardgame mechanic itself, setiap pemain harus saling bekerjasama untuk membuat anti virus demi menumpas epidemik-epidemik yg terjadi di dunia dalam kurun waktu tertentu, setiap pemain akan memiliki kemampuan yg berbeda-beda, ada yg bisa terbang kemana aja gak pake tiket, ada yg bisa mengkarantina penyakit, ada yg tukang angkut virus, dll. Penentu keberhasilan dari permainan ini adalah kerjasama tiap pemainnya, forecasting, decision making, dan tentu saja a little bit of luck. Bisa dimainkan 1-4 orang pemain.
+![Screen Shot 2016-01-11 at 12.34.43 PM](/images/boardgame4.jpg) 
+Pandemic adalah sebuah permainan kooperatif dimana setiap pemain dengan berbeda-beda profesi akan saling bekerjasama untuk membuat anti virus demi menumpas infeksi yg terjadi di kota-kota seluruh dunia dalam kurun waktu tertentu. Penentu keberhasilan dari permainan ini adalah komunikasi antara tiap pemainnya, para pemain akan selalu berlomba dengan waktu dan sering kali dihadapkan dengan kejadian-kejadian yang tidak terduga. Bisa dimainkan 1-4 orang pemain.
 
-**[Hanabi](https://boardgamegeek.com/boardgame/98778/hanabi)**  
-[![Screen Shot 2016-01-11 at 12.36.29 PM](/images/Screen-Shot-2016-01-11-at-12.36.29-PM.png)](https://boardgamegeek.com/boardgame/98778/hanabi)Permainan kartu yg satu ini juga cukup unik, karena membutuhkan tiap orang pemain untuk memahami jalan pikiran pemain yg lain. Setiap pemain akan dibagikan beberapa kartu, tiap pemain tidak boleh melihat kartu mereka sendiri melainkan pemain lain bisa melihat dan mengharuskan pemain lain untuk memberi petunjuk kepada si pemain untuk langkah selanjutnya dengan mengikuti aturan permainan. Bisa dimainkan 2-5 orang.
+![Screen Shot 2016-01-11 at 12.36.29 PM](/images/boardgame5.jpg) 
+Permainan kartu yg satu ini juga cukup unik, karena membutuhkan tiap orang pemain untuk memahami jalan pikiran pemain yg lain. Setiap pemain akan dibagikan beberapa kartu, tiap pemain tidak boleh melihat kartu mereka sendiri melainkan pemain lain bisa melihat dan mengharuskan untuk memberi petunjuk kepadanya untuk langkah berikutnya. Bisa dimainkan 2-5 orang.
 
-**[Dixit](https://boardgamegeek.com/boardgame/39856/dixit)**  
-[![Screen Shot 2016-01-11 at 12.38.41 PM](/images/Screen-Shot-2016-01-11-at-12.38.41-PM.png)](https://boardgamegeek.com/boardgame/39856/dixit)Kalo ingin bermain tebak gambar dengan sedikit twist, permainan ini sepertinya lebih tepat, pemain akan disuguhkan dengan kartu dengan gambar grafis yang unik-unik dan menarik, seorang pemain nantinya akan berusaha memberikan petunjuk tentang kartu yg dimainkan, tiap pemain yg lain nantinya akan berusaha menebak, yang menarik disini adalah cara penilaiannya, ketika terlalu banyak orang yg menebak kartunya maka poin yg didapat akan semakin kecil, jika sedikit orang yg menebak maka poin akan semakin besar. Karena itu dalam permainan ini banyak dibutuhkan pemahaman yg baik antara pemain lainnya.
+![Screen Shot 2016-01-11 at 12.38.41 PM](/images/boardgame6.jpg) 
+Jika kamu ingin bermain tebak gambar dengan sedikit _twist_, permainan ini sepertinya lebih tepat, pemain akan disuguhkan dengan kartu dengan gambar grafik yang unik dan menarik, seorang pemain nantinya akan berusaha memberikan petunjuk tentang kartu yg dimainkan, tiap pemain yg lain nantinya akan berusaha menebak, yang menarik disini adalah cara penilaiannya, ketika terlalu banyak pemain yang menebak kartunya maka poin yg didapat akan semakin kecil, jika sedikit orang yg menebak maka poin akan semakin besar. Karena itu dalam permainan ini banyak dibutuhkan pemahaman yg baik antara pemain lainnya.
 
-**[Are u a werewolf?](https://boardgamegeek.com/boardgame/925/werewolf) , [The Resistance](https://boardgamegeek.com/boardgame/41114/resistance), [Coup](https://boardgamegeek.com/boardgame/131357/coup), [SpyFall](https://boardgamegeek.com/boardgame/166384/spyfall), [Saboteur](https://boardgamegeek.com/boardgame/9220/saboteur)**  
-[![Screen Shot 2016-01-11 at 12.40.31 PM](/images/Screen-Shot-2016-01-11-at-12.40.31-PM.png)](https://boardgamegeek.com/boardgame/925/werewolf)[![Screen Shot 2016-01-11 at 12.42.11 PM](/images/Screen-Shot-2016-01-11-at-12.42.11-PM.png)](https://boardgamegeek.com/boardgame/41114/resistance)[![Screen Shot 2016-01-11 at 12.43.47 PM](/images/Screen-Shot-2016-01-11-at-12.43.47-PM.png)](https://boardgamegeek.com/boardgame/131357/coup)[![Screen Shot 2016-01-11 at 12.45.40 PM](/images/Screen-Shot-2016-01-11-at-12.45.40-PM.png)](https://boardgamegeek.com/boardgame/166384/spyfall)[![Screen Shot 2016-01-11 at 12.47.50 PM](/images/Screen-Shot-2016-01-11-at-12.47.50-PM.png)](https://boardgamegeek.com/boardgame/9220/saboteur)
+![Screen Shot 2016-01-11 at 12.40.31 PM](/images/boardgame7.jpg)
+Kesamaan dari permainan-permainan ini adalah para pemain akan dibagi menjadi beberapa kelompok, yakni kelompok mata-mata/kriminal dan yg lainnya bertindak sebagai polisi/detektif. Setiap pemain tentunya tidak akan mengetahui identitas pemain lain, disini setiap pemain akan berusaha meraih kepercayaan dari tiap pemain lainnya dengan segala cara dan tipu muslihat. Disini pemain pastinya akan diuji dalam kemampuan beradaptasi dan bernegosiasi. Bisa dimainkan antara 3-24 orang.
 
-Kesamaan dari permainan ini adalah para pemain akan dibagi menjadi 2 kelompok, yakni kelompok spy/secret agent the bad guy lah pada intinya dan yg satu lagi of course the good one. Setiap pemain tentunya tidak akan mengetahui identitas pemain lain kecuali mungkin dalam The Resistance dan Werewolf setiap spy/werewolf mengetahui identitasnya satu sama lain. The spy disini akan berusaha memasang muka lugu nan sadis lalu melakukan tipu muslihat untuk membelokkan goal dari sebuah permainan dan bahkan berusaha mendapat kepercayaan dari pihak the good one. Disini pemain pastinya akan diuji kemampuan beradaptasi, persuasif, bluffing, dan deception. Bisa dimainkan antara 3-24 orang.
+![Screen Shot 2016-01-11 at 12.50.14 PM](/images/boardgame8.jpg) 
+Permainan ini hampir mirip dengan permainan diatas setiap pemain akan berusaha meyakinkan seorang pemain untuk menyelundupkan barang dagangannya. Setiap pemain akan bergantian menjadi seorang Sherrif yg nantinya akan menerima komoditas dari pemain lain, dan tentunya seorang sherrif tidak akan mengetahui apa isi komoditas tersebut, legal ataupun illegal, disini pemain lain akan berusaha melakukan negosiasi dan berusaha menipu sheriff. Bisa dimainkan oleh 3-5 orang pemain.
 
-**[Sheriff of Nottingham](https://boardgamegeek.com/boardgame/157969/sheriff-nottingham)**  
-[![Screen Shot 2016-01-11 at 12.50.14 PM](/images/Screen-Shot-2016-01-11-at-12.50.14-PM.png)](https://boardgamegeek.com/boardgame/157969/sheriff-nottingham)Permainan ini lebih tepatnya permainan suap menyuap, chances, gambling dan kemampuan untuk menipu atau susah ditipu. Setiap pemain akan bergantian menjadi seorang Sherrif of Nottingham yg nantinya akan menerima komoditas dari pemain lain, dan tentunya seorang sherrif tidak akan mengetahui apa isi komoditas tersebut, barang legal kah atau illegal, disini pemain lain akan berusaha melakukan mind trick dan berusaha menipu sheriff. Bisa dimainkan oleh 3-5 orang pemain.
+![Screen Shot 2016-01-11 at 12.53.45 PM](/images/boardgame9.png)
+Permainan ini merupakan permainan dengan ritme cepat, membutuhkan daya ingat dan konsentrasi yg tinggi serta kecepatan dalam mengambil keputusan. Tidak disarankan bermain ketika ngantuk atau tipsy. Bisa dimainkan 3-7 orang lebih.
 
-**[Kakerlaken Suppe](https://boardgamegeek.com/boardgame/38391/kakerlakensuppe), [Kakerlaken Salat](https://boardgamegeek.com/boardgame/32341/cockroach-salad), [Sushi Go](https://boardgamegeek.com/boardgame/133473/sushi-go).**  
-![Screen Shot 2016-01-11 at 12.53.45 PM](/images/Screen-Shot-2016-01-11-at-12.53.45-PM.png) [![Screen Shot 2016-01-11 at 12.55.37 PM](/images/Screen-Shot-2016-01-11-at-12.55.37-PM.png)](https://boardgamegeek.com/boardgame/32341/cockroach-salad) [![Screen Shot 2016-01-11 at 12.57.11 PM](/images/Screen-Shot-2016-01-11-at-12.57.11-PM.png)](https://boardgamegeek.com/boardgame/133473/sushi-go)
 
-Permainan ini merupakan permainan dengan ritme cepat, membutuhkan daya ingat yg tinggi serta kecepatan berpikir dan decision making yg cepat juga. Tidak disarankan bermain ketika ngantuk atau tipsy. Bisa dimainkan 3-7 orang lebih.
-
-**[Kingdom Builder](https://boardgamegeek.com/boardgame/107529/kingdom-builder), [Lords of Waterdeep](https://boardgamegeek.com/boardgame/110327/lords-waterdeep), [Suburbia](https://boardgamegeek.com/boardgame/123260/suburbia), [Castle of Mad King Ludwig](https://boardgamegeek.com/boardgame/155426/castles-mad-king-ludwig), [Ticket to Ride](https://boardgamegeek.com/boardgame/9209/ticket-ride).**  
-[![Screen Shot 2016-01-11 at 12.59.33 PM](/images/Screen-Shot-2016-01-11-at-12.59.33-PM.png)](https://boardgamegeek.com/boardgame/107529/kingdom-builder) [![Screen Shot 2016-01-11 at 1.01.51 PM](/images/Screen-Shot-2016-01-11-at-1.01.51-PM.png)](https://boardgamegeek.com/boardgame/110327/lords-waterdeep) [![Screen Shot 2016-01-11 at 1.03.13 PM](/images/Screen-Shot-2016-01-11-at-1.03.13-PM.png)](https://boardgamegeek.com/boardgame/123260/suburbia) [![Screen Shot 2016-01-11 at 1.04.43 PM](/images/Screen-Shot-2016-01-11-at-1.04.43-PM.png)](https://boardgamegeek.com/boardgame/155426/castles-mad-king-ludwig)
-
-[![Screen Shot 2016-01-11 at 1.06.58 PM](/images/Screen-Shot-2016-01-11-at-1.06.58-PM.png)](https://boardgamegeek.com/boardgame/9209/ticket-ride)Semua permainan ini sebenarnya mempunyai mekanik yg berbeda-beda, tetapi satu kesamaan yg mereka miliki adalah membutuhkan kemampuan strategic planning, decision making, risk management, tackling dan good investing dari setiap pemainnya tanpa melibatkan negotiating, persuasive action pada pemain lainnya, its all pure how you invest in something and what to do next.
-
-Masih banyak tentunya selain dari boardgame yg gw bahas disini untuk dipakai dalam team building. Cari lokasi untuk bermain pun sebenarnya juga gampang aja, bisa di kantor masing-masing after hours, bisa di kafe, taman, ato rumah teman.
+![Screen Shot 2016-01-11 at 12.59.33 PM](/images/boardgame10.png)
+Semua permainan ini sebenarnya mempunyai mekanisme yg berbeda-beda, tetapi satu kesamaan yg mereka miliki adalah membutuhkan kemampuan strategic planning, decision making, risk management, tackling dan good investing dari setiap pemainnya tanpa melibatkan negotiating, persuasive action pada pemain lainnya, its all pure how you invest in something and what to do next.
 
 ![folks3](/images/folks3.jpg)
 
-![folks](/images/folks.jpg)
+Sebenarnya banyak tempat hangout di Jakarta yg dijadikan khusus untuk bermain boardgame dengan tema Co-Gaming space, beberapa diantaranya adalah 
 
-Atau mungkin kalo pada belum tau, banyak juga sebenarnya tempat hangout di Jakarta yg dijadikan khusus untuk bermain boardgame dengan tema Co-Gaming space, salah satunya yg biasa gw kunjungi adalah **Folks Co-gaming space** lokasinya tepat di depan sebrang Koi Kemang di atas animo bread, parkirnya rada susah tapi lumayan rame dan biasanya tiap bulan bakal ada event boardgame day, buat reservasi event, beli boardgame atau info lainnya bisa di cek websitenya [Folks.id](http://folks.id) .
+1. **Folks Co-gaming space** 
+   - Alamat: Folks Co-Gaming Space Kawasan Terpadu Intermark 2nd Floor, Ruko Alfresco Dining No. 5, Lingkar Timur Serpong, Tangerang Selatan, Banten
+   - Htm: IDR 75k/person
+2. **The Bunker Cafe**
+   - Alamat: The Bunker Cafe Ruko Graha Boulevard D 10-11 Summarecon Serpong, Tangerang, Banten
+   - Htm: IDR 75k/person
+3. **Strawberry Cafe**
+   - Alamat: Strawberry Cafe Jln. Tanjung Duren Raya No.10, Jakarta Barat
+   - Htm: IDR 50k/person
+4. **Addictz Cafe & Toys**
+   - Alamat: Addictz Cafe & Toys Rukan Garden House Blok A No. 23 Jln. Pantai Indah, Kamal Muara, Jakarta Utara
+   - Htm: IDR 50k/person
+5. **Bulbul Cafe**
+   - Alamat: Bulbul Board Game Cafe Jln. Taman Palem Lestari Blok Cc-1 No.6, Kalideres, Jakarta Barat
+   - Htm: IDR 75k/person
+6. **Kuup Board Game Cafe**
+   - Alamat: Kuup Board Game Cafe Jln. Green Ville Blok Bk No.8C, Duri Kepa, Kebon Jeruk, Jakarta Barat
+   - Htm: IDR 50k/person
 
-Oks guys sekian dari gw, semoga berguna karena when you playing a boardgame you will have a better understanding of each others, quality of talks, better interaction, rather than you just sit or laying on bed playing with your iPad, Tabs or Laptop.
 
-**"The goal is to win, but it is the goal that is important, not the winning."  
- by _Reiner Knizia_**
+> "The goal is to win, but it is the goal that is important, not the winning."  
+> \~ _Reiner Knizia_

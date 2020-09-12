@@ -1,14 +1,12 @@
 ---
-categories:
-- Internet &amp; Tech
-date: 2014-05-26T12:02:01Z
-date_gmt: 2014-05-26 05:02:01 +0700
-tags: []
+date: 2014-05-26T05:02:01+07:00
+tags: ["facebook"]
 title: Mau punya Restoran di Facebook? Cekidot Gan!
 url: /2014/05/26/mau-punya-restoran-di-facebook-cekidot-gan/
+image: /images/fbresto.jpg
 ---
 
-[![fbresto](/images/fbresto.jpg)](/images/fbresto.jpg)Kabar gembira buat lo semua yang baru aja memulai bisnis resto/cafe/rumah makan/warteg atau yang sejenisnya.
+Kabar gembira buat lo semua yang baru aja memulai bisnis resto/cafe/rumah makan/warteg atau yang sejenisnya.
 
 Facebook baru2x aja merilis fitur baru dari Facebook Fan Pages dimana setiap user yang mempunyai facebook fan pages berkategorikan “Restaurant/Cafe” akan mempunyai opsi2x untuk menambahkan detil-detil tentang restoran yang dikelola oleh user tersebut.
 
@@ -29,6 +27,6 @@ Buat yang pada mau nyoba bikin facebook page untuk restorannya, silahkan klik li
 
 Buat yang bingung, bisa menuju ke Facebook Help Center <https://www.facebook.com/help/533179700126832>
 
-[![Screen Shot 2014-05-26 at 11.56.37 AM](/images/Screen-Shot-2014-05-26-at-11.56.37-AM.png)](/images/Screen-Shot-2014-05-26-at-11.56.37-AM.png)
+![facebookrestosummary](/images/facebookrestosummary.png)
 
 Lumayan kan, daripada lo susah2x bikin website buat restoran, kebetulan facebook punya fitur kayak gini, haha saingan deh sama Foursquare dan Yelp. Selamat Mencoba!

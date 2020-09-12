@@ -1,34 +1,34 @@
 ---
-categories:
-- Internet &amp; Tech
-date: 2013-10-17T14:42:15Z
-date_gmt: 2013-10-17 07:42:15 +0700
-tags: []
-title: Ada media blogging terbaru namanya GHOST, ngintip yuk!
+date: 2013-10-17T07:42:15+07:00
+tags:
+- ghost
+title: Ada media blogging terbaru namanya ghost, ngintip yuk!
 url: /2013/10/17/ada-media-blogging-terbaru-namanya-ghost/
+image: /images/ghostblogging.jpg
 ---
 
-![GHOST](/images/GHOST-150x150.png)Namanya **GHOST** mungkin beberapa dari lo, udah pada denger media blogging yang satu ini, GHOST ini pertama kali dicetuskan oleh John O'Nolan member dari Core Wordpress UI team, mungkin lebih dikenal lagi krn hasil karyanya bersama sebuah perusahaan penerbangan ternama Virgin Atlantic Airways membuat sebuah online community untuk travellers, cekidot aja **vtravelled.com** , sebuah study case yg menurut gw cukup menarik untuk disimak pada saat pembuatan website tersebut cekidot [Virgin Atlantic Airways Blog Study Case](http://www.webdesignerdepot.com/2010/04/the-virgin-atlantic-airways-blog-a-case-study/ "Virgin Atlantic Blog - Study Case")
+Mungkin beberapa dari lo, sudah mendengar soal media blogging yang satu ini, __Ghost__ pertama kali dicetuskan oleh John O'Nolan anggota dari Core Wordpress UI team. Berawal dari sebuah thread pada [Hacker News](http://news.ycombinator.com/item?id=4743245 "Rethinking Wordpress") membicarakan bagaimana sih seharusnya media blogging platform itu. 
 
-GHOST ini awalnya sebenernya hanya sebuah konsep aja, hanya berupa sebuah [tulisan artikel di blog](http://john.onolan.org/ghost/ "Wordpress is so much more than blogging platform") pd akhir taon 2012 dengan image2x interface beserta deskripsi sederhana, membahas bagaimana semestinya media blogging itu secara fungsional, membandingkan dengan wordpress, dll. Pada akhirnya tulisan itu di submit ke dalam sebuah forum developer di [Hacker News](http://news.ycombinator.com/item?id=4743245 "Rethinking Wordpress") dengan title "ReThinking Wordpress" dan cukup mendapat respon baik/buruk yg cukup banyak. Dari sinilah akhirnya project GHOST ini masuk ke dalam sebuah crowdfunding platform [KICKSTARTER](http://www.kickstarter.com/projects/johnonolan/ghost-just-a-blogging-platform "Ghost Kickstarter") di pertengahan taon 2013 untuk mencari dana proyek.
+Karena banyak mendapat respon yang cukup tinggi, proyek ini dimulai dengan menggunakan sebuah crowdfunding platform [Kickstarter](http://www.kickstarter.com/projects/johnonolan/ghost-just-a-blogging-platform "Ghost Kickstarter") di pertengahan tahun 2013 untuk mencari seberapa besarkah minat para blogger.
 
-Hasil akhir dari crowdfunding pun cukup memuaskan, ada sekitar kurang lebih 5000 backers dan dana yang terkumpul sekitar 190rb US$ 7x lipat dari dana yg dibutuhkan (25ribu US$). Kurang lebih development team terdiri dari 7 org, dari jumlah backers dan fund amount bisa terlihat masih banyak End-User disana yang memang masih membutuhkan sebuah media blogging yang memang ditujukan hanya untuk publishing, bukan untuk hal lain seperti ecommerce, online network, cms dll.
+Hasil akhir dari crowdfunding tersebut cukup memuaskan, ada sekitar kurang lebih 5000 backers dan terkumpul dana sekitar US$190K ternyata masih banyak user yang memang membutuhkan sebuah media blogging yang memang hanya dikhususkan untuk blogging.
 
-GHOST akhirnya di-launch untuk publik pada pertengahan Oktober melalui website [Ghost.org](http:// Ghost.org "Ghost") di situ user bisa melakukan registrasi untuk mendapatkan source dari aplikasinya untuk di-install di host pribadi masing2x, untuk instalasi di shared host spertinya banyak para hosting provider belum mendukung GHOST, tapi beberapa dari VPS luar negri seperti Amazon EC2, DreamHost, media temple, digitalocean, atau rackspace bisa memudahkan installasi GHOST.
+Ghost akhirnya _launching_ untuk publik pada pertengahan Oktober melalui website [Ghost.org](https://ghost.org), user bisa melakukan registrasi untuk mendapatkan source dari aplikasinya untuk mencoba instalasi di hosting pribadi masing2x, untuk instalasi di shared host spertinya banyak para hosting provider belum mendukung Ghost, tapi beberapa dari VPS luar negri seperti Amazon EC2, DreamHost, media temple, digitalocean, atau rackspace bisa memudahkan installasi Ghost.
 
-Mungkin banyak user mengira bahwa GHOST itu seperti sebuah blogging service semacam tumblr, medium, svbtle dll. Jadi banyak yg mengira setelah user registrasi, user bisa membuat blog di Ghost.org, saat ini GHOST berupa "download yourself and install yourself on your webserver" hmm ga tau mungkin kedepannya GHOST membuat servis seperti wordpress.com
+Saat ini Ghost bisa di download dan install manual pada server pribadi, mungkin kedepannya mereka akan membuat _hosting-service_ seperti platform blogging lainnya.
 
-Versi publik pertama dari GHOST belum menampilkan fitur dashboard, multi-user, scheduled post, dll. Tapi sudah bisa digunakan sebagaimana mestinya blogging system. [Roadmap](https://github.com/TryGhost/Ghost/wiki/Roadmap) dan [planned features](https://github.com/TryGhost/Ghost/wiki/Planned-Features) bisa dilihat di Github/tryghost, dijelaskan pada akhir Desember-Natal fitur dashboard dan multi-user sudah bisa dipergunakan.
+Versi publik pertama dari Ghost belum menampilkan fitur dashboard, multi-user, scheduled post, dll. Tapi sudah bisa digunakan sebagaimana mestinya blogging platform. Roadmap bisa dilihat di [Github](https://github.com/TryGhost/Ghost/wiki/), dijelaskan pada akhir Desember fitur dashboard dan multi-user sudah bisa dipergunakan.
 
-[caption id="attachment\_681" align="aligncenter" width="700"][![WelcomeToGhost](/images/WelcomeToGhost-1024x623.png)](/images/WelcomeToGhost.png) GHOST memperkenalkan content editor yg sangat sederhana (realtime preview) dan mudah digunakan dengan menggunakan standar markdown[/caption]
+![WelcomeToGhost](/images/WelcomeToGhost.png) Ghost memperkenalkan content editor yg sangat sederhana (realtime preview) dan mudah digunakan dengan menggunakan standar markdown
 
-Kalo pengen banget nyoba GHOST pastikan aja kalo Hosting Provider menyediakan NodeJS sebagai programming language yg digunakan oleh GHOST.  
-[Cekidot here for Official Installment documentation](http://docs.ghost.org/installation/deploy/) ato bisa coba [www.howtoinstallghost.com](http://www.howtoinstallghost.com/)
+Kalo lo mau mencoba Ghost pastikan aja kalo Hosting Provider menyediakan NodeJS server. [Cara Instalasi bisa klik disini](http://docs.ghost.org/installation/deploy/) ato bisa coba [www.howtoinstallghost.com](http://www.howtoinstallghost.com/)
 
 Jadi brosis! Selamat Mencoba!!!
 
-_**Buat yg mau nyoba aja, ini gw ada preview di VPS pribadi, cek aja**_
+```
+Buat yg mau nyoba aja, ini gw ada preview di VPS pribadi, cek aja
 
-_**URL : [http://labs.khal.web.id/ghost](http://labs.khal.web.id/ghost "GHOST demo")**_  
-_**Email: demo@khal.web.id**_  
-_**Password: password**_
+URL : http://labs.khal.web.id/ghost
+Email: demo@khal.web.id
+Password: password
+```

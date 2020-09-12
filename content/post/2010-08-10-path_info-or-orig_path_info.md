@@ -1,20 +1,20 @@
 ---
-categories:
-- Internet &amp; Tech
-date: 2010-08-10T16:30:57Z
-date_gmt: 2010-08-10 09:30:57 +0700
-tags: []
-title: PATH_INFO OR ORIG_PATH_INFO
+date: 2010-08-10T09:30:57+07:00
+tags:
+- codeigniter
+- php
+title: path_info or orig_path_info
 url: /2010/08/10/path_info-or-orig_path_info/
 ---
 
-First of all I'm using codeigniter for the web app, which is hosted on php4 environment someday I moved the apps to another shared host which have php5 installed , on my URI\_PROTOCOL in config.php files , I change  
- $config['uri\_protocol'] = "PATH\_INFO";
+The story begin when I was migrating my Codeigniter app from php4 to php5 hosting environment and then I change the `uri_protocol` config,
 
-And then when testing the apps there was some problem with the route dunno is this an issue or else, it really takes time for me to find out why the route always looping back again again and again, my first guess was on htaccess that maybe the mod\_rewrite module doesnt work, but the guess was wrong , and then I checked again on web apps route.php, hook configuration, site path, base dir, my adventure end in URL.php bcoz the segments/rsegments always return none.
+    $config['uri_protocol'] = "PATH_INFO";
 
-Try to print out $\_SERVER variable , and now so this is the problem , the PATH\_INFO variable was gone no where, but there is ORIG\_PATH\_INFO, an so my first guess of the problem was on PHP version so then I found this article,  
- http://www.binarytides.com/blog/path\_info-orig\_path\_info-apache-and-php/  
- ,well I think its explained very well, on his condition it happen when he use .htaccess redirect and in my condition it happen when I use .htaccess mod\_rewrite.
+And then the app crashed!?? I had to debug the code for quite sometimes :tired_face:
 
-PATH\_INFO relies on the Apache [AcceptPathInfo Directive](http://httpd.apache.org/docs/2.0/mod/core.html#acceptpathinfo)
+Debugging the `$_SERVER` variable, and turns out the `PATH_INFO` variable wasn't exist, but the `ORIG_PATH_INFO` variable is exist, hmm is it the PHP version problem? 
+
+So then I found this article [path_info, orig_path_info, apache and php](http://www.binarytides.com/blog/path\_info-orig\_path\_info-apache-and-php/), well I guess that explained very well, on his condition mentioned in the article, the problem happened when he use `.htaccess redirect` and in my condition it happen when I use `.htaccess mod_rewrite`
+
+`PATH_INFO` relies on the Apache [AcceptPathInfo Directive](http://httpd.apache.org/docs/2.0/mod/core.html#acceptpathinfo)

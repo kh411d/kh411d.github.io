@@ -1,19 +1,11 @@
 ---
-categories:
-- Internet &amp; Tech
-date: 2015-05-02T15:50:00Z
-date_gmt: 2015-05-02 08:50:00 +0700
+date: 2015-05-02T08:50:00+07:00
 tags:
-- google
 - security
 - android
-- smartlock
-- lollipop
-- android-L
-- lock-screen
 title: Android On-Body phone lock, pinter juga neh!
 url: /2015/05/02/android-on-body-phone-lock-pinter-juga-neh/
-image: /images/android-smartlock.jpg
+image: /images/onbodylock.jpg
 ---
 
 Tentunya penting buat kita semua untuk menjaga privasi dan keamanan henpon pribadi entah dari kelalaian kita sendiri atau tangan-tangan usil lainnya.
@@ -31,7 +23,7 @@ Cara kerjanya pun cukup sederhana, fitur smartlock ini akan mendeteksi si penggu
 Henpon akan tetap berada dalam posisi unlock sampai henpon tersebut tidak berada dalam genggaman pengguna, atau misalnya ketika henpon berada dalam saku atau tas pengguna maka henpon akan kembali dalam posisi mengunci.
 
 Cara mengaktifkan fitur ini juga cukup mudah, bisa di cari di menu Setting henpon kamu, kemudian pilih menu Lock Screen  
-[![image](/images/wpid-img_20150502_154225.jpg "IMG_20150502_154225.jpg")](/images/wpid-img_20150502_154225.jpg)
+![image](/images/wpid-img_20150502_154225.jpg "IMG_20150502_154225.jpg")
 
 Kamu bisa melihat contoh setting diatas untuk mengaktifkan fitur smartlock berdasarkan On-body detection, kamu juga bisa mengaktifkan fitur ini berdasarkan lokasi, suara pengguna dan device yg sedang dipakai.
 

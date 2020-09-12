@@ -1,11 +1,9 @@
 ---
-categories:
-- Internet &amp; Tech
-date: 2014-01-13T16:33:33Z
-date_gmt: 2014-01-13 09:33:33 +0700
-tags: []
+date: 2014-01-13T09:33:33+07:00
+tags: ["internet"]
 title: Punya nama DOMAIN sendiri, penting gak sih?
 url: /2014/01/13/punya-nama-domain-sendiri-penting-gak-sih/
+image: /images/tldkocak.jpg
 ---
 
 Domain ... apa tuh domain? istilah domain yang gue maksud disini adalah Domain Internet, atau secara tidak langsung baik sadar atau tidak, beberapa orang yang pekerjaannya lekat dengan Internet pasti tahu deh domain itu seperti apa, tapi mungkin banyak orang yang menyebutkannya dengan gamblang seperti URL, Website, atau Link.
@@ -14,7 +12,9 @@ Secara gamblang gw bisa bilang internet itu sebenarnya adalah sekumpulan alamat-
 
 Sebagai contoh bisa disimak, ketika user mengetikkan www.google.com pada browser address, browser/kantor pos akan mengirimkan sebuah paket data/tukang pos ke internet yang nantinya akan di arahkan ke DNS dari situ nanti paket akan diarahkan ke kodepos/rumah dimana nama www.google.com itu terdaftar, setelah paket data sampai di kodepos tujuan (\*ya bisa dianalogikan sebagai rumah yang dituju), si pemilik rumah akan menerima paket data tersebut lalu mengirimkan kembali permintaan dari user ke browser.
 
-[caption id="attachment\_859" align="aligncenter" width="700"][![vladstudio_how_internet_works_700](/images/vladstudio_how_internet_works_700.jpg)](/images/vladstudio_how_internet_works_700.jpg) DNS illustration Courtesy of [Vladstudio.com](http://www.vladstudio.com/wallpaper/?how_internet_works)[/caption]
+![vladstudio_how_internet_works_700](/images/vladstudio_how_internet_works_700.jpg) 
+
+DNS illustration Courtesy of [Vladstudio.com](http://www.vladstudio.com/wallpaper/?how_internet_works)
 
 Berarti sekarang tau dong Domain itu apa, nah sekarang pertanyaannya, penting ga sih punya nama domain sendiri, kalau misalnya hobi atau pekerjaan kamu erat hubungannya dengan internet, gue bisa bilang kamu harus punya nama domain sendiri, nah tanya kenapa?
 

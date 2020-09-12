@@ -1,17 +1,12 @@
 ---
-categories:
-- Internet &amp; Tech
-date: 2016-01-25T13:02:42Z
-date_gmt: 2016-01-25 06:02:42 +0700
+title: Nge-mix Android di Macbook/PC
+date: 2016-01-25T13:02:42+07:00
 tags:
 - android
-- apple
+- macos
 - remixos
-- androidx86
-- macbook
-title: Nge-mix Android di Macbook/PC
 url: /2016/01/25/nge-mix-android-di-macbookpc/
-image: /images/wpremixos.jpg
+image: /images/remixos_web.jpg
 ---
 
 Mungkin banyak yg sudah pada tahu kelebihan Android ini, tetapi kebanyakan orang terbiasa tahu bahwa android hanya running di henpon, tablet, IOT devices, atau mini PC dengan USB stick.
@@ -34,6 +29,4 @@ Versi alpha RemixOS bisa running melalui bootable USB drive, loadingnya lumayan 
 
 Sampai artikel ini ditulis gw belum berhasil menggunakan resident mode, mungkin dikarenakan USB yg digunakan adalah USB 2.0 instead of USB 3.0, jadi mungkin permasalahan ada pada perbedaan speed USB 2 dan 3 yg cukup signifikan (jadi stuck di booting kelamaan), ditambah lagi Macbook Air 2011 hanya mempunyai builtin port USB 2.0.
 
-Worth to try sih kalo gw bilang, tapi bisakah jadi pengganti os yg lain seperti Windows, Max, atau Ubuntu? hmm kayaknya untuk saat ini belum aja sih, soalnya banyak yang memakai os ini kebanyakan untuk media center atau entertainment, Penasaran? untuk cara instalasi bisa liat di link dibawah.
-
-url: coming soon.
+Worth to try sih kalo gw bilang, tapi bisakah jadi pengganti os yg lain seperti Windows, Max, atau Ubuntu? hmm kayaknya untuk saat ini belum aja sih, soalnya banyak yang memakai os ini kebanyakan untuk media center atau entertainment.

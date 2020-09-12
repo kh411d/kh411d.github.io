@@ -1,39 +1,45 @@
 ---
-categories:
-- Hobbies, Event &amp; Travelling
-date: 2015-12-21T12:25:19Z
-date_gmt: 2015-12-21 05:25:19 +0700
-tags: []
-title: Star Wars versi cerpen, buat yang males ngikutin ....
+date: 2015-12-21T05:25:19+07:00
+tags: 
+- movie
+- jokes
+title: Star Wars versi cerpen
 url: /2015/12/21/star-wars-versi-cerpen-buat-yang-males/
-image: /images/starwars-china.jpg
+image: /images/starwarschinacover.jpg
 ---
 
 Berawal dari sebuah acara talkshow "The Late Show with Stephen Colbert" Stephen menuturkan bahwa sebenarnya tidak semua orang begitu antusias dengan peluncuran film Star Wars yang baru-baru ini heboh di media massa, contoh saja China, dari sekian banyak penduduk bahkan tidak begitu mengetahui tentang film Star Wars ini.
 
-Lalu Stephen mulai menuturkan plot-plot simpel untuk non penggemar Star Wars dimana menurut gw cukup kocak, jenius dan menghibur berikut penuturannya,
+Lalu Stephen mulai menuturkan plot pendek untuk menjelaskan alur star wars yang menurut gue cukup kocak, humoris, dan menghibur. 
 
-> Star Wars adalah kisah seorang anak lelaki petani yang membeli dua![r2d2_c3po2](/images/r2d2_c3po2-150x150.jpg) robot, yg satu bentuknya seperti tempat sampah, dan yg satu lagi di program untuk menjadi penakut setiap saat, entah kenapa.
-> 
-> [  
-> ](/images/r2d2_c3po2.jpg)
-> 
-> [![Lukeandben](/images/Lukeandben.jpg)](/images/Lukeandben.jpg)Lalu robot-robot itu menunjukkan jalan kepada anak petani untuk bertemu seorang sesepuh/tetua yg mengatakan bahwa ia harus membunuh seorang pria cacat yg memakai alat bantu nafas di sepanjang hidupnya.
-> 
-> ![darth-vader-daily-life-6ed](/images/darth-vader-daily-life-6ed-150x150.jpg)Lalu diperjalanan mereka bertemu dengan seorang penjahat dengan anjingnya yg bisa teriak-teriak. Penjahat tersebut lalu memberi tumpangan kepada anak petani dan robot-robotnya menuju angkasa luar dimana nantinya anak petani tersebut bertemu dengan adiknya dan bercumbu mesra.[![luke-leiaed](/images/luke-leiaed-150x150.jpg)](/images/luke-leiaed.jpg)
-> 
-> Lalu dengan pertolongan sebuah kekuatan misterius yg dikenal dengan 'The Force", anak petani tersebut menjadi seorang pahlawan besar, lalu ia berlari-lari girang di sebuah rawa-rawa dengan boneka kodok di pundaknya seperti halnya sebuah tas punggung.  
-> [  
-> ](/images/Empire-Strikes-Back.png)  
-> ![Empire-Strikes-Back](/images/Empire-Strikes-Back-150x150.png)Akhirnya, si pria cacat itu meledakkan planetnya, lalu planetnya hancur,  
->  lalu anak petani tersebut membuat planet lagi trus dihancurkan lagi oleh ia sendiri. Setelahnya, anak petani itu membantu untuk membunuh pria cacat itu yang dimana sebenarnya pria cacat itu adalah ayahnya sendiri.
-> 
-> Lalu semuanya berakhir dengan pesta dansa boneka-boneka beruang luchuk dan hantu-hantu penasaran.
-> 
-> ![maxresdefault](/images/maxresdefault-300x169.jpg)
-> 
-> Tamat.
+##### StarWars Plot
 
-Hehehe buat versi lengkapnya cek youtube aja ya...
+Star wars adalah kisah seorang anak petani sederhana :person_with_blond_hair: yang membeli dua robot, satu seperti tong sampah dan yang satu lagi diprogram untuk ketakutan sepanjang waktu, entah mengapa?
 
-https://www.youtube.com/watch?v=RwjjTBvOnYo
+![pic1](/images/starwars1.jpg)
+
+Robot-robot ini kemudian menuntun anak petani itu ke seorang tua :older_man: yang mengatakan kepadanya bahwa ia harus mengalahkan pria jahat disabel yang bertahan hidup memakai alat bantu pernapasan tubuh.
+
+![pic2](/images/starwars2.jpg)
+
+Kemudian mereka bertemu dengan seorang penjahat :guardsman: dan peliharaannya yang bersuara aneh :dog2: lalu mereka memberi tumpangan :rocket: pada anak itu ke luar angkasa, di mana kemudian anak itu berciuman :kiss: dengan saudara perempuannya sendiri :princess:
+
+![pic3](/images/starwars4.jpg)
+
+Dengan bantuan kekuatan misterius yang disebut _The Force_ :flashlight: anak itu menjadi pahlawan yang hebat :muscle: lalu ia berlari-lari riang mengelilingi rawa :four_leaf_clover: dengan boneka kodok :frog: seperti layaknya tas punggung :school_satchel:
+
+![pic4](/images/starwars5.jpg)
+
+Kemudian, pria jahat itu meledakkan planet si anak petani itu :earth_americas: :boom: lalu ia balas dengan meledakkan planetnya :new_moon: :boom: lalu pria itu membangun planet lain lagi :new_moon_with_face: tetapi kemudian diledakkan kembali :boom: oleh si anak petani itu.
+
+![pic3](/images/starwars7.jpg)
+
+Lalu anak itu membantu membunuh pria jahat itu :scream: karena pria itu telah membunuh ayahnya, yang sebenarnya pria itu adalah ayahnya sendiri :sob:
+
+![pic4](/images/starwars9.jpg)
+
+Lalu semua berakhir dengan pesta dansa :notes: bersama sekelompok teddy bear :bear: :bear: :bear:  dan hantu :ghost: :ghost: :ghost:
+
+![pic5](/images/starwars8.jpg)
+
+Tamat.

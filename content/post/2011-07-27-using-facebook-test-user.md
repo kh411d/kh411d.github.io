@@ -1,21 +1,22 @@
 ---
-categories:
-- Internet &amp; Tech
-date: 2011-07-27T15:59:35Z
-date_gmt: 2011-07-27 08:59:35 +0700
-tags: []
+date: 2011-07-27T08:59:35+07:00
+tags:
+- facebook
+- tutorial
 title: Using Facebook Test User
 url: /2011/07/27/using-facebook-test-user/
+image: /images/facebookdev.jpg
 ---
 
 If you don't know what Facebook Test User is? you may check the documentation on [http://developers.facebook.com/docs/test\_users/](http://developers.facebook.com/docs/test_users/ "Facebook Test User Docs")
 
-Test User is a Tool that could be a handy when you need to have some users to interact with your application, facebook currently provide this through Graph Api and you can easily try out with your app application id and secret. And you actually not need the facebook php-sdk you can use your own CURL class lib, you can use my php class on github <http://goo.gl/QRz1n>
+Test User is a tool that could be handy when you need to have some users to interact with your application, facebook currently provide this through Graph Api. 
 
-Some Wrapper I've made,
+I've made this simple php class consuming only facebook test account API, you may copy-paste from [github](https://github.com/kh411d/PHP-Facebook-App-Admin/blob/master/lib/Facebook_TestAccount.class.php)
 
- 
-    <pre lang="php">$acc = new Facebook_TestAccount($appID,$Secret,$app_access_token);
+Some example,
+
+    $acc = new Facebook_TestAccount($appID,$Secret,$app_access_token);
     
     //Create N User
     $acc->createMany($_REQUEST['n'],$parameter)
@@ -25,7 +26,3 @@ Some Wrapper I've made,
     
     //Listing all user created by App Access Token
     $acc->access()
-
-And some basic things like connecting user each other, edit a user, etc .  
- you can try the example on my github link above, the class is part of my plan to make a simple web app for facebook app administration like getting an insights, approving request, creating test user, etc.  
- anything that modify

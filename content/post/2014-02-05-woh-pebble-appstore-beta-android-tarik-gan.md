@@ -1,11 +1,9 @@
 ---
-categories:
-- Internet &amp; Tech
-date: 2014-02-05T13:23:00Z
-date_gmt: 2014-02-05 06:23:00 +0700
-tags: []
+date: 2014-02-05T06:23:00+07:00
+tags: ["pebblewatch"]
 title: Woh! Pebble AppStore BETA Android tarik gan!!
 url: /2014/02/05/woh-pebble-appstore-beta-android-tarik-gan/
+image: /images/pebblewatch.jpg
 ---
 
 Akhirnya di release juga Pebble AppStore untuk pengguna Android, buat yang mau download harus lewat developer portal pebble karena masih BETA released, jadi belum bisa di download lewat google play. Cara download dan instalasi sama seperti artikel gue sebelumnya [klik disini ](http://khalidadisendjaja.web.id/2013/12/16/cara-update-firmware-pebble-ke-sdk-2-beta-version/), semua bisa Lo lakukan lewat browser henpon saja.

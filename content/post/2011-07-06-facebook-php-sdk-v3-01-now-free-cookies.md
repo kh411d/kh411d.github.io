@@ -1,11 +1,11 @@
 ---
-categories:
-- Internet &amp; Tech
-date: 2011-07-06T20:38:44Z
-date_gmt: 2011-07-06 13:38:44 +0700
-tags: []
+date: 2011-07-06T13:38:44+07:00
+tags: 
+- facebook
+- tutorial
 title: Facebook PHP SDK v3.01 now free cookies
 url: /2011/07/06/facebook-php-sdk-v3-01-now-free-cookies/
+image: /images/facebookdev.jpg
 ---
 
 Now the new SDK has been released, on the beginning of june 2011 I guess.

@@ -1,15 +1,11 @@
-+++
-author = ""
-comments = true # set false to hide Disqus
-date = "2018-01-25T00:40:18+07:00"
-draft = false
-image = "/images/arch-screenfetch.png"
-menu = ""       # set "main" to add this content to the main menu
-share = true    # set false to hide share buttons
-slug = "rusty-macbook-air-getting-new-air-from-archlinux"
-tags = ["macbook-air", "archlinux","linux","operating-system","osx"]
-title = "Rusty Macbook Air getting new Air from Archlinux"
-+++
+---
+comments: true # set false to hide Disqus
+date: 2018-01-25T00:40:18+07:00
+image: /images/arch-screenfetch.png
+share: true    # set false to hide share buttons
+tags: ["macos", "archlinux","linux"]
+title: Rusty Macbook Air getting new Air from Archlinux
+---
 
 Today I accidentally deleted my primary OSX partition from my very old MacBook air 4,2 (2011) with the last installed os was el Capitan. From the beginning, I just want to give my MacBook some extra space but it turns out cleaning all the HDD ...LOL, I seriously don't know how in the hell this could happen, this is a lesson for not to clean your HDD in the middle of the night.
 

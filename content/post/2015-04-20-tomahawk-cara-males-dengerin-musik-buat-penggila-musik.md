@@ -1,20 +1,18 @@
 ---
-categories:
-- Hobbies, Event &amp; Travelling
-- Internet &amp; Tech
-date: 2015-04-20T10:00:00Z
-date_gmt: 2015-04-20 03:00:00 +0700
+date: 2015-04-20T03:00:00+07:00
 tags:
-- tomahawk
-- music-player
+- tomahawk-player
+- music
 - cloud
 - opensource
-- social
+- socialnetwork
+- app
 title: TOMAHAWK cara males dengerin musik buat penggila musik
 url: /2015/04/20/tomahawk-cara-males-dengerin-musik-buat-penggila-musik/
+image: /images/tomahawk.jpg
 ---
 
-[![image](/images/wpid-img_20150420_000915.jpg "IMG_20150420_000915.jpg")](/images/wpid-img_20150420_000915.jpg) Mau dengerin musik ini itu, hmm.. itunes ada gak ya.. klo di spotify ada gak ya... duh coba di grooveshark deh ... apa coba cari di deezer aja ... di soundcloud ada gak ya... duh ga ada juga.. ujung-ujungnya donlot dari torrent atau ripping dari youtube deh.
+Mau dengerin musik ini itu, hmm.. itunes ada gak ya.. klo di spotify ada gak ya... duh coba di grooveshark deh ... apa coba cari di deezer aja ... di soundcloud ada gak ya... duh ga ada juga.. ujung-ujungnya donlot dari torrent atau ripping dari youtube deh.
 
 Ha ha pernah kaya gitu gak brosis, bingung nyari mp3 kemana-mana, hal seperti ini sudah bisa diatasi kalo kamu memakai aplikasi yang namanya **Tomahawk**.
 
@@ -35,8 +33,4 @@ Ketika memutar playlist orang lain, sumber lagu bisa berbeda-beda, track pertama
 Yang lebih canggih lagi adanya sistem Tomahawk P2P streaming client, dimana seorang pengguna bisa memutar lagu yang ada di komputer temannya dari komputer pribadinya, atau mungkin misalnya memutar lagu yang ada di komputer kantor dari laptop di rumah.
 
 Buat yang kepengen nyoba dan donlot app nya, bisa cekidot disini  
-<https://www.tomahawk-player.org>
-
-Kalo udah registrasi jangan lupa follow akun gue ya, **khalidity**.
-
-Selamat menggila ;-)
+<https://github.com/tomahawk-player/tomahawk>

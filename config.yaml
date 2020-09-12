@@ -26,3 +26,4 @@ params:
   baseURL: "http://khal.web.id/"
 disqusShortname: khal-web-id
 theme: hugo-theme-casper
+enableEmoji: true

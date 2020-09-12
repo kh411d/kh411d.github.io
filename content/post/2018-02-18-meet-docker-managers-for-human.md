@@ -1,16 +1,12 @@
-+++
-author = ""
-comments = true # set false to hide Disqus
-date = "2018-02-18T13:38:36+07:00"
-draft = false
-image = "/images/portainer_header.jpg"
-menu = ""       # set "main" to add this content to the main menu
-share = true    # set false to hide share buttons
-slug = "meet-docker-managers-for-human"
-tags = ["docker","docker-manager","linux","osx","windows","portainer"]
-title = "Meet Docker managers for human"
-+++
-
+---
+comments: true # set false to hide Disqus
+date: 2018-02-18T13:38:36+07:00
+draft: false
+image: /images/portainer_header.jpg
+share: true    # set false to hide share buttons
+tags: ["docker","portainer"]
+title: Meet Docker managers for human
+---
 
 After more than a year using docker, just realized that there are many GUI docker managers out there, this tool is really useful because you don't need to remember all the command lines or googling every time you forget the command.
 

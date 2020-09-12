@@ -1,11 +1,9 @@
 ---
-categories:
-- Internet &amp; Tech
-date: 2013-12-16T22:18:10Z
-date_gmt: 2013-12-16 15:18:10 +0700
-tags: []
+date: 2013-12-16T15:18:10+07:00
+tags: ["pebblewatch"]
 title: Cara update Firmware Pebble ke SDK 2 Beta version
 url: /2013/12/16/cara-update-firmware-pebble-ke-sdk-2-beta-version/
+image: /images/pebblewatch.jpg
 ---
 
 **Update: Semua intruksi dibawah ini bisa dilakukan hanya dengan menggunakan browser henpon.**
@@ -22,22 +20,22 @@ Untuk proses instalasi BETA firmware ada 2 file yg di perlukan, semua file bisa 
 4. Uninstall Pebble "Android App" yang terinstall di henpon, pastikan pada setting android di bagian security - Device administration box "Unknown Source" sudah di cek, gunanya untuk mengizinkan instalasi aplikasi selain dari Play Store.
 5. Lalu lakukan instalasi file "**PebbleApp-2.0-BETA3.apk**" dari folder explorer, di-klik saja lalu pilih "package installer" (logo android) untuk instalasi, pastikan pebble android app sudah terinstall.
 6. Setelah Pebble Android App terinstall, lakukan instalasi **Pebble-2.0-BETA3-[ev2\_4 atau v1\_5].pbz** dari folder explorer, di-klik saja, nanti file akan dikenali oleh Pebble Android App, proses "Updating" akan segera berlangsung, tunggu sekitar 2-3 menit sampai proses instalasi selesai, Jam tangan akan melakukan reboot ketika update firmware telah selesai.
-7. Setelah semua selesai, silahkan sujud sukur, potong kambing, tumpengan atau undang tetangga buat tahlilan (\*Hahaha bcanda broh)
+7. Setelah semua selesai, silahkan sujud sukur, potong kambing, tumpengan atau undang tetangga buat tahlilan :laughing:
 
 Setelah itu lo bisa langsung menuju [MyPebbleFaces.com](http://www.mypebblefaces.com/) silahkan di filter result berdasarkan SDK 2.0, ada beberapa aplikasi yg menurut gw cukup menarik seperti,
 
-1. [Aerotracker](http://www.mypebblefaces.com/apps/9157/6582/) sebuah aplikasi tracking GPS,
-2. [ Tap Time ](http://www.mypebblefaces.com/apps/9519/7122/)watchface hemat energi,
-3. [Pebsona Golden](http://www.mypebblefaces.com/apps/1444/7926/) watchface paling bagus, tapi boros memori henpon,
-4. [Binary watchface](http://www.mypebblefaces.com/apps/6659/5613/) kayaknya susah sih kalo ga pernah blajar binary 8-4-2-1 ,
-5. [RChrono](http://www.mypebblefaces.com/apps/8829/7900/) aplikasi wajib buat para runner, tapi ini bisa juga sebagai timer serbaguna kalo menurut gw,
-6. [Spoon](http://www.mypebblefaces.com/apps/10947/8172/) bisa checkin foursquare dari pebble lo (\*keren bro, cobain deh)
+1. [Aerotracker](http://www.mypebblefaces.com/apps/9157/6582/) sebuah aplikasi tracking GPS
+2. [ Tap Time ](http://www.mypebblefaces.com/apps/9519/7122/)watchface hemat energi
+3. [Pebsona Golden](http://www.mypebblefaces.com/apps/1444/7926/) watchface paling bagus, tapi boros memori henpon
+4. [Binary watchface](http://www.mypebblefaces.com/apps/6659/5613/) kayaknya susah sih kalo ga pernah blajar binary 8-4-2-1
+5. [RChrono](http://www.mypebblefaces.com/apps/8829/7900/) aplikasi wajib buat para runner, tapi ini bisa juga sebagai timer
+6. [Spoon](http://www.mypebblefaces.com/apps/10947/8172/) bisa checkin foursquare dari pebble lo
 7. [LetsMuv](http://letsmuv.com/) aplikasi ini mirip seperti fitbit, nike fuelband
 
 Oya, Pebble sdk 2 memperkenalkan fitur app config untuk pebble watchapp, config ini bisa dilihat di Pebble Android App di menu Watch App dgn gear icon,
 
-[![image](/images/wpid-Screenshot_2013-12-17-00-30-16.png "Screenshot_2013-12-17-00-30-16.png")](/images/wpid-Screenshot_2013-12-17-00-30-16.png)
+![image](/images/wpid-Screenshot_2013-12-17-00-30-16.png)
 
-Wokeh Bro Sis gitu deh, catatan aja, langkah diatas udah gw coba berulang2x di android dan sukses2x aja, untuk aplikasi IOS gw belum pernah coba, tapi kalo gw pikir sih mirip aja ya, sori banget nih kalo gw kurang nge-bantu :)
+Wokeh Bro Sis gitu deh, catatan aja, langkah diatas udah gw coba berulang2x di android dan sukses2x aja, untuk aplikasi IOS gw belum pernah coba, tapi kalo gw pikir sih mirip aja ya, sori banget nih kalo gw kurang nge-bantu :smile:
 
-Selamat mencoba!! Break a leg :))
+Selamat mencoba!! Break a leg :smirk:

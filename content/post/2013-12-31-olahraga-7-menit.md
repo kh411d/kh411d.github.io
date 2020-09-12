@@ -1,15 +1,12 @@
 ---
-categories:
-- Hobbies, Event &amp; Travelling
-date: 2013-12-31T16:17:45Z
-date_gmt: 2013-12-31 09:17:45 +0700
-tags: []
+date: 2013-12-31T09:17:45+07:00
+tags: ["workout"]
 title: Olahraga Scientific, hanya 7 menit
 url: /2013/12/31/olahraga-7-menit/
+image: /images/workout7.jpg
 ---
 
-[caption id="attachment\_851" align="aligncenter" width="592"][![12well_physed-tmagArticle](/images/12well_physed-tmagArticle.jpg)](/images/12well_physed-tmagArticle.jpg) Source: <http://well.blogs.nytimes.com/2013/05/09/the-scientific-7-minute-workout>[/caption]
-
+![12well_physed-tmagArticle](/images/12well_physed-tmagArticle.jpg)
 Hayo2x yg masih di kasur,
 
 - Cuman 7 menit.
@@ -25,5 +22,3 @@ Hayo2x yg masih di kasur,
 Detail lebih jelasnya,
 
 [ACSM Health & Fitness Journal](http://journals.lww.com/acsm-healthfitness/Fulltext/2013/05000/HIGH_INTENSITY_CIRCUIT_TRAINING_USING_BODY_WEIGHT_.5.aspx)
-
-View on [Path](https://path.com/p/1zhj4V)

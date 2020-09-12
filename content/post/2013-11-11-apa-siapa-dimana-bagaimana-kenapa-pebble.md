@@ -1,11 +1,9 @@
 ---
-categories:
-- Internet &amp; Tech
-date: 2013-11-11T17:37:11Z
-date_gmt: 2013-11-11 10:37:11 +0700
-tags: []
+date: 2013-11-11T10:37:11+07:00
+tags: ["pebblewatch"]
 title: Apa, siapa, dimana, bagaimana, kenapa Pebble ?
 url: /2013/11/11/apa-siapa-dimana-bagaimana-kenapa-pebble/
+image: /images/pebblewatch.jpg
 ---
 
 Hmm dari judulnya panjang ya... sumpah males deh nerusin artikelnya, gw juga ga rajin2x amet nge-blog, tapi pengen aja sharing sama yg lain, banyak yg nanya soal gadget unik yg satu ini yg namanya [**Pebble**](http://getpebble.com), mungkin banyak "anak bertanya pada bapaknya... buat apa berlapar2x puasa ... tadarus tarawih apalah gunanya" (\*Halaaaah, ngaco kan, knapa jadi Bimbo, sori ya, Bimbo ama Pebble ga da hubungannya sama skali, titik. \*disclaimer )

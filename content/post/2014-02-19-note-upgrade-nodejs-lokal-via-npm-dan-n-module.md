@@ -1,11 +1,9 @@
 ---
-categories:
-- Internet &amp; Tech
-date: 2014-02-19T14:55:27Z
-date_gmt: 2014-02-19 07:55:27 +0700
-tags: []
+date: 2014-02-19T07:55:27+07:00
+tags: ["nodejs","tutorial"]
 title: '[NOTE] Upgrade NodeJS lokal via NPM dan "n" module'
 url: /2014/02/19/note-upgrade-nodejs-lokal-via-npm-dan-n-module/
+image: /images/nodejscover.jpg
 ---
 
 **Sebelum NodeJS-nya di-upgrade, cek dulu versi yang ter-install,**

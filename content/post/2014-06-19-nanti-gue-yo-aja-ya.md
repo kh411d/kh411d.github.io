@@ -1,18 +1,16 @@
 ---
-categories:
-- Internet &amp; Tech
-date: 2014-06-19T16:20:34Z
-date_gmt: 2014-06-19 09:20:34 +0700
+date: 2014-06-19T09:20:34+07:00
 tags:
 - android
 - iphone
 - yoapp
-- yo
+- app
 title: Nanti gue "Yo!" aja ya...
 url: /2014/06/19/nanti-gue-yo-aja-ya/
+image: /images/yoapp.png
 ---
 
-[![Screen Shot 2014-06-19 at 3.52.31 PM](/images/Screen-Shot-2014-06-19-at-3.52.31-PM-300x283.png)](/images/Screen-Shot-2014-06-19-at-3.52.31-PM.png)Yo, yo , yoooooo! .... Ha ha, satu lagi terobosan baru cara berkomunikasi dengan temen-temen lo, sebenernya sih ga baru-baru amet, kalo dulu jaman gw baru2x masuk kuliah taun 90-an pasti lo tau deh yang namanya "Miss Call" cuman buat ngasih tau kalo lo dah nyampe kelas, ato buat ngasih tau dah nyampe tempat janjian misalnya di mall, kafe, dll.
+Yo, yo , yoooooo! .... Ha ha, satu lagi terobosan baru cara berkomunikasi dengan temen-temen lo, sebenernya sih ga baru-baru amet, kalo dulu jaman gw baru2x masuk kuliah taun 90-an pasti lo tau deh yang namanya "Miss Call" cuman buat ngasih tau kalo lo dah nyampe kelas, ato buat ngasih tau dah nyampe tempat janjian misalnya di mall, kafe, dll.
 
 Aplikasi Android/Iphone bernama Yo ini punya moto "Zero-character communication tool" ya cara kerjanya mirip-mirip sama miss call gitu deh, buat yang mau coba silakan kunjungi websitenya di <http://www.justyo.co/>
 

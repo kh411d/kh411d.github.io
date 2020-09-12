@@ -1,16 +1,14 @@
 ---
-categories:
-- Internet &amp; Tech
-date: 2015-04-23T17:48:39Z
-date_gmt: 2015-04-23 10:48:39 +0700
+date: 2015-04-23T10:48:39+07:00
 tags:
 - bitcoin
-- digital-currency
+- blockchain
 title: PDKT sama uang dunia maya bernama BitCoin
 url: /2015/04/23/pdkt-sama-uang-dunia-maya-bernama-bitcoin/
+image: /images/bitcoin.jpg
 ---
 
-[![pdkt-bitcoin](/images/pdkt-bitcoin.jpg)](/images/pdkt-bitcoin.jpg)**BUKAN MLM, bukan koin dinar, bukan juga koin emas** dan bahkan nggak punya bentuk fisik yang bisa kamu sisipkan ke dompet atau simpan di bank, apalagi disimpan di bawah kasur. Tapi tentu saja yang namanya uang pastinya bisa kamu belanjain dimanapun kapanpun secara online.
+**BUKAN MLM, bukan koin dinar, bukan juga koin emas** dan bahkan nggak punya bentuk fisik yang bisa kamu sisipkan ke dompet atau simpan di bank, apalagi disimpan di bawah kasur. Tapi tentu saja yang namanya uang pastinya bisa kamu belanjain dimanapun kapanpun secara online.
 
 Ha ha amazing ya, udah nggak bisa dipegang tapi masih bisa di belanjain. Daripada penasaran bikin kesasar, mending kita pdkt aja sama yang namanya Bitcoin ini.
 
@@ -28,13 +26,13 @@ Seperti halnya ketika ini diaplikasikan ke dalam dunia digital, tentu saja semua
 
 Problema ini dinamakan _double-spending,_ yaitu sebuah risiko dimana seseorang secara bersamaan bisa mengirim satu unit mata uang ke dua tempat yang berbeda.
 
-[caption id="attachment\_1135" align="aligncenter" width="640"][![split_blockchain_users-copy-640x174](/images/split_blockchain_users-copy-640x174.jpg)](/images/split_blockchain_users-copy-640x174.jpg) Source: http://the-gist.org/2014/03/part-2-the-crafty-design-of-bitcoin/[/caption]
+![split_blockchain_users-copy-640x174](/images/split_blockchain_users-copy-640x174.jpg)
 
 Untuk mengatasi masalah ini maka dari itu kita memerlukan sebuah buku kas atau kasbuk untuk mencatat semua transaksi tangkai mawar yang manakah yang sedang diberikan. Kasbuk ini harus memiliki tempatnya sendiri dan memiliki orang/badan yang bertanggung jawab atas kasbuk tersebut.
 
 Bisa kita ambil contoh dari penjualan stiker-stiker aplikasi messaging seperti Line, Path, Kakao, dll. Pastinya mereka mempunyai sebuah kasbuk online untuk mencatat segala transaksi stiker yang berlangsung.
 
-[![buku_kas](/images/buku_kas-221x300.jpg)](/images/buku_kas.jpg)Nah, sekarang muncullah sebuah problema baru. Bagaimana jika misal seorang admin kasbuk di Line dengan semena-mena menduplikasi stiker untuk dijual atau diberikan ke orang lain atau dipakai sendiri? Mengapa prosesnya jadi harus melibatkan pihak ketiga, nggak simpel seperti halnya kamu memberikan mawar langsung kepada pacar kamu?
+Nah, sekarang muncullah sebuah problema baru. Bagaimana jika misal seorang admin kasbuk di Line dengan semena-mena menduplikasi stiker untuk dijual atau diberikan ke orang lain atau dipakai sendiri? Mengapa prosesnya jadi harus melibatkan pihak ketiga, nggak simpel seperti halnya kamu memberikan mawar langsung kepada pacar kamu?
 
 Bagaimana jika kasbuk ini kita berikan ke semua orang, jadi tidak hanya dipegang oleh satu pihak sendiri melainkan kasbuk ini akan berada di tiap orang dan menjadi sebuah jaringan yang tersinkronisasi dimana semua orang bisa melihat semua transaksi yang sedang terjadi sehingga seseorang tidak bisa mencurangi sebuah transaksi.
 

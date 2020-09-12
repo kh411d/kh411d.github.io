@@ -1,11 +1,9 @@
 ---
-categories:
-- Internet &amp; Tech
-date: 2013-11-07T14:21:35Z
-date_gmt: 2013-11-07 07:21:35 +0700
-tags: []
+date: 2013-11-07T07:21:35+07:00
+tags: ["cybersecurity","facebook","twitter","google","socialnetwork"]
 title: Mari berbagi soal Privasi di Sosial Media Online
 url: /2013/11/07/mari-berbagi-soal-privasi-di-sosial-media-online/
+image: /images/socialprivacy.jpg
 ---
 
 Sebelum kita ngomongin soal privasi di sosial media online, tentunya kita harus tau dulu bentukan dari sosial media itu atau "Apa sih sosial media itu?", sebenernya mudah saja untuk semua orang mendefinisikan artian dari sosial media (\*baca: SosMed), tapi pada intinya SosMed adalah sebuah wadah dimana semua member/pengguna/partisipan bisa membangun relasi dan koneksi dengan member lain, tempat dimana kita bisa selalu terhubung dengan teman2x, menjalin hubungan baru, berbagi interest dan ide. Namun, banyak orang selain teman-teman dan kenalan tertarik pada informasi yang kita kirimkan ke sosial media, contoh sederhana yg mungkin kita sering dengar seperti pencurian identitas, penipuan kartu kredit, _stalkers,_ atau mungkin data pribadi kita dipergunakan untuk keperluan advertising sebuah brand2x ternama. Perlu diketahui juga bahwa sosial media menyimpan informasi jauh di _server_ mereka, bukan di komputer pribadi pengguna.
@@ -24,7 +22,7 @@ Banyak dari pengguna sosial media tidak memberikan indentitas asli mereka, ini d
 
 Membaca sebuah **Privacy Policy** dari sebuah sosial media juga kadang suka dianggap remeh oleh para penggunanya, mungkin karena privacy policy itu isinya terlalu panjang dan membosankan. Sebenernya ada trik cara membaca cepat policy, yaitu dimulai dari bagian paling bawah, krn disitulah biasanya bagian penting berada. Isi dari policy yg perlu kita tahu adalah seperti bagaimana cara meng-cancel/deactivate akun pengguna, data pribadi yg kita berikan akan dipakai untuk apa? milik siapa? , bagaimana cara complain/report, jika pengguna meninggal apa yg terjadi dengan datanya, dll.
 
-Penipuan pun tidak hanya terjadi pada dunia offline saja, penipuan/_fraud_ juga __ sangat sering terjadi di jaringan sosial, bisa disimak pada contoh berikut ini.
+Penipuan pun tidak hanya terjadi pada dunia offline saja, penipuan/_fraud_ juga sangat sering terjadi di jaringan sosial, bisa disimak pada contoh berikut ini.
 
 - **Pencurian Identitas** Data yg di incar oleh si pencuri biasanya adalah password, akun bank, nomor kartu kredit, kontak pengguna, akses ke komputer pengguna, dll. Beberapa caranya adalah melalui Aplikasi 3rd Party, yaitu aplikasi bisa mobile/webapp yg melakukan koneksi ke akun sosial media pengguna. Aplikasi 3rd party ini dibuat dengan tujuan yg tidak baik, aplikasi ini bisa mengambil data pengguna seenaknya dan menjual tanpa sepengetahuan pengguna, atau mungkin bisa menanam virus/malware ke komputer/henpon pengguna. ****
 - **Virus/Malware**  
@@ -34,8 +32,8 @@ Penipuan pun tidak hanya terjadi pada dunia offline saja, penipuan/_fraud_ juga 
   - Aplikasi 3rd party yg berisi malware.
   - Email spam yg asalnya dari social media pengguna sendiri.
 - **Rekayasa/Pemalsuan Sosial Media**  
- Cara2x ini sebenernya adalah cara yang paling sering dilakukan dan cara yg paling ampuh menipu para pengguna. 
-  - **_Phishing_**, pengguna mendapat email, pesan, atau chat dari sumber terpercaya lalu pengguna berakhir pada sebuah [_**Fake Login Page**_](http://en.wikipedia.org/wiki/Phishing) mirip dengan sosial media pengguna terdaftar, lalu dengan sadarnya pengguna memberikan username dan password dari sosial media tersebut.
+  Cara2x ini sebenernya adalah cara yang paling sering dilakukan dan cara yg paling ampuh menipu para pengguna. 
+  - ___Phishing___, pengguna mendapat email, pesan, atau chat dari sumber terpercaya lalu pengguna berakhir pada sebuah [Fake Login Page](http://en.wikipedia.org/wiki/Phishing) mirip dengan sosial media pengguna terdaftar, lalu dengan sadarnya pengguna memberikan username dan password dari sosial media tersebut.
   - _**Spear Phishing**_, sama seperti diatas, hanya saja sumber pesan/chat berasal dari teman sendiri. Karena akun temannya mungkin sudah di hack.
   - _**Ajakan Sesat**_, cara ini sebenernya berasal dari sosial media itu sendiri (\*sosmed yg ga bener) ketika pengguna melakukan registrasi, pengguna secara sadar memberikan data kontak mereka, sehingga sosial media ini bisa seenaknya menghubungi teman2x pengguna dengan ajakan2x sesatnya.
   - _**Hijacked Account**_, sebuah akun di sosial media bisa sangat mudah di hack/bajak/diambil alih dengan penipuan identitas atau dg malware, tentunya ini karena kelalaian dari pengguna tersebut, yg akhirnya merujuk ke spear phishing diatas.

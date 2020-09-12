@@ -1,11 +1,10 @@
 ---
-categories:
-- Internet &amp; Tech
-date: 2011-12-11T18:39:24Z
-date_gmt: 2011-12-11 11:39:24 +0700
-tags: []
+date: 2011-12-11T11:39:24+07:00
+tags:
+- mobile-photography
 title: Berbagi Fotografi dengan Aplikasi Android Gratis
 url: /2011/12/11/berbagi-fotografi-dengan-aplikasi-android-gratis/
+image: /images/mobilephotography.jpg
 ---
 
 Memasuki dunia android ternyata memang tidak membosankan dari segi banyaknya aplikasi yang menunjang sistem androidnya sendiri serta banyaknya komunitas pengguna android di indonesia.
@@ -14,7 +13,7 @@ Dari sekian banyak hal, yang paling menarik perhatian saya adalah "Mobile Photog
 
 Disini saya akan memberikan sedikit review dari beberapa aplikasi Fotografi untuk android yg mungkin sedang happening dan juga terhitung dari banyaknya komunitas yang menggunakannya.
 
- ![Go Photo](http://l.yimg.com/g/images/goodies/white-large-chiclet.png)  
+ ![flickr](https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Flickr.svg/200px-Flickr.svg.png)  
 **[Flickr](https://play.google.com/store/apps/details?id=com.yahoo.mobile.client.android.flickr)** - **Kamera Built-In**  
  Antarmuka Built-In kamera yang sederhana dengan fitur Pengaturan Flashlight, dan option untuk upload foto dari galeri
 - **Foto Editing**  

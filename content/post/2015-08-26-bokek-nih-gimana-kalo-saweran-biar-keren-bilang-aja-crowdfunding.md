@@ -1,52 +1,73 @@
 ---
-categories:
-- Internet &amp; Tech
-date: 2015-08-26T15:56:02Z
-date_gmt: 2015-08-26 08:56:02 +0700
-tags: []
+date: 2015-08-26T08:56:02+07:00
+tags: ["crowdfunding"]
 title: Bokek nih! Gimana kalo saweran, biar keren bilang aja Crowdfunding
 url: /2015/08/26/bokek-nih-gimana-kalo-saweran-biar-keren-bilang-aja-crowdfunding/
 image: /images/minioncrowdfund.jpg
 ---
 
-Bicara soal saweran atau biasa kita bilang patungan atau sekarang ada istilah yang lebih kerennya yaitu Crowdfunding.
-
 Patungan/Saweran sebenarnya adalah suatu kegiatan yang sudah ada sejak zaman nenek moyang kita dahulu kala, ini biasa dilakukan pada banyak kegiatan-kegiatan di masyarakat dan tentunya hasilnya pun untuk kepentingan masyarakat itu sendiri pula.
 
-Yang ingin kita bahas disini adalah sebuah fenomena baru yang mungkin kalian sudah pada tahu dengan istilah _Crowdfunding._
+___Crowdfunding___ adalah sebuah upaya kolektif dari orang-orang yang berada dalam suatu jaringan sosial untuk mengumpulkan dana bersama dan tidak lain adalah untuk diinvestasikan dan mendukung upaya yang diprakarsai oleh seseorang atau organisasi lain.
 
- __ Sebenarnya crowdfunding ini adalah sebuah ekstensi atau modifikasi dari patungan/saweran, yang membedakan adalah dulu patungan dipakai untuk kegiatan amal atau sosial dan tujuannya adalah untuk _society_ juga.
+__Star Citizen__ yang bertajuk _online-gaming_, pada 20 Oktober 2013 telah meraup dana sekitar __US$23 juta__, mengalahkan rekor yang sebelumnya dibuat oleh __Pebble Watch__ yakni __US$10 juta__. 
 
-Nah! kalo crowdfunding, penyandang dana atau konsumen memberikan dananya kepada seorang/badan inisiator dengan tujuan untuk investasi dan mengharapkan balikan insentif, uang, barang atau status sosial dengan begitu konsumen akan memberikan dukungan finansial agar ide inisiatif yang telah diusulkan itu bisa terwujud.
+Pada tahun 2014 Star Citizen masuk kedalam Guinness World Record sebagai _"largest single amount ever raised via crowdsourcing"_ dana terkumpul sekitar __US$39 juta__ dan berhasil mencapai __US$87 juta__ pada bulan Agustus 2015.
 
-Jadi Crowdfunding itu adalah sebuah upaya kolektif dari orang-orang yang berada dalam suatu jaringan sosial untuk mengumpulkan dana/uang bersama dan tidak lain adalah untuk diinvestasikan dan mendukung upaya yang diprakarsai oleh seseorang atau organisasi lain.
+> **its not what you do, but why you do it**
 
-Crowdfunding secara definisi bisa diartikan, "Praktek pendanaan suatu usaha dengan meningkatkan masukan dana/uang yang sedikit dari sejumlah besar orang, biasanya melalui internet."
+Sebelumnya berbicara lebih lanjut sebaiknya saya perkenalkan beberapa elemen penting dalam _crowdfunding_
 
-Contoh Crowdfunding yang paling sukses saat ini adalah sebuah online gaming MMO Star Citizen yang pada 20 Oktober 2013 mengaku telah mengangkat $ 23.268.214, mengalahkan sebelumnya $ 10.266.844 rekor yang dibuat oleh Pebble Watch. Pada tahun 2014 Star Citizen masuk kedalam Guinness World Record sebagai "largest single amount ever raised via crowdsourcing" dana terkumpul sekitar US$39,680,576 dan berhasil mencapai US$87 juta pada bulan Agustus 2015.
+___Project___ adalah Sebuah ide tentang apapun itu dengan tujuan jelas yang ingin direalisasikan.
 
-Ketika kita dihadapkan kepada sebuah platform Crowfunding (Kickstarter, Indiegogo, etc.) Ada beberapa hal yang harus dipertanyakan maupun kita sebagai inisiator atau sebagai investor,
+___Funding Goal___  adalah jumlah uang yang dibutuhkan kreator untuk mewujudkan proyeknya.
 
-1. Apa yang akan mendorong keterlibatan konsumen sebagai investor.
-2. Fungsi atau Servis seperti apa yang diberikan platform tersebut.
-3. Peran apakah yang akan konsumen dapatkan ketika mereka berpartisipasi dalam Crowdfunding tersebut
+___Creator___ adalah seseorang atau kelompok yang mempunyai ide dibalik proyek dan berupaya mewujudkannya.
 
-Idenya dari _**“its not what you do, but why you do**_ **it,” akan menjadi pendorong atau kekuatan dibelakang sebuah inisiatif yang akan diwujudkan, seorang inisiator akan mampu membuat sebuah komunitas unik dan mencari individu-individu yang sependapat atau satu pikiran demi mewujudkan ide tersebut.**
+Jumlah uang yg akan diinvestasikan terbagi menjadi beberapa ___Pledge___. Dalam tiap _pledge_ terdapat nominal investasi yang berbeda-beda dengan jumlah reward yang berbeda-beda pula, _pledge_ ini seperti slot yang nantinya akan dipesan oleh para _backers_
 
-Dalam setiap campaign crowdfunding akan ditetapkan sejumlah Gol uang yang dibutuhkan dengan batasan hari misal dalam sebulan harus terkumpul sekitar $10xxxx agar ide ini bisa terwujud. Dan pada tiap harinya jumlah uang yang terkumpul harus bisa dilihat atau di follow up oleh para penyandang dana, untuk mengetahui keberhasilan campaign ini.
+___Backer___ adalah orang-orang yang mendukung dengan cara memesan slot dari _pledge_ yang telah disediakan oleh kreator agar proyeknya terwujud.
 
-Penyandang dana pertama mungkin bisa dari teman, keluarga, kolega kantor, atau siapapun itu yang masih berhubungan, ketika campaign ini sudah menghasilkan daya tarik yang cukup bagus, konsumen-konsumen luar pun akan berdatangan untunk berinvestasi.
+Tidak ada _backers_ yang akan dikenakan biaya untuk _pledge_ sebelum pendanaan berhasil atau dengan kata lain _Funding Goal_ telah tercapai, dengan begitu sang kreator harus selalu memiliki dana yang telah ditentukan sebelum membuat proyek. 
 
-Ada sebuah kesalahpahaman dimana ketika kita mengadakan campaign crowdfunding, setelah menekan tombol submit. Kita tinggal tunggu dan campaign akan membuat viral dengan sendirinya, sebenarnya itu adalah hal yang tidak disarankan. Karena sebuah campaign tidak akan membentuk viral dengan sedirinya, kita harus mengutilisasi semua chanel sosial media, email blast/newsletter, dan menghubungi media lokal untuk menunjukan keseriusan dari campaign tersebut.
+___Reward___ disini sebenarnya adalah produk hasil akhir dari proyek itu sendiri, yang nantinya akan dibagikan kepada para _backers_, produknya pun bisa bermacam-macam tergantung dari _pledge_ yang telah dipesan oleh para _backers_
 
-Ada 3 alasan dimana orang yang tadinya tidak terlibat dengan proyek jadi ingin mendukung proyek tersebut,
+Dalam setiap proyek _crowdfunding_ akan ditetapkan _funding goal_ yang harus terkumpul dalam kurun waktu tertentu misal dalam sebulan harus terkumpul sekitar $10xxxx agar ide/proyek ini bisa terwujud. Dan pada tiap harinya jumlah uang yang terkumpul harus bisa dipantau oleh para _backers_.
 
-1. Mereka suka dengan tujuan besar atas campaign tersebut.
-2. Mereka suka reward yang didapat dari campaign tersebut.
-3. Mereka suka dengan presentasi yang diberikan oleh campaign tersebut.
+Dalam mencari _backers_ juga tidak begitu sulit karena _backer_ pertama bisa jadi dari teman anda, keluarga, teman kantor, atau siapapun itu yang masih berhubungan dekat dengan anda. Begitu proyek sudah menghasilkan daya tarik yang cukup bagus, investor lainpun akan mulai berdatangan.
 
-Poin-poin diatas itu sangat penting agar campaign crowdfunding bisa sukses dan lancar. Setiap campaign harus berisi alasan kuat di balik ide, hadiah menarik dan unik, dan layar eye-catching. Presentasi video juga mempunyai peran besar untuk keberhasilan campaign tersebut.
+Setelah ide/proyek kita terdaftar dalam sebuah _platform crowdfunding_ biasanya kita hanya tinggal menunggu lalu akan viral dengan sendirinya, padahal sebenarnya tidak seperti itu, kita harus mendayagunakan semua kanal seperti sosial media, _email-marketing_, atau bahkan menghubungi media lokal untuk menunjukan keseriusan dari proyek tersebut.
 
-Banyak yang berpikiran bahwa crowdfunding ini hanya berguna untuk startups atau small businesss, sebenarnya itu tidak benar. Karena crowdfunding itu menciptakan sebuah funding opportunity untuk bisnis apapun yang didapat bukan dengan cara biasa dan ini bisa menjadi sebuat outlet baru dari bisnis yang sudah berkembang lama.
+3 hal yang menjadi daya tarik konsumen untuk terlibat dalam sebuah proyek _crowdfunding_,
 
-Misal sebuah perusahaan ternama tertarik dalam memperluas jangkauan produk mereka, investasi melalui crowdfunding bisa menjadi ide yang lebih baik, belum lagi kehebohan yang dihasilkan sebelum peluncuran. Crowdfunding telah membuktikan dirinya sebagai aset besar dalam menarik pelanggan potensial.
+1. Adanya tujuan besar dari proyek tersebut dan tentunya harus realistik.
+2. Reward atau insentif yang menarik.
+3. Presentasi yang menarik dan membuat ingin berpartisipasi dalam sebuah proyek.
+
+> **Purpose, Reward, and Presentations**
+
+Setiap ide/proyek harus mempunyai alasan kuat dibaliknya, karena itu dibutuhkan presentasi yang dapat menarik perhatian _backers_, entah menggunakan video, youtube, instagram, dll karena semua itu mempunyai poin penting dalam keberhasilan proyek.
+
+Banyak yang berpikiran bahwa _crowdfunding_ ini hanya berguna untuk _startup_ atau UKM, sebenarnya itu tidak benar. Karena _crowdfunding_ itu menciptakan sebuah kesempatan berinvestasi dalam bisnis apapun dengan cara yang tidak biasa dan ini bisa menjadi alternatif baru dari bisnis yang sudah ada cukup lama sebelumnya.
+
+Misalkan ada sebuah perusahaan besar ternama ya ingin memperluas jangkauan produk mereka dengan menciptakan produk yang baru, platform _crowdfunding_ adalah ide yang sangat bagus, karena perusahaan akan menarik pelanggan potensial, loyal dan secara tidak langsung setiap konsumen akan berlaku seperti _influencer_ dari produk tersebut.
+
+Beberapa keuntungan yang bisa didapat dari _crowdfunding_
+
+##### Efisien, gak pake ribet
+Ceritakan tentang produk kamu, buat video yang menarik, merchandise (reward), lalu sebarkan di sosial media.
+
+##### Membangun sosial network dan _trust_
+Konsumen akan tertarik berinvestasi karena telah terbukti banyak orang yang ikut berinvestasi juga.
+
+##### Kesempatan untuk _brainstorming_ dengan pelanggan
+Konsumen akan lebih dekat dengan kita dan selalu bisa memberikan ide-idenya, sehingga ini menjadi kesempatan untuk memperbaiki atau menyempurnakan produk yang sedang dalam pengembangan.
+
+##### Early adopters dan konsumen yang loyal
+Mendapatkan pelanggan yg dipastikan loyal karena mereka percaya dengan tujuan dari proyek tersebut.
+
+##### Meningkatkan pemasaran dan eksposur dalam media sosial
+Konsumen/investor secara tidak langsung akan menjadi _influencer_ dari bisnis itu sendiri.
+
+> “If you need to raise funds from donors, you need to study them, respect them, and build everything you do around them.” 
+> ~ Jeff Brooks

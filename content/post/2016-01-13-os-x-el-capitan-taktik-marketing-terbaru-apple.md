@@ -1,13 +1,10 @@
 ---
-categories:
-- Internet &amp; Tech
-date: 2016-01-13T01:15:44Z
-date_gmt: 2016-01-12 18:15:44 +0700
+title: OS X El Capitan, taktik marketing terbaru Apple
+date: 2016-01-13T01:15:44+07:00
 tags:
 - apple
 - elcapitan
 - osx
-title: OS X El Capitan, taktik marketing terbaru Apple
 url: /2016/01/13/os-x-el-capitan-taktik-marketing-terbaru-apple/
 image: /images/el-cap-v-windows-10_thumb800.jpg
 ---

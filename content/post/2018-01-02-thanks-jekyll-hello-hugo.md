@@ -1,15 +1,11 @@
-+++
-author = ""
-comments = true # set false to hide Disqus
-date = "2018-01-02T23:18:55+07:00"
-draft = false
-image = "/images/hugo-head.jpg"
-menu = ""       # set "main" to add this content to the main menu
-share = true    # set false to hide share buttons
-slug = "thanks-jekyll-hello-hugo"
-tags = ["jekyll","hugo","static-generator"]
-title = "Thanks Jekyll. Hello Hugo"
-+++
+---
+comments: true # set false to hide Disqus
+date: 2018-01-02T23:18:55+07:00
+image: /images/hugo-head.jpg
+share: true    # set false to hide share buttons
+tags: ["jekyll","hugo","static-site-generator"]
+title: Thanks Jekyll. Hello Hugo
+---
 
 I guess it's time to say goodbye to Jekyll and thank you. I just can't go further, I feel like Ruby is too much, struggling with all dependencies, build errors, etc.
 
