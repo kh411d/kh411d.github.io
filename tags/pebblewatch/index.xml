@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pebblewatch on Khalid&#39;s Blog</title>
+    <link>http://khal.web.id/tags/pebblewatch/</link>
+    <description>Recent content in pebblewatch on Khalid&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 05 Feb 2014 06:23:00 +0700</lastBuildDate>
+    
+	<atom:link href="http://khal.web.id/tags/pebblewatch/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Woh! Pebble AppStore BETA Android tarik gan!!</title>
+      <link>http://khal.web.id/2014/02/05/woh-pebble-appstore-beta-android-tarik-gan/</link>
+      <pubDate>Wed, 05 Feb 2014 06:23:00 +0700</pubDate>
+      
+      <guid>http://khal.web.id/2014/02/05/woh-pebble-appstore-beta-android-tarik-gan/</guid>
+      <description>Akhirnya di release juga Pebble AppStore untuk pengguna Android, buat yang mau download harus lewat developer portal pebble karena masih BETA released, jadi belum bisa di download lewat google play. Cara download dan instalasi sama seperti artikel gue sebelumnya klik disini , semua bisa Lo lakukan lewat browser henpon saja.
+Di postingan ini gue cuman mau ngasih tips n trick sebelum nyobain appstore beta yang satu ini, supaya prosedur instalasi lancar jaya.</description>
+    </item>
+    
+    <item>
+      <title>Cara update Firmware Pebble ke SDK 2 Beta version</title>
+      <link>http://khal.web.id/2013/12/16/cara-update-firmware-pebble-ke-sdk-2-beta-version/</link>
+      <pubDate>Mon, 16 Dec 2013 15:18:10 +0700</pubDate>
+      
+      <guid>http://khal.web.id/2013/12/16/cara-update-firmware-pebble-ke-sdk-2-beta-version/</guid>
+      <description>Update: Semua intruksi dibawah ini bisa dilakukan hanya dengan menggunakan browser henpon.
+Halo Pebble&amp;rsquo;ers (*ha ha namanya ga asik) belakangan ini Pebble mengeluarkan versi Firmware Beta untuk SDK2, update salah satunya adalah mengaktifkan kegunaan Accelerometer yg bisa mengukur movement dari pemakai dan Javascript Kit yg memudahkan developer untuk mengintegrasikan aplikasi pebble dengan web service semacam facebook, foursquare, yahoo weather, dll tanpa menggunakan 3rd party app seperti httpebble.
+Versi update terakhir pada saat artikel ini ditulis adalah Firmware 2.</description>
+    </item>
+    
+    <item>
+      <title>Apa, siapa, dimana, bagaimana, kenapa Pebble ?</title>
+      <link>http://khal.web.id/2013/11/11/apa-siapa-dimana-bagaimana-kenapa-pebble/</link>
+      <pubDate>Mon, 11 Nov 2013 10:37:11 +0700</pubDate>
+      
+      <guid>http://khal.web.id/2013/11/11/apa-siapa-dimana-bagaimana-kenapa-pebble/</guid>
+      <description>Hmm dari judulnya panjang ya&amp;hellip; sumpah males deh nerusin artikelnya, gw juga ga rajin2x amet nge-blog, tapi pengen aja sharing sama yg lain, banyak yg nanya soal gadget unik yg satu ini yg namanya &amp;lt;strong&amp;gt;Pebble&amp;lt;/strong&amp;gt;, mungkin banyak &amp;ldquo;anak bertanya pada bapaknya&amp;hellip; buat apa berlapar2x puasa &amp;hellip; tadarus tarawih apalah gunanya&amp;rdquo; (*Halaaaah, ngaco kan, knapa jadi Bimbo, sori ya, Bimbo ama Pebble ga da hubungannya sama skali, titik. *disclaimer )
+Huaaaaah &amp;hellip; lanjut deh, jadinya &amp;hellip; Apa sih Pebble itu?</description>
+    </item>
+    
+  </channel>
+</rss>

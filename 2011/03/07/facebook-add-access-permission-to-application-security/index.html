@@ -5,17 +5,12 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    
-    
-        <meta name="twitter:card" content="summary"/>
-    
-
-
-
+    <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Facebook add access permission to Application Security"/>
-<meta name="twitter:description" content=""/>
-<meta name="twitter:site" content="@khalidity"/>
-
+<meta name="twitter:description" content="Sometime when you made some apps, there were another user who wants to check about the insight of the app, or maybe just want to test the apps, back then you might have to give all access to a user through www.facebook.com/developer.
+These day facebook make a flexibility to define access permission per user,
+I&rsquo;m trying to explain in a simple way,
+   Access Technical Dashboard Manage users Insights Dashboard Adv Reset App Secret Delete App Sandbox Mode     Administrator o o o o o o o   Developer o x o x x o o   Tester x x x x x o x   Insights x x o x x x o    So if you see the table above, adding users to your apps, only works if you have a permission as an administrator, an insight user cannot view the apps when on sandbox mode, but the tester can and without any verification to test it."/>
 
 
   	<meta property="og:title" content="Facebook add access permission to Application Security &middot; Khalid&#39;s Blog" />
@@ -23,23 +18,26 @@
   	<meta property="og:url" content="http://khal.web.id/2011/03/07/facebook-add-access-permission-to-application-security/" />
 
     
-        
-            <meta property="og:image" content="/images/sidebar.jpg"/>
-        
+       <meta property="og:image" content="/images/facebookdev.jpg"/>
+       <meta name="twitter:image" content="/images/facebookdev.jpg"/>
     
 
     
     <meta property="og:description" content="" />
   	<meta property="og:type" content="article" />
-    <meta property="article:published_time" content="2011-03-07T15:45:37Z" />
+    <meta property="article:published_time" content="2011-03-07T08:45:37&#43;07:00" />
 
+    
+    <meta property="article:tag" content="facebook" />
+    
+    <meta property="article:tag" content="tutorial" />
     
     
 
     <title>Facebook add access permission to Application Security &middot; Khalid&#39;s Blog</title>
 
     
-    <meta name="description" content="Sometime when you made some apps, there were another user that only want to check about the insight of the apps, or maybe just want to test the apps, on the old" />
+    <meta name="description" content="Sometime when you made some apps, there were another user who wants to check about the insight of the app, or maybe just want to test the apps, back then you mi" />
     
 
     <meta name="HandheldFriendly" content="True" />
@@ -109,17 +107,24 @@
     },
     "headline": "Facebook add access permission to Application Security",
     "name": "Facebook add access permission to Application Security",
-    "wordCount":  190 ,
+    "wordCount":  169 ,
     "timeRequired": "PT1M",
     "inLanguage": {
       "@type": "Language",
       "alternateName": "en"
     },
     "url": "http://khal.web.id/2011/03/07/facebook-add-access-permission-to-application-security/",
-    "datePublished": "2011-03-07T15:45Z",
-    "dateModified": "2011-03-07T15:45Z",
+    "datePublished": "2011-03-07T08:45Z",
+    "dateModified": "2011-03-07T08:45Z",
     
+    "image": {
+        "@type": "ImageObject",
+        "url": "http://khal.web.id//images/facebookdev.jpg",
+        "width": 3000,
+        "height": 1445
+    },
     
+    "keywords": "facebook, tutorial",
     "description": "",
     "mainEntityOfPage": {
         "@type": "WebPage",
@@ -169,8 +174,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-<header class="main-header post-head no-cover">
-  <nav class="main-nav clearfix">
+  
+  <header class="main-header post-head" style="background-image: url(/images/facebookdev.jpg)">
+  
+  <nav class="main-nav overlay clearfix">
 
 
   
@@ -197,26 +204,80 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         <section class="post-meta">
         
-          <time class="post-date" datetime="2011-03-07T15:45:37Z">
+          <time class="post-date" datetime="2011-03-07T08:45:37&#43;07:00">
             Mar 7, 2011
           </time>
         
+         
+          <span class="post-tag small"><a href="http://khal.web.id//tags/facebook/">#facebook</a></span>
+         
+          <span class="post-tag small"><a href="http://khal.web.id//tags/tutorial/">#tutorial</a></span>
          
         </section>
     </header>
 
     <section class="post-content">
-      <p>Sometime when you made some apps, there were another user that only want to check about the insight of the apps, or maybe just want to test the apps, on the old days you might have to give all access to the apps from <a href="http://www.facebook.com/developer">www.facebook.com/developer</a>.</p>
-<p>These day , facebook make a flexibility to define access permission for user that want to check your apps, those<br>
-permissions are?</p>
+      <p>Sometime when you made some apps, there were another user who wants to check about the insight of the app, or maybe just want to test the apps, back then you might have to give all access to a user through <a href="http://www.facebook.com/developer">www.facebook.com/developer</a>.</p>
+<p>These day facebook make a flexibility to define access permission per user,</p>
 <p>I&rsquo;m trying to explain in a simple way,</p>
-<p>Access\Feature Technical Settings<br>
-(facebook.com/developer) Manage users Insights<br>
-(facebook.com/insights) Advertise Reset<br>
-App Secret Delete App Sandbox Mode Need Verification Administrator o o o o o o o o Developer o x o x x x o o Tester x x x x x x o x Insights x x o x x x x oSo if you see the table above, adding users to your apps, only works if you have a permission as an<br>
-administrator, an insight user cannot view the apps when on sandbox mode, but the tester can and without any<br>
-verification to test it.</p>
-<p>Ok thats it , hope it help, if I&rsquo;m doing wrong here please let me know will ya.</p>
+<table>
+<thead>
+<tr>
+<th>Access</th>
+<th>Technical Dashboard</th>
+<th>Manage users</th>
+<th>Insights Dashboard</th>
+<th>Adv</th>
+<th>Reset App Secret</th>
+<th>Delete App</th>
+<th>Sandbox Mode</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Administrator</td>
+<td>o</td>
+<td>o</td>
+<td>o</td>
+<td>o</td>
+<td>o</td>
+<td>o</td>
+<td>o</td>
+</tr>
+<tr>
+<td>Developer</td>
+<td>o</td>
+<td>x</td>
+<td>o</td>
+<td>x</td>
+<td>x</td>
+<td>o</td>
+<td>o</td>
+</tr>
+<tr>
+<td>Tester</td>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+<td>o</td>
+<td>x</td>
+</tr>
+<tr>
+<td>Insights</td>
+<td>x</td>
+<td>x</td>
+<td>o</td>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+<td>o</td>
+</tr>
+</tbody>
+</table>
+<p>So if you see the table above, adding users to your apps, only works if you have a permission as an  administrator, an insight user cannot view the apps when on sandbox mode, but the tester can and without any  verification to test it.</p>
+<p>Ok thats it , hope it help, if I&rsquo;m doing wrong here please let me know.</p>
 
     </section>
 
@@ -304,7 +365,7 @@ s.setAttribute('data-timestamp', +new Date());
 
   <aside class="read-next">
   
-      <a class="read-next-story" style="no-cover" href="/2011/03/15/getting-people-likes-and-comments-from-facebook-comment-post/">
+      <a class="read-next-story" style="background-image: url(/images/facebookdev.jpg)" href="/2011/03/15/getting-people-likes-and-comments-from-facebook-comment-post/">
           <section class="post">
               <h2>Getting People Likes and Comments from facebook comment post </h2>
               
@@ -312,7 +373,7 @@ s.setAttribute('data-timestamp', +new Date());
       </a>
   
   
-      <a class="read-next-story prev" style="no-cover" href="/2011/03/03/set-a-facebook-session-for-you-apps-from-access-token/">
+      <a class="read-next-story prev" style="background-image: url(/images/facebookdev.jpg)" href="/2011/03/03/set-a-facebook-session-for-you-apps-from-access-token/">
           <section class="post">
               <h2>Set a facebook session app from access token</h2>
           </section>

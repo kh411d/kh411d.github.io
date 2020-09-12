@@ -5,17 +5,11 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    
-    
-        <meta name="twitter:card" content="summary"/>
-    
-
-
-
+    <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Codeigniter HMVC and Your own Layout Library"/>
-<meta name="twitter:description" content=""/>
-<meta name="twitter:site" content="@khalidity"/>
-
+<meta name="twitter:description" content="I&rsquo;m trying to make a partial output from hmvc module,
+$this-&gt;obj =&amp; get_instance();  and then I&rsquo;m trying to load a view from some module,
+$this-&gt;obj-&gt;load-&gt;view($view,$data);  This will resulting errors, it turns out $this-&gt;obj is only loading the global view of CI i.e. ./application/views/ HMVC is not overriding the default view of CI, you might have to pass your controller object $this from your controller to your layout library,"/>
 
 
   	<meta property="og:title" content="Codeigniter HMVC and Your own Layout Library &middot; Khalid&#39;s Blog" />
@@ -25,21 +19,28 @@
     
         
             <meta property="og:image" content="/images/sidebar.jpg"/>
+            <meta name="twitter:image" content="/images/sidebar.jpg"/>
         
     
 
     
     <meta property="og:description" content="" />
   	<meta property="og:type" content="article" />
-    <meta property="article:published_time" content="2010-01-07T20:12:51Z" />
+    <meta property="article:published_time" content="2010-01-07T13:12:51&#43;07:00" />
 
+    
+    <meta property="article:tag" content="codeigniter" />
+    
+    <meta property="article:tag" content="php" />
     
     
 
     <title>Codeigniter HMVC and Your own Layout Library &middot; Khalid&#39;s Blog</title>
 
     
-    <meta name="description" content="I&amp;rsquo;m using HMVC to make my web apps more modular, if you don&amp;rsquo;t now what is HMVC you can check on Wiki, so then I&amp;rsquo;m trying to make a partial out" />
+    <meta name="description" content="I&amp;rsquo;m trying to make a partial output from hmvc module,
+$this-&amp;gt;obj =&amp;amp; get_instance();  and then I&amp;rsquo;m trying to load a view from some module,
+$th" />
     
 
     <meta name="HandheldFriendly" content="True" />
@@ -109,17 +110,17 @@
     },
     "headline": "Codeigniter HMVC and Your own Layout Library",
     "name": "Codeigniter HMVC and Your own Layout Library",
-    "wordCount":  207 ,
+    "wordCount":  120 ,
     "timeRequired": "PT1M",
     "inLanguage": {
       "@type": "Language",
       "alternateName": "en"
     },
     "url": "http://khal.web.id/2010/01/07/codeigniter-hmvc-and-your-own-layout-library/",
-    "datePublished": "2010-01-07T20:12Z",
-    "dateModified": "2010-01-07T20:12Z",
+    "datePublished": "2010-01-07T13:12Z",
+    "dateModified": "2010-01-07T13:12Z",
     
-    
+    "keywords": "codeigniter, php",
     "description": "",
     "mainEntityOfPage": {
         "@type": "WebPage",
@@ -197,46 +198,43 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         <section class="post-meta">
         
-          <time class="post-date" datetime="2010-01-07T20:12:51Z">
+          <time class="post-date" datetime="2010-01-07T13:12:51&#43;07:00">
             Jan 7, 2010
           </time>
         
+         
+          <span class="post-tag small"><a href="http://khal.web.id//tags/codeigniter/">#codeigniter</a></span>
+         
+          <span class="post-tag small"><a href="http://khal.web.id//tags/php/">#php</a></span>
          
         </section>
     </header>
 
     <section class="post-content">
-      <p>I&rsquo;m using HMVC to make my web apps more modular, if you don&rsquo;t now what is HMVC you can check on Wiki, so then I&rsquo;m trying to make a partial output from some module to the big layout template , and then I came into problems when I make a layout library as usual you have to generate an instance of CI like this,</p>
-<pre><code>&lt;pre lang=&quot;php&quot;&gt;$this-&gt;obj =&amp; get_instance();
+      <p>I&rsquo;m trying to make a partial output from hmvc module,</p>
+<pre><code>$this-&gt;obj =&amp; get_instance();
 </code></pre>
-<p>and then I&rsquo;m trying to load a vew from some module,</p>
-<pre><code>&lt;pre lang=&quot;php&quot;&gt;$this-&gt;obj-&gt;load-&gt;view($view,$data);
+<p>and then I&rsquo;m trying to load a view from some module,</p>
+<pre><code>$this-&gt;obj-&gt;load-&gt;view($view,$data);
 </code></pre>
-<p>It will become an error, because $view cannot be load up, why ????<br>
-After checking up inside $this-&gt;obj, it actually only load up the global view of CI (&lsquo;ex: ../application/views/ &hellip;')</p>
-<p>so I check the Modules.php on your libraries folder, HMVC is not overriding the default view of CI,<br>
-you might have to pass your controller object ( The $this object ) from your controller to your layout library</p>
-<p>as example :</p>
+<p>This will resulting errors, it turns out <code>$this-&gt;obj</code> is only loading the global view of CI i.e. <code>./application/views/</code> HMVC is not overriding the default view of CI, you might have to pass your controller object <code>$this</code> from your controller to your layout library,</p>
 <p>On your module controller :</p>
-<pre><code>&lt;pre lang=&quot;php&quot;&gt;class Post extends Controller {
-function Post()
-{
-parent::Controller();
-}
-function Read(){
-$this-&gt;layout-&gt;load('read.php',$this);
-}
+<pre><code>class Post extends Controller {
+    function Post(){
+        parent::Controller();
+    }
+    function Read(){
+        $this-&gt;layout-&gt;load('read.php', $this);
+    }
 }
 </code></pre>
 <p>On your Layout library :</p>
-<pre><code>&lt;pre lang=&quot;php&quot;&gt;function load($view,$controller){
+<pre><code>function load($view,$controller){
+    $partial = $controller-&gt;load-&gt;view($view,true);
 
-$partial = $controller-&gt;load-&gt;view($view,true);
-
-//parse to your big layout
-$data['content_module'] = $partial;
-$controller-&gt;load-&gt;view($path_to_layout,$data);
-
+    //parse to your big layout
+    $data['content_module'] = $partial;
+    $controller-&gt;load-&gt;view($path_to_layout,$data);
 }
 </code></pre>
 <p>Hope this will help for somebody who have some problem like myself</p>
@@ -327,9 +325,9 @@ s.setAttribute('data-timestamp', +new Date());
 
   <aside class="read-next">
   
-      <a class="read-next-story" style="no-cover" href="/2010/01/19/location-base-social-networkingapps/">
+      <a class="read-next-story" style="no-cover" href="/2010/07/12/things-you-should-know-when-you-start-php-ing/">
           <section class="post">
-              <h2>Location base social networking apps</h2>
+              <h2>Things you should know when you start PHP-ing</h2>
               
           </section>
       </a>

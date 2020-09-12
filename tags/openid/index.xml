@@ -6,19 +6,20 @@
     <description>Recent content in openid on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 May 2014 20:08:25 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 May 2014 13:08:25 +0700</lastBuildDate>
     
 	<atom:link href="http://khal.web.id/tags/openid/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Aplikasi 3rd Party (Facebook,Paypal,dll) Aman gituh?? Lo harus tahu!</title>
+      <title>Amankah login dengan akun sosial media pada aplikasi lain?</title>
       <link>http://khal.web.id/2014/05/28/aplikasi-3rd-party-facebookpaypaldll-aman-gituh-lo-harus-tahu/</link>
-      <pubDate>Wed, 28 May 2014 20:08:25 +0000</pubDate>
+      <pubDate>Wed, 28 May 2014 13:08:25 +0700</pubDate>
       
       <guid>http://khal.web.id/2014/05/28/aplikasi-3rd-party-facebookpaypaldll-aman-gituh-lo-harus-tahu/</guid>
-      <description>&amp;lt;img src=&amp;#34;/images/48a572c60b93255986ba073bf5b1d865-1.jpg&amp;#34; alt=&amp;#34;48a572c60b93255986ba073bf5b1d865 (1)&amp;#34;&amp;gt;Yang gue maksud Aplikasi 3rd party disini adalah sebuah aplikasi yang berjalan sebagai aplikasi tambahan dari beberapa aplikasi yang sudah popular, aplikasi ini bisa berupa website, client app, mobile web, mobile app, desktop app, microsite, dll. (*mengulang kata aplikasi&amp;hellip; halah)
-Sebagai contoh kalo lo termasuk pengguna Twitter, lo pasti tau aplikasi yang namanya seismic, hootsuite, atau uber Twitter, semua aplikasi tersebut adalah aplikasi 3rd party dari Twitter. Aplikasi ini adalah aplikasi yang dibuat oleh pihak ketiga diluar dari Twitter, aplikasi ini mendapatkan izin dari pihak Twitter untuk mengakses data2x user dan menggunakannya di dalam aplikasi.</description>
+      <description>Tentunya banyak dari kamu yang menggunakan aplikasi dengan opsi untuk login menggunakan beberapa akun sosial media yang kamu miliki seperti facebook, twitter, google, linkedin dll. Misal ketika kamu login menggunakan facebook, dalam prosesnya, biasanya pengguna akan dialihkan ke halaman login facebook agar kamu bisa memberikan izin otorisasi, akhirnya facebook akan memberikan access token yang kemudian mengalihkan kamu kembali kepada aplikasi tersebut.
+https://www.facebook.com/dialog/oauth?client_id=app-id&amp;amp;redirect_uri=http://app-site.com
+Proses pengalihan/redirecting inilah yang menjadi celah yang memungkinkan para attacker mendapatkan data login pengguna, jika kamu lihat url diatas, attacker mungkin saja merekonstruksi link menjadi,</description>
     </item>
     
   </channel>

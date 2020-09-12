@@ -6,37 +6,9 @@
     <description>Recent content in Categories on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Jan 2016 13:02:42 +0000</lastBuildDate>
     
 	<atom:link href="http://khal.web.id/categories/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Internet &amp;amp; Tech</title>
-      <link>http://khal.web.id/categories/Internet-amp-Tech/</link>
-      <pubDate>Mon, 25 Jan 2016 13:02:42 +0000</pubDate>
-      
-      <guid>http://khal.web.id/categories/Internet-amp-Tech/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hobbies, Event &amp;amp; Travelling</title>
-      <link>http://khal.web.id/categories/Hobbies-Event-amp-Travelling/</link>
-      <pubDate>Mon, 11 Jan 2016 13:59:10 +0000</pubDate>
-      
-      <guid>http://khal.web.id/categories/Hobbies-Event-amp-Travelling/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Random Thought</title>
-      <link>http://khal.web.id/categories/Random-Thought/</link>
-      <pubDate>Thu, 05 Jun 2014 14:25:20 +0000</pubDate>
-      
-      <guid>http://khal.web.id/categories/Random-Thought/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

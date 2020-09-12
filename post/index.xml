@@ -18,18 +18,18 @@
       
       <guid>http://khal.web.id/2020/09/08/The-Markdown-Rises/</guid>
       <description>It’s been a while, maybe a year since my last post, so I thought I have to at least write a post and hopefully going to be an easy read, so here I’m going to talk about the why, the what, and the how of the Markdown.
-What&amp;rsquo;s with the rises? The Markdown is trending when Static Site Generators (SSG) are getting popular and becoming the next big thing of the Internet, especially the search engine, Google and the other search engines start to penalize sites that load slowly, simply because users experience interacting with a web page becomes vital.</description>
+What&amp;rsquo;s with the rises? Markdown is trending when Static Site Generators (SSG) are getting popular and becoming the next big thing of the Internet.</description>
     </item>
     
     <item>
-      <title>20 Shades of Smartwatch</title>
+      <title>The Smartwatch that you need</title>
       <link>http://khal.web.id/2018/08/06/20-Shades-of-Smartwatch/</link>
       <pubDate>Mon, 06 Aug 2018 23:08:09 +0700</pubDate>
       
       <guid>http://khal.web.id/2018/08/06/20-Shades-of-Smartwatch/</guid>
-      <description>Had enough with all smartwatch vendor these days, and it&amp;rsquo;s time to give my feedback base on 3 years experience using the pebble watch.
-I&amp;rsquo;m going to share about what feature is really working or not, and if you are a smartwatch maker that just happens reading this blog I&amp;rsquo;m hoping this post will be a clue for your next flagship idea.
-It&amp;rsquo;s all more to smartwatch functionality, I don&amp;rsquo;t care whether it comes with a fancy strap, stainless/plastic body, or a screen made by a gorilla, as long as it is sturdy enough, it&amp;rsquo;s ok with me.</description>
+      <description>I had enough with all feature bloated smartwatch these days and I felt like to share my year&amp;rsquo;s experience using a smartwatch. Talking about features, what&amp;rsquo;s working and what&amp;rsquo;s not, and if it happens you&amp;rsquo;re in a smartwatch industry, I hope this is going to be your guide for the next product line.
+So these are the list of features from most important to the most useless.
+Longer battery life Believe me, who wants to charge their watch every day?</description>
     </item>
     
     <item>
@@ -38,8 +38,8 @@ It&amp;rsquo;s all more to smartwatch functionality, I don&amp;rsquo;t care whet
       <pubDate>Sun, 18 Feb 2018 13:38:36 +0700</pubDate>
       
       <guid>http://khal.web.id/2018/02/18/Meet-Docker-managers-for-human/</guid>
-      <description>After more than a year using docker, just realized that there are many GUI docker managers out there, this tool is really useful because you don&amp;rsquo;t need to remember all the command lines or googling every time you forget the command.
-So let me introduce Portainer IO. Basically, this tool will let you manage all the containers, images, logs, volume, network, consul, how you create the container, look at the image you&amp;rsquo;re creating from, and etc.</description>
+      <description>After years using docker, I realized that there are so many GUI docker managers out there, this tool is really handy, because you don&amp;rsquo;t need to remember all the command lines or to google every time you forget the command.
+So let me introduce Portainer IO. This tool will let you manage all the containers, images, logs, volume, network, consul, how you create the container, look at the image you&amp;rsquo;re creating from, etc.</description>
     </item>
     
     <item>
@@ -69,8 +69,9 @@ Let me introduce Hugo, I can&amp;rsquo;t say much about Hugo but that&amp;rsquo;
       <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
       
       <guid>http://khal.web.id/2016/09/01/apa-sih-iot/</guid>
-      <description>Berawal dari trend gaya hidup sekarang dan kebutuhan aktivitas sehari-hari, penggunaan internet sudah tidak seperti dulu yang dimana hanya digunakan untuk sekedar browsing, streaming lagu, atau download film. Sudah banyak orang yang mulai menyadari bahwa internet itu bisa menjadi jembatan untuk meningkatkan kualitas hidup seseorang secara overall.
-Terlihat sudah banyaknya beredar dijual device/alat yang terhubung dengan internet untuk mencatat kegiatan orang sehari-hari, entah orang itu sedang berolah-raga, tidur, atau sesederhana seperti berjalan kaki sambil tidur.</description>
+      <description>Banyak orang yang menyadari bahwa internet itu sudah bisa menjadi jembatan untuk meningkatkan kualitas hidup seseorang secara keseluruhan.
+Bisa dilihat dari banyaknya dijual device/alat wearable seperti jam tangan, gelang, kacamata, sepatu yang notabene fungsi utama sebenarnya adalah monitoring
+IoT atau Internet of Things adalah sebuah sistem dimana di dalamnya terdapat satu atau lebih mikro komputer yang saling berkaitan, dan terhubung dengan beberapa objek (manusia, binatang, tumbuhan). Sistem tersebut juga menyediakan sebuah object unique indentifiers serta mempunyai kemampuan untuk mengirimkan atau menerima data melalui internet tanpa adanya campur tangan human-to-human atau interaksi human-to-computer.</description>
     </item>
     
     <item>
@@ -79,7 +80,8 @@ Terlihat sudah banyaknya beredar dijual device/alat yang terhubung dengan intern
       <pubDate>Mon, 16 May 2016 00:00:00 +0000</pubDate>
       
       <guid>http://khal.web.id/2016/05/16/how-to-retro-gaming-with-retroarch/</guid>
-      <description>I&amp;rsquo;m accidentally found this awesome stuff over the internet when I was googling about the super Mario game, a website called Emuparadise point me directly to RetroArch website. At first thought maybe it&amp;rsquo;s just another kind of emulator that specific to just one console, a little bit curious so then I tried this emulator, surprisingly it can run on any platform such as Linux, Windows, Blackberry, OSX, RaspberryPi, Android, iOS and it can be installed on some gaming device such as Xbox, Playstation, GameCube, Wii, 3DS.</description>
+      <description>Lately, I&amp;rsquo;ve been amazed by Retroarch, this is not like any other emulators, it can be played on any platform i.e. Linux, Windows, Blackberry, OSX, RaspberryPi, Android, iOS and also Xbox, Playstation, GameCube, Wii, 3DS. The cross-platform emulator is awesome, isn&amp;rsquo;t it?
+That&amp;rsquo;s not all, RetroArch can emulate a lot of gaming console starting from Atari, SEGA, Nintendo, GameCube, NDS, PSX, MAME, or even a game watch. It&amp;rsquo;s kinda like a bucket with a lot of game consoles inside.</description>
     </item>
     
     <item>
@@ -95,7 +97,7 @@ According to W3Techs Survey, WordPress is used by 63.6% of all the websites whos
     <item>
       <title>Nge-mix Android di Macbook/PC</title>
       <link>http://khal.web.id/2016/01/25/nge-mix-android-di-macbookpc/</link>
-      <pubDate>Mon, 25 Jan 2016 13:02:42 +0000</pubDate>
+      <pubDate>Mon, 25 Jan 2016 13:02:42 +0700</pubDate>
       
       <guid>http://khal.web.id/2016/01/25/nge-mix-android-di-macbookpc/</guid>
       <description>Mungkin banyak yg sudah pada tahu kelebihan Android ini, tetapi kebanyakan orang terbiasa tahu bahwa android hanya running di henpon, tablet, IOT devices, atau mini PC dengan USB stick.
@@ -106,7 +108,7 @@ Berawal dari sebuah company bernama JIDE Technology yg diusung oleh 3 ex-Google 
     <item>
       <title>OS X El Capitan, taktik marketing terbaru Apple</title>
       <link>http://khal.web.id/2016/01/13/os-x-el-capitan-taktik-marketing-terbaru-apple/</link>
-      <pubDate>Wed, 13 Jan 2016 01:15:44 +0000</pubDate>
+      <pubDate>Wed, 13 Jan 2016 01:15:44 +0700</pubDate>
       
       <guid>http://khal.web.id/2016/01/13/os-x-el-capitan-taktik-marketing-terbaru-apple/</guid>
       <description>Setelah 4 tahun berlalu dari 2012 lalu sebagai pemakai produk Apple yakni Macbook Air mid 2011 OS X Lion dan sama sekali gak pernah upgrade OS (*baca Operating System) dikarenakan taktik Apple yg dari dulu memang lebih fokus ke jualan hardware dibanding efisiensi penggunaan hardware.
@@ -116,28 +118,28 @@ Maksud gw cuman Apple sendiri yang jualan hardware melalui OS upgrade, alias kal
     <item>
       <title>Kopi kental manis, Team Building dan Boardgaming</title>
       <link>http://khal.web.id/2016/01/11/kopi-kental-manis-team-building-dan-boardgaming/</link>
-      <pubDate>Mon, 11 Jan 2016 13:59:10 +0000</pubDate>
+      <pubDate>Mon, 11 Jan 2016 06:59:10 +0700</pubDate>
       
       <guid>http://khal.web.id/2016/01/11/kopi-kental-manis-team-building-dan-boardgaming/</guid>
-      <description>Hmm&amp;hellip; Boardgame, kalo mungkin dulu kita sering sebut ular tangga, halma, catur, monopoli, gaple, bola bekél atau yg gak kalah terkenalnya sebut aja congklak yg kalo di luar indo biasa disebut mancala. Tipikal jenis permainan dari boardgame biasanya lebih bersifat kompetitif dimana setiap pemain berusaha mendapatkan skor tertinggi atau menyelesaikan permainan lebih dulu, ataupun ada yg bersifat Co-op dimana setiap pemain diharuskan bekerja sama demi memenangkan sebuah permainan.
-Boardgame pun kini cukup berkembang dari sisi tema, grafis, mekanik, dan bahkan ada yg bisa dimainkan sampai 20 orang lebih.</description>
+      <description>Jika mungkin kita dahulu kenal dengan Ular Tangga, Halma, Catur, Monopoli, Domino, atau permainan tradisional lainnya seperti Congklak/Mancala. Kesamaan dari setiap permainan yang ada di Indonesia biasanya lebih bersifat kompetitif, semua pemainnya berusaha secepat-cepatnya untuk menyelesaikan permainan atau meraih akhir dengan skor tertinggi.
+Boardgame pada beberapa tahun ini memang cukup berkembang, banyak para pembuat boardgame menekankan nilai jual dari sisi tema, grafis, mekanik permainan, serta banyaknya pemain yg dapat berpartisipasi dalam sebuah permainan.</description>
     </item>
     
     <item>
-      <title>Star Wars versi cerpen, buat yang males ngikutin ....</title>
+      <title>Star Wars versi cerpen</title>
       <link>http://khal.web.id/2015/12/21/star-wars-versi-cerpen-buat-yang-males/</link>
-      <pubDate>Mon, 21 Dec 2015 12:25:19 +0000</pubDate>
+      <pubDate>Mon, 21 Dec 2015 05:25:19 +0700</pubDate>
       
       <guid>http://khal.web.id/2015/12/21/star-wars-versi-cerpen-buat-yang-males/</guid>
       <description>Berawal dari sebuah acara talkshow &amp;ldquo;The Late Show with Stephen Colbert&amp;rdquo; Stephen menuturkan bahwa sebenarnya tidak semua orang begitu antusias dengan peluncuran film Star Wars yang baru-baru ini heboh di media massa, contoh saja China, dari sekian banyak penduduk bahkan tidak begitu mengetahui tentang film Star Wars ini.
-Lalu Stephen mulai menuturkan plot-plot simpel untuk non penggemar Star Wars dimana menurut gw cukup kocak, jenius dan menghibur berikut penuturannya,
- Star Wars adalah kisah seorang anak lelaki petani yang membeli duarobot, yg satu bentuknya seperti tempat sampah, dan yg satu lagi di program untuk menjadi penakut setiap saat, entah kenapa.</description>
+Lalu Stephen mulai menuturkan plot pendek untuk menjelaskan alur star wars yang menurut gue cukup kocak, humoris, dan menghibur.
+StarWars Plot Star wars adalah kisah seorang anak petani sederhana 👱‍♂️ yang membeli dua robot, satu seperti tong sampah dan yang satu lagi diprogram untuk ketakutan sepanjang waktu, entah mengapa?</description>
     </item>
     
     <item>
-      <title>Cara maksa 3G/HSPA only di android kamu</title>
+      <title>Cara maksa 3G/HSPA di android kamu</title>
       <link>http://khal.web.id/2015/12/20/cara-maksa-3ghspa-only-di-android-kamu/</link>
-      <pubDate>Sun, 20 Dec 2015 11:18:37 +0000</pubDate>
+      <pubDate>Sun, 20 Dec 2015 04:18:37 +0700</pubDate>
       
       <guid>http://khal.web.id/2015/12/20/cara-maksa-3ghspa-only-di-android-kamu/</guid>
       <description>Pernah gak suatu ketika henpon kamu secara otomatis hanya menggunakan jaringan 2G padahal jaringan 3G nya available meskipun mungkin sinyal 3G nya hanya sekitar 5%. Hal ini juga yg menyebabkan pulsa kamu dimakan oleh provider telco dikarenakan paket data yg kamu beli hanya berguna untuk 3G saja.
@@ -147,19 +149,18 @@ Hmm&amp;hellip; kenapa begitu ya? Ini dikarenakan kebanyakan henpon android seka
     <item>
       <title>Bokek nih! Gimana kalo saweran, biar keren bilang aja Crowdfunding</title>
       <link>http://khal.web.id/2015/08/26/bokek-nih-gimana-kalo-saweran-biar-keren-bilang-aja-crowdfunding/</link>
-      <pubDate>Wed, 26 Aug 2015 15:56:02 +0000</pubDate>
+      <pubDate>Wed, 26 Aug 2015 08:56:02 +0700</pubDate>
       
       <guid>http://khal.web.id/2015/08/26/bokek-nih-gimana-kalo-saweran-biar-keren-bilang-aja-crowdfunding/</guid>
-      <description>Bicara soal saweran atau biasa kita bilang patungan atau sekarang ada istilah yang lebih kerennya yaitu Crowdfunding.
-Patungan/Saweran sebenarnya adalah suatu kegiatan yang sudah ada sejak zaman nenek moyang kita dahulu kala, ini biasa dilakukan pada banyak kegiatan-kegiatan di masyarakat dan tentunya hasilnya pun untuk kepentingan masyarakat itu sendiri pula.
-Yang ingin kita bahas disini adalah sebuah fenomena baru yang mungkin kalian sudah pada tahu dengan istilah Crowdfunding.
-__ Sebenarnya crowdfunding ini adalah sebuah ekstensi atau modifikasi dari patungan/saweran, yang membedakan adalah dulu patungan dipakai untuk kegiatan amal atau sosial dan tujuannya adalah untuk society juga.</description>
+      <description>Patungan/Saweran sebenarnya adalah suatu kegiatan yang sudah ada sejak zaman nenek moyang kita dahulu kala, ini biasa dilakukan pada banyak kegiatan-kegiatan di masyarakat dan tentunya hasilnya pun untuk kepentingan masyarakat itu sendiri pula.
+Crowdfunding adalah sebuah upaya kolektif dari orang-orang yang berada dalam suatu jaringan sosial untuk mengumpulkan dana bersama dan tidak lain adalah untuk diinvestasikan dan mendukung upaya yang diprakarsai oleh seseorang atau organisasi lain.
+Star Citizen yang bertajuk online-gaming, pada 20 Oktober 2013 telah meraup dana sekitar US$23 juta, mengalahkan rekor yang sebelumnya dibuat oleh Pebble Watch yakni US$10 juta.</description>
     </item>
     
     <item>
       <title>Android On-Body phone lock, pinter juga neh!</title>
       <link>http://khal.web.id/2015/05/02/android-on-body-phone-lock-pinter-juga-neh/</link>
-      <pubDate>Sat, 02 May 2015 15:50:00 +0000</pubDate>
+      <pubDate>Sat, 02 May 2015 08:50:00 +0700</pubDate>
       
       <guid>http://khal.web.id/2015/05/02/android-on-body-phone-lock-pinter-juga-neh/</guid>
       <description>Tentunya penting buat kita semua untuk menjaga privasi dan keamanan henpon pribadi entah dari kelalaian kita sendiri atau tangan-tangan usil lainnya.
@@ -170,139 +171,111 @@ Pernahkah kamu pada suatu waktu sedang menggunakan henpon, diselingi dengan meng
     <item>
       <title>PDKT sama uang dunia maya bernama BitCoin</title>
       <link>http://khal.web.id/2015/04/23/pdkt-sama-uang-dunia-maya-bernama-bitcoin/</link>
-      <pubDate>Thu, 23 Apr 2015 17:48:39 +0000</pubDate>
+      <pubDate>Thu, 23 Apr 2015 10:48:39 +0700</pubDate>
       
       <guid>http://khal.web.id/2015/04/23/pdkt-sama-uang-dunia-maya-bernama-bitcoin/</guid>
-      <description>&amp;lt;img src=&amp;#34;/images/pdkt-bitcoin.jpg&amp;#34; alt=&amp;#34;pdkt-bitcoin&amp;#34;&amp;gt;BUKAN MLM, bukan koin dinar, bukan juga koin emas dan bahkan nggak punya bentuk fisik yang bisa kamu sisipkan ke dompet atau simpan di bank, apalagi disimpan di bawah kasur. Tapi tentu saja yang namanya uang pastinya bisa kamu belanjain dimanapun kapanpun secara online.
+      <description>BUKAN MLM, bukan koin dinar, bukan juga koin emas dan bahkan nggak punya bentuk fisik yang bisa kamu sisipkan ke dompet atau simpan di bank, apalagi disimpan di bawah kasur. Tapi tentu saja yang namanya uang pastinya bisa kamu belanjain dimanapun kapanpun secara online.
 Ha ha amazing ya, udah nggak bisa dipegang tapi masih bisa di belanjain. Daripada penasaran bikin kesasar, mending kita pdkt aja sama yang namanya Bitcoin ini.</description>
     </item>
     
     <item>
       <title>TOMAHAWK cara males dengerin musik buat penggila musik</title>
       <link>http://khal.web.id/2015/04/20/tomahawk-cara-males-dengerin-musik-buat-penggila-musik/</link>
-      <pubDate>Mon, 20 Apr 2015 10:00:00 +0000</pubDate>
+      <pubDate>Mon, 20 Apr 2015 03:00:00 +0700</pubDate>
       
       <guid>http://khal.web.id/2015/04/20/tomahawk-cara-males-dengerin-musik-buat-penggila-musik/</guid>
-      <description>&amp;lt;img src=&amp;#34;/images/wpid-img_20150420_000915.jpg&amp;#34; alt=&amp;#34;image&amp;#34; title=&amp;#34;IMG_20150420_000915.jpg&amp;#34;&amp;gt; Mau dengerin musik ini itu, hmm.. itunes ada gak ya.. klo di spotify ada gak ya&amp;hellip; duh coba di grooveshark deh &amp;hellip; apa coba cari di deezer aja &amp;hellip; di soundcloud ada gak ya&amp;hellip; duh ga ada juga.. ujung-ujungnya donlot dari torrent atau ripping dari youtube deh.
+      <description>Mau dengerin musik ini itu, hmm.. itunes ada gak ya.. klo di spotify ada gak ya&amp;hellip; duh coba di grooveshark deh &amp;hellip; apa coba cari di deezer aja &amp;hellip; di soundcloud ada gak ya&amp;hellip; duh ga ada juga.. ujung-ujungnya donlot dari torrent atau ripping dari youtube deh.
 Ha ha pernah kaya gitu gak brosis, bingung nyari mp3 kemana-mana, hal seperti ini sudah bisa diatasi kalo kamu memakai aplikasi yang namanya Tomahawk.</description>
     </item>
     
     <item>
-      <title>Ulah nakal ISP praktik browser Frame Busting</title>
+      <title>Ulah nakal ISP praktik clickjacking</title>
       <link>http://khal.web.id/2015/04/19/ulah-nakal-isp-praktik-browser-frame-busting/</link>
-      <pubDate>Sun, 19 Apr 2015 15:42:06 +0000</pubDate>
+      <pubDate>Sun, 19 Apr 2015 08:42:06 +0700</pubDate>
       
       <guid>http://khal.web.id/2015/04/19/ulah-nakal-isp-praktik-browser-frame-busting/</guid>
-      <description>&amp;lt;img src=&amp;#34;/images/wpid-img_20150419_141835.jpg&amp;#34; alt=&amp;#34;image&amp;#34; title=&amp;#34;IMG_20150419_141835.jpg&amp;#34;&amp;gt; Beberapa ISP di indonesia tanpa konsumen sadari sebenarnya sangat sering melakukan praktik frame busting hampir di semua website yg konsumen kunjungi, alasan ISP melakukan hal ini tidak lain adalah penempatan iklan gratis dari ISP tersebut tanpa sepengetahuan si empunya website.
-Lalu, bagaimanakah cara kerja Frame Busting ini? Ketika konsumen mengunjungi sebuah website misal &amp;ldquo;Forbes.com&amp;rdquo;, ISP akan membungkus &amp;ldquo;Forbes.com&amp;rdquo; dalam sebuah iframe/frames lalu kemudian ditampilkan pada browser konsumen, bagian sisi diluar iframe biasanya akan menampilkan iklan gambar dari ISP tersebut.</description>
-    </item>
-    
-    <item>
-      <title>DnsCrypt sikat bersih Telco intrusive ads ( Telkomsel, XL-Axiata )</title>
-      <link>http://khal.web.id/2015/04/18/dnscrypt-sikat-bersih-telco-intrusive-ads-telkomsel-xl-axiata/</link>
-      <pubDate>Sat, 18 Apr 2015 23:30:00 +0000</pubDate>
-      
-      <guid>http://khal.web.id/2015/04/18/dnscrypt-sikat-bersih-telco-intrusive-ads-telkomsel-xl-axiata/</guid>
-      <description>Syebel, jengkel, kesal, bosan, gegara iklan pengganggu/ intrusive ads beberapa provider telco di Indonesia seperti Telkomsel dan XL Axiata, bahkan banyak dari beberapa orang/badan/lembaga yang membuat petisi akan hal ini tetapi tidak mendapatkan respon dari pemerintah.
-Iklan tersebut dapat dikategorikan intrusive ads karena iklan yang diberikan oleh provider telekom ini dilakukan tanpa izin atau kerjasama dengan pemilik situs/website dan bahkan isi konten dari iklan tersebut sama sekali tidak berhubungan dengan konten website yang dituju oleh konsumen.</description>
-    </item>
-    
-    <item>
-      <title>DIY Cyanogen nightly Auto Update</title>
-      <link>http://khal.web.id/2015/04/14/diy-cyanogen-nightly-auto-update/</link>
-      <pubDate>Tue, 14 Apr 2015 07:20:00 +0000</pubDate>
-      
-      <guid>http://khal.web.id/2015/04/14/diy-cyanogen-nightly-auto-update/</guid>
-      <description>&amp;lt;img src=&amp;#34;/images/wpid-wp-1428958109831.png&amp;#34; alt=&amp;#34;image&amp;#34; title=&amp;#34;wp-1428958109831&amp;#34;&amp;gt; Instead of waiting and whining when will your OnePlus One get an OTA update, you could just quickly fetch the latest nightly build from CyanogenMod.org download page, just be careful not to download ROM that&amp;rsquo;s not suitable with your phone or else it will bricked your phone, as an example if your phone is OnePlus One, Bacon is the only ROM that you need to download.</description>
+      <description>Beberapa ISP di indonesia tanpa konsumen sadari sebenarnya sangat sering melakukan praktik clickjacking hampir di semua website yg konsumen kunjungi, alasan ISP melakukan hal ini tidak lain adalah penempatan iklan gratis dari ISP tersebut tanpa sepengetahuan si empunya website.
+Lalu, bagaimanakah cara kerja clickjacking ini? Ketika user mengunjungi sebuah website misal &amp;ldquo;Forbes .com&amp;rdquo;, ISP akan membungkus &amp;ldquo;Forbes .com&amp;rdquo; dalam sebuah iframe yang lalu ditampilkan pada browser user, bagian luar iframe biasanya akan menampilkan baner iklan liar dari ISP tersebut.</description>
     </item>
     
     <item>
       <title>Bisnis &#34;Missed-call&#34; yang luar biasa dibalik Zero Marketing</title>
       <link>http://khal.web.id/2015/03/31/bisnis-missed-call-yang-luar-biasa-dibalik-zero-marketing/</link>
-      <pubDate>Tue, 31 Mar 2015 18:14:06 +0000</pubDate>
+      <pubDate>Tue, 31 Mar 2015 11:14:06 +0700</pubDate>
       
       <guid>http://khal.web.id/2015/03/31/bisnis-missed-call-yang-luar-biasa-dibalik-zero-marketing/</guid>
-      <description>&amp;lt;img src=&amp;#34;/images/One-Missed-Call-Review-Logo1.jpg&amp;#34; alt=&amp;#34;One-Missed-Call-Review-Logo1&amp;#34;&amp;gt; Missed-call sebenarnya adalah hal yang sangat sederhana dan sungguh membuat gue kagum sampai sekarang, karena hal seperti ini bisa dijadikan sebuah bisnis yang luar biasa dan sangat menguntungkan.
+      <description>Missed-call sebenarnya adalah hal yang sangat sederhana dan sungguh membuat gue kagum sampai sekarang, karena hal seperti ini bisa dijadikan sebuah bisnis yang luar biasa dan sangat menguntungkan.
 ZipDial namanya, adalah sebuah perusahaan berbasis di India yang memang fokus bergerak di bisnis &amp;ldquo;missed-call&amp;rdquo;. Secara tidak langsung bisa dibilang they are selling missed-call. Yang membuat gue lebih kagum lagi adalah karena founder perusahaan ini adalah seorang perempuan bernama Valerie Wagoner yang banyak malang melintang di ranah teknologi dari Stanford, Silicon Valley, NING, Google, dan ebay.</description>
     </item>
     
     <item>
       <title>Nah ini dia daftar gTLD kocak dan sedikit absurd</title>
       <link>http://khal.web.id/2015/03/26/nah-ini-dia-daftar-gtld-kocak-dan-sedikit-absurd/</link>
-      <pubDate>Thu, 26 Mar 2015 14:49:58 +0000</pubDate>
+      <pubDate>Thu, 26 Mar 2015 07:49:58 +0700</pubDate>
       
       <guid>http://khal.web.id/2015/03/26/nah-ini-dia-daftar-gtld-kocak-dan-sedikit-absurd/</guid>
-      <description>**&amp;lt;img src=&amp;#34;/images/namatld.jpg&amp;#34; alt=&amp;#34;namatld&amp;#34;&amp;gt; gTLD** adalah kepanjangan dari _&amp;ldquo;generic Top Level Domain&amp;rdquo;_ yang mungkin kamu semua sudah familiar dengan nama **.com**, **.net**, **.org**, **.web.id.** Tiga tahun belakangan ini banyak sekali gTLD baru yang telah disahkan oleh ICANN (_The Internet Corporation for Assigned Names and Numbers_).
+      <description>gTLD adalah kepanjangan dari &amp;ldquo;generic Top Level Domain&amp;rdquo; yang mungkin kamu semua sudah familiar dengan nama .com, .net, .org, .web.id. Tiga tahun belakangan ini banyak sekali gTLD baru yang telah disahkan oleh ICANN (The Internet Corporation for Assigned Names and Numbers).
 ICANN adalah sebuah lembaga yang bertanggung jawab atas pengesahan TLD seperti .com, .porn, .id, dll.
-Nah sekarang sedikit knowledge bagaimana cara ICANN mengesahkan TLD ternyata tidak mudah dan cukup kompleks dan mahal, ICANN melimitasi 500 pendaftar TLD pertama dan biaya sekitar $185.</description>
+Nah sekarang sedikit knowledge bagaimana cara ICANN mengesahkan TLD ternyata tidak mudah dan cukup kompleks dan mahal, ICANN melimitasi 500 pendaftar TLD pertama dan biaya sekitar US$185.</description>
     </item>
     
     <item>
-      <title>Belenggu sosial dari what to be called a &#34;Parasite Apps&#34;</title>
+      <title>Belenggu dari aplikasi parasit</title>
       <link>http://khal.web.id/2015/03/17/belenggu-sosial-dari-what-to-be-called-a-parasite-apps/</link>
-      <pubDate>Tue, 17 Mar 2015 13:12:12 +0000</pubDate>
+      <pubDate>Tue, 17 Mar 2015 06:12:12 +0700</pubDate>
       
       <guid>http://khal.web.id/2015/03/17/belenggu-sosial-dari-what-to-be-called-a-parasite-apps/</guid>
-      <description>&amp;lt;img src=&amp;#34;/images/parasiteapplogo.png&amp;#34; alt=&amp;#34;parasiteapplogo&amp;#34;&amp;gt; In terms of Parasite kalo kita googling, di search result paling atas Parasite adalah organisme yang hidup di dalam atau di organisme lain (Inang). Dan mendapat keuntungan sumber daya dari inang-nya serta mengeksploitasi inangnya tanpa timbal balik.
-Begitupun halnya dengan banyak aplikasi 3rd party yang tentunya banyak mengambil keuntungan dari beberapa raksasa sosial media seperti facebook dan twitter.
-How they done that, how they use it and what make they want to do that sudah bukan suatu hal yang rumit dan kompleks.</description>
+      <description>Parasit adalah organisme yang hidup menempel dengan organisme lain. Dan mendapat keuntungan sumber daya dari inang-nya serta mengeksploitasi inangnya tanpa timbal balik.
+Begitupun halnya dengan banyaknya aplikasi yang mengambil keuntungan serta sangat bergantung dengan beberapa raksasa sosial media seperti facebook, twitter, dan google (TheBigThree)
+Banyak dari tipe aplikasi semacam ini yang mengharuskan user menggunakan login facebook, twitter atau google agar dapat memakainya, beberapa contoh dari aplikasi ini seperti, TwitPic, Timehop, Pixable, Periscope, Meerkat.</description>
     </item>
     
     <item>
-      <title>Ground rules to do promotion/contest on Facebook Page Timeline</title>
-      <link>http://khal.web.id/2014/10/15/ground-rules-to-do-promotioncontest-on-facebook-page-timeline/</link>
-      <pubDate>Wed, 15 Oct 2014 12:10:17 +0000</pubDate>
-      
-      <guid>http://khal.web.id/2014/10/15/ground-rules-to-do-promotioncontest-on-facebook-page-timeline/</guid>
-      <description>&amp;lt;img src=&amp;#34;/images/Facebook-Terms.jpg&amp;#34; alt=&amp;#34;Facebook-Terms&amp;#34;&amp;gt;Facebook want to make it easier for businesses of all sizes to create and administer promotions on Facebook, as you can do for now when starting a promotion on facebook timelines based on Facebook Announcement is,
- Collect entries by having users post on the Page or comment/like a Page post Collect entries by having users message the Page Utilize likes as a voting mechanism  and what you can&amp;rsquo;t do,</description>
-    </item>
-    
-    <item>
-      <title>Ahh.. a Dreadful battery life, Is it a Smartwatch, a Cellphone or just another complicated gadget?</title>
+      <title>Dreadful battery life, Is it a Smartwatch, a Cellphone or just another complicated gadget?</title>
       <link>http://khal.web.id/2014/08/18/ahh-a-dreadful-battery-life-is-it-a-smartwatch-a-cellphone-or-just-another-complicated-gadget/</link>
-      <pubDate>Mon, 18 Aug 2014 13:39:28 +0000</pubDate>
+      <pubDate>Mon, 18 Aug 2014 06:39:28 +0700</pubDate>
       
       <guid>http://khal.web.id/2014/08/18/ahh-a-dreadful-battery-life-is-it-a-smartwatch-a-cellphone-or-just-another-complicated-gadget/</guid>
-      <description>&amp;lt;img src=&amp;#34;/images/smartwatch.jpg&amp;#34; alt=&amp;#34;smartwatch&amp;#34;&amp;gt;Big vendors of wearable hardware are keep pushing themself to put their grip in the race of smartwatch technology, they seem to compete with who can have a fancy and killer feature. Some feature such as call from watch, texting, voice recognition, listen to music, expensive glass, heart rate sensor, overkill notification, fancy screen color, builtin camera, builtin gps, and etc. But still, you need to pair the watch with your daily phone to get it work.</description>
+      <description>Big smartwatch vendors keep pushing themself in the race of features. Features that sometimes I don&amp;rsquo;t get it, why would it have to?
+And then, it keeps me thinking. What exactly they are trying to make? Is it a watch? cellphone? medkit? G-SHOCK? spycam?
+Most of all, when all of that features are packed into a smartwatch, I bet you&amp;rsquo;re going to bother yourself charging your watch every day or in a matter of hours</description>
     </item>
     
     <item>
       <title>How to get realtime Now Playing info from Ice Cast</title>
       <link>http://khal.web.id/2014/08/12/how-to-get-realtime-now-playing-info-from-ice-cast/</link>
-      <pubDate>Tue, 12 Aug 2014 12:04:45 +0000</pubDate>
+      <pubDate>Tue, 12 Aug 2014 05:04:45 +0700</pubDate>
       
       <guid>http://khal.web.id/2014/08/12/how-to-get-realtime-now-playing-info-from-ice-cast/</guid>
-      <description>&amp;lt;img src=&amp;#34;/images/icecastxspf.png&amp;#34; alt=&amp;#34;icecastxspf&amp;#34;&amp;gt;Getting a #NowPlaying info from your Ice Cast 2 server is pretty dead simple. You may get current track information just by fetching an XSPF url from Ice Cast 2 server, unlike M3U, XSPF is an XML data that you can fetch periodically by CURL command or a simple script like php, python, or everything else you like. You may want to check www.xspf.org to know more about it.</description>
+      <description>Getting a #NowPlaying info from your Ice Cast 2 server is pretty dead simple. You can get current track information from scrapping the XSPF url periodically by using CURL command. Here I&amp;rsquo;m going to explain how it works, I&amp;rsquo;m going to make a short javascript code to periodically update the current playing track and a simple php script to curl the xspf endpoint.
+ Locate your Ice Cast Server url, usually it will look like this http://xxx.</description>
     </item>
     
     <item>
       <title>Aplikasi mobile IFTTT bakal bikin Android lo makin canggih!</title>
       <link>http://khal.web.id/2014/07/11/aplikasi-mobile-ifttt-bakal-bikin-android-lo-makin-canggih/</link>
-      <pubDate>Fri, 11 Jul 2014 16:03:57 +0000</pubDate>
+      <pubDate>Fri, 11 Jul 2014 09:03:57 +0700</pubDate>
       
       <guid>http://khal.web.id/2014/07/11/aplikasi-mobile-ifttt-bakal-bikin-android-lo-makin-canggih/</guid>
       <description>IFTTT adalah sebuah alat yang akan memudahkan otomatisasi kegiatan lo sehari-hari dengan dunia internet. Cara pemakaian IFTTT pun cukup mudah, sama sekali gak perlu ngerti IT banget. Sumpah gak boong :-)
 IFTTT baru-baru ini mengenalkan aplikasi untuk smartphone Android, yang nantinya berguna untuk meng-otomatisasi fitur smartphone seperti, sms, call, location, photo, dan notification.
-Aplikasi bisa di download melalui Google Play Store
-&amp;lt;img src=&amp;#34;/images/ifttt_1.jpg&amp;#34; alt=&amp;#34;ifttt_1&amp;#34;&amp;gt;&amp;lt;img src=&amp;#34;/images/ifttt_2.jpg&amp;#34; alt=&amp;#34;ifttt_2&amp;#34;&amp;gt;
-Banyak banget resep IFTTT yang bisa lo bikin, dari yang paling berguna buat hidup lo sampai yang paling absurd sekalipun, he he :)</description>
+Banyak banget resep IFTTT yang bisa lo bikin, dari yang paling berguna buat hidup lo sampai yang paling absurd sekalipun</description>
     </item>
     
     <item>
       <title>Nanti gue &#34;Yo!&#34; aja ya...</title>
       <link>http://khal.web.id/2014/06/19/nanti-gue-yo-aja-ya/</link>
-      <pubDate>Thu, 19 Jun 2014 16:20:34 +0000</pubDate>
+      <pubDate>Thu, 19 Jun 2014 09:20:34 +0700</pubDate>
       
       <guid>http://khal.web.id/2014/06/19/nanti-gue-yo-aja-ya/</guid>
-      <description>&amp;lt;img src=&amp;#34;/images/Screen-Shot-2014-06-19-at-3.52.31-PM-300x283.png&amp;#34; alt=&amp;#34;Screen Shot 2014-06-19 at 3.52.31 PM&amp;#34;&amp;gt;Yo, yo , yoooooo! &amp;hellip;. Ha ha, satu lagi terobosan baru cara berkomunikasi dengan temen-temen lo, sebenernya sih ga baru-baru amet, kalo dulu jaman gw baru2x masuk kuliah taun 90-an pasti lo tau deh yang namanya &amp;ldquo;Miss Call&amp;rdquo; cuman buat ngasih tau kalo lo dah nyampe kelas, ato buat ngasih tau dah nyampe tempat janjian misalnya di mall, kafe, dll.
+      <description>Yo, yo , yoooooo! &amp;hellip;. Ha ha, satu lagi terobosan baru cara berkomunikasi dengan temen-temen lo, sebenernya sih ga baru-baru amet, kalo dulu jaman gw baru2x masuk kuliah taun 90-an pasti lo tau deh yang namanya &amp;ldquo;Miss Call&amp;rdquo; cuman buat ngasih tau kalo lo dah nyampe kelas, ato buat ngasih tau dah nyampe tempat janjian misalnya di mall, kafe, dll.
 Aplikasi Android/Iphone bernama Yo ini punya moto &amp;ldquo;Zero-character communication tool&amp;rdquo; ya cara kerjanya mirip-mirip sama miss call gitu deh, buat yang mau coba silakan kunjungi websitenya di http://www.</description>
     </item>
     
     <item>
       <title>Yay! Twitter featuring Piala Dunia 2014</title>
       <link>http://khal.web.id/2014/06/12/yay-twitter-featuring-piala-dunia-2014/</link>
-      <pubDate>Thu, 12 Jun 2014 15:53:39 +0000</pubDate>
+      <pubDate>Thu, 12 Jun 2014 08:53:39 +0700</pubDate>
       
       <guid>http://khal.web.id/2014/06/12/yay-twitter-featuring-piala-dunia-2014/</guid>
       <description>Sepertinya untuk Piala Dunia 2014 ini, Twitter benar-benar memberikan wadah pada para tweeps untuk turut menyemarakan suasana piala dunia di sisi online digital social media, bisa dilihat pada tampilan home terbaru dari Twitter.com versi website, di bagian sidebar sebelah kanan sudah tersedia jadwal pertandingan dan para pengguna twitter bisa memantau pertandingan lewat twitter hashtag yang sudah disediakan oleh twitter,
@@ -312,7 +285,7 @@ Setelah tombol &amp;ldquo;Choose your side&amp;rdquo; diklik, Tweeps akan dimint
     <item>
       <title>Sekilas tentang Swarm dan The New Foursquare app</title>
       <link>http://khal.web.id/2014/06/10/sekilas-tentang-swarm-dan-the-new-foursquare-app/</link>
-      <pubDate>Tue, 10 Jun 2014 20:29:10 +0000</pubDate>
+      <pubDate>Tue, 10 Jun 2014 13:29:10 +0700</pubDate>
       
       <guid>http://khal.web.id/2014/06/10/sekilas-tentang-swarm-dan-the-new-foursquare-app/</guid>
       <description>Belakangan ini Foursquare sedang sibuk2x nya membuat sebuah modifikasi baru pada sisi aplikasi dan user experience dengan tujuan untuk lebih menekankan, bahwa inti dari semua yang Foursquare lakukan selama ini adalah bukan untuk membuat sebuah famous check-in button yang mungkin tiap orang bisa bilang &amp;ldquo;Kalo mau check-in ya di Foursquare aja&amp;rdquo;
@@ -322,30 +295,30 @@ Dulunya Foursquare berhasil membuat trend baru dengan memperkenalkan fitur locat
     <item>
       <title>Uhuk.. facebook &#34;ask&#34; buat gombalin cewek jomblo, lumayan neh</title>
       <link>http://khal.web.id/2014/06/05/uhuk-facebook-ask-buat-gombalin-cewek-jomblo-lumayan-neh/</link>
-      <pubDate>Thu, 05 Jun 2014 14:25:20 +0000</pubDate>
+      <pubDate>Thu, 05 Jun 2014 07:25:20 +0700</pubDate>
       
       <guid>http://khal.web.id/2014/06/05/uhuk-facebook-ask-buat-gombalin-cewek-jomblo-lumayan-neh/</guid>
-      <description>Kalo misal lo liat facebook profile temen lo yang lagi ga punya status relationship lo bakal bisa ngelihat tombol &amp;ldquo;Ask&amp;rdquo; button, yang dimana lo bisa tanya apapun itu yang berhubungan dengan status relationship orang tersebut, button &amp;ldquo;Ask&amp;rdquo; ini hanya bisa dilihat oleh orang lain, pemilik facebook profile tidak akan bisa melihat button ini.
-&amp;lt;img src=&amp;#34;/images/fbflirt.jpg&amp;#34; alt=&amp;#34;fbflirt&amp;#34;&amp;gt;</description>
+      <description>Kalo misal lo liat facebook profile temen lo yang lagi ga punya status relationship lo bakal bisa ngelihat tombol &amp;ldquo;Ask&amp;rdquo; button, yang dimana lo bisa tanya apapun itu yang berhubungan dengan status relationship orang tersebut, button &amp;ldquo;Ask&amp;rdquo; ini hanya bisa dilihat oleh orang lain, pemilik facebook profile tidak akan bisa melihat button ini.</description>
     </item>
     
     <item>
-      <title>Aplikasi 3rd Party (Facebook,Paypal,dll) Aman gituh?? Lo harus tahu!</title>
+      <title>Amankah login dengan akun sosial media pada aplikasi lain?</title>
       <link>http://khal.web.id/2014/05/28/aplikasi-3rd-party-facebookpaypaldll-aman-gituh-lo-harus-tahu/</link>
-      <pubDate>Wed, 28 May 2014 20:08:25 +0000</pubDate>
+      <pubDate>Wed, 28 May 2014 13:08:25 +0700</pubDate>
       
       <guid>http://khal.web.id/2014/05/28/aplikasi-3rd-party-facebookpaypaldll-aman-gituh-lo-harus-tahu/</guid>
-      <description>&amp;lt;img src=&amp;#34;/images/48a572c60b93255986ba073bf5b1d865-1.jpg&amp;#34; alt=&amp;#34;48a572c60b93255986ba073bf5b1d865 (1)&amp;#34;&amp;gt;Yang gue maksud Aplikasi 3rd party disini adalah sebuah aplikasi yang berjalan sebagai aplikasi tambahan dari beberapa aplikasi yang sudah popular, aplikasi ini bisa berupa website, client app, mobile web, mobile app, desktop app, microsite, dll. (*mengulang kata aplikasi&amp;hellip; halah)
-Sebagai contoh kalo lo termasuk pengguna Twitter, lo pasti tau aplikasi yang namanya seismic, hootsuite, atau uber Twitter, semua aplikasi tersebut adalah aplikasi 3rd party dari Twitter. Aplikasi ini adalah aplikasi yang dibuat oleh pihak ketiga diluar dari Twitter, aplikasi ini mendapatkan izin dari pihak Twitter untuk mengakses data2x user dan menggunakannya di dalam aplikasi.</description>
+      <description>Tentunya banyak dari kamu yang menggunakan aplikasi dengan opsi untuk login menggunakan beberapa akun sosial media yang kamu miliki seperti facebook, twitter, google, linkedin dll. Misal ketika kamu login menggunakan facebook, dalam prosesnya, biasanya pengguna akan dialihkan ke halaman login facebook agar kamu bisa memberikan izin otorisasi, akhirnya facebook akan memberikan access token yang kemudian mengalihkan kamu kembali kepada aplikasi tersebut.
+https://www.facebook.com/dialog/oauth?client_id=app-id&amp;amp;redirect_uri=http://app-site.com
+Proses pengalihan/redirecting inilah yang menjadi celah yang memungkinkan para attacker mendapatkan data login pengguna, jika kamu lihat url diatas, attacker mungkin saja merekonstruksi link menjadi,</description>
     </item>
     
     <item>
       <title>Mau punya Restoran di Facebook? Cekidot Gan!</title>
       <link>http://khal.web.id/2014/05/26/mau-punya-restoran-di-facebook-cekidot-gan/</link>
-      <pubDate>Mon, 26 May 2014 12:02:01 +0000</pubDate>
+      <pubDate>Mon, 26 May 2014 05:02:01 +0700</pubDate>
       
       <guid>http://khal.web.id/2014/05/26/mau-punya-restoran-di-facebook-cekidot-gan/</guid>
-      <description>&amp;lt;img src=&amp;#34;/images/fbresto.jpg&amp;#34; alt=&amp;#34;fbresto&amp;#34;&amp;gt;Kabar gembira buat lo semua yang baru aja memulai bisnis resto/cafe/rumah makan/warteg atau yang sejenisnya.
+      <description>Kabar gembira buat lo semua yang baru aja memulai bisnis resto/cafe/rumah makan/warteg atau yang sejenisnya.
 Facebook baru2x aja merilis fitur baru dari Facebook Fan Pages dimana setiap user yang mempunyai facebook fan pages berkategorikan “Restaurant/Cafe” akan mempunyai opsi2x untuk menambahkan detil-detil tentang restoran yang dikelola oleh user tersebut.
 Opsi2x yang diberikan oleh facebook berupa,
  Menu Restoran bisa di upload melalui PDF atau kedepannya user bisa menggunakan akun di Constant Contact (*yg saat ini baru tersedia untuk user US/Canada) untuk menampilkan menu secara otomatis di facebook page user.</description>
@@ -354,37 +327,37 @@ Opsi2x yang diberikan oleh facebook berupa,
     <item>
       <title>Hmm.. PathWebsite... no related.. no official.. indeed suspicious</title>
       <link>http://khal.web.id/2014/05/07/pathwebsite-no-official-no-related-indeed-suspicious/</link>
-      <pubDate>Wed, 07 May 2014 02:15:44 +0000</pubDate>
+      <pubDate>Tue, 06 May 2014 19:15:44 +0700</pubDate>
       
       <guid>http://khal.web.id/2014/05/07/pathwebsite-no-official-no-related-indeed-suspicious/</guid>
       <description>Oh wow, it&amp;rsquo;s fake and suspicious&amp;hellip;
-Last Monday, roaming around at my office, some of my colleague showed me a website that really have a similar look with Path.com and also exact Path logo on the website, web layout is pretty neat too, some of my friend even says that PathWebsite is for exclusive path users only. I dunno how PathWebsite team could tricked people with such way.
-After you logged in to the website, surprisingly you will see your own path timeline&amp;hellip; hmm dunno how they did it, AFAIK as a developer who want to have their app connected to Path Api services, they should have had officially partnered with Path.</description>
+Last Monday, roaming around at my office, some of my colleagues showed me a website that has a similar look with Path.com and also exact Path logo on the website, web layout is pretty neat too, some of my friends even say that PathWebsite is for exclusive path users only. I dunno how the PathWebsite team could trick people in that way.
+After you logged in to the website, surprisingly you will see your path timeline&amp;hellip; hmm dunno how they did it, AFAIK as a developer who wants to have their app connected to Path Api services, they should have had officially partnered with Path.</description>
     </item>
     
     <item>
       <title>Ngobrol unik bareng FireChat</title>
       <link>http://khal.web.id/2014/04/17/ngobrol-unik-bareng-firechat/</link>
-      <pubDate>Thu, 17 Apr 2014 18:41:02 +0000</pubDate>
+      <pubDate>Thu, 17 Apr 2014 11:41:02 +0700</pubDate>
       
       <guid>http://khal.web.id/2014/04/17/ngobrol-unik-bareng-firechat/</guid>
-      <description>&amp;lt;img src=&amp;#34;/images/FireChat.jpg&amp;#34; alt=&amp;#34;FireChat&amp;#34;&amp;gt;Ada yang baru nih, namanya Firechat, aplikasi chatting yang satu ini cukup unik dan bisa dibilang bermanfaat atau bisa dimanfaatkan &amp;hellip; he he. Salah satu keunikannya adalah lo ga perlu registrasi sama sekali untuk menggunakan aplikasi ini&amp;hellip;. haaaaahh trus gimana cara kita mo chatting sama temen, ha ha itu dia uniknya, disini semua pengguna Firechat adalah anonymous/alias tak dikenal/alias bisa ganteng bisa cakep/alias bisa maling bisa dukun, jadi intinya semua pengguna firechat disini hanya dikategorikan oleh posisi/lokasi dari si pengguna itu sendiri.</description>
+      <description>Ada yang baru nih, namanya Firechat, aplikasi chatting yang satu ini cukup unik dan bisa dibilang bermanfaat atau bisa dimanfaatkan &amp;hellip; he he. Salah satu keunikannya adalah lo ga perlu registrasi sama sekali untuk menggunakan aplikasi ini&amp;hellip;. haaaaahh trus gimana cara kita mo chatting sama temen, ha ha itu dia uniknya, disini semua pengguna Firechat adalah anonymous/alias tak dikenal/alias bisa ganteng bisa cakep/alias bisa maling bisa dukun, jadi intinya semua pengguna firechat disini hanya dikategorikan oleh posisi/lokasi dari si pengguna itu sendiri.</description>
     </item>
     
     <item>
       <title>Internet geger gegara HeartBleed [BUG] </title>
       <link>http://khal.web.id/2014/04/11/internet-geger-gegara-heartbleed-bugs/</link>
-      <pubDate>Fri, 11 Apr 2014 15:51:42 +0000</pubDate>
+      <pubDate>Fri, 11 Apr 2014 08:51:42 +0700</pubDate>
       
       <guid>http://khal.web.id/2014/04/11/internet-geger-gegara-heartbleed-bugs/</guid>
-      <description>&amp;lt;img src=&amp;#34;/images/heartbleed.png&amp;#34; alt=&amp;#34;heartbleed&amp;#34;&amp;gt;2 atau 3 hari yang lalu sekitar 66% website di seluruh dunia sempat geger dengan adanya &amp;lt;em&amp;gt;bug&amp;lt;/em&amp;gt; pada OpenSSL (*yaitu sebuah software kriptografi yang banyak dipakai di sekian banyak aplikasi website dan berguna untuk melindungi data koneksi pengguna ketika sedang melakukan aktivitas internet)
-Ada beberapa pihak yang menyalahgunakan bug ini untuk mencuri data2x pengguna internet yang bisa berupa password, kartu kredit, email, dll. Beberapa situs besar seperti Yahoo-pun terkena dampaknya, sebuah perusahaan security men-demokan mencuri username dan password, dengan menggunakan Heartbleed script.</description>
+      <description>2 atau 3 hari yang lalu sekitar 66% website di seluruh dunia sempat geger dengan adanya bug pada OpenSSL (*yaitu sebuah software kriptografi yang banyak dipakai di sekian banyak aplikasi website dan berguna untuk melindungi data koneksi pengguna ketika sedang melakukan aktivitas internet)
+Ada beberapa pihak yang menyalahgunakan bug ini untuk mencuri data-data pengguna internet yang bisa berupa password, kartu kredit, email, dll. Beberapa situs besar seperti Yahoo-pun terkena dampaknya, sebuah perusahaan security men-demokan mencuri username dan password, dengan menggunakan Heartbleed script.</description>
     </item>
     
     <item>
       <title>Hati-hati domain &#34;.com.com&#34;</title>
       <link>http://khal.web.id/2014/04/01/hati-hati-domain-com-com/</link>
-      <pubDate>Tue, 01 Apr 2014 12:09:39 +0000</pubDate>
+      <pubDate>Tue, 01 Apr 2014 05:09:39 +0700</pubDate>
       
       <guid>http://khal.web.id/2014/04/01/hati-hati-domain-com-com/</guid>
       <description>Hati-hati sama domain yang namanya &amp;ldquo;*.com.com&amp;rdquo; gue gak tau kenapa, percaya gak percaya ini domain bisa exist, domain yg satu ini bisa sangat mirip sama domain &amp;ldquo;*.com&amp;rdquo;, ya secara TLD .com penggunaan terbesar sejagad internet.
@@ -394,7 +367,7 @@ Bahayanya adalah domain &amp;ldquo;*.com.com&amp;rdquo; adalah senjata typo pali
     <item>
       <title>[NOTE] Upgrade NodeJS lokal via NPM dan &#34;n&#34; module</title>
       <link>http://khal.web.id/2014/02/19/note-upgrade-nodejs-lokal-via-npm-dan-n-module/</link>
-      <pubDate>Wed, 19 Feb 2014 14:55:27 +0000</pubDate>
+      <pubDate>Wed, 19 Feb 2014 07:55:27 +0700</pubDate>
       
       <guid>http://khal.web.id/2014/02/19/note-upgrade-nodejs-lokal-via-npm-dan-n-module/</guid>
       <description>Sebelum NodeJS-nya di-upgrade, cek dulu versi yang ter-install,
@@ -409,7 +382,7 @@ $node -v v0.10.26 </description>
     <item>
       <title>Bicara &#34;Flow&#34; kreatifitas dalam segi internet, teknologi, dan keseharian </title>
       <link>http://khal.web.id/2014/02/17/bicara-flow-kreatifitas-dalam-segi-internet-teknologi-dan-keseharian/</link>
-      <pubDate>Mon, 17 Feb 2014 18:43:31 +0000</pubDate>
+      <pubDate>Mon, 17 Feb 2014 11:43:31 +0700</pubDate>
       
       <guid>http://khal.web.id/2014/02/17/bicara-flow-kreatifitas-dalam-segi-internet-teknologi-dan-keseharian/</guid>
       <description>Flow? Apaan tuh? Kalo di translate, flow itu secara harfiah bisa berarti aliran atau arus. Flow yang gue maksud disini adalah sebuah konsep, metodologi atau desain psikologis yang menggunakan kondisi mental dan kejiwaan dari seseorang, bagaimana dan mengapa seseorang bisa mencurahkan segala fokus dan konsentrasi dalam satu aktivitas dengan jangka waktu yang sangat lama tanpa merasa bosan dan bahkan menikmati serta membuat efek ketagihan.
@@ -419,7 +392,7 @@ Konsep ini dicetuskan oleh seorang professor dari Univ.</description>
     <item>
       <title>Woh! Pebble AppStore BETA Android tarik gan!!</title>
       <link>http://khal.web.id/2014/02/05/woh-pebble-appstore-beta-android-tarik-gan/</link>
-      <pubDate>Wed, 05 Feb 2014 13:23:00 +0000</pubDate>
+      <pubDate>Wed, 05 Feb 2014 06:23:00 +0700</pubDate>
       
       <guid>http://khal.web.id/2014/02/05/woh-pebble-appstore-beta-android-tarik-gan/</guid>
       <description>Akhirnya di release juga Pebble AppStore untuk pengguna Android, buat yang mau download harus lewat developer portal pebble karena masih BETA released, jadi belum bisa di download lewat google play. Cara download dan instalasi sama seperti artikel gue sebelumnya klik disini , semua bisa Lo lakukan lewat browser henpon saja.
@@ -429,25 +402,26 @@ Di postingan ini gue cuman mau ngasih tips n trick sebelum nyobain appstore beta
     <item>
       <title>Low RAM Android? No Worry at All</title>
       <link>http://khal.web.id/2014/01/23/low-ram-android-no-worry/</link>
-      <pubDate>Thu, 23 Jan 2014 13:40:58 +0000</pubDate>
+      <pubDate>Thu, 23 Jan 2014 06:40:58 +0700</pubDate>
       
       <guid>http://khal.web.id/2014/01/23/low-ram-android-no-worry/</guid>
-      <description>&amp;lt;img src=&amp;#34;/images/lowramandroid.jpg&amp;#34; alt=&amp;#34;lowramandroid&amp;#34;&amp;gt;Ever think to change my old android smartphone into a much better one, however the android market seems to change very fast, in every years you will see how many new android device being shipped with their new technology, hardware, and new operating system, which is IMHO I don&amp;rsquo;t think that the enhancement they made, is having a big difference in a way I use my phone. So I somehow manage to wait for another 3 or 5 years for replacing my devices.</description>
+      <description>Ever think to change my old android smartphone into a much better one, however, the android market seems to change very fast, in every year you will see how many new android devices being shipped with their new technology, hardware, and new operating system, which is IMHO I don&amp;rsquo;t think that the enhancement they made, is having a big difference in a way I use my phone. So I somehow manage to wait for another 3 or 5 years for replacing my devices.</description>
     </item>
     
     <item>
       <title>Hardening your password and yet still easy to remember it</title>
       <link>http://khal.web.id/2014/01/15/hardening-your-password-and-yet-still-easy-to-remember-it/</link>
-      <pubDate>Wed, 15 Jan 2014 19:16:53 +0000</pubDate>
+      <pubDate>Wed, 15 Jan 2014 12:16:53 +0700</pubDate>
       
       <guid>http://khal.web.id/2014/01/15/hardening-your-password-and-yet-still-easy-to-remember-it/</guid>
-      <description>Password&amp;hellip; What is password? It&amp;rsquo;s a secret thing that you, and only you, the one and only, who knows the secret that lies behind it. So why should you care about it? Passwords is a key for accessing your online properties on the internet. Many people like your friends, brothers, or maybe your colleague been using a password that actually very easy to guess, such as his dog name, mother name, his lastname, or maybe the very most favorite everyone password 12345.</description>
+      <description>A password is a key for accessing your online properties on the internet. Many people like your friends, brothers, or maybe your colleague been using an easy guess password, such as his dog name, mother name, his last name, or maybe the very most favorite everyone password 12345. The easier a password to remember, the easier for an attacker to guess.
+Please don&amp;rsquo;t use Just hackme password. There are so many ways how people could easily guess your password, as easy as looking behind your shoulder while you&amp;rsquo;re typing a password at the computer or maybe an ATM machine, according to Wikipedia this is called Shoulder Surfing</description>
     </item>
     
     <item>
       <title>Punya nama DOMAIN sendiri, penting gak sih?</title>
       <link>http://khal.web.id/2014/01/13/punya-nama-domain-sendiri-penting-gak-sih/</link>
-      <pubDate>Mon, 13 Jan 2014 16:33:33 +0000</pubDate>
+      <pubDate>Mon, 13 Jan 2014 09:33:33 +0700</pubDate>
       
       <guid>http://khal.web.id/2014/01/13/punya-nama-domain-sendiri-penting-gak-sih/</guid>
       <description>Domain &amp;hellip; apa tuh domain? istilah domain yang gue maksud disini adalah Domain Internet, atau secara tidak langsung baik sadar atau tidak, beberapa orang yang pekerjaannya lekat dengan Internet pasti tahu deh domain itu seperti apa, tapi mungkin banyak orang yang menyebutkannya dengan gamblang seperti URL, Website, atau Link.
@@ -457,36 +431,38 @@ Secara gamblang gw bisa bilang internet itu sebenarnya adalah sekumpulan alamat-
     <item>
       <title>Wordpress ke Path ke Wordpress kemana aja boleeeeh...</title>
       <link>http://khal.web.id/2014/01/10/wordpress-ke-path-ke-wordpress-kemana-aja-boleeeeh/</link>
-      <pubDate>Fri, 10 Jan 2014 15:51:34 +0000</pubDate>
+      <pubDate>Fri, 10 Jan 2014 08:51:34 +0700</pubDate>
       
       <guid>http://khal.web.id/2014/01/10/wordpress-ke-path-ke-wordpress-kemana-aja-boleeeeh/</guid>
-      <description>Buat kamu yang belum tahu apa itu Path, gw bisa nge-jelasin sedikit soal makhluk internet yg satu ini, Path adalah sebuah Jaringan Sosial di dunia maya(t) yang bersifat lebih private/tertutup biasanya pengguna internet banyak membandingkan dengan jaringan sosial seperti Facebook, bedanya adalah facebook lebih bersifat terbuka dengan pilihan akses privasi yg banyak banget (*Sumpah ga boong) sedangkan Path sebenernya digunakan hanya untuk lingkup pertemanan yang lebih sedikit atau sedikit tertutup, ato sedikit aja, atau ga bisa konek ke banyak temen, atau bukan buat nyari temen.</description>
+      <description>Bersamaan dengan terjalinnya kerjasama antara Path dengan SosMed lainnya, Wordpress mengumumkan di blog nya New for Publicize: Share Your Path Moments singkatnya Wordpress menjelaskan cara-cara bagaimana pengguna bisa sharing blog post-nya menjadi sebuah momen/post di Path.
+Kabar baik untuk pengguna WordPress karenna dengan menggunakan sebuah plugin official dari Wordpress yang namanya Jetpack , pengguna bisa menggunakan fitur Publicize yang memungkinkan user mengkoneksikan akun Wordpress.com pengguna dengan akun Path, jadi nantinya setiap blogpost yang di publish akan otomatis ter-sharing di akun Path pengguna.</description>
     </item>
     
     <item>
       <title>Olahraga Scientific, hanya 7 menit</title>
       <link>http://khal.web.id/2013/12/31/olahraga-7-menit/</link>
-      <pubDate>Tue, 31 Dec 2013 16:17:45 +0000</pubDate>
+      <pubDate>Tue, 31 Dec 2013 09:17:45 +0700</pubDate>
       
       <guid>http://khal.web.id/2013/12/31/olahraga-7-menit/</guid>
-      <description>[caption id=&amp;quot;attachment_851&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;592&amp;rdquo;]&amp;lt;img src=&amp;#34;/images/12well_physed-tmagArticle.jpg&amp;#34; alt=&amp;#34;12well_physed-tmagArticle&amp;#34;&amp;gt; Source: http://well.blogs.nytimes.com/2013/05/09/the-scientific-7-minute-workout[/caption]
-Hayo2x yg masih di kasur,
+      <description>Hayo2x yg masih di kasur,
  Cuman 7 menit. Olahraga hemat tempat. Cuman butuh kursi dan dinding ato sandaran hati (*sori curcol) Ulangin 2-3x, udah kayak lari 10km ciyus ga boong. Keringet pasti berserakan, setiap gerakan harus intens sebanyak2xnya pake timer. Klo dah slese, coba tarik nafas dalem2x, rasakan sensasi bau badan sendiri :)) Aplikasi timernya banyak kok, ada di android, iphone, windows, pebble watch, search aja dgn keyword-nya &amp;ldquo;7 minute workout&amp;rdquo;.</description>
     </item>
     
     <item>
       <title>Registrasi gratis aplikasi microblogging App.net</title>
       <link>http://khal.web.id/2013/12/23/registrasi-app-net/</link>
-      <pubDate>Mon, 23 Dec 2013 18:42:34 +0000</pubDate>
+      <pubDate>Mon, 23 Dec 2013 11:42:34 +0700</pubDate>
       
       <guid>http://khal.web.id/2013/12/23/registrasi-app-net/</guid>
-      <description>Mungkin dulu ada yg tau soal microblogging platform yg satu ini, namanya App.Net, tanpa sengaja dan gak tau juga kenapa tiba2x gw ngebuka url untuk registrasi di App.Net yg notabene, dulunya user yg mau pake platform ini harus bayar $35/year ato $5/month krn mereka punya moto a service that put user first, artinya ga ada ads sama sekali, ternyata kayaknya sih ya, ga da yg ikutan juga :)) Bulan desember ini mereka nge-launch paket gratis buat user baru tapi limitasinya menakjubkan juga (*liat gambar) abis register jg lupa add gw yak http://alpha.</description>
+      <description>Mungkin dulu ada yg tau soal microblogging platform yg satu ini, namanya App.Net, tanpa sengaja dan tak tahu mengapa tiba2x gue memebuka url untuk registrasi di App.Net yg notabene, dulunya user yg mau menggunakan platform ini harus nembayar $35/tahun atau $5/bulan.
+ a service that put user first
+ Artinya user tidak akan melihat Iklan/Ads sama sekali, ternyata kayaknya sih yang mendaftar terlalu sedikit, jadi pada akhirnya bulan desember ini mereka memberikan paket gratis buat user baru tapi limitasinya lumayan juga, cekidot aja di http://alpha.</description>
     </item>
     
     <item>
       <title>Cara update Firmware Pebble ke SDK 2 Beta version</title>
       <link>http://khal.web.id/2013/12/16/cara-update-firmware-pebble-ke-sdk-2-beta-version/</link>
-      <pubDate>Mon, 16 Dec 2013 22:18:10 +0000</pubDate>
+      <pubDate>Mon, 16 Dec 2013 15:18:10 +0700</pubDate>
       
       <guid>http://khal.web.id/2013/12/16/cara-update-firmware-pebble-ke-sdk-2-beta-version/</guid>
       <description>Update: Semua intruksi dibawah ini bisa dilakukan hanya dengan menggunakan browser henpon.
@@ -497,39 +473,26 @@ Versi update terakhir pada saat artikel ini ditulis adalah Firmware 2.</descript
     <item>
       <title>Nike WeRun Jakarta 2013 #BajakJkt finisher</title>
       <link>http://khal.web.id/2013/12/15/nike-werun-jakarta-2013-bajakjkt-finisher/</link>
-      <pubDate>Sun, 15 Dec 2013 10:17:29 +0000</pubDate>
+      <pubDate>Sun, 15 Dec 2013 03:17:29 +0700</pubDate>
       
       <guid>http://khal.web.id/2013/12/15/nike-werun-jakarta-2013-bajakjkt-finisher/</guid>
-      <description>&amp;lt;img src=&amp;#34;http://images.path.com.s3.amazonaws.com/photos2/356d2674-abf3-4bdc-bf87-a19409e8c5a1/original.jpg&amp;#34; alt=&amp;#34;&amp;#34;&amp;gt; Numpang narsis di papan nama, boleh dong&amp;hellip;
-Yay! 10000 finisher complete #bajakjkt #werun
-Lumayan jauh juga ternyata, kalo dari Nike plus gw, jarak yg tercatat sekitar 12 km,
-&amp;lt;img src=&amp;#34;/images/Screen-Shot-2013-12-16-at-3.06.43-PM.png&amp;#34; alt=&amp;#34;Screen Shot 2013-12-16 at 3.06.43 PM&amp;#34; title=&amp;#34;#BajakJKT run track&amp;#34;&amp;gt;
+      <description>Yay! 10000 finisher complete #bajakjkt #werun Lumayan jauh juga ternyata, kalo dari Nike plus gw, jarak yg tercatat sekitar 12 km,
 Race yg satu ini sebenernya udah termasuk murah, Rp.175ribu sudah beserta 2 T-Shirt original NikeRunning Dri Fit ( Race &amp;amp; Finisher Tees ) plus Nike sport water Bottle-nya, dan race tag yg di pakai adalah tipe DTAG produksi dari ChronoTrack sebuah antena RFID untuk mencatat lap time/Nett Time dari para runner.</description>
     </item>
     
     <item>
       <title>Bicara soal &#34;People talking about this&#34;-nya Facebook fan page</title>
       <link>http://khal.web.id/2013/12/12/bicara-soal-people-talking-about-this-nya-facebook-fan-page/</link>
-      <pubDate>Thu, 12 Dec 2013 16:50:44 +0000</pubDate>
+      <pubDate>Thu, 12 Dec 2013 09:50:44 +0700</pubDate>
       
       <guid>http://khal.web.id/2013/12/12/bicara-soal-people-talking-about-this-nya-facebook-fan-page/</guid>
-      <description>Wow topik lama nih, sumpah deh ga boong, kira-kira bulan Oktober tahun 2011 lalu, Facebook meluncurkan metrik baru buat Fan page insights yang namanya &amp;amp;ldquo;People talking about this&amp;amp;rdquo; ato biasa disingkat &amp;ldquo;PTAT&amp;rdquo; artinya berapa banyak orang yang ngomongin soal fan page lo (*Definisi gamblang). Banyak dari owner/admin dari fan page berpikiran bahwa ini merupakan salah satu ukuran seberapa besar user facebook engage dengan fan page-nya, tapi sebenernya PTAT itu tidak demikian, bahkan kalau gue bisa bilang, PTAT ga ada korelasi dengan engagement.</description>
-    </item>
-    
-    <item>
-      <title>North Sulawesi at Manado Port on the way to Bunaken Island</title>
-      <link>http://khal.web.id/2013/12/11/north-sulawesi-manado/</link>
-      <pubDate>Wed, 11 Dec 2013 19:42:10 +0000</pubDate>
-      
-      <guid>http://khal.web.id/2013/12/11/north-sulawesi-manado/</guid>
-      <description>This is me sharing my moment at North Sulawesi Menado harbour, from path to my blog khal.web.id
-View on Path</description>
+      <description>Wow topik lama nih, sumpah deh ga boong, kira-kira bulan Oktober tahun 2011 lalu, Facebook meluncurkan metrik baru buat Fan page insights yang namanya People talking about this ato biasa disingkat &amp;ldquo;PTAT&amp;rdquo; artinya berapa banyak orang yang ngomongin soal fan page lo. Banyak dari owner/admin dari fan page berpikiran bahwa ini merupakan salah satu ukuran seberapa besar user facebook engage dengan fan page-nya, tapi sebenernya PTAT itu tidak demikian, bahkan kalau gue bisa bilang, PTAT ga ada korelasi dengan engagement.</description>
     </item>
     
     <item>
       <title>Apa, siapa, dimana, bagaimana, kenapa Pebble ?</title>
       <link>http://khal.web.id/2013/11/11/apa-siapa-dimana-bagaimana-kenapa-pebble/</link>
-      <pubDate>Mon, 11 Nov 2013 17:37:11 +0000</pubDate>
+      <pubDate>Mon, 11 Nov 2013 10:37:11 +0700</pubDate>
       
       <guid>http://khal.web.id/2013/11/11/apa-siapa-dimana-bagaimana-kenapa-pebble/</guid>
       <description>Hmm dari judulnya panjang ya&amp;hellip; sumpah males deh nerusin artikelnya, gw juga ga rajin2x amet nge-blog, tapi pengen aja sharing sama yg lain, banyak yg nanya soal gadget unik yg satu ini yg namanya &amp;lt;strong&amp;gt;Pebble&amp;lt;/strong&amp;gt;, mungkin banyak &amp;ldquo;anak bertanya pada bapaknya&amp;hellip; buat apa berlapar2x puasa &amp;hellip; tadarus tarawih apalah gunanya&amp;rdquo; (*Halaaaah, ngaco kan, knapa jadi Bimbo, sori ya, Bimbo ama Pebble ga da hubungannya sama skali, titik. *disclaimer )
@@ -539,35 +502,39 @@ Huaaaaah &amp;hellip; lanjut deh, jadinya &amp;hellip; Apa sih Pebble itu?</desc
     <item>
       <title>Mari berbagi soal Privasi di Sosial Media Online</title>
       <link>http://khal.web.id/2013/11/07/mari-berbagi-soal-privasi-di-sosial-media-online/</link>
-      <pubDate>Thu, 07 Nov 2013 14:21:35 +0000</pubDate>
+      <pubDate>Thu, 07 Nov 2013 07:21:35 +0700</pubDate>
       
       <guid>http://khal.web.id/2013/11/07/mari-berbagi-soal-privasi-di-sosial-media-online/</guid>
       <description>Sebelum kita ngomongin soal privasi di sosial media online, tentunya kita harus tau dulu bentukan dari sosial media itu atau &amp;ldquo;Apa sih sosial media itu?&amp;rdquo;, sebenernya mudah saja untuk semua orang mendefinisikan artian dari sosial media (*baca: SosMed), tapi pada intinya SosMed adalah sebuah wadah dimana semua member/pengguna/partisipan bisa membangun relasi dan koneksi dengan member lain, tempat dimana kita bisa selalu terhubung dengan teman2x, menjalin hubungan baru, berbagi interest dan ide.</description>
     </item>
     
     <item>
-      <title>Ada media blogging terbaru namanya GHOST, ngintip yuk!</title>
+      <title>Ada media blogging terbaru namanya ghost, ngintip yuk!</title>
       <link>http://khal.web.id/2013/10/17/ada-media-blogging-terbaru-namanya-ghost/</link>
-      <pubDate>Thu, 17 Oct 2013 14:42:15 +0000</pubDate>
+      <pubDate>Thu, 17 Oct 2013 07:42:15 +0700</pubDate>
       
       <guid>http://khal.web.id/2013/10/17/ada-media-blogging-terbaru-namanya-ghost/</guid>
-      <description>Namanya GHOST mungkin beberapa dari lo, udah pada denger media blogging yang satu ini, GHOST ini pertama kali dicetuskan oleh John O&amp;rsquo;Nolan member dari Core Wordpress UI team, mungkin lebih dikenal lagi krn hasil karyanya bersama sebuah perusahaan penerbangan ternama Virgin Atlantic Airways membuat sebuah online community untuk travellers, cekidot aja vtravelled.com , sebuah study case yg menurut gw cukup menarik untuk disimak pada saat pembuatan website tersebut cekidot Virgin Atlantic Airways Blog Study Case</description>
+      <description>Mungkin beberapa dari lo, sudah mendengar soal media blogging yang satu ini, Ghost pertama kali dicetuskan oleh John O&amp;rsquo;Nolan anggota dari Core Wordpress UI team. Berawal dari sebuah thread pada Hacker News membicarakan bagaimana sih seharusnya media blogging platform itu.
+Karena banyak mendapat respon yang cukup tinggi, proyek ini dimulai dengan menggunakan sebuah crowdfunding platform Kickstarter di pertengahan tahun 2013 untuk mencari seberapa besarkah minat para blogger.
+Hasil akhir dari crowdfunding tersebut cukup memuaskan, ada sekitar kurang lebih 5000 backers dan terkumpul dana sekitar US$190K ternyata masih banyak user yang memang membutuhkan sebuah media blogging yang memang hanya dikhususkan untuk blogging.</description>
     </item>
     
     <item>
-      <title>Rahasia dibalik Otomatisasi (*baca: bukan bot) Tweet Gue</title>
+      <title>Cara nge-tweet otomatis</title>
       <link>http://khal.web.id/2012/09/05/rahasia-dibalik-otomatisasi-tweet-gue/</link>
-      <pubDate>Wed, 05 Sep 2012 16:51:54 +0000</pubDate>
+      <pubDate>Wed, 05 Sep 2012 09:51:54 +0700</pubDate>
       
       <guid>http://khal.web.id/2012/09/05/rahasia-dibalik-otomatisasi-tweet-gue/</guid>
-      <description>Oke deh beberapa bulan ini, tweet gw banyak datang dari auto tweet (*baca: bukan bot) berupa link/Url artikel - artikel yg pernah gw baca di dunia aneh (*baca: internet), ato mungkin ada beberapa celotehan ga penting yang tiba2x muncul di timeline beberapa orang, lalu mulailah banyak pertanyaan, lo pake bot ya, di hack ya, dll. Sebenernya karna akhir2x ini gw sering banyak baca Reader gw.
-Sebenernya cara yang bener buat sharing artikel - artikel di internet itu adalah dengan menekan button apapun itu yang biasanya ada di sidebar artikel yang lo baca, bertuliskan &amp;ldquo;share to &amp;hellip;.</description>
+      <description>Pada mulanya karena kebanyakan artikel yang gue baca berasal dari Google Reader,
+ Gue males banget
+ Kalo sharing lewat button share, soalnya ribet, begitu klik, login dulu facebook ato twitter, terus muncul popup, terus harus mencet lagi tombol send, belum lagi gue harus ngedit isi konten share-nya, terus aja terus.. Doh come on man! hari gini ribet 😫
+Nah, aplikasi pertama yang gue temukan adalah BufferApp, aplikasi ini dapat menampung semua tweet lo yang nantinya akan di publish otomatis berdasarkan jadwal publish yang sudah lo tentukan.</description>
     </item>
     
     <item>
       <title>Berbagi Fotografi dengan Aplikasi Android Gratis</title>
       <link>http://khal.web.id/2011/12/11/berbagi-fotografi-dengan-aplikasi-android-gratis/</link>
-      <pubDate>Sun, 11 Dec 2011 18:39:24 +0000</pubDate>
+      <pubDate>Sun, 11 Dec 2011 11:39:24 +0700</pubDate>
       
       <guid>http://khal.web.id/2011/12/11/berbagi-fotografi-dengan-aplikasi-android-gratis/</guid>
       <description>Memasuki dunia android ternyata memang tidak membosankan dari segi banyaknya aplikasi yang menunjang sistem androidnya sendiri serta banyaknya komunitas pengguna android di indonesia.
@@ -576,30 +543,22 @@ Disini saya akan memberikan sedikit review dari beberapa aplikasi Fotografi untu
     </item>
     
     <item>
-      <title>Twitter Age Gateway Workflow Design</title>
-      <link>http://khal.web.id/2011/09/13/twitter-age-gateway-workflow-design/</link>
-      <pubDate>Tue, 13 Sep 2011 14:40:34 +0000</pubDate>
-      
-      <guid>http://khal.web.id/2011/09/13/twitter-age-gateway-workflow-design/</guid>
-      <description>What I&amp;rsquo;m trying to do here is to explain as easy as possible how to make an age filtering for your twitter follower, as we know that twitter doesn&amp;rsquo;t support any kind of filtering base on twitter user profile for following your twitter account.
-This could be useful when you&amp;rsquo;re managing any adult or alcohol related twitter account that need legal attention to your follower for publishing related content.
-Actually this could be done easily (not so easily if you&amp;rsquo;re not a developer) by yourself, its required two process,</description>
-    </item>
-    
-    <item>
       <title>Using Facebook Test User</title>
       <link>http://khal.web.id/2011/07/27/using-facebook-test-user/</link>
-      <pubDate>Wed, 27 Jul 2011 15:59:35 +0000</pubDate>
+      <pubDate>Wed, 27 Jul 2011 08:59:35 +0700</pubDate>
       
       <guid>http://khal.web.id/2011/07/27/using-facebook-test-user/</guid>
       <description>If you don&amp;rsquo;t know what Facebook Test User is? you may check the documentation on http://developers.facebook.com/docs/test_users/
-Test User is a Tool that could be a handy when you need to have some users to interact with your application, facebook currently provide this through Graph Api and you can easily try out with your app application id and secret. And you actually not need the facebook php-sdk you can use your own CURL class lib, you can use my php class on github http://goo.</description>
+Test User is a tool that could be handy when you need to have some users to interact with your application, facebook currently provide this through Graph Api.
+I&amp;rsquo;ve made this simple php class consuming only facebook test account API, you may copy-paste from github
+Some example,
+$acc = new Facebook_TestAccount($appID,$Secret,$app_access_token); //Create N User $acc-&amp;gt;createMany($_REQUEST[&#39;n&#39;],$parameter) //Delete All User created by App $acc-&amp;gt;deleteAll() //Listing all user created by App Access Token $acc-&amp;gt;access()  </description>
     </item>
     
     <item>
       <title>Facebook PHP SDK v3.01 now free cookies</title>
       <link>http://khal.web.id/2011/07/06/facebook-php-sdk-v3-01-now-free-cookies/</link>
-      <pubDate>Wed, 06 Jul 2011 20:38:44 +0000</pubDate>
+      <pubDate>Wed, 06 Jul 2011 13:38:44 +0700</pubDate>
       
       <guid>http://khal.web.id/2011/07/06/facebook-php-sdk-v3-01-now-free-cookies/</guid>
       <description>Now the new SDK has been released, on the beginning of june 2011 I guess.
@@ -610,27 +569,28 @@ Feel free to update, as usual the code rely on github</description>
     <item>
       <title>Profil Facebook lo jadi lapak ? Migrasi deh ke fan page!</title>
       <link>http://khal.web.id/2011/06/24/profil-facebook-lo-jadi-lapak-migrasi-deh-ke-fan-page/</link>
-      <pubDate>Fri, 24 Jun 2011 17:00:12 +0000</pubDate>
+      <pubDate>Fri, 24 Jun 2011 10:00:12 +0700</pubDate>
       
       <guid>http://khal.web.id/2011/06/24/profil-facebook-lo-jadi-lapak-migrasi-deh-ke-fan-page/</guid>
-      <description>Hmm &amp;hellip; btw anyway busway, sebenernya nih artikel bukan untuk menunjukkan kekesalan gw sama apa yg udah kejadin di facebook, dimana &amp;hellip; teman, kerabat, cucu, ato cicit lo berada pada foto (baca: di-Tag) yang tidak semestinya.
-Ya IMHO emang ga papa ga mama sih namanya juga usaha, cuman ya kan ga semua orang pengen liat stream feed dari kegiatan tagging foto lo itu (baca: Spamming), yang terjadi jadinya adalah beberapa temen lo bakal meng-unfriend profil lo yang notabene ga sengaja (re: ngecek inbox&amp;gt; lid ini gw!</description>
+      <description>Belakangan ini banyak banget yang akun facebook pribadinya dijadiin lapak buat jualan, kadang jadi suka bikin bingung temennya sendiri, karena biasanya namanya jadi bukan namanya sendiri. Nah, sekarang Facebook punya solusi yaitu Facebook Fan Page, yang bisa dipakai buat lapak.
+Akun facebook pribadi itu punya keterbatasan, seperti jumlah maksimal pertemanan mungkin hanya sekitar 5000 orang per akun, berbeda dengan facebook fan page yang unlimited bisa sampe berjuta-juta orang ditambah lagi facebook fan page juga menyediakan insights/analytic yang cukup canggih.</description>
     </item>
     
     <item>
       <title>Mainan lama yang gw bikin, iseng2x jaman kuliah dulu haha</title>
       <link>http://khal.web.id/2011/05/26/mainan-lama-yang-gw-bikin-iseng2x-jaman-kuliah-dulu-haha/</link>
-      <pubDate>Thu, 26 May 2011 20:23:08 +0000</pubDate>
+      <pubDate>Thu, 26 May 2011 13:23:08 +0700</pubDate>
       
       <guid>http://khal.web.id/2011/05/26/mainan-lama-yang-gw-bikin-iseng2x-jaman-kuliah-dulu-haha/</guid>
-      <description>Ha ha setelah oprak oprek tadinya sih cari cd gw yang isinya software enkripsi yang gw buat tugas akhir dulu, eh malah nemu nih mainan yang dulu gw bikin sembari waktu luang, ini game lumayan addict seru, ya biar cuman tebak kata tapi ini game wannabe lah &amp;hellip; halah.
-Cuman sayangnya ini cuman jalan di windows doang, itu juga 98 hahaaha, tapi gw dah coba kok di XP jalan juga tuh.</description>
+      <description>Ha ha setelah oprak-oprek file, gue nemu ini minigame yang dulu gw bikin sembari waktu luang, ini game lumayan addict seru, ya biar cuman tebak kata tapi ini bisa dibilang #indiegame pertama gue 😉
+Cuman sayangnya ini cuman jalan di windows doang, itu juga 98 hahaaha, tapi gw dah coba kok di XP jalan juga tuh, maklum lah gw bikin dulu jaman kuliah, jamannya warnet dan windows 98 😆
+Percaya nggak percaya, game ini gue bikin menggunakan Borland Delphi, gokil kan 💥 soalnya dulu gw belum kenal sama yang namanya game engine, terakhir gue coba sih banyak typo di font karena gue udah susah nyari windows 98 😆</description>
     </item>
     
     <item>
       <title>Getting People Likes and Comments from facebook comment post </title>
       <link>http://khal.web.id/2011/03/15/getting-people-likes-and-comments-from-facebook-comment-post/</link>
-      <pubDate>Tue, 15 Mar 2011 14:19:33 +0000</pubDate>
+      <pubDate>Tue, 15 Mar 2011 07:19:33 +0700</pubDate>
       
       <guid>http://khal.web.id/2011/03/15/getting-people-likes-and-comments-from-facebook-comment-post/</guid>
       <description>A simple way to know people likes and comment on your post or other people post is through Comment Graph Api, you will need an access token to use it, this might be useful when you want to count the total of people who likesyour post.
@@ -640,204 +600,152 @@ Every post on your News Feed (Photos, Photo Album, Video, Status, notes) will ha
     <item>
       <title>Facebook add access permission to Application Security</title>
       <link>http://khal.web.id/2011/03/07/facebook-add-access-permission-to-application-security/</link>
-      <pubDate>Mon, 07 Mar 2011 15:45:37 +0000</pubDate>
+      <pubDate>Mon, 07 Mar 2011 08:45:37 +0700</pubDate>
       
       <guid>http://khal.web.id/2011/03/07/facebook-add-access-permission-to-application-security/</guid>
-      <description>Sometime when you made some apps, there were another user that only want to check about the insight of the apps, or maybe just want to test the apps, on the old days you might have to give all access to the apps from www.facebook.com/developer.
-These day , facebook make a flexibility to define access permission for user that want to check your apps, those
-permissions are?
-I&amp;rsquo;m trying to explain in a simple way,</description>
+      <description>Sometime when you made some apps, there were another user who wants to check about the insight of the app, or maybe just want to test the apps, back then you might have to give all access to a user through www.facebook.com/developer.
+These day facebook make a flexibility to define access permission per user,
+I&amp;rsquo;m trying to explain in a simple way,
+   Access Technical Dashboard Manage users Insights Dashboard Adv Reset App Secret Delete App Sandbox Mode     Administrator o o o o o o o   Developer o x o x x o o   Tester x x x x x o x   Insights x x o x x x o    So if you see the table above, adding users to your apps, only works if you have a permission as an administrator, an insight user cannot view the apps when on sandbox mode, but the tester can and without any verification to test it.</description>
     </item>
     
     <item>
       <title>Set a facebook session app from access token</title>
       <link>http://khal.web.id/2011/03/03/set-a-facebook-session-for-you-apps-from-access-token/</link>
-      <pubDate>Thu, 03 Mar 2011 15:52:36 +0000</pubDate>
+      <pubDate>Thu, 03 Mar 2011 08:52:36 +0700</pubDate>
       
       <guid>http://khal.web.id/2011/03/03/set-a-facebook-session-for-you-apps-from-access-token/</guid>
-      <description>In some situation you will want to create a facebook session for your apps, for example you have a CODE
-variable from facebook after user granting your application and then you fetch the access token like this way below,
-&amp;lt;pre lang=&amp;quot;php&amp;quot;&amp;gt;$accessToken = file_get_contents(&amp;quot;https://graph.facebook.com/oauth/access_token? client_id=YOUR_APP_ID&amp;amp;redirect_uri=YOUR_URL&amp;amp; client_secret=YOUR_APP_SECRET&amp;amp;code=THE_CODE_FROM_ABOVE&amp;quot;);  A session apps need these variables included (uid, access_token, and sig) I believe that you already had the latest facebook PHP-SDK, &amp;ldquo;sig&amp;rdquo; is a signature for your cookie base on your App Secret, your need to create session variables by manually and then set that variables with &amp;ldquo;setSession&amp;rdquo; method on PHP-SDK.</description>
+      <description>In some situation you will want to create a facebook session for your app, for example you get the code query string after user granted your app, now you can construct the url like below,
+https://graph.facebook.com/oauth/access_token?client_id=YOUR_APP_ID&amp;amp;redirect_uri=YOUR_URL&amp;amp;client_secret=YOUR_APP_SECRET&amp;amp;code=THE_CODE_FROM_ABOVE  And then you need to construct session variables base from the access token, these are functions that might help you,
+//Build your session variables function generateSessionVars($accessToken) { $e = explode(&#39;|&#39;,$accessToken); $s = explode(&#39;-&#39;,$e[1]); $params = array( &#39;uid&#39;=&amp;gt;trim($s[1]), &#39;access_token&#39; =&amp;gt; trim($accessToken) ); $params[&#39;sig&#39;] = generateSignature($params,APP_SECRET); return $params; } //Generate session signature base on you App Secret function generateSignature($params,$secret) { // work with sorted data ksort($params); // generate the base string $base_string = &#39;&#39;; foreach($params as $key =&amp;gt; $value) { $base_string .</description>
     </item>
     
     <item>
       <title>Replacement of fb visible-to-connection for iframe apps on facebook page tabs</title>
       <link>http://khal.web.id/2011/03/03/replacement-of-fb-visible-to-connection-for-iframe-apps-on-facebook-page-tabs/</link>
-      <pubDate>Thu, 03 Mar 2011 15:31:09 +0000</pubDate>
+      <pubDate>Thu, 03 Mar 2011 08:31:09 +0700</pubDate>
       
       <guid>http://khal.web.id/2011/03/03/replacement-of-fb-visible-to-connection-for-iframe-apps-on-facebook-page-tabs/</guid>
-      <description>Doing an IFRAME apps an somehow you want to use this tag below.
-&amp;lt;pre lang=&amp;quot;html&amp;quot;&amp;gt;&amp;lt;fb:visible-to-connection&amp;gt; Only connections should view this.. &amp;lt;/fb:visible-to-connection&amp;gt;  Don&amp;rsquo;t worry , on each call from page tab you can get a &amp;ldquo;signed_request&amp;rdquo; variable, when you extract it you will get
-this,
-&amp;lt;pre lang=&amp;quot;html&amp;quot;&amp;gt; Array ( [algorithm] =&amp;gt; HMAC-SHA256 [expires] =&amp;gt; 0 [issued_at] =&amp;gt; 1299140579 [oauth_token] =&amp;gt; xxxxxxxxx|xxxxxxxxxxxxxxxx-xxxxxxxx|xxxxxx-xxxxxxxxxxxxxx [page] =&amp;gt; Array ( [id] =&amp;gt; xxxxxxxxxxxxxxxx [liked] =&amp;gt; 1 [admin] =&amp;gt; 1 ) [user] =&amp;gt; Array ( [country] =&amp;gt; id [locale] =&amp;gt; en_US [age] =&amp;gt; Array ( [min] =&amp;gt; 21 ) ) [user_id] =&amp;gt; xxxxxxxxxxx )  And then you can use &amp;ldquo;liked&amp;rdquo; value to determine if the user has already like the page.</description>
+      <description>Developing an Iframe app an somehow you want to use this FBML tag below.
+&amp;lt;fb:visible-to-connection&amp;gt; Only connections should view this.. &amp;lt;/fb:visible-to-connection&amp;gt;  On each call from page tab you can get a signed_request variable, the value is like this below,
+Array ( [algorithm] =&amp;gt; HMAC-SHA256 [expires] =&amp;gt; 0 [issued_at] =&amp;gt; 1299140579 [oauth_token] =&amp;gt; xxxxxxxxx|xxxxxxxxxxxxxxxx-xxxxxxxx|xxxxxx-xxxxxxxxxxxxxx [page] =&amp;gt; Array ( [id] =&amp;gt; xxxxxxxxxxxxxxxx [liked] =&amp;gt; 1 [admin] =&amp;gt; 1 ) [user] =&amp;gt; Array ( [country] =&amp;gt; id [locale] =&amp;gt; en_US [age] =&amp;gt; Array ( [min] =&amp;gt; 21 ) ) [user_id] =&amp;gt; xxxxxxxxxxx )  And then you can use &amp;ldquo;page.</description>
     </item>
     
     <item>
       <title>Two ways to Login or Authenticate using Facebook JS SDK Dialog box</title>
       <link>http://khal.web.id/2011/03/03/two-ways-to-login-or-authenticate-using-facebook-js-sdk-dialog-box/</link>
-      <pubDate>Thu, 03 Mar 2011 15:09:05 +0000</pubDate>
+      <pubDate>Thu, 03 Mar 2011 08:09:05 +0700</pubDate>
       
       <guid>http://khal.web.id/2011/03/03/two-ways-to-login-or-authenticate-using-facebook-js-sdk-dialog-box/</guid>
-      <description>Two easy way to have your app users get authenticate with Facebook JS SDK,
-you may use FB.UI or FB.LOGIN, as example below,
+      <description>There is two easy way to authenticate a user with Facebook JS SDK,
 Using FB.UI,
-&amp;lt;pre lang=&amp;quot;javascript&amp;quot;&amp;gt;FB.ui( { method: &#39;oauth&#39;, display:&#39;iframe&#39;, perms:APP_EXT_PERMISSIONS }, function(response) { if(response.session) { console.dir(response); if(redirectURL) location.href = redirectURL; } } );  Using FB.DIALOG,
-&amp;lt;pre lang=&amp;quot;javascript&amp;quot;&amp;gt;FB.login(function(response) { if (response.session) { if (response.perms) { //Logged and Permission Granted if(redirectURL) location.href = redirectURL; } else { //Logged and Permisssion NOT Granted if(redirectURL) location.</description>
+FB.ui( { method: &#39;oauth&#39;, display:&#39;iframe&#39;, perms:APP_EXT_PERMISSIONS }, function(response) { if(response.session) { console.dir(response); if(redirectURL) location.href = redirectURL; } } );  Using FB.DIALOG,
+FB.login(function(response) { if (response.session) { if (response.perms) { //Logged and Permission Granted if(redirectURL) location.href = redirectURL; } else { //Logged and Permisssion NOT Granted if(redirectURL) location.href = redirectURL; } } else { alert(&amp;quot;Only Authorized User can use this Application!</description>
     </item>
     
     <item>
       <title>Getting Ready for IFRAME Facebook App based</title>
       <link>http://khal.web.id/2010/10/28/getting-ready-for-iframe-facebook-app-based/</link>
-      <pubDate>Thu, 28 Oct 2010 13:58:22 +0000</pubDate>
+      <pubDate>Thu, 28 Oct 2010 06:58:22 +0700</pubDate>
       
       <guid>http://khal.web.id/2010/10/28/getting-ready-for-iframe-facebook-app-based/</guid>
-      <description>Ok this time you need to be ready for migrating your facebook apps to IFrame based apps, as it written on Facebook Developer Roadmap that facebook,
-&amp;ldquo;We will stop allowing new FBML applications, but will continue to support existing FBML tabs and applications. Instead, we recommend using IFrames.&amp;rdquo; at the End of 2010.
-And then OAUTH 2.0 will required for new applications,
-&amp;ldquo;We will remove the ability for new applications to use our old authentication mechanism, but will continue to support existing applications using our old method.</description>
+      <description>At this time you need to be ready to migrate your facebook apps to Iframe based apps, because as it written on Facebook Developer Roadmap
+ &amp;ldquo;We will stop allowing new FBML applications, but will continue to support existing FBML tabs and applications. Instead, we recommend using IFrames.&amp;rdquo; at the End of 2010.
+ And then OAUTH 2.0 will required for new applications,
+ &amp;ldquo;We will remove the ability for new applications to use our old authentication mechanism, but will continue to support existing applications using our old method.</description>
     </item>
     
     <item>
-      <title>PATH_INFO OR ORIG_PATH_INFO</title>
+      <title>path_info or orig_path_info</title>
       <link>http://khal.web.id/2010/08/10/path_info-or-orig_path_info/</link>
-      <pubDate>Tue, 10 Aug 2010 16:30:57 +0000</pubDate>
+      <pubDate>Tue, 10 Aug 2010 09:30:57 +0700</pubDate>
       
       <guid>http://khal.web.id/2010/08/10/path_info-or-orig_path_info/</guid>
-      <description>First of all I&amp;rsquo;m using codeigniter for the web app, which is hosted on php4 environment someday I moved the apps to another shared host which have php5 installed , on my URI_PROTOCOL in config.php files , I change
-$config[&amp;lsquo;uri_protocol&amp;rsquo;] = &amp;ldquo;PATH_INFO&amp;rdquo;;
-And then when testing the apps there was some problem with the route dunno is this an issue or else, it really takes time for me to find out why the route always looping back again again and again, my first guess was on htaccess that maybe the mod_rewrite module doesnt work, but the guess was wrong , and then I checked again on web apps route.</description>
+      <description>The story begin when I was migrating my Codeigniter app from php4 to php5 hosting environment and then I change the uri_protocol config,
+$config[&#39;uri_protocol&#39;] = &amp;quot;PATH_INFO&amp;quot;;  And then the app crashed!?? I had to debug the code for quite sometimes 😫
+Debugging the $_SERVER variable, and turns out the PATH_INFO variable wasn&amp;rsquo;t exist, but the ORIG_PATH_INFO variable is exist, hmm is it the PHP version problem?
+So then I found this article path_info, orig_path_info, apache and php, well I guess that explained very well, on his condition mentioned in the article, the problem happened when he use .</description>
     </item>
     
     <item>
       <title>Iframe on Facebook Fan Pages Tabs</title>
       <link>http://khal.web.id/2010/07/20/iframe-on-facebook-fan-pages-tabs/</link>
-      <pubDate>Tue, 20 Jul 2010 16:47:33 +0000</pubDate>
+      <pubDate>Tue, 20 Jul 2010 09:47:33 +0700</pubDate>
       
       <guid>http://khal.web.id/2010/07/20/iframe-on-facebook-fan-pages-tabs/</guid>
-      <description>Iframe will not be supported on facebook fab pages tab, the strange thing is only on the first load of the tab that facebook will give you an error &amp;ldquo;iframe not supported&amp;rdquo;
-I really dunno is this accidentally or maybe on purpose, I just figured out that apps on Fab Pages Tab need an action from user, so then to get iframe work on tab,
- In your Tab Url file ex:index.</description>
+      <description>Iframe will not be supported on facebook fan pages tab, the strange thing is, it only happened on first load and the you&amp;rsquo;ll get this error iframe not supported
+I just figured out that apps on Fan Pages Tab need an action from user, so then to get an iframe working on tab,
+ In your Tab Url file i.e. index.php, create a href tag, that will link to somefile.php</description>
     </item>
     
     <item>
       <title>Things you should know when you start PHP-ing</title>
       <link>http://khal.web.id/2010/07/12/things-you-should-know-when-you-start-php-ing/</link>
-      <pubDate>Mon, 12 Jul 2010 15:41:43 +0000</pubDate>
+      <pubDate>Mon, 12 Jul 2010 08:41:43 +0700</pubDate>
       
       <guid>http://khal.web.id/2010/07/12/things-you-should-know-when-you-start-php-ing/</guid>
       <description>When you starting to get a grip on PHP, there are things that you should know, here I would descibe some of them, that might be useful,
-1. Windows / Linux / Macintosh / Solaris
-Of course , you need to know where you will be working on, PHP can run in any Operating System that support it, as far as my knowledge it can run on Windows, Linux, Macintosh, or Solaris.</description>
-    </item>
-    
-    <item>
-      <title>Browsers Console API (Firefox, Safari, Chrome, Opera, IE) reference</title>
-      <link>http://khal.web.id/2010/07/02/browsers-console-api-reference/</link>
-      <pubDate>Fri, 02 Jul 2010 14:27:23 +0000</pubDate>
-      
-      <guid>http://khal.web.id/2010/07/02/browsers-console-api-reference/</guid>
-      <description>What is Console API ? , I think this is the first question that will cross your mind if you dont know about this
-helpfull tool, Console is a global variable/Object that provided by major browser like firefox,safari,chrome, etc&amp;hellip; and contains many methods that allow you to write to the browser console to expose information that is flowing through your scripts.
-Console API has become a standard for debugging javascript, so I suppose many browser should support</description>
-    </item>
-    
-    <item>
-      <title>Zend Lucene, getting document ID after indexing</title>
-      <link>http://khal.web.id/2010/03/29/zend-lucene-getting-document-id-after-indexing/</link>
-      <pubDate>Mon, 29 Mar 2010 12:43:41 +0000</pubDate>
-      
-      <guid>http://khal.web.id/2010/03/29/zend-lucene-getting-document-id-after-indexing/</guid>
-      <description>Once upon a time I have a problem how to get the ID of the indexed document, I need to delete
-the document that was not available on the database, apparently the document unique ID cannot
-be use or kept bcoz, it changed after optimization, so then,
-the Indexed documents may have two type of id&amp;rsquo;s, so I put database id on the document;
-  Internal document id returned by $hit-&amp;gt;id and used by</description>
-    </item>
-    
-    <item>
-      <title>What the f**k is KB927917 </title>
-      <link>http://khal.web.id/2010/03/08/what-the-fuck-is-kb927917/</link>
-      <pubDate>Mon, 08 Mar 2010 17:17:52 +0000</pubDate>
-      
-      <guid>http://khal.web.id/2010/03/08/what-the-fuck-is-kb927917/</guid>
-      <description>Ok then &amp;hellip; what ??? , I&amp;rsquo;ve got a surprise from IE678, it getting on my nerve (but not in a long time), I&amp;rsquo;ve found out that one of my web apps cannot be view by any IE browser, so what the hell is happen, the browser keep telling me this line below,
-&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt; Webpage error details&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt; User Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt; Timestamp: Mon, 8 Mar 2010 09:10:13 UTC&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt; Message: HTML Parsing Error: Unable to modify the parent container element before the child element is closed (KB927917)&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt; Line: 0&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt; Char: 0&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt; Code: 0&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt; URI: http://xxx.</description>
-    </item>
-    
-    <item>
-      <title>Location base social networking apps</title>
-      <link>http://khal.web.id/2010/01/19/location-base-social-networkingapps/</link>
-      <pubDate>Tue, 19 Jan 2010 11:36:39 +0000</pubDate>
-      
-      <guid>http://khal.web.id/2010/01/19/location-base-social-networkingapps/</guid>
-      <description>If anyone knows some apps like buddycloud, foyage, foursquare, I think their actually the same, the system telling you where your or someone nearby or a place nearby, interact with each others inside the system, fun isn&amp;rsquo;t getting know where your friend are, hang out/shopping together, lost somewhere but thanks god you&amp;rsquo;ve got your friend in the area, when I started google for others apps and it surprised me, that there&amp;rsquo;s a lot of apps like that, just pick one of your favorite and then tell your friend, here the list I&amp;rsquo;ve found,</description>
+1. OS
+Afaik PHP can be installed on Windows, Linux, Macintosh, and Solaris.
+2. Database
+MySQL and PostgreSQL are the most popular database to be use with PHP.
+3. WebServer
+The most well-known web server for PHP is Apache and Nginx.
+4. Application Framework</description>
     </item>
     
     <item>
       <title>Codeigniter HMVC and Your own Layout Library</title>
       <link>http://khal.web.id/2010/01/07/codeigniter-hmvc-and-your-own-layout-library/</link>
-      <pubDate>Thu, 07 Jan 2010 20:12:51 +0000</pubDate>
+      <pubDate>Thu, 07 Jan 2010 13:12:51 +0700</pubDate>
       
       <guid>http://khal.web.id/2010/01/07/codeigniter-hmvc-and-your-own-layout-library/</guid>
-      <description>I&amp;rsquo;m using HMVC to make my web apps more modular, if you don&amp;rsquo;t now what is HMVC you can check on Wiki, so then I&amp;rsquo;m trying to make a partial output from some module to the big layout template , and then I came into problems when I make a layout library as usual you have to generate an instance of CI like this,
-&amp;lt;pre lang=&amp;quot;php&amp;quot;&amp;gt;$this-&amp;gt;obj =&amp;amp; get_instance();  and then I&amp;rsquo;m trying to load a vew from some module,</description>
+      <description>I&amp;rsquo;m trying to make a partial output from hmvc module,
+$this-&amp;gt;obj =&amp;amp; get_instance();  and then I&amp;rsquo;m trying to load a view from some module,
+$this-&amp;gt;obj-&amp;gt;load-&amp;gt;view($view,$data);  This will resulting errors, it turns out $this-&amp;gt;obj is only loading the global view of CI i.e. ./application/views/ HMVC is not overriding the default view of CI, you might have to pass your controller object $this from your controller to your layout library,</description>
     </item>
     
     <item>
       <title>Apaan tuh &#34;Google Wave Robots&#34; ??? Apaan aja sih ???</title>
       <link>http://khal.web.id/2009/11/25/apaan-tuh-google-wave-robots-apaan-aja-sih/</link>
-      <pubDate>Wed, 25 Nov 2009 10:45:09 +0000</pubDate>
+      <pubDate>Wed, 25 Nov 2009 03:45:09 +0700</pubDate>
       
       <guid>http://khal.web.id/2009/11/25/apaan-tuh-google-wave-robots-apaan-aja-sih/</guid>
       <description>Pertama gw mau kasih tau dulu apaan sih google wave robot (GWR) itu, sebenernya simple aja&amp;hellip; ya namanya juga robot jadi GWR itu adalah user otomatis (robot) yang bisa menjadi participant dari sebuah wave, user robot juga dapat membaca isi sebuah wave di mana robot itu berpartisipasi, google wave memodifikasi isi, menambah atau menghapus peserta, dan menciptakan wave baru. Singkatnya, user robot dapat melakukan banyak tindakan yang waver/peserta lainnya dapat melakukan.</description>
     </item>
     
     <item>
-      <title>IE dan jpeg MIME TYPE</title>
-      <link>http://khal.web.id/2009/11/19/ie-dan-jpeg-mime-type/</link>
-      <pubDate>Thu, 19 Nov 2009 15:26:49 +0000</pubDate>
-      
-      <guid>http://khal.web.id/2009/11/19/ie-dan-jpeg-mime-type/</guid>
-      <description>&amp;lt;img src=&amp;#34;http://www.khalidadisendjaja.web.id/wp-content/uploads/2009/11/lg_noie_6-296x300.jpg&amp;#34; alt=&amp;#34;&amp;#34; title=&amp;#34;lg_noie_6&amp;#34;&amp;gt;Harus nya IE uth ga di pake2x lagi ya &amp;hellip;. sumpeh deh.
-Hari ini gw menemukan keganjilan, entahlah &amp;hellip; bugs kaleee &amp;hellip; ketika meng-upload file jpeg dari local kompi, bukannya MIME yang terdeteksi harusnya image/jpeg menurut RFC1341 eh malah bikin mime sendiri image/pjpeg, yang menyebakan form tidak bisa valid, hanya karna hal tersebut, ya udah deh validasi gw tambahin image/pjpeg, ternyata untuk beberapa file jpg aja.
-IE oh IE life would be more easier without you (hhmm &amp;hellip; so how can I download Firefox?</description>
-    </item>
-    
-    <item>
-      <title>Bespin a Collaborative Coding dengan teman2x kamu somewhere out there in the cloud</title>
+      <title>Koding bareng dengan Bespin</title>
       <link>http://khal.web.id/2009/11/19/bespin-a-collaborative-coding-dengan-teman2x-kamu-somewhere-out-there-in-the-cloud/</link>
-      <pubDate>Thu, 19 Nov 2009 15:10:30 +0000</pubDate>
+      <pubDate>Thu, 19 Nov 2009 08:10:30 +0700</pubDate>
       
       <guid>http://khal.web.id/2009/11/19/bespin-a-collaborative-coding-dengan-teman2x-kamu-somewhere-out-there-in-the-cloud/</guid>
-      <description>[caption id=&amp;rdquo;&amp;rdquo; align=&amp;quot;alignleft&amp;rdquo; width=&amp;quot;180&amp;rdquo; caption=&amp;quot;bespin&amp;rdquo;]&amp;lt;img src=&amp;#34;http://people.mozilla.com/~cbeard/Bespin_Logo.png&amp;#34; alt=&amp;#34;bespin&amp;#34; title=&amp;#34;bespinlogo&amp;#34;&amp;gt;[/caption]
-Pertama gw mo kasih tau dulu nih, apaan sih tuh &amp;ldquo;Bespin&amp;rdquo; , ini product adalah suatu terobosan baru oleh Mozilla Labs yang merupakan sebuah code editor dengan berbasis web, tentunya bertujuan untuk meningkatkan produktivitas dari developer, karena editor ini merupakan web based dengan kata lain bespin bisa di gunakan oleh seluruh developer di mana aja dengan istilah &amp;ldquo;Code In The Cloud&amp;rdquo;, tentu saja dengan browser yang menunjang (Firefox3,Chrome,Safari), karena tidak semua browser bisa menunjang aplikasi ini.</description>
+      <description>Bespin from Mozilla Labs adalah sebuah code editor dengan berbasis web, tentunya bertujuan untuk meningkatkan produktivitas dari developer, karena editor ini berbasis web maka bespin bisa di gunakan oleh developer dimanapun berada, sayangnya tidak semua browser bisa menunjang aplikasi ini.
+ &amp;ldquo;Code In The Cloud&amp;rdquo; - Bespin
+ Feature-feature yang ada pada Bespin cukup banyak, satu hal yang menarik perhatian gw adalah feature collaborative coding. Hal pertama yang harus lo lakukan adalah melakukan registrasi dan login ke bespin.</description>
     </item>
     
     <item>
       <title>Gimana caranya bikin tampilan Firefox lo jadi kaya Chrome</title>
       <link>http://khal.web.id/2009/11/11/gimana-caranya-bikin-tampilan-firefox-lo-jadi-kaya-chrome/</link>
-      <pubDate>Wed, 11 Nov 2009 14:55:29 +0000</pubDate>
+      <pubDate>Wed, 11 Nov 2009 07:55:29 +0700</pubDate>
       
       <guid>http://khal.web.id/2009/11/11/gimana-caranya-bikin-tampilan-firefox-lo-jadi-kaya-chrome/</guid>
-      <description>Salah satu hal yang gw suka dari Chrome adalah themes nya yang simple clean dan enteng di liat deh pokoknya &amp;hellip;, masalahnya gw jarang pake tuh yang namanya Chrome kalo untuk development (Can&amp;rsquo;t live whitout firefox), ya udah deh gw mulai cari sana sini gimana caranya bisa bikin firefox jadi kaya chrome, mudah2x nih artikel berguna dah &amp;hellip;
-Sebelumnya gw preview dulu nih , tampilan di gw..
-Langsung aja ya &amp;hellip;.</description>
+      <description>Salah satu hal yang gw suka dari Chrome adalah themes nya yang simple clean dan enteng di liat deh pokoknya &amp;hellip;, masalahnya gw jarang pake tuh yang namanya Chrome kalo untuk development (Can&amp;rsquo;t live whitout firefox), ya udah deh gw mulai cari sana sini gimana caranya bisa bikin tampilan firefox jadi kaya chrome, mudah2x nih artikel berguna dah &amp;hellip;
+Ada beberapa firefox extension yang kudu di install &amp;hellip;
+ Chrome Themes : https://addons.</description>
     </item>
     
     <item>
       <title>PNG fix for IE</title>
-      <link>http://khal.web.id/2009/05/04/png-fix-for-id/</link>
-      <pubDate>Mon, 04 May 2009 18:22:20 +0000</pubDate>
+      <link>http://khal.web.id/2009/05/04/PNG-fix-for-IE/</link>
+      <pubDate>Mon, 04 May 2009 11:22:20 +0700</pubDate>
       
-      <guid>http://khal.web.id/2009/05/04/png-fix-for-id/</guid>
-      <description>Thanks to Angus Turnbull http://www.twinhelix.com, that have made this fix &amp;hellip;.
-Great tools for making PNG image looks good on IE &amp;hellip;. , there is two files that need to be used to make it work
-  iepngfix.htc
-http://code.google.com/p/widgetfx/source/browse/widgetfx.org/iepngfix.htc
-  iepngfix_tilebg.js
-http://code.google.com/p/widgetfx/source/browse/widgetfx.org/iepngfix_tilebg.js?r=144
-  Include iepngfix.htc on your css style file
-include this iepngfix_tilebg.js on you html header, it support for transparent image on background position and repeat.</description>
+      <guid>http://khal.web.id/2009/05/04/PNG-fix-for-IE/</guid>
+      <description>Thanks to Angus Turnbull who made this fix and made PNG image looks good on IE, these are two files that you need to implement,
+ iepngfix.htc iepngfix_tilebg.js  Usage Include iepngfix.htc on your css style file
+&amp;lt;pre name=&amp;quot;code&amp;quot; class=&amp;quot;css&amp;quot; &amp;gt; *html img, *html #anydivid { behavior: url(style/iepngfix.htc); border:0; padding:0; } &amp;lt;/pre&amp;gt;  include this iepngfix_tilebg.js on you html header, it&amp;rsquo;s support transparent image on background position and repeat.
+More complete detail &amp;hellip; you can check his website http://www.</description>
     </item>
     
   </channel>

@@ -6,19 +6,19 @@
     <description>Recent content in frame-busting on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Apr 2015 15:42:06 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2015 08:42:06 +0700</lastBuildDate>
     
 	<atom:link href="http://khal.web.id/tags/frame-busting/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Ulah nakal ISP praktik browser Frame Busting</title>
+      <title>Ulah nakal ISP praktik clickjacking</title>
       <link>http://khal.web.id/2015/04/19/ulah-nakal-isp-praktik-browser-frame-busting/</link>
-      <pubDate>Sun, 19 Apr 2015 15:42:06 +0000</pubDate>
+      <pubDate>Sun, 19 Apr 2015 08:42:06 +0700</pubDate>
       
       <guid>http://khal.web.id/2015/04/19/ulah-nakal-isp-praktik-browser-frame-busting/</guid>
-      <description>&amp;lt;img src=&amp;#34;/images/wpid-img_20150419_141835.jpg&amp;#34; alt=&amp;#34;image&amp;#34; title=&amp;#34;IMG_20150419_141835.jpg&amp;#34;&amp;gt; Beberapa ISP di indonesia tanpa konsumen sadari sebenarnya sangat sering melakukan praktik frame busting hampir di semua website yg konsumen kunjungi, alasan ISP melakukan hal ini tidak lain adalah penempatan iklan gratis dari ISP tersebut tanpa sepengetahuan si empunya website.
-Lalu, bagaimanakah cara kerja Frame Busting ini? Ketika konsumen mengunjungi sebuah website misal &amp;ldquo;Forbes.com&amp;rdquo;, ISP akan membungkus &amp;ldquo;Forbes.com&amp;rdquo; dalam sebuah iframe/frames lalu kemudian ditampilkan pada browser konsumen, bagian sisi diluar iframe biasanya akan menampilkan iklan gambar dari ISP tersebut.</description>
+      <description>Beberapa ISP di indonesia tanpa konsumen sadari sebenarnya sangat sering melakukan praktik clickjacking hampir di semua website yg konsumen kunjungi, alasan ISP melakukan hal ini tidak lain adalah penempatan iklan gratis dari ISP tersebut tanpa sepengetahuan si empunya website.
+Lalu, bagaimanakah cara kerja clickjacking ini? Ketika user mengunjungi sebuah website misal &amp;ldquo;Forbes .com&amp;rdquo;, ISP akan membungkus &amp;ldquo;Forbes .com&amp;rdquo; dalam sebuah iframe yang lalu ditampilkan pada browser user, bagian luar iframe biasanya akan menampilkan baner iklan liar dari ISP tersebut.</description>
     </item>
     
   </channel>

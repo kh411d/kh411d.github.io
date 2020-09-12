@@ -5,18 +5,9 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    
     <meta name="twitter:card" content="summary"/>
-    
-    <meta name="twitter:image" content="/images/sidebar.jpg"/>
-    
-
-
-
 <meta name="twitter:title" content="oauth"/>
 <meta name="twitter:description" content="a coder who happen to be a spontaneous writer in a big pond who likes to write not in codes, talk in human and sense as a human"/>
-<meta name="twitter:site" content="@khalidity"/>
-
 
 
   	<meta property="og:title" content="oauth &middot; Khalid&#39;s Blog" />
@@ -26,6 +17,7 @@
     
         
             <meta property="og:image" content="/images/sidebar.jpg"/>
+            <meta name="twitter:image" content="/images/sidebar.jpg"/>
         
     
 
@@ -192,12 +184,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	
 	   <article class="post post">
     <header class="post-header">
-        <h2 class="post-title"><a href="/2014/05/28/aplikasi-3rd-party-facebookpaypaldll-aman-gituh-lo-harus-tahu/">Aplikasi 3rd Party (Facebook,Paypal,dll) Aman gituh?? Lo harus tahu!</a></h2>
+        <h2 class="post-title"><a href="/2014/05/28/aplikasi-3rd-party-facebookpaypaldll-aman-gituh-lo-harus-tahu/">Amankah login dengan akun sosial media pada aplikasi lain?</a></h2>
     </header>
     <section class="post-excerpt">
         
-            <p>&lt;img src=&#34;/images/48a572c60b93255986ba073bf5b1d865-1.jpg&#34; alt=&#34;48a572c60b93255986ba073bf5b1d865 (1)&#34;&gt;Yang gue maksud Aplikasi 3rd party disini adalah sebuah aplikasi yang berjalan sebagai aplikasi tambahan dari beberapa aplikasi yang sudah popular, aplikasi ini bisa berupa website, client app, mobile web, mobile app, desktop app, microsite, dll. (*mengulang kata aplikasi&hellip; halah)
-Sebagai contoh kalo lo termasuk pengguna Twitter, lo pasti tau aplikasi yang namanya seismic, hootsuite, atau uber Twitter, semua aplikasi tersebut adalah aplikasi 3rd party dari Twitter. Aplikasi ini adalah aplikasi yang dibuat oleh pihak ketiga diluar dari Twitter, aplikasi ini mendapatkan izin dari pihak Twitter untuk mengakses data2x user dan menggunakannya di dalam aplikasi. <a class="read-more" href="/2014/05/28/aplikasi-3rd-party-facebookpaypaldll-aman-gituh-lo-harus-tahu/">&raquo;</a></p>
+            <p>Tentunya banyak dari kamu yang menggunakan aplikasi dengan opsi untuk login menggunakan beberapa akun sosial media yang kamu miliki seperti facebook, twitter, google, linkedin dll. Misal ketika kamu login menggunakan facebook, dalam prosesnya, biasanya pengguna akan dialihkan ke halaman login facebook agar kamu bisa memberikan izin otorisasi, akhirnya facebook akan memberikan access token yang kemudian mengalihkan kamu kembali kepada aplikasi tersebut.
+https://www.facebook.com/dialog/oauth?client_id=app-id&amp;redirect_uri=http://app-site.com
+Proses pengalihan/redirecting inilah yang menjadi celah yang memungkinkan para attacker mendapatkan data login pengguna, jika kamu lihat url diatas, attacker mungkin saja merekonstruksi link menjadi, <a class="read-more" href="/2014/05/28/aplikasi-3rd-party-facebookpaypaldll-aman-gituh-lo-harus-tahu/">&raquo;</a></p>
         
     </section>
     <footer class="post-meta">
@@ -218,26 +211,16 @@ Sebagai contoh kalo lo termasuk pengguna Twitter, lo pasti tau aplikasi yang nam
 
         on
             
-                <a href="http://khal.web.id//tags/facebook/">#facebook</a>,
-            
-                <a href="http://khal.web.id//tags/google/">#google</a>,
-            
-                <a href="http://khal.web.id//tags/paypal/">#paypal</a>,
-            
-                <a href="http://khal.web.id//tags/linkedin/">#linkedin</a>,
-            
                 <a href="http://khal.web.id//tags/oauth/">#oauth</a>,
             
                 <a href="http://khal.web.id//tags/openid/">#openid</a>,
             
-                <a href="http://khal.web.id//tags/security/">#security</a>,
+                <a href="http://khal.web.id//tags/cybersecurity/">#cybersecurity</a>,
             
-                <a href="http://khal.web.id//tags/cover-redirect/">#cover redirect</a>,
-            
-                <a href="http://khal.web.id//tags/vulnerability/">#vulnerability</a>,
+                <a href="http://khal.web.id//tags/open-redirect/">#open-redirect</a>,
             
         
-        <time class="post-date" datetime="2014-05-28T20:08:25Z">
+        <time class="post-date" datetime="2014-05-28T13:08:25&#43;07:00">
             28 May 2014
         </time>
     </footer>

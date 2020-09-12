@@ -6,7 +6,7 @@
     <description>Recent content in icecast on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 Aug 2014 12:04:45 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 Aug 2014 05:04:45 +0700</lastBuildDate>
     
 	<atom:link href="http://khal.web.id/tags/icecast/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,10 +14,11 @@
     <item>
       <title>How to get realtime Now Playing info from Ice Cast</title>
       <link>http://khal.web.id/2014/08/12/how-to-get-realtime-now-playing-info-from-ice-cast/</link>
-      <pubDate>Tue, 12 Aug 2014 12:04:45 +0000</pubDate>
+      <pubDate>Tue, 12 Aug 2014 05:04:45 +0700</pubDate>
       
       <guid>http://khal.web.id/2014/08/12/how-to-get-realtime-now-playing-info-from-ice-cast/</guid>
-      <description>&amp;lt;img src=&amp;#34;/images/icecastxspf.png&amp;#34; alt=&amp;#34;icecastxspf&amp;#34;&amp;gt;Getting a #NowPlaying info from your Ice Cast 2 server is pretty dead simple. You may get current track information just by fetching an XSPF url from Ice Cast 2 server, unlike M3U, XSPF is an XML data that you can fetch periodically by CURL command or a simple script like php, python, or everything else you like. You may want to check www.xspf.org to know more about it.</description>
+      <description>Getting a #NowPlaying info from your Ice Cast 2 server is pretty dead simple. You can get current track information from scrapping the XSPF url periodically by using CURL command. Here I&amp;rsquo;m going to explain how it works, I&amp;rsquo;m going to make a short javascript code to periodically update the current playing track and a simple php script to curl the xspf endpoint.
+ Locate your Ice Cast Server url, usually it will look like this http://xxx.</description>
     </item>
     
   </channel>

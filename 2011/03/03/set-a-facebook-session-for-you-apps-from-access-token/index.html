@@ -5,17 +5,11 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    
-    
-        <meta name="twitter:card" content="summary"/>
-    
-
-
-
+    <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Set a facebook session app from access token"/>
-<meta name="twitter:description" content=""/>
-<meta name="twitter:site" content="@khalidity"/>
-
+<meta name="twitter:description" content="In some situation you will want to create a facebook session for your app, for example you get the code query string after user granted your app, now you can construct the url like below,
+https://graph.facebook.com/oauth/access_token?client_id=YOUR_APP_ID&amp;redirect_uri=YOUR_URL&amp;client_secret=YOUR_APP_SECRET&amp;code=THE_CODE_FROM_ABOVE  And then you need to construct session variables base from the access token, these are functions that might help you,
+//Build your session variables function generateSessionVars($accessToken) { $e = explode(&#39;|&#39;,$accessToken); $s = explode(&#39;-&#39;,$e[1]); $params = array( &#39;uid&#39;=&gt;trim($s[1]), &#39;access_token&#39; =&gt; trim($accessToken) ); $params[&#39;sig&#39;] = generateSignature($params,APP_SECRET); return $params; } //Generate session signature base on you App Secret function generateSignature($params,$secret) { // work with sorted data ksort($params); // generate the base string $base_string = &#39;&#39;; foreach($params as $key =&gt; $value) { $base_string ."/>
 
 
   	<meta property="og:title" content="Set a facebook session app from access token &middot; Khalid&#39;s Blog" />
@@ -23,24 +17,26 @@
   	<meta property="og:url" content="http://khal.web.id/2011/03/03/set-a-facebook-session-for-you-apps-from-access-token/" />
 
     
-        
-            <meta property="og:image" content="/images/sidebar.jpg"/>
-        
+       <meta property="og:image" content="/images/facebookdev.jpg"/>
+       <meta name="twitter:image" content="/images/facebookdev.jpg"/>
     
 
     
     <meta property="og:description" content="" />
   	<meta property="og:type" content="article" />
-    <meta property="article:published_time" content="2011-03-03T15:52:36Z" />
+    <meta property="article:published_time" content="2011-03-03T08:52:36&#43;07:00" />
 
+    
+    <meta property="article:tag" content="facebook" />
+    
+    <meta property="article:tag" content="tutorial" />
     
     
 
     <title>Set a facebook session app from access token &middot; Khalid&#39;s Blog</title>
 
     
-    <meta name="description" content="In some situation you will want to create a facebook session for your apps, for example you have a CODE
-variable from facebook after user granting your applicat" />
+    <meta name="description" content="In some situation you will want to create a facebook session for your app, for example you get the code query string after user granted your app, now you can co" />
     
 
     <meta name="HandheldFriendly" content="True" />
@@ -110,17 +106,24 @@ variable from facebook after user granting your applicat" />
     },
     "headline": "Set a facebook session app from access token",
     "name": "Set a facebook session app from access token",
-    "wordCount":  214 ,
-    "timeRequired": "PT2M",
+    "wordCount":  157 ,
+    "timeRequired": "PT1M",
     "inLanguage": {
       "@type": "Language",
       "alternateName": "en"
     },
     "url": "http://khal.web.id/2011/03/03/set-a-facebook-session-for-you-apps-from-access-token/",
-    "datePublished": "2011-03-03T15:52Z",
-    "dateModified": "2011-03-03T15:52Z",
+    "datePublished": "2011-03-03T08:52Z",
+    "dateModified": "2011-03-03T08:52Z",
     
+    "image": {
+        "@type": "ImageObject",
+        "url": "http://khal.web.id//images/facebookdev.jpg",
+        "width": 3000,
+        "height": 1445
+    },
     
+    "keywords": "facebook, tutorial",
     "description": "",
     "mainEntityOfPage": {
         "@type": "WebPage",
@@ -170,8 +173,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-<header class="main-header post-head no-cover">
-  <nav class="main-nav clearfix">
+  
+  <header class="main-header post-head" style="background-image: url(/images/facebookdev.jpg)">
+  
+  <nav class="main-nav overlay clearfix">
 
 
   
@@ -198,61 +203,65 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         <section class="post-meta">
         
-          <time class="post-date" datetime="2011-03-03T15:52:36Z">
+          <time class="post-date" datetime="2011-03-03T08:52:36&#43;07:00">
             Mar 3, 2011
           </time>
         
+         
+          <span class="post-tag small"><a href="http://khal.web.id//tags/facebook/">#facebook</a></span>
+         
+          <span class="post-tag small"><a href="http://khal.web.id//tags/tutorial/">#tutorial</a></span>
          
         </section>
     </header>
 
     <section class="post-content">
-      <p>In some situation you will want to create a facebook session for your apps, for example you have a CODE<br>
-variable from facebook after user granting your application and then you fetch the access token like this way below,</p>
-<pre><code>&lt;pre lang=&quot;php&quot;&gt;$accessToken = file_get_contents(&quot;https://graph.facebook.com/oauth/access_token?
-     client_id=YOUR_APP_ID&amp;redirect_uri=YOUR_URL&amp;
-     client_secret=YOUR_APP_SECRET&amp;code=THE_CODE_FROM_ABOVE&quot;);
+      <p>In some situation you will want to create a facebook session for your app, for example you get the <code>code</code> query string after user granted your app, now you can construct the url like below,</p>
+<pre><code>https://graph.facebook.com/oauth/access_token?client_id=YOUR_APP_ID&amp;redirect_uri=YOUR_URL&amp;client_secret=YOUR_APP_SECRET&amp;code=THE_CODE_FROM_ABOVE
 </code></pre>
-<p>A session apps need these variables included (uid, access_token, and sig) I believe that you already had the latest facebook PHP-SDK, &ldquo;sig&rdquo; is a signature for your cookie base on your App Secret, your need to create session variables by manually and then set that variables with &ldquo;setSession&rdquo; method on PHP-SDK.</p>
-<p>These are functions that might help you,</p>
-<pre><code>&lt;pre lang=&quot;php&quot;&gt;//Build your session variables
+<p>And then you need to construct session variables base from the access token, these are functions that might help you,</p>
+<pre><code>//Build your session variables
 function generateSessionVars($accessToken)
 {
-$e = explode('|',$accessToken);
-$s = explode('-',$e[1]);
+    $e = explode('|',$accessToken);
+    $s = explode('-',$e[1]);
+    
+    $params = array(
+        'uid'=&gt;trim($s[1]),
+        'access_token' =&gt; trim($accessToken)
+    );
 
-$params = array(
-'uid'=&gt;trim($s[1]),
-'access_token' =&gt; trim($accessToken)
-);
-$params['sig'] = generateSignature($params,APP_SECRET);
-
-return $params;
+    $params['sig'] = generateSignature($params,APP_SECRET);
+    
+    return $params;
 }
+
 //Generate session signature base on you App Secret
 function generateSignature($params,$secret) {
 
-// work with sorted data
-ksort($params);
+    // work with sorted data
+    ksort($params);
 
-// generate the base string
-$base_string = '';
-foreach($params as $key =&gt; $value) {
-$base_string .= $key . '=' . $value;
-}
-$base_string .= $secret;
+    // generate the base string
+    $base_string = '';
+    foreach($params as $key =&gt; $value) {
+        $base_string .= $key . '=' . $value;
+    }
+    $base_string .= $secret;
 
-return md5($base_string);
+    return md5($base_string);
 }
 </code></pre>
-<p>Wrap it out,</p>
-<pre><code>&lt;pre lang=&quot;php&quot;&gt;//get session variables
-$params = generateSessionVars($access_token);
+<p>Usage,</p>
+<pre><code>$accessToken = file_get_contents(&quot;https://graph.facebook.com/oauth/access_token?client_id=YOUR_APP_ID&amp;redirect_uri=YOUR_URL&amp;client_secret=YOUR_APP_SECRET&amp;code=THE_CODE_FROM_ABOVE&quot;);
+
+//get session variables
+$params = generateSessionVars($accessToken);
+
 //SET COOKIE DIRECTLY TO BE USED BY PHP SDK
 $facebook-&gt;setSession($params);
 </code></pre>
-<p>If cookie created succesfully your PHP-SDK library could identify with getSession() method if session<br>
-is set or not.</p>
+<p>The php-sdk will identify whether the session is set.</p>
 
     </section>
 
@@ -340,7 +349,7 @@ s.setAttribute('data-timestamp', +new Date());
 
   <aside class="read-next">
   
-      <a class="read-next-story" style="no-cover" href="/2011/03/07/facebook-add-access-permission-to-application-security/">
+      <a class="read-next-story" style="background-image: url(/images/facebookdev.jpg)" href="/2011/03/07/facebook-add-access-permission-to-application-security/">
           <section class="post">
               <h2>Facebook add access permission to Application Security</h2>
               
@@ -348,7 +357,7 @@ s.setAttribute('data-timestamp', +new Date());
       </a>
   
   
-      <a class="read-next-story prev" style="no-cover" href="/2011/03/03/replacement-of-fb-visible-to-connection-for-iframe-apps-on-facebook-page-tabs/">
+      <a class="read-next-story prev" style="background-image: url(/images/facebookdev.jpg)" href="/2011/03/03/replacement-of-fb-visible-to-connection-for-iframe-apps-on-facebook-page-tabs/">
           <section class="post">
               <h2>Replacement of fb visible-to-connection for iframe apps on facebook page tabs</h2>
           </section>

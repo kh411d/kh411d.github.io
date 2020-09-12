@@ -5,17 +5,11 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    
-    
-        <meta name="twitter:card" content="summary"/>
-    
-
-
-
+    <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Iframe on Facebook Fan Pages Tabs"/>
-<meta name="twitter:description" content=""/>
-<meta name="twitter:site" content="@khalidity"/>
-
+<meta name="twitter:description" content="Iframe will not be supported on facebook fan pages tab, the strange thing is, it only happened on first load and the you&rsquo;ll get this error iframe not supported
+I just figured out that apps on Fan Pages Tab need an action from user, so then to get an iframe working on tab,
+ In your Tab Url file i.e. index.php, create a href tag, that will link to somefile.php"/>
 
 
   	<meta property="og:title" content="Iframe on Facebook Fan Pages Tabs &middot; Khalid&#39;s Blog" />
@@ -23,23 +17,26 @@
   	<meta property="og:url" content="http://khal.web.id/2010/07/20/iframe-on-facebook-fan-pages-tabs/" />
 
     
-        
-            <meta property="og:image" content="/images/sidebar.jpg"/>
-        
+       <meta property="og:image" content="/images/facebookdev.jpg"/>
+       <meta name="twitter:image" content="/images/facebookdev.jpg"/>
     
 
     
     <meta property="og:description" content="" />
   	<meta property="og:type" content="article" />
-    <meta property="article:published_time" content="2010-07-20T16:47:33Z" />
+    <meta property="article:published_time" content="2010-07-20T09:47:33&#43;07:00" />
 
+    
+    <meta property="article:tag" content="facebook" />
+    
+    <meta property="article:tag" content="tutorial" />
     
     
 
     <title>Iframe on Facebook Fan Pages Tabs &middot; Khalid&#39;s Blog</title>
 
     
-    <meta name="description" content="Iframe will not be supported on facebook fab pages tab, the strange thing is only on the first load of the tab that facebook will give you an error &amp;ldquo;ifram" />
+    <meta name="description" content="Iframe will not be supported on facebook fan pages tab, the strange thing is, it only happened on first load and the you&amp;rsquo;ll get this error iframe not supp" />
     
 
     <meta name="HandheldFriendly" content="True" />
@@ -109,17 +106,24 @@
     },
     "headline": "Iframe on Facebook Fan Pages Tabs",
     "name": "Iframe on Facebook Fan Pages Tabs",
-    "wordCount":  212 ,
+    "wordCount":  210 ,
     "timeRequired": "PT1M",
     "inLanguage": {
       "@type": "Language",
       "alternateName": "en"
     },
     "url": "http://khal.web.id/2010/07/20/iframe-on-facebook-fan-pages-tabs/",
-    "datePublished": "2010-07-20T16:47Z",
-    "dateModified": "2010-07-20T16:47Z",
+    "datePublished": "2010-07-20T09:47Z",
+    "dateModified": "2010-07-20T09:47Z",
     
+    "image": {
+        "@type": "ImageObject",
+        "url": "http://khal.web.id//images/facebookdev.jpg",
+        "width": 3000,
+        "height": 1445
+    },
     
+    "keywords": "facebook, tutorial",
     "description": "",
     "mainEntityOfPage": {
         "@type": "WebPage",
@@ -169,8 +173,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-<header class="main-header post-head no-cover">
-  <nav class="main-nav clearfix">
+  
+  <header class="main-header post-head" style="background-image: url(/images/facebookdev.jpg)">
+  
+  <nav class="main-nav overlay clearfix">
 
 
   
@@ -197,38 +203,44 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         <section class="post-meta">
         
-          <time class="post-date" datetime="2010-07-20T16:47:33Z">
+          <time class="post-date" datetime="2010-07-20T09:47:33&#43;07:00">
             Jul 20, 2010
           </time>
         
+         
+          <span class="post-tag small"><a href="http://khal.web.id//tags/facebook/">#facebook</a></span>
+         
+          <span class="post-tag small"><a href="http://khal.web.id//tags/tutorial/">#tutorial</a></span>
          
         </section>
     </header>
 
     <section class="post-content">
-      <p>Iframe will not be supported on facebook fab pages tab, the strange thing is only on the first load of the tab that facebook will give you an error &ldquo;iframe not supported&rdquo;</p>
-<p>I really dunno is this accidentally or maybe on purpose, I just figured out that apps on Fab Pages Tab need an action from user, so then to get iframe work on tab,</p>
+      <p>Iframe will not be supported on facebook fan pages tab, the strange thing is, it only happened on first load and the you&rsquo;ll get this error <code>iframe not supported</code></p>
+<p>I just figured out that apps on Fan Pages Tab need an action from user, so then to get an iframe working on tab,</p>
 <ol>
-<li>In your Tab Url file ex:index.php, create a href tag, that will link to &ldquo;somefile.php&rdquo;<br>
-ex: <!-- raw HTML omitted -->Click here to begin<!-- raw HTML omitted --></li>
-<li>Edit your somefile.php and insert <!-- raw HTML omitted --> tag or <a href="fb:iframe/">fb:iframe/</a> tag<br>
-ex: &lt;fb:iframe src=&rdquo;&rdquo; width=&rdquo;&rdquo; height=&rdquo;&rdquo; /&gt;</li>
-<li>You might want to make a dummy loading image, just to attract user to click the image<br>
-ex: <!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->Click here to begin<!-- raw HTML omitted --></li>
+<li>In your Tab Url file i.e. <code>index.php</code>, create a href tag, that will link to <code>somefile.php</code><br>
+<code>&lt;a href=&quot;somefile.php&quot;&gt;Click here to begin&lt;/a&gt;</code></li>
+<li>Edit your somefile.php and insert <code>&lt;iframe&gt;</code> tag or <code>&lt;fb:iframe/&gt;</code> tag<br>
+<code>&lt;fb:iframe src=&quot;&quot; width=&quot;&quot; height=&quot;&quot; /&gt;</code></li>
+<li>You might want to make a dummy loading image, just to attract user to click the image,
+<pre><code>   &lt;img src=&quot;url to loading image&quot; /&gt;
+   &lt;a href=&quot;somefile.php&quot;&gt;Click here to begin&lt;/a&gt;
+</code></pre></li>
 </ol>
-<p>There are another way that use fbsj as shown in this article,<br>
-<a href="http://jesperastrom.com/facebook/2-simple-hacks-to-create-an-iframe-on-a-facebook-fan-page-tab/">http://jesperastrom.com/facebook/2-simple-hacks-to-create-an-iframe-on-a-facebook-fan-page-tab/</a><br>
-The script from the article look like this,</p>
-<pre><code>&lt;pre lang=&quot;html&quot;&gt;
-&lt;a onClick=&quot;outside_location.setInnerFBML(location_two);&quot; style=&quot;cursor: pointer;&quot;&gt;
-Click here to launch game.&lt;/p&gt; &lt;p&gt;&lt;div id=&quot;outside_location&quot;&gt;
-&lt;img src='[Enter a url to an image here]' /&gt;&lt;br /&gt; &lt;fb:iframe width=&quot;760&quot; height=&quot;760&quot; frameborder=&quot;0&quot; src=&quot;http://www.facebook.com/MotherStore&quot; /&gt; &lt;/div&gt;
-&lt;/a&gt;&lt;/p&gt; &lt;p&gt;
+<p>Alternatively using FBJS as shown in this article, <a href="http://jesperastrom.com/facebook/2-simple-hacks-to-create-an-iframe-on-a-facebook-fan-page-tab/" target="_blank">2 simple hacks to create an iframe on a facebook fan page tab</a></p>
+<p>The script from the article look like this,</p>
+<pre><code>&lt;a onClick=&quot;outside_location.setInnerFBML(location_two);&quot; style=&quot;cursor: pointer;&quot;&gt;
+  Click here to launch game.
+  &lt;div id=&quot;outside_location&quot;&gt;
+     &lt;img src='[Enter a url to an image here]' /&gt;&lt;br /&gt; &lt;fb:iframe width=&quot;760&quot; height=&quot;760&quot; frameborder=&quot;0&quot; src=&quot;http://www.facebook.com/MotherStore&quot; /&gt; 
+  &lt;/div&gt;
+&lt;/a&gt;
+
 &lt;fb:js-string var=&quot;location_two&quot;&gt;
-&lt;fb:iframe width=&quot;[With of iFrame]&quot; height=&quot;[Height of iFrame]&quot; style='margin-top: -50px; margin-left: -40px; margin-bottom: -40px; margin-right: -50px;' frameborder='0' src='[Enter the source of the iFrame here]' scrolling='no' /&gt;
+     &lt;fb:iframe width=&quot;[With of iFrame]&quot; height=&quot;[Height of iFrame]&quot; style='margin-top: -50px; margin-left: -40px; margin-bottom: -40px; margin-right: -50px;' frameborder='0' src='[Enter the source of the iFrame here]' scrolling='no' /&gt;
 &lt;/fb:js-string&gt;
-&lt;/p&gt;
-&lt;p&gt;
+
 &lt;script type=&quot;text/javascript&quot; charset=&quot;utf-8&quot;&gt;
 var outside_location = document.getElementById('outside_location');</code></pre>
 
@@ -320,7 +332,7 @@ s.setAttribute('data-timestamp', +new Date());
   
       <a class="read-next-story" style="no-cover" href="/2010/08/10/path_info-or-orig_path_info/">
           <section class="post">
-              <h2>PATH_INFO OR ORIG_PATH_INFO</h2>
+              <h2>path_info or orig_path_info</h2>
               
           </section>
       </a>

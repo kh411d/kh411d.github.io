@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>open-redirect on Khalid&#39;s Blog</title>
+    <link>http://khal.web.id/tags/open-redirect/</link>
+    <description>Recent content in open-redirect on Khalid&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 May 2014 13:08:25 +0700</lastBuildDate>
+    
+	<atom:link href="http://khal.web.id/tags/open-redirect/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Amankah login dengan akun sosial media pada aplikasi lain?</title>
+      <link>http://khal.web.id/2014/05/28/aplikasi-3rd-party-facebookpaypaldll-aman-gituh-lo-harus-tahu/</link>
+      <pubDate>Wed, 28 May 2014 13:08:25 +0700</pubDate>
+      
+      <guid>http://khal.web.id/2014/05/28/aplikasi-3rd-party-facebookpaypaldll-aman-gituh-lo-harus-tahu/</guid>
+      <description>Tentunya banyak dari kamu yang menggunakan aplikasi dengan opsi untuk login menggunakan beberapa akun sosial media yang kamu miliki seperti facebook, twitter, google, linkedin dll. Misal ketika kamu login menggunakan facebook, dalam prosesnya, biasanya pengguna akan dialihkan ke halaman login facebook agar kamu bisa memberikan izin otorisasi, akhirnya facebook akan memberikan access token yang kemudian mengalihkan kamu kembali kepada aplikasi tersebut.
+https://www.facebook.com/dialog/oauth?client_id=app-id&amp;amp;redirect_uri=http://app-site.com
+Proses pengalihan/redirecting inilah yang menjadi celah yang memungkinkan para attacker mendapatkan data login pengguna, jika kamu lihat url diatas, attacker mungkin saja merekonstruksi link menjadi,</description>
+    </item>
+    
+  </channel>
+</rss>

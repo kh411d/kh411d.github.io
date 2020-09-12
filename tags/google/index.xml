@@ -6,39 +6,27 @@
     <description>Recent content in google on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 02 May 2015 15:50:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 Nov 2013 07:21:35 +0700</lastBuildDate>
     
 	<atom:link href="http://khal.web.id/tags/google/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Android On-Body phone lock, pinter juga neh!</title>
-      <link>http://khal.web.id/2015/05/02/android-on-body-phone-lock-pinter-juga-neh/</link>
-      <pubDate>Sat, 02 May 2015 15:50:00 +0000</pubDate>
+      <title>Mari berbagi soal Privasi di Sosial Media Online</title>
+      <link>http://khal.web.id/2013/11/07/mari-berbagi-soal-privasi-di-sosial-media-online/</link>
+      <pubDate>Thu, 07 Nov 2013 07:21:35 +0700</pubDate>
       
-      <guid>http://khal.web.id/2015/05/02/android-on-body-phone-lock-pinter-juga-neh/</guid>
-      <description>Tentunya penting buat kita semua untuk menjaga privasi dan keamanan henpon pribadi entah dari kelalaian kita sendiri atau tangan-tangan usil lainnya.
-Oleh karena itulah pada umumnya setiap henpon memiliki beberapa sistem keamanan dan salah satunya adalah Lock Screen system, yang berguna untuk mengunci henpon pengguna dengan sebuah PIN atau Pattern matching ketika henpon sedang berada dalam kondisi tidak digunakan.
-Pernahkah kamu pada suatu waktu sedang menggunakan henpon, diselingi dengan mengobrol dengan teman atau bermain game puzzle yg perlu mikir lama atau kegiatan lainnya, lalu kemudian henpon dengan sendirinya mengunci, karena ketika kita sedang mengobrol dengan teman, henpon masuk dalam keadaan idle atau sedang tidak digunakan.</description>
+      <guid>http://khal.web.id/2013/11/07/mari-berbagi-soal-privasi-di-sosial-media-online/</guid>
+      <description>Sebelum kita ngomongin soal privasi di sosial media online, tentunya kita harus tau dulu bentukan dari sosial media itu atau &amp;ldquo;Apa sih sosial media itu?&amp;rdquo;, sebenernya mudah saja untuk semua orang mendefinisikan artian dari sosial media (*baca: SosMed), tapi pada intinya SosMed adalah sebuah wadah dimana semua member/pengguna/partisipan bisa membangun relasi dan koneksi dengan member lain, tempat dimana kita bisa selalu terhubung dengan teman2x, menjalin hubungan baru, berbagi interest dan ide.</description>
     </item>
     
     <item>
-      <title>DIY Cyanogen nightly Auto Update</title>
-      <link>http://khal.web.id/2015/04/14/diy-cyanogen-nightly-auto-update/</link>
-      <pubDate>Tue, 14 Apr 2015 07:20:00 +0000</pubDate>
+      <title>Apaan tuh &#34;Google Wave Robots&#34; ??? Apaan aja sih ???</title>
+      <link>http://khal.web.id/2009/11/25/apaan-tuh-google-wave-robots-apaan-aja-sih/</link>
+      <pubDate>Wed, 25 Nov 2009 03:45:09 +0700</pubDate>
       
-      <guid>http://khal.web.id/2015/04/14/diy-cyanogen-nightly-auto-update/</guid>
-      <description>&amp;lt;img src=&amp;#34;/images/wpid-wp-1428958109831.png&amp;#34; alt=&amp;#34;image&amp;#34; title=&amp;#34;wp-1428958109831&amp;#34;&amp;gt; Instead of waiting and whining when will your OnePlus One get an OTA update, you could just quickly fetch the latest nightly build from CyanogenMod.org download page, just be careful not to download ROM that&amp;rsquo;s not suitable with your phone or else it will bricked your phone, as an example if your phone is OnePlus One, Bacon is the only ROM that you need to download.</description>
-    </item>
-    
-    <item>
-      <title>Aplikasi 3rd Party (Facebook,Paypal,dll) Aman gituh?? Lo harus tahu!</title>
-      <link>http://khal.web.id/2014/05/28/aplikasi-3rd-party-facebookpaypaldll-aman-gituh-lo-harus-tahu/</link>
-      <pubDate>Wed, 28 May 2014 20:08:25 +0000</pubDate>
-      
-      <guid>http://khal.web.id/2014/05/28/aplikasi-3rd-party-facebookpaypaldll-aman-gituh-lo-harus-tahu/</guid>
-      <description>&amp;lt;img src=&amp;#34;/images/48a572c60b93255986ba073bf5b1d865-1.jpg&amp;#34; alt=&amp;#34;48a572c60b93255986ba073bf5b1d865 (1)&amp;#34;&amp;gt;Yang gue maksud Aplikasi 3rd party disini adalah sebuah aplikasi yang berjalan sebagai aplikasi tambahan dari beberapa aplikasi yang sudah popular, aplikasi ini bisa berupa website, client app, mobile web, mobile app, desktop app, microsite, dll. (*mengulang kata aplikasi&amp;hellip; halah)
-Sebagai contoh kalo lo termasuk pengguna Twitter, lo pasti tau aplikasi yang namanya seismic, hootsuite, atau uber Twitter, semua aplikasi tersebut adalah aplikasi 3rd party dari Twitter. Aplikasi ini adalah aplikasi yang dibuat oleh pihak ketiga diluar dari Twitter, aplikasi ini mendapatkan izin dari pihak Twitter untuk mengakses data2x user dan menggunakannya di dalam aplikasi.</description>
+      <guid>http://khal.web.id/2009/11/25/apaan-tuh-google-wave-robots-apaan-aja-sih/</guid>
+      <description>Pertama gw mau kasih tau dulu apaan sih google wave robot (GWR) itu, sebenernya simple aja&amp;hellip; ya namanya juga robot jadi GWR itu adalah user otomatis (robot) yang bisa menjadi participant dari sebuah wave, user robot juga dapat membaca isi sebuah wave di mana robot itu berpartisipasi, google wave memodifikasi isi, menambah atau menghapus peserta, dan menciptakan wave baru. Singkatnya, user robot dapat melakukan banyak tindakan yang waver/peserta lainnya dapat melakukan.</description>
     </item>
     
   </channel>

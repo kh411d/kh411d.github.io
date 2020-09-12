@@ -5,17 +5,11 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    
-    
-        <meta name="twitter:card" content="summary"/>
-    
-
-
-
+    <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Replacement of fb visible-to-connection for iframe apps on facebook page tabs"/>
-<meta name="twitter:description" content=""/>
-<meta name="twitter:site" content="@khalidity"/>
-
+<meta name="twitter:description" content="Developing an Iframe app an somehow you want to use this FBML tag below.
+&lt;fb:visible-to-connection&gt; Only connections should view this.. &lt;/fb:visible-to-connection&gt;  On each call from page tab you can get a signed_request variable, the value is like this below,
+Array ( [algorithm] =&gt; HMAC-SHA256 [expires] =&gt; 0 [issued_at] =&gt; 1299140579 [oauth_token] =&gt; xxxxxxxxx|xxxxxxxxxxxxxxxx-xxxxxxxx|xxxxxx-xxxxxxxxxxxxxx [page] =&gt; Array ( [id] =&gt; xxxxxxxxxxxxxxxx [liked] =&gt; 1 [admin] =&gt; 1 ) [user] =&gt; Array ( [country] =&gt; id [locale] =&gt; en_US [age] =&gt; Array ( [min] =&gt; 21 ) ) [user_id] =&gt; xxxxxxxxxxx )  And then you can use &ldquo;page."/>
 
 
   	<meta property="og:title" content="Replacement of fb visible-to-connection for iframe apps on facebook page tabs &middot; Khalid&#39;s Blog" />
@@ -23,24 +17,27 @@
   	<meta property="og:url" content="http://khal.web.id/2011/03/03/replacement-of-fb-visible-to-connection-for-iframe-apps-on-facebook-page-tabs/" />
 
     
-        
-            <meta property="og:image" content="/images/sidebar.jpg"/>
-        
+       <meta property="og:image" content="/images/facebookdev.jpg"/>
+       <meta name="twitter:image" content="/images/facebookdev.jpg"/>
     
 
     
     <meta property="og:description" content="" />
   	<meta property="og:type" content="article" />
-    <meta property="article:published_time" content="2011-03-03T15:31:09Z" />
+    <meta property="article:published_time" content="2011-03-03T08:31:09&#43;07:00" />
 
+    
+    <meta property="article:tag" content="facebook" />
+    
+    <meta property="article:tag" content="tutorial" />
     
     
 
     <title>Replacement of fb visible-to-connection for iframe apps on facebook page tabs &middot; Khalid&#39;s Blog</title>
 
     
-    <meta name="description" content="Doing an IFRAME apps an somehow you want to use this tag below.
-&amp;lt;pre lang=&amp;quot;html&amp;quot;&amp;gt;&amp;lt;fb:visible-to-connection&amp;gt; Only connections should view t" />
+    <meta name="description" content="Developing an Iframe app an somehow you want to use this FBML tag below.
+&amp;lt;fb:visible-to-connection&amp;gt; Only connections should view this.. &amp;lt;/fb:visible-to" />
     
 
     <meta name="HandheldFriendly" content="True" />
@@ -110,17 +107,24 @@
     },
     "headline": "Replacement of fb visible-to-connection for iframe apps on facebook page tabs",
     "name": "Replacement of fb visible-to-connection for iframe apps on facebook page tabs",
-    "wordCount":  233 ,
+    "wordCount":  218 ,
     "timeRequired": "PT2M",
     "inLanguage": {
       "@type": "Language",
       "alternateName": "en"
     },
     "url": "http://khal.web.id/2011/03/03/replacement-of-fb-visible-to-connection-for-iframe-apps-on-facebook-page-tabs/",
-    "datePublished": "2011-03-03T15:31Z",
-    "dateModified": "2011-03-03T15:31Z",
+    "datePublished": "2011-03-03T08:31Z",
+    "dateModified": "2011-03-03T08:31Z",
     
+    "image": {
+        "@type": "ImageObject",
+        "url": "http://khal.web.id//images/facebookdev.jpg",
+        "width": 3000,
+        "height": 1445
+    },
     
+    "keywords": "facebook, tutorial",
     "description": "",
     "mainEntityOfPage": {
         "@type": "WebPage",
@@ -170,8 +174,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-<header class="main-header post-head no-cover">
-  <nav class="main-nav clearfix">
+  
+  <header class="main-header post-head" style="background-image: url(/images/facebookdev.jpg)">
+  
+  <nav class="main-nav overlay clearfix">
 
 
   
@@ -198,77 +204,76 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         <section class="post-meta">
         
-          <time class="post-date" datetime="2011-03-03T15:31:09Z">
+          <time class="post-date" datetime="2011-03-03T08:31:09&#43;07:00">
             Mar 3, 2011
           </time>
         
+         
+          <span class="post-tag small"><a href="http://khal.web.id//tags/facebook/">#facebook</a></span>
+         
+          <span class="post-tag small"><a href="http://khal.web.id//tags/tutorial/">#tutorial</a></span>
          
         </section>
     </header>
 
     <section class="post-content">
-      <p>Doing an IFRAME apps an somehow you want to use this tag below.</p>
-<pre><code>&lt;pre lang=&quot;html&quot;&gt;&lt;fb:visible-to-connection&gt;
-Only connections should view this..
+      <p>Developing an Iframe app an somehow you want to use this FBML tag below.</p>
+<pre><code>&lt;fb:visible-to-connection&gt;
+    Only connections should view this..
 &lt;/fb:visible-to-connection&gt;
 </code></pre>
-<p>Don&rsquo;t worry , on each call from page tab you can get a &ldquo;signed_request&rdquo; variable, when you extract it you will get<br>
-this,</p>
-<pre><code>&lt;pre lang=&quot;html&quot;&gt; Array
+<p>On each call from page tab you can get a <code>signed_request</code> variable, the value is like this below,</p>
+<pre><code>Array (
+    [algorithm] =&gt; HMAC-SHA256
+    [expires] =&gt; 0
+    [issued_at] =&gt; 1299140579
+    [oauth_token] =&gt; xxxxxxxxx|xxxxxxxxxxxxxxxx-xxxxxxxx|xxxxxx-xxxxxxxxxxxxxx
+    [page] =&gt; Array
         (
-            [algorithm] =&gt; HMAC-SHA256
-            [expires] =&gt; 0
-            [issued_at] =&gt; 1299140579
-            [oauth_token] =&gt; xxxxxxxxx|xxxxxxxxxxxxxxxx-xxxxxxxx|xxxxxx-xxxxxxxxxxxxxx
-            [page] =&gt; Array
-                (
-                    [id] =&gt; xxxxxxxxxxxxxxxx
-                    [liked] =&gt; 1
-                    [admin] =&gt; 1
-                )
-
-            [user] =&gt; Array
-                (
-                    [country] =&gt; id
-                    [locale] =&gt; en_US
-                    [age] =&gt; Array
-                        (
-                            [min] =&gt; 21
-                        )
-
-                )
-
-            [user_id] =&gt; xxxxxxxxxxx
+            [id] =&gt; xxxxxxxxxxxxxxxx
+            [liked] =&gt; 1
+            [admin] =&gt; 1
         )
+    [user] =&gt; Array
+        (
+            [country] =&gt; id
+            [locale] =&gt; en_US
+            [age] =&gt; Array
+                (
+                    [min] =&gt; 21
+                )
+        )
+    [user_id] =&gt; xxxxxxxxxxx
+)
 </code></pre>
-<p>And then you can use &ldquo;liked&rdquo; value to determine if the user has already like the page. The next question is how can you extract the signed request, if you have the new PHP-SDK you can use &ldquo;parseSignedRequest&rdquo; method , or you can use the functions below, its the same</p>
-<pre><code>&lt;pre lang=&quot;php&quot;&gt;function parse_signed_request($signed_request = null, $secret = null) {
-$signed_request = $signed_request ? $signed_request : $_REQUEST['signed_request'];
-$secret = $secret ? $secret : APP_SECRET;
-
-list($encoded_sig, $payload) = explode('.', $signed_request, 2);
-
-// decode the data
-$sig = base64_url_decode($encoded_sig);
-$data = json_decode(base64_url_decode($payload), true);
-
-if (strtoupper($data['algorithm']) !== 'HMAC-SHA256') {
-error_log('Unknown algorithm. Expected HMAC-SHA256');
-return null;
+<p>And then you can use &ldquo;page.liked&rdquo; attribute to determine whether the user already like the page. The next question is how can you extract the signed request? you can use &ldquo;parseSignedRequest&rdquo; method from PHP-SDK or you can try to use the code below,</p>
+<pre><code>function parse_signed_request($signed_request = null, $secret = null) {
+    $signed_request = $signed_request ? $signed_request : $_REQUEST['signed_request'];
+    $secret = $secret ? $secret : APP_SECRET;
+    
+    list($encoded_sig, $payload) = explode('.', $signed_request, 2);
+    
+    // decode the data
+    $sig = base64_url_decode($encoded_sig);
+    $data = json_decode(base64_url_decode($payload), true);
+    
+    if (strtoupper($data['algorithm']) !== 'HMAC-SHA256') {
+        error_log('Unknown algorithm. Expected HMAC-SHA256');
+        return null;
+    }
+    
+    // check sig
+    $expected_sig = hash_hmac('sha256', $payload, $secret, $raw = true);
+    if ($sig !== $expected_sig) {
+        error_log('Bad Signed JSON signature!');
+        return null;
+    }
+    
+    return $data;
 }
-
-// check sig
-$expected_sig = hash_hmac('sha256', $payload, $secret, $raw = true);
-if ($sig !== $expected_sig) {
-error_log('Bad Signed JSON signature!');
-return null;
-}
-
-return $data;
-}
-
+    
 function base64_url_decode($input) {
-return base64_decode(strtr($input, '-_', '+/'));
+    return base64_decode(strtr($input, '-_', '+/'));
 }</code></pre>
 
     </section>
@@ -357,7 +362,7 @@ s.setAttribute('data-timestamp', +new Date());
 
   <aside class="read-next">
   
-      <a class="read-next-story" style="no-cover" href="/2011/03/03/set-a-facebook-session-for-you-apps-from-access-token/">
+      <a class="read-next-story" style="background-image: url(/images/facebookdev.jpg)" href="/2011/03/03/set-a-facebook-session-for-you-apps-from-access-token/">
           <section class="post">
               <h2>Set a facebook session app from access token</h2>
               
@@ -365,7 +370,7 @@ s.setAttribute('data-timestamp', +new Date());
       </a>
   
   
-      <a class="read-next-story prev" style="no-cover" href="/2011/03/03/two-ways-to-login-or-authenticate-using-facebook-js-sdk-dialog-box/">
+      <a class="read-next-story prev" style="background-image: url(/images/facebookdev.jpg)" href="/2011/03/03/two-ways-to-login-or-authenticate-using-facebook-js-sdk-dialog-box/">
           <section class="post">
               <h2>Two ways to Login or Authenticate using Facebook JS SDK Dialog box</h2>
           </section>

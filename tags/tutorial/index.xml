@@ -18,7 +18,198 @@
       
       <guid>http://khal.web.id/2020/09/08/The-Markdown-Rises/</guid>
       <description>It’s been a while, maybe a year since my last post, so I thought I have to at least write a post and hopefully going to be an easy read, so here I’m going to talk about the why, the what, and the how of the Markdown.
-What&amp;rsquo;s with the rises? The Markdown is trending when Static Site Generators (SSG) are getting popular and becoming the next big thing of the Internet, especially the search engine, Google and the other search engines start to penalize sites that load slowly, simply because users experience interacting with a web page becomes vital.</description>
+What&amp;rsquo;s with the rises? Markdown is trending when Static Site Generators (SSG) are getting popular and becoming the next big thing of the Internet.</description>
+    </item>
+    
+    <item>
+      <title>How to retro gaming with RetroArch</title>
+      <link>http://khal.web.id/2016/05/16/how-to-retro-gaming-with-retroarch/</link>
+      <pubDate>Mon, 16 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://khal.web.id/2016/05/16/how-to-retro-gaming-with-retroarch/</guid>
+      <description>Lately, I&amp;rsquo;ve been amazed by Retroarch, this is not like any other emulators, it can be played on any platform i.e. Linux, Windows, Blackberry, OSX, RaspberryPi, Android, iOS and also Xbox, Playstation, GameCube, Wii, 3DS. The cross-platform emulator is awesome, isn&amp;rsquo;t it?
+That&amp;rsquo;s not all, RetroArch can emulate a lot of gaming console starting from Atari, SEGA, Nintendo, GameCube, NDS, PSX, MAME, or even a game watch. It&amp;rsquo;s kinda like a bucket with a lot of game consoles inside.</description>
+    </item>
+    
+    <item>
+      <title>Cara maksa 3G/HSPA di android kamu</title>
+      <link>http://khal.web.id/2015/12/20/cara-maksa-3ghspa-only-di-android-kamu/</link>
+      <pubDate>Sun, 20 Dec 2015 04:18:37 +0700</pubDate>
+      
+      <guid>http://khal.web.id/2015/12/20/cara-maksa-3ghspa-only-di-android-kamu/</guid>
+      <description>Pernah gak suatu ketika henpon kamu secara otomatis hanya menggunakan jaringan 2G padahal jaringan 3G nya available meskipun mungkin sinyal 3G nya hanya sekitar 5%. Hal ini juga yg menyebabkan pulsa kamu dimakan oleh provider telco dikarenakan paket data yg kamu beli hanya berguna untuk 3G saja.
+Hmm&amp;hellip; kenapa begitu ya? Ini dikarenakan kebanyakan henpon android sekarang yg mempunyai mode pengaturan untuk 2G atau 3G sebenarnya ketika kita pilih misal 3G bukan berarti henpon akan melakukan koneksi ke 3G saja, melainkan lebih ke 3G preferred, artinya ketika sinyal 3G kurang kuat misal dibawah 10%, henpon akan melakukan koneksi 2G/edge, padahal sinyal 3Gnya masih bisa dipakai, annoying bukan!</description>
+    </item>
+    
+    <item>
+      <title>[NOTE] Upgrade NodeJS lokal via NPM dan &#34;n&#34; module</title>
+      <link>http://khal.web.id/2014/02/19/note-upgrade-nodejs-lokal-via-npm-dan-n-module/</link>
+      <pubDate>Wed, 19 Feb 2014 07:55:27 +0700</pubDate>
+      
+      <guid>http://khal.web.id/2014/02/19/note-upgrade-nodejs-lokal-via-npm-dan-n-module/</guid>
+      <description>Sebelum NodeJS-nya di-upgrade, cek dulu versi yang ter-install,
+$node -v v0.10.12  Bersih2x NPM Cache,
+sudo npm cache clean -f  Install &amp;ldquo;n&amp;rdquo; Node binary manager ,
+sudo npm install -g n  Upgrade Node ke versi terakhir,
+sudo n 0.10.26  Atau bisa langsung upgrade ke versi stable terakhir,
+sudo n stable  Cek versi node yg telah terupgrade,
+$node -v v0.10.26 </description>
+    </item>
+    
+    <item>
+      <title>Low RAM Android? No Worry at All</title>
+      <link>http://khal.web.id/2014/01/23/low-ram-android-no-worry/</link>
+      <pubDate>Thu, 23 Jan 2014 06:40:58 +0700</pubDate>
+      
+      <guid>http://khal.web.id/2014/01/23/low-ram-android-no-worry/</guid>
+      <description>Ever think to change my old android smartphone into a much better one, however, the android market seems to change very fast, in every year you will see how many new android devices being shipped with their new technology, hardware, and new operating system, which is IMHO I don&amp;rsquo;t think that the enhancement they made, is having a big difference in a way I use my phone. So I somehow manage to wait for another 3 or 5 years for replacing my devices.</description>
+    </item>
+    
+    <item>
+      <title>Hardening your password and yet still easy to remember it</title>
+      <link>http://khal.web.id/2014/01/15/hardening-your-password-and-yet-still-easy-to-remember-it/</link>
+      <pubDate>Wed, 15 Jan 2014 12:16:53 +0700</pubDate>
+      
+      <guid>http://khal.web.id/2014/01/15/hardening-your-password-and-yet-still-easy-to-remember-it/</guid>
+      <description>A password is a key for accessing your online properties on the internet. Many people like your friends, brothers, or maybe your colleague been using an easy guess password, such as his dog name, mother name, his last name, or maybe the very most favorite everyone password 12345. The easier a password to remember, the easier for an attacker to guess.
+Please don&amp;rsquo;t use Just hackme password. There are so many ways how people could easily guess your password, as easy as looking behind your shoulder while you&amp;rsquo;re typing a password at the computer or maybe an ATM machine, according to Wikipedia this is called Shoulder Surfing</description>
+    </item>
+    
+    <item>
+      <title>Using Facebook Test User</title>
+      <link>http://khal.web.id/2011/07/27/using-facebook-test-user/</link>
+      <pubDate>Wed, 27 Jul 2011 08:59:35 +0700</pubDate>
+      
+      <guid>http://khal.web.id/2011/07/27/using-facebook-test-user/</guid>
+      <description>If you don&amp;rsquo;t know what Facebook Test User is? you may check the documentation on http://developers.facebook.com/docs/test_users/
+Test User is a tool that could be handy when you need to have some users to interact with your application, facebook currently provide this through Graph Api.
+I&amp;rsquo;ve made this simple php class consuming only facebook test account API, you may copy-paste from github
+Some example,
+$acc = new Facebook_TestAccount($appID,$Secret,$app_access_token); //Create N User $acc-&amp;gt;createMany($_REQUEST[&#39;n&#39;],$parameter) //Delete All User created by App $acc-&amp;gt;deleteAll() //Listing all user created by App Access Token $acc-&amp;gt;access()  </description>
+    </item>
+    
+    <item>
+      <title>Facebook PHP SDK v3.01 now free cookies</title>
+      <link>http://khal.web.id/2011/07/06/facebook-php-sdk-v3-01-now-free-cookies/</link>
+      <pubDate>Wed, 06 Jul 2011 13:38:44 +0700</pubDate>
+      
+      <guid>http://khal.web.id/2011/07/06/facebook-php-sdk-v3-01-now-free-cookies/</guid>
+      <description>Now the new SDK has been released, on the beginning of june 2011 I guess.
+Well the main different from v3.00 is? Now the CSRF state is rely on persistent data which is a session named &amp;ldquo;state&amp;rdquo; and not using cookie anymore!, and if you see on the constructor , it checks whether session already start yet, giving an option to start the session.
+Feel free to update, as usual the code rely on github</description>
+    </item>
+    
+    <item>
+      <title>Getting People Likes and Comments from facebook comment post </title>
+      <link>http://khal.web.id/2011/03/15/getting-people-likes-and-comments-from-facebook-comment-post/</link>
+      <pubDate>Tue, 15 Mar 2011 07:19:33 +0700</pubDate>
+      
+      <guid>http://khal.web.id/2011/03/15/getting-people-likes-and-comments-from-facebook-comment-post/</guid>
+      <description>A simple way to know people likes and comment on your post or other people post is through Comment Graph Api, you will need an access token to use it, this might be useful when you want to count the total of people who likesyour post.
+Every post on your News Feed (Photos, Photo Album, Video, Status, notes) will have an fbid that you can use it for the Comment Graph Api, take a look with firebug for fbid if you want to check it.</description>
+    </item>
+    
+    <item>
+      <title>Facebook add access permission to Application Security</title>
+      <link>http://khal.web.id/2011/03/07/facebook-add-access-permission-to-application-security/</link>
+      <pubDate>Mon, 07 Mar 2011 08:45:37 +0700</pubDate>
+      
+      <guid>http://khal.web.id/2011/03/07/facebook-add-access-permission-to-application-security/</guid>
+      <description>Sometime when you made some apps, there were another user who wants to check about the insight of the app, or maybe just want to test the apps, back then you might have to give all access to a user through www.facebook.com/developer.
+These day facebook make a flexibility to define access permission per user,
+I&amp;rsquo;m trying to explain in a simple way,
+   Access Technical Dashboard Manage users Insights Dashboard Adv Reset App Secret Delete App Sandbox Mode     Administrator o o o o o o o   Developer o x o x x o o   Tester x x x x x o x   Insights x x o x x x o    So if you see the table above, adding users to your apps, only works if you have a permission as an administrator, an insight user cannot view the apps when on sandbox mode, but the tester can and without any verification to test it.</description>
+    </item>
+    
+    <item>
+      <title>Set a facebook session app from access token</title>
+      <link>http://khal.web.id/2011/03/03/set-a-facebook-session-for-you-apps-from-access-token/</link>
+      <pubDate>Thu, 03 Mar 2011 08:52:36 +0700</pubDate>
+      
+      <guid>http://khal.web.id/2011/03/03/set-a-facebook-session-for-you-apps-from-access-token/</guid>
+      <description>In some situation you will want to create a facebook session for your app, for example you get the code query string after user granted your app, now you can construct the url like below,
+https://graph.facebook.com/oauth/access_token?client_id=YOUR_APP_ID&amp;amp;redirect_uri=YOUR_URL&amp;amp;client_secret=YOUR_APP_SECRET&amp;amp;code=THE_CODE_FROM_ABOVE  And then you need to construct session variables base from the access token, these are functions that might help you,
+//Build your session variables function generateSessionVars($accessToken) { $e = explode(&#39;|&#39;,$accessToken); $s = explode(&#39;-&#39;,$e[1]); $params = array( &#39;uid&#39;=&amp;gt;trim($s[1]), &#39;access_token&#39; =&amp;gt; trim($accessToken) ); $params[&#39;sig&#39;] = generateSignature($params,APP_SECRET); return $params; } //Generate session signature base on you App Secret function generateSignature($params,$secret) { // work with sorted data ksort($params); // generate the base string $base_string = &#39;&#39;; foreach($params as $key =&amp;gt; $value) { $base_string .</description>
+    </item>
+    
+    <item>
+      <title>Replacement of fb visible-to-connection for iframe apps on facebook page tabs</title>
+      <link>http://khal.web.id/2011/03/03/replacement-of-fb-visible-to-connection-for-iframe-apps-on-facebook-page-tabs/</link>
+      <pubDate>Thu, 03 Mar 2011 08:31:09 +0700</pubDate>
+      
+      <guid>http://khal.web.id/2011/03/03/replacement-of-fb-visible-to-connection-for-iframe-apps-on-facebook-page-tabs/</guid>
+      <description>Developing an Iframe app an somehow you want to use this FBML tag below.
+&amp;lt;fb:visible-to-connection&amp;gt; Only connections should view this.. &amp;lt;/fb:visible-to-connection&amp;gt;  On each call from page tab you can get a signed_request variable, the value is like this below,
+Array ( [algorithm] =&amp;gt; HMAC-SHA256 [expires] =&amp;gt; 0 [issued_at] =&amp;gt; 1299140579 [oauth_token] =&amp;gt; xxxxxxxxx|xxxxxxxxxxxxxxxx-xxxxxxxx|xxxxxx-xxxxxxxxxxxxxx [page] =&amp;gt; Array ( [id] =&amp;gt; xxxxxxxxxxxxxxxx [liked] =&amp;gt; 1 [admin] =&amp;gt; 1 ) [user] =&amp;gt; Array ( [country] =&amp;gt; id [locale] =&amp;gt; en_US [age] =&amp;gt; Array ( [min] =&amp;gt; 21 ) ) [user_id] =&amp;gt; xxxxxxxxxxx )  And then you can use &amp;ldquo;page.</description>
+    </item>
+    
+    <item>
+      <title>Two ways to Login or Authenticate using Facebook JS SDK Dialog box</title>
+      <link>http://khal.web.id/2011/03/03/two-ways-to-login-or-authenticate-using-facebook-js-sdk-dialog-box/</link>
+      <pubDate>Thu, 03 Mar 2011 08:09:05 +0700</pubDate>
+      
+      <guid>http://khal.web.id/2011/03/03/two-ways-to-login-or-authenticate-using-facebook-js-sdk-dialog-box/</guid>
+      <description>There is two easy way to authenticate a user with Facebook JS SDK,
+Using FB.UI,
+FB.ui( { method: &#39;oauth&#39;, display:&#39;iframe&#39;, perms:APP_EXT_PERMISSIONS }, function(response) { if(response.session) { console.dir(response); if(redirectURL) location.href = redirectURL; } } );  Using FB.DIALOG,
+FB.login(function(response) { if (response.session) { if (response.perms) { //Logged and Permission Granted if(redirectURL) location.href = redirectURL; } else { //Logged and Permisssion NOT Granted if(redirectURL) location.href = redirectURL; } } else { alert(&amp;quot;Only Authorized User can use this Application!</description>
+    </item>
+    
+    <item>
+      <title>Getting Ready for IFRAME Facebook App based</title>
+      <link>http://khal.web.id/2010/10/28/getting-ready-for-iframe-facebook-app-based/</link>
+      <pubDate>Thu, 28 Oct 2010 06:58:22 +0700</pubDate>
+      
+      <guid>http://khal.web.id/2010/10/28/getting-ready-for-iframe-facebook-app-based/</guid>
+      <description>At this time you need to be ready to migrate your facebook apps to Iframe based apps, because as it written on Facebook Developer Roadmap
+ &amp;ldquo;We will stop allowing new FBML applications, but will continue to support existing FBML tabs and applications. Instead, we recommend using IFrames.&amp;rdquo; at the End of 2010.
+ And then OAUTH 2.0 will required for new applications,
+ &amp;ldquo;We will remove the ability for new applications to use our old authentication mechanism, but will continue to support existing applications using our old method.</description>
+    </item>
+    
+    <item>
+      <title>Iframe on Facebook Fan Pages Tabs</title>
+      <link>http://khal.web.id/2010/07/20/iframe-on-facebook-fan-pages-tabs/</link>
+      <pubDate>Tue, 20 Jul 2010 09:47:33 +0700</pubDate>
+      
+      <guid>http://khal.web.id/2010/07/20/iframe-on-facebook-fan-pages-tabs/</guid>
+      <description>Iframe will not be supported on facebook fan pages tab, the strange thing is, it only happened on first load and the you&amp;rsquo;ll get this error iframe not supported
+I just figured out that apps on Fan Pages Tab need an action from user, so then to get an iframe working on tab,
+ In your Tab Url file i.e. index.php, create a href tag, that will link to somefile.php</description>
+    </item>
+    
+    <item>
+      <title>Koding bareng dengan Bespin</title>
+      <link>http://khal.web.id/2009/11/19/bespin-a-collaborative-coding-dengan-teman2x-kamu-somewhere-out-there-in-the-cloud/</link>
+      <pubDate>Thu, 19 Nov 2009 08:10:30 +0700</pubDate>
+      
+      <guid>http://khal.web.id/2009/11/19/bespin-a-collaborative-coding-dengan-teman2x-kamu-somewhere-out-there-in-the-cloud/</guid>
+      <description>Bespin from Mozilla Labs adalah sebuah code editor dengan berbasis web, tentunya bertujuan untuk meningkatkan produktivitas dari developer, karena editor ini berbasis web maka bespin bisa di gunakan oleh developer dimanapun berada, sayangnya tidak semua browser bisa menunjang aplikasi ini.
+ &amp;ldquo;Code In The Cloud&amp;rdquo; - Bespin
+ Feature-feature yang ada pada Bespin cukup banyak, satu hal yang menarik perhatian gw adalah feature collaborative coding. Hal pertama yang harus lo lakukan adalah melakukan registrasi dan login ke bespin.</description>
+    </item>
+    
+    <item>
+      <title>Gimana caranya bikin tampilan Firefox lo jadi kaya Chrome</title>
+      <link>http://khal.web.id/2009/11/11/gimana-caranya-bikin-tampilan-firefox-lo-jadi-kaya-chrome/</link>
+      <pubDate>Wed, 11 Nov 2009 07:55:29 +0700</pubDate>
+      
+      <guid>http://khal.web.id/2009/11/11/gimana-caranya-bikin-tampilan-firefox-lo-jadi-kaya-chrome/</guid>
+      <description>Salah satu hal yang gw suka dari Chrome adalah themes nya yang simple clean dan enteng di liat deh pokoknya &amp;hellip;, masalahnya gw jarang pake tuh yang namanya Chrome kalo untuk development (Can&amp;rsquo;t live whitout firefox), ya udah deh gw mulai cari sana sini gimana caranya bisa bikin tampilan firefox jadi kaya chrome, mudah2x nih artikel berguna dah &amp;hellip;
+Ada beberapa firefox extension yang kudu di install &amp;hellip;
+ Chrome Themes : https://addons.</description>
+    </item>
+    
+    <item>
+      <title>PNG fix for IE</title>
+      <link>http://khal.web.id/2009/05/04/PNG-fix-for-IE/</link>
+      <pubDate>Mon, 04 May 2009 11:22:20 +0700</pubDate>
+      
+      <guid>http://khal.web.id/2009/05/04/PNG-fix-for-IE/</guid>
+      <description>Thanks to Angus Turnbull who made this fix and made PNG image looks good on IE, these are two files that you need to implement,
+ iepngfix.htc iepngfix_tilebg.js  Usage Include iepngfix.htc on your css style file
+&amp;lt;pre name=&amp;quot;code&amp;quot; class=&amp;quot;css&amp;quot; &amp;gt; *html img, *html #anydivid { behavior: url(style/iepngfix.htc); border:0; padding:0; } &amp;lt;/pre&amp;gt;  include this iepngfix_tilebg.js on you html header, it&amp;rsquo;s support transparent image on background position and repeat.
+More complete detail &amp;hellip; you can check his website http://www.</description>
     </item>
     
   </channel>

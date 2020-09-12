@@ -6,19 +6,29 @@
     <description>Recent content in telco on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Apr 2015 15:42:06 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 Dec 2015 04:18:37 +0700</lastBuildDate>
     
 	<atom:link href="http://khal.web.id/tags/telco/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Ulah nakal ISP praktik browser Frame Busting</title>
+      <title>Cara maksa 3G/HSPA di android kamu</title>
+      <link>http://khal.web.id/2015/12/20/cara-maksa-3ghspa-only-di-android-kamu/</link>
+      <pubDate>Sun, 20 Dec 2015 04:18:37 +0700</pubDate>
+      
+      <guid>http://khal.web.id/2015/12/20/cara-maksa-3ghspa-only-di-android-kamu/</guid>
+      <description>Pernah gak suatu ketika henpon kamu secara otomatis hanya menggunakan jaringan 2G padahal jaringan 3G nya available meskipun mungkin sinyal 3G nya hanya sekitar 5%. Hal ini juga yg menyebabkan pulsa kamu dimakan oleh provider telco dikarenakan paket data yg kamu beli hanya berguna untuk 3G saja.
+Hmm&amp;hellip; kenapa begitu ya? Ini dikarenakan kebanyakan henpon android sekarang yg mempunyai mode pengaturan untuk 2G atau 3G sebenarnya ketika kita pilih misal 3G bukan berarti henpon akan melakukan koneksi ke 3G saja, melainkan lebih ke 3G preferred, artinya ketika sinyal 3G kurang kuat misal dibawah 10%, henpon akan melakukan koneksi 2G/edge, padahal sinyal 3Gnya masih bisa dipakai, annoying bukan!</description>
+    </item>
+    
+    <item>
+      <title>Ulah nakal ISP praktik clickjacking</title>
       <link>http://khal.web.id/2015/04/19/ulah-nakal-isp-praktik-browser-frame-busting/</link>
-      <pubDate>Sun, 19 Apr 2015 15:42:06 +0000</pubDate>
+      <pubDate>Sun, 19 Apr 2015 08:42:06 +0700</pubDate>
       
       <guid>http://khal.web.id/2015/04/19/ulah-nakal-isp-praktik-browser-frame-busting/</guid>
-      <description>&amp;lt;img src=&amp;#34;/images/wpid-img_20150419_141835.jpg&amp;#34; alt=&amp;#34;image&amp;#34; title=&amp;#34;IMG_20150419_141835.jpg&amp;#34;&amp;gt; Beberapa ISP di indonesia tanpa konsumen sadari sebenarnya sangat sering melakukan praktik frame busting hampir di semua website yg konsumen kunjungi, alasan ISP melakukan hal ini tidak lain adalah penempatan iklan gratis dari ISP tersebut tanpa sepengetahuan si empunya website.
-Lalu, bagaimanakah cara kerja Frame Busting ini? Ketika konsumen mengunjungi sebuah website misal &amp;ldquo;Forbes.com&amp;rdquo;, ISP akan membungkus &amp;ldquo;Forbes.com&amp;rdquo; dalam sebuah iframe/frames lalu kemudian ditampilkan pada browser konsumen, bagian sisi diluar iframe biasanya akan menampilkan iklan gambar dari ISP tersebut.</description>
+      <description>Beberapa ISP di indonesia tanpa konsumen sadari sebenarnya sangat sering melakukan praktik clickjacking hampir di semua website yg konsumen kunjungi, alasan ISP melakukan hal ini tidak lain adalah penempatan iklan gratis dari ISP tersebut tanpa sepengetahuan si empunya website.
+Lalu, bagaimanakah cara kerja clickjacking ini? Ketika user mengunjungi sebuah website misal &amp;ldquo;Forbes .com&amp;rdquo;, ISP akan membungkus &amp;ldquo;Forbes .com&amp;rdquo; dalam sebuah iframe yang lalu ditampilkan pada browser user, bagian luar iframe biasanya akan menampilkan baner iklan liar dari ISP tersebut.</description>
     </item>
     
   </channel>

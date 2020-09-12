@@ -5,17 +5,10 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    
-    
-        <meta name="twitter:card" content="summary"/>
-    
-
-
-
+    <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="How to get realtime Now Playing info from Ice Cast"/>
-<meta name="twitter:description" content=""/>
-<meta name="twitter:site" content="@khalidity"/>
-
+<meta name="twitter:description" content="Getting a #NowPlaying info from your Ice Cast 2 server is pretty dead simple. You can get current track information from scrapping the XSPF url periodically by using CURL command. Here I&rsquo;m going to explain how it works, I&rsquo;m going to make a short javascript code to periodically update the current playing track and a simple php script to curl the xspf endpoint.
+ Locate your Ice Cast Server url, usually it will look like this http://xxx."/>
 
 
   	<meta property="og:title" content="How to get realtime Now Playing info from Ice Cast &middot; Khalid&#39;s Blog" />
@@ -23,37 +16,26 @@
   	<meta property="og:url" content="http://khal.web.id/2014/08/12/how-to-get-realtime-now-playing-info-from-ice-cast/" />
 
     
-        
-            <meta property="og:image" content="/images/sidebar.jpg"/>
-        
+       <meta property="og:image" content="/images/icecastnowplaying.png"/>
+       <meta name="twitter:image" content="/images/icecastnowplaying.png"/>
     
 
     
     <meta property="og:description" content="" />
   	<meta property="og:type" content="article" />
-    <meta property="article:published_time" content="2014-08-12T12:04:45Z" />
+    <meta property="article:published_time" content="2014-08-12T05:04:45&#43;07:00" />
 
-    
-    <meta property="article:tag" content="xspf" />
     
     <meta property="article:tag" content="icecast" />
     
-    <meta property="article:tag" content="radio" />
-    
-    <meta property="article:tag" content="realtime" />
-    
-    <meta property="article:tag" content="onlineradio" />
-    
-    <meta property="article:tag" content="ajax" />
-    
-    <meta property="article:tag" content="jquery" />
+    <meta property="article:tag" content="online-streaming" />
     
     
 
     <title>How to get realtime Now Playing info from Ice Cast &middot; Khalid&#39;s Blog</title>
 
     
-    <meta name="description" content="&amp;lt;img src=&amp;#34;/images/icecastxspf.png&amp;#34; alt=&amp;#34;icecastxspf&amp;#34;&amp;gt;Getting a #NowPlaying info from your Ice Cast 2 server is pretty dead simple. You may" />
+    <meta name="description" content="Getting a #NowPlaying info from your Ice Cast 2 server is pretty dead simple. You can get current track information from scrapping the XSPF url periodically by " />
     
 
     <meta name="HandheldFriendly" content="True" />
@@ -123,17 +105,24 @@
     },
     "headline": "How to get realtime Now Playing info from Ice Cast",
     "name": "How to get realtime Now Playing info from Ice Cast",
-    "wordCount":  201 ,
+    "wordCount":  204 ,
     "timeRequired": "PT1M",
     "inLanguage": {
       "@type": "Language",
       "alternateName": "en"
     },
     "url": "http://khal.web.id/2014/08/12/how-to-get-realtime-now-playing-info-from-ice-cast/",
-    "datePublished": "2014-08-12T12:04Z",
-    "dateModified": "2014-08-12T12:04Z",
+    "datePublished": "2014-08-12T05:04Z",
+    "dateModified": "2014-08-12T05:04Z",
     
-    "keywords": "xspf, icecast, radio, realtime, onlineradio, ajax, jquery",
+    "image": {
+        "@type": "ImageObject",
+        "url": "http://khal.web.id//images/icecastnowplaying.png",
+        "width": 3000,
+        "height": 1445
+    },
+    
+    "keywords": "icecast, online-streaming",
     "description": "",
     "mainEntityOfPage": {
         "@type": "WebPage",
@@ -183,8 +172,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-<header class="main-header post-head no-cover">
-  <nav class="main-nav clearfix">
+  
+  <header class="main-header post-head" style="background-image: url(/images/icecastnowplaying.png)">
+  
+  <nav class="main-nav overlay clearfix">
 
 
   
@@ -211,45 +202,65 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         <section class="post-meta">
         
-          <time class="post-date" datetime="2014-08-12T12:04:45Z">
+          <time class="post-date" datetime="2014-08-12T05:04:45&#43;07:00">
             Aug 12, 2014
           </time>
         
          
-          <span class="post-tag small"><a href="http://khal.web.id//tags/xspf/">#xspf</a></span>
-         
           <span class="post-tag small"><a href="http://khal.web.id//tags/icecast/">#icecast</a></span>
          
-          <span class="post-tag small"><a href="http://khal.web.id//tags/radio/">#radio</a></span>
-         
-          <span class="post-tag small"><a href="http://khal.web.id//tags/realtime/">#realtime</a></span>
-         
-          <span class="post-tag small"><a href="http://khal.web.id//tags/onlineradio/">#onlineradio</a></span>
-         
-          <span class="post-tag small"><a href="http://khal.web.id//tags/ajax/">#ajax</a></span>
-         
-          <span class="post-tag small"><a href="http://khal.web.id//tags/jquery/">#jquery</a></span>
+          <span class="post-tag small"><a href="http://khal.web.id//tags/online-streaming/">#online-streaming</a></span>
          
         </section>
     </header>
 
     <section class="post-content">
-      <p><a href="/images/icecastxspf.png">&lt;img src=&#34;/images/icecastxspf.png&#34; alt=&#34;icecastxspf&#34;&gt;</a>Getting a #NowPlaying info from your Ice Cast 2 server is pretty dead simple. You may get current track information just by fetching an XSPF url from Ice Cast 2 server, unlike M3U, XSPF is an XML data that you can fetch periodically by CURL command or a simple script like php, python, or everything else you like. You may want to check <a href="http://www.xspf.org" title="www.xspf.org" target="_blank">www.xspf.org</a> to know more about it. Here I&rsquo;m going to explain how it works, I&rsquo;m gonna use a simple jquery ajax script, a short javascript code for periodically update the ajax request and a simple php script to fetch the xspf endpoint.</p>
+      <p>Getting a #NowPlaying info from your Ice Cast 2 server is pretty dead simple. You can get current track information from scrapping the XSPF url periodically by using CURL command. Here I&rsquo;m going to explain how it works, I&rsquo;m going to make a short javascript code to periodically update the current playing track and a simple php script to curl the xspf endpoint.</p>
 <ol>
-<li>Locate your Ice Cast Server url, usually it will look like this <a href="http://xxx.xxx.xxx.xxx">http://xxx.xxx.xxx.xxx</a>:8000/status.xsl, check your mount point, ex: /mount. So your xspf url will be <a href="http://xxx.xxx.xxx.xxx">http://xxx.xxx.xxx.xxx</a>:8000/mount.xspf <a href="/images/Screen_Shot_2014-08-12_at_11_33_32_AM.jpg">&lt;img src=&#34;/images/Screen_Shot_2014-08-12_at_11_33_32_AM-1024x359.jpg&#34; alt=&#34;Screen_Shot_2014-08-12_at_11_33_32_AM&#34;&gt;</a></li>
-<li>Create a small function to fetch xspf endpoint for your php file, and save it to file &ldquo;xspf_function.php&rdquo;
-<!-- raw HTML omitted -->
+<li>Locate your Ice Cast Server url, usually it will look like this <code>http://xxx.xxx.xxx.xxx:8000/status.xsl</code>, check your mount point, ex: <code>/mount</code>. So your xspf url will be <code>http://xxx.xxx.xxx.xxx:8000/mount.xspf</code></li>
+</ol>
+<p><img src="/images/Screen_Shot_2014-08-12_at_11_33_32_AM.jpg" alt="Screen_Shot_2014-08-12_at_11_33_32_AM"></p>
+<ol start="2">
+<li>
+<p>Create a small function to fetch xspf endpoint for your php file, <code>xspf_function.php</code></p>
+<pre><code> function getXSPF(){
+     $XSPFurl = 'http://xxx.xxx.xxx.xxx:8000/mount.xspf';
+     $xml = simplexml_load_file($XSPFurl);
+     $stream['info']['title'] = (string) $xml-&gt;trackList-&gt;track-&gt;title;
+     $stream['info']['location'] = (string) $xml-&gt;trackList-&gt;track-&gt;location;
+	
+     preg_match_all('/^(.*):(.*)/m', (string) $xml-&gt;trackList-&gt;track-&gt;annotation,$matches);
+     if(isset($matches[1]) &amp;&amp; isset($matches[2])){
+         $t = array_combine($matches[1], $matches[2]);
+         foreach($t as $key =&gt; $val){
+             $fkey = str_replace(&quot; &quot;, &quot;_&quot;,$key);
+             $stream['info'][strtolower($fkey)] = trim($val);
+         }
+     }
+     return $stream;
+ }
+</code></pre>
 </li>
-<li>Setup your ajax php file, ex: current_track.php
-<!-- raw HTML omitted -->
+<li>
+<p>Setup your ajax php file, <code>current_track.php</code></p>
+<pre><code> require_once &quot;xspf_function.php&quot;
+ $stream = getXSPF();
+ echo $stream['info']['title'];
+</code></pre>
 </li>
-<li>Set your javascript periodic track updater on your current streaming website
-<!-- raw HTML omitted -->
-<p>$(document).ready(function() {      setInterval(function(){        $(&quot;#current-track&rdquo;).load(&ldquo;current_track.php&rdquo;);      }, 10 * 1000);    });
-// ]]&gt;<!-- raw HTML omitted --></p>
+<li>
+<p>And then, put this script before the end of html head tag</p>
+<pre><code> &lt;script src=&quot;//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+ &lt;script type=&quot;text/javascript&quot;&gt;
+     $(document).ready(function() {     
+         setInterval(function(){        
+             $(&quot;#current-track&quot;).load(&quot;current_track.php&quot;);      
+         }, 10 * 1000);    });
+ &lt;/script&gt;
+</code></pre>
+<p>The <code>setInterval()</code> function will periodically execute an ajax request to fetch new content from icecast xspf mount point.</p>
 </li>
 </ol>
-<p>The setInterval() function will periodically execute an ajax request to fetch new content from icecast xspf mount point.</p>
 
     </section>
 
@@ -337,15 +348,15 @@ s.setAttribute('data-timestamp', +new Date());
 
   <aside class="read-next">
   
-      <a class="read-next-story" style="no-cover" href="/2014/08/18/ahh-a-dreadful-battery-life-is-it-a-smartwatch-a-cellphone-or-just-another-complicated-gadget/">
+      <a class="read-next-story" style="background-image: url(/images/20shadesmartwatch.jpg)" href="/2014/08/18/ahh-a-dreadful-battery-life-is-it-a-smartwatch-a-cellphone-or-just-another-complicated-gadget/">
           <section class="post">
-              <h2>Ahh.. a Dreadful battery life, Is it a Smartwatch, a Cellphone or just another complicated gadget?</h2>
+              <h2>Dreadful battery life, Is it a Smartwatch, a Cellphone or just another complicated gadget?</h2>
               
           </section>
       </a>
   
   
-      <a class="read-next-story prev" style="no-cover" href="/2014/07/11/aplikasi-mobile-ifttt-bakal-bikin-android-lo-makin-canggih/">
+      <a class="read-next-story prev" style="background-image: url(/images/ifttt.png)" href="/2014/07/11/aplikasi-mobile-ifttt-bakal-bikin-android-lo-makin-canggih/">
           <section class="post">
               <h2>Aplikasi mobile IFTTT bakal bikin Android lo makin canggih!</h2>
           </section>

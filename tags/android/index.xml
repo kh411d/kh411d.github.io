@@ -6,26 +6,15 @@
     <description>Recent content in android on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Aug 2018 23:08:09 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 25 Jan 2016 13:02:42 +0700</lastBuildDate>
     
 	<atom:link href="http://khal.web.id/tags/android/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>20 Shades of Smartwatch</title>
-      <link>http://khal.web.id/2018/08/06/20-Shades-of-Smartwatch/</link>
-      <pubDate>Mon, 06 Aug 2018 23:08:09 +0700</pubDate>
-      
-      <guid>http://khal.web.id/2018/08/06/20-Shades-of-Smartwatch/</guid>
-      <description>Had enough with all smartwatch vendor these days, and it&amp;rsquo;s time to give my feedback base on 3 years experience using the pebble watch.
-I&amp;rsquo;m going to share about what feature is really working or not, and if you are a smartwatch maker that just happens reading this blog I&amp;rsquo;m hoping this post will be a clue for your next flagship idea.
-It&amp;rsquo;s all more to smartwatch functionality, I don&amp;rsquo;t care whether it comes with a fancy strap, stainless/plastic body, or a screen made by a gorilla, as long as it is sturdy enough, it&amp;rsquo;s ok with me.</description>
-    </item>
-    
-    <item>
       <title>Nge-mix Android di Macbook/PC</title>
       <link>http://khal.web.id/2016/01/25/nge-mix-android-di-macbookpc/</link>
-      <pubDate>Mon, 25 Jan 2016 13:02:42 +0000</pubDate>
+      <pubDate>Mon, 25 Jan 2016 13:02:42 +0700</pubDate>
       
       <guid>http://khal.web.id/2016/01/25/nge-mix-android-di-macbookpc/</guid>
       <description>Mungkin banyak yg sudah pada tahu kelebihan Android ini, tetapi kebanyakan orang terbiasa tahu bahwa android hanya running di henpon, tablet, IOT devices, atau mini PC dengan USB stick.
@@ -36,7 +25,7 @@ Berawal dari sebuah company bernama JIDE Technology yg diusung oleh 3 ex-Google 
     <item>
       <title>Android On-Body phone lock, pinter juga neh!</title>
       <link>http://khal.web.id/2015/05/02/android-on-body-phone-lock-pinter-juga-neh/</link>
-      <pubDate>Sat, 02 May 2015 15:50:00 +0000</pubDate>
+      <pubDate>Sat, 02 May 2015 08:50:00 +0700</pubDate>
       
       <guid>http://khal.web.id/2015/05/02/android-on-body-phone-lock-pinter-juga-neh/</guid>
       <description>Tentunya penting buat kita semua untuk menjaga privasi dan keamanan henpon pribadi entah dari kelalaian kita sendiri atau tangan-tangan usil lainnya.
@@ -45,54 +34,33 @@ Pernahkah kamu pada suatu waktu sedang menggunakan henpon, diselingi dengan meng
     </item>
     
     <item>
-      <title>DnsCrypt sikat bersih Telco intrusive ads ( Telkomsel, XL-Axiata )</title>
-      <link>http://khal.web.id/2015/04/18/dnscrypt-sikat-bersih-telco-intrusive-ads-telkomsel-xl-axiata/</link>
-      <pubDate>Sat, 18 Apr 2015 23:30:00 +0000</pubDate>
-      
-      <guid>http://khal.web.id/2015/04/18/dnscrypt-sikat-bersih-telco-intrusive-ads-telkomsel-xl-axiata/</guid>
-      <description>Syebel, jengkel, kesal, bosan, gegara iklan pengganggu/ intrusive ads beberapa provider telco di Indonesia seperti Telkomsel dan XL Axiata, bahkan banyak dari beberapa orang/badan/lembaga yang membuat petisi akan hal ini tetapi tidak mendapatkan respon dari pemerintah.
-Iklan tersebut dapat dikategorikan intrusive ads karena iklan yang diberikan oleh provider telekom ini dilakukan tanpa izin atau kerjasama dengan pemilik situs/website dan bahkan isi konten dari iklan tersebut sama sekali tidak berhubungan dengan konten website yang dituju oleh konsumen.</description>
-    </item>
-    
-    <item>
-      <title>DIY Cyanogen nightly Auto Update</title>
-      <link>http://khal.web.id/2015/04/14/diy-cyanogen-nightly-auto-update/</link>
-      <pubDate>Tue, 14 Apr 2015 07:20:00 +0000</pubDate>
-      
-      <guid>http://khal.web.id/2015/04/14/diy-cyanogen-nightly-auto-update/</guid>
-      <description>&amp;lt;img src=&amp;#34;/images/wpid-wp-1428958109831.png&amp;#34; alt=&amp;#34;image&amp;#34; title=&amp;#34;wp-1428958109831&amp;#34;&amp;gt; Instead of waiting and whining when will your OnePlus One get an OTA update, you could just quickly fetch the latest nightly build from CyanogenMod.org download page, just be careful not to download ROM that&amp;rsquo;s not suitable with your phone or else it will bricked your phone, as an example if your phone is OnePlus One, Bacon is the only ROM that you need to download.</description>
-    </item>
-    
-    <item>
-      <title>Ahh.. a Dreadful battery life, Is it a Smartwatch, a Cellphone or just another complicated gadget?</title>
-      <link>http://khal.web.id/2014/08/18/ahh-a-dreadful-battery-life-is-it-a-smartwatch-a-cellphone-or-just-another-complicated-gadget/</link>
-      <pubDate>Mon, 18 Aug 2014 13:39:28 +0000</pubDate>
-      
-      <guid>http://khal.web.id/2014/08/18/ahh-a-dreadful-battery-life-is-it-a-smartwatch-a-cellphone-or-just-another-complicated-gadget/</guid>
-      <description>&amp;lt;img src=&amp;#34;/images/smartwatch.jpg&amp;#34; alt=&amp;#34;smartwatch&amp;#34;&amp;gt;Big vendors of wearable hardware are keep pushing themself to put their grip in the race of smartwatch technology, they seem to compete with who can have a fancy and killer feature. Some feature such as call from watch, texting, voice recognition, listen to music, expensive glass, heart rate sensor, overkill notification, fancy screen color, builtin camera, builtin gps, and etc. But still, you need to pair the watch with your daily phone to get it work.</description>
-    </item>
-    
-    <item>
       <title>Aplikasi mobile IFTTT bakal bikin Android lo makin canggih!</title>
       <link>http://khal.web.id/2014/07/11/aplikasi-mobile-ifttt-bakal-bikin-android-lo-makin-canggih/</link>
-      <pubDate>Fri, 11 Jul 2014 16:03:57 +0000</pubDate>
+      <pubDate>Fri, 11 Jul 2014 09:03:57 +0700</pubDate>
       
       <guid>http://khal.web.id/2014/07/11/aplikasi-mobile-ifttt-bakal-bikin-android-lo-makin-canggih/</guid>
       <description>IFTTT adalah sebuah alat yang akan memudahkan otomatisasi kegiatan lo sehari-hari dengan dunia internet. Cara pemakaian IFTTT pun cukup mudah, sama sekali gak perlu ngerti IT banget. Sumpah gak boong :-)
 IFTTT baru-baru ini mengenalkan aplikasi untuk smartphone Android, yang nantinya berguna untuk meng-otomatisasi fitur smartphone seperti, sms, call, location, photo, dan notification.
-Aplikasi bisa di download melalui Google Play Store
-&amp;lt;img src=&amp;#34;/images/ifttt_1.jpg&amp;#34; alt=&amp;#34;ifttt_1&amp;#34;&amp;gt;&amp;lt;img src=&amp;#34;/images/ifttt_2.jpg&amp;#34; alt=&amp;#34;ifttt_2&amp;#34;&amp;gt;
-Banyak banget resep IFTTT yang bisa lo bikin, dari yang paling berguna buat hidup lo sampai yang paling absurd sekalipun, he he :)</description>
+Banyak banget resep IFTTT yang bisa lo bikin, dari yang paling berguna buat hidup lo sampai yang paling absurd sekalipun</description>
     </item>
     
     <item>
       <title>Nanti gue &#34;Yo!&#34; aja ya...</title>
       <link>http://khal.web.id/2014/06/19/nanti-gue-yo-aja-ya/</link>
-      <pubDate>Thu, 19 Jun 2014 16:20:34 +0000</pubDate>
+      <pubDate>Thu, 19 Jun 2014 09:20:34 +0700</pubDate>
       
       <guid>http://khal.web.id/2014/06/19/nanti-gue-yo-aja-ya/</guid>
-      <description>&amp;lt;img src=&amp;#34;/images/Screen-Shot-2014-06-19-at-3.52.31-PM-300x283.png&amp;#34; alt=&amp;#34;Screen Shot 2014-06-19 at 3.52.31 PM&amp;#34;&amp;gt;Yo, yo , yoooooo! &amp;hellip;. Ha ha, satu lagi terobosan baru cara berkomunikasi dengan temen-temen lo, sebenernya sih ga baru-baru amet, kalo dulu jaman gw baru2x masuk kuliah taun 90-an pasti lo tau deh yang namanya &amp;ldquo;Miss Call&amp;rdquo; cuman buat ngasih tau kalo lo dah nyampe kelas, ato buat ngasih tau dah nyampe tempat janjian misalnya di mall, kafe, dll.
+      <description>Yo, yo , yoooooo! &amp;hellip;. Ha ha, satu lagi terobosan baru cara berkomunikasi dengan temen-temen lo, sebenernya sih ga baru-baru amet, kalo dulu jaman gw baru2x masuk kuliah taun 90-an pasti lo tau deh yang namanya &amp;ldquo;Miss Call&amp;rdquo; cuman buat ngasih tau kalo lo dah nyampe kelas, ato buat ngasih tau dah nyampe tempat janjian misalnya di mall, kafe, dll.
 Aplikasi Android/Iphone bernama Yo ini punya moto &amp;ldquo;Zero-character communication tool&amp;rdquo; ya cara kerjanya mirip-mirip sama miss call gitu deh, buat yang mau coba silakan kunjungi websitenya di http://www.</description>
+    </item>
+    
+    <item>
+      <title>Low RAM Android? No Worry at All</title>
+      <link>http://khal.web.id/2014/01/23/low-ram-android-no-worry/</link>
+      <pubDate>Thu, 23 Jan 2014 06:40:58 +0700</pubDate>
+      
+      <guid>http://khal.web.id/2014/01/23/low-ram-android-no-worry/</guid>
+      <description>Ever think to change my old android smartphone into a much better one, however, the android market seems to change very fast, in every year you will see how many new android devices being shipped with their new technology, hardware, and new operating system, which is IMHO I don&amp;rsquo;t think that the enhancement they made, is having a big difference in a way I use my phone. So I somehow manage to wait for another 3 or 5 years for replacing my devices.</description>
     </item>
     
   </channel>

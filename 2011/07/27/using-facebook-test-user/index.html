@@ -5,17 +5,13 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    
-    
-        <meta name="twitter:card" content="summary"/>
-    
-
-
-
+    <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Using Facebook Test User"/>
-<meta name="twitter:description" content=""/>
-<meta name="twitter:site" content="@khalidity"/>
-
+<meta name="twitter:description" content="If you don&rsquo;t know what Facebook Test User is? you may check the documentation on http://developers.facebook.com/docs/test_users/
+Test User is a tool that could be handy when you need to have some users to interact with your application, facebook currently provide this through Graph Api.
+I&rsquo;ve made this simple php class consuming only facebook test account API, you may copy-paste from github
+Some example,
+$acc = new Facebook_TestAccount($appID,$Secret,$app_access_token); //Create N User $acc-&gt;createMany($_REQUEST[&#39;n&#39;],$parameter) //Delete All User created by App $acc-&gt;deleteAll() //Listing all user created by App Access Token $acc-&gt;access()  "/>
 
 
   	<meta property="og:title" content="Using Facebook Test User &middot; Khalid&#39;s Blog" />
@@ -23,16 +19,19 @@
   	<meta property="og:url" content="http://khal.web.id/2011/07/27/using-facebook-test-user/" />
 
     
-        
-            <meta property="og:image" content="/images/sidebar.jpg"/>
-        
+       <meta property="og:image" content="/images/facebookdev.jpg"/>
+       <meta name="twitter:image" content="/images/facebookdev.jpg"/>
     
 
     
     <meta property="og:description" content="" />
   	<meta property="og:type" content="article" />
-    <meta property="article:published_time" content="2011-07-27T15:59:35Z" />
+    <meta property="article:published_time" content="2011-07-27T08:59:35&#43;07:00" />
 
+    
+    <meta property="article:tag" content="facebook" />
+    
+    <meta property="article:tag" content="tutorial" />
     
     
 
@@ -40,7 +39,7 @@
 
     
     <meta name="description" content="If you don&amp;rsquo;t know what Facebook Test User is? you may check the documentation on http://developers.facebook.com/docs/test_users/
-Test User is a Tool that " />
+Test User is a tool that " />
     
 
     <meta name="HandheldFriendly" content="True" />
@@ -110,17 +109,24 @@ Test User is a Tool that " />
     },
     "headline": "Using Facebook Test User",
     "name": "Using Facebook Test User",
-    "wordCount":  166 ,
+    "wordCount":  87 ,
     "timeRequired": "PT1M",
     "inLanguage": {
       "@type": "Language",
       "alternateName": "en"
     },
     "url": "http://khal.web.id/2011/07/27/using-facebook-test-user/",
-    "datePublished": "2011-07-27T15:59Z",
-    "dateModified": "2011-07-27T15:59Z",
+    "datePublished": "2011-07-27T08:59Z",
+    "dateModified": "2011-07-27T08:59Z",
     
+    "image": {
+        "@type": "ImageObject",
+        "url": "http://khal.web.id//images/facebookdev.jpg",
+        "width": 3000,
+        "height": 1445
+    },
     
+    "keywords": "facebook, tutorial",
     "description": "",
     "mainEntityOfPage": {
         "@type": "WebPage",
@@ -170,8 +176,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-<header class="main-header post-head no-cover">
-  <nav class="main-nav clearfix">
+  
+  <header class="main-header post-head" style="background-image: url(/images/facebookdev.jpg)">
+  
+  <nav class="main-nav overlay clearfix">
 
 
   
@@ -198,19 +206,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         <section class="post-meta">
         
-          <time class="post-date" datetime="2011-07-27T15:59:35Z">
+          <time class="post-date" datetime="2011-07-27T08:59:35&#43;07:00">
             Jul 27, 2011
           </time>
         
+         
+          <span class="post-tag small"><a href="http://khal.web.id//tags/facebook/">#facebook</a></span>
+         
+          <span class="post-tag small"><a href="http://khal.web.id//tags/tutorial/">#tutorial</a></span>
          
         </section>
     </header>
 
     <section class="post-content">
       <p>If you don&rsquo;t know what Facebook Test User is? you may check the documentation on <a href="http://developers.facebook.com/docs/test_users/" title="Facebook Test User Docs" target="_blank">http://developers.facebook.com/docs/test_users/</a></p>
-<p>Test User is a Tool that could be a handy when you need to have some users to interact with your application, facebook currently provide this through Graph Api and you can easily try out with your app application id and secret. And you actually not need the facebook php-sdk you can use your own CURL class lib, you can use my php class on github <a href="http://goo.gl/QRz1n">http://goo.gl/QRz1n</a></p>
-<p>Some Wrapper I&rsquo;ve made,</p>
-<pre><code>&lt;pre lang=&quot;php&quot;&gt;$acc = new Facebook_TestAccount($appID,$Secret,$app_access_token);
+<p>Test User is a tool that could be handy when you need to have some users to interact with your application, facebook currently provide this through Graph Api.</p>
+<p>I&rsquo;ve made this simple php class consuming only facebook test account API, you may copy-paste from <a href="https://github.com/kh411d/PHP-Facebook-App-Admin/blob/master/lib/Facebook_TestAccount.class.php" target="_blank">github</a></p>
+<p>Some example,</p>
+<pre><code>$acc = new Facebook_TestAccount($appID,$Secret,$app_access_token);
 
 //Create N User
 $acc-&gt;createMany($_REQUEST['n'],$parameter)
@@ -221,9 +234,6 @@ $acc-&gt;deleteAll()
 //Listing all user created by App Access Token
 $acc-&gt;access()
 </code></pre>
-<p>And some basic things like connecting user each other, edit a user, etc .<br>
-you can try the example on my github link above, the class is part of my plan to make a simple web app for facebook app administration like getting an insights, approving request, creating test user, etc.<br>
-anything that modify</p>
 
     </section>
 
@@ -311,15 +321,15 @@ s.setAttribute('data-timestamp', +new Date());
 
   <aside class="read-next">
   
-      <a class="read-next-story" style="no-cover" href="/2011/09/13/twitter-age-gateway-workflow-design/">
+      <a class="read-next-story" style="background-image: url(/images/mobilephotography.jpg)" href="/2011/12/11/berbagi-fotografi-dengan-aplikasi-android-gratis/">
           <section class="post">
-              <h2>Twitter Age Gateway Workflow Design</h2>
+              <h2>Berbagi Fotografi dengan Aplikasi Android Gratis</h2>
               
           </section>
       </a>
   
   
-      <a class="read-next-story prev" style="no-cover" href="/2011/07/06/facebook-php-sdk-v3-01-now-free-cookies/">
+      <a class="read-next-story prev" style="background-image: url(/images/facebookdev.jpg)" href="/2011/07/06/facebook-php-sdk-v3-01-now-free-cookies/">
           <section class="post">
               <h2>Facebook PHP SDK v3.01 now free cookies</h2>
           </section>

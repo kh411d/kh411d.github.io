@@ -6,7 +6,7 @@
     <description>Recent content in security on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 02 May 2015 15:50:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2015 08:50:00 +0700</lastBuildDate>
     
 	<atom:link href="http://khal.web.id/tags/security/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,42 +14,12 @@
     <item>
       <title>Android On-Body phone lock, pinter juga neh!</title>
       <link>http://khal.web.id/2015/05/02/android-on-body-phone-lock-pinter-juga-neh/</link>
-      <pubDate>Sat, 02 May 2015 15:50:00 +0000</pubDate>
+      <pubDate>Sat, 02 May 2015 08:50:00 +0700</pubDate>
       
       <guid>http://khal.web.id/2015/05/02/android-on-body-phone-lock-pinter-juga-neh/</guid>
       <description>Tentunya penting buat kita semua untuk menjaga privasi dan keamanan henpon pribadi entah dari kelalaian kita sendiri atau tangan-tangan usil lainnya.
 Oleh karena itulah pada umumnya setiap henpon memiliki beberapa sistem keamanan dan salah satunya adalah Lock Screen system, yang berguna untuk mengunci henpon pengguna dengan sebuah PIN atau Pattern matching ketika henpon sedang berada dalam kondisi tidak digunakan.
 Pernahkah kamu pada suatu waktu sedang menggunakan henpon, diselingi dengan mengobrol dengan teman atau bermain game puzzle yg perlu mikir lama atau kegiatan lainnya, lalu kemudian henpon dengan sendirinya mengunci, karena ketika kita sedang mengobrol dengan teman, henpon masuk dalam keadaan idle atau sedang tidak digunakan.</description>
-    </item>
-    
-    <item>
-      <title>Ulah nakal ISP praktik browser Frame Busting</title>
-      <link>http://khal.web.id/2015/04/19/ulah-nakal-isp-praktik-browser-frame-busting/</link>
-      <pubDate>Sun, 19 Apr 2015 15:42:06 +0000</pubDate>
-      
-      <guid>http://khal.web.id/2015/04/19/ulah-nakal-isp-praktik-browser-frame-busting/</guid>
-      <description>&amp;lt;img src=&amp;#34;/images/wpid-img_20150419_141835.jpg&amp;#34; alt=&amp;#34;image&amp;#34; title=&amp;#34;IMG_20150419_141835.jpg&amp;#34;&amp;gt; Beberapa ISP di indonesia tanpa konsumen sadari sebenarnya sangat sering melakukan praktik frame busting hampir di semua website yg konsumen kunjungi, alasan ISP melakukan hal ini tidak lain adalah penempatan iklan gratis dari ISP tersebut tanpa sepengetahuan si empunya website.
-Lalu, bagaimanakah cara kerja Frame Busting ini? Ketika konsumen mengunjungi sebuah website misal &amp;ldquo;Forbes.com&amp;rdquo;, ISP akan membungkus &amp;ldquo;Forbes.com&amp;rdquo; dalam sebuah iframe/frames lalu kemudian ditampilkan pada browser konsumen, bagian sisi diluar iframe biasanya akan menampilkan iklan gambar dari ISP tersebut.</description>
-    </item>
-    
-    <item>
-      <title>DnsCrypt sikat bersih Telco intrusive ads ( Telkomsel, XL-Axiata )</title>
-      <link>http://khal.web.id/2015/04/18/dnscrypt-sikat-bersih-telco-intrusive-ads-telkomsel-xl-axiata/</link>
-      <pubDate>Sat, 18 Apr 2015 23:30:00 +0000</pubDate>
-      
-      <guid>http://khal.web.id/2015/04/18/dnscrypt-sikat-bersih-telco-intrusive-ads-telkomsel-xl-axiata/</guid>
-      <description>Syebel, jengkel, kesal, bosan, gegara iklan pengganggu/ intrusive ads beberapa provider telco di Indonesia seperti Telkomsel dan XL Axiata, bahkan banyak dari beberapa orang/badan/lembaga yang membuat petisi akan hal ini tetapi tidak mendapatkan respon dari pemerintah.
-Iklan tersebut dapat dikategorikan intrusive ads karena iklan yang diberikan oleh provider telekom ini dilakukan tanpa izin atau kerjasama dengan pemilik situs/website dan bahkan isi konten dari iklan tersebut sama sekali tidak berhubungan dengan konten website yang dituju oleh konsumen.</description>
-    </item>
-    
-    <item>
-      <title>Aplikasi 3rd Party (Facebook,Paypal,dll) Aman gituh?? Lo harus tahu!</title>
-      <link>http://khal.web.id/2014/05/28/aplikasi-3rd-party-facebookpaypaldll-aman-gituh-lo-harus-tahu/</link>
-      <pubDate>Wed, 28 May 2014 20:08:25 +0000</pubDate>
-      
-      <guid>http://khal.web.id/2014/05/28/aplikasi-3rd-party-facebookpaypaldll-aman-gituh-lo-harus-tahu/</guid>
-      <description>&amp;lt;img src=&amp;#34;/images/48a572c60b93255986ba073bf5b1d865-1.jpg&amp;#34; alt=&amp;#34;48a572c60b93255986ba073bf5b1d865 (1)&amp;#34;&amp;gt;Yang gue maksud Aplikasi 3rd party disini adalah sebuah aplikasi yang berjalan sebagai aplikasi tambahan dari beberapa aplikasi yang sudah popular, aplikasi ini bisa berupa website, client app, mobile web, mobile app, desktop app, microsite, dll. (*mengulang kata aplikasi&amp;hellip; halah)
-Sebagai contoh kalo lo termasuk pengguna Twitter, lo pasti tau aplikasi yang namanya seismic, hootsuite, atau uber Twitter, semua aplikasi tersebut adalah aplikasi 3rd party dari Twitter. Aplikasi ini adalah aplikasi yang dibuat oleh pihak ketiga diluar dari Twitter, aplikasi ini mendapatkan izin dari pihak Twitter untuk mengakses data2x user dan menggunakannya di dalam aplikasi.</description>
     </item>
     
   </channel>

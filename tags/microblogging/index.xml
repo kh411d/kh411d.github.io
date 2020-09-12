@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>microblogging on Khalid&#39;s Blog</title>
+    <link>http://khal.web.id/tags/microblogging/</link>
+    <description>Recent content in microblogging on Khalid&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Dec 2013 11:42:34 +0700</lastBuildDate>
+    
+	<atom:link href="http://khal.web.id/tags/microblogging/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Registrasi gratis aplikasi microblogging App.net</title>
+      <link>http://khal.web.id/2013/12/23/registrasi-app-net/</link>
+      <pubDate>Mon, 23 Dec 2013 11:42:34 +0700</pubDate>
+      
+      <guid>http://khal.web.id/2013/12/23/registrasi-app-net/</guid>
+      <description>Mungkin dulu ada yg tau soal microblogging platform yg satu ini, namanya App.Net, tanpa sengaja dan tak tahu mengapa tiba2x gue memebuka url untuk registrasi di App.Net yg notabene, dulunya user yg mau menggunakan platform ini harus nembayar $35/tahun atau $5/bulan.
+ a service that put user first
+ Artinya user tidak akan melihat Iklan/Ads sama sekali, ternyata kayaknya sih yang mendaftar terlalu sedikit, jadi pada akhirnya bulan desember ini mereka memberikan paket gratis buat user baru tapi limitasinya lumayan juga, cekidot aja di http://alpha.</description>
+    </item>
+    
+  </channel>
+</rss>
