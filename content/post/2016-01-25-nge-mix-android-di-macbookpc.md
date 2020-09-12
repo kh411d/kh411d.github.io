@@ -6,7 +6,7 @@ tags:
 - macos
 - remixos
 url: /2016/01/25/nge-mix-android-di-macbookpc/
-image: /images/remixos_web.jpg
+image: /images/auroracover.jpg
 ---
 
 Mungkin banyak yg sudah pada tahu kelebihan Android ini, tetapi kebanyakan orang terbiasa tahu bahwa android hanya running di henpon, tablet, IOT devices, atau mini PC dengan USB stick.

@@ -5,17 +5,17 @@ draft: false
 image: /images/20shadesmartwatch.jpg
 share: true    # set false to hide share buttons
 tags: ["smartwatch"]
-title: Smartwatch that you need
+title: The Smartwatch that you need
 url: /2018/08/06/20-Shades-of-Smartwatch/
 ---
 
-Had enough with all kind of smartwatch these days and this is my feedback based on my three years experience using a smartwatch. I'm going to talk about features, what's working and what's not, and if it's happen you're in a smartwatch industry, I'm hoping this is going to be your clue for the next product line.
+I had enough with all feature bloated smartwatch these days and I felt like to share my year's experience using a smartwatch. Talking about features, what's working and what's not, and if it happens you're in a smartwatch industry, I hope this is going to be your guide for the next product line.
 
-So here I'm going to list the features from most important to the most useless.
+So these are the list of features from most important to the most useless.
 
 ###### Longer battery life
 
-Believe me, who wants to charge their watch every day? or maybe in a matter of hours, battery life should hold a week or maybe a month to be acceptable.
+Believe me, who wants to charge their watch every day? or maybe in a matter of hours, battery life should hold a week or maybe a month to be acceptable. Or else, your watch will ended up in a drawer.
 
 ###### Basic UI with an always on display
 
@@ -63,7 +63,7 @@ To be honest, I don't like this feature on watches because the accuracy is quest
 
 ###### Digital Camera
 
-Yes this feature is existed on a smartwatch, an Indiegogo campaign for this kind of watch is successfully funded, shipped with 5mp camera, battery life will surely be drained like hell, idk how many shots could made until the battery drop.
+Yes this feature is existed on a smartwatch, an Indiegogo campaign for this kind of watch is successfully funded, shipped with 5mp camera, I don't know how many shots could be made until the battery went out.
 
 ###### Altimeter, Barometer and Thermometer
 

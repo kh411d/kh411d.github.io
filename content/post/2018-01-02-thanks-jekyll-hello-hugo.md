@@ -1,7 +1,7 @@
 ---
 comments: true # set false to hide Disqus
 date: 2018-01-02T23:18:55+07:00
-image: /images/hugo-head.jpg
+image: /images/hugocover.jpg
 share: true    # set false to hide share buttons
 tags: ["jekyll","hugo","static-site-generator"]
 title: Thanks Jekyll. Hello Hugo

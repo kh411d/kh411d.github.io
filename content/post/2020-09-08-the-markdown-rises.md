@@ -27,10 +27,9 @@ And so you don’t have to be dependant on WYSIWYG editor that comes quite varie
 As I mentioned before, the changes from the WYSIWYG editor will be visible immediately. But in Markdown, you need to add some **[Markdown Syntax]({{< relref "#markdown-syntax" >}})** to your writing, and then the text will be stored in a plaintext file with `*.md` extension. But, How do you get the file converted to `.html, .pdf, .epub, .doc, or .mobi` ? Yes, indeed you need a _converter, parser, implementation, or an app_ and those are called a __[Markdown processor](https://github.com/markdown/markdown.github.com/wiki/Implementations)__ 
 
 To summaries,
-- you wrote some text with Markdown syntax on a plaintext file, 
-- save it with `*.md` extension, 
-- open the file in any app that could convert your `*.md` file or _copy-paste_ the text to any markdown parser as mentioned above.
-- and then convert it to HTML or any file format like PDF.
+- Write some text with markdown syntax in any text editor, 
+- Save it with `*.md` extension, 
+- Open the file in any markdown file _converter_, or _copy-paste_ the text to any markdown parser I mentioned above.
 
 ##### How should I use Markdown?
 
@@ -38,13 +37,13 @@ Nowadays, markdown can be use for blogging thanks to SSG, as you can see, this s
 
 ##### The Benefits
 
-In my experience, after you get used to, you will experience faster writing, more focus, less distraction, easy editing, generics, means that, your writing can be easily migrate to any type of documents `(html, pdf, epub, doc, or mobi)`. Not to worry, you can also use any html tags to your writing. As result, I never want to write my blog post using any other than markdown.
+In my experience, after you get used to, you will experience faster writing, more focus, less distraction, easy editing, generics, means that, your writing can be easily migrate to any type of documents `(html, pdf, epub, doc, or mobi)`. Not to worry, you can also use any html tags to your writing. As result, I never want to write my blog post using any other tools than markdown.
 
 ## Markdown Syntax {id="markdown-syntax"}
 
 As you go through all these syntaxes, you need to pay attention to _spaces, tabs, and indentations_ because it matters. You can _copy-paste_ the example below to any online Markdown editor mentioned above.
 
-###### Headers 
+###### Headers `<h1..h6/>`
 
 Add a couple of **\#** hash and a single space at the beginning of a word or sentences, the number of **\#** hash corresponds to the heading level.
 
@@ -65,7 +64,7 @@ H2 with line
 ------
 ```
 
-###### Paragraphs <p/>
+###### Paragraphs `<p/>`
 
 ```
 Use a blank line to separate between paragraph, don't indent paragraph with spaces or tabs
@@ -73,20 +72,22 @@ Use a blank line to separate between paragraph, don't indent paragraph with spac
 This is the second paragraph
 ```
 
-###### Line Breaks <br/>
-Sometimes when you hit `<Enter>` once (i.e., insert a new line) the line break should be created, but if it's not, try to end the word or sentence with 2 or more spaces, inserting two lines will create you another paragraph
+###### Line Breaks `<br/>`
+Sometimes when you hit `<Enter>` once (i.e., insert a new line) the line break should be created, but if it's not, try to end the word or sentence with 2 or more spaces
 
 ```
-Does this work without spaces
-This is another line
+Try to end this line with no spaces
+The line after line break
 
-Try to End a line with 2 or more spaces  
-This is another line
+---
+
+Try to end this line with 2 spaces  
+The line after line break
 ```
 
 ___Technical note:___ If the result above is the same, then the markdown processor uses GFM line breaks, so there's no need to use MD's two-space line breaks.
 
-###### Italic <em/>
+###### Italic `<em/>`
 
 Add **\*** or **\_**  before and after a word or sentence
 ```
@@ -94,7 +95,7 @@ Let's make it *skew and yummy*
 Let's make it _skew and yummy_
 ```
 
-###### Bold <strong/>
+###### Bold `<strong/>`
 
 Add **\*\*** or **\_\_**  before and after a word or sentence
 ```
@@ -102,7 +103,7 @@ Let's make it **BOLD AND BALD**
 Let's make it __BOLD AND BALD__
 ```
 
-###### Bold and Italic
+###### Bold and Italic `<strong><em>`
 
 Add **\*\*\*** or **\_\_\_** before and after a word or sentence
 ```
@@ -110,7 +111,7 @@ Let's make it ***BOLD AND SKEW***
 Let's make it ___BOLD AND SKEW___
 ```
 
-###### Blockquotes <blockquote/>
+###### Blockquotes `<blockquote/>`
 
 Add **\>** in front of a word or sentence
 
@@ -139,7 +140,7 @@ With other elements,
 > But the dawn is breaking
 ```
 
-###### Ordered List 
+###### Ordered List `<ol/>`
 
 Add number and period in front of the word or sentence, the first number is important, the rest will follow.
 Add two blank lines to create another group of list
@@ -167,7 +168,7 @@ Create new group of list
 ```
 
 
-###### Unordered List 
+###### Unordered List `<ul/>`
 
 You may add these symbols **\*** (asterisk) or **\+** (plus) or **\-** (dash) in front of the sentence to create an unordered list, the way you insert another element to the list is pretty much the same as the ordered list, the different that might happened is that the unordered list doesn't create a paragraph inside the list at the first place. 
 
@@ -192,7 +193,7 @@ You may add these symbols **\*** (asterisk) or **\+** (plus) or **\-** (dash) in
 ```
 
 
-###### Code Blocks
+###### Code Blocks `<pre><code>`
 
 The Code blocks normally indented with four spaces or a tab, the other way is to enclose the codes with three of this **\`** tick symbol at the beginning and the end of the code (not available in all markdown processor).
 
@@ -247,7 +248,7 @@ All the symbol that you can escape,
 | \.      |  dot/period  |
 | \!      | exclamation  |
 
-###### Horizontal Rules <hr/>
+###### Horizontal Rules `<hr/>`
 
 ```
 ***
@@ -255,17 +256,17 @@ All the symbol that you can escape,
 ---
 ```
 
-###### Images
+###### Images `<img/>`
 
 You may use either an absolute or relative path
 
     ![Markdown Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/208px-Markdown-mark.svg.png)
 
-###### Links
+###### Links `<a/>`
 
     [Check out my Twitter @khalidity](https://twitter.com/khalidity)
 
-###### Reference-style links
+###### Reference-style links `<a/>`
 
 If you got so many links on your post and you're kinda want to make it a little bit neat, you can try to reference all the links in one place.
 
@@ -279,7 +280,7 @@ There is a lot of search engine that is worth for you to try such as [Google][1]
 [4]: <https://duckduckgo.com> 'duckduckgo title'
 ```
 
-###### URLs and Email
+###### URLs and Email `<a/>`
 
     <https://khal.web.id>
     <johndoe@fake.com>
@@ -288,7 +289,7 @@ There is a lot of search engine that is worth for you to try such as [Google][1]
 
 These extended syntaxes below aren't available in all Markdown processors or parsers, you need to experiment yourself.
 
-###### Tables
+###### Tables `<table/>`
 
 To create a table, you need to use three or more hyphens \-\-\- to create each column's header, and some pipes \| to separate each column
 
@@ -326,7 +327,7 @@ Link to Heading IDs,
 
     [Another header with ID]({{< relref "#custom-id" >}})
 
-###### Definition List
+###### Definition List `<dl/>`
 
 ```
 Term one
@@ -337,13 +338,13 @@ Term two
 : another definition of 2nd term
 ```
 
-###### Strikethrough
+###### Strikethrough `<del/>`
 
 ```
 You\'ll never ~~die~~
 ```
 
-###### Task lists
+###### Task lists `<input type="checkbox"/>`
 
 You can create a list of items with checkboxes if it's supported by a markdown processor
 

@@ -1,6 +1,6 @@
 ---
 date: 2016-09-01T00:00:00Z
-image: /images/IoT.jpg
+image: /images/iotcover.jpg
 share: true    # set false to hide share buttons
 tags: ["iot"]
 title: Apa sih IoT (Internet Of Things)
