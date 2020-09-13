@@ -186,6 +186,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	
 	   <article class="post post">
     <header class="post-header">
+        <h2 class="post-title"><a href="/2011/03/03/two-ways-to-login-or-authenticate-using-facebook-js-sdk-dialog-box/">Two ways to Login or Authenticate using Facebook JS SDK Dialog box</a></h2>
+    </header>
+    <section class="post-excerpt">
+        
+            <p>There is two easy way to authenticate a user with Facebook JS SDK,
+Using FB.UI,
+FB.ui( { method: 'oauth', display:'iframe', perms:APP_EXT_PERMISSIONS }, function(response) { if(response.session) { console.dir(response); if(redirectURL) location.href = redirectURL; } } );  Using FB.DIALOG,
+FB.login(function(response) { if (response.session) { if (response.perms) { //Logged and Permission Granted if(redirectURL) location.href = redirectURL; } else { //Logged and Permisssion NOT Granted if(redirectURL) location.href = redirectURL; } } else { alert(&quot;Only Authorized User can use this Application! <a class="read-more" href="/2011/03/03/two-ways-to-login-or-authenticate-using-facebook-js-sdk-dialog-box/">&raquo;</a></p>
+        
+    </section>
+    <footer class="post-meta">
+        
+
+        
+            
+            
+
+            
+            <img class="author-thumb" src="/images/logo.jpeg" alt="Author image" nopin="nopin" />
+            
+            
+            
+            Khalid Adisendjaja
+                 
+        
+
+        on
+            
+                <a href="http://khal.web.id//tags/facebook/">#facebook</a>,
+            
+                <a href="http://khal.web.id//tags/tutorial/">#tutorial</a>,
+            
+        
+        <time class="post-date" datetime="2011-03-03T08:09:05&#43;07:00">
+            3 Mar 2011
+        </time>
+    </footer>
+</article>
+
+	
+	   <article class="post post">
+    <header class="post-header">
         <h2 class="post-title"><a href="/2010/10/28/getting-ready-for-iframe-facebook-app-based/">Getting Ready for IFRAME Facebook App based</a></h2>
     </header>
     <section class="post-excerpt">
