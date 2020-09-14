@@ -24,6 +24,8 @@ params:
   hideHUGOSupport: false
   hjsStyle: "default"
   baseURL: "http://khal.web.id/"
+  summaryLength: 30
 disqusShortname: khal-web-id
 theme: hugo-theme-casper
 enableEmoji: true
+summaryLength: 30
