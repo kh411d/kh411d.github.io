@@ -42,7 +42,11 @@ I felt everyone got the flu and sneezing over time, it is why you have to keep y
 Also, Google and Facebook have their self-assessment survey to help you decide what kind of medical care you might need for #Covid19.
 
 - [Google COVID‑19 self-assessment](https://landing.google.com/screener/covid19)
-- [Facebook survey and map data](https://covid-survey.dataforgood.fb.com/)
+- [Facebook survey and map data](https://covid-survey.dataforgood.fb.com/?regopm=IDN)
+
+_Update_, I made a simple code to add two floating buttons at the right bottom corner of your website. Copy-paste this snippet to your HTML body.
+
+{{< gist kh411d 06d9a7f10bc43d761dd879fa813fd05b >}}
 
 > ... Allah will not change the condition of a people until they change what is in themselves. And when Allah intends for a people ill, there is no repelling it. And there is not for them besides Him any patron.
 > 
