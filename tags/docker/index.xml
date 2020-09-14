@@ -17,8 +17,7 @@
       <pubDate>Sun, 18 Feb 2018 13:38:36 +0700</pubDate>
       
       <guid>http://khal.web.id/2018/02/18/Meet-Docker-managers-for-human/</guid>
-      <description>After years using docker, I realized that there are so many GUI docker managers out there, this tool is really handy, because you don&amp;rsquo;t need to remember all the command lines or to google every time you forget the command.
-So let me introduce Portainer IO. This tool will let you manage all the containers, images, logs, volume, network, consul, how you create the container, look at the image you&amp;rsquo;re creating from, etc.</description>
+      <description>After years using docker, I realized that there are so many GUI docker managers out there, this tool is really handy, because you don&amp;rsquo;t need to remember all the command lines or to google every time you forget the command.</description>
     </item>
     
   </channel>

@@ -17,10 +17,7 @@
       <pubDate>Tue, 02 Jan 2018 23:18:55 +0700</pubDate>
       
       <guid>http://khal.web.id/2018/01/02/Thanks-Jekyll.-Hello-Hugo/</guid>
-      <description>I guess it&amp;rsquo;s time to say goodbye to Jekyll and thank you. I just can&amp;rsquo;t go further, I feel like Ruby is too much, struggling with all dependencies, build errors, etc.
-Let me introduce Hugo, I can&amp;rsquo;t say much about Hugo but that&amp;rsquo;s a good thing, means that Hugo is so damn simple. Easy installation, easy to customize, easy to maintain.
- Hugo is so damn fast, no joke.
- Hugo is single, yup Hugo is only a single binary file no Dependency Hell included, no worries if I updated my OS something would break, and it offers the same feature as Jekyll did.</description>
+      <description>I guess it&amp;rsquo;s time to say goodbye to Jekyll and thank you. I just can&amp;rsquo;t go further, I feel like Ruby is too much, struggling with all dependencies, build errors, etc.</description>
     </item>
     
   </channel>

@@ -5,10 +5,19 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Khalid&#39;s Blog"/>
-<meta name="twitter:description" content="a coder who happen to be a spontaneous writer in a big pond who likes to write not in codes, talk in human and sense as a human"/>
 
+    
+    <meta name="twitter:title" content="Khalid&#39;s Blog"/>
+    <meta name="twitter:description" content="a coder who happen to be a spontaneous writer in a big pond who likes to write not in codes, talk in human and sense as a human"/>
+    <meta name="twitter:site" content="@khalidity"/>
+    
+    
+    
+      
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:image" content="/images/sidebar.jpg"/>
+      
+    
 
   	<meta property="og:title" content="Khalid&#39;s Blog" />
   	<meta property="og:site_name" content="Khalid&#39;s Blog" />
@@ -17,7 +26,6 @@
     
         
             <meta property="og:image" content="/images/sidebar.jpg"/>
-            <meta name="twitter:image" content="/images/sidebar.jpg"/>
         
     
 
@@ -267,8 +275,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
             <p>There is two easy way to authenticate a user with Facebook JS SDK,
 Using FB.UI,
-FB.ui( { method: 'oauth', display:'iframe', perms:APP_EXT_PERMISSIONS }, function(response) { if(response.session) { console.dir(response); if(redirectURL) location.href = redirectURL; } } );  Using FB.DIALOG,
-FB.login(function(response) { if (response.session) { if (response.perms) { //Logged and Permission Granted if(redirectURL) location.href = redirectURL; } else { //Logged and Permisssion NOT Granted if(redirectURL) location.href = redirectURL; } } else { alert(&quot;Only Authorized User can use this Application! <a class="read-more" href="/2011/03/03/two-ways-to-login-or-authenticate-using-facebook-js-sdk-dialog-box/">&raquo;</a></p>
+FB.ui( { method: 'oauth', display:'iframe', perms:APP_EXT_PERMISSIONS }, function(response) { if(response.session) { console.dir(response); if(redirectURL) location.href = redirectURL; } } );  Using FB. <a class="read-more" href="/2011/03/03/two-ways-to-login-or-authenticate-using-facebook-js-sdk-dialog-box/">&raquo;</a></p>
         
     </section>
     <footer class="post-meta">
@@ -308,9 +315,7 @@ FB.login(function(response) { if (response.session) { if (response.perms) { //Lo
     <section class="post-excerpt">
         
             <p>At this time you need to be ready to migrate your facebook apps to Iframe based apps, because as it written on Facebook Developer Roadmap
- &ldquo;We will stop allowing new FBML applications, but will continue to support existing FBML tabs and applications. Instead, we recommend using IFrames.&rdquo; at the End of 2010.
- And then OAUTH 2.0 will required for new applications,
- &ldquo;We will remove the ability for new applications to use our old authentication mechanism, but will continue to support existing applications using our old method. <a class="read-more" href="/2010/10/28/getting-ready-for-iframe-facebook-app-based/">&raquo;</a></p>
+ &ldquo;We will stop allowing new FBML applications, but will continue to support existing FBML tabs and applications. <a class="read-more" href="/2010/10/28/getting-ready-for-iframe-facebook-app-based/">&raquo;</a></p>
         
     </section>
     <footer class="post-meta">
@@ -350,9 +355,7 @@ FB.login(function(response) { if (response.session) { if (response.perms) { //Lo
     <section class="post-excerpt">
         
             <p>The story begin when I was migrating my Codeigniter app from php4 to php5 hosting environment and then I change the uri_protocol config,
-$config['uri_protocol'] = &quot;PATH_INFO&quot;;  And then the app crashed!?? I had to debug the code for quite sometimes 😫
-Debugging the $_SERVER variable, and turns out the PATH_INFO variable wasn&rsquo;t exist, but the ORIG_PATH_INFO variable is exist, hmm is it the PHP version problem?
-So then I found this article path_info, orig_path_info, apache and php, well I guess that explained very well, on his condition mentioned in the article, the problem happened when he use . <a class="read-more" href="/2010/08/10/path_info-or-orig_path_info/">&raquo;</a></p>
+$config['uri_protocol'] = &quot;PATH_INFO&quot;;  And then the app crashed! <a class="read-more" href="/2010/08/10/path_info-or-orig_path_info/">&raquo;</a></p>
         
     </section>
     <footer class="post-meta">
@@ -392,8 +395,7 @@ So then I found this article path_info, orig_path_info, apache and php, well I g
     <section class="post-excerpt">
         
             <p>Iframe will not be supported on facebook fan pages tab, the strange thing is, it only happened on first load and the you&rsquo;ll get this error iframe not supported
-I just figured out that apps on Fan Pages Tab need an action from user, so then to get an iframe working on tab,
- In your Tab Url file i.e. index.php, create a href tag, that will link to somefile.php <a class="read-more" href="/2010/07/20/iframe-on-facebook-fan-pages-tabs/">&raquo;</a></p>
+I just figured out that apps on Fan Pages Tab need an action from user, so then to get an iframe working on tab, <a class="read-more" href="/2010/07/20/iframe-on-facebook-fan-pages-tabs/">&raquo;</a></p>
         
     </section>
     <footer class="post-meta">
@@ -434,12 +436,7 @@ I just figured out that apps on Fan Pages Tab need an action from user, so then 
         
             <p>When you starting to get a grip on PHP, there are things that you should know, here I would descibe some of them, that might be useful,
 1. OS
-Afaik PHP can be installed on Windows, Linux, Macintosh, and Solaris.
-2. Database
-MySQL and PostgreSQL are the most popular database to be use with PHP.
-3. WebServer
-The most well-known web server for PHP is Apache and Nginx.
-4. Application Framework <a class="read-more" href="/2010/07/12/things-you-should-know-when-you-start-php-ing/">&raquo;</a></p>
+Afaik PHP can be installed on Windows, Linux, Macintosh, and Solaris. <a class="read-more" href="/2010/07/12/things-you-should-know-when-you-start-php-ing/">&raquo;</a></p>
         
     </section>
     <footer class="post-meta">
@@ -478,7 +475,7 @@ The most well-known web server for PHP is Apache and Nginx.
         
             <p>I&rsquo;m trying to make a partial output from hmvc module,
 $this-&gt;obj =&amp; get_instance();  and then I&rsquo;m trying to load a view from some module,
-$this-&gt;obj-&gt;load-&gt;view($view,$data);  This will resulting errors, it turns out $this-&gt;obj is only loading the global view of CI i.e. ./application/views/ HMVC is not overriding the default view of CI, you might have to pass your controller object $this from your controller to your layout library, <a class="read-more" href="/2010/01/07/codeigniter-hmvc-and-your-own-layout-library/">&raquo;</a></p>
+$this-&gt;obj-&gt;load-&gt;view($view,$data);  This will resulting errors, it turns out $this-&gt;obj is only loading the global view of CI i. <a class="read-more" href="/2010/01/07/codeigniter-hmvc-and-your-own-layout-library/">&raquo;</a></p>
         
     </section>
     <footer class="post-meta">
@@ -517,7 +514,7 @@ $this-&gt;obj-&gt;load-&gt;view($view,$data);  This will resulting errors, it tu
     </header>
     <section class="post-excerpt">
         
-            <p>Pertama gw mau kasih tau dulu apaan sih google wave robot (GWR) itu, sebenernya simple aja&hellip; ya namanya juga robot jadi GWR itu adalah user otomatis (robot) yang bisa menjadi participant dari sebuah wave, user robot juga dapat membaca isi sebuah wave di mana robot itu berpartisipasi, google wave memodifikasi isi, menambah atau menghapus peserta, dan menciptakan wave baru. Singkatnya, user robot dapat melakukan banyak tindakan yang waver/peserta lainnya dapat melakukan. <a class="read-more" href="/2009/11/25/apaan-tuh-google-wave-robots-apaan-aja-sih/">&raquo;</a></p>
+            <p>Pertama gw mau kasih tau dulu apaan sih google wave robot (GWR) itu, sebenernya simple aja&hellip; ya namanya juga robot jadi GWR itu adalah user otomatis (robot) yang bisa menjadi participant dari sebuah wave, user robot juga dapat membaca isi sebuah wave di mana robot itu berpartisipasi, google wave memodifikasi isi, menambah atau menghapus peserta, dan menciptakan wave baru. <a class="read-more" href="/2009/11/25/apaan-tuh-google-wave-robots-apaan-aja-sih/">&raquo;</a></p>
         
     </section>
     <footer class="post-meta">
@@ -556,9 +553,7 @@ $this-&gt;obj-&gt;load-&gt;view($view,$data);  This will resulting errors, it tu
     </header>
     <section class="post-excerpt">
         
-            <p>Bespin from Mozilla Labs adalah sebuah code editor dengan berbasis web, tentunya bertujuan untuk meningkatkan produktivitas dari developer, karena editor ini berbasis web maka bespin bisa di gunakan oleh developer dimanapun berada, sayangnya tidak semua browser bisa menunjang aplikasi ini.
- &ldquo;Code In The Cloud&rdquo; - Bespin
- Feature-feature yang ada pada Bespin cukup banyak, satu hal yang menarik perhatian gw adalah feature collaborative coding. Hal pertama yang harus lo lakukan adalah melakukan registrasi dan login ke bespin. <a class="read-more" href="/2009/11/19/bespin-a-collaborative-coding-dengan-teman2x-kamu-somewhere-out-there-in-the-cloud/">&raquo;</a></p>
+            <p>Bespin from Mozilla Labs adalah sebuah code editor dengan berbasis web, tentunya bertujuan untuk meningkatkan produktivitas dari developer, karena editor ini berbasis web maka bespin bisa di gunakan oleh developer dimanapun berada, sayangnya tidak semua browser bisa menunjang aplikasi ini. <a class="read-more" href="/2009/11/19/bespin-a-collaborative-coding-dengan-teman2x-kamu-somewhere-out-there-in-the-cloud/">&raquo;</a></p>
         
     </section>
     <footer class="post-meta">
@@ -597,9 +592,7 @@ $this-&gt;obj-&gt;load-&gt;view($view,$data);  This will resulting errors, it tu
     </header>
     <section class="post-excerpt">
         
-            <p>Salah satu hal yang gw suka dari Chrome adalah themes nya yang simple clean dan enteng di liat deh pokoknya &hellip;, masalahnya gw jarang pake tuh yang namanya Chrome kalo untuk development (Can&rsquo;t live whitout firefox), ya udah deh gw mulai cari sana sini gimana caranya bisa bikin tampilan firefox jadi kaya chrome, mudah2x nih artikel berguna dah &hellip;
-Ada beberapa firefox extension yang kudu di install &hellip;
- Chrome Themes : https://addons. <a class="read-more" href="/2009/11/11/gimana-caranya-bikin-tampilan-firefox-lo-jadi-kaya-chrome/">&raquo;</a></p>
+            <p>Salah satu hal yang gw suka dari Chrome adalah themes nya yang simple clean dan enteng di liat deh pokoknya &hellip;, masalahnya gw jarang pake tuh yang namanya Chrome kalo untuk development (Can&rsquo;t live whitout firefox), ya udah deh gw mulai cari sana sini gimana caranya bisa bikin tampilan firefox jadi kaya chrome, mudah2x nih artikel berguna dah &hellip; <a class="read-more" href="/2009/11/11/gimana-caranya-bikin-tampilan-firefox-lo-jadi-kaya-chrome/">&raquo;</a></p>
         
     </section>
     <footer class="post-meta">
@@ -641,9 +634,7 @@ Ada beberapa firefox extension yang kudu di install &hellip;
     <section class="post-excerpt">
         
             <p>Thanks to Angus Turnbull who made this fix and made PNG image looks good on IE, these are two files that you need to implement,
- iepngfix.htc iepngfix_tilebg.js  Usage Include iepngfix.htc on your css style file
-&lt;pre name=&quot;code&quot; class=&quot;css&quot; &gt; *html img, *html #anydivid { behavior: url(style/iepngfix.htc); border:0; padding:0; } &lt;/pre&gt;  include this iepngfix_tilebg.js on you html header, it&rsquo;s support transparent image on background position and repeat.
-More complete detail &hellip; you can check his website http://www. <a class="read-more" href="/2009/05/04/PNG-fix-for-IE/">&raquo;</a></p>
+ iepngfix.htc iepngfix_tilebg.js  Usage Include iepngfix. <a class="read-more" href="/2009/05/04/PNG-fix-for-IE/">&raquo;</a></p>
         
     </section>
     <footer class="post-meta">

@@ -5,10 +5,19 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="facebook"/>
-<meta name="twitter:description" content="a coder who happen to be a spontaneous writer in a big pond who likes to write not in codes, talk in human and sense as a human"/>
 
+    
+    <meta name="twitter:title" content="facebook"/>
+    <meta name="twitter:description" content="a coder who happen to be a spontaneous writer in a big pond who likes to write not in codes, talk in human and sense as a human"/>
+    <meta name="twitter:site" content="@khalidity"/>
+    
+    
+    
+      
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:image" content="/images/sidebar.jpg"/>
+      
+    
 
   	<meta property="og:title" content="facebook &middot; Khalid&#39;s Blog" />
   	<meta property="og:site_name" content="Khalid&#39;s Blog" />
@@ -17,7 +26,6 @@
     
         
             <meta property="og:image" content="/images/sidebar.jpg"/>
-            <meta name="twitter:image" content="/images/sidebar.jpg"/>
         
     
 
@@ -191,8 +199,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <section class="post-excerpt">
         
             <p>Developing an Iframe app an somehow you want to use this FBML tag below.
-&lt;fb:visible-to-connection&gt; Only connections should view this.. &lt;/fb:visible-to-connection&gt;  On each call from page tab you can get a signed_request variable, the value is like this below,
-Array ( [algorithm] =&gt; HMAC-SHA256 [expires] =&gt; 0 [issued_at] =&gt; 1299140579 [oauth_token] =&gt; xxxxxxxxx|xxxxxxxxxxxxxxxx-xxxxxxxx|xxxxxx-xxxxxxxxxxxxxx [page] =&gt; Array ( [id] =&gt; xxxxxxxxxxxxxxxx [liked] =&gt; 1 [admin] =&gt; 1 ) [user] =&gt; Array ( [country] =&gt; id [locale] =&gt; en_US [age] =&gt; Array ( [min] =&gt; 21 ) ) [user_id] =&gt; xxxxxxxxxxx )  And then you can use &ldquo;page. <a class="read-more" href="/2011/03/03/replacement-of-fb-visible-to-connection-for-iframe-apps-on-facebook-page-tabs/">&raquo;</a></p>
+&lt;fb:visible-to-connection&gt; Only connections should view this.. &lt;/fb:visible-to-connection&gt;  On each call from page tab you can get a signed_request variable, the value is like this below, <a class="read-more" href="/2011/03/03/replacement-of-fb-visible-to-connection-for-iframe-apps-on-facebook-page-tabs/">&raquo;</a></p>
         
     </section>
     <footer class="post-meta">
@@ -233,8 +240,7 @@ Array ( [algorithm] =&gt; HMAC-SHA256 [expires] =&gt; 0 [issued_at] =&gt; 129914
         
             <p>There is two easy way to authenticate a user with Facebook JS SDK,
 Using FB.UI,
-FB.ui( { method: 'oauth', display:'iframe', perms:APP_EXT_PERMISSIONS }, function(response) { if(response.session) { console.dir(response); if(redirectURL) location.href = redirectURL; } } );  Using FB.DIALOG,
-FB.login(function(response) { if (response.session) { if (response.perms) { //Logged and Permission Granted if(redirectURL) location.href = redirectURL; } else { //Logged and Permisssion NOT Granted if(redirectURL) location.href = redirectURL; } } else { alert(&quot;Only Authorized User can use this Application! <a class="read-more" href="/2011/03/03/two-ways-to-login-or-authenticate-using-facebook-js-sdk-dialog-box/">&raquo;</a></p>
+FB.ui( { method: 'oauth', display:'iframe', perms:APP_EXT_PERMISSIONS }, function(response) { if(response.session) { console.dir(response); if(redirectURL) location.href = redirectURL; } } );  Using FB. <a class="read-more" href="/2011/03/03/two-ways-to-login-or-authenticate-using-facebook-js-sdk-dialog-box/">&raquo;</a></p>
         
     </section>
     <footer class="post-meta">
@@ -274,9 +280,7 @@ FB.login(function(response) { if (response.session) { if (response.perms) { //Lo
     <section class="post-excerpt">
         
             <p>At this time you need to be ready to migrate your facebook apps to Iframe based apps, because as it written on Facebook Developer Roadmap
- &ldquo;We will stop allowing new FBML applications, but will continue to support existing FBML tabs and applications. Instead, we recommend using IFrames.&rdquo; at the End of 2010.
- And then OAUTH 2.0 will required for new applications,
- &ldquo;We will remove the ability for new applications to use our old authentication mechanism, but will continue to support existing applications using our old method. <a class="read-more" href="/2010/10/28/getting-ready-for-iframe-facebook-app-based/">&raquo;</a></p>
+ &ldquo;We will stop allowing new FBML applications, but will continue to support existing FBML tabs and applications. <a class="read-more" href="/2010/10/28/getting-ready-for-iframe-facebook-app-based/">&raquo;</a></p>
         
     </section>
     <footer class="post-meta">
@@ -316,8 +320,7 @@ FB.login(function(response) { if (response.session) { if (response.perms) { //Lo
     <section class="post-excerpt">
         
             <p>Iframe will not be supported on facebook fan pages tab, the strange thing is, it only happened on first load and the you&rsquo;ll get this error iframe not supported
-I just figured out that apps on Fan Pages Tab need an action from user, so then to get an iframe working on tab,
- In your Tab Url file i.e. index.php, create a href tag, that will link to somefile.php <a class="read-more" href="/2010/07/20/iframe-on-facebook-fan-pages-tabs/">&raquo;</a></p>
+I just figured out that apps on Fan Pages Tab need an action from user, so then to get an iframe working on tab, <a class="read-more" href="/2010/07/20/iframe-on-facebook-fan-pages-tabs/">&raquo;</a></p>
         
     </section>
     <footer class="post-meta">

@@ -17,10 +17,7 @@
       <pubDate>Tue, 02 Jan 2018 23:18:55 +0700</pubDate>
       
       <guid>http://khal.web.id/2018/01/02/Thanks-Jekyll.-Hello-Hugo/</guid>
-      <description>I guess it&amp;rsquo;s time to say goodbye to Jekyll and thank you. I just can&amp;rsquo;t go further, I feel like Ruby is too much, struggling with all dependencies, build errors, etc.
-Let me introduce Hugo, I can&amp;rsquo;t say much about Hugo but that&amp;rsquo;s a good thing, means that Hugo is so damn simple. Easy installation, easy to customize, easy to maintain.
- Hugo is so damn fast, no joke.
- Hugo is single, yup Hugo is only a single binary file no Dependency Hell included, no worries if I updated my OS something would break, and it offers the same feature as Jekyll did.</description>
+      <description>I guess it&amp;rsquo;s time to say goodbye to Jekyll and thank you. I just can&amp;rsquo;t go further, I feel like Ruby is too much, struggling with all dependencies, build errors, etc.</description>
     </item>
     
     <item>
@@ -29,8 +26,7 @@ Let me introduce Hugo, I can&amp;rsquo;t say much about Hugo but that&amp;rsquo;
       <pubDate>Tue, 03 May 2016 00:00:00 +0000</pubDate>
       
       <guid>http://khal.web.id/2016/05/03/bye-wordpress-hello/</guid>
-      <description>It’s been long years since I used WordPress in 2006 as my blogging platform, back in the old days there’s nothing can beat what WordPress offers for bloggers. So many themes, plugins, and It’s still the most-used and well-known blogging platform until now.
-According to W3Techs Survey, WordPress is used by 63.6% of all the websites whose content management system we know. This is 38.3% of all websites. Every year&amp;rsquo;s website powered by WordPress is significantly rising.</description>
+      <description>It’s been long years since I used WordPress in 2006 as my blogging platform, back in the old days there’s nothing can beat what WordPress offers for bloggers. So many themes, plugins, and It’s still the most-used and well-known blogging platform until now.</description>
     </item>
     
   </channel>

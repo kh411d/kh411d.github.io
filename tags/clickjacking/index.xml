@@ -17,8 +17,7 @@
       <pubDate>Sun, 19 Apr 2015 08:42:06 +0700</pubDate>
       
       <guid>http://khal.web.id/2015/04/19/ulah-nakal-isp-praktik-browser-frame-busting/</guid>
-      <description>Beberapa ISP di indonesia tanpa konsumen sadari sebenarnya sangat sering melakukan praktik clickjacking hampir di semua website yg konsumen kunjungi, alasan ISP melakukan hal ini tidak lain adalah penempatan iklan gratis dari ISP tersebut tanpa sepengetahuan si empunya website.
-Lalu, bagaimanakah cara kerja clickjacking ini? Ketika user mengunjungi sebuah website misal &amp;ldquo;Forbes .com&amp;rdquo;, ISP akan membungkus &amp;ldquo;Forbes .com&amp;rdquo; dalam sebuah iframe yang lalu ditampilkan pada browser user, bagian luar iframe biasanya akan menampilkan baner iklan liar dari ISP tersebut.</description>
+      <description>Beberapa ISP di indonesia tanpa konsumen sadari sebenarnya sangat sering melakukan praktik clickjacking hampir di semua website yg konsumen kunjungi, alasan ISP melakukan hal ini tidak lain adalah penempatan iklan gratis dari ISP tersebut tanpa sepengetahuan si empunya website.</description>
     </item>
     
   </channel>
