@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel='icon' type='image/png' href='/images/favicon.png'>
+    <link rel="manifest" href="/images/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    
+    <meta name="twitter:title" content="Serverless/FAAS Providers With No Credit Card Required"/>
+    <meta name="twitter:description" content="Have you ever been in a situation where you met a strange girl, asking her out for an easy walk in a sunny afternoon, introduce each other, giving your number, email, Facebook, Github account, even your home address, and then suddenly she&rsquo;s asking you for a credit card, she said, it&rsquo;s for our good, I won&rsquo;t do evil."/>
+    <meta name="twitter:site" content="@khalidity"/>
+    
+    
+    
+      
+      <meta name="twitter:card" content="summary_large_image"/>
+      <meta name="twitter:image" content="http://khal.web.id/images/goserverlesscover.jpg"/>
+    
+
+  	<meta property="og:title" content="Serverless/FAAS Providers With No Credit Card Required &middot; Khalid&#39;s Blog" />
+  	<meta property="og:site_name" content="Khalid&#39;s Blog" />
+  	<meta property="og:url" content="http://khal.web.id/2020/09/20/serverless-faas-providers-with-no-credit-card-required/" />
+
+    
+       <meta property="og:image" content="/images/goserverlesscover.jpg"/>
+    
+
+    
+    <meta property="og:description" content="Have you ever been in a situation where you met a strange girl, asking her out for an easy walk in a sunny afternoon, introduce each other, giving your number, email, Facebook, Github account, even your home address, and then suddenly she&rsquo;s asking you for a credit card, she said, it&rsquo;s for our good, I won&rsquo;t do evil." />
+  	<meta property="og:type" content="article" />
+    <meta property="article:published_time" content="2020-09-20T13:20:21&#43;07:00" />
+
+    
+    <meta property="article:tag" content="serverless" />
+    
+    <meta property="article:tag" content="FAAS" />
+    
+    <meta property="article:tag" content="netlify" />
+    
+    <meta property="article:tag" content="vercel" />
+    
+    <meta property="article:tag" content="zeit" />
+    
+    <meta property="article:tag" content="flyio" />
+    
+    <meta property="article:tag" content="tutorial" />
+    
+    <meta property="article:tag" content="golang" />
+    
+    
+
+    <title>Serverless/FAAS Providers With No Credit Card Required &middot; Khalid&#39;s Blog</title>
+
+    
+    <meta name="description" content="Have you ever been in a situation where you met a strange girl, asking her out for an easy walk in a sunny afternoon, introduce each other, giving your number, " />
+    
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="/images/favicon.ico">
+	  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
+
+    <link rel="stylesheet" type="text/css" href="/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="/css/nav.css" />
+
+    
+
+    
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/default.min.css">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+        
+        <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+      
+          <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Khalid&#39;s Blog" />
+      
+      
+    
+    <meta name="generator" content="Hugo 0.74.3" />
+
+    <link rel="canonical" href="http://khal.web.id/2020/09/20/serverless-faas-providers-with-no-credit-card-required/" />
+
+    
+      
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Khalid Adisendjaja",
+        "logo": "http://khal.web.id/images/logo.jpeg"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Khalid Adisendjaja",
+        
+        "image": {
+            "@type": "ImageObject",
+            "url": "http://khal.web.id/images/logo.jpeg",
+            "width": 250,
+            "height": 250
+        }, 
+        
+        "url": "http://khal.web.id",
+        "sameAs": [
+            
+            
+             
+             
+             
+             
+             
+            
+        ],
+        "description": "a #Coder with a bit #InfoJunkie, proud #Muslim and also #Indonesian"
+        
+    },
+    "headline": "Serverless/FAAS Providers With No Credit Card Required",
+    "name": "Serverless/FAAS Providers With No Credit Card Required",
+    "wordCount":  1183 ,
+    "timeRequired": "PT6M",
+    "inLanguage": {
+      "@type": "Language",
+      "alternateName": "en"
+    },
+    "url": "http://khal.web.id/2020/09/20/serverless-faas-providers-with-no-credit-card-required/",
+    "datePublished": "2020-09-20T13:20Z",
+    "dateModified": "2020-09-20T13:20Z",
+    
+    "image": {
+        "@type": "ImageObject",
+        "url": "http://khal.web.id//images/goserverlesscover.jpg",
+        "width": 3000,
+        "height": 1445
+    },
+    
+    "keywords": "serverless, FAAS, netlify, vercel, zeit, flyio, tutorial, golang",
+    "description": "",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://khal.web.id/2020/09/20/serverless-faas-providers-with-no-credit-card-required/"
+    }
+}
+    </script>
+    
+
+
+    
+
+    
+
+    
+    
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P4GNFJ5');</script>
+
+</head>
+<body class="nav-closed">
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P4GNFJ5"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+  <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        
+        
+    </ul>
+
+    
+    <a class="subscribe-button icon-feed" href="/index.xml">Subscribe</a>
+    
+</div>
+<span class="nav-cover"></span>
+
+
+ <div class="site-wrapper">
+
+
+
+  
+  <header class="main-header post-head" style="background-image: url(/images/goserverlesscover.jpg)">
+  
+  <nav class="main-nav overlay clearfix">
+
+
+  
+      <a class="blog-logo" href="http://khal.web.id/"><img src="/images/logo.jpeg" alt="Home" /></a>
+  
+  
+      <a class="menu-button icon-feed" href="/index.xml" >&nbsp;&nbsp;Subscribe</a>
+  
+  </nav>
+</header>
+
+
+
+<main class="content" role="main">
+
+
+
+
+  <article class="post post">
+
+    <header class="post-header">
+        <h1 class="post-title">Serverless/FAAS Providers With No Credit Card Required</h1>
+        <small></small>
+
+        <section class="post-meta">
+        
+          <time class="post-date" datetime="2020-09-20T13:20:21&#43;07:00">
+            Sep 20, 2020
+          </time>
+        
+         
+          <span class="post-tag small"><a href="http://khal.web.id//tags/serverless/">#serverless</a></span>
+         
+          <span class="post-tag small"><a href="http://khal.web.id//tags/FAAS/">#FAAS</a></span>
+         
+          <span class="post-tag small"><a href="http://khal.web.id//tags/netlify/">#netlify</a></span>
+         
+          <span class="post-tag small"><a href="http://khal.web.id//tags/vercel/">#vercel</a></span>
+         
+          <span class="post-tag small"><a href="http://khal.web.id//tags/zeit/">#zeit</a></span>
+         
+          <span class="post-tag small"><a href="http://khal.web.id//tags/flyio/">#flyio</a></span>
+         
+          <span class="post-tag small"><a href="http://khal.web.id//tags/tutorial/">#tutorial</a></span>
+         
+          <span class="post-tag small"><a href="http://khal.web.id//tags/golang/">#golang</a></span>
+         
+        </section>
+    </header>
+
+    <section class="post-content">
+      <p>Have you ever been in a situation where you met a strange girl, asking her out for an easy walk in a sunny afternoon, introduce each other, giving your number, email, Facebook, Github account, even your home address, and then suddenly she&rsquo;s asking you for a credit card, she said, it&rsquo;s for our good, I won&rsquo;t do evil. What would you do? well, in my experience, that makes no sense at all, at least it never happened though.</p>
+<p><img src="/images/hustlegirls.jpg" alt="hustle film"></p>
+<p>Well, I guess it&rsquo;s happening, but in another reality, welcome to the world wide web, when you come across with a <em><a href="https://en.wiktionary.org/wiki/free_trial" target="_blank">free trial</a></em> term, they might be asking for your credit card, what kind of marketing is this? why would I want to give my card just only for a <em>free trial</em>? they already have my email, my phone number, and my PO BOX, credit card is not something to be given to someone you&rsquo;re not serious into, otherwise, your card number will end up scattered in every place you visited, and that&rsquo;s a nightmare.</p>
+<h4 id="faas-and-furious">FAAS and Furious</h4>
+<p>Hey, wait up, I know I&rsquo;m a bit off-topic here, it begins from my small project, a hobby, I need to find a server which has fewer configurations, ease of use, accountable, and most of all it&rsquo;s free, no charge, <em>free trial</em> is ok. In second thoughts, a <em><a href="https://www.cloudflare.com/learning/serverless/glossary/function-as-a-service-faas/" target="_blank">FAAS (Function as a Service)</a></em> providers might be a good fit for this project.</p>
+<p>If you haven&rsquo;t know what it is, <em><a href="https://martinfowler.com/articles/serverless.html" target="_blank">Serverless</a></em> doesn’t mean you don’t need servers. Instead, you need fewer servers to manage. You have more control but less flexibility, no need to install software, no scaling configuration, faster scaling, also you pay what you use, means, you pay only when your <em>service/ function or code</em> is running, if one of your function crashed, it will be replaced with another one immediately, so it won&rsquo;t bring down your app.</p>
+<p>But there is a but, in <em>FAAS</em> architecture, you might notice a <em><a href="https://www.serverless.com/blog/keep-your-lambdas-warm" target="_blank">cold starts</a></em>, when a function starts for the first time, it will respond slower than usual. Every <em>Serverless/FAAS</em> provider has different idle function lifetimes and limitations, such as <em>memory</em>, <em>payload</em>, and <em>execution limits</em>.</p>
+<p>Last but not least, <em>The Orchestration</em>, in case you have a lot of <em>functions</em>, it can result in more configuration than needed, in plain words, you need to orchestrate all of your <em>functions</em> to make them cooperate, talk to each other, yeah I know, it&rsquo;s like minions, each minion has a different job. The minion that drives the car will never be the minion holding the rocket launcher.</p>
+<p><img src="/images/minionfaas.jpg" alt="minion faas"></p>
+<h4 id="no-credit-card-providers">No Credit Card Providers</h4>
+<p>It is a shame for some big companies who still need your credit card for a trial service, let&rsquo;s say Google (Cloud functions), AWS (Lambda), and Azure Functions, they are the biggest providers, and they happen to ask your credit card upon registration. They also focus on configurability, so there&rsquo;s must be a lot of things to configure, so I think I&rsquo;m gonna pass on these three.</p>
+<p>So then I found these small three, no credit card required, fit for your hobby/small project, easy to use, and also offering a developer experience <em>(git integration, ci/cd, logging, etc)</em> Lately, I’ve been using Go as server-side programming, fortunate these providers are supporting it.</p>
+<h6 id="vercelzeithttpsvercelcom-functions"><a href="https://vercel.com/" target="_blank">Vercel/Zeit</a> Functions</h6>
+<p>This is the one that I first come across that offer me <a href="https://vercel.com/docs/serverless-functions/introduction" target="_blank">the easiest way integrating my function</a> to their system out of the box, which is, what you need to do is creating and <code>/api</code> directory inside your app folder, Vercel will scan all the Go files in that directory looking for an exported function that matches the net/http Go API, and then the function will be served as Serverless Functions, that&rsquo;s it.</p>
+<pre><code>func Handler(w http.ResponseWriter, r *http.Request) {
+    ...
+}
+</code></pre><p>Deployment(CI/CD) is handled by Github integration, you need to give access to Vercel to manage deployment. For free registration, you will have,</p>
+<ul>
+<li>HTTPS-enabled Custom Domains</li>
+<li>Continuous Deployment with Git</li>
+<li>High-performance Edge Network</li>
+<li>Unlimited Websites &amp; APIs</li>
+<li>Serverless Functions in Node.js, Go, and more</li>
+</ul>
+<h6 id="netlifyhttpnetlifycom-functions-aws-lambda"><a href="http://netlify.com" target="_blank">Netlify</a> Functions (AWS Lambda)</h6>
+<p>I think most everyone knows it, who doesn&rsquo;t? Most people use Netlify to host SSG(Static Site Generator) websites and SPA (Single Page Application) such as NextJS, ReactJS, or VueJS app. And apparently, Netlify lets you deploy <em><a href="https://docs.netlify.com/functions/overview/" target="_blank">serverless Lambda functions without an AWS account</a></em>, and with function management handled directly within Netlify. Yay!!!</p>
+<p>It&rsquo;s a bit different from Vercel, <a href="https://docs.netlify.com/functions/build-with-go" target="_blank">your handler should follow AWS API Gateway proxy</a>,</p>
+<pre><code>func handler(ctx context.Context, request events.APIGatewayProxyRequest) (*events.APIGatewayProxyResponse, error) {
+  # Your server-side functionality
+}
+</code></pre><p>and the response must be compatible with the AWS API Gateway response:</p>
+<pre><code>return &amp;events.APIGatewayProxyResponse{
+        StatusCode: 200,
+        Body:       &quot;Hello, World&quot;,
+    }, nil
+</code></pre><p>and then in your main package,</p>
+<pre><code>package main
+...
+func main() {
+    // Make the handler available for Remote Procedure Call by AWS Lambda
+    lambda.Start(handler)
+}
+</code></pre><p>Netlify can build your source Go functions into AWS Lambda compatible binaries. Before building your Go source, Netlify needs to know the expected Go import path for your project. Use the <code>GO_IMPORT_PATH</code> environment variable to set the right import path. You can do this in your <em>netlify.toml</em> file. The path value should point to your source repository on your Git provider.</p>
+<p>Deployment(CI/CD) also handled by Github integration, for a starter account you&rsquo;ll get,</p>
+<ul>
+<li>Automated builds from Git</li>
+<li>Deploy to global Edge network</li>
+<li>Site previews for every push</li>
+<li>Instant rollbacks to any version</li>
+<li>Deploy static assets &amp; dynamic serverless functions (JS &amp; Go)</li>
+</ul>
+<h6 id="flyiohttpflyio-flyctl"><a href="http://fly.io" target="_blank">Fly.io</a> (Flyctl)</h6>
+<p>When low latency is necessary and data always needs to be real-time, Flyio is probably the best choice that is free for a side project, you&rsquo;ll get $10/mo of service credit and you can <a href="https://fly.io/docs/about/pricing/" target="_blank">run a very small VM</a>.</p>
+<p>There is a tagline on their site <em>Deploy App Servers, Close to Your Users</em> . It means that they are focusing on <em>edge computing</em>, or in other words, bringing the functions as close as possible to the end-users to reduce latency to an absolute minimum. At this time of writing, <a href="https://fly.io/docs/reference/regions/" target="_blank">Fly.io currently have 19 datacenter locations/regions</a>. Fly.io will run your application docker images on servers in different cities.</p>
+<p><strong>Deploying on Fly.io.</strong> I haven&rsquo;t tried this myself but it seems very possible, you need to have this <code>flyctl</code> tool installed on your system, upon installing, you have to register for a fly.io account, no credit card required, simply follow the guidelines <a href="https://fly.io/docs/getting-started/installing-flyctl/" target="_blank">Installing flyctl</a>, and then continue with <a href="https://fly.io/docs/getting-started/golang/" target="_blank">Build, Deploy, and Run a Go Application</a></p>
+<p><strong>TL; DR;</strong> <code>flyctl init</code> will create a <code>fly.toml</code> file, Select Go (Go Builtin) for the builder, and then get ready for deployment <code>flyctl deploy</code>, keep in mind that flyctl will create docker images on your local computer, it will download all required images such as golang image approx 1gb, so make sure you have good storage space and internet connection.</p>
+<p><code>flyctl open</code> will open a browser on the HTTP version of the site.</p>
+<blockquote>
+<p>“Every kid coming out of Harvard, every kid coming out of school now thinks he can be the next Mark Zuckerberg, and with these new technologies like cloud computing, he actually has a shot.”</p>
+<p>~ Marc Andreessen, Co-founder of Netscape, Board Member of Facebook</p>
+</blockquote>
+
+    </section>
+
+
+  <footer class="post-footer">
+
+
+    
+
+
+
+
+
+
+
+
+<figure class="author-image">
+    <a class="img" href="http://khal.web.id/" style="background-image: url(/images/logo.jpeg)"><span class="hidden">Khalid Adisendjaja's Picture</span></a>
+</figure>
+
+
+<section class="author">
+  <h4><a href="http://khal.web.id/">Khalid Adisendjaja</a></h4>
+  
+  <p>a #Coder with a bit #InfoJunkie, proud #Muslim and also #Indonesian</p>
+  
+  <div class="author-meta">
+    <span class="author-location icon-location">Jakarta, Indonesia</span>
+    <span class="author-link icon-link"><a href="http://khal.web.id">http://khal.web.id</a></span>
+  </div>
+</section>
+
+
+
+
+    
+<section class="share">
+  <h4>Share this post</h4>
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Serverless%2fFAAS%20Providers%20With%20No%20Credit%20Card%20Required&nbsp;-&nbsp;Khalid%27s%20Blog&amp;url=http%3a%2f%2fkhal.web.id%2f2020%2f09%2f20%2fserverless-faas-providers-with-no-credit-card-required%2f"
+      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+      <span class="hidden">Twitter</span>
+  </a>
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fkhal.web.id%2f2020%2f09%2f20%2fserverless-faas-providers-with-no-credit-card-required%2f"
+      onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+      <span class="hidden">Facebook</span>
+  </a>
+</section>
+
+
+
+    
+
+<div id="disqus_thread"></div>
+<script>
+
+
+
+
+var disqus_config = function () {
+this.page.url = "http:\/\/khal.web.id\/2020\/09\/20\/serverless-faas-providers-with-no-credit-card-required\/";  
+this.page.identifier = "http:\/\/khal.web.id\/2020\/09\/20\/serverless-faas-providers-with-no-credit-card-required\/"; 
+};
+
+(function() { 
+var d = document, s = d.createElement('script');
+s.src = 'https://khal-web-id.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+
+
+
+
+
+  </footer>
+</article>
+
+</main>
+
+
+  <aside class="read-next">
+  
+  
+      <a class="read-next-story prev" style="background-image: url(/images/coronaindonesia.jpg)" href="/2020/09/14/indonesia-skyrocketing-corona-outbreak/">
+          <section class="post">
+              <h2>Indonesia&#39;s Skyrocketing Corona Outbreak</h2>
+          </section>
+      </a>
+  
+</aside>
+
+
+
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="">Khalid&#39;s Blog</a> </section>
+        
+        <section class="poweredby">Proudly generated by <a class="icon-hugo" href="http://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/vjeantet/hugo-theme-casper">Casper</a> theme</section>
+        
+    </footer>
+
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<style>.corona-buttons{position:fixed;width:48px;height:48px;bottom:40px;right:40px;background-color:#6E1B09;color:#fff;border-radius:50px;text-align:center;box-shadow:2px 2px 3px #999}</style>
+<a href="https://covid-survey.dataforgood.fb.com/?region=IDN" target="_blank" class="corona-buttons"><i class="material-icons" style="font-size:35px;margin-top:6px;">coronavirus</i></a> 
+<a href="https://landing.google.com/screener/covid19" target="_blank" class="corona-buttons" style="bottom:102px"><i class="material-icons" style="font-size:35px; margin-top:6px;">fact_check</i></a>
+
+
+    </div>
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="/js/index.js"></script>
+    
+</body>
+</html>
+

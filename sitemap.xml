@@ -3,6 +3,66 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://khal.web.id/tags/FAAS/</loc>
+    <lastmod>2020-09-20T13:20:21+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/flyio/</loc>
+    <lastmod>2020-09-20T13:20:21+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/golang/</loc>
+    <lastmod>2020-09-20T13:20:21+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/</loc>
+    <lastmod>2020-09-20T13:20:21+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/netlify/</loc>
+    <lastmod>2020-09-20T13:20:21+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/post/</loc>
+    <lastmod>2020-09-20T13:20:21+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/serverless/</loc>
+    <lastmod>2020-09-20T13:20:21+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/2020/09/20/serverless-faas-providers-with-no-credit-card-required/</loc>
+    <lastmod>2020-09-20T13:20:21+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/</loc>
+    <lastmod>2020-09-20T13:20:21+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/tutorial/</loc>
+    <lastmod>2020-09-20T13:20:21+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/vercel/</loc>
+    <lastmod>2020-09-20T13:20:21+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://khal.web.id/tags/zeit/</loc>
+    <lastmod>2020-09-20T13:20:21+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://khal.web.id/tags/coronavirus/</loc>
     <lastmod>2020-09-14T09:29:37+07:00</lastmod>
   </url>
@@ -23,22 +83,7 @@
   </url>
   
   <url>
-    <loc>http://khal.web.id/</loc>
-    <lastmod>2020-09-14T09:29:37+07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://khal.web.id/tags/pandemic/</loc>
-    <lastmod>2020-09-14T09:29:37+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/post/</loc>
-    <lastmod>2020-09-14T09:29:37+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/</loc>
     <lastmod>2020-09-14T09:29:37+07:00</lastmod>
   </url>
   
@@ -54,11 +99,6 @@
   
   <url>
     <loc>http://khal.web.id/tags/socialmedia/</loc>
-    <lastmod>2020-09-13T19:58:58+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://khal.web.id/tags/tutorial/</loc>
     <lastmod>2020-09-13T19:58:58+07:00</lastmod>
   </url>
   
