@@ -6,29 +6,31 @@ url: /2014/02/17/bicara-flow-kreatifitas-dalam-segi-internet-teknologi-dan-keseh
 image: /images/flow.jpg
 ---
 
-Flow? Apaan tuh? Kalo di translate, flow itu secara harfiah bisa berarti aliran atau arus. Flow yang gue maksud disini adalah sebuah konsep, metodologi atau desain psikologis yang menggunakan kondisi mental dan kejiwaan dari seseorang, bagaimana dan mengapa seseorang bisa mencurahkan segala fokus dan konsentrasi dalam satu aktivitas dengan jangka waktu yang sangat lama tanpa merasa bosan dan bahkan menikmati serta membuat efek ketagihan.
+Flow yang dimaksud disini adalah sebuah desain psikologis yang menggunakan kondisi mental dan kejiwaan dari seseorang, bagaimana dan mengapa seseorang bisa mencurahkan segala fokus dan konsentrasi dalam satu aktivitas dengan jangka waktu yang sangat lama tanpa merasa bosan, _enjoy_ dan bahkan menjadi ketagihan.
 
-Konsep ini dicetuskan oleh seorang professor dari Univ. Chicago [Mihaly Csikszentmihalyi](http://en.wikipedia.org/wiki/Mihaly_Csikszentmihalyi), beliau menjelaskan tentang implikasi flow di masyarakat dalam sebuah bukunya **[Creativity: Flow and the Psychology of Discovery and Invention](http://books.google.co.id/books/about/Creativity.html?id=aci_Ea4c6woC).** Dalam sebuah wawancaranya dengan Wired Magazine di tahun 1996 yang menurut gue menarik juga untuk disimak, beliau berbicara tentang flow dalam desain website yang menurutnya **[Great Web sites are not about navigating content, but staging experience](http://www.wired.com/wired/archive/4.09/czik_pr.html)** 
+Konsep ini diperkenalkan oleh seorang professor dari Univ. Chicago, Mihaly Csikszentmihalyi. Dalam sebuah wawancaranya dengan Wired Magazine di tahun 1996 [Go With The Flow](https://www.wired.com/1996/09/czik/), menurutnya, sebuah website yg menerapkan konsep flow bisa dibayangkan seperti _Gourmet_, yakni masakan bercita rasa tinggi yang di sajikan secara eksklusif, dimulai dengan hidangan pembuka, utama sampai penutup. 
 
-Kalo dilihat dalam kehidupan sehari-hari, secara tidak sadar sebenarnya banyak kegiatan yang secara tidak langsung menerapkan konsep flow ini, contoh, misalnya dari Lo nyukur jenggot, nyetrika, gitar-an, masak, main puzzle, nge-rakit LEGO dan bahkan sampai nge-jahit pun adalah hal-hal simpel yang bisa membuat lo lupa waktu karena fokus dan perhatian lo tercurahkan sepenuhnya pada kegiatan tersebut.
+Sayangnya banyak website dibuat seperti _kafetaria/prasmanan_, pilih semaunya, klik semaunya, _Web designer_ berasumsi pengunjung sudah tahu apa yang harus dipilih, padahal pengunjung berharap untuk diarahkan ke suatu tempat dan segera mendapatkan apa yang mereka cari. Jadi yang ditekankan disini adalah bukanlah tentang menavigasi konten, akan tetapi _experience_ pengunjung.
 
-Csikszentmihalyi menjelaskan secara gamblang bagaimana seseorang bisa mencapai keadaan tersebut,
+> “The best moments in our lives are not the passive, receptive, relaxing times . . . The best moments usually occur if a person’s body or mind is stretched to its limits in a voluntary effort to accomplish something difficult and worthwhile” (Csikszentmihalyi, 1990).
 
-1. Sebuah kegiatan/aktivitas harus memiliki misi yang jelas dan sederhana.
-2. Misi tersebut harus mempunyai result/umpan-balik yang instan dan tidak bertele-tele.
+Kalo dilihat dalam kehidupan sehari-hari, secara tidak sadar sebenarnya banyak kegiatan yang secara tidak langsung menerapkan konsep flow ini, contoh, misalnya dari mencukur jenggot, setrika baju, gitaran, masak, jahit, menyusun _puzzle piece_, merangkai LEGO, dll. Ini adalah hal-hal sederhana yang bisa membuat orang lupa waktu karena fokus dan perhatian tercurahkan sepenuhnya pada aktivitas tersebut.
+
+Csikszentmihalyi menjelaskan bagaimana seseorang bisa mencapai keadaan tersebut,
+
+1. Sebuah aktivitas harus memiliki misi yang jelas dan sederhana.
+2. Misi tersebut harus mempunyai _Goal_/umpan-balik yang instan dan tidak bertele-tele.
 3. Tidak boleh ada gangguan yang bisa membuat seseorang sadar bahwa ia sedang mengerjakan misi tersebut.
-4. Adanya keseimbangan antara kesulitan dari tantangan sebuah misi dengan keahlian dasar seseorang, sehingga orang tersebut memiliki keyakinan bahwa ia bisa melakukan tantangan/misi tersebut.
+4. Adanya keseimbangan antara kesulitan dari sebuah misi dengan keahlian seseorang, sehingga orang tersebut yakin bahwa ia bisa melakukan misi tersebut.
 
-Dalam sebuah artikel yang banyak berbicara tentang desain game **[Cognitive Flow: The Psychology of Great Game Design](http://www.gamasutra.com/view/feature/166972/)** ketika tingkat kemampuan/skill dari seseorang terlalu rendah dan tingkat kesulitan dari sebuah tantangan/misi terlalu tinggi maka dalam diri orang tersebut akan timbul keraguan untuk meneruskan misi tersebut, sebaliknya jika tantangan terlalu mudah dan kemampuan yang dimiliki orang tersebut terlalu tinggi maka akan timbul kebosanan yang membuat orang tersebut malas untuk menyelesaikan tantangan/misinya.
+Ketika tingkat kemampuan dari seseorang terlalu rendah dan tingkat kesulitan dari sebuah misi terlalu tinggi, maka dalam diri orang tersebut akan timbul keraguan untuk meneruskan misi tersebut, sebaliknya jika tantangan terlalu mudah dan kemampuan yang dimiliki orang tersebut terlalu tinggi maka akan timbul kebosanan yang membuat orang tersebut malas untuk menyelesaikan misinya.
 
-Flow dalam sebuah aktivitas bisa dicapai ketika tingkat kesulitan sebuah tantangan dan kemampuan seseorang mempunyai keseimbangan dan proporsional, seperti bisa dilihat pada ilustrasi dibawah ini.
+Flow dalam sebuah aktivitas bisa dicapai ketika tingkat kesulitan dan kemampuan seseorang mempunyai keseimbangan/sebanding, seperti bisa dilihat pada ilustrasi dibawah ini.
 
 ![gamasutraflow](/images/gamasutraflow.png)
 
-Jadi, konsep Flow ini banyak diterapkan dalam beberapa aplikasi-aplikasi game yang mungkin banyak Lo temukan di henpon, memang tidak banyak aplikasi game yang bisa menerapkan metoda ini, tetapi ketika mereka (game developer) berhasil menerapkannya tentunya akan menjadi sukses yang sangat besar, bisa kita ambil contoh sebuah mobile game "Flappy Bird" yang marak banget sampai akhirnya developernya sendiri memutuskan untuk menarik aplikasi tersebut dari semua app store.
+Desain Flow ini banyak diterapkan dalam beberapa aplikasi _gaming_, bisa kita lihat _Flappy Bird_ yang belakangan marak banget, menurut gue game ini cukup berhasil dalam menerapkan desain Flow karena _simplicity_-nya. Mungkin ada yang tertarik mencoba versi web-nya? [flappybird.io](https://flappybird.io/)
 
-![Flappy_Bird_logo](/images/Flappy_Bird_logo.jpg)
+![flappy bird fly](/images/flappybird.png)
 
-Sebenernya apa sih yang menarik dari "Flappy Bird" ini, kalo gw bilang sih nggak ada yang menarik sama sekali, dari segi graphic ato gameplay-pun ya begitu-begitu aja, eh ternyata usut punya usut, gue nggak tau ya secara sengaja atau tidak sengaja developer dari game ini berhasil menerapkan konsep Flow di dalam aplikasinya. Kalo Lo liat di in-game experience-nya, misi nya jelas dan sederhana, result dari challenge-nya pun instan, sekali nabrak Lo mati. Game ini sebenernya mudah dan memang mudah, sehingga membuat orang banyak berpikiran kenapa gue ga bisa, dan terus-terusan nyobain itu game, tingkat kompetisi yang dihasilkan juga cukup simpel dan jelas, seberapa besar skor lo bisa main game ini.
-
-Kalo gue pikir-pikir sih memang susah bisa nge-bikin sesuatu yang baru dimana kita bisa menerapkan konsep Flow ini, jarang banget yang bisa, tapi yang pasti ketika Lo bisa menerapkannya, apapun yang Lo bikin pasti bakal jadi booming se-antero jagad raya, halahh. Yoi! Silahkan deh kalo mau tau lebih lanjut tentang konsep "Flow" ini, bisa di cek langsung link-link di atas.
+Sebenernya apa sih yang menarik dari _Flappy Bird_ ini, kalo gue bilang sih gak ada yang terlalu menarik, dari segi _graphic/gameplay_ ya begitu-begitu saja, akan tetapi _developer_ dari game ini berhasil menerapkan desain Flow didalamnya. Kalo kita lihat pada _in-game experience_, game ini memiliki _clear and simple mission_, _instant goal_, _so easy and everyone would do it_, yang tentunya sudah cukup untuk membuat orang penasaran dan ketagihan.
