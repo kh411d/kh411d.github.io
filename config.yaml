@@ -22,10 +22,23 @@ params:
   instagramName: "khalidity"
   email: "contact@khal.web.id"
   hideHUGOSupport: false
-  hjsStyle: "default"
+  #hjsStyle: "default"
   baseURL: "http://khal.web.id/"
   summaryLength: 30
 disqusShortname: khal-web-id
 theme: hugo-theme-casper
 enableEmoji: true
 summaryLength: 30
+markup:
+  highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: false
+    hl_Lines: ""
+    lineAnchors: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    style: monokai
+    tabWidth: 4
