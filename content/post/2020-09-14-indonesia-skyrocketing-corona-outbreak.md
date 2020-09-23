@@ -31,7 +31,7 @@ Because of the high spike of #Covid19 new cases, Indonesia becomes a global conc
 
 During these months, some people have followed health protocols. But there are still many who haven't and for today, Anies Baswedan the governer of Jakarta capital has announced the re-implementation of Large-Scale Social Restrictions (PSBB) only for Jakarta but I don't think that's going to make any difference from Indonesia's current condition. 
 
-###### How to help?
+## How to help?
 
 In my opinion, it is useless to keep telling people what to do or not to do, start to help this outbreak by helping yourself, become an example to others, give them knowledge about this outbreak, try not to judge or condemn people because of their ignorance. 
 
@@ -44,9 +44,6 @@ Also, Google and Facebook have their self-assessment survey to help you decide w
 - [Google COVID‑19 self-assessment](https://landing.google.com/screener/covid19)
 - [Facebook survey and map data](https://covid-survey.dataforgood.fb.com/?regopm=IDN)
 
-_Update_, I made a simple code to add two floating buttons at the right bottom corner of your website. Copy-paste this snippet to your HTML body.
-
-{{< gist kh411d 06d9a7f10bc43d761dd879fa813fd05b >}}
 
 > ... Allah will not change the condition of a people until they change what is in themselves. And when Allah intends for a people ill, there is no repelling it. And there is not for them besides Him any patron.
 > 

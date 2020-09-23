@@ -20,8 +20,7 @@ When you share on social media, as default, your profile picture will become par
 
 ![social media share card](/images/socmedgithubfaceme.png)
 
-> Can you guess what's wrong with those cards above? 
-> 
+> Can you guess what's wrong with those cards above?  
 > Please don't say my face :v:
 
 Yes, the image of the card doesn't illustrate the post that you've shared and doesn't encourage people to share your post for no other reason because your face is on it. What if I create an image and the card will look like this,
@@ -39,3 +38,6 @@ On the Github repository setting, you may upload your image on the __Social prev
 - [Linkedin Post Inspector](https://www.linkedin.com/post-inspector/)
 
 __Notes__: if somehow the image hasn't changed yet, you may need to resubmit the URL.
+
+> A Smiling Face is Half The Meal  
+> ~ Latvian Proverb

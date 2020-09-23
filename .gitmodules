@@ -13,3 +13,23 @@
 [submodule "themes/anatole"]
 	path = themes/anatole
 	url = https://github.com/kh411d/anatole.git
+[submodule "themes/KeepIt"]
+	path = themes/KeepIt
+	url = https://github.com/kh411d/KeepIt
+	branch = master
+[submodule "themes/mediumish-gohugo-theme"]
+	path = themes/mediumish-gohugo-theme
+	url = https://github.com/kh411d/mediumish-gohugo-theme
+	branch = master
+[submodule "themes/paper"]
+	path = themes/paper
+	url = https://github.com/kh411d/hugo-paper
+	branch = master
+[submodule "themes/hugo-coder"]
+	path = themes/hugo-coder
+	url = https://github.com/kh411d/hugo-coder
+	branch = master
+[submodule "themes/casper3"]
+	path = themes/casper3
+	url = https://github.com/kh411d/hugo-casper3
+	branch = master

@@ -13,67 +13,67 @@ I had enough with all feature bloated smartwatch these days and I felt like to s
 
 So these are the list of features from most important to the most useless.
 
-###### Longer battery life
+### Longer battery life
 
 Believe me, who wants to charge their watch every day? or maybe in a matter of hours, battery life should hold a week or maybe a month to be acceptable. Or else, your watch will ended up in a drawer.
 
-###### Basic UI with an always on display
+### Basic UI with an always on display
 
 Monochrome display with no more than 3 buttons should be enough, it will consume less battery so I don't have to turn off the display, It's kinda awkward have to flick your watch just to see what time is it.   
     
-###### "Readable" Notifications and Vibration
+### "Readable" Notifications and Vibration
 
 Incoming notification should be vibrated and readable. Readable means, we can always read the message even only apart of it.
 
-###### Sync action between the watch and the phone
+### Sync action between the watch and the phone
 
 In example, as simple as replying a message with an emoji or an "ok" word, mark read action, phone connected GPS, and a music player control.
 
-###### Bluetooth Connection
+### Bluetooth Connection
 
 It's still the most reliable way to connect between devices, I can't find any lowest energy usage alternative.
 
-###### Sensors (Accelerometer + Magnetometer)
+### Sensors (Accelerometer + Magnetometer)
 
 Two basic sensors that every smartwatch should have for movement tracking and a compass.
 
 ---
 
-###### Standalone GPS
+### Standalone GPS
 
 It means, the watch has a true GPS, so it doesn't have to be connected to the phone and of course the watch also need a powerful battery.
     
-###### Better navigation with touchscreen and graphical UI
+### Better navigation with touchscreen and graphical UI
 
 The watch will become more appealing and good for user experience but also need a bigger battery.
 
-###### Standalone Mp3 Music Storage
+### Standalone Mp3 Music Storage
 
 I'm skeptical about the sound quality, but it's ok.
 
-###### NFC
+### NFC
 
 In my experience, I don't think NFC is being used frequently, even on the phone, so I don't know, maybe it becomes more useful if it's added on a watch.
 
 ---
 
-###### HeartRate Monitoring
+### HeartRate Monitoring
 
 To be honest, I don't like this feature on watches because the accuracy is questionable, HR monitor should be strapped on your chest, however people tend to like this as a gimmick when doing sports. Buy a real HR monitor if you really need one.
 
-###### Digital Camera
+### Digital Camera
 
 Yes this feature is existed on a smartwatch, an Indiegogo campaign for this kind of watch is successfully funded, shipped with 5mp camera, I don't know how many shots could be made until the battery went out.
 
-###### Altimeter, Barometer and Thermometer
+### Altimeter, Barometer and Thermometer
 
 it's best to wear a G-Shock instead a smartwatch.
 
-###### Wifi connection
+### Wifi connection
 
 Why would a watch need a Wifi? I just can't figure.
 
-###### SIM card
+### SIM card
 
 Ok, bye!
 
@@ -81,4 +81,5 @@ So here we are at the final conclusion, to all smartwatch vendors, please make s
 
 And for you who considered to buy a smartwatch, take a note for the first 6 points I mentioned above.
 
-**_"Simplicity is the ultimate sophistication"_** - _Leonardo Da Vinci_
+> Simplicity is the ultimate sophistication  
+> ~ Leonardo Da Vinci

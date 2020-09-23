@@ -16,37 +16,43 @@ Getting a #NowPlaying info from your Ice Cast 2 server is pretty dead simple. Yo
 
 2. Create a small function to fetch xspf endpoint for your php file, `xspf_function.php` 
    
-		function getXSPF(){
-			$XSPFurl = 'http://xxx.xxx.xxx.xxx:8000/mount.xspf';
-			$xml = simplexml_load_file($XSPFurl);
-			$stream['info']['title'] = (string) $xml->trackList->track->title;
-			$stream['info']['location'] = (string) $xml->trackList->track->location;
-		
-			preg_match_all('/^(.*):(.*)/m', (string) $xml->trackList->track->annotation,$matches);
-			if(isset($matches[1]) && isset($matches[2])){
-				$t = array_combine($matches[1], $matches[2]);
-				foreach($t as $key => $val){
-					$fkey = str_replace(" ", "_",$key);
-					$stream['info'][strtolower($fkey)] = trim($val);
-				}
-			}
-			return $stream;
+```php
+function getXSPF(){
+	$XSPFurl = 'http://xxx.xxx.xxx.xxx:8000/mount.xspf';
+	$xml = simplexml_load_file($XSPFurl);
+	$stream['info']['title'] = (string) $xml->trackList->track->title;
+	$stream['info']['location'] = (string) $xml->trackList->track->location;
+
+	preg_match_all('/^(.*):(.*)/m', (string) $xml->trackList->track->annotation,$matches);
+	if(isset($matches[1]) && isset($matches[2])){
+		$t = array_combine($matches[1], $matches[2]);
+		foreach($t as $key => $val){
+			$fkey = str_replace(" ", "_",$key);
+			$stream['info'][strtolower($fkey)] = trim($val);
 		}
+	}
+	return $stream;
+}
+```
 	
 3. Setup your ajax php file, `current_track.php` 
     
-		require_once "xspf_function.php"
-		$stream = getXSPF();
-		echo $stream['info']['title'];
-	
+```php
+require_once "xspf_function.php"
+$stream = getXSPF();
+echo $stream['info']['title'];
+```
+
 4. And then, put this script before the end of html head tag 
 	
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript"></script>
-		<script type="text/javascript">
-			$(document).ready(function() {     
-				setInterval(function(){        
-					$("#current-track").load("current_track.php");      
-				}, 10 * 1000);    });
-		</script>
+```javascript
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$(document).ready(function() {     
+		setInterval(function(){        
+			$("#current-track").load("current_track.php");      
+		}, 10 * 1000);    });
+</script>
+```
 	
-	The `setInterval()` function will periodically execute an ajax request to fetch new content from icecast xspf mount point.
+The `setInterval()` function will periodically execute an ajax request to fetch new content from icecast xspf mount point.

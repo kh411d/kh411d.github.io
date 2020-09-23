@@ -12,7 +12,7 @@ Berawal dari sebuah acara talkshow "The Late Show with Stephen Colbert" Stephen 
 
 Lalu Stephen mulai menuturkan plot pendek untuk menjelaskan alur star wars yang menurut gue cukup kocak, humoris, dan menghibur. 
 
-##### StarWars Plot
+### StarWars Plot
 
 Star wars adalah kisah seorang anak petani sederhana :person_with_blond_hair: yang membeli dua robot, satu seperti tong sampah dan yang satu lagi diprogram untuk ketakutan sepanjang waktu, entah mengapa?
 

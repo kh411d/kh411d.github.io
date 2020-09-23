@@ -16,7 +16,7 @@ Have you ever been in a situation where you met a strange girl, asking her out f
 
 Well, I guess it's happening, but in another reality, welcome to the world wide web, when you come across with a _[free trial](https://en.wiktionary.org/wiki/free_trial)_ term, they might be asking for your credit card, what kind of marketing is this? why would I want to give my card just only for a _free trial_? they already have my email, my phone number, and my PO BOX, credit card is not something to be given to someone you're not serious into, otherwise, your card number will end up scattered in every place you visited, and that's a nightmare.
 
-#### FAAS and Furious
+## FAAS and Furious
 
 Hey, wait up, I know I'm a bit off-topic here, it begins from my small project, a hobby, I need to find a server which has fewer configurations, ease of use, accountable, and most of all it's free, no charge, _free trial_ is ok. In second thoughts, a _[FAAS (Function as a Service)](https://www.cloudflare.com/learning/serverless/glossary/function-as-a-service-faas/)_ providers might be a good fit for this project. 
 
@@ -28,17 +28,17 @@ Last but not least, _The Orchestration_, in case you have a lot of _functions_, 
 
 ![minion faas](/images/minionfaas.jpg)
 
-#### No Credit Card Providers
+## No Credit Card Providers
 
 It is a shame for some big companies who still need your credit card for a trial service, let's say Google (Cloud functions), AWS (Lambda), and Azure Functions, they are the biggest providers, and they happen to ask your credit card upon registration. They also focus on configurability, so there's must be a lot of things to configure, so I think I'm gonna pass on these three.
 
 So then I found these small three, no credit card required, fit for your hobby/small project, easy to use, and also offering a developer experience _(git integration, ci/cd, logging, etc)_ Lately, I’ve been using Go as server-side programming, fortunate these providers are supporting it.
 
-###### [Vercel/Zeit](https://vercel.com/) Functions
+### [Vercel/Zeit Functions](https://vercel.com/)
 
 This is the one that I first come across that offer me _[the easiest way to integrate function](https://vercel.com/docs/serverless-functions/introduction)_ on their system out of the box, which is, what you need to do is creating and `/api` directory inside your application folder, Vercel will scan all the Go files in that directory looking for an exported function that matches the net/http Go API, and then that function will be served as Serverless Functions, that's it. 
 
-```
+```go
 func Handler(w http.ResponseWriter, r *http.Request) {
     ...
 }
@@ -50,19 +50,19 @@ Deployment(CI/CD) is handled by Github integration, you need to give access to V
 - Unlimited Websites & APIs
 - Serverless Functions in Node.js, Go, and more
 
-###### [Netlify](http://netlify.com) Functions (AWS Lambda)
+### [Netlify Functions (AWS Lambda)](http://netlify.com)
 
 I think most everyone knows it, who doesn't? Most people use Netlify to host SSG(Static Site Generator) websites and SPA (Single Page Application) such as NextJS, ReactJS, or VueJS app. And apparently, Netlify lets you deploy _[serverless Lambda functions without an AWS account](https://docs.netlify.com/functions/overview/)_, and with function management handled directly within Netlify. Yay!!!
 
 It's a bit different from Vercel, _[your handler should follow AWS API Gateway proxy](https://docs.netlify.com/functions/build-with-go)_,
-```
+```go
 func handler(ctx context.Context, request events.APIGatewayProxyRequest) (*events.APIGatewayProxyResponse, error) {
   # Your server-side functionality
 }
 ```
 
 and the response must be compatible with the AWS API Gateway response:
-```
+```go
 return &events.APIGatewayProxyResponse{
         StatusCode: 200,
         Body:       "Hello, World",
@@ -70,9 +70,8 @@ return &events.APIGatewayProxyResponse{
 ```
 
 and then in your main package, 
-```
+```go
 package main
-...
 func main() {
     // Make the handler available for Remote Procedure Call by AWS Lambda
     lambda.Start(handler)
@@ -88,7 +87,7 @@ Deployment(CI/CD) also handled by Github integration, for a starter account you'
 - Instant rollbacks to any version
 - Deploy static assets & dynamic serverless functions (JS & Go)
 
-###### [Fly.io](http://fly.io) (Flyctl)
+### [Fly.io](http://fly.io)
 
 When low latency is necessary and data always needs to be real-time, Flyio is probably the best choice that is free for a side project, you'll get $10/mo of service credit and you can _[run a very small VM](https://fly.io/docs/about/pricing/)_.
 

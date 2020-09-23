@@ -10,11 +10,11 @@ title: The Markdown Rises
 
 It’s been a while, maybe a year since my last post, so I thought I have to at least write a post and hopefully going to be an easy read, so here I’m going to talk about the why, the what, and the how of the Markdown.
 
-##### What's with the rises?
+## What's with the rises?
 
 Markdown is trending when __[Static Site Generators (SSG)](https://khal.web.id/2016/05/03/bye-wordpress-hello/)__ are getting popular and becoming the next big thing of the Internet. Google and the other search engines start to penalize sites that load slowly, simply because [users experience interacting with a web page becomes vital](https://webmasters.googleblog.com/2020/05/evaluating-page-experience.html). Google wants the site owner to pay attention to [web performance](https://developers.google.com/web/updates/2018/07/search-ads-speed) by using its tools such as Lighthouse, PageSpeed Insights, and AMP. Luckily, You can use this [TestMySite](https://testmysite.withgoogle.com/) tool to check whether your site going to be penalized or not?
 
-##### WYSIWYG Editor
+## WYSIWYG Editor
 
 Some of you might have been blogging on any platform and then tired with all the hassle comes from WYSIWYG editor such as the post that won’t be saved, cluttered UI, missing button, crash update, etc.
 
@@ -22,7 +22,7 @@ The Markdown has the same purpose with the WYSIWYG but in a less hassle and dist
 
 And so you don’t have to be dependant on WYSIWYG editor that comes quite varies on each blogging platform. The WYSIWYG editor is converting what you type to HTML in real-time, so what you type on the editor is what you’ll see after the post gets published.
 
-##### How do Markdown works? 
+## How do Markdown works? 
 
 As I mentioned before, the changes from the WYSIWYG editor will be visible immediately. But in Markdown, you need to add some **[Markdown Syntax]({{< relref "#markdown-syntax" >}})** to your writing, and then the text will be stored in a plaintext file with `*.md` extension. But, How do you get the file converted to `.html, .pdf, .epub, .doc, or .mobi` ? Yes, indeed you need a _converter, parser, implementation, or an app_ and those are called a __[Markdown processor](https://github.com/markdown/markdown.github.com/wiki/Implementations)__ 
 
@@ -31,11 +31,11 @@ To summaries,
 - Save it with `*.md` extension, 
 - Open the file in any markdown file _converter_, or _copy-paste_ the text to any markdown parser I mentioned above.
 
-##### How should I use Markdown?
+## How should I use Markdown?
 
 Nowadays, markdown can be use for blogging thanks to SSG, as you can see, this site was created with one of the SSG called **[Hugo](https://khal.web.id/2018/01/02/Thanks-Jekyll.-Hello-Hugo/)**. Markdown is also good for taking notes, creating letters, composing email, presentations, tech documentations, or maybe books.
 
-##### The Benefits
+## The Benefits
 
 In my experience, after you get used to, you will experience faster writing, more focus, less distraction, easy editing, generics, means that, your writing can be easily migrate to any type of documents `(html, pdf, epub, doc, or mobi)`. Not to worry, you can also use any html tags to your writing. As result, I never want to write my blog post using any other tools than markdown.
 
@@ -43,11 +43,11 @@ In my experience, after you get used to, you will experience faster writing, mor
 
 As you go through all these syntaxes, you need to pay attention to _spaces, tabs, and indentations_ because it matters. You can _copy-paste_ the example below to any online Markdown editor mentioned above.
 
-###### Headers `<h1..h6/>`
+### Headers `<h1..h6/>`
 
 Add a couple of **\#** hash and a single space at the beginning of a word or sentences, the number of **\#** hash corresponds to the heading level.
 
-```
+```text
 # H1
 ## H2
 ### H3
@@ -64,18 +64,18 @@ H2 with line
 ------
 ```
 
-###### Paragraphs `<p/>`
+### Paragraphs `<p/>`
 
-```
+```text
 Use a blank line to separate between paragraph, don't indent paragraph with spaces or tabs
 
 This is the second paragraph
 ```
 
-###### Line Breaks `<br/>`
+### Line Breaks `<br/>`
 Sometimes when you hit `<Enter>` once (i.e., insert a new line) the line break should be created, but if it's not, try to end the word or sentence with 2 or more spaces
 
-```
+```text
 Try to end this line with no spaces
 The line after line break
 
@@ -87,35 +87,35 @@ The line after line break
 
 ___Technical note:___ If the result above is the same, then the markdown processor uses GFM line breaks, so there's no need to use MD's two-space line breaks.
 
-###### Italic `<em/>`
+### Italic `<em/>`
 
 Add **\*** or **\_**  before and after a word or sentence
-```
+```text
 Let's make it *skew and yummy*
 Let's make it _skew and yummy_
 ```
 
-###### Bold `<strong/>`
+### Bold `<strong/>`
 
 Add **\*\*** or **\_\_**  before and after a word or sentence
-```
+```text
 Let's make it **BOLD AND BALD**
 Let's make it __BOLD AND BALD__
 ```
 
-###### Bold and Italic `<strong><em>`
+### Bold and Italic `<strong><em>`
 
 Add **\*\*\*** or **\_\_\_** before and after a word or sentence
-```
+```text
 Let's make it ***BOLD AND SKEW***
 Let's make it ___BOLD AND SKEW___
 ```
 
-###### Blockquotes `<blockquote/>`
+### Blockquotes `<blockquote/>`
 
 Add **\>** in front of a word or sentence
 
-```
+```text
 > The end is nigh
 
 With multiple paragraphs,
@@ -140,12 +140,12 @@ With other elements,
 > But the dawn is breaking
 ```
 
-###### Ordered List `<ol/>`
+### Ordered List `<ol/>`
 
 Add number and period in front of the word or sentence, the first number is important, the rest will follow.
 Add two blank lines to create another group of list
 
-```
+```text
 1. list number one
 2. list number two
 3. list number three, and the first paragraph
@@ -168,11 +168,11 @@ Create new group of list
 ```
 
 
-###### Unordered List `<ul/>`
+### Unordered List `<ul/>`
 
 You may add these symbols **\*** (asterisk) or **\+** (plus) or **\-** (dash) in front of the sentence to create an unordered list, the way you insert another element to the list is pretty much the same as the ordered list, the different that might happened is that the unordered list doesn't create a paragraph inside the list at the first place. 
 
-```
+```text
 * asterisk
 * asterisk
 * asterisk
@@ -193,11 +193,11 @@ You may add these symbols **\*** (asterisk) or **\+** (plus) or **\-** (dash) in
 ```
 
 
-###### Code Blocks `<pre><code>`
+### Code Blocks `<pre><code>`
 
 The Code blocks normally indented with four spaces or a tab, the other way is to enclose the codes with three of this **\`** tick symbol at the beginning and the end of the code (not available in all markdown processor).
 
-
+```text
         //This is the codes
         print("Hello world);
 
@@ -205,9 +205,10 @@ The Code blocks normally indented with four spaces or a tab, the other way is to
     //This is the codes
     print("Hello world");
     ```
-
+```
 Syntax Highlighting,
 
+```text
     ```json
     {
         "firstname": "James",
@@ -215,22 +216,25 @@ Syntax Highlighting,
         "fullname": "Panjul,
     }
     ```
-
+```
 For a single line of code, you can use a tick symbol before and after the code,
 
-    Writing a line of code with tick symbol `print("Hello World");`
+```text
+Writing a line of code with tick symbol `print("Hello World");`
+```
 
-
-###### Escaping Symbols
+### Escaping Symbols
 
 You can use a **\\** backslash symbol to escape a symbol,
 
-    Multiplying 2 \* 3 equal with 3 \* 2 equal with 3 \+ 3 equal with 12 \- 6
+```text
+Multiplying 2 \* 3 equal with 3 \* 2 equal with 3 \+ 3 equal with 12 \- 6
+```
 
 Especially if you want to escape the tick marks in a line of code, you may enclose the sentence in double tick marks **\`\`**
-
-    ``I want to use `this tick mark` on a sentence``
-
+```text
+``I want to use `this tick mark` on a sentence``
+```
 All the symbol that you can escape,
 
 | Symbols | Name         |
@@ -248,29 +252,29 @@ All the symbol that you can escape,
 | \.      |  dot/period  |
 | \!      | exclamation  |
 
-###### Horizontal Rules `<hr/>`
+### Horizontal Rules `<hr/>`
 
-```
+```text
 ***
 
 ---
 ```
 
-###### Images `<img/>`
+### Images `<img/>`
 
 You may use either an absolute or relative path
-
-    ![Markdown Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/208px-Markdown-mark.svg.png)
-
-###### Links `<a/>`
-
-    [Check out my Twitter @khalidity](https://twitter.com/khalidity)
-
-###### Reference-style links `<a/>`
+```text
+![Markdown Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/208px-Markdown-mark.svg.png)
+```
+### Links `<a/>`
+```text
+[Check out my Twitter @khalidity](https://twitter.com/khalidity)
+```
+### Reference-style links `<a/>`
 
 If you got so many links on your post and you're kinda want to make it a little bit neat, you can try to reference all the links in one place.
 
-```
+```text
 There is a lot of search engine that is worth for you to try such as [Google][1], [Bing][2], [Yahoo][3], and last but not least [DuckDuckGo][4]
 
 
@@ -280,20 +284,22 @@ There is a lot of search engine that is worth for you to try such as [Google][1]
 [4]: <https://duckduckgo.com> 'duckduckgo title'
 ```
 
-###### URLs and Email `<a/>`
+### URLs and Email `<a/>`
 
-    <https://khal.web.id>
-    <johndoe@fake.com>
+```text
+<https://khal.web.id>
+<johndoe@fake.com>
+```
 
-#### Extended Markdown
+## Extended Markdown
 
 These extended syntaxes below aren't available in all Markdown processors or parsers, you need to experiment yourself.
 
-###### Tables `<table/>`
+### Tables `<table/>`
 
 To create a table, you need to use three or more hyphens \-\-\- to create each column's header, and some pipes \| to separate each column
 
-```
+```text
 | Header1 | Header 2 | Header 3 |
 |---------|----------|----------|
 | item    | item     | item    |
@@ -302,34 +308,34 @@ To create a table, you need to use three or more hyphens \-\-\- to create each c
 
 you can add alignment,
 
-```
+```text
 | Header1 | Header 2 | Header 3 |
 | :------ | :-------:| -------: |
 | item    | item     | item    |
 | item    | item     | item    |
 ```
 
-###### Heading IDs
+### Heading IDs
 
 This might be different in each markdown processor,
+```text
+### A Header with ID {#custom-id}
 
-    ### A Header with ID {#custom-id}
+or in Hugo,
 
-    or in Hugo,
-
-    ### Another header with ID {id="custom-id"}
-
-Link to Heading IDs,
-
-    [A Header with ID](#custom-id)
-
-    or in Hugo,
-
-    [Another header with ID]({{< relref "#custom-id" >}})
-
-###### Definition List `<dl/>`
-
+### Another header with ID {id="custom-id"}
 ```
+Link to Heading IDs,
+```text
+[A Header with ID](#custom-id)
+
+or in Hugo,
+
+[Another header with ID]({{< relref "#custom-id" >}})
+```
+### Definition List `<dl/>`
+
+```text
 Term one
 : Definition of 1st term
 
@@ -338,21 +344,21 @@ Term two
 : another definition of 2nd term
 ```
 
-###### Strikethrough `<del/>`
+### Strikethrough `<del/>`
 
-```
+```text
 You\'ll never ~~die~~
 ```
 
-###### Task lists `<input type="checkbox"/>`
+### Task lists `<input type="checkbox"/>`
 
 You can create a list of items with checkboxes if it's supported by a markdown processor
 
-```
+```text
 - [x] Go shopping
 - [ ] Laundry
 - [ ] Meet John
 ```
 
-> “The scariest moment is always just before you start. After that, things can only get better.” 
+> “The scariest moment is always just before you start. After that, things can only get better.”  
 > ~ Stephen King

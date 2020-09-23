@@ -20,21 +20,21 @@ Seconds, you need a ROM, it's the game file that gets extracted from SEGA/Ninten
 
 There are so many websites providing free ROMs, just search for this keyword "super Mario SNES ROM" in any search engine, for the sake of this guide please download only SNES ROM, after that, you may rename the file with `supermario.zip` (it's optional)
 
-##### Core Engine
+### Core Engine
    
 The core is the most important thing that emulates the game console, from the **main menu**, choose `Online Updater > Core Updater > Nintendo - SNES / SFC (Snes9x)`, where you're going to download a SNES core, feel free to download any other core you want.
 
-##### Overlays
+### Overlays
    
 In this part, you're going to download some gamepad overlays. Go back to **main menu** and then choose `Online Updater > Update Overlays`, it will download all the overlays needed for the ROMs.
 
 Now you're going to set a SNES gamepad overlay, go to **settings menu** and then choose `Onscreen Display > Onscreen Overlay > Overlay Preset > gamepads > snes > sens.cfg`   
 
-##### ROMs directory
+### ROMs directory
    
 After you got the ROM, go to **settings menu**, and then choose `Directory > File Browser`, choose the directory where your downloaded ROMs is located. 
 
-##### Yay! Time for retro gaming
+### Yay! Time for retro gaming
 
 Back to **main menu**, load the game `Load Content > Start directory > supermario.zip > Load Archive`, if you have more than one SNES cores, you'll need to choose one. If it's not, then the game will start immediately.   
 

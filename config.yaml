@@ -2,7 +2,8 @@ baseURL: http://khal.web.id/
 disablePathToLower: true
 languageCode: en-us
 title: Khalid's Blog
-seURL: "http://khal.web.id/"
+DefaultContentLanguage: "en"
+enableInlineShortcodes: true
 permalinks:
   post: /:year/:month/:day/:title/
 params:
@@ -26,9 +27,11 @@ params:
   baseURL: "http://khal.web.id/"
   summaryLength: 30
 disqusShortname: khal-web-id
-theme: hugo-theme-casper
+theme: paper
 enableEmoji: true
 summaryLength: 30
+googleAnalytics: "UA-8671044-1"
+pygmentsUseClasses: true
 markup:
   highlight:
     anchorLineNos: false
@@ -37,8 +40,8 @@ markup:
     hl_Lines: ""
     lineAnchors: ""
     lineNoStart: 1
-    lineNos: false
+    lineNos: true
     lineNumbersInTable: true
     noClasses: true
-    style: monokai
+    style: emacs
     tabWidth: 4
