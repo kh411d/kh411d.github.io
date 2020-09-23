@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>InternetExplorer on Khalid&#39;s Blog</title>
-    <link>http://khal.web.id/tags/InternetExplorer/</link>
+    <link>https://khal.web.id/tags/InternetExplorer/</link>
     <description>Recent content in InternetExplorer on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 04 May 2009 11:22:20 +0700</lastBuildDate>
     
-	<atom:link href="http://khal.web.id/tags/InternetExplorer/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://khal.web.id/tags/InternetExplorer/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>PNG fix for IE</title>
-      <link>http://khal.web.id/2009/05/04/PNG-fix-for-IE/</link>
+      <link>https://khal.web.id/2009/05/04/PNG-fix-for-IE/</link>
       <pubDate>Mon, 04 May 2009 11:22:20 +0700</pubDate>
       
-      <guid>http://khal.web.id/2009/05/04/PNG-fix-for-IE/</guid>
+      <guid>https://khal.web.id/2009/05/04/PNG-fix-for-IE/</guid>
       <description>Thanks to Angus Turnbull who made this fix and made PNG image looks good on IE, these are two files that you need to implement,
  iepngfix.htc iepngfix_tilebg.js  Usage Include iepngfix.</description>
     </item>

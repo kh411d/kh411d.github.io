@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Khalid&#39;s Blog</title>
-    <link>http://khal.web.id/categories/</link>
+    <link>https://khal.web.id/categories/</link>
     <description>Recent content in Categories on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://khal.web.id/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://khal.web.id/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

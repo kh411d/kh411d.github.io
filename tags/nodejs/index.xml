@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>nodejs on Khalid&#39;s Blog</title>
-    <link>http://khal.web.id/tags/nodejs/</link>
+    <link>https://khal.web.id/tags/nodejs/</link>
     <description>Recent content in nodejs on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 19 Feb 2014 07:55:27 +0700</lastBuildDate>
     
-	<atom:link href="http://khal.web.id/tags/nodejs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://khal.web.id/tags/nodejs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>[NOTE] Upgrade NodeJS lokal via NPM dan &#34;n&#34; module</title>
-      <link>http://khal.web.id/2014/02/19/note-upgrade-nodejs-lokal-via-npm-dan-n-module/</link>
+      <link>https://khal.web.id/2014/02/19/note-upgrade-nodejs-lokal-via-npm-dan-n-module/</link>
       <pubDate>Wed, 19 Feb 2014 07:55:27 +0700</pubDate>
       
-      <guid>http://khal.web.id/2014/02/19/note-upgrade-nodejs-lokal-via-npm-dan-n-module/</guid>
+      <guid>https://khal.web.id/2014/02/19/note-upgrade-nodejs-lokal-via-npm-dan-n-module/</guid>
       <description>Sebelum NodeJS-nya di-upgrade, cek dulu versi yang ter-install,
 $node -v v0.10.12  Bersih2x NPM Cache,
 sudo npm cache clean -f  Install &amp;ldquo;n&amp;rdquo; Node binary manager ,

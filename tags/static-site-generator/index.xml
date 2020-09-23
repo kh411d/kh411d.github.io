@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>static-site-generator on Khalid&#39;s Blog</title>
-    <link>http://khal.web.id/tags/static-site-generator/</link>
+    <link>https://khal.web.id/tags/static-site-generator/</link>
     <description>Recent content in static-site-generator on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 02 Jan 2018 23:18:55 +0700</lastBuildDate>
     
-	<atom:link href="http://khal.web.id/tags/static-site-generator/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://khal.web.id/tags/static-site-generator/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Thanks Jekyll. Hello Hugo</title>
-      <link>http://khal.web.id/2018/01/02/Thanks-Jekyll.-Hello-Hugo/</link>
+      <link>https://khal.web.id/2018/01/02/Thanks-Jekyll.-Hello-Hugo/</link>
       <pubDate>Tue, 02 Jan 2018 23:18:55 +0700</pubDate>
       
-      <guid>http://khal.web.id/2018/01/02/Thanks-Jekyll.-Hello-Hugo/</guid>
+      <guid>https://khal.web.id/2018/01/02/Thanks-Jekyll.-Hello-Hugo/</guid>
       <description>I guess it&amp;rsquo;s time to say goodbye to Jekyll and thank you. I just can&amp;rsquo;t go further, I feel like Ruby is too much, struggling with all dependencies, build errors, etc.</description>
     </item>
     

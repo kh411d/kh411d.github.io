@@ -2,371 +2,371 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Khalid&#39;s Blog</title>
-    <link>http://khal.web.id/post/</link>
+    <link>https://khal.web.id/post/</link>
     <description>Recent content in Posts on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 23 Sep 2020 07:48:16 +0700</lastBuildDate>
     
-	<atom:link href="http://khal.web.id/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://khal.web.id/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Build a Medium-Like Clap Button using Svelte Custom Element API</title>
-      <link>http://khal.web.id/2020/09/23/build-a-medium-like-clap-button-using-svelte-custom-element-api/</link>
+      <link>https://khal.web.id/2020/09/23/build-a-medium-like-clap-button-using-svelte-custom-element-api/</link>
       <pubDate>Wed, 23 Sep 2020 07:48:16 +0700</pubDate>
       
-      <guid>http://khal.web.id/2020/09/23/build-a-medium-like-clap-button-using-svelte-custom-element-api/</guid>
+      <guid>https://khal.web.id/2020/09/23/build-a-medium-like-clap-button-using-svelte-custom-element-api/</guid>
       <description>Short stories, In August 2017, Medium replaced their Recommend button with a &amp;ldquo;clap&amp;rdquo; button, which readers can click as many times as they want to show how much they enjoyed the article.</description>
     </item>
     
     <item>
       <title>Serverless/FAAS Providers With No Credit Card Required</title>
-      <link>http://khal.web.id/2020/09/20/serverless-faas-providers-with-no-credit-card-required/</link>
+      <link>https://khal.web.id/2020/09/20/serverless-faas-providers-with-no-credit-card-required/</link>
       <pubDate>Sun, 20 Sep 2020 13:20:21 +0700</pubDate>
       
-      <guid>http://khal.web.id/2020/09/20/serverless-faas-providers-with-no-credit-card-required/</guid>
+      <guid>https://khal.web.id/2020/09/20/serverless-faas-providers-with-no-credit-card-required/</guid>
       <description>Have you ever been in a situation where you met a strange girl, asking her out for an easy walk in a sunny afternoon, introduce each other, giving your number, email, Facebook, Github account, even your home address, and then suddenly she&amp;rsquo;s asking you for a credit card, she said, it&amp;rsquo;s for our good, I won&amp;rsquo;t do evil.</description>
     </item>
     
     <item>
       <title>Indonesia&#39;s Skyrocketing Corona Outbreak</title>
-      <link>http://khal.web.id/2020/09/14/indonesia-skyrocketing-corona-outbreak/</link>
+      <link>https://khal.web.id/2020/09/14/indonesia-skyrocketing-corona-outbreak/</link>
       <pubDate>Mon, 14 Sep 2020 09:29:37 +0700</pubDate>
       
-      <guid>http://khal.web.id/2020/09/14/indonesia-skyrocketing-corona-outbreak/</guid>
+      <guid>https://khal.web.id/2020/09/14/indonesia-skyrocketing-corona-outbreak/</guid>
       <description>It&amp;rsquo;s been 7 months since the #CoronaVirus encountered Indonesia, I remembered the news about a mother and her daughter were a suspect of #Covid19 infection from a Japanese foreigner, and till then, the outbreak is skyrocketing as no one cares.</description>
     </item>
     
     <item>
       <title>How to Not Flaunt Your Github Face on Social Media</title>
-      <link>http://khal.web.id/2020/09/13/How-to-Not-Flaunt-Your-Github-Face-on-Social-Media/</link>
+      <link>https://khal.web.id/2020/09/13/How-to-Not-Flaunt-Your-Github-Face-on-Social-Media/</link>
       <pubDate>Sun, 13 Sep 2020 19:58:58 +0700</pubDate>
       
-      <guid>http://khal.web.id/2020/09/13/How-to-Not-Flaunt-Your-Github-Face-on-Social-Media/</guid>
+      <guid>https://khal.web.id/2020/09/13/How-to-Not-Flaunt-Your-Github-Face-on-Social-Media/</guid>
       <description>Your Github&amp;rsquo;s face, Mostly, a user who had a Github personal account is using their typical profile picture, which is his part of the body from the waist to the head, and it&amp;rsquo;s meant to show up his face on purpose.</description>
     </item>
     
     <item>
       <title>The Markdown Rises</title>
-      <link>http://khal.web.id/2020/09/08/The-Markdown-Rises/</link>
+      <link>https://khal.web.id/2020/09/08/The-Markdown-Rises/</link>
       <pubDate>Tue, 08 Sep 2020 19:08:09 +0700</pubDate>
       
-      <guid>http://khal.web.id/2020/09/08/The-Markdown-Rises/</guid>
+      <guid>https://khal.web.id/2020/09/08/The-Markdown-Rises/</guid>
       <description>It’s been a while, maybe a year since my last post, so I thought I have to at least write a post and hopefully going to be an easy read, so here I’m going to talk about the why, the what, and the how of the Markdown.</description>
     </item>
     
     <item>
       <title>The Smartwatch that you need</title>
-      <link>http://khal.web.id/2018/08/06/20-Shades-of-Smartwatch/</link>
+      <link>https://khal.web.id/2018/08/06/20-Shades-of-Smartwatch/</link>
       <pubDate>Mon, 06 Aug 2018 23:08:09 +0700</pubDate>
       
-      <guid>http://khal.web.id/2018/08/06/20-Shades-of-Smartwatch/</guid>
+      <guid>https://khal.web.id/2018/08/06/20-Shades-of-Smartwatch/</guid>
       <description>I had enough with all feature bloated smartwatch these days and I felt like to share my year&amp;rsquo;s experience using a smartwatch. Talking about features, what&amp;rsquo;s working and what&amp;rsquo;s not, and if it happens you&amp;rsquo;re in a smartwatch industry, I hope this is going to be your guide for the next product line.</description>
     </item>
     
     <item>
       <title>Meet Docker managers for human</title>
-      <link>http://khal.web.id/2018/02/18/Meet-Docker-managers-for-human/</link>
+      <link>https://khal.web.id/2018/02/18/Meet-Docker-managers-for-human/</link>
       <pubDate>Sun, 18 Feb 2018 13:38:36 +0700</pubDate>
       
-      <guid>http://khal.web.id/2018/02/18/Meet-Docker-managers-for-human/</guid>
+      <guid>https://khal.web.id/2018/02/18/Meet-Docker-managers-for-human/</guid>
       <description>After years using docker, I realized that there are so many GUI docker managers out there, this tool is really handy, because you don&amp;rsquo;t need to remember all the command lines or to google every time you forget the command.</description>
     </item>
     
     <item>
       <title>Rusty Macbook Air getting new Air from Archlinux</title>
-      <link>http://khal.web.id/2018/01/25/Rusty-Macbook-Air-getting-new-Air-from-Archlinux/</link>
+      <link>https://khal.web.id/2018/01/25/Rusty-Macbook-Air-getting-new-Air-from-Archlinux/</link>
       <pubDate>Thu, 25 Jan 2018 00:40:18 +0700</pubDate>
       
-      <guid>http://khal.web.id/2018/01/25/Rusty-Macbook-Air-getting-new-Air-from-Archlinux/</guid>
+      <guid>https://khal.web.id/2018/01/25/Rusty-Macbook-Air-getting-new-Air-from-Archlinux/</guid>
       <description>Today I accidentally deleted my primary OSX partition from my very old MacBook air 4,2 (2011) with the last installed os was el Capitan. From the beginning, I just want to give my MacBook some extra space but it turns out cleaning all the HDD &amp;hellip;LOL, I seriously don&amp;rsquo;t know how in the hell this could happen, this is a lesson for not to clean your HDD in the middle of the night.</description>
     </item>
     
     <item>
       <title>Thanks Jekyll. Hello Hugo</title>
-      <link>http://khal.web.id/2018/01/02/Thanks-Jekyll.-Hello-Hugo/</link>
+      <link>https://khal.web.id/2018/01/02/Thanks-Jekyll.-Hello-Hugo/</link>
       <pubDate>Tue, 02 Jan 2018 23:18:55 +0700</pubDate>
       
-      <guid>http://khal.web.id/2018/01/02/Thanks-Jekyll.-Hello-Hugo/</guid>
+      <guid>https://khal.web.id/2018/01/02/Thanks-Jekyll.-Hello-Hugo/</guid>
       <description>I guess it&amp;rsquo;s time to say goodbye to Jekyll and thank you. I just can&amp;rsquo;t go further, I feel like Ruby is too much, struggling with all dependencies, build errors, etc.</description>
     </item>
     
     <item>
       <title>Apa sih IoT (Internet Of Things)</title>
-      <link>http://khal.web.id/2016/09/01/apa-sih-iot/</link>
+      <link>https://khal.web.id/2016/09/01/apa-sih-iot/</link>
       <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://khal.web.id/2016/09/01/apa-sih-iot/</guid>
+      <guid>https://khal.web.id/2016/09/01/apa-sih-iot/</guid>
       <description>Banyak orang yang menyadari bahwa internet itu sudah bisa menjadi jembatan untuk meningkatkan kualitas hidup seseorang secara keseluruhan.
 Bisa dilihat dari banyaknya dijual device/alat wearable seperti jam tangan, gelang, kacamata, sepatu yang notabene fungsi utama sebenarnya adalah monitoring</description>
     </item>
     
     <item>
       <title>How to retro gaming with RetroArch</title>
-      <link>http://khal.web.id/2016/05/16/how-to-retro-gaming-with-retroarch/</link>
+      <link>https://khal.web.id/2016/05/16/how-to-retro-gaming-with-retroarch/</link>
       <pubDate>Mon, 16 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://khal.web.id/2016/05/16/how-to-retro-gaming-with-retroarch/</guid>
+      <guid>https://khal.web.id/2016/05/16/how-to-retro-gaming-with-retroarch/</guid>
       <description>Lately, I&amp;rsquo;ve been amazed by Retroarch, this is not like any other emulators, it can be played on any platform i.e. Linux, Windows, Blackberry, OSX, RaspberryPi, Android, iOS and also Xbox, Playstation, GameCube, Wii, 3DS.</description>
     </item>
     
     <item>
       <title>Bye Wordpress, Hello ... ?</title>
-      <link>http://khal.web.id/2016/05/03/bye-wordpress-hello/</link>
+      <link>https://khal.web.id/2016/05/03/bye-wordpress-hello/</link>
       <pubDate>Tue, 03 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://khal.web.id/2016/05/03/bye-wordpress-hello/</guid>
+      <guid>https://khal.web.id/2016/05/03/bye-wordpress-hello/</guid>
       <description>It’s been long years since I used WordPress in 2006 as my blogging platform, back in the old days there’s nothing can beat what WordPress offers for bloggers. So many themes, plugins, and It’s still the most-used and well-known blogging platform until now.</description>
     </item>
     
     <item>
       <title>Nge-mix Android di Macbook/PC</title>
-      <link>http://khal.web.id/2016/01/25/nge-mix-android-di-macbookpc/</link>
+      <link>https://khal.web.id/2016/01/25/nge-mix-android-di-macbookpc/</link>
       <pubDate>Mon, 25 Jan 2016 13:02:42 +0700</pubDate>
       
-      <guid>http://khal.web.id/2016/01/25/nge-mix-android-di-macbookpc/</guid>
+      <guid>https://khal.web.id/2016/01/25/nge-mix-android-di-macbookpc/</guid>
       <description>Mungkin banyak yg sudah pada tahu kelebihan Android ini, tetapi kebanyakan orang terbiasa tahu bahwa android hanya running di henpon, tablet, IOT devices, atau mini PC dengan USB stick.
 Meskipun bisa di install di banyak device, akan tetapi Operating System yang terinstall pun adalah notabene sama seperti yg kita lihat pada android phone/tablet kebanyakan, misal meski bernama android mini PC, OS yg terinstall pun adalah varian untuk tablet device.</description>
     </item>
     
     <item>
       <title>OS X El Capitan, taktik marketing terbaru Apple</title>
-      <link>http://khal.web.id/2016/01/13/os-x-el-capitan-taktik-marketing-terbaru-apple/</link>
+      <link>https://khal.web.id/2016/01/13/os-x-el-capitan-taktik-marketing-terbaru-apple/</link>
       <pubDate>Wed, 13 Jan 2016 01:15:44 +0700</pubDate>
       
-      <guid>http://khal.web.id/2016/01/13/os-x-el-capitan-taktik-marketing-terbaru-apple/</guid>
+      <guid>https://khal.web.id/2016/01/13/os-x-el-capitan-taktik-marketing-terbaru-apple/</guid>
       <description>Setelah 4 tahun berlalu dari 2012 lalu sebagai pemakai produk Apple yakni Macbook Air mid 2011 OS X Lion dan sama sekali gak pernah upgrade OS (*baca Operating System) dikarenakan taktik Apple yg dari dulu memang lebih fokus ke jualan hardware dibanding efisiensi penggunaan hardware.</description>
     </item>
     
     <item>
       <title>Kopi kental manis, Team Building dan Boardgaming</title>
-      <link>http://khal.web.id/2016/01/11/kopi-kental-manis-team-building-dan-boardgaming/</link>
+      <link>https://khal.web.id/2016/01/11/kopi-kental-manis-team-building-dan-boardgaming/</link>
       <pubDate>Mon, 11 Jan 2016 06:59:10 +0700</pubDate>
       
-      <guid>http://khal.web.id/2016/01/11/kopi-kental-manis-team-building-dan-boardgaming/</guid>
+      <guid>https://khal.web.id/2016/01/11/kopi-kental-manis-team-building-dan-boardgaming/</guid>
       <description>Jika mungkin kita dahulu kenal dengan Ular Tangga, Halma, Catur, Monopoli, Domino, atau permainan tradisional lainnya seperti Congklak/Mancala. Kesamaan dari setiap permainan yang ada di Indonesia biasanya lebih bersifat kompetitif, semua pemainnya berusaha secepat-cepatnya untuk menyelesaikan permainan atau meraih akhir dengan skor tertinggi.</description>
     </item>
     
     <item>
       <title>Star Wars versi cerpen</title>
-      <link>http://khal.web.id/2015/12/21/star-wars-versi-cerpen-buat-yang-males/</link>
+      <link>https://khal.web.id/2015/12/21/star-wars-versi-cerpen-buat-yang-males/</link>
       <pubDate>Mon, 21 Dec 2015 05:25:19 +0700</pubDate>
       
-      <guid>http://khal.web.id/2015/12/21/star-wars-versi-cerpen-buat-yang-males/</guid>
+      <guid>https://khal.web.id/2015/12/21/star-wars-versi-cerpen-buat-yang-males/</guid>
       <description>Berawal dari sebuah acara talkshow &amp;ldquo;The Late Show with Stephen Colbert&amp;rdquo; Stephen menuturkan bahwa sebenarnya tidak semua orang begitu antusias dengan peluncuran film Star Wars yang baru-baru ini heboh di media massa, contoh saja China, dari sekian banyak penduduk bahkan tidak begitu mengetahui tentang film Star Wars ini.</description>
     </item>
     
     <item>
       <title>Cara maksa 3G/HSPA di android kamu</title>
-      <link>http://khal.web.id/2015/12/20/cara-maksa-3ghspa-only-di-android-kamu/</link>
+      <link>https://khal.web.id/2015/12/20/cara-maksa-3ghspa-only-di-android-kamu/</link>
       <pubDate>Sun, 20 Dec 2015 04:18:37 +0700</pubDate>
       
-      <guid>http://khal.web.id/2015/12/20/cara-maksa-3ghspa-only-di-android-kamu/</guid>
+      <guid>https://khal.web.id/2015/12/20/cara-maksa-3ghspa-only-di-android-kamu/</guid>
       <description>Pernah gak suatu ketika henpon kamu secara otomatis hanya menggunakan jaringan 2G padahal jaringan 3G nya available meskipun mungkin sinyal 3G nya hanya sekitar 5%. Hal ini juga yg menyebabkan pulsa kamu dimakan oleh provider telco dikarenakan paket data yg kamu beli hanya berguna untuk 3G saja.</description>
     </item>
     
     <item>
       <title>Bokek nih! Gimana kalo saweran, biar keren bilang aja Crowdfunding</title>
-      <link>http://khal.web.id/2015/08/26/bokek-nih-gimana-kalo-saweran-biar-keren-bilang-aja-crowdfunding/</link>
+      <link>https://khal.web.id/2015/08/26/bokek-nih-gimana-kalo-saweran-biar-keren-bilang-aja-crowdfunding/</link>
       <pubDate>Wed, 26 Aug 2015 08:56:02 +0700</pubDate>
       
-      <guid>http://khal.web.id/2015/08/26/bokek-nih-gimana-kalo-saweran-biar-keren-bilang-aja-crowdfunding/</guid>
+      <guid>https://khal.web.id/2015/08/26/bokek-nih-gimana-kalo-saweran-biar-keren-bilang-aja-crowdfunding/</guid>
       <description>Patungan/Saweran sebenarnya adalah suatu kegiatan yang sudah ada sejak zaman nenek moyang kita dahulu kala, ini biasa dilakukan pada banyak kegiatan-kegiatan di masyarakat dan tentunya hasilnya pun untuk kepentingan masyarakat itu sendiri pula.</description>
     </item>
     
     <item>
       <title>Android On-Body phone lock, pinter juga neh!</title>
-      <link>http://khal.web.id/2015/05/02/android-on-body-phone-lock-pinter-juga-neh/</link>
+      <link>https://khal.web.id/2015/05/02/android-on-body-phone-lock-pinter-juga-neh/</link>
       <pubDate>Sat, 02 May 2015 08:50:00 +0700</pubDate>
       
-      <guid>http://khal.web.id/2015/05/02/android-on-body-phone-lock-pinter-juga-neh/</guid>
+      <guid>https://khal.web.id/2015/05/02/android-on-body-phone-lock-pinter-juga-neh/</guid>
       <description>Tentunya penting buat kita semua untuk menjaga privasi dan keamanan henpon pribadi entah dari kelalaian kita sendiri atau tangan-tangan usil lainnya.
 Oleh karena itulah pada umumnya setiap henpon memiliki beberapa sistem keamanan dan salah satunya adalah Lock Screen system, yang berguna untuk mengunci henpon pengguna dengan sebuah PIN atau Pattern matching ketika henpon sedang berada dalam kondisi tidak digunakan.</description>
     </item>
     
     <item>
       <title>PDKT sama uang dunia maya bernama BitCoin</title>
-      <link>http://khal.web.id/2015/04/23/pdkt-sama-uang-dunia-maya-bernama-bitcoin/</link>
+      <link>https://khal.web.id/2015/04/23/pdkt-sama-uang-dunia-maya-bernama-bitcoin/</link>
       <pubDate>Thu, 23 Apr 2015 10:48:39 +0700</pubDate>
       
-      <guid>http://khal.web.id/2015/04/23/pdkt-sama-uang-dunia-maya-bernama-bitcoin/</guid>
+      <guid>https://khal.web.id/2015/04/23/pdkt-sama-uang-dunia-maya-bernama-bitcoin/</guid>
       <description>BUKAN MLM, bukan koin dinar, bukan juga koin emas dan bahkan nggak punya bentuk fisik yang bisa kamu sisipkan ke dompet atau simpan di bank, apalagi disimpan di bawah kasur. Tapi tentu saja yang namanya uang pastinya bisa kamu belanjain dimanapun kapanpun secara online.</description>
     </item>
     
     <item>
       <title>TOMAHAWK cara males dengerin musik buat penggila musik</title>
-      <link>http://khal.web.id/2015/04/20/tomahawk-cara-males-dengerin-musik-buat-penggila-musik/</link>
+      <link>https://khal.web.id/2015/04/20/tomahawk-cara-males-dengerin-musik-buat-penggila-musik/</link>
       <pubDate>Mon, 20 Apr 2015 03:00:00 +0700</pubDate>
       
-      <guid>http://khal.web.id/2015/04/20/tomahawk-cara-males-dengerin-musik-buat-penggila-musik/</guid>
+      <guid>https://khal.web.id/2015/04/20/tomahawk-cara-males-dengerin-musik-buat-penggila-musik/</guid>
       <description>Mau dengerin musik ini itu, hmm.. itunes ada gak ya.. klo di spotify ada gak ya&amp;hellip; duh coba di grooveshark deh &amp;hellip; apa coba cari di deezer aja &amp;hellip; di soundcloud ada gak ya&amp;hellip; duh ga ada juga.</description>
     </item>
     
     <item>
       <title>Ulah nakal ISP praktik clickjacking</title>
-      <link>http://khal.web.id/2015/04/19/ulah-nakal-isp-praktik-browser-frame-busting/</link>
+      <link>https://khal.web.id/2015/04/19/ulah-nakal-isp-praktik-browser-frame-busting/</link>
       <pubDate>Sun, 19 Apr 2015 08:42:06 +0700</pubDate>
       
-      <guid>http://khal.web.id/2015/04/19/ulah-nakal-isp-praktik-browser-frame-busting/</guid>
+      <guid>https://khal.web.id/2015/04/19/ulah-nakal-isp-praktik-browser-frame-busting/</guid>
       <description>Beberapa ISP di indonesia tanpa konsumen sadari sebenarnya sangat sering melakukan praktik clickjacking hampir di semua website yg konsumen kunjungi, alasan ISP melakukan hal ini tidak lain adalah penempatan iklan gratis dari ISP tersebut tanpa sepengetahuan si empunya website.</description>
     </item>
     
     <item>
       <title>Bisnis &#34;Missed-call&#34; yang luar biasa dibalik Zero Marketing</title>
-      <link>http://khal.web.id/2015/03/31/bisnis-missed-call-yang-luar-biasa-dibalik-zero-marketing/</link>
+      <link>https://khal.web.id/2015/03/31/bisnis-missed-call-yang-luar-biasa-dibalik-zero-marketing/</link>
       <pubDate>Tue, 31 Mar 2015 11:14:06 +0700</pubDate>
       
-      <guid>http://khal.web.id/2015/03/31/bisnis-missed-call-yang-luar-biasa-dibalik-zero-marketing/</guid>
+      <guid>https://khal.web.id/2015/03/31/bisnis-missed-call-yang-luar-biasa-dibalik-zero-marketing/</guid>
       <description>Missed-call sebenarnya adalah hal yang sangat sederhana dan sungguh membuat gue kagum sampai sekarang, karena hal seperti ini bisa dijadikan sebuah bisnis yang luar biasa dan sangat menguntungkan.
 ZipDial namanya, adalah sebuah perusahaan berbasis di India yang memang fokus bergerak di bisnis &amp;ldquo;missed-call&amp;rdquo;.</description>
     </item>
     
     <item>
       <title>Nah ini dia daftar gTLD kocak dan sedikit absurd</title>
-      <link>http://khal.web.id/2015/03/26/nah-ini-dia-daftar-gtld-kocak-dan-sedikit-absurd/</link>
+      <link>https://khal.web.id/2015/03/26/nah-ini-dia-daftar-gtld-kocak-dan-sedikit-absurd/</link>
       <pubDate>Thu, 26 Mar 2015 07:49:58 +0700</pubDate>
       
-      <guid>http://khal.web.id/2015/03/26/nah-ini-dia-daftar-gtld-kocak-dan-sedikit-absurd/</guid>
+      <guid>https://khal.web.id/2015/03/26/nah-ini-dia-daftar-gtld-kocak-dan-sedikit-absurd/</guid>
       <description>gTLD adalah kepanjangan dari &amp;ldquo;generic Top Level Domain&amp;rdquo; yang mungkin kamu semua sudah familiar dengan nama .com, .net, .org, .web.id. Tiga tahun belakangan ini banyak sekali gTLD baru yang telah disahkan oleh ICANN (The Internet Corporation for Assigned Names and Numbers).</description>
     </item>
     
     <item>
       <title>Belenggu dari aplikasi parasit</title>
-      <link>http://khal.web.id/2015/03/17/belenggu-sosial-dari-what-to-be-called-a-parasite-apps/</link>
+      <link>https://khal.web.id/2015/03/17/belenggu-sosial-dari-what-to-be-called-a-parasite-apps/</link>
       <pubDate>Tue, 17 Mar 2015 06:12:12 +0700</pubDate>
       
-      <guid>http://khal.web.id/2015/03/17/belenggu-sosial-dari-what-to-be-called-a-parasite-apps/</guid>
+      <guid>https://khal.web.id/2015/03/17/belenggu-sosial-dari-what-to-be-called-a-parasite-apps/</guid>
       <description>Parasit adalah organisme yang hidup menempel dengan organisme lain. Dan mendapat keuntungan sumber daya dari inang-nya serta mengeksploitasi inangnya tanpa timbal balik.
 Begitupun halnya dengan banyaknya aplikasi yang mengambil keuntungan serta sangat bergantung dengan beberapa raksasa sosial media seperti facebook, twitter, dan google (TheBigThree)</description>
     </item>
     
     <item>
       <title>Dreadful battery life, Is it a Smartwatch, a Cellphone or just another complicated gadget?</title>
-      <link>http://khal.web.id/2014/08/18/ahh-a-dreadful-battery-life-is-it-a-smartwatch-a-cellphone-or-just-another-complicated-gadget/</link>
+      <link>https://khal.web.id/2014/08/18/ahh-a-dreadful-battery-life-is-it-a-smartwatch-a-cellphone-or-just-another-complicated-gadget/</link>
       <pubDate>Mon, 18 Aug 2014 06:39:28 +0700</pubDate>
       
-      <guid>http://khal.web.id/2014/08/18/ahh-a-dreadful-battery-life-is-it-a-smartwatch-a-cellphone-or-just-another-complicated-gadget/</guid>
+      <guid>https://khal.web.id/2014/08/18/ahh-a-dreadful-battery-life-is-it-a-smartwatch-a-cellphone-or-just-another-complicated-gadget/</guid>
       <description>Big smartwatch vendors keep pushing themself in the race of features. Features that sometimes I don&amp;rsquo;t get it, why would it have to?
 And then, it keeps me thinking. What exactly they are trying to make?</description>
     </item>
     
     <item>
       <title>How to get realtime Now Playing info from Ice Cast</title>
-      <link>http://khal.web.id/2014/08/12/how-to-get-realtime-now-playing-info-from-ice-cast/</link>
+      <link>https://khal.web.id/2014/08/12/how-to-get-realtime-now-playing-info-from-ice-cast/</link>
       <pubDate>Tue, 12 Aug 2014 05:04:45 +0700</pubDate>
       
-      <guid>http://khal.web.id/2014/08/12/how-to-get-realtime-now-playing-info-from-ice-cast/</guid>
+      <guid>https://khal.web.id/2014/08/12/how-to-get-realtime-now-playing-info-from-ice-cast/</guid>
       <description>Getting a #NowPlaying info from your Ice Cast 2 server is pretty dead simple. You can get current track information from scrapping the XSPF url periodically by using CURL command. Here I&amp;rsquo;m going to explain how it works, I&amp;rsquo;m going to make a short javascript code to periodically update the current playing track and a simple php script to curl the xspf endpoint.</description>
     </item>
     
     <item>
       <title>Aplikasi mobile IFTTT bakal bikin Android lo makin canggih!</title>
-      <link>http://khal.web.id/2014/07/11/aplikasi-mobile-ifttt-bakal-bikin-android-lo-makin-canggih/</link>
+      <link>https://khal.web.id/2014/07/11/aplikasi-mobile-ifttt-bakal-bikin-android-lo-makin-canggih/</link>
       <pubDate>Fri, 11 Jul 2014 09:03:57 +0700</pubDate>
       
-      <guid>http://khal.web.id/2014/07/11/aplikasi-mobile-ifttt-bakal-bikin-android-lo-makin-canggih/</guid>
+      <guid>https://khal.web.id/2014/07/11/aplikasi-mobile-ifttt-bakal-bikin-android-lo-makin-canggih/</guid>
       <description>IFTTT adalah sebuah alat yang akan memudahkan otomatisasi kegiatan lo sehari-hari dengan dunia internet. Cara pemakaian IFTTT pun cukup mudah, sama sekali gak perlu ngerti IT banget. Sumpah gak boong :-)</description>
     </item>
     
     <item>
       <title>Nanti gue &#34;Yo!&#34; aja ya...</title>
-      <link>http://khal.web.id/2014/06/19/nanti-gue-yo-aja-ya/</link>
+      <link>https://khal.web.id/2014/06/19/nanti-gue-yo-aja-ya/</link>
       <pubDate>Thu, 19 Jun 2014 09:20:34 +0700</pubDate>
       
-      <guid>http://khal.web.id/2014/06/19/nanti-gue-yo-aja-ya/</guid>
+      <guid>https://khal.web.id/2014/06/19/nanti-gue-yo-aja-ya/</guid>
       <description>Yo, yo , yoooooo! &amp;hellip;. Ha ha, satu lagi terobosan baru cara berkomunikasi dengan temen-temen lo, sebenernya sih ga baru-baru amet, kalo dulu jaman gw baru2x masuk kuliah taun 90-an pasti lo tau deh yang namanya &amp;ldquo;Miss Call&amp;rdquo; cuman buat ngasih tau kalo lo dah nyampe kelas, ato buat ngasih tau dah nyampe tempat janjian misalnya di mall, kafe, dll.</description>
     </item>
     
     <item>
       <title>Yay! Twitter featuring Piala Dunia 2014</title>
-      <link>http://khal.web.id/2014/06/12/yay-twitter-featuring-piala-dunia-2014/</link>
+      <link>https://khal.web.id/2014/06/12/yay-twitter-featuring-piala-dunia-2014/</link>
       <pubDate>Thu, 12 Jun 2014 08:53:39 +0700</pubDate>
       
-      <guid>http://khal.web.id/2014/06/12/yay-twitter-featuring-piala-dunia-2014/</guid>
+      <guid>https://khal.web.id/2014/06/12/yay-twitter-featuring-piala-dunia-2014/</guid>
       <description>Sepertinya untuk Piala Dunia 2014 ini, Twitter benar-benar memberikan wadah pada para tweeps untuk turut menyemarakan suasana piala dunia di sisi online digital social media, bisa dilihat pada tampilan home terbaru dari Twitter.</description>
     </item>
     
     <item>
       <title>Sekilas tentang Swarm dan The New Foursquare app</title>
-      <link>http://khal.web.id/2014/06/10/sekilas-tentang-swarm-dan-the-new-foursquare-app/</link>
+      <link>https://khal.web.id/2014/06/10/sekilas-tentang-swarm-dan-the-new-foursquare-app/</link>
       <pubDate>Tue, 10 Jun 2014 13:29:10 +0700</pubDate>
       
-      <guid>http://khal.web.id/2014/06/10/sekilas-tentang-swarm-dan-the-new-foursquare-app/</guid>
+      <guid>https://khal.web.id/2014/06/10/sekilas-tentang-swarm-dan-the-new-foursquare-app/</guid>
       <description>Belakangan ini Foursquare sedang sibuk2x nya membuat sebuah modifikasi baru pada sisi aplikasi dan user experience dengan tujuan untuk lebih menekankan, bahwa inti dari semua yang Foursquare lakukan selama ini adalah bukan untuk membuat sebuah famous check-in button yang mungkin tiap orang bisa bilang &amp;ldquo;Kalo mau check-in ya di Foursquare aja&amp;rdquo;</description>
     </item>
     
     <item>
       <title>Uhuk.. facebook &#34;ask&#34; buat gombalin cewek jomblo, lumayan neh</title>
-      <link>http://khal.web.id/2014/06/05/uhuk-facebook-ask-buat-gombalin-cewek-jomblo-lumayan-neh/</link>
+      <link>https://khal.web.id/2014/06/05/uhuk-facebook-ask-buat-gombalin-cewek-jomblo-lumayan-neh/</link>
       <pubDate>Thu, 05 Jun 2014 07:25:20 +0700</pubDate>
       
-      <guid>http://khal.web.id/2014/06/05/uhuk-facebook-ask-buat-gombalin-cewek-jomblo-lumayan-neh/</guid>
+      <guid>https://khal.web.id/2014/06/05/uhuk-facebook-ask-buat-gombalin-cewek-jomblo-lumayan-neh/</guid>
       <description>Kalo misal lo liat facebook profile temen lo yang lagi ga punya status relationship lo bakal bisa ngelihat tombol &amp;ldquo;Ask&amp;rdquo; button, yang dimana lo bisa tanya apapun itu yang berhubungan dengan status relationship orang tersebut, button &amp;ldquo;Ask&amp;rdquo; ini hanya bisa dilihat oleh orang lain, pemilik facebook profile tidak akan bisa melihat button ini.</description>
     </item>
     
     <item>
       <title>Amankah login dengan akun sosial media pada aplikasi lain?</title>
-      <link>http://khal.web.id/2014/05/28/aplikasi-3rd-party-facebookpaypaldll-aman-gituh-lo-harus-tahu/</link>
+      <link>https://khal.web.id/2014/05/28/aplikasi-3rd-party-facebookpaypaldll-aman-gituh-lo-harus-tahu/</link>
       <pubDate>Wed, 28 May 2014 13:08:25 +0700</pubDate>
       
-      <guid>http://khal.web.id/2014/05/28/aplikasi-3rd-party-facebookpaypaldll-aman-gituh-lo-harus-tahu/</guid>
+      <guid>https://khal.web.id/2014/05/28/aplikasi-3rd-party-facebookpaypaldll-aman-gituh-lo-harus-tahu/</guid>
       <description>Tentunya banyak dari kamu yang menggunakan aplikasi dengan opsi untuk login menggunakan beberapa akun sosial media yang kamu miliki seperti facebook, twitter, google, linkedin dll. Misal ketika kamu login menggunakan facebook, dalam prosesnya, biasanya pengguna akan dialihkan ke halaman login facebook agar kamu bisa memberikan izin otorisasi, akhirnya facebook akan memberikan access token yang kemudian mengalihkan kamu kembali kepada aplikasi tersebut.</description>
     </item>
     
     <item>
       <title>Mau punya Restoran di Facebook? Cekidot Gan!</title>
-      <link>http://khal.web.id/2014/05/26/mau-punya-restoran-di-facebook-cekidot-gan/</link>
+      <link>https://khal.web.id/2014/05/26/mau-punya-restoran-di-facebook-cekidot-gan/</link>
       <pubDate>Mon, 26 May 2014 05:02:01 +0700</pubDate>
       
-      <guid>http://khal.web.id/2014/05/26/mau-punya-restoran-di-facebook-cekidot-gan/</guid>
+      <guid>https://khal.web.id/2014/05/26/mau-punya-restoran-di-facebook-cekidot-gan/</guid>
       <description>Kabar gembira buat lo semua yang baru aja memulai bisnis resto/cafe/rumah makan/warteg atau yang sejenisnya.
 Facebook baru2x aja merilis fitur baru dari Facebook Fan Pages dimana setiap user yang mempunyai facebook fan pages berkategorikan “Restaurant/Cafe” akan mempunyai opsi2x untuk menambahkan detil-detil tentang restoran yang dikelola oleh user tersebut.</description>
     </item>
     
     <item>
       <title>Hmm.. PathWebsite... no related.. no official.. indeed suspicious</title>
-      <link>http://khal.web.id/2014/05/07/pathwebsite-no-official-no-related-indeed-suspicious/</link>
+      <link>https://khal.web.id/2014/05/07/pathwebsite-no-official-no-related-indeed-suspicious/</link>
       <pubDate>Tue, 06 May 2014 19:15:44 +0700</pubDate>
       
-      <guid>http://khal.web.id/2014/05/07/pathwebsite-no-official-no-related-indeed-suspicious/</guid>
+      <guid>https://khal.web.id/2014/05/07/pathwebsite-no-official-no-related-indeed-suspicious/</guid>
       <description>Oh wow, it&amp;rsquo;s fake and suspicious&amp;hellip;
 Last Monday, roaming around at my office, some of my colleagues showed me a website that has a similar look with Path.com and also exact Path logo on the website, web layout is pretty neat too, some of my friends even say that PathWebsite is for exclusive path users only.</description>
     </item>
     
     <item>
       <title>Ngobrol unik bareng FireChat</title>
-      <link>http://khal.web.id/2014/04/17/ngobrol-unik-bareng-firechat/</link>
+      <link>https://khal.web.id/2014/04/17/ngobrol-unik-bareng-firechat/</link>
       <pubDate>Thu, 17 Apr 2014 11:41:02 +0700</pubDate>
       
-      <guid>http://khal.web.id/2014/04/17/ngobrol-unik-bareng-firechat/</guid>
+      <guid>https://khal.web.id/2014/04/17/ngobrol-unik-bareng-firechat/</guid>
       <description>Ada yang baru nih, namanya Firechat, aplikasi chatting yang satu ini cukup unik dan bisa dibilang bermanfaat atau bisa dimanfaatkan &amp;hellip; he he. Salah satu keunikannya adalah lo ga perlu registrasi sama sekali untuk menggunakan aplikasi ini&amp;hellip;.</description>
     </item>
     
     <item>
       <title>Internet geger gegara HeartBleed [BUG] </title>
-      <link>http://khal.web.id/2014/04/11/internet-geger-gegara-heartbleed-bugs/</link>
+      <link>https://khal.web.id/2014/04/11/internet-geger-gegara-heartbleed-bugs/</link>
       <pubDate>Fri, 11 Apr 2014 08:51:42 +0700</pubDate>
       
-      <guid>http://khal.web.id/2014/04/11/internet-geger-gegara-heartbleed-bugs/</guid>
+      <guid>https://khal.web.id/2014/04/11/internet-geger-gegara-heartbleed-bugs/</guid>
       <description>2 atau 3 hari yang lalu sekitar 66% website di seluruh dunia sempat geger dengan adanya bug pada OpenSSL (*yaitu sebuah software kriptografi yang banyak dipakai di sekian banyak aplikasi website dan berguna untuk melindungi data koneksi pengguna ketika sedang melakukan aktivitas internet)</description>
     </item>
     
     <item>
       <title>Hati-hati domain &#34;.com.com&#34;</title>
-      <link>http://khal.web.id/2014/04/01/hati-hati-domain-com-com/</link>
+      <link>https://khal.web.id/2014/04/01/hati-hati-domain-com-com/</link>
       <pubDate>Tue, 01 Apr 2014 05:09:39 +0700</pubDate>
       
-      <guid>http://khal.web.id/2014/04/01/hati-hati-domain-com-com/</guid>
+      <guid>https://khal.web.id/2014/04/01/hati-hati-domain-com-com/</guid>
       <description>Hati-hati sama domain yang namanya &amp;ldquo;*.com.com&amp;rdquo; gue gak tau kenapa, percaya gak percaya ini domain bisa exist, domain yg satu ini bisa sangat mirip sama domain &amp;ldquo;*.com&amp;rdquo;, ya secara TLD .</description>
     </item>
     
     <item>
       <title>[NOTE] Upgrade NodeJS lokal via NPM dan &#34;n&#34; module</title>
-      <link>http://khal.web.id/2014/02/19/note-upgrade-nodejs-lokal-via-npm-dan-n-module/</link>
+      <link>https://khal.web.id/2014/02/19/note-upgrade-nodejs-lokal-via-npm-dan-n-module/</link>
       <pubDate>Wed, 19 Feb 2014 07:55:27 +0700</pubDate>
       
-      <guid>http://khal.web.id/2014/02/19/note-upgrade-nodejs-lokal-via-npm-dan-n-module/</guid>
+      <guid>https://khal.web.id/2014/02/19/note-upgrade-nodejs-lokal-via-npm-dan-n-module/</guid>
       <description>Sebelum NodeJS-nya di-upgrade, cek dulu versi yang ter-install,
 $node -v v0.10.12  Bersih2x NPM Cache,
 sudo npm cache clean -f  Install &amp;ldquo;n&amp;rdquo; Node binary manager ,
@@ -375,139 +375,139 @@ sudo npm install -g n  Upgrade Node ke versi terakhir,</description>
     
     <item>
       <title>Bicara &#34;Flow&#34; kreatifitas dalam segi internet, teknologi, dan keseharian </title>
-      <link>http://khal.web.id/2014/02/17/bicara-flow-kreatifitas-dalam-segi-internet-teknologi-dan-keseharian/</link>
+      <link>https://khal.web.id/2014/02/17/bicara-flow-kreatifitas-dalam-segi-internet-teknologi-dan-keseharian/</link>
       <pubDate>Mon, 17 Feb 2014 11:43:31 +0700</pubDate>
       
-      <guid>http://khal.web.id/2014/02/17/bicara-flow-kreatifitas-dalam-segi-internet-teknologi-dan-keseharian/</guid>
+      <guid>https://khal.web.id/2014/02/17/bicara-flow-kreatifitas-dalam-segi-internet-teknologi-dan-keseharian/</guid>
       <description>Flow yang dimaksud disini adalah sebuah desain psikologis yang menggunakan kondisi mental dan kejiwaan dari seseorang, bagaimana dan mengapa seseorang bisa mencurahkan segala fokus dan konsentrasi dalam satu aktivitas dengan jangka waktu yang sangat lama tanpa merasa bosan, enjoy dan bahkan menjadi ketagihan.</description>
     </item>
     
     <item>
       <title>Woh! Pebble AppStore BETA Android tarik gan!!</title>
-      <link>http://khal.web.id/2014/02/05/woh-pebble-appstore-beta-android-tarik-gan/</link>
+      <link>https://khal.web.id/2014/02/05/woh-pebble-appstore-beta-android-tarik-gan/</link>
       <pubDate>Wed, 05 Feb 2014 06:23:00 +0700</pubDate>
       
-      <guid>http://khal.web.id/2014/02/05/woh-pebble-appstore-beta-android-tarik-gan/</guid>
+      <guid>https://khal.web.id/2014/02/05/woh-pebble-appstore-beta-android-tarik-gan/</guid>
       <description>Akhirnya di release juga Pebble AppStore untuk pengguna Android, buat yang mau download harus lewat developer portal pebble karena masih BETA released, jadi belum bisa di download lewat google play. Cara download dan instalasi sama seperti artikel gue sebelumnya klik disini , semua bisa Lo lakukan lewat browser henpon saja.</description>
     </item>
     
     <item>
       <title>Low RAM Android? No Worry at All</title>
-      <link>http://khal.web.id/2014/01/23/low-ram-android-no-worry/</link>
+      <link>https://khal.web.id/2014/01/23/low-ram-android-no-worry/</link>
       <pubDate>Thu, 23 Jan 2014 06:40:58 +0700</pubDate>
       
-      <guid>http://khal.web.id/2014/01/23/low-ram-android-no-worry/</guid>
+      <guid>https://khal.web.id/2014/01/23/low-ram-android-no-worry/</guid>
       <description>Ever think to change my old android smartphone into a much better one, however, the android market seems to change very fast, in every year you will see how many new android devices being shipped with their new technology, hardware, and new operating system, which is IMHO I don&amp;rsquo;t think that the enhancement they made, is having a big difference in a way I use my phone.</description>
     </item>
     
     <item>
       <title>Hardening your password and yet still easy to remember it</title>
-      <link>http://khal.web.id/2014/01/15/hardening-your-password-and-yet-still-easy-to-remember-it/</link>
+      <link>https://khal.web.id/2014/01/15/hardening-your-password-and-yet-still-easy-to-remember-it/</link>
       <pubDate>Wed, 15 Jan 2014 12:16:53 +0700</pubDate>
       
-      <guid>http://khal.web.id/2014/01/15/hardening-your-password-and-yet-still-easy-to-remember-it/</guid>
+      <guid>https://khal.web.id/2014/01/15/hardening-your-password-and-yet-still-easy-to-remember-it/</guid>
       <description>A password is a key for accessing your online properties on the internet. Many people like your friends, brothers, or maybe your colleague been using an easy guess password, such as his dog name, mother name, his last name, or maybe the very most favorite everyone password 12345.</description>
     </item>
     
     <item>
       <title>Punya nama DOMAIN sendiri, penting gak sih?</title>
-      <link>http://khal.web.id/2014/01/13/punya-nama-domain-sendiri-penting-gak-sih/</link>
+      <link>https://khal.web.id/2014/01/13/punya-nama-domain-sendiri-penting-gak-sih/</link>
       <pubDate>Mon, 13 Jan 2014 09:33:33 +0700</pubDate>
       
-      <guid>http://khal.web.id/2014/01/13/punya-nama-domain-sendiri-penting-gak-sih/</guid>
+      <guid>https://khal.web.id/2014/01/13/punya-nama-domain-sendiri-penting-gak-sih/</guid>
       <description>Domain &amp;hellip; apa tuh domain? istilah domain yang gue maksud disini adalah Domain Internet, atau secara tidak langsung baik sadar atau tidak, beberapa orang yang pekerjaannya lekat dengan Internet pasti tahu deh domain itu seperti apa, tapi mungkin banyak orang yang menyebutkannya dengan gamblang seperti URL, Website, atau Link.</description>
     </item>
     
     <item>
       <title>Wordpress ke Path ke Wordpress kemana aja boleeeeh...</title>
-      <link>http://khal.web.id/2014/01/10/wordpress-ke-path-ke-wordpress-kemana-aja-boleeeeh/</link>
+      <link>https://khal.web.id/2014/01/10/wordpress-ke-path-ke-wordpress-kemana-aja-boleeeeh/</link>
       <pubDate>Fri, 10 Jan 2014 08:51:34 +0700</pubDate>
       
-      <guid>http://khal.web.id/2014/01/10/wordpress-ke-path-ke-wordpress-kemana-aja-boleeeeh/</guid>
+      <guid>https://khal.web.id/2014/01/10/wordpress-ke-path-ke-wordpress-kemana-aja-boleeeeh/</guid>
       <description>Bersamaan dengan terjalinnya kerjasama antara Path dengan SosMed lainnya, Wordpress mengumumkan di blog nya New for Publicize: Share Your Path Moments singkatnya Wordpress menjelaskan cara-cara bagaimana pengguna bisa sharing blog post-nya menjadi sebuah momen/post di Path.</description>
     </item>
     
     <item>
       <title>Olahraga Scientific, hanya 7 menit</title>
-      <link>http://khal.web.id/2013/12/31/olahraga-7-menit/</link>
+      <link>https://khal.web.id/2013/12/31/olahraga-7-menit/</link>
       <pubDate>Tue, 31 Dec 2013 09:17:45 +0700</pubDate>
       
-      <guid>http://khal.web.id/2013/12/31/olahraga-7-menit/</guid>
+      <guid>https://khal.web.id/2013/12/31/olahraga-7-menit/</guid>
       <description>Hayo2x yg masih di kasur,
  Cuman 7 menit. Olahraga hemat tempat. Cuman butuh kursi dan dinding ato sandaran hati (*sori curcol) Ulangin 2-3x, udah kayak lari 10km ciyus ga boong.</description>
     </item>
     
     <item>
       <title>Registrasi gratis aplikasi microblogging App.net</title>
-      <link>http://khal.web.id/2013/12/23/registrasi-app-net/</link>
+      <link>https://khal.web.id/2013/12/23/registrasi-app-net/</link>
       <pubDate>Mon, 23 Dec 2013 11:42:34 +0700</pubDate>
       
-      <guid>http://khal.web.id/2013/12/23/registrasi-app-net/</guid>
+      <guid>https://khal.web.id/2013/12/23/registrasi-app-net/</guid>
       <description>Mungkin dulu ada yg tau soal microblogging platform yg satu ini, namanya App.Net, tanpa sengaja dan tak tahu mengapa tiba2x gue memebuka url untuk registrasi di App.Net yg notabene, dulunya user yg mau menggunakan platform ini harus nembayar $35/tahun atau $5/bulan.</description>
     </item>
     
     <item>
       <title>Cara update Firmware Pebble ke SDK 2 Beta version</title>
-      <link>http://khal.web.id/2013/12/16/cara-update-firmware-pebble-ke-sdk-2-beta-version/</link>
+      <link>https://khal.web.id/2013/12/16/cara-update-firmware-pebble-ke-sdk-2-beta-version/</link>
       <pubDate>Mon, 16 Dec 2013 15:18:10 +0700</pubDate>
       
-      <guid>http://khal.web.id/2013/12/16/cara-update-firmware-pebble-ke-sdk-2-beta-version/</guid>
+      <guid>https://khal.web.id/2013/12/16/cara-update-firmware-pebble-ke-sdk-2-beta-version/</guid>
       <description>Update: Semua intruksi dibawah ini bisa dilakukan hanya dengan menggunakan browser henpon.
 Halo Pebble&amp;rsquo;ers (*ha ha namanya ga asik) belakangan ini Pebble mengeluarkan versi Firmware Beta untuk SDK2, update salah satunya adalah mengaktifkan kegunaan Accelerometer yg bisa mengukur movement dari pemakai dan Javascript Kit yg memudahkan developer untuk mengintegrasikan aplikasi pebble dengan web service semacam facebook, foursquare, yahoo weather, dll tanpa menggunakan 3rd party app seperti httpebble.</description>
     </item>
     
     <item>
       <title>Nike WeRun Jakarta 2013 #BajakJkt finisher</title>
-      <link>http://khal.web.id/2013/12/15/nike-werun-jakarta-2013-bajakjkt-finisher/</link>
+      <link>https://khal.web.id/2013/12/15/nike-werun-jakarta-2013-bajakjkt-finisher/</link>
       <pubDate>Sun, 15 Dec 2013 03:17:29 +0700</pubDate>
       
-      <guid>http://khal.web.id/2013/12/15/nike-werun-jakarta-2013-bajakjkt-finisher/</guid>
+      <guid>https://khal.web.id/2013/12/15/nike-werun-jakarta-2013-bajakjkt-finisher/</guid>
       <description>Yay! 10000 finisher complete #bajakjkt #werun Lumayan jauh juga ternyata, kalo dari Nike plus gw, jarak yg tercatat sekitar 12 km,
 Race yg satu ini sebenernya udah termasuk murah, Rp.175ribu sudah beserta 2 T-Shirt original NikeRunning Dri Fit ( Race &amp;amp; Finisher Tees ) plus Nike sport water Bottle-nya, dan race tag yg di pakai adalah tipe DTAG produksi dari ChronoTrack sebuah antena RFID untuk mencatat lap time/Nett Time dari para runner.</description>
     </item>
     
     <item>
       <title>Bicara soal &#34;People talking about this&#34;-nya Facebook fan page</title>
-      <link>http://khal.web.id/2013/12/12/bicara-soal-people-talking-about-this-nya-facebook-fan-page/</link>
+      <link>https://khal.web.id/2013/12/12/bicara-soal-people-talking-about-this-nya-facebook-fan-page/</link>
       <pubDate>Thu, 12 Dec 2013 09:50:44 +0700</pubDate>
       
-      <guid>http://khal.web.id/2013/12/12/bicara-soal-people-talking-about-this-nya-facebook-fan-page/</guid>
+      <guid>https://khal.web.id/2013/12/12/bicara-soal-people-talking-about-this-nya-facebook-fan-page/</guid>
       <description>Wow topik lama nih, sumpah deh ga boong, kira-kira bulan Oktober tahun 2011 lalu, Facebook meluncurkan metrik baru buat Fan page insights yang namanya People talking about this ato biasa disingkat &amp;ldquo;PTAT&amp;rdquo; artinya berapa banyak orang yang ngomongin soal fan page lo.</description>
     </item>
     
     <item>
       <title>Apa, siapa, dimana, bagaimana, kenapa Pebble ?</title>
-      <link>http://khal.web.id/2013/11/11/apa-siapa-dimana-bagaimana-kenapa-pebble/</link>
+      <link>https://khal.web.id/2013/11/11/apa-siapa-dimana-bagaimana-kenapa-pebble/</link>
       <pubDate>Mon, 11 Nov 2013 10:37:11 +0700</pubDate>
       
-      <guid>http://khal.web.id/2013/11/11/apa-siapa-dimana-bagaimana-kenapa-pebble/</guid>
+      <guid>https://khal.web.id/2013/11/11/apa-siapa-dimana-bagaimana-kenapa-pebble/</guid>
       <description>Hmm dari judulnya panjang ya&amp;hellip; sumpah males deh nerusin artikelnya, gw juga ga rajin2x amet nge-blog, tapi pengen aja sharing sama yg lain, banyak yg nanya soal gadget unik yg satu ini yg namanya &amp;lt;strong&amp;gt;Pebble&amp;lt;/strong&amp;gt;, mungkin banyak &amp;ldquo;anak bertanya pada bapaknya&amp;hellip; buat apa berlapar2x puasa &amp;hellip; tadarus tarawih apalah gunanya&amp;rdquo; (*Halaaaah, ngaco kan, knapa jadi Bimbo, sori ya, Bimbo ama Pebble ga da hubungannya sama skali, titik.</description>
     </item>
     
     <item>
       <title>Mari berbagi soal Privasi di Sosial Media Online</title>
-      <link>http://khal.web.id/2013/11/07/mari-berbagi-soal-privasi-di-sosial-media-online/</link>
+      <link>https://khal.web.id/2013/11/07/mari-berbagi-soal-privasi-di-sosial-media-online/</link>
       <pubDate>Thu, 07 Nov 2013 07:21:35 +0700</pubDate>
       
-      <guid>http://khal.web.id/2013/11/07/mari-berbagi-soal-privasi-di-sosial-media-online/</guid>
+      <guid>https://khal.web.id/2013/11/07/mari-berbagi-soal-privasi-di-sosial-media-online/</guid>
       <description>Sebelum kita ngomongin soal privasi di sosial media online, tentunya kita harus tau dulu bentukan dari sosial media itu atau &amp;ldquo;Apa sih sosial media itu?&amp;rdquo;, sebenernya mudah saja untuk semua orang mendefinisikan artian dari sosial media (*baca: SosMed), tapi pada intinya SosMed adalah sebuah wadah dimana semua member/pengguna/partisipan bisa membangun relasi dan koneksi dengan member lain, tempat dimana kita bisa selalu terhubung dengan teman2x, menjalin hubungan baru, berbagi interest dan ide.</description>
     </item>
     
     <item>
       <title>Ada media blogging terbaru namanya ghost, ngintip yuk!</title>
-      <link>http://khal.web.id/2013/10/17/ada-media-blogging-terbaru-namanya-ghost/</link>
+      <link>https://khal.web.id/2013/10/17/ada-media-blogging-terbaru-namanya-ghost/</link>
       <pubDate>Thu, 17 Oct 2013 07:42:15 +0700</pubDate>
       
-      <guid>http://khal.web.id/2013/10/17/ada-media-blogging-terbaru-namanya-ghost/</guid>
+      <guid>https://khal.web.id/2013/10/17/ada-media-blogging-terbaru-namanya-ghost/</guid>
       <description>Mungkin beberapa dari lo, sudah mendengar soal media blogging yang satu ini, Ghost pertama kali dicetuskan oleh John O&amp;rsquo;Nolan anggota dari Core Wordpress UI team. Berawal dari sebuah thread pada Hacker News membicarakan bagaimana sih seharusnya media blogging platform itu.</description>
     </item>
     
     <item>
       <title>Cara nge-tweet otomatis</title>
-      <link>http://khal.web.id/2012/09/05/rahasia-dibalik-otomatisasi-tweet-gue/</link>
+      <link>https://khal.web.id/2012/09/05/rahasia-dibalik-otomatisasi-tweet-gue/</link>
       <pubDate>Wed, 05 Sep 2012 09:51:54 +0700</pubDate>
       
-      <guid>http://khal.web.id/2012/09/05/rahasia-dibalik-otomatisasi-tweet-gue/</guid>
+      <guid>https://khal.web.id/2012/09/05/rahasia-dibalik-otomatisasi-tweet-gue/</guid>
       <description>Pada mulanya karena kebanyakan artikel yang gue baca berasal dari Google Reader,
  Gue males banget
  Kalo sharing lewat button share, soalnya ribet, begitu klik, login dulu facebook ato twitter, terus muncul popup, terus harus mencet lagi tombol send, belum lagi gue harus ngedit isi konten share-nya, terus aja terus.</description>
@@ -515,95 +515,95 @@ Race yg satu ini sebenernya udah termasuk murah, Rp.175ribu sudah beserta 2 T-Sh
     
     <item>
       <title>Berbagi Fotografi dengan Aplikasi Android Gratis</title>
-      <link>http://khal.web.id/2011/12/11/berbagi-fotografi-dengan-aplikasi-android-gratis/</link>
+      <link>https://khal.web.id/2011/12/11/berbagi-fotografi-dengan-aplikasi-android-gratis/</link>
       <pubDate>Sun, 11 Dec 2011 11:39:24 +0700</pubDate>
       
-      <guid>http://khal.web.id/2011/12/11/berbagi-fotografi-dengan-aplikasi-android-gratis/</guid>
+      <guid>https://khal.web.id/2011/12/11/berbagi-fotografi-dengan-aplikasi-android-gratis/</guid>
       <description>Memasuki dunia android ternyata memang tidak membosankan dari segi banyaknya aplikasi yang menunjang sistem androidnya sendiri serta banyaknya komunitas pengguna android di indonesia.
 Dari sekian banyak hal, yang paling menarik perhatian saya adalah &amp;ldquo;Mobile Photography&amp;rdquo; yang notabene hal ini sudah sangat mudah dilakukan dengan kemajuan teknologi selular zaman sekarang, ditambah lagi dengan maraknya jejaring sosial yang sangat memungkinkan seorang pengguna untuk langsung mempublikasikan hasil jepretan-nya ke khalayak ramai.</description>
     </item>
     
     <item>
       <title>Using Facebook Test User</title>
-      <link>http://khal.web.id/2011/07/27/using-facebook-test-user/</link>
+      <link>https://khal.web.id/2011/07/27/using-facebook-test-user/</link>
       <pubDate>Wed, 27 Jul 2011 08:59:35 +0700</pubDate>
       
-      <guid>http://khal.web.id/2011/07/27/using-facebook-test-user/</guid>
+      <guid>https://khal.web.id/2011/07/27/using-facebook-test-user/</guid>
       <description>If you don&amp;rsquo;t know what Facebook Test User is? you may check the documentation on http://developers.facebook.com/docs/test_users/
 Test User is a tool that could be handy when you need to have some users to interact with your application, facebook currently provide this through Graph Api.</description>
     </item>
     
     <item>
       <title>Facebook PHP SDK v3.01 now free cookies</title>
-      <link>http://khal.web.id/2011/07/06/facebook-php-sdk-v3-01-now-free-cookies/</link>
+      <link>https://khal.web.id/2011/07/06/facebook-php-sdk-v3-01-now-free-cookies/</link>
       <pubDate>Wed, 06 Jul 2011 13:38:44 +0700</pubDate>
       
-      <guid>http://khal.web.id/2011/07/06/facebook-php-sdk-v3-01-now-free-cookies/</guid>
+      <guid>https://khal.web.id/2011/07/06/facebook-php-sdk-v3-01-now-free-cookies/</guid>
       <description>Now the new SDK has been released, on the beginning of june 2011 I guess.
 Well the main different from v3.00 is? Now the CSRF state is rely on persistent data which is a session named &amp;ldquo;state&amp;rdquo; and not using cookie anymore!</description>
     </item>
     
     <item>
       <title>Profil Facebook lo jadi lapak ? Migrasi deh ke fan page!</title>
-      <link>http://khal.web.id/2011/06/24/profil-facebook-lo-jadi-lapak-migrasi-deh-ke-fan-page/</link>
+      <link>https://khal.web.id/2011/06/24/profil-facebook-lo-jadi-lapak-migrasi-deh-ke-fan-page/</link>
       <pubDate>Fri, 24 Jun 2011 10:00:12 +0700</pubDate>
       
-      <guid>http://khal.web.id/2011/06/24/profil-facebook-lo-jadi-lapak-migrasi-deh-ke-fan-page/</guid>
+      <guid>https://khal.web.id/2011/06/24/profil-facebook-lo-jadi-lapak-migrasi-deh-ke-fan-page/</guid>
       <description>Belakangan ini banyak banget yang akun facebook pribadinya dijadiin lapak buat jualan, kadang jadi suka bikin bingung temennya sendiri, karena biasanya namanya jadi bukan namanya sendiri. Nah, sekarang Facebook punya solusi yaitu Facebook Fan Page, yang bisa dipakai buat lapak.</description>
     </item>
     
     <item>
       <title>Mainan lama yang gw bikin, iseng2x jaman kuliah dulu haha</title>
-      <link>http://khal.web.id/2011/05/26/mainan-lama-yang-gw-bikin-iseng2x-jaman-kuliah-dulu-haha/</link>
+      <link>https://khal.web.id/2011/05/26/mainan-lama-yang-gw-bikin-iseng2x-jaman-kuliah-dulu-haha/</link>
       <pubDate>Thu, 26 May 2011 13:23:08 +0700</pubDate>
       
-      <guid>http://khal.web.id/2011/05/26/mainan-lama-yang-gw-bikin-iseng2x-jaman-kuliah-dulu-haha/</guid>
+      <guid>https://khal.web.id/2011/05/26/mainan-lama-yang-gw-bikin-iseng2x-jaman-kuliah-dulu-haha/</guid>
       <description>Ha ha setelah oprak-oprek file, gue nemu ini minigame yang dulu gw bikin sembari waktu luang, ini game lumayan addict seru, ya biar cuman tebak kata tapi ini bisa dibilang #indiegame pertama gue 😉</description>
     </item>
     
     <item>
       <title>Getting People Likes and Comments from facebook comment post </title>
-      <link>http://khal.web.id/2011/03/15/getting-people-likes-and-comments-from-facebook-comment-post/</link>
+      <link>https://khal.web.id/2011/03/15/getting-people-likes-and-comments-from-facebook-comment-post/</link>
       <pubDate>Tue, 15 Mar 2011 07:19:33 +0700</pubDate>
       
-      <guid>http://khal.web.id/2011/03/15/getting-people-likes-and-comments-from-facebook-comment-post/</guid>
+      <guid>https://khal.web.id/2011/03/15/getting-people-likes-and-comments-from-facebook-comment-post/</guid>
       <description>A simple way to know people likes and comment on your post or other people post is through Comment Graph Api, you will need an access token to use it, this might be useful when you want to count the total of people who likesyour post.</description>
     </item>
     
     <item>
       <title>Facebook add access permission to Application Security</title>
-      <link>http://khal.web.id/2011/03/07/facebook-add-access-permission-to-application-security/</link>
+      <link>https://khal.web.id/2011/03/07/facebook-add-access-permission-to-application-security/</link>
       <pubDate>Mon, 07 Mar 2011 08:45:37 +0700</pubDate>
       
-      <guid>http://khal.web.id/2011/03/07/facebook-add-access-permission-to-application-security/</guid>
+      <guid>https://khal.web.id/2011/03/07/facebook-add-access-permission-to-application-security/</guid>
       <description>Sometime when you made some apps, there were another user who wants to check about the insight of the app, or maybe just want to test the apps, back then you might have to give all access to a user through www.</description>
     </item>
     
     <item>
       <title>Set a facebook session app from access token</title>
-      <link>http://khal.web.id/2011/03/03/set-a-facebook-session-for-you-apps-from-access-token/</link>
+      <link>https://khal.web.id/2011/03/03/set-a-facebook-session-for-you-apps-from-access-token/</link>
       <pubDate>Thu, 03 Mar 2011 08:52:36 +0700</pubDate>
       
-      <guid>http://khal.web.id/2011/03/03/set-a-facebook-session-for-you-apps-from-access-token/</guid>
+      <guid>https://khal.web.id/2011/03/03/set-a-facebook-session-for-you-apps-from-access-token/</guid>
       <description>In some situation you will want to create a facebook session for your app, for example you get the code query string after user granted your app, now you can construct the url like below,</description>
     </item>
     
     <item>
       <title>Replacement of fb visible-to-connection for iframe apps on facebook page tabs</title>
-      <link>http://khal.web.id/2011/03/03/replacement-of-fb-visible-to-connection-for-iframe-apps-on-facebook-page-tabs/</link>
+      <link>https://khal.web.id/2011/03/03/replacement-of-fb-visible-to-connection-for-iframe-apps-on-facebook-page-tabs/</link>
       <pubDate>Thu, 03 Mar 2011 08:31:09 +0700</pubDate>
       
-      <guid>http://khal.web.id/2011/03/03/replacement-of-fb-visible-to-connection-for-iframe-apps-on-facebook-page-tabs/</guid>
+      <guid>https://khal.web.id/2011/03/03/replacement-of-fb-visible-to-connection-for-iframe-apps-on-facebook-page-tabs/</guid>
       <description>Developing an Iframe app an somehow you want to use this FBML tag below.
 &amp;lt;fb:visible-to-connection&amp;gt; Only connections should view this.. &amp;lt;/fb:visible-to-connection&amp;gt;  On each call from page tab you can get a signed_request variable, the value is like this below,</description>
     </item>
     
     <item>
       <title>Two ways to Login or Authenticate using Facebook JS SDK Dialog box</title>
-      <link>http://khal.web.id/2011/03/03/two-ways-to-login-or-authenticate-using-facebook-js-sdk-dialog-box/</link>
+      <link>https://khal.web.id/2011/03/03/two-ways-to-login-or-authenticate-using-facebook-js-sdk-dialog-box/</link>
       <pubDate>Thu, 03 Mar 2011 08:09:05 +0700</pubDate>
       
-      <guid>http://khal.web.id/2011/03/03/two-ways-to-login-or-authenticate-using-facebook-js-sdk-dialog-box/</guid>
+      <guid>https://khal.web.id/2011/03/03/two-ways-to-login-or-authenticate-using-facebook-js-sdk-dialog-box/</guid>
       <description>There is two easy way to authenticate a user with Facebook JS SDK,
 Using FB.UI,
 FB.ui( { method: &#39;oauth&#39;, display:&#39;iframe&#39;, perms:APP_EXT_PERMISSIONS }, function(response) { if(response.session) { console.dir(response); if(redirectURL) location.href = redirectURL; } } );  Using FB.</description>
@@ -611,40 +611,40 @@ FB.ui( { method: &#39;oauth&#39;, display:&#39;iframe&#39;, perms:APP_EXT_PERMIS
     
     <item>
       <title>Getting Ready for IFRAME Facebook App based</title>
-      <link>http://khal.web.id/2010/10/28/getting-ready-for-iframe-facebook-app-based/</link>
+      <link>https://khal.web.id/2010/10/28/getting-ready-for-iframe-facebook-app-based/</link>
       <pubDate>Thu, 28 Oct 2010 06:58:22 +0700</pubDate>
       
-      <guid>http://khal.web.id/2010/10/28/getting-ready-for-iframe-facebook-app-based/</guid>
+      <guid>https://khal.web.id/2010/10/28/getting-ready-for-iframe-facebook-app-based/</guid>
       <description>At this time you need to be ready to migrate your facebook apps to Iframe based apps, because as it written on Facebook Developer Roadmap
  &amp;ldquo;We will stop allowing new FBML applications, but will continue to support existing FBML tabs and applications.</description>
     </item>
     
     <item>
       <title>path_info or orig_path_info</title>
-      <link>http://khal.web.id/2010/08/10/path_info-or-orig_path_info/</link>
+      <link>https://khal.web.id/2010/08/10/path_info-or-orig_path_info/</link>
       <pubDate>Tue, 10 Aug 2010 09:30:57 +0700</pubDate>
       
-      <guid>http://khal.web.id/2010/08/10/path_info-or-orig_path_info/</guid>
+      <guid>https://khal.web.id/2010/08/10/path_info-or-orig_path_info/</guid>
       <description>The story begin when I was migrating my Codeigniter app from php4 to php5 hosting environment and then I change the uri_protocol config,
 $config[&#39;uri_protocol&#39;] = &amp;quot;PATH_INFO&amp;quot;;  And then the app crashed!</description>
     </item>
     
     <item>
       <title>Iframe on Facebook Fan Pages Tabs</title>
-      <link>http://khal.web.id/2010/07/20/iframe-on-facebook-fan-pages-tabs/</link>
+      <link>https://khal.web.id/2010/07/20/iframe-on-facebook-fan-pages-tabs/</link>
       <pubDate>Tue, 20 Jul 2010 09:47:33 +0700</pubDate>
       
-      <guid>http://khal.web.id/2010/07/20/iframe-on-facebook-fan-pages-tabs/</guid>
+      <guid>https://khal.web.id/2010/07/20/iframe-on-facebook-fan-pages-tabs/</guid>
       <description>Iframe will not be supported on facebook fan pages tab, the strange thing is, it only happened on first load and the you&amp;rsquo;ll get this error iframe not supported
 I just figured out that apps on Fan Pages Tab need an action from user, so then to get an iframe working on tab,</description>
     </item>
     
     <item>
       <title>Things you should know when you start PHP-ing</title>
-      <link>http://khal.web.id/2010/07/12/things-you-should-know-when-you-start-php-ing/</link>
+      <link>https://khal.web.id/2010/07/12/things-you-should-know-when-you-start-php-ing/</link>
       <pubDate>Mon, 12 Jul 2010 08:41:43 +0700</pubDate>
       
-      <guid>http://khal.web.id/2010/07/12/things-you-should-know-when-you-start-php-ing/</guid>
+      <guid>https://khal.web.id/2010/07/12/things-you-should-know-when-you-start-php-ing/</guid>
       <description>When you starting to get a grip on PHP, there are things that you should know, here I would descibe some of them, that might be useful,
 1. OS
 Afaik PHP can be installed on Windows, Linux, Macintosh, and Solaris.</description>
@@ -652,10 +652,10 @@ Afaik PHP can be installed on Windows, Linux, Macintosh, and Solaris.</descripti
     
     <item>
       <title>Codeigniter HMVC and Your own Layout Library</title>
-      <link>http://khal.web.id/2010/01/07/codeigniter-hmvc-and-your-own-layout-library/</link>
+      <link>https://khal.web.id/2010/01/07/codeigniter-hmvc-and-your-own-layout-library/</link>
       <pubDate>Thu, 07 Jan 2010 13:12:51 +0700</pubDate>
       
-      <guid>http://khal.web.id/2010/01/07/codeigniter-hmvc-and-your-own-layout-library/</guid>
+      <guid>https://khal.web.id/2010/01/07/codeigniter-hmvc-and-your-own-layout-library/</guid>
       <description>I&amp;rsquo;m trying to make a partial output from hmvc module,
 $this-&amp;gt;obj =&amp;amp; get_instance();  and then I&amp;rsquo;m trying to load a view from some module,
 $this-&amp;gt;obj-&amp;gt;load-&amp;gt;view($view,$data);  This will resulting errors, it turns out $this-&amp;gt;obj is only loading the global view of CI i.</description>
@@ -663,37 +663,37 @@ $this-&amp;gt;obj-&amp;gt;load-&amp;gt;view($view,$data);  This will resulting e
     
     <item>
       <title>Apaan tuh &#34;Google Wave Robots&#34; ??? Apaan aja sih ???</title>
-      <link>http://khal.web.id/2009/11/25/apaan-tuh-google-wave-robots-apaan-aja-sih/</link>
+      <link>https://khal.web.id/2009/11/25/apaan-tuh-google-wave-robots-apaan-aja-sih/</link>
       <pubDate>Wed, 25 Nov 2009 03:45:09 +0700</pubDate>
       
-      <guid>http://khal.web.id/2009/11/25/apaan-tuh-google-wave-robots-apaan-aja-sih/</guid>
+      <guid>https://khal.web.id/2009/11/25/apaan-tuh-google-wave-robots-apaan-aja-sih/</guid>
       <description>Pertama gw mau kasih tau dulu apaan sih google wave robot (GWR) itu, sebenernya simple aja&amp;hellip; ya namanya juga robot jadi GWR itu adalah user otomatis (robot) yang bisa menjadi participant dari sebuah wave, user robot juga dapat membaca isi sebuah wave di mana robot itu berpartisipasi, google wave memodifikasi isi, menambah atau menghapus peserta, dan menciptakan wave baru.</description>
     </item>
     
     <item>
       <title>Koding bareng dengan Bespin</title>
-      <link>http://khal.web.id/2009/11/19/bespin-a-collaborative-coding-dengan-teman2x-kamu-somewhere-out-there-in-the-cloud/</link>
+      <link>https://khal.web.id/2009/11/19/bespin-a-collaborative-coding-dengan-teman2x-kamu-somewhere-out-there-in-the-cloud/</link>
       <pubDate>Thu, 19 Nov 2009 08:10:30 +0700</pubDate>
       
-      <guid>http://khal.web.id/2009/11/19/bespin-a-collaborative-coding-dengan-teman2x-kamu-somewhere-out-there-in-the-cloud/</guid>
+      <guid>https://khal.web.id/2009/11/19/bespin-a-collaborative-coding-dengan-teman2x-kamu-somewhere-out-there-in-the-cloud/</guid>
       <description>Bespin from Mozilla Labs adalah sebuah code editor dengan berbasis web, tentunya bertujuan untuk meningkatkan produktivitas dari developer, karena editor ini berbasis web maka bespin bisa di gunakan oleh developer dimanapun berada, sayangnya tidak semua browser bisa menunjang aplikasi ini.</description>
     </item>
     
     <item>
       <title>Gimana caranya bikin tampilan Firefox lo jadi kaya Chrome</title>
-      <link>http://khal.web.id/2009/11/11/gimana-caranya-bikin-tampilan-firefox-lo-jadi-kaya-chrome/</link>
+      <link>https://khal.web.id/2009/11/11/gimana-caranya-bikin-tampilan-firefox-lo-jadi-kaya-chrome/</link>
       <pubDate>Wed, 11 Nov 2009 07:55:29 +0700</pubDate>
       
-      <guid>http://khal.web.id/2009/11/11/gimana-caranya-bikin-tampilan-firefox-lo-jadi-kaya-chrome/</guid>
+      <guid>https://khal.web.id/2009/11/11/gimana-caranya-bikin-tampilan-firefox-lo-jadi-kaya-chrome/</guid>
       <description>Salah satu hal yang gw suka dari Chrome adalah themes nya yang simple clean dan enteng di liat deh pokoknya &amp;hellip;, masalahnya gw jarang pake tuh yang namanya Chrome kalo untuk development (Can&amp;rsquo;t live whitout firefox), ya udah deh gw mulai cari sana sini gimana caranya bisa bikin tampilan firefox jadi kaya chrome, mudah2x nih artikel berguna dah &amp;hellip;</description>
     </item>
     
     <item>
       <title>PNG fix for IE</title>
-      <link>http://khal.web.id/2009/05/04/PNG-fix-for-IE/</link>
+      <link>https://khal.web.id/2009/05/04/PNG-fix-for-IE/</link>
       <pubDate>Mon, 04 May 2009 11:22:20 +0700</pubDate>
       
-      <guid>http://khal.web.id/2009/05/04/PNG-fix-for-IE/</guid>
+      <guid>https://khal.web.id/2009/05/04/PNG-fix-for-IE/</guid>
       <description>Thanks to Angus Turnbull who made this fix and made PNG image looks good on IE, these are two files that you need to implement,
  iepngfix.htc iepngfix_tilebg.js  Usage Include iepngfix.</description>
     </item>

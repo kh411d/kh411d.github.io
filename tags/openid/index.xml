@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>openid on Khalid&#39;s Blog</title>
-    <link>http://khal.web.id/tags/openid/</link>
+    <link>https://khal.web.id/tags/openid/</link>
     <description>Recent content in openid on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 28 May 2014 13:08:25 +0700</lastBuildDate>
     
-	<atom:link href="http://khal.web.id/tags/openid/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://khal.web.id/tags/openid/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Amankah login dengan akun sosial media pada aplikasi lain?</title>
-      <link>http://khal.web.id/2014/05/28/aplikasi-3rd-party-facebookpaypaldll-aman-gituh-lo-harus-tahu/</link>
+      <link>https://khal.web.id/2014/05/28/aplikasi-3rd-party-facebookpaypaldll-aman-gituh-lo-harus-tahu/</link>
       <pubDate>Wed, 28 May 2014 13:08:25 +0700</pubDate>
       
-      <guid>http://khal.web.id/2014/05/28/aplikasi-3rd-party-facebookpaypaldll-aman-gituh-lo-harus-tahu/</guid>
+      <guid>https://khal.web.id/2014/05/28/aplikasi-3rd-party-facebookpaypaldll-aman-gituh-lo-harus-tahu/</guid>
       <description>Tentunya banyak dari kamu yang menggunakan aplikasi dengan opsi untuk login menggunakan beberapa akun sosial media yang kamu miliki seperti facebook, twitter, google, linkedin dll. Misal ketika kamu login menggunakan facebook, dalam prosesnya, biasanya pengguna akan dialihkan ke halaman login facebook agar kamu bisa memberikan izin otorisasi, akhirnya facebook akan memberikan access token yang kemudian mengalihkan kamu kembali kepada aplikasi tersebut.</description>
     </item>
     

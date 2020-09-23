@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>php on Khalid&#39;s Blog</title>
-    <link>http://khal.web.id/tags/php/</link>
+    <link>https://khal.web.id/tags/php/</link>
     <description>Recent content in php on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 10 Aug 2010 09:30:57 +0700</lastBuildDate>
     
-	<atom:link href="http://khal.web.id/tags/php/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://khal.web.id/tags/php/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>path_info or orig_path_info</title>
-      <link>http://khal.web.id/2010/08/10/path_info-or-orig_path_info/</link>
+      <link>https://khal.web.id/2010/08/10/path_info-or-orig_path_info/</link>
       <pubDate>Tue, 10 Aug 2010 09:30:57 +0700</pubDate>
       
-      <guid>http://khal.web.id/2010/08/10/path_info-or-orig_path_info/</guid>
+      <guid>https://khal.web.id/2010/08/10/path_info-or-orig_path_info/</guid>
       <description>The story begin when I was migrating my Codeigniter app from php4 to php5 hosting environment and then I change the uri_protocol config,
 $config[&#39;uri_protocol&#39;] = &amp;quot;PATH_INFO&amp;quot;;  And then the app crashed!</description>
     </item>
     
     <item>
       <title>Things you should know when you start PHP-ing</title>
-      <link>http://khal.web.id/2010/07/12/things-you-should-know-when-you-start-php-ing/</link>
+      <link>https://khal.web.id/2010/07/12/things-you-should-know-when-you-start-php-ing/</link>
       <pubDate>Mon, 12 Jul 2010 08:41:43 +0700</pubDate>
       
-      <guid>http://khal.web.id/2010/07/12/things-you-should-know-when-you-start-php-ing/</guid>
+      <guid>https://khal.web.id/2010/07/12/things-you-should-know-when-you-start-php-ing/</guid>
       <description>When you starting to get a grip on PHP, there are things that you should know, here I would descibe some of them, that might be useful,
 1. OS
 Afaik PHP can be installed on Windows, Linux, Macintosh, and Solaris.</description>
@@ -34,10 +34,10 @@ Afaik PHP can be installed on Windows, Linux, Macintosh, and Solaris.</descripti
     
     <item>
       <title>Codeigniter HMVC and Your own Layout Library</title>
-      <link>http://khal.web.id/2010/01/07/codeigniter-hmvc-and-your-own-layout-library/</link>
+      <link>https://khal.web.id/2010/01/07/codeigniter-hmvc-and-your-own-layout-library/</link>
       <pubDate>Thu, 07 Jan 2010 13:12:51 +0700</pubDate>
       
-      <guid>http://khal.web.id/2010/01/07/codeigniter-hmvc-and-your-own-layout-library/</guid>
+      <guid>https://khal.web.id/2010/01/07/codeigniter-hmvc-and-your-own-layout-library/</guid>
       <description>I&amp;rsquo;m trying to make a partial output from hmvc module,
 $this-&amp;gt;obj =&amp;amp; get_instance();  and then I&amp;rsquo;m trying to load a view from some module,
 $this-&amp;gt;obj-&amp;gt;load-&amp;gt;view($view,$data);  This will resulting errors, it turns out $this-&amp;gt;obj is only loading the global view of CI i.</description>

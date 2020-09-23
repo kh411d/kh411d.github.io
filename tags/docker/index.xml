@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>docker on Khalid&#39;s Blog</title>
-    <link>http://khal.web.id/tags/docker/</link>
+    <link>https://khal.web.id/tags/docker/</link>
     <description>Recent content in docker on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 18 Feb 2018 13:38:36 +0700</lastBuildDate>
     
-	<atom:link href="http://khal.web.id/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://khal.web.id/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Meet Docker managers for human</title>
-      <link>http://khal.web.id/2018/02/18/Meet-Docker-managers-for-human/</link>
+      <link>https://khal.web.id/2018/02/18/Meet-Docker-managers-for-human/</link>
       <pubDate>Sun, 18 Feb 2018 13:38:36 +0700</pubDate>
       
-      <guid>http://khal.web.id/2018/02/18/Meet-Docker-managers-for-human/</guid>
+      <guid>https://khal.web.id/2018/02/18/Meet-Docker-managers-for-human/</guid>
       <description>After years using docker, I realized that there are so many GUI docker managers out there, this tool is really handy, because you don&amp;rsquo;t need to remember all the command lines or to google every time you forget the command.</description>
     </item>
     

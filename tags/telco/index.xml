@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>telco on Khalid&#39;s Blog</title>
-    <link>http://khal.web.id/tags/telco/</link>
+    <link>https://khal.web.id/tags/telco/</link>
     <description>Recent content in telco on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 20 Dec 2015 04:18:37 +0700</lastBuildDate>
     
-	<atom:link href="http://khal.web.id/tags/telco/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://khal.web.id/tags/telco/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Cara maksa 3G/HSPA di android kamu</title>
-      <link>http://khal.web.id/2015/12/20/cara-maksa-3ghspa-only-di-android-kamu/</link>
+      <link>https://khal.web.id/2015/12/20/cara-maksa-3ghspa-only-di-android-kamu/</link>
       <pubDate>Sun, 20 Dec 2015 04:18:37 +0700</pubDate>
       
-      <guid>http://khal.web.id/2015/12/20/cara-maksa-3ghspa-only-di-android-kamu/</guid>
+      <guid>https://khal.web.id/2015/12/20/cara-maksa-3ghspa-only-di-android-kamu/</guid>
       <description>Pernah gak suatu ketika henpon kamu secara otomatis hanya menggunakan jaringan 2G padahal jaringan 3G nya available meskipun mungkin sinyal 3G nya hanya sekitar 5%. Hal ini juga yg menyebabkan pulsa kamu dimakan oleh provider telco dikarenakan paket data yg kamu beli hanya berguna untuk 3G saja.</description>
     </item>
     
     <item>
       <title>Ulah nakal ISP praktik clickjacking</title>
-      <link>http://khal.web.id/2015/04/19/ulah-nakal-isp-praktik-browser-frame-busting/</link>
+      <link>https://khal.web.id/2015/04/19/ulah-nakal-isp-praktik-browser-frame-busting/</link>
       <pubDate>Sun, 19 Apr 2015 08:42:06 +0700</pubDate>
       
-      <guid>http://khal.web.id/2015/04/19/ulah-nakal-isp-praktik-browser-frame-busting/</guid>
+      <guid>https://khal.web.id/2015/04/19/ulah-nakal-isp-praktik-browser-frame-busting/</guid>
       <description>Beberapa ISP di indonesia tanpa konsumen sadari sebenarnya sangat sering melakukan praktik clickjacking hampir di semua website yg konsumen kunjungi, alasan ISP melakukan hal ini tidak lain adalah penempatan iklan gratis dari ISP tersebut tanpa sepengetahuan si empunya website.</description>
     </item>
     

@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>cybersecurity on Khalid&#39;s Blog</title>
-    <link>http://khal.web.id/tags/cybersecurity/</link>
+    <link>https://khal.web.id/tags/cybersecurity/</link>
     <description>Recent content in cybersecurity on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 19 Apr 2015 08:42:06 +0700</lastBuildDate>
     
-	<atom:link href="http://khal.web.id/tags/cybersecurity/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://khal.web.id/tags/cybersecurity/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ulah nakal ISP praktik clickjacking</title>
-      <link>http://khal.web.id/2015/04/19/ulah-nakal-isp-praktik-browser-frame-busting/</link>
+      <link>https://khal.web.id/2015/04/19/ulah-nakal-isp-praktik-browser-frame-busting/</link>
       <pubDate>Sun, 19 Apr 2015 08:42:06 +0700</pubDate>
       
-      <guid>http://khal.web.id/2015/04/19/ulah-nakal-isp-praktik-browser-frame-busting/</guid>
+      <guid>https://khal.web.id/2015/04/19/ulah-nakal-isp-praktik-browser-frame-busting/</guid>
       <description>Beberapa ISP di indonesia tanpa konsumen sadari sebenarnya sangat sering melakukan praktik clickjacking hampir di semua website yg konsumen kunjungi, alasan ISP melakukan hal ini tidak lain adalah penempatan iklan gratis dari ISP tersebut tanpa sepengetahuan si empunya website.</description>
     </item>
     
     <item>
       <title>Amankah login dengan akun sosial media pada aplikasi lain?</title>
-      <link>http://khal.web.id/2014/05/28/aplikasi-3rd-party-facebookpaypaldll-aman-gituh-lo-harus-tahu/</link>
+      <link>https://khal.web.id/2014/05/28/aplikasi-3rd-party-facebookpaypaldll-aman-gituh-lo-harus-tahu/</link>
       <pubDate>Wed, 28 May 2014 13:08:25 +0700</pubDate>
       
-      <guid>http://khal.web.id/2014/05/28/aplikasi-3rd-party-facebookpaypaldll-aman-gituh-lo-harus-tahu/</guid>
+      <guid>https://khal.web.id/2014/05/28/aplikasi-3rd-party-facebookpaypaldll-aman-gituh-lo-harus-tahu/</guid>
       <description>Tentunya banyak dari kamu yang menggunakan aplikasi dengan opsi untuk login menggunakan beberapa akun sosial media yang kamu miliki seperti facebook, twitter, google, linkedin dll. Misal ketika kamu login menggunakan facebook, dalam prosesnya, biasanya pengguna akan dialihkan ke halaman login facebook agar kamu bisa memberikan izin otorisasi, akhirnya facebook akan memberikan access token yang kemudian mengalihkan kamu kembali kepada aplikasi tersebut.</description>
     </item>
     
     <item>
       <title>Internet geger gegara HeartBleed [BUG] </title>
-      <link>http://khal.web.id/2014/04/11/internet-geger-gegara-heartbleed-bugs/</link>
+      <link>https://khal.web.id/2014/04/11/internet-geger-gegara-heartbleed-bugs/</link>
       <pubDate>Fri, 11 Apr 2014 08:51:42 +0700</pubDate>
       
-      <guid>http://khal.web.id/2014/04/11/internet-geger-gegara-heartbleed-bugs/</guid>
+      <guid>https://khal.web.id/2014/04/11/internet-geger-gegara-heartbleed-bugs/</guid>
       <description>2 atau 3 hari yang lalu sekitar 66% website di seluruh dunia sempat geger dengan adanya bug pada OpenSSL (*yaitu sebuah software kriptografi yang banyak dipakai di sekian banyak aplikasi website dan berguna untuk melindungi data koneksi pengguna ketika sedang melakukan aktivitas internet)</description>
     </item>
     
     <item>
       <title>Hati-hati domain &#34;.com.com&#34;</title>
-      <link>http://khal.web.id/2014/04/01/hati-hati-domain-com-com/</link>
+      <link>https://khal.web.id/2014/04/01/hati-hati-domain-com-com/</link>
       <pubDate>Tue, 01 Apr 2014 05:09:39 +0700</pubDate>
       
-      <guid>http://khal.web.id/2014/04/01/hati-hati-domain-com-com/</guid>
+      <guid>https://khal.web.id/2014/04/01/hati-hati-domain-com-com/</guid>
       <description>Hati-hati sama domain yang namanya &amp;ldquo;*.com.com&amp;rdquo; gue gak tau kenapa, percaya gak percaya ini domain bisa exist, domain yg satu ini bisa sangat mirip sama domain &amp;ldquo;*.com&amp;rdquo;, ya secara TLD .</description>
     </item>
     
     <item>
       <title>Hardening your password and yet still easy to remember it</title>
-      <link>http://khal.web.id/2014/01/15/hardening-your-password-and-yet-still-easy-to-remember-it/</link>
+      <link>https://khal.web.id/2014/01/15/hardening-your-password-and-yet-still-easy-to-remember-it/</link>
       <pubDate>Wed, 15 Jan 2014 12:16:53 +0700</pubDate>
       
-      <guid>http://khal.web.id/2014/01/15/hardening-your-password-and-yet-still-easy-to-remember-it/</guid>
+      <guid>https://khal.web.id/2014/01/15/hardening-your-password-and-yet-still-easy-to-remember-it/</guid>
       <description>A password is a key for accessing your online properties on the internet. Many people like your friends, brothers, or maybe your colleague been using an easy guess password, such as his dog name, mother name, his last name, or maybe the very most favorite everyone password 12345.</description>
     </item>
     
     <item>
       <title>Mari berbagi soal Privasi di Sosial Media Online</title>
-      <link>http://khal.web.id/2013/11/07/mari-berbagi-soal-privasi-di-sosial-media-online/</link>
+      <link>https://khal.web.id/2013/11/07/mari-berbagi-soal-privasi-di-sosial-media-online/</link>
       <pubDate>Thu, 07 Nov 2013 07:21:35 +0700</pubDate>
       
-      <guid>http://khal.web.id/2013/11/07/mari-berbagi-soal-privasi-di-sosial-media-online/</guid>
+      <guid>https://khal.web.id/2013/11/07/mari-berbagi-soal-privasi-di-sosial-media-online/</guid>
       <description>Sebelum kita ngomongin soal privasi di sosial media online, tentunya kita harus tau dulu bentukan dari sosial media itu atau &amp;ldquo;Apa sih sosial media itu?&amp;rdquo;, sebenernya mudah saja untuk semua orang mendefinisikan artian dari sosial media (*baca: SosMed), tapi pada intinya SosMed adalah sebuah wadah dimana semua member/pengguna/partisipan bisa membangun relasi dan koneksi dengan member lain, tempat dimana kita bisa selalu terhubung dengan teman2x, menjalin hubungan baru, berbagi interest dan ide.</description>
     </item>
     

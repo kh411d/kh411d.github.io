@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>frame-busting on Khalid&#39;s Blog</title>
-    <link>http://khal.web.id/tags/frame-busting/</link>
+    <link>https://khal.web.id/tags/frame-busting/</link>
     <description>Recent content in frame-busting on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 19 Apr 2015 08:42:06 +0700</lastBuildDate>
     
-	<atom:link href="http://khal.web.id/tags/frame-busting/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://khal.web.id/tags/frame-busting/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ulah nakal ISP praktik clickjacking</title>
-      <link>http://khal.web.id/2015/04/19/ulah-nakal-isp-praktik-browser-frame-busting/</link>
+      <link>https://khal.web.id/2015/04/19/ulah-nakal-isp-praktik-browser-frame-busting/</link>
       <pubDate>Sun, 19 Apr 2015 08:42:06 +0700</pubDate>
       
-      <guid>http://khal.web.id/2015/04/19/ulah-nakal-isp-praktik-browser-frame-busting/</guid>
+      <guid>https://khal.web.id/2015/04/19/ulah-nakal-isp-praktik-browser-frame-busting/</guid>
       <description>Beberapa ISP di indonesia tanpa konsumen sadari sebenarnya sangat sering melakukan praktik clickjacking hampir di semua website yg konsumen kunjungi, alasan ISP melakukan hal ini tidak lain adalah penempatan iklan gratis dari ISP tersebut tanpa sepengetahuan si empunya website.</description>
     </item>
     

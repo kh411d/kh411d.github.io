@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>golang on Khalid&#39;s Blog</title>
-    <link>http://khal.web.id/tags/golang/</link>
+    <link>https://khal.web.id/tags/golang/</link>
     <description>Recent content in golang on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 20 Sep 2020 13:20:21 +0700</lastBuildDate>
     
-	<atom:link href="http://khal.web.id/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://khal.web.id/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Serverless/FAAS Providers With No Credit Card Required</title>
-      <link>http://khal.web.id/2020/09/20/serverless-faas-providers-with-no-credit-card-required/</link>
+      <link>https://khal.web.id/2020/09/20/serverless-faas-providers-with-no-credit-card-required/</link>
       <pubDate>Sun, 20 Sep 2020 13:20:21 +0700</pubDate>
       
-      <guid>http://khal.web.id/2020/09/20/serverless-faas-providers-with-no-credit-card-required/</guid>
+      <guid>https://khal.web.id/2020/09/20/serverless-faas-providers-with-no-credit-card-required/</guid>
       <description>Have you ever been in a situation where you met a strange girl, asking her out for an easy walk in a sunny afternoon, introduce each other, giving your number, email, Facebook, Github account, even your home address, and then suddenly she&amp;rsquo;s asking you for a credit card, she said, it&amp;rsquo;s for our good, I won&amp;rsquo;t do evil.</description>
     </item>
     

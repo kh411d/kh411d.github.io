@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>codeigniter on Khalid&#39;s Blog</title>
-    <link>http://khal.web.id/tags/codeigniter/</link>
+    <link>https://khal.web.id/tags/codeigniter/</link>
     <description>Recent content in codeigniter on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 10 Aug 2010 09:30:57 +0700</lastBuildDate>
     
-	<atom:link href="http://khal.web.id/tags/codeigniter/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://khal.web.id/tags/codeigniter/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>path_info or orig_path_info</title>
-      <link>http://khal.web.id/2010/08/10/path_info-or-orig_path_info/</link>
+      <link>https://khal.web.id/2010/08/10/path_info-or-orig_path_info/</link>
       <pubDate>Tue, 10 Aug 2010 09:30:57 +0700</pubDate>
       
-      <guid>http://khal.web.id/2010/08/10/path_info-or-orig_path_info/</guid>
+      <guid>https://khal.web.id/2010/08/10/path_info-or-orig_path_info/</guid>
       <description>The story begin when I was migrating my Codeigniter app from php4 to php5 hosting environment and then I change the uri_protocol config,
 $config[&#39;uri_protocol&#39;] = &amp;quot;PATH_INFO&amp;quot;;  And then the app crashed!</description>
     </item>
     
     <item>
       <title>Codeigniter HMVC and Your own Layout Library</title>
-      <link>http://khal.web.id/2010/01/07/codeigniter-hmvc-and-your-own-layout-library/</link>
+      <link>https://khal.web.id/2010/01/07/codeigniter-hmvc-and-your-own-layout-library/</link>
       <pubDate>Thu, 07 Jan 2010 13:12:51 +0700</pubDate>
       
-      <guid>http://khal.web.id/2010/01/07/codeigniter-hmvc-and-your-own-layout-library/</guid>
+      <guid>https://khal.web.id/2010/01/07/codeigniter-hmvc-and-your-own-layout-library/</guid>
       <description>I&amp;rsquo;m trying to make a partial output from hmvc module,
 $this-&amp;gt;obj =&amp;amp; get_instance();  and then I&amp;rsquo;m trying to load a view from some module,
 $this-&amp;gt;obj-&amp;gt;load-&amp;gt;view($view,$data);  This will resulting errors, it turns out $this-&amp;gt;obj is only loading the global view of CI i.</description>

@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>bugfix on Khalid&#39;s Blog</title>
-    <link>http://khal.web.id/tags/bugfix/</link>
+    <link>https://khal.web.id/tags/bugfix/</link>
     <description>Recent content in bugfix on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 11 Apr 2014 08:51:42 +0700</lastBuildDate>
     
-	<atom:link href="http://khal.web.id/tags/bugfix/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://khal.web.id/tags/bugfix/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Internet geger gegara HeartBleed [BUG] </title>
-      <link>http://khal.web.id/2014/04/11/internet-geger-gegara-heartbleed-bugs/</link>
+      <link>https://khal.web.id/2014/04/11/internet-geger-gegara-heartbleed-bugs/</link>
       <pubDate>Fri, 11 Apr 2014 08:51:42 +0700</pubDate>
       
-      <guid>http://khal.web.id/2014/04/11/internet-geger-gegara-heartbleed-bugs/</guid>
+      <guid>https://khal.web.id/2014/04/11/internet-geger-gegara-heartbleed-bugs/</guid>
       <description>2 atau 3 hari yang lalu sekitar 66% website di seluruh dunia sempat geger dengan adanya bug pada OpenSSL (*yaitu sebuah software kriptografi yang banyak dipakai di sekian banyak aplikasi website dan berguna untuk melindungi data koneksi pengguna ketika sedang melakukan aktivitas internet)</description>
     </item>
     
     <item>
       <title>PNG fix for IE</title>
-      <link>http://khal.web.id/2009/05/04/PNG-fix-for-IE/</link>
+      <link>https://khal.web.id/2009/05/04/PNG-fix-for-IE/</link>
       <pubDate>Mon, 04 May 2009 11:22:20 +0700</pubDate>
       
-      <guid>http://khal.web.id/2009/05/04/PNG-fix-for-IE/</guid>
+      <guid>https://khal.web.id/2009/05/04/PNG-fix-for-IE/</guid>
       <description>Thanks to Angus Turnbull who made this fix and made PNG image looks good on IE, these are two files that you need to implement,
  iepngfix.htc iepngfix_tilebg.js  Usage Include iepngfix.</description>
     </item>

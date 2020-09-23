@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>security on Khalid&#39;s Blog</title>
-    <link>http://khal.web.id/tags/security/</link>
+    <link>https://khal.web.id/tags/security/</link>
     <description>Recent content in security on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 02 May 2015 08:50:00 +0700</lastBuildDate>
     
-	<atom:link href="http://khal.web.id/tags/security/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://khal.web.id/tags/security/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Android On-Body phone lock, pinter juga neh!</title>
-      <link>http://khal.web.id/2015/05/02/android-on-body-phone-lock-pinter-juga-neh/</link>
+      <link>https://khal.web.id/2015/05/02/android-on-body-phone-lock-pinter-juga-neh/</link>
       <pubDate>Sat, 02 May 2015 08:50:00 +0700</pubDate>
       
-      <guid>http://khal.web.id/2015/05/02/android-on-body-phone-lock-pinter-juga-neh/</guid>
+      <guid>https://khal.web.id/2015/05/02/android-on-body-phone-lock-pinter-juga-neh/</guid>
       <description>Tentunya penting buat kita semua untuk menjaga privasi dan keamanan henpon pribadi entah dari kelalaian kita sendiri atau tangan-tangan usil lainnya.
 Oleh karena itulah pada umumnya setiap henpon memiliki beberapa sistem keamanan dan salah satunya adalah Lock Screen system, yang berguna untuk mengunci henpon pengguna dengan sebuah PIN atau Pattern matching ketika henpon sedang berada dalam kondisi tidak digunakan.</description>
     </item>

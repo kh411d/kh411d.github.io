@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>wordpress on Khalid&#39;s Blog</title>
-    <link>http://khal.web.id/tags/wordpress/</link>
+    <link>https://khal.web.id/tags/wordpress/</link>
     <description>Recent content in wordpress on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 03 May 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://khal.web.id/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://khal.web.id/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bye Wordpress, Hello ... ?</title>
-      <link>http://khal.web.id/2016/05/03/bye-wordpress-hello/</link>
+      <link>https://khal.web.id/2016/05/03/bye-wordpress-hello/</link>
       <pubDate>Tue, 03 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://khal.web.id/2016/05/03/bye-wordpress-hello/</guid>
+      <guid>https://khal.web.id/2016/05/03/bye-wordpress-hello/</guid>
       <description>It’s been long years since I used WordPress in 2006 as my blogging platform, back in the old days there’s nothing can beat what WordPress offers for bloggers. So many themes, plugins, and It’s still the most-used and well-known blogging platform until now.</description>
     </item>
     
     <item>
       <title>Wordpress ke Path ke Wordpress kemana aja boleeeeh...</title>
-      <link>http://khal.web.id/2014/01/10/wordpress-ke-path-ke-wordpress-kemana-aja-boleeeeh/</link>
+      <link>https://khal.web.id/2014/01/10/wordpress-ke-path-ke-wordpress-kemana-aja-boleeeeh/</link>
       <pubDate>Fri, 10 Jan 2014 08:51:34 +0700</pubDate>
       
-      <guid>http://khal.web.id/2014/01/10/wordpress-ke-path-ke-wordpress-kemana-aja-boleeeeh/</guid>
+      <guid>https://khal.web.id/2014/01/10/wordpress-ke-path-ke-wordpress-kemana-aja-boleeeeh/</guid>
       <description>Bersamaan dengan terjalinnya kerjasama antara Path dengan SosMed lainnya, Wordpress mengumumkan di blog nya New for Publicize: Share Your Path Moments singkatnya Wordpress menjelaskan cara-cara bagaimana pengguna bisa sharing blog post-nya menjadi sebuah momen/post di Path.</description>
     </item>
     
