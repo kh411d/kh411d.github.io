@@ -86,11 +86,6 @@
     
 
     
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/default.min.css">
-        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
-        
-        <script>hljs.initHighlightingOnLoad();</script>
-    
 
     
       
@@ -141,7 +136,7 @@
     },
     "headline": "Serverless/FAAS Providers With No Credit Card Required",
     "name": "Serverless/FAAS Providers With No Credit Card Required",
-    "wordCount":  1183 ,
+    "wordCount":  1196 ,
     "timeRequired": "PT6M",
     "inLanguage": {
       "@type": "Language",
@@ -180,6 +175,8 @@ new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-P4GNFJ5');</script>
+
+
 
 </head>
 <body class="nav-closed">
@@ -266,21 +263,30 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <p>Have you ever been in a situation where you met a strange girl, asking her out for an easy walk in a sunny afternoon, introduce each other, giving your number, email, Facebook, Github account, even your home address, and then suddenly she&rsquo;s asking you for a credit card, she said, it&rsquo;s for our good, I won&rsquo;t do evil. What would you do? well, in my experience, that makes no sense at all, at least it never happened though.</p>
 <p><img src="/images/hustlegirls.jpg" alt="hustle film"></p>
 <p>Well, I guess it&rsquo;s happening, but in another reality, welcome to the world wide web, when you come across with a <em><a href="https://en.wiktionary.org/wiki/free_trial" target="_blank">free trial</a></em> term, they might be asking for your credit card, what kind of marketing is this? why would I want to give my card just only for a <em>free trial</em>? they already have my email, my phone number, and my PO BOX, credit card is not something to be given to someone you&rsquo;re not serious into, otherwise, your card number will end up scattered in every place you visited, and that&rsquo;s a nightmare.</p>
-<h4 id="faas-and-furious">FAAS and Furious</h4>
+<h2 id="faas-and-furious">FAAS and Furious</h2>
 <p>Hey, wait up, I know I&rsquo;m a bit off-topic here, it begins from my small project, a hobby, I need to find a server which has fewer configurations, ease of use, accountable, and most of all it&rsquo;s free, no charge, <em>free trial</em> is ok. In second thoughts, a <em><a href="https://www.cloudflare.com/learning/serverless/glossary/function-as-a-service-faas/" target="_blank">FAAS (Function as a Service)</a></em> providers might be a good fit for this project.</p>
 <p>If you haven&rsquo;t know what it is, <em><a href="https://martinfowler.com/articles/serverless.html" target="_blank">Serverless</a></em> doesn’t mean you don’t need servers. Instead, you need fewer servers to manage. You have more control but less flexibility, no need to install software, no scaling configuration, faster scaling, also you pay what you use, means, you pay only when your <em>service/ function or code</em> is running, if one of your function crashed, it will be replaced with another one immediately, so it won&rsquo;t bring down your app.</p>
 <p>But there is a but, in <em>FAAS</em> architecture, you might notice a <em><a href="https://www.serverless.com/blog/keep-your-lambdas-warm" target="_blank">cold starts</a></em>, when a function starts for the first time, it will respond slower than usual. Every <em>Serverless/FAAS</em> provider has different idle function lifetimes and limitations, such as <em>memory</em>, <em>payload</em>, and <em>execution limits</em>.</p>
 <p>Last but not least, <em>The Orchestration</em>, in case you have a lot of <em>functions</em>, it can result in more configuration than needed, in plain words, you need to orchestrate all of your <em>functions</em> to make them cooperate, talk to each other, yeah I know, it&rsquo;s like minions, each minion has a different job. The minion that drives the car will never be the minion holding the rocket launcher.</p>
 <p><img src="/images/minionfaas.jpg" alt="minion faas"></p>
-<h4 id="no-credit-card-providers">No Credit Card Providers</h4>
+<h2 id="no-credit-card-providers">No Credit Card Providers</h2>
 <p>It is a shame for some big companies who still need your credit card for a trial service, let&rsquo;s say Google (Cloud functions), AWS (Lambda), and Azure Functions, they are the biggest providers, and they happen to ask your credit card upon registration. They also focus on configurability, so there&rsquo;s must be a lot of things to configure, so I think I&rsquo;m gonna pass on these three.</p>
 <p>So then I found these small three, no credit card required, fit for your hobby/small project, easy to use, and also offering a developer experience <em>(git integration, ci/cd, logging, etc)</em> Lately, I’ve been using Go as server-side programming, fortunate these providers are supporting it.</p>
-<h6 id="vercelzeithttpsvercelcom-functions"><a href="https://vercel.com/" target="_blank">Vercel/Zeit</a> Functions</h6>
-<p>This is the one that I first come across that offer me <a href="https://vercel.com/docs/serverless-functions/introduction" target="_blank">the easiest way integrating my function</a> to their system out of the box, which is, what you need to do is creating and <code>/api</code> directory inside your app folder, Vercel will scan all the Go files in that directory looking for an exported function that matches the net/http Go API, and then the function will be served as Serverless Functions, that&rsquo;s it.</p>
-<pre><code>func Handler(w http.ResponseWriter, r *http.Request) {
-    ...
-}
-</code></pre><p>Deployment(CI/CD) is handled by Github integration, you need to give access to Vercel to manage deployment. For free registration, you will have,</p>
+<h3 id="vercelzeit-functionshttpsvercelcom"><a href="https://vercel.com/" target="_blank">Vercel/Zeit Functions</a></h3>
+<p>This is the one that I first come across that offer me <em><a href="https://vercel.com/docs/serverless-functions/introduction" target="_blank">the easiest way to integrate function</a></em> on their system out of the box, which is, what you need to do is creating and <code>/api</code> directory inside your application folder, Vercel will scan all the Go files in that directory looking for an exported function that matches the net/http Go API, and then that function will be served as Serverless Functions, that&rsquo;s it.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="kd">func</span> <span class="nf">Handler</span><span class="p">(</span><span class="nx">w</span> <span class="nx">http</span><span class="p">.</span><span class="nx">ResponseWriter</span><span class="p">,</span> <span class="nx">r</span> <span class="o">*</span><span class="nx">http</span><span class="p">.</span><span class="nx">Request</span><span class="p">)</span> <span class="p">{</span>
+    <span class="o">...</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Deployment(CI/CD) is handled by Github integration, you need to give access to Vercel to manage deployment. For free registration, you will have,</p>
 <ul>
 <li>HTTPS-enabled Custom Domains</li>
 <li>Continuous Deployment with Git</li>
@@ -288,25 +294,54 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <li>Unlimited Websites &amp; APIs</li>
 <li>Serverless Functions in Node.js, Go, and more</li>
 </ul>
-<h6 id="netlifyhttpnetlifycom-functions-aws-lambda"><a href="http://netlify.com" target="_blank">Netlify</a> Functions (AWS Lambda)</h6>
+<h3 id="netlify-functions-aws-lambdahttpnetlifycom"><a href="http://netlify.com" target="_blank">Netlify Functions (AWS Lambda)</a></h3>
 <p>I think most everyone knows it, who doesn&rsquo;t? Most people use Netlify to host SSG(Static Site Generator) websites and SPA (Single Page Application) such as NextJS, ReactJS, or VueJS app. And apparently, Netlify lets you deploy <em><a href="https://docs.netlify.com/functions/overview/" target="_blank">serverless Lambda functions without an AWS account</a></em>, and with function management handled directly within Netlify. Yay!!!</p>
-<p>It&rsquo;s a bit different from Vercel, <a href="https://docs.netlify.com/functions/build-with-go" target="_blank">your handler should follow AWS API Gateway proxy</a>,</p>
-<pre><code>func handler(ctx context.Context, request events.APIGatewayProxyRequest) (*events.APIGatewayProxyResponse, error) {
-  # Your server-side functionality
-}
-</code></pre><p>and the response must be compatible with the AWS API Gateway response:</p>
-<pre><code>return &amp;events.APIGatewayProxyResponse{
-        StatusCode: 200,
-        Body:       &quot;Hello, World&quot;,
-    }, nil
-</code></pre><p>and then in your main package,</p>
-<pre><code>package main
-...
-func main() {
-    // Make the handler available for Remote Procedure Call by AWS Lambda
-    lambda.Start(handler)
-}
-</code></pre><p>Netlify can build your source Go functions into AWS Lambda compatible binaries. Before building your Go source, Netlify needs to know the expected Go import path for your project. Use the <code>GO_IMPORT_PATH</code> environment variable to set the right import path. You can do this in your <em>netlify.toml</em> file. The path value should point to your source repository on your Git provider.</p>
+<p>It&rsquo;s a bit different from Vercel, <em><a href="https://docs.netlify.com/functions/build-with-go" target="_blank">your handler should follow AWS API Gateway proxy</a></em>,</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="kd">func</span> <span class="nf">handler</span><span class="p">(</span><span class="nx">ctx</span> <span class="nx">context</span><span class="p">.</span><span class="nx">Context</span><span class="p">,</span> <span class="nx">request</span> <span class="nx">events</span><span class="p">.</span><span class="nx">APIGatewayProxyRequest</span><span class="p">)</span> <span class="p">(</span><span class="o">*</span><span class="nx">events</span><span class="p">.</span><span class="nx">APIGatewayProxyResponse</span><span class="p">,</span> <span class="kt">error</span><span class="p">)</span> <span class="p">{</span>
+  <span class="err">#</span> <span class="nx">Your</span> <span class="nx">server</span><span class="o">-</span><span class="nx">side</span> <span class="nx">functionality</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>and the response must be compatible with the AWS API Gateway response:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="k">return</span> <span class="o">&amp;</span><span class="nx">events</span><span class="p">.</span><span class="nx">APIGatewayProxyResponse</span><span class="p">{</span>
+        <span class="nx">StatusCode</span><span class="p">:</span> <span class="mi">200</span><span class="p">,</span>
+        <span class="nx">Body</span><span class="p">:</span>       <span class="s">&#34;Hello, World&#34;</span><span class="p">,</span>
+    <span class="p">},</span> <span class="kc">nil</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>and then in your main package,</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="kn">package</span> <span class="nx">main</span>
+<span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="c1">// Make the handler available for Remote Procedure Call by AWS Lambda
+</span><span class="c1"></span>    <span class="nx">lambda</span><span class="p">.</span><span class="nf">Start</span><span class="p">(</span><span class="nx">handler</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Netlify can build your source Go functions into AWS Lambda compatible binaries. Before building your Go source, Netlify needs to know the expected Go import path for your project. Use the <code>GO_IMPORT_PATH</code> environment variable to set the right import path. You can do this in your <em>netlify.toml</em> file. The path value should point to your source repository on your Git provider.</p>
 <p>Deployment(CI/CD) also handled by Github integration, for a starter account you&rsquo;ll get,</p>
 <ul>
 <li>Automated builds from Git</li>
@@ -315,10 +350,10 @@ func main() {
 <li>Instant rollbacks to any version</li>
 <li>Deploy static assets &amp; dynamic serverless functions (JS &amp; Go)</li>
 </ul>
-<h6 id="flyiohttpflyio-flyctl"><a href="http://fly.io" target="_blank">Fly.io</a> (Flyctl)</h6>
-<p>When low latency is necessary and data always needs to be real-time, Flyio is probably the best choice that is free for a side project, you&rsquo;ll get $10/mo of service credit and you can <a href="https://fly.io/docs/about/pricing/" target="_blank">run a very small VM</a>.</p>
-<p>There is a tagline on their site <em>Deploy App Servers, Close to Your Users</em> . It means that they are focusing on <em>edge computing</em>, or in other words, bringing the functions as close as possible to the end-users to reduce latency to an absolute minimum. At this time of writing, <a href="https://fly.io/docs/reference/regions/" target="_blank">Fly.io currently have 19 datacenter locations/regions</a>. Fly.io will run your application docker images on servers in different cities.</p>
-<p><strong>Deploying on Fly.io.</strong> I haven&rsquo;t tried this myself but it seems very possible, you need to have this <code>flyctl</code> tool installed on your system, upon installing, you have to register for a fly.io account, no credit card required, simply follow the guidelines <a href="https://fly.io/docs/getting-started/installing-flyctl/" target="_blank">Installing flyctl</a>, and then continue with <a href="https://fly.io/docs/getting-started/golang/" target="_blank">Build, Deploy, and Run a Go Application</a></p>
+<h3 id="flyiohttpflyio"><a href="http://fly.io" target="_blank">Fly.io</a></h3>
+<p>When low latency is necessary and data always needs to be real-time, Flyio is probably the best choice that is free for a side project, you&rsquo;ll get $10/mo of service credit and you can <em><a href="https://fly.io/docs/about/pricing/" target="_blank">run a very small VM</a></em>.</p>
+<p>There is a tagline on their site <em>Deploy App Servers, Close to Your Users</em> . It means that they are focusing on <em>edge computing</em>, or in other words, bringing the functions as close as possible to the end-users to reduce latency to an absolute minimum. At this time of writing, <em><a href="https://fly.io/docs/reference/regions/" target="_blank">Fly.io currently have 19 datacenter locations/regions</a></em>. Fly.io will run your application docker images on servers in different cities.</p>
+<p><strong>Deploying on Fly.io.</strong> I haven&rsquo;t tried this myself but it seems very possible, you need to have this <code>flyctl</code> tool installed on your system, upon installing, you have to register for a fly.io account, no credit card required, simply follow the guidelines <em><a href="https://fly.io/docs/getting-started/installing-flyctl/" target="_blank">Installing flyctl</a></em>, and then continue with <em><a href="https://fly.io/docs/getting-started/golang/" target="_blank">Build Deploy and Run a Go Application</a></em></p>
 <p><strong>TL; DR;</strong> <code>flyctl init</code> will create a <code>fly.toml</code> file, Select Go (Go Builtin) for the builder, and then get ready for deployment <code>flyctl deploy</code>, keep in mind that flyctl will create docker images on your local computer, it will download all required images such as golang image approx 1gb, so make sure you have good storage space and internet connection.</p>
 <p><code>flyctl open</code> will open a browser on the HTTP version of the site.</p>
 <blockquote>
@@ -411,6 +446,13 @@ s.setAttribute('data-timestamp', +new Date());
 
 
   <aside class="read-next">
+  
+      <a class="read-next-story" style="background-image: url(/images/sveltecover.jpg)" href="/2020/09/23/build-a-medium-like-clap-button-using-svelte-custom-element-api/">
+          <section class="post">
+              <h2>Build a Medium-Like Clap Button using Svelte Custom Element API</h2>
+              
+          </section>
+      </a>
   
   
       <a class="read-next-story prev" style="background-image: url(/images/coronaindonesia.jpg)" href="/2020/09/14/indonesia-skyrocketing-corona-outbreak/">

@@ -6,10 +6,46 @@
     <description>Recent content in Tags on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Sep 2020 13:20:21 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2020 07:48:16 +0700</lastBuildDate>
     
 	<atom:link href="http://khal.web.id/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>html5</title>
+      <link>http://khal.web.id/tags/html5/</link>
+      <pubDate>Wed, 23 Sep 2020 07:48:16 +0700</pubDate>
+      
+      <guid>http://khal.web.id/tags/html5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SPA</title>
+      <link>http://khal.web.id/tags/SPA/</link>
+      <pubDate>Wed, 23 Sep 2020 07:48:16 +0700</pubDate>
+      
+      <guid>http://khal.web.id/tags/SPA/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>svelte</title>
+      <link>http://khal.web.id/tags/svelte/</link>
+      <pubDate>Wed, 23 Sep 2020 07:48:16 +0700</pubDate>
+      
+      <guid>http://khal.web.id/tags/svelte/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tutorial</title>
+      <link>http://khal.web.id/tags/tutorial/</link>
+      <pubDate>Wed, 23 Sep 2020 07:48:16 +0700</pubDate>
+      
+      <guid>http://khal.web.id/tags/tutorial/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>FAAS</title>
@@ -53,15 +89,6 @@
       <pubDate>Sun, 20 Sep 2020 13:20:21 +0700</pubDate>
       
       <guid>http://khal.web.id/tags/serverless/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tutorial</title>
-      <link>http://khal.web.id/tags/tutorial/</link>
-      <pubDate>Sun, 20 Sep 2020 13:20:21 +0700</pubDate>
-      
-      <guid>http://khal.web.id/tags/tutorial/</guid>
       <description></description>
     </item>
     

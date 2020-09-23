@@ -6,10 +6,19 @@
     <description>Recent content on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Sep 2020 13:20:21 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2020 07:48:16 +0700</lastBuildDate>
     
 	<atom:link href="http://khal.web.id/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Build a Medium-Like Clap Button using Svelte Custom Element API</title>
+      <link>http://khal.web.id/2020/09/23/build-a-medium-like-clap-button-using-svelte-custom-element-api/</link>
+      <pubDate>Wed, 23 Sep 2020 07:48:16 +0700</pubDate>
+      
+      <guid>http://khal.web.id/2020/09/23/build-a-medium-like-clap-button-using-svelte-custom-element-api/</guid>
+      <description>Short stories, In August 2017, Medium replaced their Recommend button with a &amp;ldquo;clap&amp;rdquo; button, which readers can click as many times as they want to show how much they enjoyed the article.</description>
+    </item>
     
     <item>
       <title>Serverless/FAAS Providers With No Credit Card Required</title>
@@ -370,7 +379,7 @@ sudo npm install -g n  Upgrade Node ke versi terakhir,</description>
       <pubDate>Mon, 17 Feb 2014 11:43:31 +0700</pubDate>
       
       <guid>http://khal.web.id/2014/02/17/bicara-flow-kreatifitas-dalam-segi-internet-teknologi-dan-keseharian/</guid>
-      <description>Flow? Apaan tuh? Kalo di translate, flow itu secara harfiah bisa berarti aliran atau arus. Flow yang gue maksud disini adalah sebuah konsep, metodologi atau desain psikologis yang menggunakan kondisi mental dan kejiwaan dari seseorang, bagaimana dan mengapa seseorang bisa mencurahkan segala fokus dan konsentrasi dalam satu aktivitas dengan jangka waktu yang sangat lama tanpa merasa bosan dan bahkan menikmati serta membuat efek ketagihan.</description>
+      <description>Flow yang dimaksud disini adalah sebuah desain psikologis yang menggunakan kondisi mental dan kejiwaan dari seseorang, bagaimana dan mengapa seseorang bisa mencurahkan segala fokus dan konsentrasi dalam satu aktivitas dengan jangka waktu yang sangat lama tanpa merasa bosan, enjoy dan bahkan menjadi ketagihan.</description>
     </item>
     
     <item>

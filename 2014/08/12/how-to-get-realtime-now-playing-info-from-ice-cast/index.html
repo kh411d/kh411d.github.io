@@ -74,11 +74,6 @@
     
 
     
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/default.min.css">
-        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
-        
-        <script>hljs.initHighlightingOnLoad();</script>
-    
 
     
       
@@ -129,8 +124,8 @@
     },
     "headline": "How to get realtime Now Playing info from Ice Cast",
     "name": "How to get realtime Now Playing info from Ice Cast",
-    "wordCount":  204 ,
-    "timeRequired": "PT1M",
+    "wordCount":  230 ,
+    "timeRequired": "PT2M",
     "inLanguage": {
       "@type": "Language",
       "alternateName": "en"
@@ -168,6 +163,8 @@ new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-P4GNFJ5');</script>
+
+
 
 </head>
 <body class="nav-closed">
@@ -245,46 +242,85 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </ol>
 <p><img src="/images/Screen_Shot_2014-08-12_at_11_33_32_AM.jpg" alt="Screen_Shot_2014-08-12_at_11_33_32_AM"></p>
 <ol start="2">
-<li>
-<p>Create a small function to fetch xspf endpoint for your php file, <code>xspf_function.php</code></p>
-<pre><code> function getXSPF(){
-     $XSPFurl = 'http://xxx.xxx.xxx.xxx:8000/mount.xspf';
-     $xml = simplexml_load_file($XSPFurl);
-     $stream['info']['title'] = (string) $xml-&gt;trackList-&gt;track-&gt;title;
-     $stream['info']['location'] = (string) $xml-&gt;trackList-&gt;track-&gt;location;
-	
-     preg_match_all('/^(.*):(.*)/m', (string) $xml-&gt;trackList-&gt;track-&gt;annotation,$matches);
-     if(isset($matches[1]) &amp;&amp; isset($matches[2])){
-         $t = array_combine($matches[1], $matches[2]);
-         foreach($t as $key =&gt; $val){
-             $fkey = str_replace(&quot; &quot;, &quot;_&quot;,$key);
-             $stream['info'][strtolower($fkey)] = trim($val);
-         }
-     }
-     return $stream;
- }
-</code></pre>
-</li>
-<li>
-<p>Setup your ajax php file, <code>current_track.php</code></p>
-<pre><code> require_once &quot;xspf_function.php&quot;
- $stream = getXSPF();
- echo $stream['info']['title'];
-</code></pre>
-</li>
-<li>
-<p>And then, put this script before the end of html head tag</p>
-<pre><code> &lt;script src=&quot;//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
- &lt;script type=&quot;text/javascript&quot;&gt;
-     $(document).ready(function() {     
-         setInterval(function(){        
-             $(&quot;#current-track&quot;).load(&quot;current_track.php&quot;);      
-         }, 10 * 1000);    });
- &lt;/script&gt;
-</code></pre>
-<p>The <code>setInterval()</code> function will periodically execute an ajax request to fetch new content from icecast xspf mount point.</p>
-</li>
+<li>Create a small function to fetch xspf endpoint for your php file, <code>xspf_function.php</code></li>
 </ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-php" data-lang="php">function getXSPF(){
+	$XSPFurl = &#39;http://xxx.xxx.xxx.xxx:8000/mount.xspf&#39;;
+	$xml = simplexml_load_file($XSPFurl);
+	$stream[&#39;info&#39;][&#39;title&#39;] = (string) $xml-&gt;trackList-&gt;track-&gt;title;
+	$stream[&#39;info&#39;][&#39;location&#39;] = (string) $xml-&gt;trackList-&gt;track-&gt;location;
+
+	preg_match_all(&#39;/^(.*):(.*)/m&#39;, (string) $xml-&gt;trackList-&gt;track-&gt;annotation,$matches);
+	if(isset($matches[1]) <span class="err">&amp;&amp;</span> isset($matches[2])){
+		$t = array_combine($matches[1], $matches[2]);
+		foreach($t as $key =&gt; $val){
+			$fkey = str_replace(&#34; &#34;, &#34;_&#34;,$key);
+			$stream[&#39;info&#39;][strtolower($fkey)] = trim($val);
+		}
+	}
+	return $stream;
+}
+</code></pre></td></tr></table>
+</div>
+</div><ol start="3">
+<li>Setup your ajax php file, <code>current_track.php</code></li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-php" data-lang="php">require_once &#34;xspf_function.php&#34;
+$stream = getXSPF();
+echo $stream[&#39;info&#39;][&#39;title&#39;];
+</code></pre></td></tr></table>
+</div>
+</div><ol start="4">
+<li>And then, put this script before the end of html head tag</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="o">&lt;</span><span class="nx">script</span> <span class="nx">src</span><span class="o">=</span><span class="s2">&#34;//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js&#34;</span> <span class="nx">type</span><span class="o">=</span><span class="s2">&#34;text/javascript&#34;</span><span class="o">&gt;&lt;</span><span class="err">/script&gt;</span>
+<span class="o">&lt;</span><span class="nx">script</span> <span class="nx">type</span><span class="o">=</span><span class="s2">&#34;text/javascript&#34;</span><span class="o">&gt;</span>
+	<span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>     
+		<span class="nx">setInterval</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>        
+			<span class="nx">$</span><span class="p">(</span><span class="s2">&#34;#current-track&#34;</span><span class="p">).</span><span class="nx">load</span><span class="p">(</span><span class="s2">&#34;current_track.php&#34;</span><span class="p">);</span>      
+		<span class="p">},</span> <span class="mi">10</span> <span class="o">*</span> <span class="mi">1000</span><span class="p">);</span>    <span class="p">});</span>
+<span class="o">&lt;</span><span class="err">/script&gt;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>The <code>setInterval()</code> function will periodically execute an ajax request to fetch new content from icecast xspf mount point.</p>
 
     </section>
 

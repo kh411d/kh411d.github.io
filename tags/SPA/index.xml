@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SPA on Khalid&#39;s Blog</title>
+    <link>http://khal.web.id/tags/SPA/</link>
+    <description>Recent content in SPA on Khalid&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 23 Sep 2020 07:48:16 +0700</lastBuildDate>
+    
+	<atom:link href="http://khal.web.id/tags/SPA/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Build a Medium-Like Clap Button using Svelte Custom Element API</title>
+      <link>http://khal.web.id/2020/09/23/build-a-medium-like-clap-button-using-svelte-custom-element-api/</link>
+      <pubDate>Wed, 23 Sep 2020 07:48:16 +0700</pubDate>
+      
+      <guid>http://khal.web.id/2020/09/23/build-a-medium-like-clap-button-using-svelte-custom-element-api/</guid>
+      <description>Short stories, In August 2017, Medium replaced their Recommend button with a &amp;ldquo;clap&amp;rdquo; button, which readers can click as many times as they want to show how much they enjoyed the article.</description>
+    </item>
+    
+  </channel>
+</rss>
