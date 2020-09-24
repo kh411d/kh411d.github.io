@@ -1,4 +1,4 @@
-baseURL: http://khal.web.id/
+baseURL: https://khal.web.id/
 disablePathToLower: true
 languageCode: en-us
 title: Khalid's Blog
@@ -14,7 +14,7 @@ params:
   cover: "/images/sidebar.jpg"
   author: "Khalid Adisendjaja"
   authorlocation: "Jakarta, Indonesia"
-  authorwebsite: "http://khal.web.id"
+  authorwebsite: "https://khal.web.id"
   authorbio: "a #Coder with a bit #InfoJunkie, proud #Muslim and also #Indonesian"
   logo: "images/logo.jpeg"
   githubName: "kh411d"
@@ -24,7 +24,7 @@ params:
   email: "contact@khal.web.id"
   hideHUGOSupport: false
   #hjsStyle: "default"
-  baseURL: "http://khal.web.id/"
+  baseURL: "https://khal.web.id/"
   summaryLength: 30
 disqusShortname: khal-web-id
 theme: paper
