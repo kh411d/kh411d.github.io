@@ -1,7 +1,6 @@
 ---
 title: "Emoji in Actions during this 2020 Awkwardness"
 date: 2020-09-24T04:58:35+07:00
-draft: true
 comments: true	# set false to hide Disqus
 image: /images/smileywallcover.jpg
 share: true	# set false to hide share buttons

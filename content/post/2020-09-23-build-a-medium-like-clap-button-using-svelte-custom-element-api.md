@@ -71,6 +71,21 @@ onMount(async () => {
 
 The `onMount` lifecycle will fetch the initial clap count from the API after the component is first rendered to the DOM. Notice the `await tick()`, this is a workaround for the [prop initialization issue in the custom element](https://github.com/sveltejs/svelte/issues/2227). If you remove it, you might not be able to access the exported `api` prop, so the tick is kinda waiting until any pending state changes applied to the DOM.
 
+_Update_, the `await tick()` workaround currently not working, so this is another workaround,
+
+```javascript
+onMount(() => {
+  //Waiting for any pending state changes to be applied to the DOM
+  setTimeout(async ()=> {
+    //GET HTTP API Request based on current url location 
+    const res = await fetch( api +  `?url=` + window.location.href );
+    var initial = await res.text();
+    //Update store initial value based on API response
+    counter.update(n => parseInt(initial,10));
+  }, 0)
+});
+```
+we need _[svelte/stores](https://svelte.dev/tutorial/writable-stores)_ to be used as a counter, when `on:mousedown` triggered, the `counter` will recursively increase the value of both store and the `bufferedCount` per 200ms, and it stop until `on:mouseup` triggered.
 ```javascript
 import { writable } from 'svelte/store';
 
@@ -85,7 +100,9 @@ function increment() {
     incTimeout = setTimeout(increment, 200);
 }
 ```
-we need _[svelte/stores](https://svelte.dev/tutorial/writable-stores)_ to be used as a counter, when `on:mousedown` triggered, the `counter` will recursively increase the value of both store and the `bufferedCount` per 200ms, and it stop until `on:mouseup` triggered.
+
+The counter will notify the `countValue` whenever the counter value changes. If there is no changes/update on the counter within 1.5sec, then the `bufferedCount` will be sent to the API. You might be wondering what is the use of `bufferedCount` and all the _timeout_, this is actually a trick, because it would not be efficient to make an API call in every click, so we need to buffer the count for a certain time, in this case within 1.5sec.
+
 ```javascript
 const unsubscribe = counter.subscribe(value => {
   countValue = value;	
@@ -104,7 +121,7 @@ const unsubscribe = counter.subscribe(value => {
     <div class="count">{countValue}</div>
   </div>
 ```
-The counter will notify the `countValue` whenever the counter value changes. If there is no changes/update on the counter within 1.5sec, then the `bufferedCount` will be sent to the API. You might be wondering what is the use of `bufferedCount` and all the _timeout_, this is actually a trick, because it would not be efficient to make an API call in every click, so we need to buffer the count for a certain time, in this case within 1.5sec.
+
 
 
 ## CSS Styles
@@ -201,6 +218,8 @@ Last time I checked, the size of `bundle.js` is approx 16kb, and it's only 6kb g
 I know it's not perfect, feel free to make your own modification, my goal is only to make it works. Please let me know if you made some changes or found some bugs.
 
 Soon, I'm going to publish a working API to be paired with this component, stay tune.
+
+_Update_, Check it out! [Practical REST API in Go on Cheap Serverless](https://khal.web.id/2020/09/26/practical-rest-api-in-go-on-cheap-serverless/)
 
 
 > Well, I suppose, these days onward you can clap only with one hand.

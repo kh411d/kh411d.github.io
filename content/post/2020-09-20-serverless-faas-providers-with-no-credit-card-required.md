@@ -87,13 +87,13 @@ Deployment(CI/CD) also handled by Github integration, for a starter account you'
 - Instant rollbacks to any version
 - Deploy static assets & dynamic serverless functions (JS & Go)
 
-### [Fly.io](http://fly.io)
+### [Fly](http://fly.io)
 
 When low latency is necessary and data always needs to be real-time, Flyio is probably the best choice that is free for a side project, you'll get $10/mo of service credit and you can _[run a very small VM](https://fly.io/docs/about/pricing/)_.
 
-There is a tagline on their site _Deploy App Servers, Close to Your Users_ . It means that they are focusing on _edge computing_, or in other words, bringing the functions as close as possible to the end-users to reduce latency to an absolute minimum. At this time of writing, _[Fly.io currently have 19 datacenter locations/regions](https://fly.io/docs/reference/regions/)_. Fly.io will run your application docker images on servers in different cities.
+There is a tagline on their site _Deploy App Servers, Close to Your Users_ . It means that they are focusing on _edge computing_, or in other words, bringing the functions as close as possible to the end-users to reduce latency to an absolute minimum. At this time of writing, _[Fly currently have 19 datacenter locations/regions](https://fly.io/docs/reference/regions/)_. Fly will run your application docker images on servers in different cities.
 
-__Deploying on Fly.io.__ I haven't tried this myself but it seems very possible, you need to have this `flyctl` tool installed on your system, upon installing, you have to register for a fly.io account, no credit card required, simply follow the guidelines _[Installing flyctl](https://fly.io/docs/getting-started/installing-flyctl/)_, and then continue with _[Build Deploy and Run a Go Application](https://fly.io/docs/getting-started/golang/)_
+__Deploying on Fly.__ I haven't tried this myself but it seems very possible, you need to have this `flyctl` tool installed on your system, upon installing, you have to register for a Fly account, no credit card required, simply follow the guidelines _[Installing flyctl](https://fly.io/docs/getting-started/installing-flyctl/)_, and then continue with _[Build Deploy and Run a Go Application](https://fly.io/docs/getting-started/golang/)_
 
 __TL; DR;__ `flyctl init` will create a `fly.toml` file, Select Go (Go Builtin) for the builder, and then get ready for deployment `flyctl deploy`, keep in mind that flyctl will create docker images on your local computer, it will download all required images such as golang image approx 1gb, so make sure you have good storage space and internet connection.
 
