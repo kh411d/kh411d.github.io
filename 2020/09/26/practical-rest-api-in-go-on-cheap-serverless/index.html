@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    
+    <meta name="twitter:title" content="Practical Rest Api in Go on Cheap Serverless"/>
+    <meta name="twitter:description" content="By doing serverless and FAAS, you will have more focus on shipping code instead of worrying about the servers or runtimes. It simplifies your infrastructure stack, cheaper pricing model, auto-scale, and ease of use."/>
+    <meta name="twitter:site" content="@khalidity"/>
+    
+    
+    
+      
+      <meta name="twitter:card" content="summary_large_image"/>
+      <meta name="twitter:image" content="https://khal.web.id/images/gopherdockersea.jpg"/>
+    
+
+  	<meta property="og:title" content="Practical Rest Api in Go on Cheap Serverless &middot; Khalid&#39;s Blog" />
+  	<meta property="og:site_name" content="Khalid&#39;s Blog" />
+  	<meta property="og:url" content="https://khal.web.id/2020/09/26/practical-rest-api-in-go-on-cheap-serverless/" />
+
+    
+       <meta property="og:image" content="/images/gopherdockersea.jpg"/>
+    
+
+    
+    <meta property="og:description" content="By doing serverless and FAAS, you will have more focus on shipping code instead of worrying about the servers or runtimes. It simplifies your infrastructure stack, cheaper pricing model, auto-scale, and ease of use." />
+  	<meta property="og:type" content="article" />
+    <meta property="article:published_time" content="2020-09-26T06:34:11&#43;07:00" />
+
+    
+    <meta property="article:tag" content="serverless" />
+    
+    <meta property="article:tag" content="golang" />
+    
+    <meta property="article:tag" content="rest-api" />
+    
+    <meta property="article:tag" content="netlify" />
+    
+    <meta property="article:tag" content="vercel" />
+    
+    <meta property="article:tag" content="flyio" />
+    
+    
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>Practical Rest Api in Go on Cheap Serverless - Khalid&#39;s Blog</title>
+    
+    <meta name="description" content="By doing serverless and FAAS, you will have more focus on shipping code instead of worrying about the servers or runtimes. It simplifies your infrastructure stack, cheaper pricing model, auto-scale, and ease of use.">
+    <meta name="author" content="">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://khal.web.id/an-old-hope.min.css" rel="stylesheet">
+    <link href="https://khal.web.id/style.css" rel="stylesheet">
+    <link href="https://khal.web.id/custom.css" rel="stylesheet">
+    <link href="https://khal.web.id/syntax.css" rel="stylesheet">
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel='icon' type='image/png' href='/images/favicon.png'>
+    <link rel="manifest" href="/images/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta name="generator" content="Hugo 0.74.3" />
+    
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-8671044-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    
+      <script async defer src="https://buttons.github.io/buttons.js"></script>
+    
+    <script src="https://khal.web.id/bundle.js"></script>
+  </head>
+  <body class="single">
+    <header class="header post-head"style="background-image: url(/images/gopherdockersea.jpg);">   
+      <nav class="nav">
+        <a class="logo" href="https://khal.web.id/"><img src="/images/logo.jpeg" alt="Home" /></a></p>
+        <ul class="menu">
+          
+          <li>
+              <a class="logo" href="mailto:contact@khal.web.id" target="_blank">
+                  <span class="icon-mail" style="color:var(--primary);font-size:2em;text-shadow: 0 0 5px white;"></span>
+              </a>
+          </li>
+          
+          <li>
+            <a class="logo" href="https://www.linkedin.com/in/khalidadisendjaja" target="_blank">
+              <span class="icon-linkedin" style="color:var(--primary);font-size:2em;text-shadow: 0 0 5px white;"></span>
+          </a>
+          </li>
+
+          
+          <li>
+              <a class="logo" href="https://github.com/kh411d" target="_blank">
+              <span class="icon-github" style="color:var(--primary);font-size:2em;text-shadow: 0 0 5px white;"></span>
+              </a>
+            </li>
+          
+
+          
+          <li>
+            <a class="logo" href="https://twitter.com/khalidity" target="_blank">
+                  <span class="icon-twitter" style="color:var(--primary);font-size:2em;text-shadow: 0 0 5px white;"></span>
+              </a>
+            </li>
+          
+
+          
+
+          
+          <li>
+            <a class="logo" href="https://instagram.com/khalidity" target="_blank">
+                  <span class="icon-instagram" style="color:var(--primary);font-size:2em;text-shadow: 0 0 5px white;"></span>
+              </a>
+          </li>
+          
+          <li>
+            <a class="logo" href="/index.xml" >
+              <span class="icon-subscribe" style="color:var(--primary);font-size:2em;text-shadow: 0 0 5px white;"></span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">     
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">Practical Rest Api in Go on Cheap Serverless</h1>
+    <div class="post-meta">September 26, 2020</div>
+  </header><div class="sticky-container">
+    <div class="share sticky-top sticky-top-offset">
+        <ul>       
+            <li class="ml-1 mr-1">
+                <clap-it style="width:2.2em;height:2.2em;fill:grey;stroke:grey;color:grey;margin:14px auto;" api="https://clapi.vercel.app/api/handler"/>
+            </li>
+            <li class="ml-1 mr-1">
+            <a target="_blank" href="https://twitter.com/intent/tweet?text=Practical%20Rest%20Api%20in%20Go%20on%20Cheap%20Serverless&url=https%3a%2f%2fkhal.web.id%2f2020%2f09%2f26%2fpractical-rest-api-in-go-on-cheap-serverless%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=435');return false;">
+            <i class="icon-twitter" style="font-size:1.8em"></i>
+            </a>
+            </li>
+            
+            <li class="ml-1 mr-1">
+            <a target="_blank" href="https://facebook.com/sharer.php?u=https%3a%2f%2fkhal.web.id%2f2020%2f09%2f26%2fpractical-rest-api-in-go-on-cheap-serverless%2f" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
+            <i class="icon-facebook" style="font-size:1.8em"></i>
+            </a>
+            </li>     
+        </ul>
+
+        
+    </div>
+</div><div class="post-content">
+    <p>By doing serverless and FAAS, you will have more focus on shipping code instead of worrying about the servers or runtimes. It simplifies your infrastructure stack, cheaper pricing model, auto-scale, and ease of use.</p>
+<p>But it sometimes often makes extensive use of third-party services (such as databases, auth services, message queues, caching, searching, etc) So, bear in mind that your code is only a function which works when it&rsquo;s paired with other functions.</p>
+<h3 id="why-choose-go">Why choose Go?</h3>
+<p>Go have advantages on the packaging system, cross-platform compilation, and easy deployment. Go compiles to machine code, so it natively runs on the host machine. Go also have built-in <em>goroutines</em> that make it easy to do concurrent requests. <a href="https://dave.cheney.net/2016/12/22/never-start-a-goroutine-without-knowing-how-it-will-stop" target="_blank">We can benefit from Go concurrency to keep a small memory footprint and short runtime</a> that relate to the provider&rsquo;s runtime and memory limits.</p>
+<h3 id="the-code">The Code</h3>
+<h2 id="hahahugoshortcode-s0-hbhb">
+
+
+
+
+<script
+    data-slug-hash="eYZQYWZ"
+    data-user="kh411d"
+    data-height="328"
+    data-default-tab="result"
+    data-theme-id="dark"
+    class='codepen'
+    async
+    src="//static.codepen.io/assets/embed/ei.js"
+></script></h2>
+<p>Recently, I’ve built an API for a <em>Web Component</em> and that be <a href="https://khal.web.id/2020/09/23/build-a-medium-like-clap-button-using-svelte-custom-element-api/" target="_blank">my custom-made clap button</a>, similar to what you&rsquo;ve seen on Medium site. The API code is in Go language, it’s a simple REST API to fetch/update the number of claps for a single web page. Practically, you can use/modified the API for your own made web component.</p>
+
+
+
+
+
+
+
+    
+    
+    
+    
+
+
+
+    
+
+
+
+
+
+
+<a 
+class="github-button" 
+href="https://github.com/kh411d/clapi/fork"
+data-icon="octicon-repo-forked"
+aria-label="Fork kh411d/clapi on GitHub"
+ 
+
+data-size="large"
+>
+Fork the repository
+</a>
+<p>The code should be easily deployed to Vercel, Fly, and Netlify. The reason why I choose those providers is in <a href="https://khal.web.id/2020/09/20/serverless-faas-providers-with-no-credit-card-required/" target="_blank">my previous article</a>. For the 3rd party database, I&rsquo;m using FaunaDB by Fauna, or you can switch with Redis by Lambda store. FYI, Fauna has a partnership with Vercel/Netlify</p>
+<p>Before starting the project, I tend to read each provider&rsquo;s documentation on how to deploy functions, so then it will affect how you structured your code. As results,</p>
+<ol>
+<li><em>Vercel</em> needs your handler function to be created in a directory named <code>/api</code> and their system will scan all the files under that folder looking for files that <a href="https://vercel.com/docs/serverless-functions/supported-languages#go" target="_blank">export a function matching the net/http Go API</a>.</li>
+<li><em>Netlify</em> required a handler function to receive events from AWS API Gateway and simply make your handler available on the main package to serve AWS Lambda RPC, since Netlify lets you deploy <em><a href="https://docs.netlify.com/functions/overview/" target="_blank">serverless Lambda functions without an AWS account</a></em></li>
+<li><em>Fly</em> let you <a href="https://fly.io/docs/hands-on/create-app/" target="_blank">deploy the app as a Docker image</a> or <a href="https://fly.io/docs/getting-started/golang/" target="_blank">deploy it from the original source</a>. So you&rsquo;ll need to create your own Http listener, they will run your image as a service in different server locations.</li>
+</ol>
+<p>Let&rsquo;s take a look at the handler file <code>/api/handler.go</code>, you&rsquo;ll see that I have 2 different handlers, one to serve <code>net/http</code> listener on Localhost and Fly, also to be served as a function on Vercel.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="c1">//ServeHTTP net/http handler
+</span><span class="c1"></span><span class="kd">func</span> <span class="nf">ServeHTTP</span><span class="p">(</span><span class="nx">w</span> <span class="nx">http</span><span class="p">.</span><span class="nx">ResponseWriter</span><span class="p">,</span> <span class="nx">r</span> <span class="o">*</span><span class="nx">http</span><span class="p">.</span><span class="nx">Request</span><span class="p">)</span> <span class="p">{</span>
+    <span class="o">...</span> 
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>And another one to serve AWS Lambda RPC <em>(Remote Procedure Call)</em></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="c1">//ServeLambda AWS lambda event handler
+</span><span class="c1"></span><span class="kd">func</span> <span class="nf">ServeLambda</span><span class="p">(</span><span class="nx">r</span> <span class="nx">events</span><span class="p">.</span><span class="nx">APIGatewayProxyRequest</span><span class="p">)</span> <span class="p">(</span><span class="o">*</span><span class="nx">events</span><span class="p">.</span><span class="nx">APIGatewayProxyResponse</span><span class="p">,</span> <span class="kt">error</span><span class="p">)</span> <span class="p">{</span>
+    <span class="o">...</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>So now let see the main package, <code>/main.go</code>, it will check <code>AWS_LAMBDA_FUNCTION_NAME</code> variable whether to serve Http or AWS Lambda RPC.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+	<span class="k">if</span> <span class="nx">os</span><span class="p">.</span><span class="nf">Getenv</span><span class="p">(</span><span class="s">&#34;AWS_LAMBDA_FUNCTION_NAME&#34;</span><span class="p">)</span> <span class="o">==</span> <span class="s">&#34;&#34;</span> <span class="p">{</span>
+		<span class="nx">http</span><span class="p">.</span><span class="nf">HandleFunc</span><span class="p">(</span><span class="s">&#34;/&#34;</span><span class="p">,</span> <span class="nx">api</span><span class="p">.</span><span class="nx">ServeHTTP</span><span class="p">)</span>
+		<span class="nx">http</span><span class="p">.</span><span class="nf">ListenAndServe</span><span class="p">(</span><span class="s">&#34;:3000&#34;</span><span class="p">,</span> <span class="kc">nil</span><span class="p">)</span>
+	<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+		<span class="c1">// Make the handler available for Remote Procedure Call by AWS Lambda
+</span><span class="c1"></span>		<span class="nx">lambda</span><span class="p">.</span><span class="nf">Start</span><span class="p">(</span><span class="nx">api</span><span class="p">.</span><span class="nx">ServeLambda</span><span class="p">)</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Now you see that each provider has a different way to compile your code into a function, and another thing to catch on, each provider usually has their own configuration file that needed upon deployment (CI/CD), Take a look at <code>/netlify.toml</code> file,</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">build</span><span class="p">]</span>
+  <span class="nx">command</span> <span class="p">=</span> <span class="s2">&#34;make build&#34;</span> <span class="err">//</span><span class="nx">Your</span> <span class="nx">app</span> <span class="nx">build</span> <span class="nx">command</span>
+  <span class="nx">functions</span> <span class="p">=</span> <span class="s2">&#34;functions&#34;</span> <span class="err">//</span><span class="nx">Your</span> <span class="nx">app</span> <span class="nx">function</span> <span class="nx">exec</span><span class="err">/</span><span class="nx">binary</span> <span class="nx">directory</span>
+<span class="p">[</span><span class="nx">build</span><span class="p">.</span><span class="nx">environment</span><span class="p">]</span>
+  <span class="c"># Change this path with the path to your repository</span>
+  <span class="nx">GO_IMPORT_PATH</span> <span class="p">=</span> <span class="s2">&#34;github.com/kh411d/clapi&#34;</span> <span class="err">//</span><span class="nx">Your</span> <span class="nx">git</span> <span class="nx">provider</span> <span class="nx">repository</span> <span class="nx">path</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>The build command should correspond to toml configuration, as you see below, the go binary should be put in the <code>functions</code> directory as it specified on the toml configurations.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-makefile" data-lang="makefile"><span class="nf">build</span><span class="o">:</span>
+	mkdir -p functions      // create functions dir as specified in toml
+	go get ./...            // install all dependencies
+	go build -o functions/clapi  // build and output the binary to functions directory
+</code></pre></td></tr></table>
+</div>
+</div><p>To ease deployment (CI/CD), Vercel and Netlify make use of Git provider integration (Github/Gitlab/BitBucket) and they both have their own web-dashboard that shows you a deployment status, domain, logs, etc.</p>
+<p>Fly required you to install <code>flyctl</code> on your local device, it&rsquo;s a cli tool that lets you create an account and deploy the app. <code>flyctl</code> will be your <a href="https://fly.io/docs/getting-started/working-with-fly-apps/" target="_blank">cli-dashboard</a></p>
+<h3 id="3rd-party-services">3rd Party Services</h3>
+<p>Lastly, we need a storage to put all the count, as I mentioned before, we&rsquo;re going to use FaunaDB and Redis as an option, take a look at <code>/api/handler.go</code>, if there is no FaunaDB configuration then it will look for Redis configuration.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="kd">func</span> <span class="nf">init</span><span class="p">()</span> <span class="p">{</span>
+<span class="o">...</span>
+<span class="k">if</span> <span class="nx">conf</span><span class="p">.</span><span class="nf">Get</span><span class="p">(</span><span class="s">&#34;FAUNADB_SECRET_KEY&#34;</span><span class="p">)</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>
+    <span class="nx">dbconn</span><span class="p">,</span> <span class="nx">err</span> <span class="p">=</span> <span class="nx">db</span><span class="p">.</span><span class="nf">NewFaunaDB</span><span class="p">()</span>
+    <span class="o">...</span>
+<span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="nx">conf</span><span class="p">.</span><span class="nf">Get</span><span class="p">(</span><span class="s">&#34;REDIS_HOST&#34;</span><span class="p">)</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>
+    <span class="c1">//use redis instead
+</span><span class="c1"></span>    <span class="nx">dbconn</span><span class="p">,</span> <span class="nx">err</span> <span class="p">=</span> <span class="nx">db</span><span class="p">.</span><span class="nf">NewRedisDB</span><span class="p">()</span>
+    <span class="o">...</span>
+<span class="p">}</span> 
+<span class="o">...</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>There is a couple of steps to set up these databases, it will be explained on the README file. All the database code is in <code>/db</code> directory, and each database driver should follow this interface <code>/db/kv.go</code>,</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="kd">type</span> <span class="nx">KV</span> <span class="kd">interface</span> <span class="p">{</span>
+	<span class="nf">Add</span><span class="p">(</span><span class="kt">string</span><span class="p">,</span> <span class="p">[]</span><span class="kt">byte</span><span class="p">,</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Duration</span><span class="p">)</span> <span class="kt">error</span>
+	<span class="nf">Set</span><span class="p">(</span><span class="kt">string</span><span class="p">,</span> <span class="p">[]</span><span class="kt">byte</span><span class="p">,</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Duration</span><span class="p">)</span> <span class="kt">error</span>
+	<span class="nf">Delete</span><span class="p">(</span><span class="kt">string</span><span class="p">)</span> <span class="kt">error</span>
+	<span class="nf">Get</span><span class="p">(</span><span class="kt">string</span><span class="p">)</span> <span class="p">([]</span><span class="kt">byte</span><span class="p">,</span> <span class="kt">error</span><span class="p">)</span>
+	<span class="nf">Incr</span><span class="p">(</span><span class="kt">string</span><span class="p">)</span> <span class="kt">error</span>
+	<span class="nf">IncrBy</span><span class="p">(</span><span class="kt">string</span><span class="p">,</span> <span class="kt">int64</span><span class="p">)</span> <span class="kt">error</span>
+	<span class="nf">WithContext</span><span class="p">(</span><span class="nx">context</span><span class="p">.</span><span class="nx">Context</span><span class="p">)</span> <span class="nx">KV</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>All the rest of the deployment notes already on the README file along with the repository. FaunaDB is a bit new for me, it&rsquo;s not meant to be a key-value database and the query might need improvement. The code shown might not fit for production release, so feel free to modified and use it at your own risk.</p>
+<blockquote>
+<p>Serverless doesn&rsquo;t mean you don&rsquo;t need servers, it was meant for you not to think about the servers.</p>
+</blockquote>
+
+  </div>
+<section class="share-footer">
+  <h6 style="color:var(--secondary);">Share this post</h6>
+  <ul>
+    <li>
+      <clap-it style="width:45px;height:45px;fill:grey;stroke:grey;color:grey;margin:2px 0px;" api="https://clapi.vercel.app/api/handler"/>
+    </li>
+      <li>
+        <a  style="font-size: 2.5em" href="https://twitter.com/share?text=Practical%20Rest%20Api%20in%20Go%20on%20Cheap%20Serverless&nbsp;-&nbsp;Khalid%27s%20Blog&amp;url=https%3a%2f%2fkhal.web.id%2f2020%2f09%2f26%2fpractical-rest-api-in-go-on-cheap-serverless%2f"
+        onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+            <span class="icon-twitter" style="color:var(--secondary);"></span>
+        </a>
+      </li>
+      <li>
+        <a  style="font-size: 2.5em" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fkhal.web.id%2f2020%2f09%2f26%2fpractical-rest-api-in-go-on-cheap-serverless%2f"
+        onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+            <span class="icon-facebook" style="color:var(--secondary);"></span>
+        </a>
+      </li>
+  </ul>
+</section>
+
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://khal.web.id/tags/serverless">serverless</a></li>
+      <li><a href="https://khal.web.id/tags/golang">golang</a></li>
+      <li><a href="https://khal.web.id/tags/rest-api">rest-api</a></li>
+      <li><a href="https://khal.web.id/tags/netlify">netlify</a></li>
+      <li><a href="https://khal.web.id/tags/vercel">vercel</a></li>
+      <li><a href="https://khal.web.id/tags/flyio">flyio</a></li>
+    </ul>
+  </footer>
+  
+</article></main>
+<footer class="footer">
+  <span>&copy; 2020 <a href="https://khal.web.id/">Khalid&#39;s Blog</a></span>
+  <span>&middot;</span>
+  <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
+  <span>&middot;</span>
+  <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
+</footer>
+</body>
+</html>
+

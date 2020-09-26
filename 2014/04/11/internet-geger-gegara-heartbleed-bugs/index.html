@@ -85,6 +85,7 @@ if (!doNotTrack) {
 <script async src='https://www.google-analytics.com/analytics.js'></script>
 
     
+    <script src="https://khal.web.id/bundle.js"></script>
   </head>
   <body class="single">
     <header class="header post-head"style="background-image: url(/images/heartbleedcover.jpg);">   
@@ -144,17 +145,19 @@ if (!doNotTrack) {
     <div class="post-meta">April 11, 2014</div>
   </header><div class="sticky-container">
     <div class="share sticky-top sticky-top-offset">
-        <p>Share</p>
-        <ul>
+        <ul>       
+            <li class="ml-1 mr-1">
+                <clap-it style="width:2.2em;height:2.2em;fill:grey;stroke:grey;color:grey;margin:14px auto;" api="https://clapi.vercel.app/api/handler"/>
+            </li>
             <li class="ml-1 mr-1">
             <a target="_blank" href="https://twitter.com/intent/tweet?text=Internet%20geger%20gegara%20HeartBleed%20%5bBUG%5d%20&url=https%3a%2f%2fkhal.web.id%2f2014%2f04%2f11%2finternet-geger-gegara-heartbleed-bugs%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=435');return false;">
-            <i class="icon-twitter"></i>
+            <i class="icon-twitter" style="font-size:1.8em"></i>
             </a>
             </li>
             
             <li class="ml-1 mr-1">
             <a target="_blank" href="https://facebook.com/sharer.php?u=https%3a%2f%2fkhal.web.id%2f2014%2f04%2f11%2finternet-geger-gegara-heartbleed-bugs%2f" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
-            <i class="icon-facebook"></i>
+            <i class="icon-facebook" style="font-size:1.8em"></i>
             </a>
             </li>     
         </ul>
@@ -180,18 +183,21 @@ if (!doNotTrack) {
 
   </div>
 <section class="share-footer">
-  <h6>Share this post</h6>
+  <h6 style="color:var(--secondary);">Share this post</h6>
   <ul>
+    <li>
+      <clap-it style="width:45px;height:45px;fill:grey;stroke:grey;color:grey;margin:2px 0px;" api="https://clapi.vercel.app/api/handler"/>
+    </li>
       <li>
         <a  style="font-size: 2.5em" href="https://twitter.com/share?text=Internet%20geger%20gegara%20HeartBleed%20%5bBUG%5d%20&nbsp;-&nbsp;Khalid%27s%20Blog&amp;url=https%3a%2f%2fkhal.web.id%2f2014%2f04%2f11%2finternet-geger-gegara-heartbleed-bugs%2f"
         onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-            <span class="icon-twitter"></span>
+            <span class="icon-twitter" style="color:var(--secondary);"></span>
         </a>
       </li>
       <li>
         <a  style="font-size: 2.5em" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fkhal.web.id%2f2014%2f04%2f11%2finternet-geger-gegara-heartbleed-bugs%2f"
         onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
-            <span class="icon-facebook"></span>
+            <span class="icon-facebook" style="color:var(--secondary);"></span>
         </a>
       </li>
   </ul>
@@ -205,21 +211,6 @@ if (!doNotTrack) {
       <li><a href="https://khal.web.id/tags/bugfix">bugfix</a></li>
     </ul>
   </footer>
-  
-  <div id="disqus_thread"></div>
-  <script>
-    var disqus_shortname = 'khal-web-id';
-    (function() {
-      var d = document, s = d.createElement('script');
-      s.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
-      s.setAttribute('data-timestamp', +new Date());
-      (d.head || d.body).appendChild(s);
-    })();
-  </script>
-  <noscript>
-    Please enable JavaScript to view the
-    <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
-  </noscript>
   
 </article></main>
 <footer class="footer">
