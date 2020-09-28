@@ -6,10 +6,28 @@
     <description>Recent content in Tags on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 26 Sep 2020 06:34:11 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2020 07:31:36 +0700</lastBuildDate>
     
 	<atom:link href="https://khal.web.id/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>cloud-gaming</title>
+      <link>https://khal.web.id/tags/cloud-gaming/</link>
+      <pubDate>Mon, 28 Sep 2020 07:31:36 +0700</pubDate>
+      
+      <guid>https://khal.web.id/tags/cloud-gaming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gaming</title>
+      <link>https://khal.web.id/tags/gaming/</link>
+      <pubDate>Mon, 28 Sep 2020 07:31:36 +0700</pubDate>
+      
+      <guid>https://khal.web.id/tags/gaming/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>flyio</title>
@@ -305,15 +323,6 @@
       <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
       
       <guid>https://khal.web.id/tags/iot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>gaming</title>
-      <link>https://khal.web.id/tags/gaming/</link>
-      <pubDate>Mon, 16 May 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://khal.web.id/tags/gaming/</guid>
       <description></description>
     </item>
     

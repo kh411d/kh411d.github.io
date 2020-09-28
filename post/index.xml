@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 26 Sep 2020 06:34:11 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2020 07:31:36 +0700</lastBuildDate>
     
 	<atom:link href="https://khal.web.id/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Cloud gaming soar, how is it matters?</title>
+      <link>https://khal.web.id/2020/09/28/cloud-gaming-soar-how-is-it-matters/</link>
+      <pubDate>Mon, 28 Sep 2020 07:31:36 +0700</pubDate>
+      
+      <guid>https://khal.web.id/2020/09/28/cloud-gaming-soar-how-is-it-matters/</guid>
+      <description>It&amp;rsquo;s like as you never heard enough the word &amp;ldquo;cloud&amp;rdquo; everywhere, and then here comes cloud gaming, the thing that recently noisy and I just can&amp;rsquo;t seem to excite with all the buzz.</description>
+    </item>
     
     <item>
       <title>Practical Rest Api in Go on Cheap Serverless</title>
