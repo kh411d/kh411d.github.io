@@ -6,6 +6,8 @@
     <description>Recent content in svelte on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
+    <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
     <lastBuildDate>Wed, 23 Sep 2020 07:48:16 +0700</lastBuildDate>
     
 	<atom:link href="https://khal.web.id/tags/svelte/index.xml" rel="self" type="application/rss+xml" />
@@ -15,9 +17,10 @@
       <title>Build a Medium-Like Clap Button using Svelte Custom Element API</title>
       <link>https://khal.web.id/2020/09/23/build-a-medium-like-clap-button-using-svelte-custom-element-api/</link>
       <pubDate>Wed, 23 Sep 2020 07:48:16 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2020/09/23/build-a-medium-like-clap-button-using-svelte-custom-element-api/</guid>
-      <description>Short stories, In August 2017, Medium replaced their Recommend button with a &amp;ldquo;clap&amp;rdquo; button, which readers can click as many times as they want to show how much they enjoyed the article.</description>
+      <description>Short stories, In August 2017, Medium replaced their Recommend button with a &amp;ldquo;clap&amp;rdquo; button, which readers can click as many times as they want to show how much they enjoyed the article. Back then, this is how the Medium writers are going to be paid.
+Yeah I know, the one that I build is so last years and outdated, but Hey! Why not? It still matters and It doesn’t cost a thing.</description>
     </item>
     
   </channel>

@@ -6,6 +6,8 @@
     <description>Recent content in github on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
+    <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
     <lastBuildDate>Sun, 13 Sep 2020 19:58:58 +0700</lastBuildDate>
     
 	<atom:link href="https://khal.web.id/tags/github/index.xml" rel="self" type="application/rss+xml" />
@@ -15,9 +17,10 @@
       <title>How to Not Flaunt Your Github Face on Social Media</title>
       <link>https://khal.web.id/2020/09/13/How-to-Not-Flaunt-Your-Github-Face-on-Social-Media/</link>
       <pubDate>Sun, 13 Sep 2020 19:58:58 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2020/09/13/How-to-Not-Flaunt-Your-Github-Face-on-Social-Media/</guid>
-      <description>Your Github&amp;rsquo;s face, Mostly, a user who had a Github personal account is using their typical profile picture, which is his part of the body from the waist to the head, and it&amp;rsquo;s meant to show up his face on purpose.</description>
+      <description>Your Github&amp;rsquo;s face, Mostly, a user who had a Github personal account is using their typical profile picture, which is his part of the body from the waist to the head, and it&amp;rsquo;s meant to show up his face on purpose.
+Sadly, your face will always be flaunted when you shared one of your repos in social media. Some users might be happy with that, but some might be inconveniences by sharing his/her face on public media.</description>
     </item>
     
   </channel>

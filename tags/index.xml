@@ -6,17 +6,19 @@
     <description>Recent content in Tags on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
+    <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
     <lastBuildDate>Mon, 28 Sep 2020 07:31:36 +0700</lastBuildDate>
     
 	<atom:link href="https://khal.web.id/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>cloud-gaming</title>
-      <link>https://khal.web.id/tags/cloud-gaming/</link>
+      <title>cloudgaming</title>
+      <link>https://khal.web.id/tags/cloudgaming/</link>
       <pubDate>Mon, 28 Sep 2020 07:31:36 +0700</pubDate>
-      
-      <guid>https://khal.web.id/tags/cloud-gaming/</guid>
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <guid>https://khal.web.id/tags/cloudgaming/</guid>
       <description></description>
     </item>
     
@@ -24,7 +26,7 @@
       <title>gaming</title>
       <link>https://khal.web.id/tags/gaming/</link>
       <pubDate>Mon, 28 Sep 2020 07:31:36 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/gaming/</guid>
       <description></description>
     </item>
@@ -33,7 +35,7 @@
       <title>flyio</title>
       <link>https://khal.web.id/tags/flyio/</link>
       <pubDate>Sat, 26 Sep 2020 06:34:11 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/flyio/</guid>
       <description></description>
     </item>
@@ -42,7 +44,7 @@
       <title>golang</title>
       <link>https://khal.web.id/tags/golang/</link>
       <pubDate>Sat, 26 Sep 2020 06:34:11 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/golang/</guid>
       <description></description>
     </item>
@@ -51,7 +53,7 @@
       <title>netlify</title>
       <link>https://khal.web.id/tags/netlify/</link>
       <pubDate>Sat, 26 Sep 2020 06:34:11 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/netlify/</guid>
       <description></description>
     </item>
@@ -60,7 +62,7 @@
       <title>rest-api</title>
       <link>https://khal.web.id/tags/rest-api/</link>
       <pubDate>Sat, 26 Sep 2020 06:34:11 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/rest-api/</guid>
       <description></description>
     </item>
@@ -69,7 +71,7 @@
       <title>serverless</title>
       <link>https://khal.web.id/tags/serverless/</link>
       <pubDate>Sat, 26 Sep 2020 06:34:11 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/serverless/</guid>
       <description></description>
     </item>
@@ -78,7 +80,7 @@
       <title>vercel</title>
       <link>https://khal.web.id/tags/vercel/</link>
       <pubDate>Sat, 26 Sep 2020 06:34:11 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/vercel/</guid>
       <description></description>
     </item>
@@ -87,7 +89,7 @@
       <title>2020</title>
       <link>https://khal.web.id/tags/2020/</link>
       <pubDate>Thu, 24 Sep 2020 04:58:35 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/2020/</guid>
       <description></description>
     </item>
@@ -96,7 +98,7 @@
       <title>coronavirus</title>
       <link>https://khal.web.id/tags/coronavirus/</link>
       <pubDate>Thu, 24 Sep 2020 04:58:35 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/coronavirus/</guid>
       <description></description>
     </item>
@@ -105,7 +107,7 @@
       <title>emoji</title>
       <link>https://khal.web.id/tags/emoji/</link>
       <pubDate>Thu, 24 Sep 2020 04:58:35 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/emoji/</guid>
       <description></description>
     </item>
@@ -114,7 +116,7 @@
       <title>pandemic</title>
       <link>https://khal.web.id/tags/pandemic/</link>
       <pubDate>Thu, 24 Sep 2020 04:58:35 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/pandemic/</guid>
       <description></description>
     </item>
@@ -123,7 +125,7 @@
       <title>unicode</title>
       <link>https://khal.web.id/tags/unicode/</link>
       <pubDate>Thu, 24 Sep 2020 04:58:35 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/unicode/</guid>
       <description></description>
     </item>
@@ -132,7 +134,7 @@
       <title>html5</title>
       <link>https://khal.web.id/tags/html5/</link>
       <pubDate>Wed, 23 Sep 2020 07:48:16 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/html5/</guid>
       <description></description>
     </item>
@@ -141,7 +143,7 @@
       <title>SPA</title>
       <link>https://khal.web.id/tags/SPA/</link>
       <pubDate>Wed, 23 Sep 2020 07:48:16 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/SPA/</guid>
       <description></description>
     </item>
@@ -150,7 +152,7 @@
       <title>svelte</title>
       <link>https://khal.web.id/tags/svelte/</link>
       <pubDate>Wed, 23 Sep 2020 07:48:16 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/svelte/</guid>
       <description></description>
     </item>
@@ -159,7 +161,7 @@
       <title>tutorial</title>
       <link>https://khal.web.id/tags/tutorial/</link>
       <pubDate>Wed, 23 Sep 2020 07:48:16 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/tutorial/</guid>
       <description></description>
     </item>
@@ -168,7 +170,7 @@
       <title>FAAS</title>
       <link>https://khal.web.id/tags/FAAS/</link>
       <pubDate>Sun, 20 Sep 2020 13:20:21 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/FAAS/</guid>
       <description></description>
     </item>
@@ -177,7 +179,7 @@
       <title>zeit</title>
       <link>https://khal.web.id/tags/zeit/</link>
       <pubDate>Sun, 20 Sep 2020 13:20:21 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/zeit/</guid>
       <description></description>
     </item>
@@ -186,7 +188,7 @@
       <title>covid19</title>
       <link>https://khal.web.id/tags/covid19/</link>
       <pubDate>Mon, 14 Sep 2020 09:29:37 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/covid19/</guid>
       <description></description>
     </item>
@@ -195,7 +197,7 @@
       <title>indonesia</title>
       <link>https://khal.web.id/tags/indonesia/</link>
       <pubDate>Mon, 14 Sep 2020 09:29:37 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/indonesia/</guid>
       <description></description>
     </item>
@@ -204,7 +206,7 @@
       <title>github</title>
       <link>https://khal.web.id/tags/github/</link>
       <pubDate>Sun, 13 Sep 2020 19:58:58 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/github/</guid>
       <description></description>
     </item>
@@ -213,7 +215,7 @@
       <title>socialmedia</title>
       <link>https://khal.web.id/tags/socialmedia/</link>
       <pubDate>Sun, 13 Sep 2020 19:58:58 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/socialmedia/</guid>
       <description></description>
     </item>
@@ -222,7 +224,7 @@
       <title>cheatsheet</title>
       <link>https://khal.web.id/tags/cheatsheet/</link>
       <pubDate>Tue, 08 Sep 2020 19:08:09 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/cheatsheet/</guid>
       <description></description>
     </item>
@@ -231,7 +233,7 @@
       <title>markdown</title>
       <link>https://khal.web.id/tags/markdown/</link>
       <pubDate>Tue, 08 Sep 2020 19:08:09 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/markdown/</guid>
       <description></description>
     </item>
@@ -240,7 +242,7 @@
       <title>smartwatch</title>
       <link>https://khal.web.id/tags/smartwatch/</link>
       <pubDate>Mon, 06 Aug 2018 23:08:09 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/smartwatch/</guid>
       <description></description>
     </item>
@@ -249,7 +251,7 @@
       <title>docker</title>
       <link>https://khal.web.id/tags/docker/</link>
       <pubDate>Sun, 18 Feb 2018 13:38:36 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/docker/</guid>
       <description></description>
     </item>
@@ -258,7 +260,7 @@
       <title>portainer</title>
       <link>https://khal.web.id/tags/portainer/</link>
       <pubDate>Sun, 18 Feb 2018 13:38:36 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/portainer/</guid>
       <description></description>
     </item>
@@ -267,7 +269,7 @@
       <title>archlinux</title>
       <link>https://khal.web.id/tags/archlinux/</link>
       <pubDate>Thu, 25 Jan 2018 00:40:18 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/archlinux/</guid>
       <description></description>
     </item>
@@ -276,7 +278,7 @@
       <title>linux</title>
       <link>https://khal.web.id/tags/linux/</link>
       <pubDate>Thu, 25 Jan 2018 00:40:18 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/linux/</guid>
       <description></description>
     </item>
@@ -285,7 +287,7 @@
       <title>macos</title>
       <link>https://khal.web.id/tags/macos/</link>
       <pubDate>Thu, 25 Jan 2018 00:40:18 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/macos/</guid>
       <description></description>
     </item>
@@ -294,7 +296,7 @@
       <title>hugo</title>
       <link>https://khal.web.id/tags/hugo/</link>
       <pubDate>Tue, 02 Jan 2018 23:18:55 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/hugo/</guid>
       <description></description>
     </item>
@@ -303,7 +305,7 @@
       <title>jekyll</title>
       <link>https://khal.web.id/tags/jekyll/</link>
       <pubDate>Tue, 02 Jan 2018 23:18:55 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/jekyll/</guid>
       <description></description>
     </item>
@@ -312,7 +314,7 @@
       <title>static-site-generator</title>
       <link>https://khal.web.id/tags/static-site-generator/</link>
       <pubDate>Tue, 02 Jan 2018 23:18:55 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/static-site-generator/</guid>
       <description></description>
     </item>
@@ -321,7 +323,7 @@
       <title>iot</title>
       <link>https://khal.web.id/tags/iot/</link>
       <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/iot/</guid>
       <description></description>
     </item>
@@ -330,7 +332,7 @@
       <title>retroarch</title>
       <link>https://khal.web.id/tags/retroarch/</link>
       <pubDate>Mon, 16 May 2016 00:00:00 +0000</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/retroarch/</guid>
       <description></description>
     </item>
@@ -339,7 +341,7 @@
       <title>wordpress</title>
       <link>https://khal.web.id/tags/wordpress/</link>
       <pubDate>Tue, 03 May 2016 00:00:00 +0000</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/wordpress/</guid>
       <description></description>
     </item>
@@ -348,7 +350,7 @@
       <title>android</title>
       <link>https://khal.web.id/tags/android/</link>
       <pubDate>Mon, 25 Jan 2016 13:02:42 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/android/</guid>
       <description></description>
     </item>
@@ -357,7 +359,7 @@
       <title>remixos</title>
       <link>https://khal.web.id/tags/remixos/</link>
       <pubDate>Mon, 25 Jan 2016 13:02:42 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/remixos/</guid>
       <description></description>
     </item>
@@ -366,7 +368,7 @@
       <title>apple</title>
       <link>https://khal.web.id/tags/apple/</link>
       <pubDate>Wed, 13 Jan 2016 01:15:44 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/apple/</guid>
       <description></description>
     </item>
@@ -375,7 +377,7 @@
       <title>elcapitan</title>
       <link>https://khal.web.id/tags/elcapitan/</link>
       <pubDate>Wed, 13 Jan 2016 01:15:44 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/elcapitan/</guid>
       <description></description>
     </item>
@@ -384,7 +386,7 @@
       <title>osx</title>
       <link>https://khal.web.id/tags/osx/</link>
       <pubDate>Wed, 13 Jan 2016 01:15:44 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/osx/</guid>
       <description></description>
     </item>
@@ -393,7 +395,7 @@
       <title>boardgame</title>
       <link>https://khal.web.id/tags/boardgame/</link>
       <pubDate>Mon, 11 Jan 2016 06:59:10 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/boardgame/</guid>
       <description></description>
     </item>
@@ -402,7 +404,7 @@
       <title>jokes</title>
       <link>https://khal.web.id/tags/jokes/</link>
       <pubDate>Mon, 21 Dec 2015 05:25:19 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/jokes/</guid>
       <description></description>
     </item>
@@ -411,7 +413,7 @@
       <title>movie</title>
       <link>https://khal.web.id/tags/movie/</link>
       <pubDate>Mon, 21 Dec 2015 05:25:19 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/movie/</guid>
       <description></description>
     </item>
@@ -420,7 +422,7 @@
       <title>telco</title>
       <link>https://khal.web.id/tags/telco/</link>
       <pubDate>Sun, 20 Dec 2015 04:18:37 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/telco/</guid>
       <description></description>
     </item>
@@ -429,7 +431,7 @@
       <title>crowdfunding</title>
       <link>https://khal.web.id/tags/crowdfunding/</link>
       <pubDate>Wed, 26 Aug 2015 08:56:02 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/crowdfunding/</guid>
       <description></description>
     </item>
@@ -438,7 +440,7 @@
       <title>security</title>
       <link>https://khal.web.id/tags/security/</link>
       <pubDate>Sat, 02 May 2015 08:50:00 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/security/</guid>
       <description></description>
     </item>
@@ -447,7 +449,7 @@
       <title>bitcoin</title>
       <link>https://khal.web.id/tags/bitcoin/</link>
       <pubDate>Thu, 23 Apr 2015 10:48:39 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/bitcoin/</guid>
       <description></description>
     </item>
@@ -456,7 +458,7 @@
       <title>blockchain</title>
       <link>https://khal.web.id/tags/blockchain/</link>
       <pubDate>Thu, 23 Apr 2015 10:48:39 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/blockchain/</guid>
       <description></description>
     </item>
@@ -465,7 +467,7 @@
       <title>app</title>
       <link>https://khal.web.id/tags/app/</link>
       <pubDate>Mon, 20 Apr 2015 03:00:00 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/app/</guid>
       <description></description>
     </item>
@@ -474,7 +476,7 @@
       <title>cloud</title>
       <link>https://khal.web.id/tags/cloud/</link>
       <pubDate>Mon, 20 Apr 2015 03:00:00 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/cloud/</guid>
       <description></description>
     </item>
@@ -483,7 +485,7 @@
       <title>music</title>
       <link>https://khal.web.id/tags/music/</link>
       <pubDate>Mon, 20 Apr 2015 03:00:00 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/music/</guid>
       <description></description>
     </item>
@@ -492,7 +494,7 @@
       <title>opensource</title>
       <link>https://khal.web.id/tags/opensource/</link>
       <pubDate>Mon, 20 Apr 2015 03:00:00 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/opensource/</guid>
       <description></description>
     </item>
@@ -501,7 +503,7 @@
       <title>socialnetwork</title>
       <link>https://khal.web.id/tags/socialnetwork/</link>
       <pubDate>Mon, 20 Apr 2015 03:00:00 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/socialnetwork/</guid>
       <description></description>
     </item>
@@ -510,7 +512,7 @@
       <title>tomahawk-player</title>
       <link>https://khal.web.id/tags/tomahawk-player/</link>
       <pubDate>Mon, 20 Apr 2015 03:00:00 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/tomahawk-player/</guid>
       <description></description>
     </item>
@@ -519,7 +521,7 @@
       <title>clickjacking</title>
       <link>https://khal.web.id/tags/clickjacking/</link>
       <pubDate>Sun, 19 Apr 2015 08:42:06 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/clickjacking/</guid>
       <description></description>
     </item>
@@ -528,7 +530,7 @@
       <title>cybersecurity</title>
       <link>https://khal.web.id/tags/cybersecurity/</link>
       <pubDate>Sun, 19 Apr 2015 08:42:06 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/cybersecurity/</guid>
       <description></description>
     </item>
@@ -537,7 +539,7 @@
       <title>frame-busting</title>
       <link>https://khal.web.id/tags/frame-busting/</link>
       <pubDate>Sun, 19 Apr 2015 08:42:06 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/frame-busting/</guid>
       <description></description>
     </item>
@@ -546,7 +548,7 @@
       <title>business</title>
       <link>https://khal.web.id/tags/business/</link>
       <pubDate>Tue, 31 Mar 2015 11:14:06 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/business/</guid>
       <description></description>
     </item>
@@ -555,7 +557,7 @@
       <title>startup</title>
       <link>https://khal.web.id/tags/startup/</link>
       <pubDate>Tue, 31 Mar 2015 11:14:06 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/startup/</guid>
       <description></description>
     </item>
@@ -564,7 +566,7 @@
       <title>ventures</title>
       <link>https://khal.web.id/tags/ventures/</link>
       <pubDate>Tue, 31 Mar 2015 11:14:06 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/ventures/</guid>
       <description></description>
     </item>
@@ -573,7 +575,7 @@
       <title>zipdial</title>
       <link>https://khal.web.id/tags/zipdial/</link>
       <pubDate>Tue, 31 Mar 2015 11:14:06 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/zipdial/</guid>
       <description></description>
     </item>
@@ -582,7 +584,7 @@
       <title>icann</title>
       <link>https://khal.web.id/tags/icann/</link>
       <pubDate>Thu, 26 Mar 2015 07:49:58 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/icann/</guid>
       <description></description>
     </item>
@@ -591,7 +593,7 @@
       <title>parasite</title>
       <link>https://khal.web.id/tags/parasite/</link>
       <pubDate>Tue, 17 Mar 2015 06:12:12 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/parasite/</guid>
       <description></description>
     </item>
@@ -600,7 +602,7 @@
       <title>icecast</title>
       <link>https://khal.web.id/tags/icecast/</link>
       <pubDate>Tue, 12 Aug 2014 05:04:45 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/icecast/</guid>
       <description></description>
     </item>
@@ -609,7 +611,7 @@
       <title>online-streaming</title>
       <link>https://khal.web.id/tags/online-streaming/</link>
       <pubDate>Tue, 12 Aug 2014 05:04:45 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/online-streaming/</guid>
       <description></description>
     </item>
@@ -618,7 +620,7 @@
       <title>automation</title>
       <link>https://khal.web.id/tags/automation/</link>
       <pubDate>Fri, 11 Jul 2014 09:03:57 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/automation/</guid>
       <description></description>
     </item>
@@ -627,7 +629,7 @@
       <title>ifttt</title>
       <link>https://khal.web.id/tags/ifttt/</link>
       <pubDate>Fri, 11 Jul 2014 09:03:57 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/ifttt/</guid>
       <description></description>
     </item>
@@ -636,7 +638,7 @@
       <title>iphone</title>
       <link>https://khal.web.id/tags/iphone/</link>
       <pubDate>Thu, 19 Jun 2014 09:20:34 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/iphone/</guid>
       <description></description>
     </item>
@@ -645,7 +647,7 @@
       <title>yoapp</title>
       <link>https://khal.web.id/tags/yoapp/</link>
       <pubDate>Thu, 19 Jun 2014 09:20:34 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/yoapp/</guid>
       <description></description>
     </item>
@@ -654,7 +656,7 @@
       <title>soccer</title>
       <link>https://khal.web.id/tags/soccer/</link>
       <pubDate>Thu, 12 Jun 2014 08:53:39 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/soccer/</guid>
       <description></description>
     </item>
@@ -663,7 +665,7 @@
       <title>twitter</title>
       <link>https://khal.web.id/tags/twitter/</link>
       <pubDate>Thu, 12 Jun 2014 08:53:39 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/twitter/</guid>
       <description></description>
     </item>
@@ -672,7 +674,7 @@
       <title>worldcup</title>
       <link>https://khal.web.id/tags/worldcup/</link>
       <pubDate>Thu, 12 Jun 2014 08:53:39 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/worldcup/</guid>
       <description></description>
     </item>
@@ -681,7 +683,7 @@
       <title>foursquare</title>
       <link>https://khal.web.id/tags/foursquare/</link>
       <pubDate>Tue, 10 Jun 2014 13:29:10 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/foursquare/</guid>
       <description></description>
     </item>
@@ -690,7 +692,7 @@
       <title>swarm-app</title>
       <link>https://khal.web.id/tags/swarm-app/</link>
       <pubDate>Tue, 10 Jun 2014 13:29:10 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/swarm-app/</guid>
       <description></description>
     </item>
@@ -699,7 +701,7 @@
       <title>facebook</title>
       <link>https://khal.web.id/tags/facebook/</link>
       <pubDate>Thu, 05 Jun 2014 07:25:20 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/facebook/</guid>
       <description></description>
     </item>
@@ -708,7 +710,7 @@
       <title>oauth</title>
       <link>https://khal.web.id/tags/oauth/</link>
       <pubDate>Wed, 28 May 2014 13:08:25 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/oauth/</guid>
       <description></description>
     </item>
@@ -717,7 +719,7 @@
       <title>open-redirect</title>
       <link>https://khal.web.id/tags/open-redirect/</link>
       <pubDate>Wed, 28 May 2014 13:08:25 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/open-redirect/</guid>
       <description></description>
     </item>
@@ -726,7 +728,7 @@
       <title>openid</title>
       <link>https://khal.web.id/tags/openid/</link>
       <pubDate>Wed, 28 May 2014 13:08:25 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/openid/</guid>
       <description></description>
     </item>
@@ -735,7 +737,7 @@
       <title>path</title>
       <link>https://khal.web.id/tags/path/</link>
       <pubDate>Tue, 06 May 2014 19:15:44 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/path/</guid>
       <description></description>
     </item>
@@ -744,7 +746,7 @@
       <title>firechat</title>
       <link>https://khal.web.id/tags/firechat/</link>
       <pubDate>Thu, 17 Apr 2014 11:41:02 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/firechat/</guid>
       <description></description>
     </item>
@@ -753,7 +755,7 @@
       <title>messaging</title>
       <link>https://khal.web.id/tags/messaging/</link>
       <pubDate>Thu, 17 Apr 2014 11:41:02 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/messaging/</guid>
       <description></description>
     </item>
@@ -762,7 +764,7 @@
       <title>bugfix</title>
       <link>https://khal.web.id/tags/bugfix/</link>
       <pubDate>Fri, 11 Apr 2014 08:51:42 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/bugfix/</guid>
       <description></description>
     </item>
@@ -771,7 +773,7 @@
       <title>heartbleed</title>
       <link>https://khal.web.id/tags/heartbleed/</link>
       <pubDate>Fri, 11 Apr 2014 08:51:42 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/heartbleed/</guid>
       <description></description>
     </item>
@@ -780,7 +782,7 @@
       <title>nodejs</title>
       <link>https://khal.web.id/tags/nodejs/</link>
       <pubDate>Wed, 19 Feb 2014 07:55:27 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/nodejs/</guid>
       <description></description>
     </item>
@@ -789,7 +791,7 @@
       <title>design</title>
       <link>https://khal.web.id/tags/design/</link>
       <pubDate>Mon, 17 Feb 2014 11:43:31 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/design/</guid>
       <description></description>
     </item>
@@ -798,7 +800,7 @@
       <title>flow</title>
       <link>https://khal.web.id/tags/flow/</link>
       <pubDate>Mon, 17 Feb 2014 11:43:31 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/flow/</guid>
       <description></description>
     </item>
@@ -807,7 +809,7 @@
       <title>pebblewatch</title>
       <link>https://khal.web.id/tags/pebblewatch/</link>
       <pubDate>Wed, 05 Feb 2014 06:23:00 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/pebblewatch/</guid>
       <description></description>
     </item>
@@ -816,7 +818,7 @@
       <title>internet</title>
       <link>https://khal.web.id/tags/internet/</link>
       <pubDate>Mon, 13 Jan 2014 09:33:33 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/internet/</guid>
       <description></description>
     </item>
@@ -825,7 +827,7 @@
       <title>workout</title>
       <link>https://khal.web.id/tags/workout/</link>
       <pubDate>Tue, 31 Dec 2013 09:17:45 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/workout/</guid>
       <description></description>
     </item>
@@ -834,7 +836,7 @@
       <title>microblogging</title>
       <link>https://khal.web.id/tags/microblogging/</link>
       <pubDate>Mon, 23 Dec 2013 11:42:34 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/microblogging/</guid>
       <description></description>
     </item>
@@ -843,7 +845,7 @@
       <title>bajakjkt</title>
       <link>https://khal.web.id/tags/bajakjkt/</link>
       <pubDate>Sun, 15 Dec 2013 03:17:29 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/bajakjkt/</guid>
       <description></description>
     </item>
@@ -852,7 +854,7 @@
       <title>nike</title>
       <link>https://khal.web.id/tags/nike/</link>
       <pubDate>Sun, 15 Dec 2013 03:17:29 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/nike/</guid>
       <description></description>
     </item>
@@ -861,7 +863,7 @@
       <title>werun</title>
       <link>https://khal.web.id/tags/werun/</link>
       <pubDate>Sun, 15 Dec 2013 03:17:29 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/werun/</guid>
       <description></description>
     </item>
@@ -870,7 +872,7 @@
       <title>google</title>
       <link>https://khal.web.id/tags/google/</link>
       <pubDate>Thu, 07 Nov 2013 07:21:35 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/google/</guid>
       <description></description>
     </item>
@@ -879,7 +881,7 @@
       <title>ghost</title>
       <link>https://khal.web.id/tags/ghost/</link>
       <pubDate>Thu, 17 Oct 2013 07:42:15 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/ghost/</guid>
       <description></description>
     </item>
@@ -888,7 +890,7 @@
       <title>mobile-photography</title>
       <link>https://khal.web.id/tags/mobile-photography/</link>
       <pubDate>Sun, 11 Dec 2011 11:39:24 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/mobile-photography/</guid>
       <description></description>
     </item>
@@ -897,7 +899,7 @@
       <title>indiegame</title>
       <link>https://khal.web.id/tags/indiegame/</link>
       <pubDate>Thu, 26 May 2011 13:23:08 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/indiegame/</guid>
       <description></description>
     </item>
@@ -906,7 +908,7 @@
       <title>codeigniter</title>
       <link>https://khal.web.id/tags/codeigniter/</link>
       <pubDate>Tue, 10 Aug 2010 09:30:57 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/codeigniter/</guid>
       <description></description>
     </item>
@@ -915,7 +917,7 @@
       <title>php</title>
       <link>https://khal.web.id/tags/php/</link>
       <pubDate>Tue, 10 Aug 2010 09:30:57 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/php/</guid>
       <description></description>
     </item>
@@ -924,7 +926,7 @@
       <title>googlewave</title>
       <link>https://khal.web.id/tags/googlewave/</link>
       <pubDate>Wed, 25 Nov 2009 03:45:09 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/googlewave/</guid>
       <description></description>
     </item>
@@ -933,7 +935,7 @@
       <title>bespin</title>
       <link>https://khal.web.id/tags/bespin/</link>
       <pubDate>Thu, 19 Nov 2009 08:10:30 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/bespin/</guid>
       <description></description>
     </item>
@@ -942,7 +944,7 @@
       <title>chrome</title>
       <link>https://khal.web.id/tags/chrome/</link>
       <pubDate>Wed, 11 Nov 2009 07:55:29 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/chrome/</guid>
       <description></description>
     </item>
@@ -951,7 +953,7 @@
       <title>firefox</title>
       <link>https://khal.web.id/tags/firefox/</link>
       <pubDate>Wed, 11 Nov 2009 07:55:29 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/firefox/</guid>
       <description></description>
     </item>
@@ -960,7 +962,7 @@
       <title>InternetExplorer</title>
       <link>https://khal.web.id/tags/InternetExplorer/</link>
       <pubDate>Mon, 04 May 2009 11:22:20 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/InternetExplorer/</guid>
       <description></description>
     </item>

@@ -6,7 +6,8 @@
 
     
     <meta name="twitter:title" content="Practical Rest Api in Go on Cheap Serverless"/>
-    <meta name="twitter:description" content="By doing serverless and FAAS, you will have more focus on shipping code instead of worrying about the servers or runtimes. It simplifies your infrastructure stack, cheaper pricing model, auto-scale, and ease of use."/>
+    <meta name="twitter:description" content="By doing serverless and FAAS, you will have more focus on shipping code instead of worrying about the servers or runtimes. It simplifies your infrastructure stack, cheaper pricing model, auto-scale, and ease of use.
+But it sometimes often makes extensive use of third-party services (such as databases, auth services, message queues, caching, searching, etc) So, bear in mind that your code is only a function which works when it&rsquo;s paired with other functions."/>
     <meta name="twitter:site" content="@khalidity"/>
     
     
@@ -25,7 +26,8 @@
     
 
     
-    <meta property="og:description" content="By doing serverless and FAAS, you will have more focus on shipping code instead of worrying about the servers or runtimes. It simplifies your infrastructure stack, cheaper pricing model, auto-scale, and ease of use." />
+    <meta property="og:description" content="By doing serverless and FAAS, you will have more focus on shipping code instead of worrying about the servers or runtimes. It simplifies your infrastructure stack, cheaper pricing model, auto-scale, and ease of use.
+But it sometimes often makes extensive use of third-party services (such as databases, auth services, message queues, caching, searching, etc) So, bear in mind that your code is only a function which works when it&rsquo;s paired with other functions." />
   	<meta property="og:type" content="article" />
     <meta property="article:published_time" content="2020-09-26T06:34:11&#43;07:00" />
 
@@ -48,8 +50,9 @@
     
     <title>Practical Rest Api in Go on Cheap Serverless - Khalid&#39;s Blog</title>
     
-    <meta name="description" content="By doing serverless and FAAS, you will have more focus on shipping code instead of worrying about the servers or runtimes. It simplifies your infrastructure stack, cheaper pricing model, auto-scale, and ease of use.">
-    <meta name="author" content="">
+    <meta name="description" content="By doing serverless and FAAS, you will have more focus on shipping code instead of worrying about the servers or runtimes. It simplifies your infrastructure stack, cheaper pricing model, auto-scale, and ease of use.
+But it sometimes often makes extensive use of third-party services (such as databases, auth services, message queues, caching, searching, etc) So, bear in mind that your code is only a function which works when it&rsquo;s paired with other functions.">
+    <meta name="author" content="Khalid Adisendjaja">
     
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://khal.web.id/an-old-hope.min.css" rel="stylesheet">
@@ -150,7 +153,7 @@ if (!doNotTrack) {
 <article class="post-single">
   <header class="post-header">
     <h1 class="post-title">Practical Rest Api in Go on Cheap Serverless</h1>
-    <div class="post-meta">September 26, 2020</div>
+    <div class="post-meta">Khalid Adisendjaja · September 26, 2020</div>
   </header><div class="sticky-container">
     <div class="share sticky-top sticky-top-offset">
         <ul>       
@@ -158,7 +161,7 @@ if (!doNotTrack) {
                 <clap-it style="width:2.2em;height:2.2em;fill:grey;stroke:grey;color:grey;margin:14px auto;" api="https://clapi.vercel.app/api/handler"/>
             </li>
             <li class="ml-1 mr-1">
-            <a target="_blank" href="https://twitter.com/intent/tweet?text=Practical%20Rest%20Api%20in%20Go%20on%20Cheap%20Serverless&url=https%3a%2f%2fkhal.web.id%2f2020%2f09%2f26%2fpractical-rest-api-in-go-on-cheap-serverless%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=435');return false;">
+            <a target="_blank" href="https://twitter.com/intent/tweet?text=Practical%20Rest%20Api%20in%20Go%20on%20Cheap%20Serverless %23serverless  %23golang  %23rest-api  %23netlify  %23vercel  %23flyio &url=https%3a%2f%2fkhal.web.id%2f2020%2f09%2f26%2fpractical-rest-api-in-go-on-cheap-serverless%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=435');return false;">
             <i class="icon-twitter" style="font-size:1.8em"></i>
             </a>
             </li>
@@ -167,6 +170,9 @@ if (!doNotTrack) {
             <a target="_blank" href="https://facebook.com/sharer.php?u=https%3a%2f%2fkhal.web.id%2f2020%2f09%2f26%2fpractical-rest-api-in-go-on-cheap-serverless%2f" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
             <i class="icon-facebook" style="font-size:1.8em"></i>
             </a>
+            </li>
+            <li class="ml-1 mr-1">
+                <a data-flip-widget="shareflip" href="https://flipboard.com"><img src="https://cdn.flipboard.com/badges/flipboard_sbsw.png" style="opacity: 45%;margin-top: 12px;margin-left: 5px;" /></a><script src="https://cdn.flipboard.com/web/buttons/js/flbuttons.min.js" type="text/javascript"></script>
             </li>     
         </ul>
 
@@ -391,7 +397,7 @@ Fork the repository
   <h6 style="color:var(--secondary);">Share this post</h6>
   <ul>
     <li>
-      <clap-it style="width:45px;height:45px;fill:grey;stroke:grey;color:grey;margin:2px 0px;" api="https://clapi.vercel.app/api/handler"/>
+      <clap-it style="width:45px;height:45px;fill:var(--secondary);stroke:var(--secondary);color:var(--secondary);margin:5px 0px;" api="https://clapi.vercel.app/api/handler"/>
     </li>
       <li>
         <a  style="font-size: 2.5em" href="https://twitter.com/share?text=Practical%20Rest%20Api%20in%20Go%20on%20Cheap%20Serverless&nbsp;-&nbsp;Khalid%27s%20Blog&amp;url=https%3a%2f%2fkhal.web.id%2f2020%2f09%2f26%2fpractical-rest-api-in-go-on-cheap-serverless%2f"
@@ -404,6 +410,9 @@ Fork the repository
         onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
             <span class="icon-facebook" style="color:var(--secondary);"></span>
         </a>
+      </li>
+      <li>
+        <a data-flip-widget="shareflip" href="https://flipboard.com"><img src="https://cdn.flipboard.com/badges/flipboard_lbsw.png" style="opacity: 60%;margin-bottom: 3px;margin-left: 5px;width: 73%;" /></a><script src="https://cdn.flipboard.com/web/buttons/js/flbuttons.min.js" type="text/javascript"></script>
       </li>
   </ul>
 </section>

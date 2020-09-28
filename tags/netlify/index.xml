@@ -6,6 +6,8 @@
     <description>Recent content in netlify on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
+    <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
     <lastBuildDate>Sat, 26 Sep 2020 06:34:11 +0700</lastBuildDate>
     
 	<atom:link href="https://khal.web.id/tags/netlify/index.xml" rel="self" type="application/rss+xml" />
@@ -15,18 +17,19 @@
       <title>Practical Rest Api in Go on Cheap Serverless</title>
       <link>https://khal.web.id/2020/09/26/practical-rest-api-in-go-on-cheap-serverless/</link>
       <pubDate>Sat, 26 Sep 2020 06:34:11 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2020/09/26/practical-rest-api-in-go-on-cheap-serverless/</guid>
-      <description>By doing serverless and FAAS, you will have more focus on shipping code instead of worrying about the servers or runtimes. It simplifies your infrastructure stack, cheaper pricing model, auto-scale, and ease of use.</description>
+      <description>By doing serverless and FAAS, you will have more focus on shipping code instead of worrying about the servers or runtimes. It simplifies your infrastructure stack, cheaper pricing model, auto-scale, and ease of use.
+But it sometimes often makes extensive use of third-party services (such as databases, auth services, message queues, caching, searching, etc) So, bear in mind that your code is only a function which works when it&amp;rsquo;s paired with other functions.</description>
     </item>
     
     <item>
       <title>Serverless/FAAS Providers With No Credit Card Required</title>
       <link>https://khal.web.id/2020/09/20/serverless-faas-providers-with-no-credit-card-required/</link>
       <pubDate>Sun, 20 Sep 2020 13:20:21 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2020/09/20/serverless-faas-providers-with-no-credit-card-required/</guid>
-      <description>Have you ever been in a situation where you met a strange girl, asking her out for an easy walk in a sunny afternoon, introduce each other, giving your number, email, Facebook, Github account, even your home address, and then suddenly she&amp;rsquo;s asking you for a credit card, she said, it&amp;rsquo;s for our good, I won&amp;rsquo;t do evil.</description>
+      <description>Have you ever been in a situation where you met a strange girl, asking her out for an easy walk in a sunny afternoon, introduce each other, giving your number, email, Facebook, Github account, even your home address, and then suddenly she&amp;rsquo;s asking you for a credit card, she said, it&amp;rsquo;s for our good, I won&amp;rsquo;t do evil. What would you do? well, in my experience, that makes no sense at all, at least it never happened though.</description>
     </item>
     
   </channel>

@@ -6,6 +6,8 @@
     <description>Recent content in remixos on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
+    <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
     <lastBuildDate>Mon, 25 Jan 2016 13:02:42 +0700</lastBuildDate>
     
 	<atom:link href="https://khal.web.id/tags/remixos/index.xml" rel="self" type="application/rss+xml" />
@@ -15,10 +17,11 @@
       <title>Nge-mix Android di Macbook/PC</title>
       <link>https://khal.web.id/2016/01/25/nge-mix-android-di-macbookpc/</link>
       <pubDate>Mon, 25 Jan 2016 13:02:42 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2016/01/25/nge-mix-android-di-macbookpc/</guid>
       <description>Mungkin banyak yg sudah pada tahu kelebihan Android ini, tetapi kebanyakan orang terbiasa tahu bahwa android hanya running di henpon, tablet, IOT devices, atau mini PC dengan USB stick.
-Meskipun bisa di install di banyak device, akan tetapi Operating System yang terinstall pun adalah notabene sama seperti yg kita lihat pada android phone/tablet kebanyakan, misal meski bernama android mini PC, OS yg terinstall pun adalah varian untuk tablet device.</description>
+Meskipun bisa di install di banyak device, akan tetapi Operating System yang terinstall pun adalah notabene sama seperti yg kita lihat pada android phone/tablet kebanyakan, misal meski bernama android mini PC, OS yg terinstall pun adalah varian untuk tablet device.
+Berawal dari sebuah company bernama JIDE Technology yg diusung oleh 3 ex-Google membuat sebuah OS bernama Remix OS berdasarkan project open source Android-X86.</description>
     </item>
     
   </channel>

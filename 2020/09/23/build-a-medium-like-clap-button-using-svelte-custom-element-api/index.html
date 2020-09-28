@@ -6,7 +6,8 @@
 
     
     <meta name="twitter:title" content="Build a Medium-Like Clap Button using Svelte Custom Element API"/>
-    <meta name="twitter:description" content="Short stories, In August 2017, Medium replaced their Recommend button with a &ldquo;clap&rdquo; button, which readers can click as many times as they want to show how much they enjoyed the article."/>
+    <meta name="twitter:description" content="Short stories, In August 2017, Medium replaced their Recommend button with a &ldquo;clap&rdquo; button, which readers can click as many times as they want to show how much they enjoyed the article. Back then, this is how the Medium writers are going to be paid.
+Yeah I know, the one that I build is so last years and outdated, but Hey! Why not? It still matters and It doesn’t cost a thing."/>
     <meta name="twitter:site" content="@khalidity"/>
     
     
@@ -25,7 +26,8 @@
     
 
     
-    <meta property="og:description" content="Short stories, In August 2017, Medium replaced their Recommend button with a &ldquo;clap&rdquo; button, which readers can click as many times as they want to show how much they enjoyed the article." />
+    <meta property="og:description" content="Short stories, In August 2017, Medium replaced their Recommend button with a &ldquo;clap&rdquo; button, which readers can click as many times as they want to show how much they enjoyed the article. Back then, this is how the Medium writers are going to be paid.
+Yeah I know, the one that I build is so last years and outdated, but Hey! Why not? It still matters and It doesn’t cost a thing." />
   	<meta property="og:type" content="article" />
     <meta property="article:published_time" content="2020-09-23T07:48:16&#43;07:00" />
 
@@ -44,8 +46,9 @@
     
     <title>Build a Medium-Like Clap Button using Svelte Custom Element API - Khalid&#39;s Blog</title>
     
-    <meta name="description" content="Short stories, In August 2017, Medium replaced their Recommend button with a &ldquo;clap&rdquo; button, which readers can click as many times as they want to show how much they enjoyed the article.">
-    <meta name="author" content="">
+    <meta name="description" content="Short stories, In August 2017, Medium replaced their Recommend button with a &ldquo;clap&rdquo; button, which readers can click as many times as they want to show how much they enjoyed the article. Back then, this is how the Medium writers are going to be paid.
+Yeah I know, the one that I build is so last years and outdated, but Hey! Why not? It still matters and It doesn’t cost a thing.">
+    <meta name="author" content="Khalid Adisendjaja">
     
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://khal.web.id/an-old-hope.min.css" rel="stylesheet">
@@ -146,7 +149,7 @@ if (!doNotTrack) {
 <article class="post-single">
   <header class="post-header">
     <h1 class="post-title">Build a Medium-Like Clap Button using Svelte Custom Element API</h1>
-    <div class="post-meta">September 23, 2020</div>
+    <div class="post-meta">Khalid Adisendjaja · September 23, 2020</div>
   </header><div class="sticky-container">
     <div class="share sticky-top sticky-top-offset">
         <ul>       
@@ -154,7 +157,7 @@ if (!doNotTrack) {
                 <clap-it style="width:2.2em;height:2.2em;fill:grey;stroke:grey;color:grey;margin:14px auto;" api="https://clapi.vercel.app/api/handler"/>
             </li>
             <li class="ml-1 mr-1">
-            <a target="_blank" href="https://twitter.com/intent/tweet?text=Build%20a%20Medium-Like%20Clap%20Button%20using%20Svelte%20Custom%20Element%20API&url=https%3a%2f%2fkhal.web.id%2f2020%2f09%2f23%2fbuild-a-medium-like-clap-button-using-svelte-custom-element-api%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=435');return false;">
+            <a target="_blank" href="https://twitter.com/intent/tweet?text=Build%20a%20Medium-Like%20Clap%20Button%20using%20Svelte%20Custom%20Element%20API %23svelte  %23SPA  %23html5  %23tutorial &url=https%3a%2f%2fkhal.web.id%2f2020%2f09%2f23%2fbuild-a-medium-like-clap-button-using-svelte-custom-element-api%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=435');return false;">
             <i class="icon-twitter" style="font-size:1.8em"></i>
             </a>
             </li>
@@ -163,6 +166,9 @@ if (!doNotTrack) {
             <a target="_blank" href="https://facebook.com/sharer.php?u=https%3a%2f%2fkhal.web.id%2f2020%2f09%2f23%2fbuild-a-medium-like-clap-button-using-svelte-custom-element-api%2f" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
             <i class="icon-facebook" style="font-size:1.8em"></i>
             </a>
+            </li>
+            <li class="ml-1 mr-1">
+                <a data-flip-widget="shareflip" href="https://flipboard.com"><img src="https://cdn.flipboard.com/badges/flipboard_sbsw.png" style="opacity: 45%;margin-top: 12px;margin-left: 5px;" /></a><script src="https://cdn.flipboard.com/web/buttons/js/flbuttons.min.js" type="text/javascript"></script>
             </li>     
         </ul>
 
@@ -571,7 +577,7 @@ $ npm run build <span class="o">&amp;&amp;</span> npm run start
   <h6 style="color:var(--secondary);">Share this post</h6>
   <ul>
     <li>
-      <clap-it style="width:45px;height:45px;fill:grey;stroke:grey;color:grey;margin:2px 0px;" api="https://clapi.vercel.app/api/handler"/>
+      <clap-it style="width:45px;height:45px;fill:var(--secondary);stroke:var(--secondary);color:var(--secondary);margin:5px 0px;" api="https://clapi.vercel.app/api/handler"/>
     </li>
       <li>
         <a  style="font-size: 2.5em" href="https://twitter.com/share?text=Build%20a%20Medium-Like%20Clap%20Button%20using%20Svelte%20Custom%20Element%20API&nbsp;-&nbsp;Khalid%27s%20Blog&amp;url=https%3a%2f%2fkhal.web.id%2f2020%2f09%2f23%2fbuild-a-medium-like-clap-button-using-svelte-custom-element-api%2f"
@@ -584,6 +590,9 @@ $ npm run build <span class="o">&amp;&amp;</span> npm run start
         onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
             <span class="icon-facebook" style="color:var(--secondary);"></span>
         </a>
+      </li>
+      <li>
+        <a data-flip-widget="shareflip" href="https://flipboard.com"><img src="https://cdn.flipboard.com/badges/flipboard_lbsw.png" style="opacity: 60%;margin-bottom: 3px;margin-left: 5px;width: 73%;" /></a><script src="https://cdn.flipboard.com/web/buttons/js/flbuttons.min.js" type="text/javascript"></script>
       </li>
   </ul>
 </section>

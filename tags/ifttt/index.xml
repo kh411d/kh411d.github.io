@@ -6,6 +6,8 @@
     <description>Recent content in ifttt on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
+    <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
     <lastBuildDate>Fri, 11 Jul 2014 09:03:57 +0700</lastBuildDate>
     
 	<atom:link href="https://khal.web.id/tags/ifttt/index.xml" rel="self" type="application/rss+xml" />
@@ -15,20 +17,23 @@
       <title>Aplikasi mobile IFTTT bakal bikin Android lo makin canggih!</title>
       <link>https://khal.web.id/2014/07/11/aplikasi-mobile-ifttt-bakal-bikin-android-lo-makin-canggih/</link>
       <pubDate>Fri, 11 Jul 2014 09:03:57 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2014/07/11/aplikasi-mobile-ifttt-bakal-bikin-android-lo-makin-canggih/</guid>
-      <description>IFTTT adalah sebuah alat yang akan memudahkan otomatisasi kegiatan lo sehari-hari dengan dunia internet. Cara pemakaian IFTTT pun cukup mudah, sama sekali gak perlu ngerti IT banget. Sumpah gak boong :-)</description>
+      <description>IFTTT adalah sebuah alat yang akan memudahkan otomatisasi kegiatan lo sehari-hari dengan dunia internet. Cara pemakaian IFTTT pun cukup mudah, sama sekali gak perlu ngerti IT banget. Sumpah gak boong :-)
+IFTTT baru-baru ini mengenalkan aplikasi untuk smartphone Android, yang nantinya berguna untuk meng-otomatisasi fitur smartphone seperti, sms, call, location, photo, dan notification.
+Banyak banget resep IFTTT yang bisa lo bikin, dari yang paling berguna buat hidup lo sampai yang paling absurd sekalipun</description>
     </item>
     
     <item>
       <title>Cara nge-tweet otomatis</title>
       <link>https://khal.web.id/2012/09/05/rahasia-dibalik-otomatisasi-tweet-gue/</link>
       <pubDate>Wed, 05 Sep 2012 09:51:54 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2012/09/05/rahasia-dibalik-otomatisasi-tweet-gue/</guid>
       <description>Pada mulanya karena kebanyakan artikel yang gue baca berasal dari Google Reader,
  Gue males banget
- Kalo sharing lewat button share, soalnya ribet, begitu klik, login dulu facebook ato twitter, terus muncul popup, terus harus mencet lagi tombol send, belum lagi gue harus ngedit isi konten share-nya, terus aja terus.</description>
+ Kalo sharing lewat button share, soalnya ribet, begitu klik, login dulu facebook ato twitter, terus muncul popup, terus harus mencet lagi tombol send, belum lagi gue harus ngedit isi konten share-nya, terus aja terus.. Doh come on man! hari gini ribet 😫
+Nah, aplikasi pertama yang gue temukan adalah BufferApp, aplikasi ini dapat menampung semua tweet lo yang nantinya akan di publish otomatis berdasarkan jadwal publish yang sudah lo tentukan.</description>
     </item>
     
   </channel>

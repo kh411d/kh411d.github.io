@@ -6,6 +6,8 @@
     <description>Recent content in nodejs on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
+    <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
     <lastBuildDate>Wed, 19 Feb 2014 07:55:27 +0700</lastBuildDate>
     
 	<atom:link href="https://khal.web.id/tags/nodejs/index.xml" rel="self" type="application/rss+xml" />
@@ -15,12 +17,15 @@
       <title>[NOTE] Upgrade NodeJS lokal via NPM dan &#34;n&#34; module</title>
       <link>https://khal.web.id/2014/02/19/note-upgrade-nodejs-lokal-via-npm-dan-n-module/</link>
       <pubDate>Wed, 19 Feb 2014 07:55:27 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2014/02/19/note-upgrade-nodejs-lokal-via-npm-dan-n-module/</guid>
       <description>Sebelum NodeJS-nya di-upgrade, cek dulu versi yang ter-install,
 $node -v v0.10.12  Bersih2x NPM Cache,
 sudo npm cache clean -f  Install &amp;ldquo;n&amp;rdquo; Node binary manager ,
-sudo npm install -g n  Upgrade Node ke versi terakhir,</description>
+sudo npm install -g n  Upgrade Node ke versi terakhir,
+sudo n 0.10.26  Atau bisa langsung upgrade ke versi stable terakhir,
+sudo n stable  Cek versi node yg telah terupgrade,
+$node -v v0.10.26 </description>
     </item>
     
   </channel>

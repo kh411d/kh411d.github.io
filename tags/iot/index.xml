@@ -6,6 +6,8 @@
     <description>Recent content in iot on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
+    <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
     <lastBuildDate>Thu, 01 Sep 2016 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://khal.web.id/tags/iot/index.xml" rel="self" type="application/rss+xml" />
@@ -15,10 +17,11 @@
       <title>Apa sih IoT (Internet Of Things)</title>
       <link>https://khal.web.id/2016/09/01/apa-sih-iot/</link>
       <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2016/09/01/apa-sih-iot/</guid>
       <description>Banyak orang yang menyadari bahwa internet itu sudah bisa menjadi jembatan untuk meningkatkan kualitas hidup seseorang secara keseluruhan.
-Bisa dilihat dari banyaknya dijual device/alat wearable seperti jam tangan, gelang, kacamata, sepatu yang notabene fungsi utama sebenarnya adalah monitoring</description>
+Bisa dilihat dari banyaknya dijual device/alat wearable seperti jam tangan, gelang, kacamata, sepatu yang notabene fungsi utama sebenarnya adalah monitoring
+IoT atau Internet of Things adalah sebuah sistem dimana di dalamnya terdapat satu atau lebih mikro komputer yang saling berkaitan, dan terhubung dengan beberapa objek (manusia, binatang, tumbuhan). Sistem tersebut juga menyediakan sebuah object unique indentifiers serta mempunyai kemampuan untuk mengirimkan atau menerima data melalui internet tanpa adanya campur tangan human-to-human atau interaksi human-to-computer.</description>
     </item>
     
   </channel>

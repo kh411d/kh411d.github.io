@@ -6,6 +6,8 @@
     <description>Recent content in cheatsheet on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
+    <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
     <lastBuildDate>Tue, 08 Sep 2020 19:08:09 +0700</lastBuildDate>
     
 	<atom:link href="https://khal.web.id/tags/cheatsheet/index.xml" rel="self" type="application/rss+xml" />
@@ -15,9 +17,10 @@
       <title>The Markdown Rises</title>
       <link>https://khal.web.id/2020/09/08/The-Markdown-Rises/</link>
       <pubDate>Tue, 08 Sep 2020 19:08:09 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2020/09/08/The-Markdown-Rises/</guid>
-      <description>It’s been a while, maybe a year since my last post, so I thought I have to at least write a post and hopefully going to be an easy read, so here I’m going to talk about the why, the what, and the how of the Markdown.</description>
+      <description>It’s been a while, maybe a year since my last post, so I thought I have to at least write a post and hopefully going to be an easy read, so here I’m going to talk about the why, the what, and the how of the Markdown.
+What&amp;rsquo;s with the rises? Markdown is trending when Static Site Generators (SSG) are getting popular and becoming the next big thing of the Internet.</description>
     </item>
     
   </channel>

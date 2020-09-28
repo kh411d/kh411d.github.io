@@ -8,7 +8,7 @@
     <meta name="twitter:title" content="Codeigniter HMVC and Your own Layout Library"/>
     <meta name="twitter:description" content="I&rsquo;m trying to make a partial output from hmvc module,
 $this-&gt;obj =&amp; get_instance();  and then I&rsquo;m trying to load a view from some module,
-$this-&gt;obj-&gt;load-&gt;view($view,$data);  This will resulting errors, it turns out $this-&gt;obj is only loading the global view of CI i."/>
+$this-&gt;obj-&gt;load-&gt;view($view,$data);  This will resulting errors, it turns out $this-&gt;obj is only loading the global view of CI i.e. ./application/views/ HMVC is not overriding the default view of CI, you might have to pass your controller object $this from your controller to your layout library,"/>
     <meta name="twitter:site" content="@khalidity"/>
     
     
@@ -32,7 +32,7 @@ $this-&gt;obj-&gt;load-&gt;view($view,$data);  This will resulting errors, it tu
     
     <meta property="og:description" content="I&rsquo;m trying to make a partial output from hmvc module,
 $this-&gt;obj =&amp; get_instance();  and then I&rsquo;m trying to load a view from some module,
-$this-&gt;obj-&gt;load-&gt;view($view,$data);  This will resulting errors, it turns out $this-&gt;obj is only loading the global view of CI i." />
+$this-&gt;obj-&gt;load-&gt;view($view,$data);  This will resulting errors, it turns out $this-&gt;obj is only loading the global view of CI i.e. ./application/views/ HMVC is not overriding the default view of CI, you might have to pass your controller object $this from your controller to your layout library," />
   	<meta property="og:type" content="article" />
     <meta property="article:published_time" content="2010-01-07T13:12:51&#43;07:00" />
 
@@ -49,8 +49,8 @@ $this-&gt;obj-&gt;load-&gt;view($view,$data);  This will resulting errors, it tu
     
     <meta name="description" content="I&rsquo;m trying to make a partial output from hmvc module,
 $this-&gt;obj =&amp; get_instance();  and then I&rsquo;m trying to load a view from some module,
-$this-&gt;obj-&gt;load-&gt;view($view,$data);  This will resulting errors, it turns out $this-&gt;obj is only loading the global view of CI i.">
-    <meta name="author" content="">
+$this-&gt;obj-&gt;load-&gt;view($view,$data);  This will resulting errors, it turns out $this-&gt;obj is only loading the global view of CI i.e. ./application/views/ HMVC is not overriding the default view of CI, you might have to pass your controller object $this from your controller to your layout library,">
+    <meta name="author" content="Khalid Adisendjaja">
     
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://khal.web.id/an-old-hope.min.css" rel="stylesheet">
@@ -149,7 +149,7 @@ if (!doNotTrack) {
 <article class="post-single">
   <header class="post-header">
     <h1 class="post-title">Codeigniter HMVC and Your own Layout Library</h1>
-    <div class="post-meta">January 7, 2010</div>
+    <div class="post-meta">Khalid Adisendjaja · January 7, 2010</div>
   </header><div class="sticky-container">
     <div class="share sticky-top sticky-top-offset">
         <ul>       
@@ -157,7 +157,7 @@ if (!doNotTrack) {
                 <clap-it style="width:2.2em;height:2.2em;fill:grey;stroke:grey;color:grey;margin:14px auto;" api="https://clapi.vercel.app/api/handler"/>
             </li>
             <li class="ml-1 mr-1">
-            <a target="_blank" href="https://twitter.com/intent/tweet?text=Codeigniter%20HMVC%20and%20Your%20own%20Layout%20Library&url=https%3a%2f%2fkhal.web.id%2f2010%2f01%2f07%2fcodeigniter-hmvc-and-your-own-layout-library%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=435');return false;">
+            <a target="_blank" href="https://twitter.com/intent/tweet?text=Codeigniter%20HMVC%20and%20Your%20own%20Layout%20Library %23codeigniter  %23php &url=https%3a%2f%2fkhal.web.id%2f2010%2f01%2f07%2fcodeigniter-hmvc-and-your-own-layout-library%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=435');return false;">
             <i class="icon-twitter" style="font-size:1.8em"></i>
             </a>
             </li>
@@ -166,6 +166,9 @@ if (!doNotTrack) {
             <a target="_blank" href="https://facebook.com/sharer.php?u=https%3a%2f%2fkhal.web.id%2f2010%2f01%2f07%2fcodeigniter-hmvc-and-your-own-layout-library%2f" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
             <i class="icon-facebook" style="font-size:1.8em"></i>
             </a>
+            </li>
+            <li class="ml-1 mr-1">
+                <a data-flip-widget="shareflip" href="https://flipboard.com"><img src="https://cdn.flipboard.com/badges/flipboard_sbsw.png" style="opacity: 45%;margin-top: 12px;margin-left: 5px;" /></a><script src="https://cdn.flipboard.com/web/buttons/js/flbuttons.min.js" type="text/javascript"></script>
             </li>     
         </ul>
 
@@ -205,7 +208,7 @@ if (!doNotTrack) {
   <h6 style="color:var(--secondary);">Share this post</h6>
   <ul>
     <li>
-      <clap-it style="width:45px;height:45px;fill:grey;stroke:grey;color:grey;margin:2px 0px;" api="https://clapi.vercel.app/api/handler"/>
+      <clap-it style="width:45px;height:45px;fill:var(--secondary);stroke:var(--secondary);color:var(--secondary);margin:5px 0px;" api="https://clapi.vercel.app/api/handler"/>
     </li>
       <li>
         <a  style="font-size: 2.5em" href="https://twitter.com/share?text=Codeigniter%20HMVC%20and%20Your%20own%20Layout%20Library&nbsp;-&nbsp;Khalid%27s%20Blog&amp;url=https%3a%2f%2fkhal.web.id%2f2010%2f01%2f07%2fcodeigniter-hmvc-and-your-own-layout-library%2f"
@@ -218,6 +221,9 @@ if (!doNotTrack) {
         onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
             <span class="icon-facebook" style="color:var(--secondary);"></span>
         </a>
+      </li>
+      <li>
+        <a data-flip-widget="shareflip" href="https://flipboard.com"><img src="https://cdn.flipboard.com/badges/flipboard_lbsw.png" style="opacity: 60%;margin-bottom: 3px;margin-left: 5px;width: 73%;" /></a><script src="https://cdn.flipboard.com/web/buttons/js/flbuttons.min.js" type="text/javascript"></script>
       </li>
   </ul>
 </section>

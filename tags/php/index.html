@@ -37,7 +37,7 @@
     <title>php - Khalid&#39;s Blog</title>
     
     <meta name="description" content="a coder who happen to be a spontaneous writer in a big pond who likes to write not in codes, talk in human and sense as a human">
-    <meta name="author" content="">
+    <meta name="author" content="Khalid Adisendjaja">
     
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://khal.web.id/an-old-hope.min.css" rel="stylesheet">
@@ -142,7 +142,9 @@ if (!doNotTrack) {
   </header>
   <section class="entry-content">
    <p>The story begin when I was migrating my Codeigniter app from php4 to php5 hosting environment and then I change the uri_protocol config,
-$config[&#39;uri_protocol&#39;] = &#34;PATH_INFO&#34;;  And then the app crashed!...</p>
+$config[&#39;uri_protocol&#39;] = &#34;PATH_INFO&#34;;  And then the app crashed!?? I had to debug the code for quite sometimes 😫
+Debugging the $_SERVER variable, and turns out the PATH_INFO variable wasn’t exist, but the ORIG_PATH_INFO variable is exist, hmm is it the PHP version problem?
+So then I found this article path_info, orig_path_info, apache and php, well I guess that explained very well, on his condition mentioned in the article, the problem happened when he use ....</p>
   </section>
   <footer class="entry-footer">
     <time>August 10, 2010</time>
@@ -156,7 +158,12 @@ $config[&#39;uri_protocol&#39;] = &#34;PATH_INFO&#34;;  And then the app crashed
   <section class="entry-content">
    <p>When you starting to get a grip on PHP, there are things that you should know, here I would descibe some of them, that might be useful,
 1. OS
-Afaik PHP can be installed on Windows, Linux, Macintosh, and Solaris....</p>
+Afaik PHP can be installed on Windows, Linux, Macintosh, and Solaris.
+2. Database
+MySQL and PostgreSQL are the most popular database to be use with PHP.
+3. WebServer
+The most well-known web server for PHP is Apache and Nginx.
+4. Application Framework...</p>
   </section>
   <footer class="entry-footer">
     <time>July 12, 2010</time>
@@ -170,7 +177,7 @@ Afaik PHP can be installed on Windows, Linux, Macintosh, and Solaris....</p>
   <section class="entry-content">
    <p>I’m trying to make a partial output from hmvc module,
 $this-&gt;obj =&amp; get_instance();  and then I’m trying to load a view from some module,
-$this-&gt;obj-&gt;load-&gt;view($view,$data);  This will resulting errors, it turns out $this-&gt;obj is only loading the global view of CI i....</p>
+$this-&gt;obj-&gt;load-&gt;view($view,$data);  This will resulting errors, it turns out $this-&gt;obj is only loading the global view of CI i.e. ./application/views/ HMVC is not overriding the default view of CI, you might have to pass your controller object $this from your controller to your layout library,...</p>
   </section>
   <footer class="entry-footer">
     <time>January 7, 2010</time>

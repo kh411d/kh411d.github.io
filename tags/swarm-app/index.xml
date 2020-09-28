@@ -6,6 +6,8 @@
     <description>Recent content in swarm-app on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
+    <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
     <lastBuildDate>Tue, 10 Jun 2014 13:29:10 +0700</lastBuildDate>
     
 	<atom:link href="https://khal.web.id/tags/swarm-app/index.xml" rel="self" type="application/rss+xml" />
@@ -15,9 +17,10 @@
       <title>Sekilas tentang Swarm dan The New Foursquare app</title>
       <link>https://khal.web.id/2014/06/10/sekilas-tentang-swarm-dan-the-new-foursquare-app/</link>
       <pubDate>Tue, 10 Jun 2014 13:29:10 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2014/06/10/sekilas-tentang-swarm-dan-the-new-foursquare-app/</guid>
-      <description>Belakangan ini Foursquare sedang sibuk2x nya membuat sebuah modifikasi baru pada sisi aplikasi dan user experience dengan tujuan untuk lebih menekankan, bahwa inti dari semua yang Foursquare lakukan selama ini adalah bukan untuk membuat sebuah famous check-in button yang mungkin tiap orang bisa bilang &amp;ldquo;Kalo mau check-in ya di Foursquare aja&amp;rdquo;</description>
+      <description>Belakangan ini Foursquare sedang sibuk2x nya membuat sebuah modifikasi baru pada sisi aplikasi dan user experience dengan tujuan untuk lebih menekankan, bahwa inti dari semua yang Foursquare lakukan selama ini adalah bukan untuk membuat sebuah famous check-in button yang mungkin tiap orang bisa bilang &amp;ldquo;Kalo mau check-in ya di Foursquare aja&amp;rdquo;
+Dulunya Foursquare berhasil membuat trend baru dengan memperkenalkan fitur location check-in, tapi seiring dengan perkembangan tahun trend tersebut akan hilang dengan sendirinya, sejalan juga dengan perkembangan teknologi dan data venue yang foursquare miliki Crowley berpikiran bagaimana jika Foursquare tidak membutuhkan tiap penggunanya untuk melakukan aktivitas check-in lagi, versi foursquare yang seperti apakah yang tidak mengharuskan orang untuk selalu melakukan aktivitas check-in?</description>
     </item>
     
   </channel>

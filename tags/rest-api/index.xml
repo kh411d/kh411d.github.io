@@ -6,6 +6,8 @@
     <description>Recent content in rest-api on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
+    <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
     <lastBuildDate>Sat, 26 Sep 2020 06:34:11 +0700</lastBuildDate>
     
 	<atom:link href="https://khal.web.id/tags/rest-api/index.xml" rel="self" type="application/rss+xml" />
@@ -15,9 +17,10 @@
       <title>Practical Rest Api in Go on Cheap Serverless</title>
       <link>https://khal.web.id/2020/09/26/practical-rest-api-in-go-on-cheap-serverless/</link>
       <pubDate>Sat, 26 Sep 2020 06:34:11 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2020/09/26/practical-rest-api-in-go-on-cheap-serverless/</guid>
-      <description>By doing serverless and FAAS, you will have more focus on shipping code instead of worrying about the servers or runtimes. It simplifies your infrastructure stack, cheaper pricing model, auto-scale, and ease of use.</description>
+      <description>By doing serverless and FAAS, you will have more focus on shipping code instead of worrying about the servers or runtimes. It simplifies your infrastructure stack, cheaper pricing model, auto-scale, and ease of use.
+But it sometimes often makes extensive use of third-party services (such as databases, auth services, message queues, caching, searching, etc) So, bear in mind that your code is only a function which works when it&amp;rsquo;s paired with other functions.</description>
     </item>
     
   </channel>

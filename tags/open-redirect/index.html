@@ -37,7 +37,7 @@
     <title>open-redirect - Khalid&#39;s Blog</title>
     
     <meta name="description" content="a coder who happen to be a spontaneous writer in a big pond who likes to write not in codes, talk in human and sense as a human">
-    <meta name="author" content="">
+    <meta name="author" content="Khalid Adisendjaja">
     
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://khal.web.id/an-old-hope.min.css" rel="stylesheet">
@@ -141,7 +141,9 @@ if (!doNotTrack) {
     <h2>Amankah login dengan akun sosial media pada aplikasi lain?</h2>
   </header>
   <section class="entry-content">
-   <p>Tentunya banyak dari kamu yang menggunakan aplikasi dengan opsi untuk login menggunakan beberapa akun sosial media yang kamu miliki seperti facebook, twitter, google, linkedin dll. Misal ketika kamu login menggunakan facebook, dalam prosesnya, biasanya pengguna akan dialihkan ke halaman login facebook agar kamu bisa memberikan izin otorisasi, akhirnya facebook akan memberikan access token yang kemudian mengalihkan kamu kembali kepada aplikasi tersebut....</p>
+   <p>Tentunya banyak dari kamu yang menggunakan aplikasi dengan opsi untuk login menggunakan beberapa akun sosial media yang kamu miliki seperti facebook, twitter, google, linkedin dll. Misal ketika kamu login menggunakan facebook, dalam prosesnya, biasanya pengguna akan dialihkan ke halaman login facebook agar kamu bisa memberikan izin otorisasi, akhirnya facebook akan memberikan access token yang kemudian mengalihkan kamu kembali kepada aplikasi tersebut.
+https://www.facebook.com/dialog/oauth?client_id=app-id&amp;redirect_uri=http://app-site.com
+Proses pengalihan/redirecting inilah yang menjadi celah yang memungkinkan para attacker mendapatkan data login pengguna, jika kamu lihat url diatas, attacker mungkin saja merekonstruksi link menjadi,...</p>
   </section>
   <footer class="entry-footer">
     <time>May 28, 2014</time>

@@ -9,7 +9,10 @@
     <meta name="twitter:description" content="Sebelum NodeJS-nya di-upgrade, cek dulu versi yang ter-install,
 $node -v v0.10.12  Bersih2x NPM Cache,
 sudo npm cache clean -f  Install &ldquo;n&rdquo; Node binary manager ,
-sudo npm install -g n  Upgrade Node ke versi terakhir,"/>
+sudo npm install -g n  Upgrade Node ke versi terakhir,
+sudo n 0.10.26  Atau bisa langsung upgrade ke versi stable terakhir,
+sudo n stable  Cek versi node yg telah terupgrade,
+$node -v v0.10.26 "/>
     <meta name="twitter:site" content="@khalidity"/>
     
     
@@ -31,7 +34,10 @@ sudo npm install -g n  Upgrade Node ke versi terakhir,"/>
     <meta property="og:description" content="Sebelum NodeJS-nya di-upgrade, cek dulu versi yang ter-install,
 $node -v v0.10.12  Bersih2x NPM Cache,
 sudo npm cache clean -f  Install &ldquo;n&rdquo; Node binary manager ,
-sudo npm install -g n  Upgrade Node ke versi terakhir," />
+sudo npm install -g n  Upgrade Node ke versi terakhir,
+sudo n 0.10.26  Atau bisa langsung upgrade ke versi stable terakhir,
+sudo n stable  Cek versi node yg telah terupgrade,
+$node -v v0.10.26 " />
   	<meta property="og:type" content="article" />
     <meta property="article:published_time" content="2014-02-19T07:55:27&#43;07:00" />
 
@@ -49,8 +55,11 @@ sudo npm install -g n  Upgrade Node ke versi terakhir," />
     <meta name="description" content="Sebelum NodeJS-nya di-upgrade, cek dulu versi yang ter-install,
 $node -v v0.10.12  Bersih2x NPM Cache,
 sudo npm cache clean -f  Install &ldquo;n&rdquo; Node binary manager ,
-sudo npm install -g n  Upgrade Node ke versi terakhir,">
-    <meta name="author" content="">
+sudo npm install -g n  Upgrade Node ke versi terakhir,
+sudo n 0.10.26  Atau bisa langsung upgrade ke versi stable terakhir,
+sudo n stable  Cek versi node yg telah terupgrade,
+$node -v v0.10.26 ">
+    <meta name="author" content="Khalid Adisendjaja">
     
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://khal.web.id/an-old-hope.min.css" rel="stylesheet">
@@ -149,7 +158,7 @@ if (!doNotTrack) {
 <article class="post-single">
   <header class="post-header">
     <h1 class="post-title">[NOTE] Upgrade NodeJS lokal via NPM dan &#34;n&#34; module</h1>
-    <div class="post-meta">February 19, 2014</div>
+    <div class="post-meta">Khalid Adisendjaja · February 19, 2014</div>
   </header><div class="sticky-container">
     <div class="share sticky-top sticky-top-offset">
         <ul>       
@@ -157,7 +166,7 @@ if (!doNotTrack) {
                 <clap-it style="width:2.2em;height:2.2em;fill:grey;stroke:grey;color:grey;margin:14px auto;" api="https://clapi.vercel.app/api/handler"/>
             </li>
             <li class="ml-1 mr-1">
-            <a target="_blank" href="https://twitter.com/intent/tweet?text=%5bNOTE%5d%20Upgrade%20NodeJS%20lokal%20via%20NPM%20dan%20%22n%22%20module&url=https%3a%2f%2fkhal.web.id%2f2014%2f02%2f19%2fnote-upgrade-nodejs-lokal-via-npm-dan-n-module%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=435');return false;">
+            <a target="_blank" href="https://twitter.com/intent/tweet?text=%5bNOTE%5d%20Upgrade%20NodeJS%20lokal%20via%20NPM%20dan%20%22n%22%20module %23nodejs  %23tutorial &url=https%3a%2f%2fkhal.web.id%2f2014%2f02%2f19%2fnote-upgrade-nodejs-lokal-via-npm-dan-n-module%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=435');return false;">
             <i class="icon-twitter" style="font-size:1.8em"></i>
             </a>
             </li>
@@ -166,6 +175,9 @@ if (!doNotTrack) {
             <a target="_blank" href="https://facebook.com/sharer.php?u=https%3a%2f%2fkhal.web.id%2f2014%2f02%2f19%2fnote-upgrade-nodejs-lokal-via-npm-dan-n-module%2f" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
             <i class="icon-facebook" style="font-size:1.8em"></i>
             </a>
+            </li>
+            <li class="ml-1 mr-1">
+                <a data-flip-widget="shareflip" href="https://flipboard.com"><img src="https://cdn.flipboard.com/badges/flipboard_sbsw.png" style="opacity: 45%;margin-top: 12px;margin-left: 5px;" /></a><script src="https://cdn.flipboard.com/web/buttons/js/flbuttons.min.js" type="text/javascript"></script>
             </li>     
         </ul>
 
@@ -197,7 +209,7 @@ v0.10.26</code></pre>
   <h6 style="color:var(--secondary);">Share this post</h6>
   <ul>
     <li>
-      <clap-it style="width:45px;height:45px;fill:grey;stroke:grey;color:grey;margin:2px 0px;" api="https://clapi.vercel.app/api/handler"/>
+      <clap-it style="width:45px;height:45px;fill:var(--secondary);stroke:var(--secondary);color:var(--secondary);margin:5px 0px;" api="https://clapi.vercel.app/api/handler"/>
     </li>
       <li>
         <a  style="font-size: 2.5em" href="https://twitter.com/share?text=%5bNOTE%5d%20Upgrade%20NodeJS%20lokal%20via%20NPM%20dan%20%22n%22%20module&nbsp;-&nbsp;Khalid%27s%20Blog&amp;url=https%3a%2f%2fkhal.web.id%2f2014%2f02%2f19%2fnote-upgrade-nodejs-lokal-via-npm-dan-n-module%2f"
@@ -210,6 +222,9 @@ v0.10.26</code></pre>
         onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
             <span class="icon-facebook" style="color:var(--secondary);"></span>
         </a>
+      </li>
+      <li>
+        <a data-flip-widget="shareflip" href="https://flipboard.com"><img src="https://cdn.flipboard.com/badges/flipboard_lbsw.png" style="opacity: 60%;margin-bottom: 3px;margin-left: 5px;width: 73%;" /></a><script src="https://cdn.flipboard.com/web/buttons/js/flbuttons.min.js" type="text/javascript"></script>
       </li>
   </ul>
 </section>

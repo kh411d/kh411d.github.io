@@ -37,7 +37,7 @@
     <title>Khalid&#39;s Blog</title>
     
     <meta name="description" content="a coder who happen to be a spontaneous writer in a big pond who likes to write not in codes, talk in human and sense as a human">
-    <meta name="author" content="">
+    <meta name="author" content="Khalid Adisendjaja">
     
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://khal.web.id/an-old-hope.min.css" rel="stylesheet">
@@ -141,7 +141,12 @@ if (!doNotTrack) {
   <section class="entry-content">
    <p>When you starting to get a grip on PHP, there are things that you should know, here I would descibe some of them, that might be useful,
 1. OS
-Afaik PHP can be installed on Windows, Linux, Macintosh, and Solaris....</p>
+Afaik PHP can be installed on Windows, Linux, Macintosh, and Solaris.
+2. Database
+MySQL and PostgreSQL are the most popular database to be use with PHP.
+3. WebServer
+The most well-known web server for PHP is Apache and Nginx.
+4. Application Framework...</p>
   </section>
   <footer class="entry-footer">
     <time>July 12, 2010</time>
@@ -155,7 +160,7 @@ Afaik PHP can be installed on Windows, Linux, Macintosh, and Solaris....</p>
   <section class="entry-content">
    <p>I’m trying to make a partial output from hmvc module,
 $this-&gt;obj =&amp; get_instance();  and then I’m trying to load a view from some module,
-$this-&gt;obj-&gt;load-&gt;view($view,$data);  This will resulting errors, it turns out $this-&gt;obj is only loading the global view of CI i....</p>
+$this-&gt;obj-&gt;load-&gt;view($view,$data);  This will resulting errors, it turns out $this-&gt;obj is only loading the global view of CI i.e. ./application/views/ HMVC is not overriding the default view of CI, you might have to pass your controller object $this from your controller to your layout library,...</p>
   </section>
   <footer class="entry-footer">
     <time>January 7, 2010</time>
@@ -167,7 +172,7 @@ $this-&gt;obj-&gt;load-&gt;view($view,$data);  This will resulting errors, it tu
     <h2>Apaan tuh &#34;Google Wave Robots&#34; ??? Apaan aja sih ???</h2>
   </header>
   <section class="entry-content">
-   <p>Pertama gw mau kasih tau dulu apaan sih google wave robot (GWR) itu, sebenernya simple aja… ya namanya juga robot jadi GWR itu adalah user otomatis (robot) yang bisa menjadi participant dari sebuah wave, user robot juga dapat membaca isi sebuah wave di mana robot itu berpartisipasi, google wave memodifikasi isi, menambah atau menghapus peserta, dan menciptakan wave baru....</p>
+   <p>Pertama gw mau kasih tau dulu apaan sih google wave robot (GWR) itu, sebenernya simple aja… ya namanya juga robot jadi GWR itu adalah user otomatis (robot) yang bisa menjadi participant dari sebuah wave, user robot juga dapat membaca isi sebuah wave di mana robot itu berpartisipasi, google wave memodifikasi isi, menambah atau menghapus peserta, dan menciptakan wave baru. Singkatnya, user robot dapat melakukan banyak tindakan yang waver/peserta lainnya dapat melakukan....</p>
   </section>
   <footer class="entry-footer">
     <time>November 25, 2009</time>
@@ -179,7 +184,9 @@ $this-&gt;obj-&gt;load-&gt;view($view,$data);  This will resulting errors, it tu
     <h2>Koding bareng dengan Bespin</h2>
   </header>
   <section class="entry-content">
-   <p>Bespin from Mozilla Labs adalah sebuah code editor dengan berbasis web, tentunya bertujuan untuk meningkatkan produktivitas dari developer, karena editor ini berbasis web maka bespin bisa di gunakan oleh developer dimanapun berada, sayangnya tidak semua browser bisa menunjang aplikasi ini....</p>
+   <p>Bespin from Mozilla Labs adalah sebuah code editor dengan berbasis web, tentunya bertujuan untuk meningkatkan produktivitas dari developer, karena editor ini berbasis web maka bespin bisa di gunakan oleh developer dimanapun berada, sayangnya tidak semua browser bisa menunjang aplikasi ini.
+ “Code In The Cloud” - Bespin
+ Feature-feature yang ada pada Bespin cukup banyak, satu hal yang menarik perhatian gw adalah feature collaborative coding. Hal pertama yang harus lo lakukan adalah melakukan registrasi dan login ke bespin....</p>
   </section>
   <footer class="entry-footer">
     <time>November 19, 2009</time>
@@ -191,7 +198,9 @@ $this-&gt;obj-&gt;load-&gt;view($view,$data);  This will resulting errors, it tu
     <h2>Gimana caranya bikin tampilan Firefox lo jadi kaya Chrome</h2>
   </header>
   <section class="entry-content">
-   <p>Salah satu hal yang gw suka dari Chrome adalah themes nya yang simple clean dan enteng di liat deh pokoknya …, masalahnya gw jarang pake tuh yang namanya Chrome kalo untuk development (Can’t live whitout firefox), ya udah deh gw mulai cari sana sini gimana caranya bisa bikin tampilan firefox jadi kaya chrome, mudah2x nih artikel berguna dah …...</p>
+   <p>Salah satu hal yang gw suka dari Chrome adalah themes nya yang simple clean dan enteng di liat deh pokoknya …, masalahnya gw jarang pake tuh yang namanya Chrome kalo untuk development (Can’t live whitout firefox), ya udah deh gw mulai cari sana sini gimana caranya bisa bikin tampilan firefox jadi kaya chrome, mudah2x nih artikel berguna dah …
+Ada beberapa firefox extension yang kudu di install …
+ Chrome Themes : https://addons....</p>
   </section>
   <footer class="entry-footer">
     <time>November 11, 2009</time>
@@ -204,7 +213,9 @@ $this-&gt;obj-&gt;load-&gt;view($view,$data);  This will resulting errors, it tu
   </header>
   <section class="entry-content">
    <p>Thanks to Angus Turnbull who made this fix and made PNG image looks good on IE, these are two files that you need to implement,
- iepngfix.htc iepngfix_tilebg.js  Usage Include iepngfix....</p>
+ iepngfix.htc iepngfix_tilebg.js  Usage Include iepngfix.htc on your css style file
+&lt;pre name=&#34;code&#34; class=&#34;css&#34; &gt; *html img, *html #anydivid { behavior: url(style/iepngfix.htc); border:0; padding:0; } &lt;/pre&gt;  include this iepngfix_tilebg.js on you html header, it’s support transparent image on background position and repeat.
+More complete detail … you can check his website http://www....</p>
   </section>
   <footer class="entry-footer">
     <time>May 4, 2009</time>

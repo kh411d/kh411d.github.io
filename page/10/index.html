@@ -37,7 +37,7 @@
     <title>Khalid&#39;s Blog</title>
     
     <meta name="description" content="a coder who happen to be a spontaneous writer in a big pond who likes to write not in codes, talk in human and sense as a human">
-    <meta name="author" content="">
+    <meta name="author" content="Khalid Adisendjaja">
     
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://khal.web.id/an-old-hope.min.css" rel="stylesheet">
@@ -139,7 +139,10 @@ if (!doNotTrack) {
     <h2>Facebook add access permission to Application Security</h2>
   </header>
   <section class="entry-content">
-   <p>Sometime when you made some apps, there were another user who wants to check about the insight of the app, or maybe just want to test the apps, back then you might have to give all access to a user through www....</p>
+   <p>Sometime when you made some apps, there were another user who wants to check about the insight of the app, or maybe just want to test the apps, back then you might have to give all access to a user through www.facebook.com/developer.
+These day facebook make a flexibility to define access permission per user,
+I’m trying to explain in a simple way,
+   Access Technical Dashboard Manage users Insights Dashboard Adv Reset App Secret Delete App Sandbox Mode     Administrator o o o o o o o   Developer o x o x x o o   Tester x x x x x o x   Insights x x o x x x o    So if you see the table above, adding users to your apps, only works if you have a permission as an administrator, an insight user cannot view the apps when on sandbox mode, but the tester can and without any verification to test it....</p>
   </section>
   <footer class="entry-footer">
     <time>March 7, 2011</time>
@@ -151,7 +154,9 @@ if (!doNotTrack) {
     <h2>Set a facebook session app from access token</h2>
   </header>
   <section class="entry-content">
-   <p>In some situation you will want to create a facebook session for your app, for example you get the code query string after user granted your app, now you can construct the url like below,...</p>
+   <p>In some situation you will want to create a facebook session for your app, for example you get the code query string after user granted your app, now you can construct the url like below,
+https://graph.facebook.com/oauth/access_token?client_id=YOUR_APP_ID&amp;redirect_uri=YOUR_URL&amp;client_secret=YOUR_APP_SECRET&amp;code=THE_CODE_FROM_ABOVE  And then you need to construct session variables base from the access token, these are functions that might help you,
+//Build your session variables function generateSessionVars($accessToken) { $e = explode(&#39;|&#39;,$accessToken); $s = explode(&#39;-&#39;,$e[1]); $params = array( &#39;uid&#39;=&gt;trim($s[1]), &#39;access_token&#39; =&gt; trim($accessToken) ); $params[&#39;sig&#39;] = generateSignature($params,APP_SECRET); return $params; } //Generate session signature base on you App Secret function generateSignature($params,$secret) { // work with sorted data ksort($params); // generate the base string $base_string = &#39;&#39;; foreach($params as $key =&gt; $value) { $base_string ....</p>
   </section>
   <footer class="entry-footer">
     <time>March 3, 2011</time>
@@ -164,7 +169,8 @@ if (!doNotTrack) {
   </header>
   <section class="entry-content">
    <p>Developing an Iframe app an somehow you want to use this FBML tag below.
-&lt;fb:visible-to-connection&gt; Only connections should view this.. &lt;/fb:visible-to-connection&gt;  On each call from page tab you can get a signed_request variable, the value is like this below,...</p>
+&lt;fb:visible-to-connection&gt; Only connections should view this.. &lt;/fb:visible-to-connection&gt;  On each call from page tab you can get a signed_request variable, the value is like this below,
+Array ( [algorithm] =&gt; HMAC-SHA256 [expires] =&gt; 0 [issued_at] =&gt; 1299140579 [oauth_token] =&gt; xxxxxxxxx|xxxxxxxxxxxxxxxx-xxxxxxxx|xxxxxx-xxxxxxxxxxxxxx [page] =&gt; Array ( [id] =&gt; xxxxxxxxxxxxxxxx [liked] =&gt; 1 [admin] =&gt; 1 ) [user] =&gt; Array ( [country] =&gt; id [locale] =&gt; en_US [age] =&gt; Array ( [min] =&gt; 21 ) ) [user_id] =&gt; xxxxxxxxxxx )  And then you can use “page....</p>
   </section>
   <footer class="entry-footer">
     <time>March 3, 2011</time>
@@ -178,7 +184,8 @@ if (!doNotTrack) {
   <section class="entry-content">
    <p>There is two easy way to authenticate a user with Facebook JS SDK,
 Using FB.UI,
-FB.ui( { method: &#39;oauth&#39;, display:&#39;iframe&#39;, perms:APP_EXT_PERMISSIONS }, function(response) { if(response.session) { console.dir(response); if(redirectURL) location.href = redirectURL; } } );  Using FB....</p>
+FB.ui( { method: &#39;oauth&#39;, display:&#39;iframe&#39;, perms:APP_EXT_PERMISSIONS }, function(response) { if(response.session) { console.dir(response); if(redirectURL) location.href = redirectURL; } } );  Using FB.DIALOG,
+FB.login(function(response) { if (response.session) { if (response.perms) { //Logged and Permission Granted if(redirectURL) location.href = redirectURL; } else { //Logged and Permisssion NOT Granted if(redirectURL) location.href = redirectURL; } } else { alert(&#34;Only Authorized User can use this Application!...</p>
   </section>
   <footer class="entry-footer">
     <time>March 3, 2011</time>
@@ -191,7 +198,9 @@ FB.ui( { method: &#39;oauth&#39;, display:&#39;iframe&#39;, perms:APP_EXT_PERMIS
   </header>
   <section class="entry-content">
    <p>At this time you need to be ready to migrate your facebook apps to Iframe based apps, because as it written on Facebook Developer Roadmap
- “We will stop allowing new FBML applications, but will continue to support existing FBML tabs and applications....</p>
+ “We will stop allowing new FBML applications, but will continue to support existing FBML tabs and applications. Instead, we recommend using IFrames.” at the End of 2010.
+ And then OAUTH 2.0 will required for new applications,
+ “We will remove the ability for new applications to use our old authentication mechanism, but will continue to support existing applications using our old method....</p>
   </section>
   <footer class="entry-footer">
     <time>October 28, 2010</time>
@@ -204,7 +213,9 @@ FB.ui( { method: &#39;oauth&#39;, display:&#39;iframe&#39;, perms:APP_EXT_PERMIS
   </header>
   <section class="entry-content">
    <p>The story begin when I was migrating my Codeigniter app from php4 to php5 hosting environment and then I change the uri_protocol config,
-$config[&#39;uri_protocol&#39;] = &#34;PATH_INFO&#34;;  And then the app crashed!...</p>
+$config[&#39;uri_protocol&#39;] = &#34;PATH_INFO&#34;;  And then the app crashed!?? I had to debug the code for quite sometimes 😫
+Debugging the $_SERVER variable, and turns out the PATH_INFO variable wasn’t exist, but the ORIG_PATH_INFO variable is exist, hmm is it the PHP version problem?
+So then I found this article path_info, orig_path_info, apache and php, well I guess that explained very well, on his condition mentioned in the article, the problem happened when he use ....</p>
   </section>
   <footer class="entry-footer">
     <time>August 10, 2010</time>
@@ -217,7 +228,8 @@ $config[&#39;uri_protocol&#39;] = &#34;PATH_INFO&#34;;  And then the app crashed
   </header>
   <section class="entry-content">
    <p>Iframe will not be supported on facebook fan pages tab, the strange thing is, it only happened on first load and the you’ll get this error iframe not supported
-I just figured out that apps on Fan Pages Tab need an action from user, so then to get an iframe working on tab,...</p>
+I just figured out that apps on Fan Pages Tab need an action from user, so then to get an iframe working on tab,
+ In your Tab Url file i.e. index.php, create a href tag, that will link to somefile.php...</p>
   </section>
   <footer class="entry-footer">
     <time>July 20, 2010</time>

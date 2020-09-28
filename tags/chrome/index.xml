@@ -6,6 +6,8 @@
     <description>Recent content in chrome on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
+    <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
     <lastBuildDate>Wed, 11 Nov 2009 07:55:29 +0700</lastBuildDate>
     
 	<atom:link href="https://khal.web.id/tags/chrome/index.xml" rel="self" type="application/rss+xml" />
@@ -15,9 +17,11 @@
       <title>Gimana caranya bikin tampilan Firefox lo jadi kaya Chrome</title>
       <link>https://khal.web.id/2009/11/11/gimana-caranya-bikin-tampilan-firefox-lo-jadi-kaya-chrome/</link>
       <pubDate>Wed, 11 Nov 2009 07:55:29 +0700</pubDate>
-      
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2009/11/11/gimana-caranya-bikin-tampilan-firefox-lo-jadi-kaya-chrome/</guid>
-      <description>Salah satu hal yang gw suka dari Chrome adalah themes nya yang simple clean dan enteng di liat deh pokoknya &amp;hellip;, masalahnya gw jarang pake tuh yang namanya Chrome kalo untuk development (Can&amp;rsquo;t live whitout firefox), ya udah deh gw mulai cari sana sini gimana caranya bisa bikin tampilan firefox jadi kaya chrome, mudah2x nih artikel berguna dah &amp;hellip;</description>
+      <description>Salah satu hal yang gw suka dari Chrome adalah themes nya yang simple clean dan enteng di liat deh pokoknya &amp;hellip;, masalahnya gw jarang pake tuh yang namanya Chrome kalo untuk development (Can&amp;rsquo;t live whitout firefox), ya udah deh gw mulai cari sana sini gimana caranya bisa bikin tampilan firefox jadi kaya chrome, mudah2x nih artikel berguna dah &amp;hellip;
+Ada beberapa firefox extension yang kudu di install &amp;hellip;
+ Chrome Themes : https://addons.</description>
     </item>
     
   </channel>
