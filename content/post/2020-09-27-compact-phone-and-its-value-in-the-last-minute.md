@@ -1,11 +1,11 @@
 ---
 comments: true	# set false to hide Disqus
-date: 2020-09-27T15:30:36+07:00
+date: 2020-09-27T03:56:00+07:00
 draft: true
 image:
 menu: 		# set "main" to add this content to the main menu
 share: true	# set false to hide share buttons
-tags: ["cloudgaming","gaming"]
-title: Cloud gaming soar, how is it matters?
-url: /2020/09/27/cloud-gaming-soar-how-is-it-matters
+tags: ["phone"]
+title: Compact Phone and Its Value in The Last Minute
+url: /2020/09/27/compact-phone-and-its-value-in-the-last-minute
 ---
