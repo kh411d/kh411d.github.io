@@ -2,6 +2,9 @@ baseURL: https://khal.web.id/
 disablePathToLower: true
 languageCode: en-us
 title: Khalid's Blog
+Author:
+  name: Khalid Adisendjaja
+  email: contact@khal.web.id
 DefaultContentLanguage: "en"
 enableInlineShortcodes: true
 permalinks:
@@ -25,11 +28,11 @@ params:
   hideHUGOSupport: false
   #hjsStyle: "default"
   baseURL: "https://khal.web.id/"
-  summaryLength: 30
+  summaryLength: 70
 #disqusShortname: khal-web-id
 theme: paper
 enableEmoji: true
-summaryLength: 30
+#summaryLength: 70
 googleAnalytics: "UA-8671044-1"
 pygmentsUseClasses: true
 markup:
