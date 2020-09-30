@@ -1,7 +1,6 @@
 ---
 comments: true	# set false to hide Disqus
-date: 2020-09-29T03:56:00+07:00
-draft: true
+date: 2020-09-30T12:00:00+07:00
 image: /images/compactphonecover.jpg
 menu: 		# set "main" to add this content to the main menu
 share: true	# set false to hide share buttons
