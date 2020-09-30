@@ -81,6 +81,7 @@ if (!doNotTrack) {
 
     
     <script src="https://khal.web.id/bundle.js"></script>
+    <script src="https://khal.web.id/lazyload.min.js"></script>
   </head>
   <body class="list">
     <header class="header">
@@ -136,16 +137,10 @@ if (!doNotTrack) {
     <main class="main">     
 <header class="page-header"><h1>indiegame</h1></header>
 
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Mainan lama yang gw bikin, iseng2x jaman kuliah dulu haha</h2>
-  </header>
-  <section class="entry-content">
-   <p>Ha ha setelah oprak-oprek file, gue nemu ini minigame yang dulu gw bikin sembari waktu luang, ini game lumayan addict seru, ya biar cuman tebak kata tapi ini bisa dibilang #indiegame pertama gue 😉
-Cuman sayangnya ini cuman jalan di windows doang, itu juga 98 hahaaha, tapi gw dah coba kok di XP jalan juga tuh, maklum lah gw bikin dulu jaman kuliah, jamannya warnet dan windows 98 😆
-Percaya nggak percaya, game ini gue bikin menggunakan Borland Delphi, gokil kan 💥 soalnya dulu gw belum kenal sama yang namanya game engine, terakhir gue coba sih banyak typo di font karena gue udah susah nyari windows 98 😆...</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/indiegame.jpg)">
   <footer class="entry-footer">
+    <h3>Mainan lama yang gw bikin, iseng2x jaman kuliah dulu haha</h3>
     <time>May 26, 2011</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2011/05/26/mainan-lama-yang-gw-bikin-iseng2x-jaman-kuliah-dulu-haha/"></a>
@@ -157,6 +152,11 @@ Percaya nggak percaya, game ini gue bikin menggunakan Borland Delphi, gokil kan 
   <span>&middot;</span>
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
+<script>
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>
 </body>
 </html>
 

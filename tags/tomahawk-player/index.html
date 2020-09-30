@@ -81,6 +81,7 @@ if (!doNotTrack) {
 
     
     <script src="https://khal.web.id/bundle.js"></script>
+    <script src="https://khal.web.id/lazyload.min.js"></script>
   </head>
   <body class="list">
     <header class="header">
@@ -136,15 +137,10 @@ if (!doNotTrack) {
     <main class="main">     
 <header class="page-header"><h1>tomahawk-player</h1></header>
 
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>TOMAHAWK cara males dengerin musik buat penggila musik</h2>
-  </header>
-  <section class="entry-content">
-   <p>Mau dengerin musik ini itu, hmm.. itunes ada gak ya.. klo di spotify ada gak ya… duh coba di grooveshark deh … apa coba cari di deezer aja … di soundcloud ada gak ya… duh ga ada juga.. ujung-ujungnya donlot dari torrent atau ripping dari youtube deh.
-Ha ha pernah kaya gitu gak brosis, bingung nyari mp3 kemana-mana, hal seperti ini sudah bisa diatasi kalo kamu memakai aplikasi yang namanya Tomahawk....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/tomahawk.jpg)">
   <footer class="entry-footer">
+    <h3>TOMAHAWK cara males dengerin musik buat penggila musik</h3>
     <time>April 20, 2015</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2015/04/20/tomahawk-cara-males-dengerin-musik-buat-penggila-musik/"></a>
@@ -156,6 +152,11 @@ Ha ha pernah kaya gitu gak brosis, bingung nyari mp3 kemana-mana, hal seperti in
   <span>&middot;</span>
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
+<script>
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>
 </body>
 </html>
 

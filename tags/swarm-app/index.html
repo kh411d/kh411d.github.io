@@ -81,6 +81,7 @@ if (!doNotTrack) {
 
     
     <script src="https://khal.web.id/bundle.js"></script>
+    <script src="https://khal.web.id/lazyload.min.js"></script>
   </head>
   <body class="list">
     <header class="header">
@@ -136,15 +137,10 @@ if (!doNotTrack) {
     <main class="main">     
 <header class="page-header"><h1>swarm-app</h1></header>
 
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Sekilas tentang Swarm dan The New Foursquare app</h2>
-  </header>
-  <section class="entry-content">
-   <p>Belakangan ini Foursquare sedang sibuk2x nya membuat sebuah modifikasi baru pada sisi aplikasi dan user experience dengan tujuan untuk lebih menekankan, bahwa inti dari semua yang Foursquare lakukan selama ini adalah bukan untuk membuat sebuah famous check-in button yang mungkin tiap orang bisa bilang “Kalo mau check-in ya di Foursquare aja”
-Dulunya Foursquare berhasil membuat trend baru dengan memperkenalkan fitur location check-in, tapi seiring dengan perkembangan tahun trend tersebut akan hilang dengan sendirinya, sejalan juga dengan perkembangan teknologi dan data venue yang foursquare miliki Crowley berpikiran bagaimana jika Foursquare tidak membutuhkan tiap penggunanya untuk melakukan aktivitas check-in lagi, versi foursquare yang seperti apakah yang tidak mengharuskan orang untuk selalu melakukan aktivitas check-in?...</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/foursquareswarm.png)">
   <footer class="entry-footer">
+    <h3>Sekilas tentang Swarm dan The New Foursquare app</h3>
     <time>June 10, 2014</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2014/06/10/sekilas-tentang-swarm-dan-the-new-foursquare-app/"></a>
@@ -156,6 +152,11 @@ Dulunya Foursquare berhasil membuat trend baru dengan memperkenalkan fitur locat
   <span>&middot;</span>
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
+<script>
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>
 </body>
 </html>
 

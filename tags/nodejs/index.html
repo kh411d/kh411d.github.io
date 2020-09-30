@@ -81,6 +81,7 @@ if (!doNotTrack) {
 
     
     <script src="https://khal.web.id/bundle.js"></script>
+    <script src="https://khal.web.id/lazyload.min.js"></script>
   </head>
   <body class="list">
     <header class="header">
@@ -136,20 +137,10 @@ if (!doNotTrack) {
     <main class="main">     
 <header class="page-header"><h1>nodejs</h1></header>
 
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>[NOTE] Upgrade NodeJS lokal via NPM dan &#34;n&#34; module</h2>
-  </header>
-  <section class="entry-content">
-   <p>Sebelum NodeJS-nya di-upgrade, cek dulu versi yang ter-install,
-$node -v v0.10.12  Bersih2x NPM Cache,
-sudo npm cache clean -f  Install “n” Node binary manager ,
-sudo npm install -g n  Upgrade Node ke versi terakhir,
-sudo n 0.10.26  Atau bisa langsung upgrade ke versi stable terakhir,
-sudo n stable  Cek versi node yg telah terupgrade,
-$node -v v0.10.26 ...</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/nodejscover.jpg)">
   <footer class="entry-footer">
+    <h3>[NOTE] Upgrade NodeJS lokal via NPM dan &#34;n&#34; module</h3>
     <time>February 19, 2014</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2014/02/19/note-upgrade-nodejs-lokal-via-npm-dan-n-module/"></a>
@@ -161,6 +152,11 @@ $node -v v0.10.26 ...</p>
   <span>&middot;</span>
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
+<script>
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>
 </body>
 </html>
 

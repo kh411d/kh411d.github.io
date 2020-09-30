@@ -81,6 +81,7 @@ if (!doNotTrack) {
 
     
     <script src="https://khal.web.id/bundle.js"></script>
+    <script src="https://khal.web.id/lazyload.min.js"></script>
   </head>
   <body class="list">
     <header class="header">
@@ -136,99 +137,58 @@ if (!doNotTrack) {
     <main class="main">     
 <header class="page-header"><h1>tutorial</h1></header>
 
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Low RAM Android? No Worry at All</h2>
-  </header>
-  <section class="entry-content">
-   <p>Ever think to change my old android smartphone into a much better one, however, the android market seems to change very fast, in every year you will see how many new android devices being shipped with their new technology, hardware, and new operating system, which is IMHO I don’t think that the enhancement they made, is having a big difference in a way I use my phone. So I somehow manage to wait for another 3 or 5 years for replacing my devices....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/androideatram.jpg)">
   <footer class="entry-footer">
+    <h3>Low RAM Android? No Worry at All</h3>
     <time>January 23, 2014</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2014/01/23/low-ram-android-no-worry/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Hardening your password and yet still easy to remember it</h2>
-  </header>
-  <section class="entry-content">
-   <p>A password is a key for accessing your online properties on the internet. Many people like your friends, brothers, or maybe your colleague been using an easy guess password, such as his dog name, mother name, his last name, or maybe the very most favorite everyone password 12345. The easier a password to remember, the easier for an attacker to guess.
-Please don’t use Just hackme password. There are so many ways how people could easily guess your password, as easy as looking behind your shoulder while you’re typing a password at the computer or maybe an ATM machine, according to Wikipedia this is called Shoulder Surfing...</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/passwordhardening.jpg)">
   <footer class="entry-footer">
+    <h3>Hardening your password and yet still easy to remember it</h3>
     <time>January 15, 2014</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2014/01/15/hardening-your-password-and-yet-still-easy-to-remember-it/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Using Facebook Test User</h2>
-  </header>
-  <section class="entry-content">
-   <p>If you don’t know what Facebook Test User is? you may check the documentation on http://developers.facebook.com/docs/test_users/
-Test User is a tool that could be handy when you need to have some users to interact with your application, facebook currently provide this through Graph Api.
-I’ve made this simple php class consuming only facebook test account API, you may copy-paste from github
-Some example,
-$acc = new Facebook_TestAccount($appID,$Secret,$app_access_token); //Create N User $acc-&gt;createMany($_REQUEST[&#39;n&#39;],$parameter) //Delete All User created by App $acc-&gt;deleteAll() //Listing all user created by App Access Token $acc-&gt;access()  ...</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/facebookdev.jpg)">
   <footer class="entry-footer">
+    <h3>Using Facebook Test User</h3>
     <time>July 27, 2011</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2011/07/27/using-facebook-test-user/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Facebook PHP SDK v3.01 now free cookies</h2>
-  </header>
-  <section class="entry-content">
-   <p>Now the new SDK has been released, on the beginning of june 2011 I guess.
-Well the main different from v3.00 is? Now the CSRF state is rely on persistent data which is a session named “state” and not using cookie anymore!, and if you see on the constructor , it checks whether session already start yet, giving an option to start the session.
-Feel free to update, as usual the code rely on github...</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/facebookdev.jpg)">
   <footer class="entry-footer">
+    <h3>Facebook PHP SDK v3.01 now free cookies</h3>
     <time>July 6, 2011</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2011/07/06/facebook-php-sdk-v3-01-now-free-cookies/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Getting People Likes and Comments from facebook comment post </h2>
-  </header>
-  <section class="entry-content">
-   <p>A simple way to know people likes and comment on your post or other people post is through Comment Graph Api, you will need an access token to use it, this might be useful when you want to count the total of people who likesyour post.
-Every post on your News Feed (Photos, Photo Album, Video, Status, notes) will have an fbid that you can use it for the Comment Graph Api, take a look with firebug for fbid if you want to check it....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/facebookdev.jpg)">
   <footer class="entry-footer">
+    <h3>Getting People Likes and Comments from facebook comment post </h3>
     <time>March 15, 2011</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2011/03/15/getting-people-likes-and-comments-from-facebook-comment-post/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Facebook add access permission to Application Security</h2>
-  </header>
-  <section class="entry-content">
-   <p>Sometime when you made some apps, there were another user who wants to check about the insight of the app, or maybe just want to test the apps, back then you might have to give all access to a user through www.facebook.com/developer.
-These day facebook make a flexibility to define access permission per user,
-I’m trying to explain in a simple way,
-   Access Technical Dashboard Manage users Insights Dashboard Adv Reset App Secret Delete App Sandbox Mode     Administrator o o o o o o o   Developer o x o x x o o   Tester x x x x x o x   Insights x x o x x x o    So if you see the table above, adding users to your apps, only works if you have a permission as an administrator, an insight user cannot view the apps when on sandbox mode, but the tester can and without any verification to test it....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/facebookdev.jpg)">
   <footer class="entry-footer">
+    <h3>Facebook add access permission to Application Security</h3>
     <time>March 7, 2011</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2011/03/07/facebook-add-access-permission-to-application-security/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Set a facebook session app from access token</h2>
-  </header>
-  <section class="entry-content">
-   <p>In some situation you will want to create a facebook session for your app, for example you get the code query string after user granted your app, now you can construct the url like below,
-https://graph.facebook.com/oauth/access_token?client_id=YOUR_APP_ID&amp;redirect_uri=YOUR_URL&amp;client_secret=YOUR_APP_SECRET&amp;code=THE_CODE_FROM_ABOVE  And then you need to construct session variables base from the access token, these are functions that might help you,
-//Build your session variables function generateSessionVars($accessToken) { $e = explode(&#39;|&#39;,$accessToken); $s = explode(&#39;-&#39;,$e[1]); $params = array( &#39;uid&#39;=&gt;trim($s[1]), &#39;access_token&#39; =&gt; trim($accessToken) ); $params[&#39;sig&#39;] = generateSignature($params,APP_SECRET); return $params; } //Generate session signature base on you App Secret function generateSignature($params,$secret) { // work with sorted data ksort($params); // generate the base string $base_string = &#39;&#39;; foreach($params as $key =&gt; $value) { $base_string ....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/facebookdev.jpg)">
   <footer class="entry-footer">
+    <h3>Set a facebook session app from access token</h3>
     <time>March 3, 2011</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2011/03/03/set-a-facebook-session-for-you-apps-from-access-token/"></a>
@@ -246,6 +206,11 @@ https://graph.facebook.com/oauth/access_token?client_id=YOUR_APP_ID&amp;redirect
   <span>&middot;</span>
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
+<script>
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>
 </body>
 </html>
 

@@ -81,6 +81,7 @@ if (!doNotTrack) {
 
     
     <script src="https://khal.web.id/bundle.js"></script>
+    <script src="https://khal.web.id/lazyload.min.js"></script>
   </head>
   <body class="list">
     <header class="header">
@@ -136,15 +137,10 @@ if (!doNotTrack) {
     <main class="main">     
 <header class="page-header"><h1>flow</h1></header>
 
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Bicara &#34;Flow&#34; kreatifitas dalam segi internet, teknologi, dan keseharian </h2>
-  </header>
-  <section class="entry-content">
-   <p>Flow yang dimaksud disini adalah sebuah desain psikologis yang menggunakan kondisi mental dan kejiwaan dari seseorang, bagaimana dan mengapa seseorang bisa mencurahkan segala fokus dan konsentrasi dalam satu aktivitas dengan jangka waktu yang sangat lama tanpa merasa bosan, enjoy dan bahkan menjadi ketagihan.
-Konsep ini diperkenalkan oleh seorang professor dari Univ. Chicago, Mihaly Csikszentmihalyi. Dalam sebuah wawancaranya dengan Wired Magazine di tahun 1996 Go With The Flow, menurutnya, sebuah website yg menerapkan konsep flow bisa dibayangkan seperti Gourmet, yakni masakan bercita rasa tinggi yang di sajikan secara eksklusif, dimulai dengan hidangan pembuka, utama sampai penutup....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/flow.jpg)">
   <footer class="entry-footer">
+    <h3>Bicara &#34;Flow&#34; kreatifitas dalam segi internet, teknologi, dan keseharian </h3>
     <time>February 17, 2014</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2014/02/17/bicara-flow-kreatifitas-dalam-segi-internet-teknologi-dan-keseharian/"></a>
@@ -156,6 +152,11 @@ Konsep ini diperkenalkan oleh seorang professor dari Univ. Chicago, Mihaly Csiks
   <span>&middot;</span>
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
+<script>
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>
 </body>
 </html>
 

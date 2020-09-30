@@ -81,6 +81,7 @@ if (!doNotTrack) {
 
     
     <script src="https://khal.web.id/bundle.js"></script>
+    <script src="https://khal.web.id/lazyload.min.js"></script>
   </head>
   <body class="list">
     <header class="header">
@@ -136,15 +137,10 @@ if (!doNotTrack) {
     <main class="main">     
 <header class="page-header"><h1>workout</h1></header>
 
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Olahraga Scientific, hanya 7 menit</h2>
-  </header>
-  <section class="entry-content">
-   <p>Hayo2x yg masih di kasur,
- Cuman 7 menit. Olahraga hemat tempat. Cuman butuh kursi dan dinding ato sandaran hati (*sori curcol) Ulangin 2-3x, udah kayak lari 10km ciyus ga boong. Keringet pasti berserakan, setiap gerakan harus intens sebanyak2xnya pake timer. Klo dah slese, coba tarik nafas dalem2x, rasakan sensasi bau badan sendiri :)) Aplikasi timernya banyak kok, ada di android, iphone, windows, pebble watch, search aja dgn keyword-nya “7 minute workout”....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/workout7.jpg)">
   <footer class="entry-footer">
+    <h3>Olahraga Scientific, hanya 7 menit</h3>
     <time>December 31, 2013</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2013/12/31/olahraga-7-menit/"></a>
@@ -156,6 +152,11 @@ if (!doNotTrack) {
   <span>&middot;</span>
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
+<script>
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>
 </body>
 </html>
 

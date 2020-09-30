@@ -81,6 +81,7 @@ if (!doNotTrack) {
 
     
     <script src="https://khal.web.id/bundle.js"></script>
+    <script src="https://khal.web.id/lazyload.min.js"></script>
   </head>
   <body class="list">
     <header class="header">
@@ -136,42 +137,26 @@ if (!doNotTrack) {
     <main class="main">     
 <header class="page-header"><h1>pebblewatch</h1></header>
 
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Woh! Pebble AppStore BETA Android tarik gan!!</h2>
-  </header>
-  <section class="entry-content">
-   <p>Akhirnya di release juga Pebble AppStore untuk pengguna Android, buat yang mau download harus lewat developer portal pebble karena masih BETA released, jadi belum bisa di download lewat google play. Cara download dan instalasi sama seperti artikel gue sebelumnya klik disini , semua bisa Lo lakukan lewat browser henpon saja.
-Di postingan ini gue cuman mau ngasih tips n trick sebelum nyobain appstore beta yang satu ini, supaya prosedur instalasi lancar jaya....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/pebblewatch.jpg)">
   <footer class="entry-footer">
+    <h3>Woh! Pebble AppStore BETA Android tarik gan!!</h3>
     <time>February 5, 2014</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2014/02/05/woh-pebble-appstore-beta-android-tarik-gan/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Cara update Firmware Pebble ke SDK 2 Beta version</h2>
-  </header>
-  <section class="entry-content">
-   <p>Update: Semua intruksi dibawah ini bisa dilakukan hanya dengan menggunakan browser henpon.
-Halo Pebble’ers (*ha ha namanya ga asik) belakangan ini Pebble mengeluarkan versi Firmware Beta untuk SDK2, update salah satunya adalah mengaktifkan kegunaan Accelerometer yg bisa mengukur movement dari pemakai dan Javascript Kit yg memudahkan developer untuk mengintegrasikan aplikasi pebble dengan web service semacam facebook, foursquare, yahoo weather, dll tanpa menggunakan 3rd party app seperti httpebble.
-Versi update terakhir pada saat artikel ini ditulis adalah Firmware 2....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/pebblewatch.jpg)">
   <footer class="entry-footer">
+    <h3>Cara update Firmware Pebble ke SDK 2 Beta version</h3>
     <time>December 16, 2013</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2013/12/16/cara-update-firmware-pebble-ke-sdk-2-beta-version/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Apa, siapa, dimana, bagaimana, kenapa Pebble ?</h2>
-  </header>
-  <section class="entry-content">
-   <p>Hmm dari judulnya panjang ya… sumpah males deh nerusin artikelnya, gw juga ga rajin2x amet nge-blog, tapi pengen aja sharing sama yg lain, banyak yg nanya soal gadget unik yg satu ini yg namanya &lt;strong&gt;Pebble&lt;/strong&gt;, mungkin banyak “anak bertanya pada bapaknya… buat apa berlapar2x puasa … tadarus tarawih apalah gunanya” (*Halaaaah, ngaco kan, knapa jadi Bimbo, sori ya, Bimbo ama Pebble ga da hubungannya sama skali, titik. *disclaimer )
-Huaaaaah … lanjut deh, jadinya … Apa sih Pebble itu?...</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/pebblewatch.jpg)">
   <footer class="entry-footer">
+    <h3>Apa, siapa, dimana, bagaimana, kenapa Pebble ?</h3>
     <time>November 11, 2013</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2013/11/11/apa-siapa-dimana-bagaimana-kenapa-pebble/"></a>
@@ -183,6 +168,11 @@ Huaaaaah … lanjut deh, jadinya … Apa sih Pebble itu?...</p>
   <span>&middot;</span>
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
+<script>
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>
 </body>
 </html>
 

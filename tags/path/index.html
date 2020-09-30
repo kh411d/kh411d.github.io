@@ -81,6 +81,7 @@ if (!doNotTrack) {
 
     
     <script src="https://khal.web.id/bundle.js"></script>
+    <script src="https://khal.web.id/lazyload.min.js"></script>
   </head>
   <body class="list">
     <header class="header">
@@ -136,29 +137,18 @@ if (!doNotTrack) {
     <main class="main">     
 <header class="page-header"><h1>path</h1></header>
 
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Hmm.. PathWebsite... no related.. no official.. indeed suspicious</h2>
-  </header>
-  <section class="entry-content">
-   <p>Oh wow, it’s fake and suspicious…
-Last Monday, roaming around at my office, some of my colleagues showed me a website that has a similar look with Path.com and also exact Path logo on the website, web layout is pretty neat too, some of my friends even say that PathWebsite is for exclusive path users only. I dunno how the PathWebsite team could trick people in that way.
-After you logged in to the website, surprisingly you will see your path timeline… hmm dunno how they did it, AFAIK as a developer who wants to have their app connected to Path Api services, they should have had officially partnered with Path....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/pathwebsite.png)">
   <footer class="entry-footer">
+    <h3>Hmm.. PathWebsite... no related.. no official.. indeed suspicious</h3>
     <time>May 6, 2014</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2014/05/07/pathwebsite-no-official-no-related-indeed-suspicious/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Wordpress ke Path ke Wordpress kemana aja boleeeeh...</h2>
-  </header>
-  <section class="entry-content">
-   <p>Bersamaan dengan terjalinnya kerjasama antara Path dengan SosMed lainnya, Wordpress mengumumkan di blog nya New for Publicize: Share Your Path Moments singkatnya Wordpress menjelaskan cara-cara bagaimana pengguna bisa sharing blog post-nya menjadi sebuah momen/post di Path.
-Kabar baik untuk pengguna WordPress karenna dengan menggunakan sebuah plugin official dari Wordpress yang namanya Jetpack , pengguna bisa menggunakan fitur Publicize yang memungkinkan user mengkoneksikan akun Wordpress.com pengguna dengan akun Path, jadi nantinya setiap blogpost yang di publish akan otomatis ter-sharing di akun Path pengguna....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/pathwp.jpg)">
   <footer class="entry-footer">
+    <h3>Wordpress ke Path ke Wordpress kemana aja boleeeeh...</h3>
     <time>January 10, 2014</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2014/01/10/wordpress-ke-path-ke-wordpress-kemana-aja-boleeeeh/"></a>
@@ -170,6 +160,11 @@ Kabar baik untuk pengguna WordPress karenna dengan menggunakan sebuah plugin off
   <span>&middot;</span>
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
+<script>
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>
 </body>
 </html>
 

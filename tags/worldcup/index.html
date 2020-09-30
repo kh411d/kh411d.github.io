@@ -81,6 +81,7 @@ if (!doNotTrack) {
 
     
     <script src="https://khal.web.id/bundle.js"></script>
+    <script src="https://khal.web.id/lazyload.min.js"></script>
   </head>
   <body class="list">
     <header class="header">
@@ -136,15 +137,10 @@ if (!doNotTrack) {
     <main class="main">     
 <header class="page-header"><h1>worldcup</h1></header>
 
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Yay! Twitter featuring Piala Dunia 2014</h2>
-  </header>
-  <section class="entry-content">
-   <p>Sepertinya untuk Piala Dunia 2014 ini, Twitter benar-benar memberikan wadah pada para tweeps untuk turut menyemarakan suasana piala dunia di sisi online digital social media, bisa dilihat pada tampilan home terbaru dari Twitter.com versi website, di bagian sidebar sebelah kanan sudah tersedia jadwal pertandingan dan para pengguna twitter bisa memantau pertandingan lewat twitter hashtag yang sudah disediakan oleh twitter,
-Setelah tombol “Choose your side” diklik, Tweeps akan diminta untuk memilih tim kesebelasan andalan-nya yang tentunya sudah eligible untuk Piala Dunia 2014 ini,...</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/twitterworldcup2014.jpg)">
   <footer class="entry-footer">
+    <h3>Yay! Twitter featuring Piala Dunia 2014</h3>
     <time>June 12, 2014</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2014/06/12/yay-twitter-featuring-piala-dunia-2014/"></a>
@@ -156,6 +152,11 @@ Setelah tombol “Choose your side” diklik, Tweeps akan diminta untuk memilih 
   <span>&middot;</span>
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
+<script>
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>
 </body>
 </html>
 

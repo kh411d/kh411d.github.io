@@ -81,6 +81,7 @@ if (!doNotTrack) {
 
     
     <script src="https://khal.web.id/bundle.js"></script>
+    <script src="https://khal.web.id/lazyload.min.js"></script>
   </head>
   <body class="list">
     <header class="header">
@@ -136,15 +137,10 @@ if (!doNotTrack) {
     <main class="main">     
 <header class="page-header"><h1>portainer</h1></header>
 
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Meet Docker managers for human</h2>
-  </header>
-  <section class="entry-content">
-   <p>After years using docker, I realized that there are so many GUI docker managers out there, this tool is really handy, because you don’t need to remember all the command lines or to google every time you forget the command.
-So let me introduce Portainer IO. This tool will let you manage all the containers, images, logs, volume, network, consul, how you create the container, look at the image you’re creating from, etc....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/dockercover.jpg)">
   <footer class="entry-footer">
+    <h3>Meet Docker managers for human</h3>
     <time>February 18, 2018</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2018/02/18/Meet-Docker-managers-for-human/"></a>
@@ -156,6 +152,11 @@ So let me introduce Portainer IO. This tool will let you manage all the containe
   <span>&middot;</span>
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
+<script>
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>
 </body>
 </html>
 

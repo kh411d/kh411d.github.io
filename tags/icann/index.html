@@ -81,6 +81,7 @@ if (!doNotTrack) {
 
     
     <script src="https://khal.web.id/bundle.js"></script>
+    <script src="https://khal.web.id/lazyload.min.js"></script>
   </head>
   <body class="list">
     <header class="header">
@@ -136,16 +137,10 @@ if (!doNotTrack) {
     <main class="main">     
 <header class="page-header"><h1>icann</h1></header>
 
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Nah ini dia daftar gTLD kocak dan sedikit absurd</h2>
-  </header>
-  <section class="entry-content">
-   <p>gTLD adalah kepanjangan dari “generic Top Level Domain” yang mungkin kamu semua sudah familiar dengan nama .com, .net, .org, .web.id. Tiga tahun belakangan ini banyak sekali gTLD baru yang telah disahkan oleh ICANN (The Internet Corporation for Assigned Names and Numbers).
-ICANN adalah sebuah lembaga yang bertanggung jawab atas pengesahan TLD seperti .com, .porn, .id, dll.
-Nah sekarang sedikit knowledge bagaimana cara ICANN mengesahkan TLD ternyata tidak mudah dan cukup kompleks dan mahal, ICANN melimitasi 500 pendaftar TLD pertama dan biaya sekitar US$185....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/tldkocak.jpg)">
   <footer class="entry-footer">
+    <h3>Nah ini dia daftar gTLD kocak dan sedikit absurd</h3>
     <time>March 26, 2015</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2015/03/26/nah-ini-dia-daftar-gtld-kocak-dan-sedikit-absurd/"></a>
@@ -157,6 +152,11 @@ Nah sekarang sedikit knowledge bagaimana cara ICANN mengesahkan TLD ternyata tid
   <span>&middot;</span>
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
+<script>
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>
 </body>
 </html>
 

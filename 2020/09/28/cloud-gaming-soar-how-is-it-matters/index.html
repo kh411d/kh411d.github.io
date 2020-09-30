@@ -15,7 +15,7 @@ Cloud gaming is similar in the way you&rsquo;re listening to Spotify or watching
     
       
       <meta name="twitter:card" content="summary_large_image"/>
-      <meta name="twitter:image" content="https://khal.web.id/images/gamingcover.jpg"/>
+      <meta name="twitter:image" content="https://khal.web.id/images/cloudgamingcover2.jpg"/>
     
 
   	<meta property="og:title" content="Cloud gaming soar, how is it matters? &middot; Khalid&#39;s Blog" />
@@ -23,7 +23,7 @@ Cloud gaming is similar in the way you&rsquo;re listening to Spotify or watching
   	<meta property="og:url" content="https://khal.web.id/2020/09/28/cloud-gaming-soar-how-is-it-matters/" />
 
     
-       <meta property="og:image" content="/images/gamingcover.jpg"/>
+       <meta property="og:image" content="/images/cloudgamingcover2.jpg"/>
     
 
     
@@ -90,9 +90,10 @@ if (!doNotTrack) {
 
     
     <script src="https://khal.web.id/bundle.js"></script>
+    <script src="https://khal.web.id/lazyload.min.js"></script>
   </head>
   <body class="single">
-    <header class="header post-head"style="background-image: url(/images/gamingcover.jpg);">
+    <header class="header lazy post-head"data-bg="/images/cloudgamingcover2.jpg">
       <nav class="nav">
         <a class="logo" href="https://khal.web.id/"><img src="/images/logo.jpeg" alt="Home" /></a>
         <ul class="menu">
@@ -242,6 +243,11 @@ quickly, that of data centers is not.</em></p>
   <span>&middot;</span>
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
+<script>
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>
 </body>
 </html>
 

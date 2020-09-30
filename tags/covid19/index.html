@@ -81,6 +81,7 @@ if (!doNotTrack) {
 
     
     <script src="https://khal.web.id/bundle.js"></script>
+    <script src="https://khal.web.id/lazyload.min.js"></script>
   </head>
   <body class="list">
     <header class="header">
@@ -136,15 +137,10 @@ if (!doNotTrack) {
     <main class="main">     
 <header class="page-header"><h1>covid19</h1></header>
 
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Indonesia&#39;s Skyrocketing Corona Outbreak</h2>
-  </header>
-  <section class="entry-content">
-   <p>It’s been 7 months since the #CoronaVirus encountered Indonesia, I remembered the news about a mother and her daughter were a suspect of #Covid19 infection from a Japanese foreigner, and till then, the outbreak is skyrocketing as no one cares.
-Lack of testing and hasty actions to reopen public activities on a wide scale have kept Indonesia experiencing a spike in #Covid19 cases, the highest in Southeast Asia and past China....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/coronaindonesia.jpg)">
   <footer class="entry-footer">
+    <h3>Indonesia&#39;s Skyrocketing Corona Outbreak</h3>
     <time>September 14, 2020</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2020/09/14/indonesia-skyrocketing-corona-outbreak/"></a>
@@ -156,6 +152,11 @@ Lack of testing and hasty actions to reopen public activities on a wide scale ha
   <span>&middot;</span>
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
+<script>
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>
 </body>
 </html>
 

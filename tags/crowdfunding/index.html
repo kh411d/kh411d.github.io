@@ -81,6 +81,7 @@ if (!doNotTrack) {
 
     
     <script src="https://khal.web.id/bundle.js"></script>
+    <script src="https://khal.web.id/lazyload.min.js"></script>
   </head>
   <body class="list">
     <header class="header">
@@ -136,16 +137,10 @@ if (!doNotTrack) {
     <main class="main">     
 <header class="page-header"><h1>crowdfunding</h1></header>
 
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Bokek nih! Gimana kalo saweran, biar keren bilang aja Crowdfunding</h2>
-  </header>
-  <section class="entry-content">
-   <p>Patungan/Saweran sebenarnya adalah suatu kegiatan yang sudah ada sejak zaman nenek moyang kita dahulu kala, ini biasa dilakukan pada banyak kegiatan-kegiatan di masyarakat dan tentunya hasilnya pun untuk kepentingan masyarakat itu sendiri pula.
-Crowdfunding adalah sebuah upaya kolektif dari orang-orang yang berada dalam suatu jaringan sosial untuk mengumpulkan dana bersama dan tidak lain adalah untuk diinvestasikan dan mendukung upaya yang diprakarsai oleh seseorang atau organisasi lain.
-Star Citizen yang bertajuk online-gaming, pada 20 Oktober 2013 telah meraup dana sekitar US$23 juta, mengalahkan rekor yang sebelumnya dibuat oleh Pebble Watch yakni US$10 juta....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/minioncrowdfund.jpg)">
   <footer class="entry-footer">
+    <h3>Bokek nih! Gimana kalo saweran, biar keren bilang aja Crowdfunding</h3>
     <time>August 26, 2015</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2015/08/26/bokek-nih-gimana-kalo-saweran-biar-keren-bilang-aja-crowdfunding/"></a>
@@ -157,6 +152,11 @@ Star Citizen yang bertajuk online-gaming, pada 20 Oktober 2013 telah meraup dana
   <span>&middot;</span>
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
+<script>
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>
 </body>
 </html>
 

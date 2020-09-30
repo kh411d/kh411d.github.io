@@ -81,6 +81,7 @@ if (!doNotTrack) {
 
     
     <script src="https://khal.web.id/bundle.js"></script>
+    <script src="https://khal.web.id/lazyload.min.js"></script>
   </head>
   <body class="list">
     <header class="header">
@@ -136,16 +137,10 @@ if (!doNotTrack) {
     <main class="main">     
 <header class="page-header"><h1>movie</h1></header>
 
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Star Wars versi cerpen</h2>
-  </header>
-  <section class="entry-content">
-   <p>Berawal dari sebuah acara talkshow “The Late Show with Stephen Colbert” Stephen menuturkan bahwa sebenarnya tidak semua orang begitu antusias dengan peluncuran film Star Wars yang baru-baru ini heboh di media massa, contoh saja China, dari sekian banyak penduduk bahkan tidak begitu mengetahui tentang film Star Wars ini.
-Lalu Stephen mulai menuturkan plot pendek untuk menjelaskan alur star wars yang menurut gue cukup kocak, humoris, dan menghibur.
-StarWars Plot Star wars adalah kisah seorang anak petani sederhana 👱‍♂️ yang membeli dua robot, satu seperti tong sampah dan yang satu lagi diprogram untuk ketakutan sepanjang waktu, entah mengapa?...</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/starwarschinacover.jpg)">
   <footer class="entry-footer">
+    <h3>Star Wars versi cerpen</h3>
     <time>December 21, 2015</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2015/12/21/star-wars-versi-cerpen-buat-yang-males/"></a>
@@ -157,6 +152,11 @@ StarWars Plot Star wars adalah kisah seorang anak petani sederhana 👱‍♂️
   <span>&middot;</span>
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
+<script>
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>
 </body>
 </html>
 

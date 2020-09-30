@@ -81,6 +81,7 @@ if (!doNotTrack) {
 
     
     <script src="https://khal.web.id/bundle.js"></script>
+    <script src="https://khal.web.id/lazyload.min.js"></script>
   </head>
   <body class="list">
     <header class="header">
@@ -136,103 +137,58 @@ if (!doNotTrack) {
     <main class="main">     
 <header class="page-header"><h1>tutorial</h1></header>
 
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Replacement of fb visible-to-connection for iframe apps on facebook page tabs</h2>
-  </header>
-  <section class="entry-content">
-   <p>Developing an Iframe app an somehow you want to use this FBML tag below.
-&lt;fb:visible-to-connection&gt; Only connections should view this.. &lt;/fb:visible-to-connection&gt;  On each call from page tab you can get a signed_request variable, the value is like this below,
-Array ( [algorithm] =&gt; HMAC-SHA256 [expires] =&gt; 0 [issued_at] =&gt; 1299140579 [oauth_token] =&gt; xxxxxxxxx|xxxxxxxxxxxxxxxx-xxxxxxxx|xxxxxx-xxxxxxxxxxxxxx [page] =&gt; Array ( [id] =&gt; xxxxxxxxxxxxxxxx [liked] =&gt; 1 [admin] =&gt; 1 ) [user] =&gt; Array ( [country] =&gt; id [locale] =&gt; en_US [age] =&gt; Array ( [min] =&gt; 21 ) ) [user_id] =&gt; xxxxxxxxxxx )  And then you can use “page....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/facebookdev.jpg)">
   <footer class="entry-footer">
+    <h3>Replacement of fb visible-to-connection for iframe apps on facebook page tabs</h3>
     <time>March 3, 2011</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2011/03/03/replacement-of-fb-visible-to-connection-for-iframe-apps-on-facebook-page-tabs/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Two ways to Login or Authenticate using Facebook JS SDK Dialog box</h2>
-  </header>
-  <section class="entry-content">
-   <p>There is two easy way to authenticate a user with Facebook JS SDK,
-Using FB.UI,
-FB.ui( { method: &#39;oauth&#39;, display:&#39;iframe&#39;, perms:APP_EXT_PERMISSIONS }, function(response) { if(response.session) { console.dir(response); if(redirectURL) location.href = redirectURL; } } );  Using FB.DIALOG,
-FB.login(function(response) { if (response.session) { if (response.perms) { //Logged and Permission Granted if(redirectURL) location.href = redirectURL; } else { //Logged and Permisssion NOT Granted if(redirectURL) location.href = redirectURL; } } else { alert(&#34;Only Authorized User can use this Application!...</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/facebookdev.jpg)">
   <footer class="entry-footer">
+    <h3>Two ways to Login or Authenticate using Facebook JS SDK Dialog box</h3>
     <time>March 3, 2011</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2011/03/03/two-ways-to-login-or-authenticate-using-facebook-js-sdk-dialog-box/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Getting Ready for IFRAME Facebook App based</h2>
-  </header>
-  <section class="entry-content">
-   <p>At this time you need to be ready to migrate your facebook apps to Iframe based apps, because as it written on Facebook Developer Roadmap
- “We will stop allowing new FBML applications, but will continue to support existing FBML tabs and applications. Instead, we recommend using IFrames.” at the End of 2010.
- And then OAUTH 2.0 will required for new applications,
- “We will remove the ability for new applications to use our old authentication mechanism, but will continue to support existing applications using our old method....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/facebookdev.jpg)">
   <footer class="entry-footer">
+    <h3>Getting Ready for IFRAME Facebook App based</h3>
     <time>October 28, 2010</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2010/10/28/getting-ready-for-iframe-facebook-app-based/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Iframe on Facebook Fan Pages Tabs</h2>
-  </header>
-  <section class="entry-content">
-   <p>Iframe will not be supported on facebook fan pages tab, the strange thing is, it only happened on first load and the you’ll get this error iframe not supported
-I just figured out that apps on Fan Pages Tab need an action from user, so then to get an iframe working on tab,
- In your Tab Url file i.e. index.php, create a href tag, that will link to somefile.php...</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/facebookdev.jpg)">
   <footer class="entry-footer">
+    <h3>Iframe on Facebook Fan Pages Tabs</h3>
     <time>July 20, 2010</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2010/07/20/iframe-on-facebook-fan-pages-tabs/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Koding bareng dengan Bespin</h2>
-  </header>
-  <section class="entry-content">
-   <p>Bespin from Mozilla Labs adalah sebuah code editor dengan berbasis web, tentunya bertujuan untuk meningkatkan produktivitas dari developer, karena editor ini berbasis web maka bespin bisa di gunakan oleh developer dimanapun berada, sayangnya tidak semua browser bisa menunjang aplikasi ini.
- “Code In The Cloud” - Bespin
- Feature-feature yang ada pada Bespin cukup banyak, satu hal yang menarik perhatian gw adalah feature collaborative coding. Hal pertama yang harus lo lakukan adalah melakukan registrasi dan login ke bespin....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(%!s(&lt;nil&gt;))">
   <footer class="entry-footer">
+    <h3>Koding bareng dengan Bespin</h3>
     <time>November 19, 2009</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2009/11/19/bespin-a-collaborative-coding-dengan-teman2x-kamu-somewhere-out-there-in-the-cloud/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Gimana caranya bikin tampilan Firefox lo jadi kaya Chrome</h2>
-  </header>
-  <section class="entry-content">
-   <p>Salah satu hal yang gw suka dari Chrome adalah themes nya yang simple clean dan enteng di liat deh pokoknya …, masalahnya gw jarang pake tuh yang namanya Chrome kalo untuk development (Can’t live whitout firefox), ya udah deh gw mulai cari sana sini gimana caranya bisa bikin tampilan firefox jadi kaya chrome, mudah2x nih artikel berguna dah …
-Ada beberapa firefox extension yang kudu di install …
- Chrome Themes : https://addons....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(%!s(&lt;nil&gt;))">
   <footer class="entry-footer">
+    <h3>Gimana caranya bikin tampilan Firefox lo jadi kaya Chrome</h3>
     <time>November 11, 2009</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2009/11/11/gimana-caranya-bikin-tampilan-firefox-lo-jadi-kaya-chrome/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>PNG fix for IE</h2>
-  </header>
-  <section class="entry-content">
-   <p>Thanks to Angus Turnbull who made this fix and made PNG image looks good on IE, these are two files that you need to implement,
- iepngfix.htc iepngfix_tilebg.js  Usage Include iepngfix.htc on your css style file
-&lt;pre name=&#34;code&#34; class=&#34;css&#34; &gt; *html img, *html #anydivid { behavior: url(style/iepngfix.htc); border:0; padding:0; } &lt;/pre&gt;  include this iepngfix_tilebg.js on you html header, it’s support transparent image on background position and repeat.
-More complete detail … you can check his website http://www....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url()">
   <footer class="entry-footer">
+    <h3>PNG fix for IE</h3>
     <time>May 4, 2009</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2009/05/04/PNG-fix-for-IE/"></a>
@@ -249,6 +205,11 @@ More complete detail … you can check his website http://www....</p>
   <span>&middot;</span>
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
+<script>
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>
 </body>
 </html>
 

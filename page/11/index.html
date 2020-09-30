@@ -81,6 +81,7 @@ if (!doNotTrack) {
 
     
     <script src="https://khal.web.id/bundle.js"></script>
+    <script src="https://khal.web.id/lazyload.min.js"></script>
   </head>
   <body class="list home">
     <header class="header">
@@ -134,109 +135,66 @@ if (!doNotTrack) {
       </nav>
     </header>
     <main class="main">     
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Things you should know when you start PHP-ing</h2>
-  </header>
-  <section class="entry-content">
-   <p>When you starting to get a grip on PHP, there are things that you should know, here I would descibe some of them, that might be useful,
-1. OS
-Afaik PHP can be installed on Windows, Linux, Macintosh, and Solaris.
-2. Database
-MySQL and PostgreSQL are the most popular database to be use with PHP.
-3. WebServer
-The most well-known web server for PHP is Apache and Nginx.
-4. Application Framework...</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/facebookdev.jpg)">
   <footer class="entry-footer">
+    <h3>Iframe on Facebook Fan Pages Tabs</h3>
+    <time>July 20, 2010</time>
+  </footer>
+  <a class="entry-link" href="https://khal.web.id/2010/07/20/iframe-on-facebook-fan-pages-tabs/"></a>
+</article>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(%!s(&lt;nil&gt;))">
+  <footer class="entry-footer">
+    <h3>Things you should know when you start PHP-ing</h3>
     <time>July 12, 2010</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2010/07/12/things-you-should-know-when-you-start-php-ing/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Codeigniter HMVC and Your own Layout Library</h2>
-  </header>
-  <section class="entry-content">
-   <p>I’m trying to make a partial output from hmvc module,
-$this-&gt;obj =&amp; get_instance();  and then I’m trying to load a view from some module,
-$this-&gt;obj-&gt;load-&gt;view($view,$data);  This will resulting errors, it turns out $this-&gt;obj is only loading the global view of CI i.e. ./application/views/ HMVC is not overriding the default view of CI, you might have to pass your controller object $this from your controller to your layout library,...</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(%!s(&lt;nil&gt;))">
   <footer class="entry-footer">
+    <h3>Codeigniter HMVC and Your own Layout Library</h3>
     <time>January 7, 2010</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2010/01/07/codeigniter-hmvc-and-your-own-layout-library/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Apaan tuh &#34;Google Wave Robots&#34; ??? Apaan aja sih ???</h2>
-  </header>
-  <section class="entry-content">
-   <p>Pertama gw mau kasih tau dulu apaan sih google wave robot (GWR) itu, sebenernya simple aja… ya namanya juga robot jadi GWR itu adalah user otomatis (robot) yang bisa menjadi participant dari sebuah wave, user robot juga dapat membaca isi sebuah wave di mana robot itu berpartisipasi, google wave memodifikasi isi, menambah atau menghapus peserta, dan menciptakan wave baru. Singkatnya, user robot dapat melakukan banyak tindakan yang waver/peserta lainnya dapat melakukan....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(%!s(&lt;nil&gt;))">
   <footer class="entry-footer">
+    <h3>Apaan tuh &#34;Google Wave Robots&#34; ??? Apaan aja sih ???</h3>
     <time>November 25, 2009</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2009/11/25/apaan-tuh-google-wave-robots-apaan-aja-sih/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Koding bareng dengan Bespin</h2>
-  </header>
-  <section class="entry-content">
-   <p>Bespin from Mozilla Labs adalah sebuah code editor dengan berbasis web, tentunya bertujuan untuk meningkatkan produktivitas dari developer, karena editor ini berbasis web maka bespin bisa di gunakan oleh developer dimanapun berada, sayangnya tidak semua browser bisa menunjang aplikasi ini.
- “Code In The Cloud” - Bespin
- Feature-feature yang ada pada Bespin cukup banyak, satu hal yang menarik perhatian gw adalah feature collaborative coding. Hal pertama yang harus lo lakukan adalah melakukan registrasi dan login ke bespin....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(%!s(&lt;nil&gt;))">
   <footer class="entry-footer">
+    <h3>Koding bareng dengan Bespin</h3>
     <time>November 19, 2009</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2009/11/19/bespin-a-collaborative-coding-dengan-teman2x-kamu-somewhere-out-there-in-the-cloud/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Gimana caranya bikin tampilan Firefox lo jadi kaya Chrome</h2>
-  </header>
-  <section class="entry-content">
-   <p>Salah satu hal yang gw suka dari Chrome adalah themes nya yang simple clean dan enteng di liat deh pokoknya …, masalahnya gw jarang pake tuh yang namanya Chrome kalo untuk development (Can’t live whitout firefox), ya udah deh gw mulai cari sana sini gimana caranya bisa bikin tampilan firefox jadi kaya chrome, mudah2x nih artikel berguna dah …
-Ada beberapa firefox extension yang kudu di install …
- Chrome Themes : https://addons....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(%!s(&lt;nil&gt;))">
   <footer class="entry-footer">
+    <h3>Gimana caranya bikin tampilan Firefox lo jadi kaya Chrome</h3>
     <time>November 11, 2009</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2009/11/11/gimana-caranya-bikin-tampilan-firefox-lo-jadi-kaya-chrome/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>PNG fix for IE</h2>
-  </header>
-  <section class="entry-content">
-   <p>Thanks to Angus Turnbull who made this fix and made PNG image looks good on IE, these are two files that you need to implement,
- iepngfix.htc iepngfix_tilebg.js  Usage Include iepngfix.htc on your css style file
-&lt;pre name=&#34;code&#34; class=&#34;css&#34; &gt; *html img, *html #anydivid { behavior: url(style/iepngfix.htc); border:0; padding:0; } &lt;/pre&gt;  include this iepngfix_tilebg.js on you html header, it’s support transparent image on background position and repeat.
-More complete detail … you can check his website http://www....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url()">
   <footer class="entry-footer">
+    <h3>PNG fix for IE</h3>
     <time>May 4, 2009</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2009/05/04/PNG-fix-for-IE/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Burgle bros tool</h2>
-  </header>
-  <section class="entry-content">
-   <p>...</p>
-  </section>
-  <footer class="entry-footer">
-    <time>January 1, 0001</time>
-  </footer>
-  <a class="entry-link" href="https://khal.web.id/burglebros/tool/"></a>
-</article>
 <footer class="page-footer">
   <nav class="pagination">
     <a class="prev" href="/page/10/">← Prev Page</a>
+    <a class="next" href="/page/12/">Next Page →</a>
   </nav>
 </footer></main>
 <footer class="footer">
@@ -246,6 +204,11 @@ More complete detail … you can check his website http://www....</p>
   <span>&middot;</span>
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
+<script>
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>
 </body>
 </html>
 

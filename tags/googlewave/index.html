@@ -81,6 +81,7 @@ if (!doNotTrack) {
 
     
     <script src="https://khal.web.id/bundle.js"></script>
+    <script src="https://khal.web.id/lazyload.min.js"></script>
   </head>
   <body class="list">
     <header class="header">
@@ -136,14 +137,10 @@ if (!doNotTrack) {
     <main class="main">     
 <header class="page-header"><h1>googlewave</h1></header>
 
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Apaan tuh &#34;Google Wave Robots&#34; ??? Apaan aja sih ???</h2>
-  </header>
-  <section class="entry-content">
-   <p>Pertama gw mau kasih tau dulu apaan sih google wave robot (GWR) itu, sebenernya simple aja… ya namanya juga robot jadi GWR itu adalah user otomatis (robot) yang bisa menjadi participant dari sebuah wave, user robot juga dapat membaca isi sebuah wave di mana robot itu berpartisipasi, google wave memodifikasi isi, menambah atau menghapus peserta, dan menciptakan wave baru. Singkatnya, user robot dapat melakukan banyak tindakan yang waver/peserta lainnya dapat melakukan....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(%!s(&lt;nil&gt;))">
   <footer class="entry-footer">
+    <h3>Apaan tuh &#34;Google Wave Robots&#34; ??? Apaan aja sih ???</h3>
     <time>November 25, 2009</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2009/11/25/apaan-tuh-google-wave-robots-apaan-aja-sih/"></a>
@@ -155,6 +152,11 @@ if (!doNotTrack) {
   <span>&middot;</span>
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
+<script>
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>
 </body>
 </html>
 

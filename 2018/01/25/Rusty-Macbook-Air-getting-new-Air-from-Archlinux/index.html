@@ -86,9 +86,10 @@ if (!doNotTrack) {
 
     
     <script src="https://khal.web.id/bundle.js"></script>
+    <script src="https://khal.web.id/lazyload.min.js"></script>
   </head>
   <body class="single">
-    <header class="header post-head"style="background-image: url(/images/arch-screenfetch.png);">
+    <header class="header lazy post-head"data-bg="/images/arch-screenfetch.png">
       <nav class="nav">
         <a class="logo" href="https://khal.web.id/"><img src="/images/logo.jpeg" alt="Home" /></a>
         <ul class="menu">
@@ -361,6 +362,11 @@ Things you may need to know, ArchLinux has a <a href="https://aur.archlinux.org/
   <span>&middot;</span>
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
+<script>
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>
 </body>
 </html>
 

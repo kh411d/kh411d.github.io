@@ -81,6 +81,7 @@ if (!doNotTrack) {
 
     
     <script src="https://khal.web.id/bundle.js"></script>
+    <script src="https://khal.web.id/lazyload.min.js"></script>
   </head>
   <body class="list">
     <header class="header">
@@ -136,15 +137,10 @@ if (!doNotTrack) {
     <main class="main">     
 <header class="page-header"><h1>yoapp</h1></header>
 
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Nanti gue &#34;Yo!&#34; aja ya...</h2>
-  </header>
-  <section class="entry-content">
-   <p>Yo, yo , yoooooo! …. Ha ha, satu lagi terobosan baru cara berkomunikasi dengan temen-temen lo, sebenernya sih ga baru-baru amet, kalo dulu jaman gw baru2x masuk kuliah taun 90-an pasti lo tau deh yang namanya “Miss Call” cuman buat ngasih tau kalo lo dah nyampe kelas, ato buat ngasih tau dah nyampe tempat janjian misalnya di mall, kafe, dll.
-Aplikasi Android/Iphone bernama Yo ini punya moto “Zero-character communication tool” ya cara kerjanya mirip-mirip sama miss call gitu deh, buat yang mau coba silakan kunjungi websitenya di http://www....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/yoapp.png)">
   <footer class="entry-footer">
+    <h3>Nanti gue &#34;Yo!&#34; aja ya...</h3>
     <time>June 19, 2014</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2014/06/19/nanti-gue-yo-aja-ya/"></a>
@@ -156,6 +152,11 @@ Aplikasi Android/Iphone bernama Yo ini punya moto “Zero-character communicatio
   <span>&middot;</span>
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
+<script>
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>
 </body>
 </html>
 

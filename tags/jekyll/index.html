@@ -81,6 +81,7 @@ if (!doNotTrack) {
 
     
     <script src="https://khal.web.id/bundle.js"></script>
+    <script src="https://khal.web.id/lazyload.min.js"></script>
   </head>
   <body class="list">
     <header class="header">
@@ -136,30 +137,18 @@ if (!doNotTrack) {
     <main class="main">     
 <header class="page-header"><h1>jekyll</h1></header>
 
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Thanks Jekyll. Hello Hugo</h2>
-  </header>
-  <section class="entry-content">
-   <p>I guess it’s time to say goodbye to Jekyll and thank you. I just can’t go further, I feel like Ruby is too much, struggling with all dependencies, build errors, etc.
-Let me introduce Hugo, I can’t say much about Hugo but that’s a good thing, means that Hugo is so damn simple. Easy installation, easy to customize, easy to maintain.
- Hugo is so damn fast, no joke.
- Hugo is single, yup Hugo is only a single binary file no Dependency Hell included, no worries if I updated my OS something would break, and it offers the same feature as Jekyll did....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/hugocover.jpg)">
   <footer class="entry-footer">
+    <h3>Thanks Jekyll. Hello Hugo</h3>
     <time>January 2, 2018</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2018/01/02/Thanks-Jekyll.-Hello-Hugo/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Bye Wordpress, Hello ... ?</h2>
-  </header>
-  <section class="entry-content">
-   <p>It’s been long years since I used WordPress in 2006 as my blogging platform, back in the old days there’s nothing can beat what WordPress offers for bloggers. So many themes, plugins, and It’s still the most-used and well-known blogging platform until now.
-According to W3Techs Survey, WordPress is used by 63.6% of all the websites whose content management system we know. This is 38.3% of all websites. Every year’s website powered by WordPress is significantly rising....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/jekyllcover.jpg)">
   <footer class="entry-footer">
+    <h3>Bye Wordpress, Hello ... ?</h3>
     <time>May 3, 2016</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2016/05/03/bye-wordpress-hello/"></a>
@@ -171,6 +160,11 @@ According to W3Techs Survey, WordPress is used by 63.6% of all the websites whos
   <span>&middot;</span>
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
+<script>
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>
 </body>
 </html>
 

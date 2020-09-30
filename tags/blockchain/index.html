@@ -81,6 +81,7 @@ if (!doNotTrack) {
 
     
     <script src="https://khal.web.id/bundle.js"></script>
+    <script src="https://khal.web.id/lazyload.min.js"></script>
   </head>
   <body class="list">
     <header class="header">
@@ -136,15 +137,10 @@ if (!doNotTrack) {
     <main class="main">     
 <header class="page-header"><h1>blockchain</h1></header>
 
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>PDKT sama uang dunia maya bernama BitCoin</h2>
-  </header>
-  <section class="entry-content">
-   <p>BUKAN MLM, bukan koin dinar, bukan juga koin emas dan bahkan nggak punya bentuk fisik yang bisa kamu sisipkan ke dompet atau simpan di bank, apalagi disimpan di bawah kasur. Tapi tentu saja yang namanya uang pastinya bisa kamu belanjain dimanapun kapanpun secara online.
-Ha ha amazing ya, udah nggak bisa dipegang tapi masih bisa di belanjain. Daripada penasaran bikin kesasar, mending kita pdkt aja sama yang namanya Bitcoin ini....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/bitcoin.jpg)">
   <footer class="entry-footer">
+    <h3>PDKT sama uang dunia maya bernama BitCoin</h3>
     <time>April 23, 2015</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2015/04/23/pdkt-sama-uang-dunia-maya-bernama-bitcoin/"></a>
@@ -156,6 +152,11 @@ Ha ha amazing ya, udah nggak bisa dipegang tapi masih bisa di belanjain. Daripad
   <span>&middot;</span>
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
+<script>
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>
 </body>
 </html>
 

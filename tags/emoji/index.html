@@ -81,6 +81,7 @@ if (!doNotTrack) {
 
     
     <script src="https://khal.web.id/bundle.js"></script>
+    <script src="https://khal.web.id/lazyload.min.js"></script>
   </head>
   <body class="list">
     <header class="header">
@@ -136,15 +137,10 @@ if (!doNotTrack) {
     <main class="main">     
 <header class="page-header"><h1>emoji</h1></header>
 
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Emoji in Actions during this 2020 Awkwardness</h2>
-  </header>
-  <section class="entry-content">
-   <p>These days, a lot of conversations happen and people have many ways to express their feeling whether it’s sad, angry, happy, or even desperation. Emoji is one thing that you could never miss its sighting. In fact, the way that people use emojis could be related to our current circumstances.
-At this time being, it can’t be denied this is the year of the health-related emoji. The virus is everywhere 🦠, people wearing the mask 😷 all the time, which is an irony while France made mask compulsory in public but keep the ban on burqas and niqabs, people also got sick 🤢 sneezing 🤧 everywhere, unpredicted fever 🤒 tragically end up in a hospital 🤕 🚑 💊 💉 , and people always remind each other to wash your hands with 🧼 🧽...</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/smileywallcover.jpg)">
   <footer class="entry-footer">
+    <h3>Emoji in Actions during this 2020 Awkwardness</h3>
     <time>September 24, 2020</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2020/09/24/emoji-in-actions-during-this-2020-awkwardness/"></a>
@@ -156,6 +152,11 @@ At this time being, it can’t be denied this is the year of the health-related 
   <span>&middot;</span>
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
+<script>
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>
 </body>
 </html>
 

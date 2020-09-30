@@ -81,6 +81,7 @@ if (!doNotTrack) {
 
     
     <script src="https://khal.web.id/bundle.js"></script>
+    <script src="https://khal.web.id/lazyload.min.js"></script>
   </head>
   <body class="list">
     <header class="header">
@@ -136,16 +137,10 @@ if (!doNotTrack) {
     <main class="main">     
 <header class="page-header"><h1>bespin</h1></header>
 
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Koding bareng dengan Bespin</h2>
-  </header>
-  <section class="entry-content">
-   <p>Bespin from Mozilla Labs adalah sebuah code editor dengan berbasis web, tentunya bertujuan untuk meningkatkan produktivitas dari developer, karena editor ini berbasis web maka bespin bisa di gunakan oleh developer dimanapun berada, sayangnya tidak semua browser bisa menunjang aplikasi ini.
- “Code In The Cloud” - Bespin
- Feature-feature yang ada pada Bespin cukup banyak, satu hal yang menarik perhatian gw adalah feature collaborative coding. Hal pertama yang harus lo lakukan adalah melakukan registrasi dan login ke bespin....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(%!s(&lt;nil&gt;))">
   <footer class="entry-footer">
+    <h3>Koding bareng dengan Bespin</h3>
     <time>November 19, 2009</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2009/11/19/bespin-a-collaborative-coding-dengan-teman2x-kamu-somewhere-out-there-in-the-cloud/"></a>
@@ -157,6 +152,11 @@ if (!doNotTrack) {
   <span>&middot;</span>
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
+<script>
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>
 </body>
 </html>
 

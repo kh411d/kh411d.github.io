@@ -81,6 +81,7 @@ if (!doNotTrack) {
 
     
     <script src="https://khal.web.id/bundle.js"></script>
+    <script src="https://khal.web.id/lazyload.min.js"></script>
   </head>
   <body class="list">
     <header class="header">
@@ -136,15 +137,10 @@ if (!doNotTrack) {
     <main class="main">     
 <header class="page-header"><h1>icecast</h1></header>
 
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>How to get realtime Now Playing info from Ice Cast</h2>
-  </header>
-  <section class="entry-content">
-   <p>Getting a #NowPlaying info from your Ice Cast 2 server is pretty dead simple. You can get current track information from scrapping the XSPF url periodically by using CURL command. Here I’m going to explain how it works, I’m going to make a short javascript code to periodically update the current playing track and a simple php script to curl the xspf endpoint.
- Locate your Ice Cast Server url, usually it will look like this http://xxx....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/icecastnowplaying.png)">
   <footer class="entry-footer">
+    <h3>How to get realtime Now Playing info from Ice Cast</h3>
     <time>August 12, 2014</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2014/08/12/how-to-get-realtime-now-playing-info-from-ice-cast/"></a>
@@ -156,6 +152,11 @@ if (!doNotTrack) {
   <span>&middot;</span>
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
+<script>
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>
 </body>
 </html>
 

@@ -81,6 +81,7 @@ if (!doNotTrack) {
 
     
     <script src="https://khal.web.id/bundle.js"></script>
+    <script src="https://khal.web.id/lazyload.min.js"></script>
   </head>
   <body class="list">
     <header class="header">
@@ -136,15 +137,10 @@ if (!doNotTrack) {
     <main class="main">     
 <header class="page-header"><h1>github</h1></header>
 
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>How to Not Flaunt Your Github Face on Social Media</h2>
-  </header>
-  <section class="entry-content">
-   <p>Your Github’s face, Mostly, a user who had a Github personal account is using their typical profile picture, which is his part of the body from the waist to the head, and it’s meant to show up his face on purpose.
-Sadly, your face will always be flaunted when you shared one of your repos in social media. Some users might be happy with that, but some might be inconveniences by sharing his/her face on public media....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/githubsocialmedia.jpg)">
   <footer class="entry-footer">
+    <h3>How to Not Flaunt Your Github Face on Social Media</h3>
     <time>September 13, 2020</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2020/09/13/How-to-Not-Flaunt-Your-Github-Face-on-Social-Media/"></a>
@@ -156,6 +152,11 @@ Sadly, your face will always be flaunted when you shared one of your repos in so
   <span>&middot;</span>
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
+<script>
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>
 </body>
 </html>
 

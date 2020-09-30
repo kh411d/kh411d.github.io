@@ -81,6 +81,7 @@ if (!doNotTrack) {
 
     
     <script src="https://khal.web.id/bundle.js"></script>
+    <script src="https://khal.web.id/lazyload.min.js"></script>
   </head>
   <body class="list">
     <header class="header">
@@ -136,14 +137,10 @@ if (!doNotTrack) {
     <main class="main">     
 <header class="page-header"><h1>linux</h1></header>
 
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Rusty Macbook Air getting new Air from Archlinux</h2>
-  </header>
-  <section class="entry-content">
-   <p>Today I accidentally deleted my primary OSX partition from my very old MacBook air 4,2 (2011) with the last installed os was el Capitan. From the beginning, I just want to give my MacBook some extra space but it turns out cleaning all the HDD …LOL, I seriously don’t know how in the hell this could happen, this is a lesson for not to clean your HDD in the middle of the night....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/arch-screenfetch.png)">
   <footer class="entry-footer">
+    <h3>Rusty Macbook Air getting new Air from Archlinux</h3>
     <time>January 25, 2018</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2018/01/25/Rusty-Macbook-Air-getting-new-Air-from-Archlinux/"></a>
@@ -155,6 +152,11 @@ if (!doNotTrack) {
   <span>&middot;</span>
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
+<script>
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>
 </body>
 </html>
 

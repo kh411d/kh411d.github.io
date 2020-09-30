@@ -81,6 +81,7 @@ if (!doNotTrack) {
 
     
     <script src="https://khal.web.id/bundle.js"></script>
+    <script src="https://khal.web.id/lazyload.min.js"></script>
   </head>
   <body class="list">
     <header class="header">
@@ -136,50 +137,26 @@ if (!doNotTrack) {
     <main class="main">     
 <header class="page-header"><h1>php</h1></header>
 
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>path_info or orig_path_info</h2>
-  </header>
-  <section class="entry-content">
-   <p>The story begin when I was migrating my Codeigniter app from php4 to php5 hosting environment and then I change the uri_protocol config,
-$config[&#39;uri_protocol&#39;] = &#34;PATH_INFO&#34;;  And then the app crashed!?? I had to debug the code for quite sometimes 😫
-Debugging the $_SERVER variable, and turns out the PATH_INFO variable wasn’t exist, but the ORIG_PATH_INFO variable is exist, hmm is it the PHP version problem?
-So then I found this article path_info, orig_path_info, apache and php, well I guess that explained very well, on his condition mentioned in the article, the problem happened when he use ....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(%!s(&lt;nil&gt;))">
   <footer class="entry-footer">
+    <h3>path_info or orig_path_info</h3>
     <time>August 10, 2010</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2010/08/10/path_info-or-orig_path_info/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Things you should know when you start PHP-ing</h2>
-  </header>
-  <section class="entry-content">
-   <p>When you starting to get a grip on PHP, there are things that you should know, here I would descibe some of them, that might be useful,
-1. OS
-Afaik PHP can be installed on Windows, Linux, Macintosh, and Solaris.
-2. Database
-MySQL and PostgreSQL are the most popular database to be use with PHP.
-3. WebServer
-The most well-known web server for PHP is Apache and Nginx.
-4. Application Framework...</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(%!s(&lt;nil&gt;))">
   <footer class="entry-footer">
+    <h3>Things you should know when you start PHP-ing</h3>
     <time>July 12, 2010</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2010/07/12/things-you-should-know-when-you-start-php-ing/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Codeigniter HMVC and Your own Layout Library</h2>
-  </header>
-  <section class="entry-content">
-   <p>I’m trying to make a partial output from hmvc module,
-$this-&gt;obj =&amp; get_instance();  and then I’m trying to load a view from some module,
-$this-&gt;obj-&gt;load-&gt;view($view,$data);  This will resulting errors, it turns out $this-&gt;obj is only loading the global view of CI i.e. ./application/views/ HMVC is not overriding the default view of CI, you might have to pass your controller object $this from your controller to your layout library,...</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(%!s(&lt;nil&gt;))">
   <footer class="entry-footer">
+    <h3>Codeigniter HMVC and Your own Layout Library</h3>
     <time>January 7, 2010</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2010/01/07/codeigniter-hmvc-and-your-own-layout-library/"></a>
@@ -191,6 +168,11 @@ $this-&gt;obj-&gt;load-&gt;view($view,$data);  This will resulting errors, it tu
   <span>&middot;</span>
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
+<script>
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>
 </body>
 </html>
 

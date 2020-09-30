@@ -81,6 +81,7 @@ if (!doNotTrack) {
 
     
     <script src="https://khal.web.id/bundle.js"></script>
+    <script src="https://khal.web.id/lazyload.min.js"></script>
   </head>
   <body class="list">
     <header class="header">
@@ -136,96 +137,58 @@ if (!doNotTrack) {
     <main class="main">     
 <header class="page-header"><h1>facebook</h1></header>
 
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Uhuk.. facebook &#34;ask&#34; buat gombalin cewek jomblo, lumayan neh</h2>
-  </header>
-  <section class="entry-content">
-   <p>Kalo misal lo liat facebook profile temen lo yang lagi ga punya status relationship lo bakal bisa ngelihat tombol “Ask” button, yang dimana lo bisa tanya apapun itu yang berhubungan dengan status relationship orang tersebut, button “Ask” ini hanya bisa dilihat oleh orang lain, pemilik facebook profile tidak akan bisa melihat button ini....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/fbflirt.jpg)">
   <footer class="entry-footer">
+    <h3>Uhuk.. facebook &#34;ask&#34; buat gombalin cewek jomblo, lumayan neh</h3>
     <time>June 5, 2014</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2014/06/05/uhuk-facebook-ask-buat-gombalin-cewek-jomblo-lumayan-neh/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Mau punya Restoran di Facebook? Cekidot Gan!</h2>
-  </header>
-  <section class="entry-content">
-   <p>Kabar gembira buat lo semua yang baru aja memulai bisnis resto/cafe/rumah makan/warteg atau yang sejenisnya.
-Facebook baru2x aja merilis fitur baru dari Facebook Fan Pages dimana setiap user yang mempunyai facebook fan pages berkategorikan “Restaurant/Cafe” akan mempunyai opsi2x untuk menambahkan detil-detil tentang restoran yang dikelola oleh user tersebut.
-Opsi2x yang diberikan oleh facebook berupa,
- Menu Restoran bisa di upload melalui PDF atau kedepannya user bisa menggunakan akun di Constant Contact (*yg saat ini baru tersedia untuk user US/Canada) untuk menampilkan menu secara otomatis di facebook page user....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/fbresto.jpg)">
   <footer class="entry-footer">
+    <h3>Mau punya Restoran di Facebook? Cekidot Gan!</h3>
     <time>May 26, 2014</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2014/05/26/mau-punya-restoran-di-facebook-cekidot-gan/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Bicara soal &#34;People talking about this&#34;-nya Facebook fan page</h2>
-  </header>
-  <section class="entry-content">
-   <p>Wow topik lama nih, sumpah deh ga boong, kira-kira bulan Oktober tahun 2011 lalu, Facebook meluncurkan metrik baru buat Fan page insights yang namanya People talking about this ato biasa disingkat “PTAT” artinya berapa banyak orang yang ngomongin soal fan page lo. Banyak dari owner/admin dari fan page berpikiran bahwa ini merupakan salah satu ukuran seberapa besar user facebook engage dengan fan page-nya, tapi sebenernya PTAT itu tidak demikian, bahkan kalau gue bisa bilang, PTAT ga ada korelasi dengan engagement....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/fbptat.jpg)">
   <footer class="entry-footer">
+    <h3>Bicara soal &#34;People talking about this&#34;-nya Facebook fan page</h3>
     <time>December 12, 2013</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2013/12/12/bicara-soal-people-talking-about-this-nya-facebook-fan-page/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Mari berbagi soal Privasi di Sosial Media Online</h2>
-  </header>
-  <section class="entry-content">
-   <p>Sebelum kita ngomongin soal privasi di sosial media online, tentunya kita harus tau dulu bentukan dari sosial media itu atau “Apa sih sosial media itu?”, sebenernya mudah saja untuk semua orang mendefinisikan artian dari sosial media (*baca: SosMed), tapi pada intinya SosMed adalah sebuah wadah dimana semua member/pengguna/partisipan bisa membangun relasi dan koneksi dengan member lain, tempat dimana kita bisa selalu terhubung dengan teman2x, menjalin hubungan baru, berbagi interest dan ide....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/socialprivacy.jpg)">
   <footer class="entry-footer">
+    <h3>Mari berbagi soal Privasi di Sosial Media Online</h3>
     <time>November 7, 2013</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2013/11/07/mari-berbagi-soal-privasi-di-sosial-media-online/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Using Facebook Test User</h2>
-  </header>
-  <section class="entry-content">
-   <p>If you don’t know what Facebook Test User is? you may check the documentation on http://developers.facebook.com/docs/test_users/
-Test User is a tool that could be handy when you need to have some users to interact with your application, facebook currently provide this through Graph Api.
-I’ve made this simple php class consuming only facebook test account API, you may copy-paste from github
-Some example,
-$acc = new Facebook_TestAccount($appID,$Secret,$app_access_token); //Create N User $acc-&gt;createMany($_REQUEST[&#39;n&#39;],$parameter) //Delete All User created by App $acc-&gt;deleteAll() //Listing all user created by App Access Token $acc-&gt;access()  ...</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/facebookdev.jpg)">
   <footer class="entry-footer">
+    <h3>Using Facebook Test User</h3>
     <time>July 27, 2011</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2011/07/27/using-facebook-test-user/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Facebook PHP SDK v3.01 now free cookies</h2>
-  </header>
-  <section class="entry-content">
-   <p>Now the new SDK has been released, on the beginning of june 2011 I guess.
-Well the main different from v3.00 is? Now the CSRF state is rely on persistent data which is a session named “state” and not using cookie anymore!, and if you see on the constructor , it checks whether session already start yet, giving an option to start the session.
-Feel free to update, as usual the code rely on github...</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/facebookdev.jpg)">
   <footer class="entry-footer">
+    <h3>Facebook PHP SDK v3.01 now free cookies</h3>
     <time>July 6, 2011</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2011/07/06/facebook-php-sdk-v3-01-now-free-cookies/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Profil Facebook lo jadi lapak ? Migrasi deh ke fan page!</h2>
-  </header>
-  <section class="entry-content">
-   <p>Belakangan ini banyak banget yang akun facebook pribadinya dijadiin lapak buat jualan, kadang jadi suka bikin bingung temennya sendiri, karena biasanya namanya jadi bukan namanya sendiri. Nah, sekarang Facebook punya solusi yaitu Facebook Fan Page, yang bisa dipakai buat lapak.
-Akun facebook pribadi itu punya keterbatasan, seperti jumlah maksimal pertemanan mungkin hanya sekitar 5000 orang per akun, berbeda dengan facebook fan page yang unlimited bisa sampe berjuta-juta orang ditambah lagi facebook fan page juga menyediakan insights/analytic yang cukup canggih....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/facebookpage.jpg)">
   <footer class="entry-footer">
+    <h3>Profil Facebook lo jadi lapak ? Migrasi deh ke fan page!</h3>
     <time>June 24, 2011</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2011/06/24/profil-facebook-lo-jadi-lapak-migrasi-deh-ke-fan-page/"></a>
@@ -242,6 +205,11 @@ Akun facebook pribadi itu punya keterbatasan, seperti jumlah maksimal pertemanan
   <span>&middot;</span>
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
+<script>
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>
 </body>
 </html>
 

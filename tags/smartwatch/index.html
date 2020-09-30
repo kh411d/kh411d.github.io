@@ -81,6 +81,7 @@ if (!doNotTrack) {
 
     
     <script src="https://khal.web.id/bundle.js"></script>
+    <script src="https://khal.web.id/lazyload.min.js"></script>
   </head>
   <body class="list">
     <header class="header">
@@ -136,30 +137,18 @@ if (!doNotTrack) {
     <main class="main">     
 <header class="page-header"><h1>smartwatch</h1></header>
 
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>The Smartwatch that you need</h2>
-  </header>
-  <section class="entry-content">
-   <p>I had enough with all feature bloated smartwatch these days and I felt like to share my year’s experience using a smartwatch. Talking about features, what’s working and what’s not, and if it happens you’re in a smartwatch industry, I hope this is going to be your guide for the next product line.
-So these are the list of features from most important to the most useless.
-Longer battery life Believe me, who wants to charge their watch every day?...</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/20shadesmartwatch.jpg)">
   <footer class="entry-footer">
+    <h3>The Smartwatch that you need</h3>
     <time>August 6, 2018</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2018/08/06/20-Shades-of-Smartwatch/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Dreadful battery life, Is it a Smartwatch, a Cellphone or just another complicated gadget?</h2>
-  </header>
-  <section class="entry-content">
-   <p>Big smartwatch vendors keep pushing themself in the race of features. Features that sometimes I don’t get it, why would it have to?
-And then, it keeps me thinking. What exactly they are trying to make? Is it a watch? cellphone? medkit? G-SHOCK? spycam?
-Most of all, when all of that features are packed into a smartwatch, I bet you’re going to bother yourself charging your watch every day or in a matter of hours...</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/20shadesmartwatch.jpg)">
   <footer class="entry-footer">
+    <h3>Dreadful battery life, Is it a Smartwatch, a Cellphone or just another complicated gadget?</h3>
     <time>August 18, 2014</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2014/08/18/ahh-a-dreadful-battery-life-is-it-a-smartwatch-a-cellphone-or-just-another-complicated-gadget/"></a>
@@ -171,6 +160,11 @@ Most of all, when all of that features are packed into a smartwatch, I bet you�
   <span>&middot;</span>
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
+<script>
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>
 </body>
 </html>
 

@@ -81,6 +81,7 @@ if (!doNotTrack) {
 
     
     <script src="https://khal.web.id/bundle.js"></script>
+    <script src="https://khal.web.id/lazyload.min.js"></script>
   </head>
   <body class="list">
     <header class="header">
@@ -136,14 +137,10 @@ if (!doNotTrack) {
     <main class="main">     
 <header class="page-header"><h1>messaging</h1></header>
 
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Ngobrol unik bareng FireChat</h2>
-  </header>
-  <section class="entry-content">
-   <p>Ada yang baru nih, namanya Firechat, aplikasi chatting yang satu ini cukup unik dan bisa dibilang bermanfaat atau bisa dimanfaatkan … he he. Salah satu keunikannya adalah lo ga perlu registrasi sama sekali untuk menggunakan aplikasi ini…. haaaaahh trus gimana cara kita mo chatting sama temen, ha ha itu dia uniknya, disini semua pengguna Firechat adalah anonymous/alias tak dikenal/alias bisa ganteng bisa cakep/alias bisa maling bisa dukun, jadi intinya semua pengguna firechat disini hanya dikategorikan oleh posisi/lokasi dari si pengguna itu sendiri....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/firechat.jpg)">
   <footer class="entry-footer">
+    <h3>Ngobrol unik bareng FireChat</h3>
     <time>April 17, 2014</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2014/04/17/ngobrol-unik-bareng-firechat/"></a>
@@ -155,6 +152,11 @@ if (!doNotTrack) {
   <span>&middot;</span>
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
+<script>
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>
 </body>
 </html>
 

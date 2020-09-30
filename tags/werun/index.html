@@ -81,6 +81,7 @@ if (!doNotTrack) {
 
     
     <script src="https://khal.web.id/bundle.js"></script>
+    <script src="https://khal.web.id/lazyload.min.js"></script>
   </head>
   <body class="list">
     <header class="header">
@@ -136,15 +137,10 @@ if (!doNotTrack) {
     <main class="main">     
 <header class="page-header"><h1>werun</h1></header>
 
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Nike WeRun Jakarta 2013 #BajakJkt finisher</h2>
-  </header>
-  <section class="entry-content">
-   <p>Yay! 10000 finisher complete #bajakjkt #werun Lumayan jauh juga ternyata, kalo dari Nike plus gw, jarak yg tercatat sekitar 12 km,
-Race yg satu ini sebenernya udah termasuk murah, Rp.175ribu sudah beserta 2 T-Shirt original NikeRunning Dri Fit ( Race &amp; Finisher Tees ) plus Nike sport water Bottle-nya, dan race tag yg di pakai adalah tipe DTAG produksi dari ChronoTrack sebuah antena RFID untuk mencatat lap time/Nett Time dari para runner....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/werun2013.jpg)">
   <footer class="entry-footer">
+    <h3>Nike WeRun Jakarta 2013 #BajakJkt finisher</h3>
     <time>December 15, 2013</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2013/12/15/nike-werun-jakarta-2013-bajakjkt-finisher/"></a>
@@ -156,6 +152,11 @@ Race yg satu ini sebenernya udah termasuk murah, Rp.175ribu sudah beserta 2 T-Sh
   <span>&middot;</span>
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
+<script>
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>
 </body>
 </html>
 

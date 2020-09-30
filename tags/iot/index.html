@@ -81,6 +81,7 @@ if (!doNotTrack) {
 
     
     <script src="https://khal.web.id/bundle.js"></script>
+    <script src="https://khal.web.id/lazyload.min.js"></script>
   </head>
   <body class="list">
     <header class="header">
@@ -136,16 +137,10 @@ if (!doNotTrack) {
     <main class="main">     
 <header class="page-header"><h1>iot</h1></header>
 
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Apa sih IoT (Internet Of Things)</h2>
-  </header>
-  <section class="entry-content">
-   <p>Banyak orang yang menyadari bahwa internet itu sudah bisa menjadi jembatan untuk meningkatkan kualitas hidup seseorang secara keseluruhan.
-Bisa dilihat dari banyaknya dijual device/alat wearable seperti jam tangan, gelang, kacamata, sepatu yang notabene fungsi utama sebenarnya adalah monitoring
-IoT atau Internet of Things adalah sebuah sistem dimana di dalamnya terdapat satu atau lebih mikro komputer yang saling berkaitan, dan terhubung dengan beberapa objek (manusia, binatang, tumbuhan). Sistem tersebut juga menyediakan sebuah object unique indentifiers serta mempunyai kemampuan untuk mengirimkan atau menerima data melalui internet tanpa adanya campur tangan human-to-human atau interaksi human-to-computer....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/iotcover.jpg)">
   <footer class="entry-footer">
+    <h3>Apa sih IoT (Internet Of Things)</h3>
     <time>September 1, 2016</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2016/09/01/apa-sih-iot/"></a>
@@ -157,6 +152,11 @@ IoT atau Internet of Things adalah sebuah sistem dimana di dalamnya terdapat sat
   <span>&middot;</span>
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
+<script>
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>
 </body>
 </html>
 

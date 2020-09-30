@@ -81,6 +81,7 @@ if (!doNotTrack) {
 
     
     <script src="https://khal.web.id/bundle.js"></script>
+    <script src="https://khal.web.id/lazyload.min.js"></script>
   </head>
   <body class="list">
     <header class="header">
@@ -136,17 +137,10 @@ if (!doNotTrack) {
     <main class="main">     
 <header class="page-header"><h1>InternetExplorer</h1></header>
 
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>PNG fix for IE</h2>
-  </header>
-  <section class="entry-content">
-   <p>Thanks to Angus Turnbull who made this fix and made PNG image looks good on IE, these are two files that you need to implement,
- iepngfix.htc iepngfix_tilebg.js  Usage Include iepngfix.htc on your css style file
-&lt;pre name=&#34;code&#34; class=&#34;css&#34; &gt; *html img, *html #anydivid { behavior: url(style/iepngfix.htc); border:0; padding:0; } &lt;/pre&gt;  include this iepngfix_tilebg.js on you html header, it’s support transparent image on background position and repeat.
-More complete detail … you can check his website http://www....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url()">
   <footer class="entry-footer">
+    <h3>PNG fix for IE</h3>
     <time>May 4, 2009</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2009/05/04/PNG-fix-for-IE/"></a>
@@ -158,6 +152,11 @@ More complete detail … you can check his website http://www....</p>
   <span>&middot;</span>
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
+<script>
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>
 </body>
 </html>
 

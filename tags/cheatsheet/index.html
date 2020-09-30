@@ -81,6 +81,7 @@ if (!doNotTrack) {
 
     
     <script src="https://khal.web.id/bundle.js"></script>
+    <script src="https://khal.web.id/lazyload.min.js"></script>
   </head>
   <body class="list">
     <header class="header">
@@ -136,15 +137,10 @@ if (!doNotTrack) {
     <main class="main">     
 <header class="page-header"><h1>cheatsheet</h1></header>
 
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>The Markdown Rises</h2>
-  </header>
-  <section class="entry-content">
-   <p>It’s been a while, maybe a year since my last post, so I thought I have to at least write a post and hopefully going to be an easy read, so here I’m going to talk about the why, the what, and the how of the Markdown.
-What’s with the rises? Markdown is trending when Static Site Generators (SSG) are getting popular and becoming the next big thing of the Internet....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/themarkdownrises.png)">
   <footer class="entry-footer">
+    <h3>The Markdown Rises</h3>
     <time>September 8, 2020</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2020/09/08/The-Markdown-Rises/"></a>
@@ -156,6 +152,11 @@ What’s with the rises? Markdown is trending when Static Site Generators (SSG) 
   <span>&middot;</span>
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
+<script>
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>
 </body>
 </html>
 

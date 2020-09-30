@@ -81,6 +81,7 @@ if (!doNotTrack) {
 
     
     <script src="https://khal.web.id/bundle.js"></script>
+    <script src="https://khal.web.id/lazyload.min.js"></script>
   </head>
   <body class="list">
     <header class="header">
@@ -136,31 +137,18 @@ if (!doNotTrack) {
     <main class="main">     
 <header class="page-header"><h1>automation</h1></header>
 
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Aplikasi mobile IFTTT bakal bikin Android lo makin canggih!</h2>
-  </header>
-  <section class="entry-content">
-   <p>IFTTT adalah sebuah alat yang akan memudahkan otomatisasi kegiatan lo sehari-hari dengan dunia internet. Cara pemakaian IFTTT pun cukup mudah, sama sekali gak perlu ngerti IT banget. Sumpah gak boong :-)
-IFTTT baru-baru ini mengenalkan aplikasi untuk smartphone Android, yang nantinya berguna untuk meng-otomatisasi fitur smartphone seperti, sms, call, location, photo, dan notification.
-Banyak banget resep IFTTT yang bisa lo bikin, dari yang paling berguna buat hidup lo sampai yang paling absurd sekalipun...</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/ifttt.png)">
   <footer class="entry-footer">
+    <h3>Aplikasi mobile IFTTT bakal bikin Android lo makin canggih!</h3>
     <time>July 11, 2014</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2014/07/11/aplikasi-mobile-ifttt-bakal-bikin-android-lo-makin-canggih/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Cara nge-tweet otomatis</h2>
-  </header>
-  <section class="entry-content">
-   <p>Pada mulanya karena kebanyakan artikel yang gue baca berasal dari Google Reader,
- Gue males banget
- Kalo sharing lewat button share, soalnya ribet, begitu klik, login dulu facebook ato twitter, terus muncul popup, terus harus mencet lagi tombol send, belum lagi gue harus ngedit isi konten share-nya, terus aja terus.. Doh come on man! hari gini ribet 😫
-Nah, aplikasi pertama yang gue temukan adalah BufferApp, aplikasi ini dapat menampung semua tweet lo yang nantinya akan di publish otomatis berdasarkan jadwal publish yang sudah lo tentukan....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/ifttt.png)">
   <footer class="entry-footer">
+    <h3>Cara nge-tweet otomatis</h3>
     <time>September 5, 2012</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2012/09/05/rahasia-dibalik-otomatisasi-tweet-gue/"></a>
@@ -172,6 +160,11 @@ Nah, aplikasi pertama yang gue temukan adalah BufferApp, aplikasi ini dapat mena
   <span>&middot;</span>
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
+<script>
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>
 </body>
 </html>
 

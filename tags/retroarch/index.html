@@ -81,6 +81,7 @@ if (!doNotTrack) {
 
     
     <script src="https://khal.web.id/bundle.js"></script>
+    <script src="https://khal.web.id/lazyload.min.js"></script>
   </head>
   <body class="list">
     <header class="header">
@@ -136,15 +137,10 @@ if (!doNotTrack) {
     <main class="main">     
 <header class="page-header"><h1>retroarch</h1></header>
 
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>How to retro gaming with RetroArch</h2>
-  </header>
-  <section class="entry-content">
-   <p>Lately, I’ve been amazed by Retroarch, this is not like any other emulators, it can be played on any platform i.e. Linux, Windows, Blackberry, OSX, RaspberryPi, Android, iOS and also Xbox, Playstation, GameCube, Wii, 3DS. The cross-platform emulator is awesome, isn’t it?
-That’s not all, RetroArch can emulate a lot of gaming console starting from Atari, SEGA, Nintendo, GameCube, NDS, PSX, MAME, or even a game watch. It’s kinda like a bucket with a lot of game consoles inside....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/retroarchcover.jpg)">
   <footer class="entry-footer">
+    <h3>How to retro gaming with RetroArch</h3>
     <time>May 16, 2016</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2016/05/16/how-to-retro-gaming-with-retroarch/"></a>
@@ -156,6 +152,11 @@ That’s not all, RetroArch can emulate a lot of gaming console starting from At
   <span>&middot;</span>
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
+<script>
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>
 </body>
 </html>
 

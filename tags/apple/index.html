@@ -81,6 +81,7 @@ if (!doNotTrack) {
 
     
     <script src="https://khal.web.id/bundle.js"></script>
+    <script src="https://khal.web.id/lazyload.min.js"></script>
   </head>
   <body class="list">
     <header class="header">
@@ -136,15 +137,18 @@ if (!doNotTrack) {
     <main class="main">     
 <header class="page-header"><h1>apple</h1></header>
 
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>OS X El Capitan, taktik marketing terbaru Apple</h2>
-  </header>
-  <section class="entry-content">
-   <p>Setelah 4 tahun berlalu dari 2012 lalu sebagai pemakai produk Apple yakni Macbook Air mid 2011 OS X Lion dan sama sekali gak pernah upgrade OS (*baca Operating System) dikarenakan taktik Apple yg dari dulu memang lebih fokus ke jualan hardware dibanding efisiensi penggunaan hardware.
-Maksud gw cuman Apple sendiri yang jualan hardware melalui OS upgrade, alias kalo lo mau pake OS terbaru mending beli Macbook baru aja … WTF (*baca What The F**k) dikarenakan hardware Macbook lo yang lama udah gak dukung misal seperti kurang cepet lah cpu nya, kurang ram, harddisk blom ssd, dll....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/compactphonecover.jpg)">
   <footer class="entry-footer">
+    <h3>No Good Compact Phone is The Best Option</h3>
+    <time>September 30, 2020</time>
+  </footer>
+  <a class="entry-link" href="https://khal.web.id/2020/09/30/no-good-compact-phone-is-the-best-option/"></a>
+</article>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/el-cap-v-windows-10_thumb800.jpg)">
+  <footer class="entry-footer">
+    <h3>OS X El Capitan, taktik marketing terbaru Apple</h3>
     <time>January 13, 2016</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2016/01/13/os-x-el-capitan-taktik-marketing-terbaru-apple/"></a>
@@ -156,6 +160,11 @@ Maksud gw cuman Apple sendiri yang jualan hardware melalui OS upgrade, alias kal
   <span>&middot;</span>
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
+<script>
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>
 </body>
 </html>
 

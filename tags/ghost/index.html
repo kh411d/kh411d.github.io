@@ -81,6 +81,7 @@ if (!doNotTrack) {
 
     
     <script src="https://khal.web.id/bundle.js"></script>
+    <script src="https://khal.web.id/lazyload.min.js"></script>
   </head>
   <body class="list">
     <header class="header">
@@ -136,16 +137,10 @@ if (!doNotTrack) {
     <main class="main">     
 <header class="page-header"><h1>ghost</h1></header>
 
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Ada media blogging terbaru namanya ghost, ngintip yuk!</h2>
-  </header>
-  <section class="entry-content">
-   <p>Mungkin beberapa dari lo, sudah mendengar soal media blogging yang satu ini, Ghost pertama kali dicetuskan oleh John O’Nolan anggota dari Core Wordpress UI team. Berawal dari sebuah thread pada Hacker News membicarakan bagaimana sih seharusnya media blogging platform itu.
-Karena banyak mendapat respon yang cukup tinggi, proyek ini dimulai dengan menggunakan sebuah crowdfunding platform Kickstarter di pertengahan tahun 2013 untuk mencari seberapa besarkah minat para blogger.
-Hasil akhir dari crowdfunding tersebut cukup memuaskan, ada sekitar kurang lebih 5000 backers dan terkumpul dana sekitar US$190K ternyata masih banyak user yang memang membutuhkan sebuah media blogging yang memang hanya dikhususkan untuk blogging....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/ghostblogging.jpg)">
   <footer class="entry-footer">
+    <h3>Ada media blogging terbaru namanya ghost, ngintip yuk!</h3>
     <time>October 17, 2013</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2013/10/17/ada-media-blogging-terbaru-namanya-ghost/"></a>
@@ -157,6 +152,11 @@ Hasil akhir dari crowdfunding tersebut cukup memuaskan, ada sekitar kurang lebih
   <span>&middot;</span>
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
+<script>
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>
 </body>
 </html>
 

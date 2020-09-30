@@ -81,6 +81,7 @@ if (!doNotTrack) {
 
     
     <script src="https://khal.web.id/bundle.js"></script>
+    <script src="https://khal.web.id/lazyload.min.js"></script>
   </head>
   <body class="list">
     <header class="header">
@@ -136,28 +137,18 @@ if (!doNotTrack) {
     <main class="main">     
 <header class="page-header"><h1>telco</h1></header>
 
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Cara maksa 3G/HSPA di android kamu</h2>
-  </header>
-  <section class="entry-content">
-   <p>Pernah gak suatu ketika henpon kamu secara otomatis hanya menggunakan jaringan 2G padahal jaringan 3G nya available meskipun mungkin sinyal 3G nya hanya sekitar 5%. Hal ini juga yg menyebabkan pulsa kamu dimakan oleh provider telco dikarenakan paket data yg kamu beli hanya berguna untuk 3G saja.
-Hmm… kenapa begitu ya? Ini dikarenakan kebanyakan henpon android sekarang yg mempunyai mode pengaturan untuk 2G atau 3G sebenarnya ketika kita pilih misal 3G bukan berarti henpon akan melakukan koneksi ke 3G saja, melainkan lebih ke 3G preferred, artinya ketika sinyal 3G kurang kuat misal dibawah 10%, henpon akan melakukan koneksi 2G/edge, padahal sinyal 3Gnya masih bisa dipakai, annoying bukan!...</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/3gonlyplease.jpg)">
   <footer class="entry-footer">
+    <h3>Cara maksa 3G/HSPA di android kamu</h3>
     <time>December 20, 2015</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2015/12/20/cara-maksa-3ghspa-only-di-android-kamu/"></a>
 </article>
-<article class="post-entry">
-  <header class="entry-header">
-    <h2>Ulah nakal ISP praktik clickjacking</h2>
-  </header>
-  <section class="entry-content">
-   <p>Beberapa ISP di indonesia tanpa konsumen sadari sebenarnya sangat sering melakukan praktik clickjacking hampir di semua website yg konsumen kunjungi, alasan ISP melakukan hal ini tidak lain adalah penempatan iklan gratis dari ISP tersebut tanpa sepengetahuan si empunya website.
-Lalu, bagaimanakah cara kerja clickjacking ini? Ketika user mengunjungi sebuah website misal “Forbes .com”, ISP akan membungkus “Forbes .com” dalam sebuah iframe yang lalu ditampilkan pada browser user, bagian luar iframe biasanya akan menampilkan baner iklan liar dari ISP tersebut....</p>
-  </section>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/framebusting.png)">
   <footer class="entry-footer">
+    <h3>Ulah nakal ISP praktik clickjacking</h3>
     <time>April 19, 2015</time>
   </footer>
   <a class="entry-link" href="https://khal.web.id/2015/04/19/ulah-nakal-isp-praktik-browser-frame-busting/"></a>
@@ -169,6 +160,11 @@ Lalu, bagaimanakah cara kerja clickjacking ini? Ketika user mengunjungi sebuah w
   <span>&middot;</span>
   <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
+<script>
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>
 </body>
 </html>
 
