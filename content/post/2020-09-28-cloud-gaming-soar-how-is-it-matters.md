@@ -1,7 +1,7 @@
 ---
 comments: true	# set false to hide Disqus
 date: 2020-09-28T07:31:36+07:00
-image: /images/gamingcover.jpg
+image: /images/cloudgamingcover2.jpg
 share: true	# set false to hide share buttons
 tags: ["gaming","cloudgaming"]
 title: Cloud gaming soar, how is it matters?
