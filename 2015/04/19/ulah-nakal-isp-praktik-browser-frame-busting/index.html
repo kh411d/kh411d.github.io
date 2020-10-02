@@ -176,11 +176,20 @@ if (!doNotTrack) {
 </div><div class="post-content">
     <p>Beberapa ISP di indonesia tanpa konsumen sadari sebenarnya sangat sering melakukan praktik <em>clickjacking</em> hampir di semua website yg konsumen kunjungi, alasan ISP melakukan hal ini tidak lain adalah penempatan iklan gratis dari ISP tersebut tanpa sepengetahuan si empunya website.</p>
 <p>Lalu, bagaimanakah cara kerja <em>clickjacking</em> ini? Ketika <em>user</em> mengunjungi sebuah website misal &ldquo;Forbes .com&rdquo;, ISP akan membungkus &ldquo;Forbes .com&rdquo; dalam sebuah <em>iframe</em> yang lalu ditampilkan pada browser <em>user</em>, bagian luar iframe biasanya akan menampilkan baner iklan liar dari ISP tersebut.</p>
-<p><img src="/images/wpid-img_20150419_144851.jpg" alt="image" title="IMG_20150419_144851.jpg"></p>
+<p><figure>
+    <img src="/images/wpid-img_20150419_144851.jpg" alt="image">
+    <figcaption style="font-size:0.6em">IMG_20150419_144851.jpg</figcaption>
+  </figure></p>
 <p>Ada juga cara iklan ISP yang lebih frontal lagi dengan cara <em>overlaying</em> browser <em>user</em> dengan sebuah ads dari ISP tersebut.</p>
-<p><img src="/images/wpid-img_20150419_152923.jpg" alt="image" title="IMG_20150419_152923.jpg"></p>
+<p><figure>
+    <img src="/images/wpid-img_20150419_152923.jpg" alt="image">
+    <figcaption style="font-size:0.6em">IMG_20150419_152923.jpg</figcaption>
+  </figure></p>
 <p>Tentunya ada beberapa website yg telah menerapkan mekanisme untuk mencegah <em>clickjacking</em>, salah satunya adalah <a href="http://stackoverflow.com" target="_blank">Stackoverflow.com</a>.</p>
-<p><img src="/images/wpid-img_20150419_151511.jpg" alt="image" title="IMG_20150419_151511.jpg"></p>
+<p><figure>
+    <img src="/images/wpid-img_20150419_151511.jpg" alt="image">
+    <figcaption style="font-size:0.6em">IMG_20150419_151511.jpg</figcaption>
+  </figure></p>
 <p>Ketika situs ini dibuka, situs akan menotifikasi konsumen adanya framing.</p>
 <p>Di dalam thread ini <em><a href="http://stackoverflow.com/questions/958997/frame-buster-buster-buster-code-needed" target="_blank">Frame Buster Buster … buster code needed</a></em> ada beberapa cara yang bisa kamu coba agar praktik frame busting tidak terjadi pada situs kamu.</p>
 <p><a href="https://cheatsheetseries.owasp.org/cheatsheets/Clickjacking_Defense_Cheat_Sheet.html" target="_blank">Clickjacking Defense Cheat Sheet</a></p>

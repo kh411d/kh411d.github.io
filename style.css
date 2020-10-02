@@ -147,6 +147,7 @@ img {
   background-size: cover;
   height: 65vh;
   min-height: 180px;
+  position: relative;
 }
 @media (max-width: 768px) {
   .post-head.header {
@@ -165,6 +166,16 @@ img {
 .nav a {
   display: block;
   line-height: var(--header-height);
+}
+.imagecc {
+  color:white;
+  position: absolute;
+  right: 0;
+  font-size: 0.5em;
+  padding: 2px;
+  background-color: black;
+  border-radius: 3px;
+  bottom: 0;
 }
 .logo,
 .menu {
