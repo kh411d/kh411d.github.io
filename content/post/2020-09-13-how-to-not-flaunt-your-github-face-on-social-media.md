@@ -29,7 +29,7 @@ Yes, the image of the card doesn't illustrate the post that you've shared and do
 
 It makes more sense right? Yes, because the image that I used is kinda telling a story to the post I shared. As another example, you can see the big image at the top of this article.
 
-#### How do you do it?
+## How do you do it?
 
 On the Github repository setting, you may upload your image on the __Social preview__ option, images should be at least 640x320px (1280x640px for best display), after the image uploaded, try your repo link first on the URL linter correspond to social media that you are willing to use.
 
