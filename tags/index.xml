@@ -8,10 +8,37 @@
     <language>en-us</language>
     <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
     <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
-    <lastBuildDate>Wed, 30 Sep 2020 12:00:00 +0700</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2020 09:30:48 +0700</lastBuildDate>
     
 	<atom:link href="https://khal.web.id/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>coronavirus</title>
+      <link>https://khal.web.id/tags/coronavirus/</link>
+      <pubDate>Fri, 02 Oct 2020 09:30:48 +0700</pubDate>
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <guid>https://khal.web.id/tags/coronavirus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>qrcodes</title>
+      <link>https://khal.web.id/tags/qrcodes/</link>
+      <pubDate>Fri, 02 Oct 2020 09:30:48 +0700</pubDate>
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <guid>https://khal.web.id/tags/qrcodes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>world</title>
+      <link>https://khal.web.id/tags/world/</link>
+      <pubDate>Fri, 02 Oct 2020 09:30:48 +0700</pubDate>
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <guid>https://khal.web.id/tags/world/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>apple</title>
@@ -145,15 +172,6 @@
       <pubDate>Thu, 24 Sep 2020 04:58:35 +0700</pubDate>
       <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>coronavirus</title>
-      <link>https://khal.web.id/tags/coronavirus/</link>
-      <pubDate>Thu, 24 Sep 2020 04:58:35 +0700</pubDate>
-      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
-      <guid>https://khal.web.id/tags/coronavirus/</guid>
       <description></description>
     </item>
     
