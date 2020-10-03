@@ -1,7 +1,6 @@
 ---
 comments: true	# set false to hide Disqus
 date: 2020-10-02T09:30:48+07:00
-draft: true
 image: /images/nzcovidtracercover.jpg
 imagecc: "www.nhpr.org (JOE ALLISON / AP)"
 menu: 		# set "main" to add this content to the main menu

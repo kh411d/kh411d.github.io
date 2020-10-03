@@ -3,18 +3,28 @@ date: 2014-02-17T11:43:31+07:00
 tags: ["flow","design"]
 title: 'Bicara "Flow" kreatifitas dalam segi internet, teknologi, dan keseharian '
 url: /2014/02/17/bicara-flow-kreatifitas-dalam-segi-internet-teknologi-dan-keseharian/
-image: /images/flow.jpg
+image: /images/tapflow.jpg
 ---
 
-Flow yang dimaksud disini adalah sebuah desain psikologis yang menggunakan kondisi mental dan kejiwaan dari seseorang, bagaimana dan mengapa seseorang bisa mencurahkan segala fokus dan konsentrasi dalam satu aktivitas dengan jangka waktu yang sangat lama tanpa merasa bosan, _enjoy_ dan bahkan menjadi ketagihan.
+Flow disini adalah sebuah desain psikologis yang menggunakan kondisi mental dan kejiwaan dari seseorang. Bagaimana dan mengapa seseorang bisa mencurahkan segala fokus dan konsentrasinya dalam satu aktivitas, dengan jangka waktu yang sangat lama, tanpa merasa bosan, _enjoy_ dan bahkan menjadi ketagihan.
 
-Konsep ini diperkenalkan oleh seorang professor dari Univ. Chicago, Mihaly Csikszentmihalyi. Dalam sebuah wawancaranya dengan Wired Magazine di tahun 1996 [Go With The Flow](https://www.wired.com/1996/09/czik/), menurutnya, sebuah website yg menerapkan konsep flow bisa dibayangkan seperti _Gourmet_, yakni masakan bercita rasa tinggi yang di sajikan secara eksklusif, dimulai dengan hidangan pembuka, utama sampai penutup. 
+Konsep ini diperkenalkan oleh seorang professor dari Univ. Chicago, Mihaly Csikszentmihalyi dalam sebuah wawancaranya dengan Wired Magazine di tahun 1996 [Go With The Flow](https://www.wired.com/1996/09/czik/). 
 
-Sayangnya banyak website dibuat seperti _kafetaria/prasmanan_, pilih semaunya, klik semaunya, _Web designer_ berasumsi pengunjung sudah tahu apa yang harus dipilih, padahal pengunjung berharap untuk diarahkan ke suatu tempat dan segera mendapatkan apa yang mereka cari. Jadi yang ditekankan disini adalah bukanlah tentang menavigasi konten, akan tetapi _experience_ pengunjung.
+Beliau berpendapat bahwa sebuah website yg menerapkan konsep flow bisa dibayangkan seperti _Gourmet_, yakni masakan bercita rasa tinggi yang di sajikan secara eksklusif, dimulai dengan hidangan pembuka, utama sampai penutup. 
+
+![web wireframe sketch](/images/webwireframe.jpg)
+
+Sayangnya banyak website dibuat seperti _kafetaria/prasmanan_, pilih semaunya, klik semaunya, dll. _Web designer_ berasumsi pengunjung sudah tahu apa yang harus dipilih, padahal pengunjung berharap untuk diarahkan agar segera mendapatkan apa yang mereka cari. 
+
+Jadi yang ditekankan disini adalah bukan tentang navigasi konten, akan tetapi adalah _user journey_ pengunjung dalam sebuah website.
 
 > “The best moments in our lives are not the passive, receptive, relaxing times . . . The best moments usually occur if a person’s body or mind is stretched to its limits in a voluntary effort to accomplish something difficult and worthwhile” (Csikszentmihalyi, 1990).
 
-Kalo dilihat dalam kehidupan sehari-hari, secara tidak sadar sebenarnya banyak kegiatan yang secara tidak langsung menerapkan konsep flow ini, contoh, misalnya dari mencukur jenggot, setrika baju, gitaran, masak, jahit, menyusun _puzzle piece_, merangkai LEGO, dll. Ini adalah hal-hal sederhana yang bisa membuat orang lupa waktu karena fokus dan perhatian tercurahkan sepenuhnya pada aktivitas tersebut.
+Dalam kehidupan sehari-hari banyak kegiatan yang secara tidak langsung menerapkan konsep _Flow_ ini, misalnya dari kita mencukur jenggot, menyetrika baju, bermain gitar, memasak, menjahit, bermain _puzzle piece_, merakit Tamiya, merangkai LEGO, dll. 
+
+Ini merupakan hal-hal sederhana yang bisa membuat orang lupa waktu karena fokus dan perhatian tercurahkan sepenuhnya pada aktivitas tersebut.
+
+![kids play block](/images/kidsplayblock.jpg "School photo created by standret - www.freepik.com")
 
 Csikszentmihalyi menjelaskan bagaimana seseorang bisa mencapai keadaan tersebut,
 
@@ -23,14 +33,22 @@ Csikszentmihalyi menjelaskan bagaimana seseorang bisa mencapai keadaan tersebut,
 3. Tidak boleh ada gangguan yang bisa membuat seseorang sadar bahwa ia sedang mengerjakan misi tersebut.
 4. Adanya keseimbangan antara kesulitan dari sebuah misi dengan keahlian seseorang, sehingga orang tersebut yakin bahwa ia bisa melakukan misi tersebut.
 
-Ketika tingkat kemampuan dari seseorang terlalu rendah dan tingkat kesulitan dari sebuah misi terlalu tinggi, maka dalam diri orang tersebut akan timbul keraguan untuk meneruskan misi tersebut, sebaliknya jika tantangan terlalu mudah dan kemampuan yang dimiliki orang tersebut terlalu tinggi maka akan timbul kebosanan yang membuat orang tersebut malas untuk menyelesaikan misinya.
+Ketika tingkat kemampuan dari seseorang terlalu rendah dan tingkat kesulitan dari sebuah misi terlalu tinggi, maka dalam diri orang tersebut akan timbul keraguan untuk meneruskan misi tersebut. 
+
+Sebaliknya jika tantangan terlalu mudah dan kemampuan yang dimiliki orang tersebut terlalu tinggi maka akan timbul kebosanan yang membuat orang tersebut malas untuk menyelesaikan misinya.
 
 Flow dalam sebuah aktivitas bisa dicapai ketika tingkat kesulitan dan kemampuan seseorang mempunyai keseimbangan/sebanding, seperti bisa dilihat pada ilustrasi dibawah ini.
 
 ![gamasutraflow](/images/gamasutraflow.png)
 
-Desain Flow ini banyak diterapkan dalam beberapa aplikasi _gaming_, bisa kita lihat _Flappy Bird_ yang belakangan marak banget, menurut gue game ini cukup berhasil dalam menerapkan desain Flow karena _simplicity_-nya. Mungkin ada yang tertarik mencoba versi web-nya? [flappybird.io](https://flappybird.io/)
+Konsep Flow ini banyak diterapkan dalam beberapa aplikasi _gaming_, contohnya bisa kita lihat pada _Flappy Bird_ yang belakangan marak sekali, game ini cukup berhasil dalam menerapkan konsep Flow karena _simplicity_-nya. Buat kamu yang belum pernah mencoba game ini mungkin ada yang tertarik untuk mencoba versi unofficial web-nya? [flappybird.io](https://flappybird.io/)
 
 ![flappy bird fly](/images/flappybird.png)
 
-Sebenernya apa sih yang menarik dari _Flappy Bird_ ini, kalo gue bilang sih gak ada yang terlalu menarik, dari segi _graphic/gameplay_ ya begitu-begitu saja, akan tetapi _developer_ dari game ini berhasil menerapkan desain Flow didalamnya. Kalo kita lihat pada _in-game experience_, game ini memiliki _clear and simple mission_, _instant goal_, _so easy and everyone would do it_, yang tentunya sudah cukup untuk membuat orang penasaran dan ketagihan.
+Sebenarnya apa yang menarik dari game _Flappy Bird_ ini? Kalau dilihat dari segi grafis dan _gameplay_-nya, ya memang begitu-begitu saja, akan tetapi _developer_ dari game ini tampaknya berhasil memasukkan unsur Flow didalamnya. 
+
+Jika kita lihat lagi, game ini memiliki misi dan _goal_ yang sangat sederhana, game ini pun tidak membutuhkan skill khusus dari tiap pemainnya, hampir setiap orang bisa memainkannya.
+
+Dan sepertinya, tingkat kesulitan dari game ini dapat diimbangi dengan kemampuan para pemain, sehingga bisa membuat pemain cukup penasaran, terus mencoba, dan mencoba hingga mencapai skor tertinggi. 
+
+Versi terbaru game FlappyBird saat ini hanya terdapat di Amazon app store [Flappy Birds Family](https://www.amazon.com/DOTGEARS-Flappy-Birds-Family/dp/B00MA6FBMY)
