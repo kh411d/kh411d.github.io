@@ -173,13 +173,23 @@ if (!doNotTrack) {
     <p>A simple way to know people likes and comment on your post or other people post is through Comment Graph Api, you will need an access token to use it, this might be useful when you want to count the total of people who likesyour post.</p>
 <p>Every post on your News Feed (Photos, Photo Album, Video, Status, notes) will have an fbid that you can use it for the Comment Graph Api, take a look with firebug for fbid if you want to check it.</p>
 <p>test that fbid ,</p>
-<pre><code>//Getting All Comment Detail and items
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-html" data-lang="html">//Getting All Comment Detail and items
 https://graph.facebook.com/[fbid]/?access_token=xxxxxxxxxxxxxxxxxxxxxxxxxx
 
 //Getting People who likes the post
 https://graph.facebook.com/[fbid]/likes/?access_token=xxxxxxxxxxxxxxxxxxxxxxxxxx
-</code></pre>
-<p>So everytime you make some simple quiz on facebook that required people to like or comment on participant post, now you can check it with the graph api.</p>
+</code></pre></td></tr></table>
+</div>
+</div><p>So everytime you make some simple quiz on facebook that required people to like or comment on participant post, now you can check it with the graph api.</p>
 
   </div>
 <section class="share-footer">
@@ -216,11 +226,9 @@ https://graph.facebook.com/[fbid]/likes/?access_token=xxxxxxxxxxxxxxxxxxxxxxxxxx
   
 </article></main>
 <footer class="footer">
-  <span>&copy; 2020 <a href="https://khal.web.id/">Khalid&#39;s Blog</a></span>
+  <span>&copy; 2009 - 2020 <a href="https://khal.web.id/">Khalid&#39;s Blog</a></span>
   <span>&middot;</span>
   <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
-  <span>&middot;</span>
-  <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
 <script>
   var lazyLoadInstance = new LazyLoad({

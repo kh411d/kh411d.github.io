@@ -8,7 +8,7 @@
     <meta name="twitter:title" content="Iframe on Facebook Fan Pages Tabs"/>
     <meta name="twitter:description" content="Iframe will not be supported on facebook fan pages tab, the strange thing is, it only happened on first load and the you&rsquo;ll get this error iframe not supported
 I just figured out that apps on Fan Pages Tab need an action from user, so then to get an iframe working on tab,
- In your Tab Url file i.e. index.php, create a href tag, that will link to somefile.php"/>
+ In your Tab Url file i.e. index.php, create a href tag, that will link to somefile.php 1  &lt;a href=&#34;somefile."/>
     <meta name="twitter:site" content="@khalidity"/>
     
     
@@ -29,7 +29,7 @@ I just figured out that apps on Fan Pages Tab need an action from user, so then 
     
     <meta property="og:description" content="Iframe will not be supported on facebook fan pages tab, the strange thing is, it only happened on first load and the you&rsquo;ll get this error iframe not supported
 I just figured out that apps on Fan Pages Tab need an action from user, so then to get an iframe working on tab,
- In your Tab Url file i.e. index.php, create a href tag, that will link to somefile.php" />
+ In your Tab Url file i.e. index.php, create a href tag, that will link to somefile.php 1  &lt;a href=&#34;somefile." />
   	<meta property="og:type" content="article" />
     <meta property="article:published_time" content="2010-07-20T09:47:33&#43;07:00" />
 
@@ -46,7 +46,7 @@ I just figured out that apps on Fan Pages Tab need an action from user, so then 
     
     <meta name="description" content="Iframe will not be supported on facebook fan pages tab, the strange thing is, it only happened on first load and the you&rsquo;ll get this error iframe not supported
 I just figured out that apps on Fan Pages Tab need an action from user, so then to get an iframe working on tab,
- In your Tab Url file i.e. index.php, create a href tag, that will link to somefile.php">
+ In your Tab Url file i.e. index.php, create a href tag, that will link to somefile.php 1  &lt;a href=&#34;somefile.">
     <meta name="author" content="Khalid Adisendjaja">
     
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
@@ -176,31 +176,74 @@ if (!doNotTrack) {
     <p>Iframe will not be supported on facebook fan pages tab, the strange thing is, it only happened on first load and the you&rsquo;ll get this error <code>iframe not supported</code></p>
 <p>I just figured out that apps on Fan Pages Tab need an action from user, so then to get an iframe working on tab,</p>
 <ol>
-<li>In your Tab Url file i.e. <code>index.php</code>, create a href tag, that will link to <code>somefile.php</code><br>
-<code>&lt;a href=&quot;somefile.php&quot;&gt;Click here to begin&lt;/a&gt;</code></li>
-<li>Edit your somefile.php and insert <code>&lt;iframe&gt;</code> tag or <code>&lt;fb:iframe/&gt;</code> tag<br>
-<code>&lt;fb:iframe src=&quot;&quot; width=&quot;&quot; height=&quot;&quot; /&gt;</code></li>
+<li>In your Tab Url file i.e. <code>index.php</code>, create a href tag, that will link to <code>somefile.php</code>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;somefile.php&#34;</span><span class="p">&gt;</span>Click here to begin<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+</code></pre></td></tr></table>
+</div>
+</div></li>
+<li>Edit your somefile.php and insert <code>&lt;iframe&gt;</code> tag or <code>&lt;fb:iframe/&gt;</code> tag
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">fb:iframe</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;&#34;</span> <span class="na">width</span><span class="o">=</span><span class="s">&#34;&#34;</span> <span class="na">height</span><span class="o">=</span><span class="s">&#34;&#34;</span> <span class="p">/&gt;</span>
+</code></pre></td></tr></table>
+</div>
+</div></li>
 <li>You might want to make a dummy loading image, just to attract user to click the image,
-<pre><code>   &lt;img src=&quot;url to loading image&quot; /&gt;
-   &lt;a href=&quot;somefile.php&quot;&gt;Click here to begin&lt;/a&gt;
-</code></pre></li>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-html" data-lang="html">   <span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;url to loading image&#34;</span> <span class="p">/&gt;</span>
+   <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;somefile.php&#34;</span><span class="p">&gt;</span>Click here to begin<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+</code></pre></td></tr></table>
+</div>
+</div></li>
 </ol>
 <p>Alternatively using FBJS as shown in this article, <a href="http://jesperastrom.com/facebook/2-simple-hacks-to-create-an-iframe-on-a-facebook-fan-page-tab/" target="_blank">2 simple hacks to create an iframe on a facebook fan page tab</a></p>
 <p>The script from the article look like this,</p>
-<pre><code>&lt;a onClick=&quot;outside_location.setInnerFBML(location_two);&quot; style=&quot;cursor: pointer;&quot;&gt;
-  Click here to launch game.
-  &lt;div id=&quot;outside_location&quot;&gt;
-     &lt;img src='[Enter a url to an image here]' /&gt;&lt;br /&gt; &lt;fb:iframe width=&quot;760&quot; height=&quot;760&quot; frameborder=&quot;0&quot; src=&quot;http://www.facebook.com/MotherStore&quot; /&gt; 
-  &lt;/div&gt;
-&lt;/a&gt;
-
-&lt;fb:js-string var=&quot;location_two&quot;&gt;
-     &lt;fb:iframe width=&quot;[With of iFrame]&quot; height=&quot;[Height of iFrame]&quot; style='margin-top: -50px; margin-left: -40px; margin-bottom: -40px; margin-right: -50px;' frameborder='0' src='[Enter the source of the iFrame here]' scrolling='no' /&gt;
-&lt;/fb:js-string&gt;
-
-&lt;script type=&quot;text/javascript&quot; charset=&quot;utf-8&quot;&gt;
-var outside_location = document.getElementById('outside_location');</code></pre>
-
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript">    <span class="o">&lt;</span><span class="nx">a</span> <span class="nx">onClick</span><span class="o">=</span><span class="s2">&#34;outside_location.setInnerFBML(location_two);&#34;</span> <span class="nx">style</span><span class="o">=</span><span class="s2">&#34;cursor: pointer;&#34;</span><span class="o">&gt;</span>
+      <span class="nx">Click</span> <span class="nx">here</span> <span class="nx">to</span> <span class="nx">launch</span> <span class="nx">game</span><span class="p">.</span>
+      <span class="o">&lt;</span><span class="nx">div</span> <span class="nx">id</span><span class="o">=</span><span class="s2">&#34;outside_location&#34;</span><span class="o">&gt;</span>
+         <span class="o">&lt;</span><span class="nx">img</span> <span class="nx">src</span><span class="o">=</span><span class="s1">&#39;[Enter a url to an image here]&#39;</span> <span class="o">/&gt;&lt;</span><span class="nx">br</span> <span class="o">/&gt;</span> <span class="o">&lt;</span><span class="nx">fb</span><span class="o">:</span><span class="nx">iframe</span> <span class="nx">width</span><span class="o">=</span><span class="s2">&#34;760&#34;</span> <span class="nx">height</span><span class="o">=</span><span class="s2">&#34;760&#34;</span> <span class="nx">frameborder</span><span class="o">=</span><span class="s2">&#34;0&#34;</span> <span class="nx">src</span><span class="o">=</span><span class="s2">&#34;http://www.facebook.com/MotherStore&#34;</span> <span class="o">/&gt;</span> 
+      <span class="o">&lt;</span><span class="err">/div&gt;</span>
+    <span class="o">&lt;</span><span class="err">/a&gt;</span>
+   
+    <span class="o">&lt;</span><span class="nx">fb</span><span class="o">:</span><span class="nx">js</span><span class="o">-</span><span class="nx">string</span> <span class="kd">var</span><span class="o">=</span><span class="s2">&#34;location_two&#34;</span><span class="o">&gt;</span>
+         <span class="o">&lt;</span><span class="nx">fb</span><span class="o">:</span><span class="nx">iframe</span> <span class="nx">width</span><span class="o">=</span><span class="s2">&#34;[With of iFrame]&#34;</span> <span class="nx">height</span><span class="o">=</span><span class="s2">&#34;[Height of iFrame]&#34;</span> <span class="nx">style</span><span class="o">=</span><span class="s1">&#39;margin-top: -50px; margin-left: -40px; margin-bottom: -40px; margin-right: -50px;&#39;</span> <span class="nx">frameborder</span><span class="o">=</span><span class="s1">&#39;0&#39;</span> <span class="nx">src</span><span class="o">=</span><span class="s1">&#39;[Enter the source of the iFrame here]&#39;</span> <span class="nx">scrolling</span><span class="o">=</span><span class="s1">&#39;no&#39;</span> <span class="o">/&gt;</span>
+    <span class="o">&lt;</span><span class="err">/fb:js-string&gt;</span>
+   
+    <span class="o">&lt;</span><span class="nx">script</span> <span class="nx">type</span><span class="o">=</span><span class="s2">&#34;text/javascript&#34;</span> <span class="nx">charset</span><span class="o">=</span><span class="s2">&#34;utf-8&#34;</span><span class="o">&gt;</span>
+    <span class="kd">var</span> <span class="nx">outside_location</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s1">&#39;outside_location&#39;</span><span class="p">);</span>
+</code></pre></td></tr></table>
+</div>
+</div>
   </div>
 <section class="share-footer">
   <h6 style="color:var(--secondary);">Share this post</h6>
@@ -236,11 +279,9 @@ var outside_location = document.getElementById('outside_location');</code></pre>
   
 </article></main>
 <footer class="footer">
-  <span>&copy; 2020 <a href="https://khal.web.id/">Khalid&#39;s Blog</a></span>
+  <span>&copy; 2009 - 2020 <a href="https://khal.web.id/">Khalid&#39;s Blog</a></span>
   <span>&middot;</span>
   <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
-  <span>&middot;</span>
-  <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
 <script>
   var lazyLoadInstance = new LazyLoad({

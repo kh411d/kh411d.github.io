@@ -7,17 +7,15 @@
     
     <meta name="twitter:title" content="path_info or orig_path_info"/>
     <meta name="twitter:description" content="The story begin when I was migrating my Codeigniter app from php4 to php5 hosting environment and then I change the uri_protocol config,
-$config[&#39;uri_protocol&#39;] = &quot;PATH_INFO&quot;;  And then the app crashed!?? I had to debug the code for quite sometimes 😫
-Debugging the $_SERVER variable, and turns out the PATH_INFO variable wasn&rsquo;t exist, but the ORIG_PATH_INFO variable is exist, hmm is it the PHP version problem?
-So then I found this article path_info, orig_path_info, apache and php, well I guess that explained very well, on his condition mentioned in the article, the problem happened when he use ."/>
+1  $config[&#39;uri_protocol&#39;] = &#34;PATH_INFO&#34;;   And then the app crashed!?? I had to debug the code for quite sometimes 😫
+Debugging the $_SERVER variable, and turns out the PATH_INFO variable wasn&rsquo;t exist, but the ORIG_PATH_INFO variable is exist, hmm is it the PHP version problem?"/>
     <meta name="twitter:site" content="@khalidity"/>
     
     
     
       
-        <meta name="twitter:card" content="summary_large_image"/>
-        <meta name="twitter:image" content="https://khal.web.id/images/sidebar.jpg"/>
-      
+      <meta name="twitter:card" content="summary_large_image"/>
+      <meta name="twitter:image" content="https://khal.web.id/images/codeigniter.jpg"/>
     
 
   	<meta property="og:title" content="path_info or orig_path_info &middot; Khalid&#39;s Blog" />
@@ -25,16 +23,13 @@ So then I found this article path_info, orig_path_info, apache and php, well I g
   	<meta property="og:url" content="https://khal.web.id/2010/08/10/path_info-or-orig_path_info/" />
 
     
-        
-            <meta property="og:image" content="/images/sidebar.jpg"/>
-        
+       <meta property="og:image" content="/images/codeigniter.jpg"/>
     
 
     
     <meta property="og:description" content="The story begin when I was migrating my Codeigniter app from php4 to php5 hosting environment and then I change the uri_protocol config,
-$config[&#39;uri_protocol&#39;] = &quot;PATH_INFO&quot;;  And then the app crashed!?? I had to debug the code for quite sometimes 😫
-Debugging the $_SERVER variable, and turns out the PATH_INFO variable wasn&rsquo;t exist, but the ORIG_PATH_INFO variable is exist, hmm is it the PHP version problem?
-So then I found this article path_info, orig_path_info, apache and php, well I guess that explained very well, on his condition mentioned in the article, the problem happened when he use ." />
+1  $config[&#39;uri_protocol&#39;] = &#34;PATH_INFO&#34;;   And then the app crashed!?? I had to debug the code for quite sometimes 😫
+Debugging the $_SERVER variable, and turns out the PATH_INFO variable wasn&rsquo;t exist, but the ORIG_PATH_INFO variable is exist, hmm is it the PHP version problem?" />
   	<meta property="og:type" content="article" />
     <meta property="article:published_time" content="2010-08-10T09:30:57&#43;07:00" />
 
@@ -50,9 +45,8 @@ So then I found this article path_info, orig_path_info, apache and php, well I g
     <title>path_info or orig_path_info - Khalid&#39;s Blog</title>
     
     <meta name="description" content="The story begin when I was migrating my Codeigniter app from php4 to php5 hosting environment and then I change the uri_protocol config,
-$config[&#39;uri_protocol&#39;] = &quot;PATH_INFO&quot;;  And then the app crashed!?? I had to debug the code for quite sometimes 😫
-Debugging the $_SERVER variable, and turns out the PATH_INFO variable wasn&rsquo;t exist, but the ORIG_PATH_INFO variable is exist, hmm is it the PHP version problem?
-So then I found this article path_info, orig_path_info, apache and php, well I guess that explained very well, on his condition mentioned in the article, the problem happened when he use .">
+1  $config[&#39;uri_protocol&#39;] = &#34;PATH_INFO&#34;;   And then the app crashed!?? I had to debug the code for quite sometimes 😫
+Debugging the $_SERVER variable, and turns out the PATH_INFO variable wasn&rsquo;t exist, but the ORIG_PATH_INFO variable is exist, hmm is it the PHP version problem?">
     <meta name="author" content="Khalid Adisendjaja">
     
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
@@ -99,7 +93,7 @@ if (!doNotTrack) {
     <script src="https://khal.web.id/lazyload.min.js"></script>
   </head>
   <body class="single">
-    <header class="header">
+    <header class="header lazy post-head"data-bg="/images/codeigniter.jpg">
       <nav class="nav">
         <a class="logo" href="https://khal.web.id/"><img src="/images/logo.jpeg" alt="Home" /></a>
         <ul class="menu">
@@ -180,9 +174,15 @@ if (!doNotTrack) {
     </div>
 </div><div class="post-content">
     <p>The story begin when I was migrating my Codeigniter app from php4 to php5 hosting environment and then I change the <code>uri_protocol</code> config,</p>
-<pre><code>$config['uri_protocol'] = &quot;PATH_INFO&quot;;
-</code></pre>
-<p>And then the app crashed!?? I had to debug the code for quite sometimes 😫</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-php" data-lang="php">    $config[&#39;uri_protocol&#39;] = &#34;PATH_INFO&#34;;
+</code></pre></td></tr></table>
+</div>
+</div><p>And then the app crashed!?? I had to debug the code for quite sometimes 😫</p>
 <p>Debugging the <code>$_SERVER</code> variable, and turns out the <code>PATH_INFO</code> variable wasn&rsquo;t exist, but the <code>ORIG_PATH_INFO</code> variable is exist, hmm is it the PHP version problem?</p>
 <p>So then I found this article <a href="http://www.binarytides.com/blog/path%5c_info-orig%5c_path%5c_info-apache-and-php/" target="_blank">path_info, orig_path_info, apache and php</a>, well I guess that explained very well, on his condition mentioned in the article, the problem happened when he use <code>.htaccess redirect</code> and in my condition it happen when I use <code>.htaccess mod_rewrite</code></p>
 <p><code>PATH_INFO</code> relies on the Apache <a href="http://httpd.apache.org/docs/2.0/mod/core.html#acceptpathinfo" target="_blank">AcceptPathInfo Directive</a></p>
@@ -222,11 +222,9 @@ if (!doNotTrack) {
   
 </article></main>
 <footer class="footer">
-  <span>&copy; 2020 <a href="https://khal.web.id/">Khalid&#39;s Blog</a></span>
+  <span>&copy; 2009 - 2020 <a href="https://khal.web.id/">Khalid&#39;s Blog</a></span>
   <span>&middot;</span>
   <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
-  <span>&middot;</span>
-  <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
 <script>
   var lazyLoadInstance = new LazyLoad({

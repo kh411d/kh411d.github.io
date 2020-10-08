@@ -62,7 +62,7 @@ Opsi2x yang diberikan oleh facebook berupa,
 Test User is a tool that could be handy when you need to have some users to interact with your application, facebook currently provide this through Graph Api.
 I&amp;rsquo;ve made this simple php class consuming only facebook test account API, you may copy-paste from github
 Some example,
-$acc = new Facebook_TestAccount($appID,$Secret,$app_access_token); //Create N User $acc-&amp;gt;createMany($_REQUEST[&#39;n&#39;],$parameter) //Delete All User created by App $acc-&amp;gt;deleteAll() //Listing all user created by App Access Token $acc-&amp;gt;access()  </description>
+1 2 3 4 5 6 7 8 9 10  $acc = new Facebook_TestAccount($appID,$Secret,$app_access_token); //Create N User $acc-&amp;gt;createMany($_REQUEST[&amp;#39;n&amp;#39;],$parameter) //Delete All User created by App $acc-&amp;gt;deleteAll() //Listing all user created by App Access Token $acc-&amp;gt;access()   </description>
     </item>
     
     <item>
@@ -115,8 +115,8 @@ I&amp;rsquo;m trying to explain in a simple way,
       <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2011/03/03/set-a-facebook-session-for-you-apps-from-access-token/</guid>
       <description>In some situation you will want to create a facebook session for your app, for example you get the code query string after user granted your app, now you can construct the url like below,
-https://graph.facebook.com/oauth/access_token?client_id=YOUR_APP_ID&amp;amp;redirect_uri=YOUR_URL&amp;amp;client_secret=YOUR_APP_SECRET&amp;amp;code=THE_CODE_FROM_ABOVE  And then you need to construct session variables base from the access token, these are functions that might help you,
-//Build your session variables function generateSessionVars($accessToken) { $e = explode(&#39;|&#39;,$accessToken); $s = explode(&#39;-&#39;,$e[1]); $params = array( &#39;uid&#39;=&amp;gt;trim($s[1]), &#39;access_token&#39; =&amp;gt; trim($accessToken) ); $params[&#39;sig&#39;] = generateSignature($params,APP_SECRET); return $params; } //Generate session signature base on you App Secret function generateSignature($params,$secret) { // work with sorted data ksort($params); // generate the base string $base_string = &#39;&#39;; foreach($params as $key =&amp;gt; $value) { $base_string .</description>
+1  https://graph.facebook.com/oauth/access_token?client_id=YOUR_APP_ID&amp;amp;redirect_uri=YOUR_URL&amp;amp;client_secret=YOUR_APP_SECRET&amp;amp;code=THE_CODE_FROM_ABOVE   And then you need to construct session variables base from the access token, these are functions that might help you,
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31  //Build your session variables function generateSessionVars($accessToken) { $e = explode(&amp;#39;|&amp;#39;,$accessToken); $s = explode(&amp;#39;-&amp;#39;,$e[1]); $params = array( &amp;#39;uid&amp;#39;=&amp;gt;trim($s[1]), &amp;#39;access_token&amp;#39; =&amp;gt; trim($accessToken) ); $params[&amp;#39;sig&amp;#39;] = generateSignature($params,APP_SECRET); return $params; } //Generate session signature base on you App Secret function generateSignature($params,$secret) { // work with sorted data ksort($params); // generate the base string $base_string = &amp;#39;&amp;#39;; foreach($params as $key =&amp;gt; $value) { $base_string .</description>
     </item>
     
     <item>
@@ -126,8 +126,8 @@ https://graph.facebook.com/oauth/access_token?client_id=YOUR_APP_ID&amp;amp;redi
       <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2011/03/03/replacement-of-fb-visible-to-connection-for-iframe-apps-on-facebook-page-tabs/</guid>
       <description>Developing an Iframe app an somehow you want to use this FBML tag below.
-&amp;lt;fb:visible-to-connection&amp;gt; Only connections should view this.. &amp;lt;/fb:visible-to-connection&amp;gt;  On each call from page tab you can get a signed_request variable, the value is like this below,
-Array ( [algorithm] =&amp;gt; HMAC-SHA256 [expires] =&amp;gt; 0 [issued_at] =&amp;gt; 1299140579 [oauth_token] =&amp;gt; xxxxxxxxx|xxxxxxxxxxxxxxxx-xxxxxxxx|xxxxxx-xxxxxxxxxxxxxx [page] =&amp;gt; Array ( [id] =&amp;gt; xxxxxxxxxxxxxxxx [liked] =&amp;gt; 1 [admin] =&amp;gt; 1 ) [user] =&amp;gt; Array ( [country] =&amp;gt; id [locale] =&amp;gt; en_US [age] =&amp;gt; Array ( [min] =&amp;gt; 21 ) ) [user_id] =&amp;gt; xxxxxxxxxxx )  And then you can use &amp;ldquo;page.</description>
+1 2 3  &amp;lt;fb:visible-to-connection&amp;gt; Only connections should view this.. &amp;lt;/fb:visible-to-connection&amp;gt;   On each call from page tab you can get a signed_request variable, the value is like this below,
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22  Array ( [algorithm] =&amp;gt; HMAC-SHA256 [expires] =&amp;gt; 0 [issued_at] =&amp;gt; 1299140579 [oauth_token] =&amp;gt; xxxxxxxxx|xxxxxxxxxxxxxxxx-xxxxxxxx|xxxxxx-xxxxxxxxxxxxxx [page] =&amp;gt; Array ( [id] =&amp;gt; xxxxxxxxxxxxxxxx [liked] =&amp;gt; 1 [admin] =&amp;gt; 1 ) [user] =&amp;gt; Array ( [country] =&amp;gt; id [locale] =&amp;gt; en_US [age] =&amp;gt; Array ( [min] =&amp;gt; 21 ) ) [user_id] =&amp;gt; xxxxxxxxxxx )   And then you can use &amp;ldquo;page.</description>
     </item>
     
     <item>
@@ -138,8 +138,8 @@ Array ( [algorithm] =&amp;gt; HMAC-SHA256 [expires] =&amp;gt; 0 [issued_at] =&am
       <guid>https://khal.web.id/2011/03/03/two-ways-to-login-or-authenticate-using-facebook-js-sdk-dialog-box/</guid>
       <description>There is two easy way to authenticate a user with Facebook JS SDK,
 Using FB.UI,
-FB.ui( { method: &#39;oauth&#39;, display:&#39;iframe&#39;, perms:APP_EXT_PERMISSIONS }, function(response) { if(response.session) { console.dir(response); if(redirectURL) location.href = redirectURL; } } );  Using FB.DIALOG,
-FB.login(function(response) { if (response.session) { if (response.perms) { //Logged and Permission Granted if(redirectURL) location.href = redirectURL; } else { //Logged and Permisssion NOT Granted if(redirectURL) location.href = redirectURL; } } else { alert(&amp;quot;Only Authorized User can use this Application!</description>
+1 2 3 4 5 6 7 8 9 10 11 12 13  FB.ui( { method: &amp;#39;oauth&amp;#39;, display:&amp;#39;iframe&amp;#39;, perms:APP_EXT_PERMISSIONS }, function(response) { if(response.session) { console.dir(response); if(redirectURL) location.href = redirectURL; } } );   Using FB.DIALOG,
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19  FB.</description>
     </item>
     
     <item>
@@ -162,7 +162,7 @@ FB.login(function(response) { if (response.session) { if (response.perms) { //Lo
       <guid>https://khal.web.id/2010/07/20/iframe-on-facebook-fan-pages-tabs/</guid>
       <description>Iframe will not be supported on facebook fan pages tab, the strange thing is, it only happened on first load and the you&amp;rsquo;ll get this error iframe not supported
 I just figured out that apps on Fan Pages Tab need an action from user, so then to get an iframe working on tab,
- In your Tab Url file i.e. index.php, create a href tag, that will link to somefile.php</description>
+ In your Tab Url file i.e. index.php, create a href tag, that will link to somefile.php 1  &amp;lt;a href=&amp;#34;somefile.</description>
     </item>
     
   </channel>

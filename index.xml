@@ -8,7 +8,18 @@
     <language>en-us</language>
     <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
     <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
-    <lastBuildDate>Fri, 02 Oct 2020 09:30:48 +0700</lastBuildDate><atom:link href="https://khal.web.id/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Oct 2020 06:53:54 +0700</lastBuildDate><atom:link href="https://khal.web.id/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How is Surging Remote Work Taking its Ripple Effect</title>
+      <link>https://khal.web.id/2020/10/08/how-is-surging-remote-work-taking-its-ripple-effect/</link>
+      <pubDate>Thu, 08 Oct 2020 06:53:54 +0700</pubDate>
+      <author>Khalid Adisendjaja</author>
+      <guid>https://khal.web.id/2020/10/08/how-is-surging-remote-work-taking-its-ripple-effect/</guid>
+      <description>In recent months, some people may have felt the joys and sorrows of working at home, some may feel their work becoming more effective, more healthy, less stressful, but some may felt increased workload, long working hours, and had too many meetings. However, despite every challenge, to be honest, most people liked it and never want to go back.
+With all modern tools such as communication platforms and web conferencing, people could enjoy by having less stress from a long commute, traffic jam, on-site client meetings, etc.</description>
+       <enclosure url="http://khal.web.id/images/telecommute2man.jpg" length="105270" type="image/jpg" /><category>telecommuting</category>
+    </item>
+    
     <item>
       <title>Quite useful QR scans overcome Coronavirus in The World</title>
       <link>https://khal.web.id/2020/10/02/quite-useful-qr-scans-overcome-coronavirus-in-the-world/</link>
@@ -506,12 +517,11 @@ Bahayanya adalah domain &amp;ldquo;*.com.com&amp;rdquo; adalah senjata typo pali
       <author>Khalid Adisendjaja</author>
       <guid>https://khal.web.id/2014/02/19/note-upgrade-nodejs-lokal-via-npm-dan-n-module/</guid>
       <description>Sebelum NodeJS-nya di-upgrade, cek dulu versi yang ter-install,
-$node -v v0.10.12  Bersih2x NPM Cache,
-sudo npm cache clean -f  Install &amp;ldquo;n&amp;rdquo; Node binary manager ,
-sudo npm install -g n  Upgrade Node ke versi terakhir,
-sudo n 0.10.26  Atau bisa langsung upgrade ke versi stable terakhir,
-sudo n stable  Cek versi node yg telah terupgrade,
-$node -v v0.10.26 </description>
+1 2  $ node -v v0.10.12   Bersih2x NPM Cache,
+1  $ sudo npm cache clean -f   Install &amp;ldquo;n&amp;rdquo; Node binary manager ,
+1  $ sudo npm install -g n   Upgrade Node ke versi terakhir,
+1  $ sudo n 0.10.26   Atau bisa langsung upgrade ke versi stable terakhir,
+1  $ sudo n stable   Cek versi node yg telah terupgrade,</description>
        <enclosure url="http://khal.web.id/images/nodejscover.jpg" length="27236" type="image/jpg" /><category>nodejs</category>
     </item>
     
@@ -706,7 +716,7 @@ Disini saya akan memberikan sedikit review dari beberapa aplikasi Fotografi untu
 Test User is a tool that could be handy when you need to have some users to interact with your application, facebook currently provide this through Graph Api.
 I&amp;rsquo;ve made this simple php class consuming only facebook test account API, you may copy-paste from github
 Some example,
-$acc = new Facebook_TestAccount($appID,$Secret,$app_access_token); //Create N User $acc-&amp;gt;createMany($_REQUEST[&#39;n&#39;],$parameter) //Delete All User created by App $acc-&amp;gt;deleteAll() //Listing all user created by App Access Token $acc-&amp;gt;access()  </description>
+1 2 3 4 5 6 7 8 9 10  $acc = new Facebook_TestAccount($appID,$Secret,$app_access_token); //Create N User $acc-&amp;gt;createMany($_REQUEST[&amp;#39;n&amp;#39;],$parameter) //Delete All User created by App $acc-&amp;gt;deleteAll() //Listing all user created by App Access Token $acc-&amp;gt;access()   </description>
        <enclosure url="http://khal.web.id/images/facebookdev.jpg" length="24180" type="image/jpg" /><category>facebook</category>
     </item>
     
@@ -776,8 +786,8 @@ I&amp;rsquo;m trying to explain in a simple way,
       <author>Khalid Adisendjaja</author>
       <guid>https://khal.web.id/2011/03/03/set-a-facebook-session-for-you-apps-from-access-token/</guid>
       <description>In some situation you will want to create a facebook session for your app, for example you get the code query string after user granted your app, now you can construct the url like below,
-https://graph.facebook.com/oauth/access_token?client_id=YOUR_APP_ID&amp;amp;redirect_uri=YOUR_URL&amp;amp;client_secret=YOUR_APP_SECRET&amp;amp;code=THE_CODE_FROM_ABOVE  And then you need to construct session variables base from the access token, these are functions that might help you,
-//Build your session variables function generateSessionVars($accessToken) { $e = explode(&#39;|&#39;,$accessToken); $s = explode(&#39;-&#39;,$e[1]); $params = array( &#39;uid&#39;=&amp;gt;trim($s[1]), &#39;access_token&#39; =&amp;gt; trim($accessToken) ); $params[&#39;sig&#39;] = generateSignature($params,APP_SECRET); return $params; } //Generate session signature base on you App Secret function generateSignature($params,$secret) { // work with sorted data ksort($params); // generate the base string $base_string = &#39;&#39;; foreach($params as $key =&amp;gt; $value) { $base_string .</description>
+1  https://graph.facebook.com/oauth/access_token?client_id=YOUR_APP_ID&amp;amp;redirect_uri=YOUR_URL&amp;amp;client_secret=YOUR_APP_SECRET&amp;amp;code=THE_CODE_FROM_ABOVE   And then you need to construct session variables base from the access token, these are functions that might help you,
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31  //Build your session variables function generateSessionVars($accessToken) { $e = explode(&amp;#39;|&amp;#39;,$accessToken); $s = explode(&amp;#39;-&amp;#39;,$e[1]); $params = array( &amp;#39;uid&amp;#39;=&amp;gt;trim($s[1]), &amp;#39;access_token&amp;#39; =&amp;gt; trim($accessToken) ); $params[&amp;#39;sig&amp;#39;] = generateSignature($params,APP_SECRET); return $params; } //Generate session signature base on you App Secret function generateSignature($params,$secret) { // work with sorted data ksort($params); // generate the base string $base_string = &amp;#39;&amp;#39;; foreach($params as $key =&amp;gt; $value) { $base_string .</description>
        <enclosure url="http://khal.web.id/images/facebookdev.jpg" length="24180" type="image/jpg" /><category>facebook</category>
     </item>
     
@@ -788,8 +798,8 @@ https://graph.facebook.com/oauth/access_token?client_id=YOUR_APP_ID&amp;amp;redi
       <author>Khalid Adisendjaja</author>
       <guid>https://khal.web.id/2011/03/03/replacement-of-fb-visible-to-connection-for-iframe-apps-on-facebook-page-tabs/</guid>
       <description>Developing an Iframe app an somehow you want to use this FBML tag below.
-&amp;lt;fb:visible-to-connection&amp;gt; Only connections should view this.. &amp;lt;/fb:visible-to-connection&amp;gt;  On each call from page tab you can get a signed_request variable, the value is like this below,
-Array ( [algorithm] =&amp;gt; HMAC-SHA256 [expires] =&amp;gt; 0 [issued_at] =&amp;gt; 1299140579 [oauth_token] =&amp;gt; xxxxxxxxx|xxxxxxxxxxxxxxxx-xxxxxxxx|xxxxxx-xxxxxxxxxxxxxx [page] =&amp;gt; Array ( [id] =&amp;gt; xxxxxxxxxxxxxxxx [liked] =&amp;gt; 1 [admin] =&amp;gt; 1 ) [user] =&amp;gt; Array ( [country] =&amp;gt; id [locale] =&amp;gt; en_US [age] =&amp;gt; Array ( [min] =&amp;gt; 21 ) ) [user_id] =&amp;gt; xxxxxxxxxxx )  And then you can use &amp;ldquo;page.</description>
+1 2 3  &amp;lt;fb:visible-to-connection&amp;gt; Only connections should view this.. &amp;lt;/fb:visible-to-connection&amp;gt;   On each call from page tab you can get a signed_request variable, the value is like this below,
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22  Array ( [algorithm] =&amp;gt; HMAC-SHA256 [expires] =&amp;gt; 0 [issued_at] =&amp;gt; 1299140579 [oauth_token] =&amp;gt; xxxxxxxxx|xxxxxxxxxxxxxxxx-xxxxxxxx|xxxxxx-xxxxxxxxxxxxxx [page] =&amp;gt; Array ( [id] =&amp;gt; xxxxxxxxxxxxxxxx [liked] =&amp;gt; 1 [admin] =&amp;gt; 1 ) [user] =&amp;gt; Array ( [country] =&amp;gt; id [locale] =&amp;gt; en_US [age] =&amp;gt; Array ( [min] =&amp;gt; 21 ) ) [user_id] =&amp;gt; xxxxxxxxxxx )   And then you can use &amp;ldquo;page.</description>
        <enclosure url="http://khal.web.id/images/facebookdev.jpg" length="24180" type="image/jpg" /><category>facebook</category>
     </item>
     
@@ -801,8 +811,8 @@ Array ( [algorithm] =&amp;gt; HMAC-SHA256 [expires] =&amp;gt; 0 [issued_at] =&am
       <guid>https://khal.web.id/2011/03/03/two-ways-to-login-or-authenticate-using-facebook-js-sdk-dialog-box/</guid>
       <description>There is two easy way to authenticate a user with Facebook JS SDK,
 Using FB.UI,
-FB.ui( { method: &#39;oauth&#39;, display:&#39;iframe&#39;, perms:APP_EXT_PERMISSIONS }, function(response) { if(response.session) { console.dir(response); if(redirectURL) location.href = redirectURL; } } );  Using FB.DIALOG,
-FB.login(function(response) { if (response.session) { if (response.perms) { //Logged and Permission Granted if(redirectURL) location.href = redirectURL; } else { //Logged and Permisssion NOT Granted if(redirectURL) location.href = redirectURL; } } else { alert(&amp;quot;Only Authorized User can use this Application!</description>
+1 2 3 4 5 6 7 8 9 10 11 12 13  FB.ui( { method: &amp;#39;oauth&amp;#39;, display:&amp;#39;iframe&amp;#39;, perms:APP_EXT_PERMISSIONS }, function(response) { if(response.session) { console.dir(response); if(redirectURL) location.href = redirectURL; } } );   Using FB.DIALOG,
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19  FB.</description>
        <enclosure url="http://khal.web.id/images/facebookdev.jpg" length="24180" type="image/jpg" /><category>facebook</category>
     </item>
     
@@ -826,10 +836,9 @@ FB.login(function(response) { if (response.session) { if (response.perms) { //Lo
       <author>Khalid Adisendjaja</author>
       <guid>https://khal.web.id/2010/08/10/path_info-or-orig_path_info/</guid>
       <description>The story begin when I was migrating my Codeigniter app from php4 to php5 hosting environment and then I change the uri_protocol config,
-$config[&#39;uri_protocol&#39;] = &amp;quot;PATH_INFO&amp;quot;;  And then the app crashed!?? I had to debug the code for quite sometimes 😫
-Debugging the $_SERVER variable, and turns out the PATH_INFO variable wasn&amp;rsquo;t exist, but the ORIG_PATH_INFO variable is exist, hmm is it the PHP version problem?
-So then I found this article path_info, orig_path_info, apache and php, well I guess that explained very well, on his condition mentioned in the article, the problem happened when he use .</description>
-      <category>codeigniter</category>
+1  $config[&amp;#39;uri_protocol&amp;#39;] = &amp;#34;PATH_INFO&amp;#34;;   And then the app crashed!?? I had to debug the code for quite sometimes 😫
+Debugging the $_SERVER variable, and turns out the PATH_INFO variable wasn&amp;rsquo;t exist, but the ORIG_PATH_INFO variable is exist, hmm is it the PHP version problem?</description>
+       <enclosure url="http://khal.web.id/images/codeigniter.jpg" length="31444" type="image/jpg" /><category>codeigniter</category>
     </item>
     
     <item>
@@ -840,7 +849,7 @@ So then I found this article path_info, orig_path_info, apache and php, well I g
       <guid>https://khal.web.id/2010/07/20/iframe-on-facebook-fan-pages-tabs/</guid>
       <description>Iframe will not be supported on facebook fan pages tab, the strange thing is, it only happened on first load and the you&amp;rsquo;ll get this error iframe not supported
 I just figured out that apps on Fan Pages Tab need an action from user, so then to get an iframe working on tab,
- In your Tab Url file i.e. index.php, create a href tag, that will link to somefile.php</description>
+ In your Tab Url file i.e. index.php, create a href tag, that will link to somefile.php 1  &amp;lt;a href=&amp;#34;somefile.</description>
        <enclosure url="http://khal.web.id/images/facebookdev.jpg" length="24180" type="image/jpg" /><category>facebook</category>
     </item>
     
@@ -858,7 +867,7 @@ MySQL and PostgreSQL are the most popular database to be use with PHP.
 3. WebServer
 The most well-known web server for PHP is Apache and Nginx.
 4. Application Framework</description>
-      <category>php</category>
+       <enclosure url="http://khal.web.id/images/elephpantcover.jpg" length="42928" type="image/jpg" /><category>php</category>
     </item>
     
     <item>
@@ -868,9 +877,9 @@ The most well-known web server for PHP is Apache and Nginx.
       <author>Khalid Adisendjaja</author>
       <guid>https://khal.web.id/2010/01/07/codeigniter-hmvc-and-your-own-layout-library/</guid>
       <description>I&amp;rsquo;m trying to make a partial output from hmvc module,
-$this-&amp;gt;obj =&amp;amp; get_instance();  and then I&amp;rsquo;m trying to load a view from some module,
-$this-&amp;gt;obj-&amp;gt;load-&amp;gt;view($view,$data);  This will resulting errors, it turns out $this-&amp;gt;obj is only loading the global view of CI i.e. ./application/views/ HMVC is not overriding the default view of CI, you might have to pass your controller object $this from your controller to your layout library,</description>
-      <category>codeigniter</category>
+1  $this-&amp;gt;obj =&amp;amp; get_instance();   and then I&amp;rsquo;m trying to load a view from some module,
+1  $this-&amp;gt;obj-&amp;gt;load-&amp;gt;view($view,$data);   This will resulting errors, it turns out $this-&amp;gt;obj is only loading the global view of CI i.e. ./application/views/ HMVC is not overriding the default view of CI, you might have to pass your controller object $this from your controller to your layout library,</description>
+       <enclosure url="http://khal.web.id/images/codeigniter.jpg" length="31444" type="image/jpg" /><category>codeigniter</category>
     </item>
     
     <item>
@@ -880,7 +889,7 @@ $this-&amp;gt;obj-&amp;gt;load-&amp;gt;view($view,$data);  This will resulting e
       <author>Khalid Adisendjaja</author>
       <guid>https://khal.web.id/2009/11/25/apaan-tuh-google-wave-robots-apaan-aja-sih/</guid>
       <description>Pertama gw mau kasih tau dulu apaan sih google wave robot (GWR) itu, sebenernya simple aja&amp;hellip; ya namanya juga robot jadi GWR itu adalah user otomatis (robot) yang bisa menjadi participant dari sebuah wave, user robot juga dapat membaca isi sebuah wave di mana robot itu berpartisipasi, google wave memodifikasi isi, menambah atau menghapus peserta, dan menciptakan wave baru. Singkatnya, user robot dapat melakukan banyak tindakan yang waver/peserta lainnya dapat melakukan.</description>
-      <category>google</category>
+       <enclosure url="http://khal.web.id/images/googlewave.jpg" length="25770" type="image/jpg" /><category>google</category>
     </item>
     
     <item>
@@ -892,7 +901,7 @@ $this-&amp;gt;obj-&amp;gt;load-&amp;gt;view($view,$data);  This will resulting e
       <description>Bespin from Mozilla Labs adalah sebuah code editor dengan berbasis web, tentunya bertujuan untuk meningkatkan produktivitas dari developer, karena editor ini berbasis web maka bespin bisa di gunakan oleh developer dimanapun berada, sayangnya tidak semua browser bisa menunjang aplikasi ini.
  &amp;ldquo;Code In The Cloud&amp;rdquo; - Bespin
  Feature-feature yang ada pada Bespin cukup banyak, satu hal yang menarik perhatian gw adalah feature collaborative coding. Hal pertama yang harus lo lakukan adalah melakukan registrasi dan login ke bespin.</description>
-      <category>bespin</category>
+       <enclosure url="http://khal.web.id/images/bespin.jpg" length="31500" type="image/jpg" /><category>bespin</category>
     </item>
     
     <item>
@@ -904,7 +913,7 @@ $this-&amp;gt;obj-&amp;gt;load-&amp;gt;view($view,$data);  This will resulting e
       <description>Salah satu hal yang gw suka dari Chrome adalah themes nya yang simple clean dan enteng di liat deh pokoknya &amp;hellip;, masalahnya gw jarang pake tuh yang namanya Chrome kalo untuk development (Can&amp;rsquo;t live whitout firefox), ya udah deh gw mulai cari sana sini gimana caranya bisa bikin tampilan firefox jadi kaya chrome, mudah2x nih artikel berguna dah &amp;hellip;
 Ada beberapa firefox extension yang kudu di install &amp;hellip;
  Chrome Themes : https://addons.</description>
-      <category>firefox</category>
+       <enclosure url="http://khal.web.id/images/foxchrome.jpg" length="41088" type="image/jpg" /><category>firefox</category>
     </item>
     
     <item>
@@ -917,17 +926,7 @@ Ada beberapa firefox extension yang kudu di install &amp;hellip;
  iepngfix.htc iepngfix_tilebg.js  Usage Include iepngfix.htc on your css style file
 &amp;lt;pre name=&amp;quot;code&amp;quot; class=&amp;quot;css&amp;quot; &amp;gt; *html img, *html #anydivid { behavior: url(style/iepngfix.htc); border:0; padding:0; } &amp;lt;/pre&amp;gt;  include this iepngfix_tilebg.js on you html header, it&amp;rsquo;s support transparent image on background position and repeat.
 More complete detail &amp;hellip; you can check his website http://www.</description>
-      <category>bugfix</category>
-    </item>
-    
-    <item>
-      <title>Burgle bros tool</title>
-      <link>https://khal.web.id/burglebros/tool/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>Khalid Adisendjaja</author>
-      <guid>https://khal.web.id/burglebros/tool/</guid>
-      <description></description>
-      
+       <enclosure url="http://khal.web.id/images/ie6.jpg" length="93254" type="image/jpg" /><category>bugfix</category>
     </item>
     
   </channel>

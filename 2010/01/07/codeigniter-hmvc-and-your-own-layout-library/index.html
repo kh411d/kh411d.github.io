@@ -7,16 +7,15 @@
     
     <meta name="twitter:title" content="Codeigniter HMVC and Your own Layout Library"/>
     <meta name="twitter:description" content="I&rsquo;m trying to make a partial output from hmvc module,
-$this-&gt;obj =&amp; get_instance();  and then I&rsquo;m trying to load a view from some module,
-$this-&gt;obj-&gt;load-&gt;view($view,$data);  This will resulting errors, it turns out $this-&gt;obj is only loading the global view of CI i.e. ./application/views/ HMVC is not overriding the default view of CI, you might have to pass your controller object $this from your controller to your layout library,"/>
+1  $this-&gt;obj =&amp; get_instance();   and then I&rsquo;m trying to load a view from some module,
+1  $this-&gt;obj-&gt;load-&gt;view($view,$data);   This will resulting errors, it turns out $this-&gt;obj is only loading the global view of CI i.e. ./application/views/ HMVC is not overriding the default view of CI, you might have to pass your controller object $this from your controller to your layout library,"/>
     <meta name="twitter:site" content="@khalidity"/>
     
     
     
       
-        <meta name="twitter:card" content="summary_large_image"/>
-        <meta name="twitter:image" content="https://khal.web.id/images/sidebar.jpg"/>
-      
+      <meta name="twitter:card" content="summary_large_image"/>
+      <meta name="twitter:image" content="https://khal.web.id/images/codeigniter.jpg"/>
     
 
   	<meta property="og:title" content="Codeigniter HMVC and Your own Layout Library &middot; Khalid&#39;s Blog" />
@@ -24,15 +23,13 @@ $this-&gt;obj-&gt;load-&gt;view($view,$data);  This will resulting errors, it tu
   	<meta property="og:url" content="https://khal.web.id/2010/01/07/codeigniter-hmvc-and-your-own-layout-library/" />
 
     
-        
-            <meta property="og:image" content="/images/sidebar.jpg"/>
-        
+       <meta property="og:image" content="/images/codeigniter.jpg"/>
     
 
     
     <meta property="og:description" content="I&rsquo;m trying to make a partial output from hmvc module,
-$this-&gt;obj =&amp; get_instance();  and then I&rsquo;m trying to load a view from some module,
-$this-&gt;obj-&gt;load-&gt;view($view,$data);  This will resulting errors, it turns out $this-&gt;obj is only loading the global view of CI i.e. ./application/views/ HMVC is not overriding the default view of CI, you might have to pass your controller object $this from your controller to your layout library," />
+1  $this-&gt;obj =&amp; get_instance();   and then I&rsquo;m trying to load a view from some module,
+1  $this-&gt;obj-&gt;load-&gt;view($view,$data);   This will resulting errors, it turns out $this-&gt;obj is only loading the global view of CI i.e. ./application/views/ HMVC is not overriding the default view of CI, you might have to pass your controller object $this from your controller to your layout library," />
   	<meta property="og:type" content="article" />
     <meta property="article:published_time" content="2010-01-07T13:12:51&#43;07:00" />
 
@@ -48,8 +45,8 @@ $this-&gt;obj-&gt;load-&gt;view($view,$data);  This will resulting errors, it tu
     <title>Codeigniter HMVC and Your own Layout Library - Khalid&#39;s Blog</title>
     
     <meta name="description" content="I&rsquo;m trying to make a partial output from hmvc module,
-$this-&gt;obj =&amp; get_instance();  and then I&rsquo;m trying to load a view from some module,
-$this-&gt;obj-&gt;load-&gt;view($view,$data);  This will resulting errors, it turns out $this-&gt;obj is only loading the global view of CI i.e. ./application/views/ HMVC is not overriding the default view of CI, you might have to pass your controller object $this from your controller to your layout library,">
+1  $this-&gt;obj =&amp; get_instance();   and then I&rsquo;m trying to load a view from some module,
+1  $this-&gt;obj-&gt;load-&gt;view($view,$data);   This will resulting errors, it turns out $this-&gt;obj is only loading the global view of CI i.e. ./application/views/ HMVC is not overriding the default view of CI, you might have to pass your controller object $this from your controller to your layout library,">
     <meta name="author" content="Khalid Adisendjaja">
     
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
@@ -96,7 +93,7 @@ if (!doNotTrack) {
     <script src="https://khal.web.id/lazyload.min.js"></script>
   </head>
   <body class="single">
-    <header class="header">
+    <header class="header lazy post-head"data-bg="/images/codeigniter.jpg">
       <nav class="nav">
         <a class="logo" href="https://khal.web.id/"><img src="/images/logo.jpeg" alt="Home" /></a>
         <ul class="menu">
@@ -177,32 +174,69 @@ if (!doNotTrack) {
     </div>
 </div><div class="post-content">
     <p>I&rsquo;m trying to make a partial output from hmvc module,</p>
-<pre><code>$this-&gt;obj =&amp; get_instance();
-</code></pre>
-<p>and then I&rsquo;m trying to load a view from some module,</p>
-<pre><code>$this-&gt;obj-&gt;load-&gt;view($view,$data);
-</code></pre>
-<p>This will resulting errors, it turns out <code>$this-&gt;obj</code> is only loading the global view of CI i.e. <code>./application/views/</code> HMVC is not overriding the default view of CI, you might have to pass your controller object <code>$this</code> from your controller to your layout library,</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-php" data-lang="php">    $this-&gt;obj =<span class="err">&amp;</span> get_instance();
+</code></pre></td></tr></table>
+</div>
+</div><p>and then I&rsquo;m trying to load a view from some module,</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-php" data-lang="php">    $this-&gt;obj-&gt;load-&gt;view($view,$data);
+</code></pre></td></tr></table>
+</div>
+</div><p>This will resulting errors, it turns out <code>$this-&gt;obj</code> is only loading the global view of CI i.e. <code>./application/views/</code> HMVC is not overriding the default view of CI, you might have to pass your controller object <code>$this</code> from your controller to your layout library,</p>
 <p>On your module controller :</p>
-<pre><code>class Post extends Controller {
-    function Post(){
-        parent::Controller();
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-php" data-lang="php">    class Post extends Controller {
+        function Post(){
+            parent::Controller();
+        }
+        function Read(){
+            $this-&gt;layout-&gt;load(&#39;read.php&#39;, $this);
+        }
     }
-    function Read(){
-        $this-&gt;layout-&gt;load('read.php', $this);
-    }
-}
-</code></pre>
-<p>On your Layout library :</p>
-<pre><code>function load($view,$controller){
-    $partial = $controller-&gt;load-&gt;view($view,true);
+</code></pre></td></tr></table>
+</div>
+</div><p>On your Layout library :</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-php" data-lang="php">    function load($view,$controller){
+        $partial = $controller-&gt;load-&gt;view($view,true);
 
-    //parse to your big layout
-    $data['content_module'] = $partial;
-    $controller-&gt;load-&gt;view($path_to_layout,$data);
-}
-</code></pre>
-<p>Hope this will help for somebody who have some problem like myself</p>
+        //parse to your big layout
+        $data[&#39;content_module&#39;] = $partial;
+        $controller-&gt;load-&gt;view($path_to_layout,$data);
+    }
+</code></pre></td></tr></table>
+</div>
+</div><p>Hope this will help for somebody who have some problem like myself</p>
 
   </div>
 <section class="share-footer">
@@ -239,11 +273,9 @@ if (!doNotTrack) {
   
 </article></main>
 <footer class="footer">
-  <span>&copy; 2020 <a href="https://khal.web.id/">Khalid&#39;s Blog</a></span>
+  <span>&copy; 2009 - 2020 <a href="https://khal.web.id/">Khalid&#39;s Blog</a></span>
   <span>&middot;</span>
   <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
-  <span>&middot;</span>
-  <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
 <script>
   var lazyLoadInstance = new LazyLoad({

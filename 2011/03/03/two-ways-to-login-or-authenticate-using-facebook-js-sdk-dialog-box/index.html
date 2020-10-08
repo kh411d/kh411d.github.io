@@ -8,8 +8,8 @@
     <meta name="twitter:title" content="Two ways to Login or Authenticate using Facebook JS SDK Dialog box"/>
     <meta name="twitter:description" content="There is two easy way to authenticate a user with Facebook JS SDK,
 Using FB.UI,
-FB.ui( { method: &#39;oauth&#39;, display:&#39;iframe&#39;, perms:APP_EXT_PERMISSIONS }, function(response) { if(response.session) { console.dir(response); if(redirectURL) location.href = redirectURL; } } );  Using FB.DIALOG,
-FB.login(function(response) { if (response.session) { if (response.perms) { //Logged and Permission Granted if(redirectURL) location.href = redirectURL; } else { //Logged and Permisssion NOT Granted if(redirectURL) location.href = redirectURL; } } else { alert(&quot;Only Authorized User can use this Application!"/>
+1 2 3 4 5 6 7 8 9 10 11 12 13  FB.ui( { method: &#39;oauth&#39;, display:&#39;iframe&#39;, perms:APP_EXT_PERMISSIONS }, function(response) { if(response.session) { console.dir(response); if(redirectURL) location.href = redirectURL; } } );   Using FB.DIALOG,
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19  FB."/>
     <meta name="twitter:site" content="@khalidity"/>
     
     
@@ -30,8 +30,8 @@ FB.login(function(response) { if (response.session) { if (response.perms) { //Lo
     
     <meta property="og:description" content="There is two easy way to authenticate a user with Facebook JS SDK,
 Using FB.UI,
-FB.ui( { method: &#39;oauth&#39;, display:&#39;iframe&#39;, perms:APP_EXT_PERMISSIONS }, function(response) { if(response.session) { console.dir(response); if(redirectURL) location.href = redirectURL; } } );  Using FB.DIALOG,
-FB.login(function(response) { if (response.session) { if (response.perms) { //Logged and Permission Granted if(redirectURL) location.href = redirectURL; } else { //Logged and Permisssion NOT Granted if(redirectURL) location.href = redirectURL; } } else { alert(&quot;Only Authorized User can use this Application!" />
+1 2 3 4 5 6 7 8 9 10 11 12 13  FB.ui( { method: &#39;oauth&#39;, display:&#39;iframe&#39;, perms:APP_EXT_PERMISSIONS }, function(response) { if(response.session) { console.dir(response); if(redirectURL) location.href = redirectURL; } } );   Using FB.DIALOG,
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19  FB." />
   	<meta property="og:type" content="article" />
     <meta property="article:published_time" content="2011-03-03T08:09:05&#43;07:00" />
 
@@ -48,8 +48,8 @@ FB.login(function(response) { if (response.session) { if (response.perms) { //Lo
     
     <meta name="description" content="There is two easy way to authenticate a user with Facebook JS SDK,
 Using FB.UI,
-FB.ui( { method: &#39;oauth&#39;, display:&#39;iframe&#39;, perms:APP_EXT_PERMISSIONS }, function(response) { if(response.session) { console.dir(response); if(redirectURL) location.href = redirectURL; } } );  Using FB.DIALOG,
-FB.login(function(response) { if (response.session) { if (response.perms) { //Logged and Permission Granted if(redirectURL) location.href = redirectURL; } else { //Logged and Permisssion NOT Granted if(redirectURL) location.href = redirectURL; } } else { alert(&quot;Only Authorized User can use this Application!">
+1 2 3 4 5 6 7 8 9 10 11 12 13  FB.ui( { method: &#39;oauth&#39;, display:&#39;iframe&#39;, perms:APP_EXT_PERMISSIONS }, function(response) { if(response.session) { console.dir(response); if(redirectURL) location.href = redirectURL; } } );   Using FB.DIALOG,
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19  FB.">
     <meta name="author" content="Khalid Adisendjaja">
     
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
@@ -178,42 +178,84 @@ if (!doNotTrack) {
 </div><div class="post-content">
     <p>There is two easy way to authenticate a user with Facebook JS SDK,</p>
 <p>Using FB.UI,</p>
-<pre><code>FB.ui(
-    {
-        method: 'oauth',
-        display:'iframe',
-        perms:APP_EXT_PERMISSIONS
-    },
-    function(response) {
-        if(response.session) {
-            console.dir(response);
-            if(redirectURL) location.href = redirectURL;
-        }
-    }
-);
-</code></pre>
-<p>Using FB.DIALOG,</p>
-<pre><code>FB.login(function(response) 
-    {
-        if (response.session) {
-            if (response.perms) {
-                //Logged and Permission Granted
-                if(redirectURL) location.href = redirectURL;
-            } else {
-                //Logged and Permisssion NOT Granted
-                if(redirectURL) location.href = redirectURL;
-            }
-        } else {
-        alert(&quot;Only Authorized User can use this Application!&quot;);
-            //Not Logged
-        }
-    }, 
-    {
-        perms: APP_EXT_PERMISSIONS
-    }
-);
-</code></pre>
-<blockquote>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript">    <span class="nx">FB</span><span class="p">.</span><span class="nx">ui</span><span class="p">(</span>
+        <span class="p">{</span>
+            <span class="nx">method</span><span class="o">:</span> <span class="s1">&#39;oauth&#39;</span><span class="p">,</span>
+            <span class="nx">display</span><span class="o">:</span><span class="s1">&#39;iframe&#39;</span><span class="p">,</span>
+            <span class="nx">perms</span><span class="o">:</span><span class="nx">APP_EXT_PERMISSIONS</span>
+        <span class="p">},</span>
+        <span class="kd">function</span><span class="p">(</span><span class="nx">response</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">if</span><span class="p">(</span><span class="nx">response</span><span class="p">.</span><span class="nx">session</span><span class="p">)</span> <span class="p">{</span>
+                <span class="nx">console</span><span class="p">.</span><span class="nx">dir</span><span class="p">(</span><span class="nx">response</span><span class="p">);</span>
+                <span class="k">if</span><span class="p">(</span><span class="nx">redirectURL</span><span class="p">)</span> <span class="nx">location</span><span class="p">.</span><span class="nx">href</span> <span class="o">=</span> <span class="nx">redirectURL</span><span class="p">;</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">);</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Using FB.DIALOG,</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript">    <span class="nx">FB</span><span class="p">.</span><span class="nx">login</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">response</span><span class="p">)</span> 
+        <span class="p">{</span>
+            <span class="k">if</span> <span class="p">(</span><span class="nx">response</span><span class="p">.</span><span class="nx">session</span><span class="p">)</span> <span class="p">{</span>
+                <span class="k">if</span> <span class="p">(</span><span class="nx">response</span><span class="p">.</span><span class="nx">perms</span><span class="p">)</span> <span class="p">{</span>
+                    <span class="c1">//Logged and Permission Granted
+</span><span class="c1"></span>                    <span class="k">if</span><span class="p">(</span><span class="nx">redirectURL</span><span class="p">)</span> <span class="nx">location</span><span class="p">.</span><span class="nx">href</span> <span class="o">=</span> <span class="nx">redirectURL</span><span class="p">;</span>
+                <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+                    <span class="c1">//Logged and Permisssion NOT Granted
+</span><span class="c1"></span>                    <span class="k">if</span><span class="p">(</span><span class="nx">redirectURL</span><span class="p">)</span> <span class="nx">location</span><span class="p">.</span><span class="nx">href</span> <span class="o">=</span> <span class="nx">redirectURL</span><span class="p">;</span>
+                <span class="p">}</span>
+            <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+            <span class="nx">alert</span><span class="p">(</span><span class="s2">&#34;Only Authorized User can use this Application!&#34;</span><span class="p">);</span>
+                <span class="c1">//Not Logged
+</span><span class="c1"></span>            <span class="p">}</span>
+        <span class="p">},</span> 
+        <span class="p">{</span>
+            <span class="nx">perms</span><span class="o">:</span> <span class="nx">APP_EXT_PERMISSIONS</span>
+        <span class="p">}</span>
+    <span class="p">);</span>
+</code></pre></td></tr></table>
+</div>
+</div><blockquote>
 <p>FB.UI dialog can use an iframe or a popup window, in an iframe, you need to set the cookie by your self to create a facebook session.</p>
 </blockquote>
 <blockquote>
@@ -255,11 +297,9 @@ if (!doNotTrack) {
   
 </article></main>
 <footer class="footer">
-  <span>&copy; 2020 <a href="https://khal.web.id/">Khalid&#39;s Blog</a></span>
+  <span>&copy; 2009 - 2020 <a href="https://khal.web.id/">Khalid&#39;s Blog</a></span>
   <span>&middot;</span>
   <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
-  <span>&middot;</span>
-  <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
 </footer>
 <script>
   var lazyLoadInstance = new LazyLoad({
