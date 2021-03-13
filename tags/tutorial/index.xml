@@ -8,10 +8,21 @@
     <language>en-us</language>
     <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
     <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
-    <lastBuildDate>Wed, 23 Sep 2020 07:48:16 +0700</lastBuildDate>
+    <lastBuildDate>Sat, 13 Mar 2021 11:35:00 +0700</lastBuildDate>
     
 	<atom:link href="https://khal.web.id/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Go extending Array with a Real-time Observer</title>
+      <link>https://khal.web.id/2021/03/13/go-extending-array-with-a-real-time-observer/</link>
+      <pubDate>Sat, 13 Mar 2021 11:35:00 +0700</pubDate>
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <guid>https://khal.web.id/2021/03/13/go-extending-array-with-a-real-time-observer/</guid>
+      <description>There might be some circumstances where you&amp;rsquo;re going to need to monitor an array as it&amp;rsquo;s in real-time, whether it&amp;rsquo;s appended, done something to a value as it added, trigger an action, or anything else.
+Luckily, in Go, we can create a custom type variable and benefit from the go-routine itself. For this tutorial, we&amp;rsquo;re going to have an array that has an observer to monitor its values.
+1 2  var observee []int observee = append(observee,1)   The idea, every time a value is added to the observed variable observee, the observer could immediately take action in real-time, as long as the main thread has not ended yet.</description>
+    </item>
     
     <item>
       <title>Build a Medium-Like Clap Button using Svelte Custom Element API</title>

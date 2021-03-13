@@ -8,7 +8,19 @@
     <language>en-us</language>
     <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
     <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
-    <lastBuildDate>Thu, 08 Oct 2020 06:53:54 +0700</lastBuildDate><atom:link href="https://khal.web.id/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Mar 2021 11:35:00 +0700</lastBuildDate><atom:link href="https://khal.web.id/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go extending Array with a Real-time Observer</title>
+      <link>https://khal.web.id/2021/03/13/go-extending-array-with-a-real-time-observer/</link>
+      <pubDate>Sat, 13 Mar 2021 11:35:00 +0700</pubDate>
+      <author>Khalid Adisendjaja</author>
+      <guid>https://khal.web.id/2021/03/13/go-extending-array-with-a-real-time-observer/</guid>
+      <description>There might be some circumstances where you&amp;rsquo;re going to need to monitor an array as it&amp;rsquo;s in real-time, whether it&amp;rsquo;s appended, done something to a value as it added, trigger an action, or anything else.
+Luckily, in Go, we can create a custom type variable and benefit from the go-routine itself. For this tutorial, we&amp;rsquo;re going to have an array that has an observer to monitor its values.
+1 2  var observee []int observee = append(observee,1)   The idea, every time a value is added to the observed variable observee, the observer could immediately take action in real-time, as long as the main thread has not ended yet.</description>
+       <enclosure url="http://khal.web.id/images/golearn.png" length="48293" type="image/png" /><category>golang</category>
+    </item>
+    
     <item>
       <title>How is Surging Remote Work Taking its Ripple Effect</title>
       <link>https://khal.web.id/2020/10/08/how-is-surging-remote-work-taking-its-ripple-effect/</link>
