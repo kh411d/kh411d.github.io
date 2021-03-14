@@ -409,48 +409,54 @@ if (!doNotTrack) {
 </span><span class="lnt">29
 </span><span class="lnt">30
 </span><span class="lnt">31
-</span><span class="lnt">32
-</span><span class="lnt">33
-</span><span class="lnt">34
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-go" data-lang="go"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-  <span class="kd">var</span> <span class="nx">theArray</span> <span class="nx">observee</span>
+	<span class="kd">var</span> <span class="nx">theArray</span> <span class="nx">observee</span>
 
-  <span class="nx">t</span> <span class="o">:=</span> <span class="nx">theArray</span><span class="p">.</span><span class="nf">observer</span><span class="p">(</span><span class="kd">func</span><span class="p">(</span><span class="nx">o</span> <span class="nx">observee</span><span class="p">)</span> <span class="p">{</span>
-      <span class="nx">fmt</span><span class="p">.</span><span class="nf">Printf</span><span class="p">(</span><span class="s">&#34;Observe %v\n&#34;</span><span class="p">,</span> <span class="nx">o</span><span class="p">)</span>
-  <span class="p">},</span> <span class="mi">1</span><span class="o">*</span><span class="nx">time</span><span class="p">.</span><span class="nx">Second</span><span class="p">)</span>
+	<span class="nx">t</span> <span class="o">:=</span> <span class="nx">theArray</span><span class="p">.</span><span class="nf">observer</span><span class="p">(</span><span class="kd">func</span><span class="p">(</span><span class="nx">o</span> <span class="nx">observee</span><span class="p">)</span> <span class="p">{</span>
+		<span class="nx">fmt</span><span class="p">.</span><span class="nf">Printf</span><span class="p">(</span><span class="s">&#34;Observe %v\n&#34;</span><span class="p">,</span> <span class="nx">o</span><span class="p">)</span>
+	<span class="p">},</span> <span class="mi">1</span><span class="o">*</span><span class="nx">time</span><span class="p">.</span><span class="nx">Nanosecond</span><span class="p">)</span>
 
-  <span class="k">for</span> <span class="nx">i</span> <span class="o">:=</span> <span class="mi">1</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;=</span> <span class="mi">3</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span> <span class="p">{</span>
-      <span class="nx">theArray</span> <span class="p">=</span> <span class="nb">append</span><span class="p">(</span><span class="nx">theArray</span><span class="p">,</span> <span class="nx">i</span><span class="p">)</span>
-      <span class="nx">time</span><span class="p">.</span><span class="nf">Sleep</span><span class="p">(</span><span class="mi">1</span> <span class="o">*</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Second</span><span class="p">)</span>
-  <span class="p">}</span>
+	<span class="k">for</span> <span class="nx">i</span> <span class="o">:=</span> <span class="mi">1</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;=</span> <span class="mi">3</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span> <span class="p">{</span>
+		<span class="nx">theArray</span> <span class="p">=</span> <span class="nb">append</span><span class="p">(</span><span class="nx">theArray</span><span class="p">,</span> <span class="nx">i</span><span class="p">)</span>
+		<span class="nx">time</span><span class="p">.</span><span class="nf">Sleep</span><span class="p">(</span><span class="mi">1</span> <span class="o">*</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Second</span><span class="p">)</span>
+	<span class="p">}</span>
 
-  <span class="nx">t</span><span class="p">.</span><span class="nf">Stop</span><span class="p">()</span>
-  <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Ticker stopped&#34;</span><span class="p">)</span>
+	<span class="nx">t</span><span class="p">.</span><span class="nf">Stop</span><span class="p">()</span>
+	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Ticker/Observer stopped&#34;</span><span class="p">)</span>
+	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Resume appending, but observer will skip 4,5,6&#34;</span><span class="p">)</span>
+	<span class="k">for</span> <span class="nx">i</span> <span class="o">:=</span> <span class="mi">4</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;=</span> <span class="mi">6</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span> <span class="p">{</span>
+		<span class="nx">theArray</span> <span class="p">=</span> <span class="nb">append</span><span class="p">(</span><span class="nx">theArray</span><span class="p">,</span> <span class="nx">i</span><span class="p">)</span>
+		<span class="nx">time</span><span class="p">.</span><span class="nf">Sleep</span><span class="p">(</span><span class="mi">1</span> <span class="o">*</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Second</span><span class="p">)</span>
+	<span class="p">}</span>
 
-  <span class="k">for</span> <span class="nx">i</span> <span class="o">:=</span> <span class="mi">4</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;=</span> <span class="mi">6</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span> <span class="p">{</span>
-      <span class="nx">theArray</span> <span class="p">=</span> <span class="nb">append</span><span class="p">(</span><span class="nx">theArray</span><span class="p">,</span> <span class="nx">i</span><span class="p">)</span>
-      <span class="nx">time</span><span class="p">.</span><span class="nf">Sleep</span><span class="p">(</span><span class="mi">1</span> <span class="o">*</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Second</span><span class="p">)</span>
-  <span class="p">}</span>
+	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Restart/Reset the observer&#34;</span><span class="p">)</span>
+    <span class="nx">t</span><span class="p">.</span><span class="nf">Reset</span><span class="p">(</span><span class="mi">1</span> <span class="o">*</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Nanosecond</span><span class="p">)</span>
+    
+    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Resume appending, observer will continue print the output&#34;</span><span class="p">)</span>
+	<span class="k">for</span> <span class="nx">i</span> <span class="o">:=</span> <span class="mi">7</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;=</span> <span class="mi">9</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span> <span class="p">{</span>
+		<span class="nx">theArray</span> <span class="p">=</span> <span class="nb">append</span><span class="p">(</span><span class="nx">theArray</span><span class="p">,</span> <span class="nx">i</span><span class="p">)</span>
+		<span class="nx">time</span><span class="p">.</span><span class="nf">Sleep</span><span class="p">(</span><span class="mi">1</span> <span class="o">*</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Second</span><span class="p">)</span>
+	<span class="p">}</span>
 
-  <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;sleep, not doing anything for 3 seconds&#34;</span><span class="p">)</span>
-  <span class="nx">time</span><span class="p">.</span><span class="nf">Sleep</span><span class="p">(</span><span class="mi">3</span> <span class="o">*</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Second</span><span class="p">)</span>
-
-  <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Reset the ticker, restart ticker for per 1 second duration&#34;</span><span class="p">)</span>
-  <span class="nx">t</span><span class="p">.</span><span class="nf">Reset</span><span class="p">(</span><span class="mi">1</span> <span class="o">*</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Second</span><span class="p">)</span>
-
-  <span class="k">for</span> <span class="nx">i</span> <span class="o">:=</span> <span class="mi">7</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;=</span> <span class="mi">9</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span> <span class="p">{</span>
-      <span class="nx">theArray</span> <span class="p">=</span> <span class="nb">append</span><span class="p">(</span><span class="nx">theArray</span><span class="p">,</span> <span class="nx">i</span><span class="p">)</span>
-      <span class="nx">time</span><span class="p">.</span><span class="nf">Sleep</span><span class="p">(</span><span class="mi">1</span> <span class="o">*</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Second</span><span class="p">)</span>
-  <span class="p">}</span>
-
-  <span class="c1">//time.Sleep(1 * time.Second)
-</span><span class="c1"></span>  <span class="nx">fmt</span><span class="p">.</span><span class="nf">Printf</span><span class="p">(</span><span class="s">&#34;The final array: %v\n&#34;</span><span class="p">,</span> <span class="nx">theArray</span><span class="p">)</span>
+	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Printf</span><span class="p">(</span><span class="s">&#34;The final array: %v\n&#34;</span><span class="p">,</span> <span class="nx">theArray</span><span class="p">)</span>
 <span class="p">}</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>Hey, wait a sec! If we could reset and resume the ticker, then it means that the go-routine wasn&rsquo;t actually killed, right? the go-routine will be alive until the main thread is shutdown. Let&rsquo;s modified the code so we can kill the observer before the main thread is ended.</p>
+</div><p>Result,</p>
+<pre><code>Observe [1]
+Observe [1 2]
+Observe [1 2 3]
+Ticker/Observer stopped
+Resume appending, but observer will skip 4,5,6
+Restart/Reset the observer
+Resume appending, observer will continue print the output
+Observe [1 2 3 4 5 6 7]
+Observe [1 2 3 4 5 6 7 8]
+Observe [1 2 3 4 5 6 7 8 9]
+The final array: [1 2 3 4 5 6 7 8 9]
+</code></pre><p>Hey, wait a sec! If we could reset and resume the ticker, then it means that the go-routine wasn&rsquo;t actually killed, right? the go-routine will be alive until the main thread is shutdown. Let&rsquo;s modified the code so we can kill the observer before the main thread is ended.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt"> 1
@@ -535,34 +541,28 @@ if (!doNotTrack) {
 </span><span class="lnt">27
 </span><span class="lnt">28
 </span><span class="lnt">29
-</span><span class="lnt">30
-</span><span class="lnt">31
-</span><span class="lnt">32
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-go" data-lang="go"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-	<span class="kd">var</span> <span class="nx">theArray</span> <span class="nx">observee</span>
+    <span class="kd">var</span> <span class="nx">theArray</span> <span class="nx">observee</span>
 
 	<span class="nx">t</span> <span class="o">:=</span> <span class="nx">theArray</span><span class="p">.</span><span class="nf">observer</span><span class="p">(</span><span class="kd">func</span><span class="p">(</span><span class="nx">o</span> <span class="nx">observee</span><span class="p">)</span> <span class="p">{</span>
 		<span class="nx">fmt</span><span class="p">.</span><span class="nf">Printf</span><span class="p">(</span><span class="s">&#34;Observe %v\n&#34;</span><span class="p">,</span> <span class="nx">o</span><span class="p">)</span>
-	<span class="p">},</span> <span class="mi">1</span><span class="o">*</span><span class="nx">time</span><span class="p">.</span><span class="nx">Second</span><span class="p">)</span>
+	<span class="p">},</span> <span class="mi">1</span><span class="o">*</span><span class="nx">time</span><span class="p">.</span><span class="nx">Nanosecond</span><span class="p">)</span>
 
 	<span class="k">for</span> <span class="nx">i</span> <span class="o">:=</span> <span class="mi">1</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;=</span> <span class="mi">3</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span> <span class="p">{</span>
 		<span class="nx">theArray</span> <span class="p">=</span> <span class="nb">append</span><span class="p">(</span><span class="nx">theArray</span><span class="p">,</span> <span class="nx">i</span><span class="p">)</span>
 		<span class="nx">time</span><span class="p">.</span><span class="nf">Sleep</span><span class="p">(</span><span class="mi">1</span> <span class="o">*</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Second</span><span class="p">)</span>
 	<span class="p">}</span>
 
-    <span class="c1">//Kill the observer
-</span><span class="c1"></span>	<span class="nx">t</span> <span class="o">&lt;-</span> <span class="kd">struct</span><span class="p">{}{}</span>
-	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Ticker stopped&#34;</span><span class="p">)</span>
+	<span class="nx">t</span> <span class="o">&lt;-</span> <span class="kd">struct</span><span class="p">{}{}</span>
+	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Ticker/Observer stopped&#34;</span><span class="p">)</span>
 
+	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;resume appending, observer will not print any updates&#34;</span><span class="p">)</span>
 	<span class="k">for</span> <span class="nx">i</span> <span class="o">:=</span> <span class="mi">4</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;=</span> <span class="mi">6</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span> <span class="p">{</span>
 		<span class="nx">theArray</span> <span class="p">=</span> <span class="nb">append</span><span class="p">(</span><span class="nx">theArray</span><span class="p">,</span> <span class="nx">i</span><span class="p">)</span>
 		<span class="nx">time</span><span class="p">.</span><span class="nf">Sleep</span><span class="p">(</span><span class="mi">1</span> <span class="o">*</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Second</span><span class="p">)</span>
 	<span class="p">}</span>
-
-	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;sleep, not doing anything for 3 seconds&#34;</span><span class="p">)</span>
-	<span class="nx">time</span><span class="p">.</span><span class="nf">Sleep</span><span class="p">(</span><span class="mi">3</span> <span class="o">*</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Second</span><span class="p">)</span>
 
 	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;resume appending, observer will not print any updates&#34;</span><span class="p">)</span>
 	<span class="k">for</span> <span class="nx">i</span> <span class="o">:=</span> <span class="mi">7</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;=</span> <span class="mi">9</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span> <span class="p">{</span>
@@ -578,8 +578,8 @@ if (!doNotTrack) {
 <pre><code>Observe [1]
 Observe [1 2]
 Observe [1 2 3]
-Ticker stopped
-sleep, not doing anything for 3 seconds
+Ticker/Observer stopped
+resume appending, observer will not print any updates
 resume appending, observer will not print any updates
 The final array: [1 2 3 4 5 6 7 8 9]
 </code></pre><p>Ok, we&rsquo;re not done yet, as you see that the observer is only listening to changes that occurred from the main thread, the <code>func main()</code>, What if the observer must listen to changes from multiple routines? Let&rsquo;s give it a try.</p>
