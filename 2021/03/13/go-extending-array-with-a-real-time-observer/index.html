@@ -186,7 +186,7 @@ if (!doNotTrack) {
 </code></pre></td></tr></table>
 </div>
 </div><p>The idea, every time a value is added to the observed variable <code>observee</code>, the observer could immediately take action in real-time, as long as the main thread has not ended yet.</p>
-<p>Rather than using the default type <code>[]int</code>, let&rsquo;s make a custom type called <code>observee</code> so later we can freely extend the variable type.</p>
+<p>Rather than using the default type <code>[]int</code>, let&rsquo;s make a custom type called <code>observee</code> so later we can freely extend the type.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -208,7 +208,6 @@ if (!doNotTrack) {
 </code></pre></td></tr></table>
 </div>
 </div><p>After the <code>observee</code> variable initialized, we then call the observer function to start observing, which extended from the <code>observee</code> itself.</p>
-<p>Ok, that is what we&rsquo;re going to do, let&rsquo;s extend the <code>observee</code> type,</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -225,7 +224,7 @@ if (!doNotTrack) {
 <span class="p">}</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>As you noticed that I&rsquo;m using a pointer <code>*o</code> to keep track the <code>observee</code> variable. If we <a href="https://play.golang.org/p/Wh6qt6dvIUn" target="_blank">run the code</a> below, the observer will print and monitor the values of the <code>theArray</code> after its appended.</p>
+</div><p>As you noticed that I&rsquo;m using a pointer <code>*o</code>, feel free to change it to <code>o</code> and see what happened. If we <a href="https://play.golang.org/p/Wh6qt6dvIUn" target="_blank">run the code</a> below, the observer will print and monitor the values of the <code>theArray</code> after its appended.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt"> 1
@@ -451,7 +450,60 @@ if (!doNotTrack) {
 <span class="p">}</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>Ok, we&rsquo;re not done yet, as you see that the observer is only listening to changes that occurred from the main thread, the <code>func main()</code>, What if the observer must listen to changes from multiple routines? Let&rsquo;s give it a try.</p>
+</div><p>Hey, wait a sec! If we could reset and resume the ticker, then it means that the go-routine wasn&rsquo;t actually killed, right? the go-routine will be alive until the main thread is shutdown. Let&rsquo;s modified the code so we can kill the observer before the main thread is ended.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="kd">type</span> <span class="nx">observee</span> <span class="p">[]</span><span class="kt">int</span>
+<span class="kd">func</span> <span class="p">(</span><span class="nx">o</span> <span class="o">*</span><span class="nx">observee</span><span class="p">)</span> <span class="nf">observer</span><span class="p">(</span><span class="nx">fn</span> <span class="kd">func</span><span class="p">(</span><span class="nx">observee</span><span class="p">),</span> <span class="nx">td</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Duration</span><span class="p">)</span> <span class="kd">chan</span> <span class="kd">struct</span><span class="p">{}</span> <span class="p">{</span>
+    <span class="nx">done</span> <span class="o">:=</span> <span class="nb">make</span><span class="p">(</span><span class="kd">chan</span> <span class="kd">struct</span><span class="p">{})</span>
+    <span class="c1">//Start a go routine
+</span><span class="c1"></span>    <span class="k">go</span> <span class="kd">func</span><span class="p">()</span> <span class="p">{</span>
+        <span class="kd">var</span> <span class="nx">pastLen</span> <span class="kt">int</span> 
+        <span class="c1">//Loop forever
+</span><span class="c1"></span>        <span class="k">for</span> <span class="p">{</span>
+            <span class="k">select</span> <span class="p">{</span>
+            <span class="k">case</span> <span class="o">&lt;-</span><span class="nx">done</span><span class="p">:</span>
+                <span class="k">return</span>
+            <span class="k">case</span> <span class="o">&lt;-</span><span class="nx">time</span><span class="p">.</span><span class="nf">NewTicker</span><span class="p">(</span><span class="nx">td</span><span class="p">).</span><span class="nx">C</span><span class="p">:</span>
+                <span class="nx">nowLen</span> <span class="o">:=</span> <span class="nb">len</span><span class="p">(</span><span class="o">*</span><span class="nx">o</span><span class="p">)</span>
+                <span class="k">if</span> <span class="nx">nowLen</span> <span class="o">!=</span> <span class="nx">pastLen</span> <span class="p">{</span>
+                    <span class="c1">//Do something!
+</span><span class="c1"></span>                    <span class="nf">fn</span><span class="p">(</span><span class="o">*</span><span class="nx">o</span><span class="p">)</span>
+                <span class="p">}</span>
+                <span class="nx">pastLen</span> <span class="p">=</span> <span class="nx">nowLen</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">}()</span>
+    <span class="k">return</span> <span class="nx">done</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>So instead of using the ticker channel, we&rsquo;re going to use a done channel to kill the observer,</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt"> 1
@@ -480,6 +532,86 @@ if (!doNotTrack) {
 </span><span class="lnt">24
 </span><span class="lnt">25
 </span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-go" data-lang="go"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+	<span class="kd">var</span> <span class="nx">theArray</span> <span class="nx">observee</span>
+
+	<span class="nx">t</span> <span class="o">:=</span> <span class="nx">theArray</span><span class="p">.</span><span class="nf">observer</span><span class="p">(</span><span class="kd">func</span><span class="p">(</span><span class="nx">o</span> <span class="nx">observee</span><span class="p">)</span> <span class="p">{</span>
+		<span class="nx">fmt</span><span class="p">.</span><span class="nf">Printf</span><span class="p">(</span><span class="s">&#34;Observe %v\n&#34;</span><span class="p">,</span> <span class="nx">o</span><span class="p">)</span>
+	<span class="p">},</span> <span class="mi">1</span><span class="o">*</span><span class="nx">time</span><span class="p">.</span><span class="nx">Second</span><span class="p">)</span>
+
+	<span class="k">for</span> <span class="nx">i</span> <span class="o">:=</span> <span class="mi">1</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;=</span> <span class="mi">3</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span> <span class="p">{</span>
+		<span class="nx">theArray</span> <span class="p">=</span> <span class="nb">append</span><span class="p">(</span><span class="nx">theArray</span><span class="p">,</span> <span class="nx">i</span><span class="p">)</span>
+		<span class="nx">time</span><span class="p">.</span><span class="nf">Sleep</span><span class="p">(</span><span class="mi">1</span> <span class="o">*</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Second</span><span class="p">)</span>
+	<span class="p">}</span>
+
+    <span class="c1">//Kill the observer
+</span><span class="c1"></span>	<span class="nx">t</span> <span class="o">&lt;-</span> <span class="kd">struct</span><span class="p">{}{}</span>
+	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Ticker stopped&#34;</span><span class="p">)</span>
+
+	<span class="k">for</span> <span class="nx">i</span> <span class="o">:=</span> <span class="mi">4</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;=</span> <span class="mi">6</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span> <span class="p">{</span>
+		<span class="nx">theArray</span> <span class="p">=</span> <span class="nb">append</span><span class="p">(</span><span class="nx">theArray</span><span class="p">,</span> <span class="nx">i</span><span class="p">)</span>
+		<span class="nx">time</span><span class="p">.</span><span class="nf">Sleep</span><span class="p">(</span><span class="mi">1</span> <span class="o">*</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Second</span><span class="p">)</span>
+	<span class="p">}</span>
+
+	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;sleep, not doing anything for 3 seconds&#34;</span><span class="p">)</span>
+	<span class="nx">time</span><span class="p">.</span><span class="nf">Sleep</span><span class="p">(</span><span class="mi">3</span> <span class="o">*</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Second</span><span class="p">)</span>
+
+	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;resume appending, observer will not print any updates&#34;</span><span class="p">)</span>
+	<span class="k">for</span> <span class="nx">i</span> <span class="o">:=</span> <span class="mi">7</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;=</span> <span class="mi">9</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span> <span class="p">{</span>
+		<span class="nx">theArray</span> <span class="p">=</span> <span class="nb">append</span><span class="p">(</span><span class="nx">theArray</span><span class="p">,</span> <span class="nx">i</span><span class="p">)</span>
+		<span class="nx">time</span><span class="p">.</span><span class="nf">Sleep</span><span class="p">(</span><span class="mi">1</span> <span class="o">*</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Second</span><span class="p">)</span>
+	<span class="p">}</span>
+
+	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Printf</span><span class="p">(</span><span class="s">&#34;The final array: %v\n&#34;</span><span class="p">,</span> <span class="nx">theArray</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>As you see, the observer doesn&rsquo;t print anything when the appending is resumed.</p>
+<pre><code>Observe [1]
+Observe [1 2]
+Observe [1 2 3]
+Ticker stopped
+sleep, not doing anything for 3 seconds
+resume appending, observer will not print any updates
+The final array: [1 2 3 4 5 6 7 8 9]
+</code></pre><p>Ok, we&rsquo;re not done yet, as you see that the observer is only listening to changes that occurred from the main thread, the <code>func main()</code>, What if the observer must listen to changes from multiple routines? Let&rsquo;s give it a try.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-go" data-lang="go"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
@@ -505,12 +637,13 @@ if (!doNotTrack) {
   <span class="p">}</span>
 
   <span class="nx">wg</span><span class="p">.</span><span class="nf">Wait</span><span class="p">()</span>
-  <span class="nx">t</span><span class="p">.</span><span class="nf">Stop</span><span class="p">()</span>
+  <span class="c1">//kill the observer
+</span><span class="c1"></span>  <span class="nx">t</span> <span class="o">&lt;-</span> <span class="kd">struct</span><span class="p">{}{}</span>
   <span class="nx">fmt</span><span class="p">.</span><span class="nf">Printf</span><span class="p">(</span><span class="s">&#34;The final array: %v\n&#34;</span><span class="p">,</span> <span class="nx">theArray</span><span class="p">)</span>
 <span class="p">}</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>As expected, the value of the <code>theArray</code> will not be in order, this happens because all the routines in accessing <code>theArray</code> happen randomly, if you look at the <code>Lock</code> mechanism, it is useful to make sure that every value is added.</p>
+</div><p>As expected, the value of the <code>theArray</code> will not be in order, this happens because all the routines in accessing <code>theArray</code> happen randomly, as you see that I&rsquo;m using <code>mu.Lock()</code> and <code>mu.Unlock()</code> before and after appending <code>theArray</code> feel free to comment those lines and see what happened.</p>
 <pre><code>Observe [1]
 Observe [1 8 4]
 Observe [1 8 4 10]
@@ -519,7 +652,7 @@ Observe [1 8 4 10 9 6 2]
 Observe [1 8 4 10 9 6 2 3 7]
 Observe [1 8 4 10 9 6 2 3 7 5]
 The final array: [1 8 4 10 9 6 2 3 7 5]
-</code></pre><p>Ok, that’s a wrap. If you’ve got any questions or maybe I did wrong, don’t hesitate to poke me on Twitter or email. I have linked the final code <a href="https://play.golang.org/p/ithszQSPM6y" target="_blank">here</a></p>
+</code></pre><p>Ok, that’s a wrap. If you have any questions, suggestions or if I made a mistake, don’t hesitate to poke me on Twitter or email. I have linked the final code <a href="https://play.golang.org/p/xhIhzOYILrz" target="_blank">here</a></p>
 
   </div>
 <section class="share-footer">
