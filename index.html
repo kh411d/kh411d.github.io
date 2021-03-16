@@ -141,9 +141,8 @@ if (!doNotTrack) {
     <h2>Go extending Array with a Real-time Observer</h2>
   </header>
   <section class="entry-content">
-   <p>Let say, an array in which each element holds a random countdown value, so when its time ended, it needs to spawn a worker (i.e. go-routine) as soon as possible.
-Luckily, in Go, we can create a custom type variable and benefit from the go-routine itself. For this tutorial, we’re going to have an array that has an observer to monitor its values.
-1 2  var observee []string observee = append(observee,1)   The idea, every time a value is added to the observed variable observee, the observer could immediately take action in real-time, as long as the main thread has not ended yet....</p>
+   <p>Let say, an array in which each element holds a random countdown value, so when its time ended, it needs to spawn a worker (i.e. go-routine) as soon as possible. Luckily, in Go, we can create a custom type variable and benefit from the go-routine itself. For this tutorial, we’re going to have an array that has an observer to monitor its values.
+1 2  var theArray []string theArray = append(theArray,&#34;Hello, There!...</p>
   </section>
   <footer class="entry-footer">
     <time>March 13, 2021</time>
