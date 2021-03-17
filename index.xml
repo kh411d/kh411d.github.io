@@ -940,5 +940,15 @@ More complete detail &amp;hellip; you can check his website http://www.</descrip
        <enclosure url="http://khal.web.id/images/ie6.jpg" length="93254" type="image/jpg" /><category>bugfix</category>
     </item>
     
+    <item>
+      <title>Looking for me?</title>
+      <link>https://khal.web.id/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>Khalid Adisendjaja</author>
+      <guid>https://khal.web.id/contact/</guid>
+      <description>  .findme li { margin-bottom:40px; }   Hi! it&#39;s me Khalid Ask me by...    Send me email!     DM @khalidity     Whatsapp me!     Call me!     SMS me!     </description>
+      
+    </item>
+    
   </channel>
 </rss>
