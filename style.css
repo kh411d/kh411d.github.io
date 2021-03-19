@@ -142,13 +142,16 @@ img {
 }
 .clickme {
   background-color: #EEEEEE;
-  padding: 20px 20px;
+  padding: 1.5em 1.5em;
   text-decoration:none;
   font-weight:bold;
   border-radius:5px;
   cursor:pointer;
-  margin-left: var(--gap);
-  font-size:2rem;
+  font-size:100%;
+  display:block;
+  vertical-align: middle;
+  line-height: normal;
+  width: 70%;
 }
 .gmail-clr {
   background-color: #BB001B;
@@ -164,6 +167,10 @@ img {
 }
 .whatsapp-clr {
   background-color: #25d366;
+  color: #FFFFFF;
+}
+.telegram-clr {
+  background-color: #0088CC;
   color: #FFFFFF;
 }
 /* Header
