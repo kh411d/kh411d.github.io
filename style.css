@@ -338,6 +338,9 @@ img {
 .icon-comment:before{
   content:"\f300";
 }
+.icon-image:before {
+  content: "\f102";
+}
 
 /* Main
 -------------------------------------------------- */
