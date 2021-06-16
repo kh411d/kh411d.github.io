@@ -1,5 +1,3 @@
-## Warning! DO NOT PUSH THIS BRANCH TO MASTER
-
 ### Install Hugo
 Docs [https://gohugo.io/getting-started/quick-start/](https://gohugo.io/getting-started/quick-start/)
 
@@ -23,8 +21,9 @@ if there are nested submodules:
 git submodule update --init --recursive
 ```
 
-Docs about SubModule [https://www.vogella.com/tutorials/GitSubmodules/article.html](https://www.vogella.com/tutorials/GitSubmodules/article.html)
-
+Docs about SubModule,
+- [https://www.vogella.com/tutorials/GitSubmodules/article.html](https://www.vogella.com/tutorials/GitSubmodules/article.html)
+- [https://www.atlassian.com/git/articles/core-concept-workflows-and-tips](https://www.atlassian.com/git/articles/core-concept-workflows-and-tips)
 
 ### Adding themes
 
