@@ -13,11 +13,15 @@ Iframe will not be supported on facebook fan pages tab, the strange thing is, it
 I just figured out that apps on Fan Pages Tab need an action from user, so then to get an iframe working on tab,
 
 1. In your Tab Url file i.e. `index.php`, create a href tag, that will link to `somefile.php`  
- `<a href="somefile.php">Click here to begin</a>`
-2. Edit your somefile.php and insert `<iframe>` tag or `<fb:iframe/>` tag  
- `<fb:iframe src="" width="" height="" />`
-3. You might want to make a dummy loading image, just to attract user to click the image,  
+   ```html 
+   <a href="somefile.php">Click here to begin</a>
    ```
+2. Edit your somefile.php and insert `<iframe>` tag or `<fb:iframe/>` tag  
+   ```html
+   <fb:iframe src="" width="" height="" />
+   ```
+3. You might want to make a dummy loading image, just to attract user to click the image,  
+   ```html
       <img src="url to loading image" />
       <a href="somefile.php">Click here to begin</a>
    ```
@@ -25,7 +29,7 @@ I just figured out that apps on Fan Pages Tab need an action from user, so then 
 Alternatively using FBJS as shown in this article, [2 simple hacks to create an iframe on a facebook fan page tab](http://jesperastrom.com/facebook/2-simple-hacks-to-create-an-iframe-on-a-facebook-fan-page-tab/)
  
 The script from the article look like this,
- 
+```javascript 
     <a onClick="outside_location.setInnerFBML(location_two);" style="cursor: pointer;">
       Click here to launch game.
       <div id="outside_location">
@@ -39,3 +43,4 @@ The script from the article look like this,
    
     <script type="text/javascript" charset="utf-8">
     var outside_location = document.getElementById('outside_location');
+```

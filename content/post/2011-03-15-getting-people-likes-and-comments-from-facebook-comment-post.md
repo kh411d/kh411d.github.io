@@ -13,11 +13,11 @@ A simple way to know people likes and comment on your post or other people post 
 Every post on your News Feed (Photos, Photo Album, Video, Status, notes) will have an fbid that you can use it for the Comment Graph Api, take a look with firebug for fbid if you want to check it.
 
 test that fbid ,
- 
-    //Getting All Comment Detail and items
-    https://graph.facebook.com/[fbid]/?access_token=xxxxxxxxxxxxxxxxxxxxxxxxxx
-    
-    //Getting People who likes the post
-    https://graph.facebook.com/[fbid]/likes/?access_token=xxxxxxxxxxxxxxxxxxxxxxxxxx
+```html
+//Getting All Comment Detail and items
+https://graph.facebook.com/[fbid]/?access_token=xxxxxxxxxxxxxxxxxxxxxxxxxx
 
+//Getting People who likes the post
+https://graph.facebook.com/[fbid]/likes/?access_token=xxxxxxxxxxxxxxxxxxxxxxxxxx
+```
 So everytime you make some simple quiz on facebook that required people to like or comment on participant post, now you can check it with the graph api.

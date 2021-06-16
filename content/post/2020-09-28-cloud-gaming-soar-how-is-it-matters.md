@@ -40,11 +40,11 @@ A super high-speed internet connection is playing a big part here. Who will be p
 
 Take an example of the most recent cloud gaming, Amazon Luna, [the recommended minimum internet connection](https://www.amazon.com/luna/landing-page) is 10mbps, half of the average speed in this country. 
 
-As of August 2020, [according to Ookla],(https://www.speedtest.net/global-index) Indonesia is ranked below 100. With an average of 17mbps on mobile and 22.53mbps on fixed broadband. Not to mention it will ruin your data plan. If you play 10Gb/hour on 1080p, that means you will burn 100Gb/month data plan for approx 10 hours.
+As of August 2020, [according to Ookla](https://www.speedtest.net/global-index) Indonesia is ranked below 100. With an average of 17mbps on mobile and 22.53mbps on fixed broadband. Not to mention it will ruin your data plan. If you play 10Gb/hour on 1080p, that means you will burn 100Gb/month data plan for approx 10 hours.
 
 ![Ookla internet speed August 2020](/images/ooklaaug2020idn.jpg)
 
-According to cable.co.uk [worldwide data pricing](https://www.cable.co.uk/mobiles/worldwide-data-pricing/). With that kind of services, Comparing with Australia (Ookla ranked 61), Indonesia is quite expensive too,
+According to cable.co.uk [worldwide data pricing](https://www.cable.co.uk/mobiles/worldwide-data-pricing/). With that kind of services, Comparing with Australia (Ookla ranked 61, 68mbps/54mbps), Indonesia is quite expensive too,
 
 ![Cable.co.ui worldwide data pricing Indonesia](/images/cablecoukdatapricingidn2.jpg)
 
@@ -59,8 +59,8 @@ quickly, that of data centers is not._
 
 ## Are we there yet?
 
-IIn conclusion, cloud gaming needs eco-friendly data centers and a cheap high-speed internet to play, and that is impossible because of capitalism. It’s almost impossible to play it anywhere, and there is no way to play this on mobile unless you have high-speed wifi.
+In conclusion, cloud gaming needs eco-friendly data centers and a cheap high-speed internet to play, and that is impossible because of capitalism. It’s almost impossible to play it anywhere, and there is no way to play this on mobile unless you have high-speed wifi.
 
-So why not play a console/PC? You bought the game, the game is yours, playing online or offline no big deal, and also saving the internet and electricity bill. Cloud gaming is not for the rest of the world.
+So why not play on console/PC? You bought the game, the game is yours, playing online or offline no big deal, and you could also save the electricity bill. Cloud gaming is not for the rest of the world.
 
 If there is a super-high-speed internet connection in this country, it is a pity if used for purposes like this. There is still much to be done, especially in the fields of education and public welfare.

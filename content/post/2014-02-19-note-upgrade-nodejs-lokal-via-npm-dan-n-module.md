@@ -8,32 +8,28 @@ image: /images/nodejscover.jpg
 
 **Sebelum NodeJS-nya di-upgrade, cek dulu versi yang ter-install,**
 
- 
-    $node -v
-    v0.10.12
-
+```bash
+$ node -v
+v0.10.12
+```
 **Bersih2x NPM Cache,**
-
- 
-    sudo npm cache clean -f
-
+```bash 
+$ sudo npm cache clean -f
+```
 **Install "n" [Node binary manager](https://github.com/visionmedia/n) ,**
-
- 
-    sudo npm install -g n
-
+```bash 
+$ sudo npm install -g n
+```
 **Upgrade Node ke versi terakhir,**
-
- 
-    sudo n 0.10.26
-
+```bash
+$ sudo n 0.10.26
+```
 **Atau bisa langsung upgrade ke versi stable terakhir,**
-
- 
-    sudo n stable
-
+```bash
+$ sudo n stable
+```
 **Cek versi node yg telah terupgrade,**
-
- 
-    $node -v
-    v0.10.26
+```bash
+$ node -v
+v0.10.26
+```

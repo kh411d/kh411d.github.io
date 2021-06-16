@@ -2,6 +2,7 @@
 date: 2010-07-12T08:41:43+07:00
 tags:
 - php
+image: /images/elephpantcover.jpg
 title: Things you should know when you start PHP-ing
 url: /2010/07/12/things-you-should-know-when-you-start-php-ing/
 ---

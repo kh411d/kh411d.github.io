@@ -3,6 +3,7 @@ date: 2009-11-19T08:10:30+07:00
 tags: 
 - bespin
 - tutorial
+image: /images/bespin.jpg
 title: Koding bareng dengan Bespin
 url: /2009/11/19/bespin-a-collaborative-coding-dengan-teman2x-kamu-somewhere-out-there-in-the-cloud/
 ---

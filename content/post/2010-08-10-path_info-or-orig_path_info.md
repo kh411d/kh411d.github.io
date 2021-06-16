@@ -3,14 +3,15 @@ date: 2010-08-10T09:30:57+07:00
 tags:
 - codeigniter
 - php
+image: /images/codeigniter.jpg
 title: path_info or orig_path_info
 url: /2010/08/10/path_info-or-orig_path_info/
 ---
 
 The story begin when I was migrating my Codeigniter app from php4 to php5 hosting environment and then I change the `uri_protocol` config,
-
+```php
     $config['uri_protocol'] = "PATH_INFO";
-
+```
 And then the app crashed!?? I had to debug the code for quite sometimes :tired_face:
 
 Debugging the `$_SERVER` variable, and turns out the `PATH_INFO` variable wasn't exist, but the `ORIG_PATH_INFO` variable is exist, hmm is it the PHP version problem? 

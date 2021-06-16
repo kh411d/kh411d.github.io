@@ -11,7 +11,7 @@ image: /images/facebookdev.jpg
 There is two easy way to authenticate a user with Facebook JS SDK, 
 
 Using FB.UI,
- 
+```javascript 
     FB.ui(
         {
             method: 'oauth',
@@ -25,9 +25,9 @@ Using FB.UI,
             }
         }
     );
-
+```
 Using FB.DIALOG,
-
+```javascript
     FB.login(function(response) 
         {
             if (response.session) {
@@ -47,7 +47,7 @@ Using FB.DIALOG,
             perms: APP_EXT_PERMISSIONS
         }
     );
-
+```
 > FB.UI dialog can use an iframe or a popup window, in an iframe, you need to set the cookie by your self to create a facebook session. 
 
 > FB.dialog can only use a popup window, and cookie will be created automatically as your user granted the application.

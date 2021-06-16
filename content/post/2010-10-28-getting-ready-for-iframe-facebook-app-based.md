@@ -24,63 +24,63 @@ Important things you should not miss,
 - On Facebook Integration tab, choose Iframe for canvas type  
 
 Download the new PHP-SDK,
- 
-    //instantiate object
-    $facebook = new Facebook(array(
-      'appId'  => APP_APPLICATION_ID,
-      'secret' => APP_SECRET,
-      'cookie' => true
-    ));
-    
-    //Get Login Url for new user redirection
-    
-    $loginUrl = $facebook->getLoginUrl(array(
-    //if you look at the SDK, "canvas" option wasn't there, this is why when user added your application it keep redirected to your callback url
-    'canvas'    => 1,
-    //turn off the fbconnect option
-    'fbconnect' => 0,
-    )
-    );
-    
-    //Check for user session, redirect to login url, if user hasn't already add your app
-    if (!$facebook->getSession()) {
-      //need to use of javascript location.href , for redirection all page
-      echo "<script type='text/javascript'>top.location.href = '".$loginUrl."';</script>";
-    }
+```php
+//instantiate object
+$facebook = new Facebook(array(
+  'appId'  => APP_APPLICATION_ID,
+  'secret' => APP_SECRET,
+  'cookie' => true
+));
 
+//Get Login Url for new user redirection
+
+$loginUrl = $facebook->getLoginUrl(array(
+//if you look at the SDK, "canvas" option wasn't there, this is why when user added your application it keep redirected to your callback url
+'canvas'    => 1,
+//turn off the fbconnect option
+'fbconnect' => 0,
+)
+);
+
+//Check for user session, redirect to login url, if user hasn't already add your app
+if (!$facebook->getSession()) {
+  //need to use of javascript location.href , for redirection all page
+  echo "<script type='text/javascript'>top.location.href = '".$loginUrl."';</script>";
+}
+```
 Or maybe you want to make a bootstrap function for an easier call,
+```php
+define('EXT_PERMISSIONS','publish_stream,email,birthday');
+define('PAGE_CANVAS_URL', 'http://www.facebook.com/myfanpage');
 
-    define('EXT_PERMISSIONS','publish_stream,email,birthday');
-    define('PAGE_CANVAS_URL', 'http://www.facebook.com/myfanpage');
-    
-    function bootstrap(){
-      global $facebook;
-      //Get Login Url for redirection if user not yet authorized your apps
-      $loginUrl = $facebook->getLoginUrl(array('canvas' => 1,
-    							     'fbconnect' => 0,
-    							     'req_perms' => EXT_PERMISSIONS,
-    							     'next' => PAGE_CANVAS_URL));
-      //Check for facebook session , redirect to Login Url for unauthorized user
-    	if (!$facebook->getSession()) {
-    	   echo "<script type='text/javascript'>top.location.href = '".$loginUrl."';</script>";
-    		exit;
-    	}
-      //Checking Permission , redirect if user hasn't yet approved the required extended permission
-         list($permissions) = $facebook->api(array('method'=>'fql.query',
-    								  'query'=>'SELECT '.EXT_PERMISSIONS.'
-    										   FROM permissions
-    										   WHERE uid = '.$facebook->getUser()
-    								));
-      foreach($permissions as $value){
-          if(!$value){
-    	     echo "<script type='text/javascript'>top.location.href = '".$loginUrl."';</script>";
-    		 exit;
-    	  }
-      }
-       return true;
-     }
-    
-    bootstrap();
+function bootstrap(){
+  global $facebook;
+  //Get Login Url for redirection if user not yet authorized your apps
+  $loginUrl = $facebook->getLoginUrl(array('canvas' => 1,
+                    'fbconnect' => 0,
+                    'req_perms' => EXT_PERMISSIONS,
+                    'next' => PAGE_CANVAS_URL));
+  //Check for facebook session , redirect to Login Url for unauthorized user
+  if (!$facebook->getSession()) {
+      echo "<script type='text/javascript'>top.location.href = '".$loginUrl."';</script>";
+    exit;
+  }
+  //Checking Permission , redirect if user hasn't yet approved the required extended permission
+      list($permissions) = $facebook->api(array('method'=>'fql.query',
+                  'query'=>'SELECT '.EXT_PERMISSIONS.'
+                        FROM permissions
+                        WHERE uid = '.$facebook->getUser()
+                ));
+  foreach($permissions as $value){
+      if(!$value){
+        echo "<script type='text/javascript'>top.location.href = '".$loginUrl."';</script>";
+      exit;
+    }
+  }
+    return true;
+  }
 
+bootstrap();
+```
 
 Thats it , hope it help.

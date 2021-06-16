@@ -37,13 +37,13 @@ Plug in your USB bootdisk and hold ‘alt/option’ button while your system boo
 
 After boot system is up, check your available drive,
 
-```
+```text
 $ lsblk
 ```
 
 Delete all partitions on your ssd, and then create 4 partitions, these are partitions from my current installation,
 
-```
+```text
 $ lsblk
 NAME MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
 sda    8:0    0  113G  0 disk 
@@ -59,7 +59,7 @@ sda    8:0    0  113G  0 disk
 
 As you can see my boot partition is 1G, this was actually unintended, everything could go wrong if you did this in the middle of the night. 256Mb should be enough for /boot partition. 
 
-```
+```text
 Disk: /dev/sda
               Size: 113 GiB, 121332826112 bytes, 236978176 sectors
           Label: gpt, identifier: F17EF130-xxxx-xxxx-xxxx-xxxxxxxxxxxx
@@ -74,13 +74,13 @@ Disk: /dev/sda
 
 I'm always keep this url open while partitioning [cgdisk-walkthrough](https://www.rodsbooks.com/gdisk/cgdisk-walkthrough.html)
 
-```
+```text
 # cgdisk /dev/sda
 ```
 
 After you're done, format and mount your newly created partition, File system root **/** inside the terminal belongs to USB stick, while everything mounted inside **/mnt** is the target media AKA your SSD.
 
-```
+```text
 # mkfs.vfat -F32 /dev/sda1
 # mkswap /dev/sda2
 # mkfs.ext4 /dev/sda3
@@ -93,26 +93,26 @@ After you're done, format and mount your newly created partition, File system ro
 
 #### Installation
 
-```
+```text
 # pacstrap /mnt base base-devel
 # genfstab -U -p /mnt >> /mnt/etc/fstab
 ```
 
 Modify fstab configuration for SSD drive type, this is important, do not skip.
 
-```
+```text
 # nano /mnt/etc/fstab
 ```
 
 add additional parameters,
 
-```
+```text
 rw,relatime,data=ordered,discard
 ```
 
 Mine will look like this,
 
-```
+```text
 # /dev/sda3
 UUID=b532cc5e-70c4-431c-80e5-bd9d40440606   /           ext4        rw,relatime,data=ordered,discard    0 1
 
@@ -124,7 +124,7 @@ UUID=d5a039d9-c08e-4b26-8e12-9e38bec1fd46   /home       ext4        rw,relatime,
 
 If you're using ethernet cable or usb cable, you may check your network interface with this, 
 
-```
+```text
 # ip link
 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
@@ -133,54 +133,54 @@ If you're using ethernet cable or usb cable, you may check your network interfac
 ```
 
 My interface is **wlp2s0b1**
-```
+```text 
 # dhcpcd wlp2s0b1
 # ping google.com
 ```
 
 If you can use WiFi, connect it with this command, 
-```
+```text 
 # wifi-menu
 ```
 
 
 #### System Configuration
 
-```
+```text 
 # arch-chroot /mnt /bin/bash 
 # echo archer > /etc/hostname  #Your hostname
 # ln -s /usr/share/zoneinfo/Asia/Jakarta /etc/localtime 
 # hwclock --systohc --utc 
 ```
 
-```
+```text 
 # nano /etc/local.gen
 ```
 
 Uncomment UTF8 locale,
-```
+```text 
 #en_SG ISO-8859-1
 en_US.UTF-8 UTF-8
 #en_US ISO-8859-1
 ```
 
-```
+```text 
 # locale-gen
 # echo LANG=en_US.UTF-8 > /etc/locale.conf
 ```
 
 Add user account,
-```
+```text 
 # useradd -m -g users -G wheel -s /bin/bash yourself && passwd yourself
 ```
 Change **yourself** to your liking.
 
 Give yourself sudo rights,
-```
+```text 
 # nano /etc/sudoers # uncomment wheel line
 ```
 
-```
+```text 
  %wheel ALL=(ALL) NOPASSWD: ALL
 ```
 
@@ -188,7 +188,7 @@ Give yourself sudo rights,
 
 I'm not goin to dualboot this macbook so then I'm not gonna use GRUB nor REFIND for booting into the system, I'm gonna use [**systemd-boot**](https://wiki.archlinux.org/index.php/systemd-boot) to boot into archlinux,
 
-```
+```text 
 # pacman -S dosfstools intel-ucode
 # bootctl --path=/boot install
 ```
@@ -196,19 +196,19 @@ I'm not goin to dualboot this macbook so then I'm not gonna use GRUB nor REFIND 
 After the systemd-boot (gummiboot) installed, we need to add a boot entries for archlinux.
 
 Create a file for boot entry within this directory path,
-```
+```text 
 /boot/loader/entries/arch.conf
 ```
 
 First you need to get your root "/" (/dev/sda3) PARTUUID,
-```
+```text 
 # blkid -s PARTUUID -o value /dev/sda3
 ed724519-29ca-4e08-b27a-b4852d310dee
 ```
 
 Edit the arch.conf file add this entry, replace root PARTUUID with this one *ed724519-29ca-4e08-b27a-b4852d310dee*
 
-```
+```text 
 title Arch Linux 
 linux /vmlinuz-linux 
 initrd /intel-ucode.img 
@@ -217,19 +217,19 @@ options root=PARTUUID=ed724519-29ca-4e08-b27a-b4852d310dee rw quiet
 ```
 
 And now lets tell the boot manager to use this arch.conf configuration,
-```
+```text 
 # echo "default arch" > /boot/loader/loader.conf
 ```
 
 Before rebooting, you may want to install some network tools,
-```
+```text 
 # pacman install iw wireless_tools wpa_supplicant dialog
 ```
 
 also install networkmanager and enable it using NetworkManager.service. [Read Arch wiki for more info](https://wiki.archlinux.org/index.php/NetworkManager).
 
 You're done now for installation, lets reboot,
-```
+```text 
 # exit
 # umount -R /mnt
 # sudo reboot // or systemctl reboot
@@ -241,7 +241,7 @@ You're done now for installation, lets reboot,
 
 You can use wifi-menu, netctl, dhcpd or anything to connect, here we try to use network manager,
 
-```
+```text 
 $ sudo systemctl disable dhcpcd
 $ sudo pacman -S networkmanager network-manager-applet
 $ sudo systemctl enable NetworkManager
@@ -250,26 +250,26 @@ $ nmcli dev wifi connect <wifi-name> password <password>
 
 
 ### Install CPU tools
-```
+```text 
 $ sudo pacman -S cpupower
 $ sudo systemctl enable cpupower
 ```
 
 Edit /etc/default/cpupower
-```
+```text
 # Define CPUs governor
 governor='powersave'
 ```
 
 ### Sound Utilities
 
-```
+```text 
 $ sudo pacman -S alsa-utils alsa-plugins
 ```
 
 ### Install Xorg
 
-```
+```text 
 $ sudo pacman -S xorg acpid
 $ systemctl enable acpid
 ```
@@ -278,7 +278,7 @@ $ systemctl enable acpid
 
 There is so many [desktop GUI](https://wiki.archlinux.org/index.php/desktop_environment#List_of_desktop_environments) that you may want to experience yourself, but [XFCE4](https://wiki.archlinux.org/index.php/xfce#Installation) is become my first choice because of speed and flexibility.
 
-```
+```text 
 $ sudo pacman -S xfce4 xfce4-goodies
 ```
 
@@ -286,7 +286,7 @@ $ sudo pacman -S xfce4 xfce4-goodies
  
 Same as desktop GUI, there is so many [display manager](https://wiki.archlinux.org/index.php/Display_manager) to experience yourself, as my choice fell to [LightDM](https://wiki.archlinux.org/index.php/LightDM)
 
-```
+```text 
 $ sudo pacman -S lightdm lightdm-gtk-greeter-setting
 $ systemctl enable lightdm.service
 ```

@@ -15,7 +15,7 @@ Test User is a tool that could be handy when you need to have some users to inte
 I've made this simple php class consuming only facebook test account API, you may copy-paste from [github](https://github.com/kh411d/PHP-Facebook-App-Admin/blob/master/lib/Facebook_TestAccount.class.php)
 
 Some example,
-
+```php
     $acc = new Facebook_TestAccount($appID,$Secret,$app_access_token);
     
     //Create N User
@@ -26,3 +26,4 @@ Some example,
     
     //Listing all user created by App Access Token
     $acc->access()
+```

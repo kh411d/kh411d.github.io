@@ -3,6 +3,7 @@ date: 2009-11-25T03:45:09+07:00
 tags: 
 - google
 - googlewave
+image: /images/googlewave.jpg
 title: Apaan tuh "Google Wave Robots" ??? Apaan aja sih ???
 url: /2009/11/25/apaan-tuh-google-wave-robots-apaan-aja-sih/
 ---

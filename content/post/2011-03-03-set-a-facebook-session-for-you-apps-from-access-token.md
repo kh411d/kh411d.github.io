@@ -9,12 +9,12 @@ image: /images/facebookdev.jpg
 ---
 
 In some situation you will want to create a facebook session for your app, for example you get the `code` query string after user granted your app, now you can construct the url like below,
- 
-    https://graph.facebook.com/oauth/access_token?client_id=YOUR_APP_ID&redirect_uri=YOUR_URL&client_secret=YOUR_APP_SECRET&code=THE_CODE_FROM_ABOVE
-
+```php 
+https://graph.facebook.com/oauth/access_token?client_id=YOUR_APP_ID&redirect_uri=YOUR_URL&client_secret=YOUR_APP_SECRET&code=THE_CODE_FROM_ABOVE
+```
 And then you need to construct session variables base from the access token, these are functions that might help you,
 
- 
+```php 
     //Build your session variables
     function generateSessionVars($accessToken)
     {
@@ -46,10 +46,10 @@ And then you need to construct session variables base from the access token, the
     
         return md5($base_string);
     }
-
+```
 
 Usage,
-
+```php
     $accessToken = file_get_contents("https://graph.facebook.com/oauth/access_token?client_id=YOUR_APP_ID&redirect_uri=YOUR_URL&client_secret=YOUR_APP_SECRET&code=THE_CODE_FROM_ABOVE");
 
     //get session variables
@@ -57,5 +57,5 @@ Usage,
     
     //SET COOKIE DIRECTLY TO BE USED BY PHP SDK
     $facebook->setSession($params);
-
+```
 The php-sdk will identify whether the session is set.

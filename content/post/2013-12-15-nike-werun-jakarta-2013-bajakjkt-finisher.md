@@ -32,5 +32,3 @@ Gue ikut event #BajakJKT ini bareng temen2x kantor, lumayan lah hari minggu olah
 ![Sebenernya yang ikut banyak, karna kan ya GBK itu gede kan ya, jadi ya gini deh jadinya](/images/BajakJKT_finish.jpg) Sebenernya yang ikut banyak, karna kan ya GBK itu gede kan ya, jadi ya gini deh jadinya :laughing:
 
 Numpang narsis di papan nama, boleh dong...
-
-{{< instagram h7T0DeqJaj >}}

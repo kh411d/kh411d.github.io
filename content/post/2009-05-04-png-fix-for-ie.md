@@ -2,10 +2,9 @@
 comments: true # set false to hide Disqus
 date: 2009-05-04T11:22:20+0700
 draft: false
-image: ""
-menu: ""       # set "main" to add this content to the main menu
+image: /images/ie6.jpg
 share: true    # set false to hide share buttons
-tags: ["bugfix","InternetExplorer","tutorial"]
+tags: ["bugfix","ie6","tutorial"]
 title: PNG fix for IE
 ---
 
@@ -14,7 +13,7 @@ Thanks to Angus Turnbull who made this fix and made PNG image looks good on IE, 
 1. [iepngfix.htc](http://code.google.com/p/widgetfx/source/browse/widgetfx.org/iepngfix.htc)
 2. [iepngfix_tilebg.js](http://code.google.com/p/widgetfx/source/browse/widgetfx.org/iepngfix\_tilebg.js?r=144)
 
-###### Usage
+### Usage
 
 Include iepngfix.htc on your css style file  
    

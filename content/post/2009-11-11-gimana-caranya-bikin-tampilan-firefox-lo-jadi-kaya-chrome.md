@@ -4,6 +4,7 @@ tags:
 - firefox
 - chrome
 - tutorial
+image: /images/foxchrome.jpg
 title: Gimana caranya bikin tampilan Firefox lo jadi kaya Chrome
 url: /2009/11/11/gimana-caranya-bikin-tampilan-firefox-lo-jadi-kaya-chrome/
 ---
