@@ -71,3 +71,5 @@ I used a Macbook for development so these shortcuts might be different for any o
 ##### Integrated Terminal
 
 `⌘J` or `^`` Show terminal
+
+> _All truths are easy to understand once they are discovered; the point is to discover them. - **Galileo Galilei**_
