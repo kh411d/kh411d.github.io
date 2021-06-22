@@ -20,40 +20,40 @@ I used a Macbook for development so these shortcuts might be different for any o
 
 ##### Editor Management
 
-`⌘0` Focus on the Left panel
-`⌘1` Focus to the Middle panel, an opened file
-`⌘\` Split the current opened file panel
+`⌘0` Focus on the Left panel   
+`⌘1` Focus to the Middle panel, an opened file   
+`⌘\` Split the currently opened file panel   
 `⌘2` Focus on the split panel
 
 ##### File Management
 
-`⌃Tab` Next tab
+`⌃Tab` Next tab   
 `⌃⇧Tab` Previous tab
 
 ##### Display
 
-`⌘⇧E` Show Explorer/Toggle focus
-`Space` or `⌘↓` Open file from the explorer
+`⌘⇧E` Show Explorer/Toggle focus   
+`Space` or `⌘↓` Open file from the explorer   
 `⌘⇧F` Show search
 
 ##### Rich Language Editing
 
-`F12` Go to Definition
-`⌘F12` Go to Implementation
-`⌘↑ / ↓` Go to begining/end of line
-`⌘Z` Undo
+`F12` Go to Definition   
+`⌘F12` Go to Implementation   
+`⌘↑ / ↓` Go to beginning/end of line   
+`⌘Z` Undo   
 `⇧⌘Z` Redo
 
 ##### Multi-cursor and selection
 
-`⌘L` Select current line
-`⌘^⇧→ / ←` Select code by scope
+`⌘L` Select current line   
+`⌘^⇧→ / ←` Select code by the scope   
 `F8` Go to underlined error
 
 ##### Navigation
 
-`⇧⌘O` Go to symbol... (on current opened file)
-`⌘T` Go to symbol... (on all projects)
+`⇧⌘O` Go to symbol... (on currently opened file)   
+`⌘T` Go to symbol... (on all projects)   
 `⌘P` Go to file...
 
 `⌃G` Jump to line...
