@@ -10,6 +10,12 @@ title = "Fast navigation on VSCode with these keyboard shortcuts"
 url = "/2021/06/22/fast-navigation-on-vscode-with-these-keyboard-shortcuts"
 
 +++
-One thing that you might consider when using VS Code is the keyboard shortcut because this can make your work much more convenient and faster, there's some shortcut that I use regularly, the key is not to memorize all the shortcut but to get used to, so hopefully it would improve your workflow. 
+One thing that you might consider when using VS Code is the keyboard shortcut because this can make your work much more convenient and faster, there's some shortcut that I use regularly, the key is not to memorize all the shortcut but to get used to, so hopefully it would improve your workflow.
 
 I used a Macbook for development so these shortcuts might be different for any other operating system.
+
+##### Panel Navigation
+
+`CMD`+`0` Focus on the Left panel 
+`CMD`+`1` Focus to the Middle panel, an opened file 
+`CMD`+`2` Focus on another file opened in the split panel
