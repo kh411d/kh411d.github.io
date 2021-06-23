@@ -2,8 +2,14 @@
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
+# Add hugo changes
+git add .
+git commit -m "Add new post `date`"
+git push origin hugo
+
 # Build the project.
-hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
+# if using a theme, replace with `hugo -t <YOURTHEME>`
+hugo 
 
 # Go To Public folder
 cd public
