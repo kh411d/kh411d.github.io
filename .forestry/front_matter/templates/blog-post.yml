@@ -26,5 +26,3 @@ fields:
 - type: text
   name: url
   label: url
-pages:
-- content/post/fast-navigation-on-vscode-with-these-keyboard-shortcuts.md
