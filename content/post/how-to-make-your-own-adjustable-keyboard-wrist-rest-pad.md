@@ -18,7 +18,7 @@ This project doesn't need any specific tool, do not let your creativity down bec
 
 ![](/images/20210625_094151.jpg)
 
-As you see in the picture above, you will need **2 to 3 A4 cardboards with 2mm thickness**, white **glue** for paper, **cutter**, **pencil**, **ruler**, **cutting mat**, and lastly, a **round cutter**, if you have a **hole puncher** it will make your life easier or if you want it square, triangle or else then you don't need this tool.
+As you see in the picture above, you will need **2 to 3 A4 cardboards with 2mm thickness**, repositionable glue, **cutter**, **pencil**, **ruler**, **cutting mat**, and lastly, a **round cutter**, if you have a **hole puncher** it will make your life easier or if you want it square, triangle or else then you don't need this tool.
 
 As I can remember, It took me for approx 30-45 minutes to finish the project, well actually it depends on how crafty you are. FYI if you have kids around I suppose you need to pause the project because this project will need a bit of precision, concentration, and also you're playing with sharp tools.
 
@@ -44,14 +44,16 @@ So here comes the tricky part, you're going to **make a hole on each part of the
 
 ![](/images/20210625_094644.jpg)
 
-I recommend starting from the bottom of the stack which is part 7. I'm starting with the yellow hole **(ALT1)** after cut the 2 holes, make sure the plug you've just cut can be easily plugged or unplugged easily and then put the plug/caps back to both holes.
+I recommend starting from the bottom of the stack which is part number 7. I'm starting with the **yellow hole** **(ALT1)** after cut the 2 holes, make sure the plug you've just cut can be easily plugged or unplugged easily and then put the plug/caps back to both holes.
 
-For the sake of functionality and precision, I'm going to cheat a bit here, put glue on the top of both caps, just the top of the cap don't glue any of the surrounded areas. And then put part number 6 to the top of it, you may need to position to align both parts, use glue that can be repositioned, press it for a while, then unplug the top cardboard.
+For the sake of functionality and precision, I'm going to cheat a bit here, put glue on the top of both caps, just the top of the cap don't glue any of the surrounded areas. And then put part number 6 to the top of it, you may need to position to align both parts, it's important to use repositionable glue, press it for a while, then unplug part number 6. Now you're going to cut the **red hole (ALT2)** on part number 6.
 
-Repeat this way several times alternately between the yellow hole and the red hole until you reach the top stack.
+**Repeat this way alternately between the yellow hole and the red hole until you reach the top of the stack.**
 
 ## Final Result
 
-So here is the result, I've done some customization for a small staircase 2-3mm width for the wrist, I don't have any precise size so it's only a hunch.
+So here is the result, I've done some customization for a small wrist staircase approx 2-3mm width, I don't use any precise size so it's only a hunch.
 
 ![](/images/20210625_093452.jpeg)
+
+I'm currently happy with the result, if you have a sweaty wrist, you may need to spray the cardboard with acrylic paint to prolong the usage.
