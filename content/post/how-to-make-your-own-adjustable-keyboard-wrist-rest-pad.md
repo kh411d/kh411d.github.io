@@ -18,7 +18,7 @@ This project doesn't need any specific tool, do not let your creativity down bec
 
 ![](/images/20210625_094151.jpg)
 
-As you see in the picture above, you will need **2 to 3 A4 cardboards with 2mm thickness**, white **glue** for paper, **cutter**, **pencil**, **ruler**, **cutting mat**, and lastly, a **round cutter**, if you have a **hole puncher** it will make your life easier or if you want it square then you don't need this tool. As I can remember, It took me for approx 30 minutes to finish the project, well actually it depends on how crafty you are.
+As you see in the picture above, you will need **2 to 3 A4 cardboards with 2mm thickness**, white **glue** for paper, **cutter**, **pencil**, **ruler**, **cutting mat**, and lastly, a **round cutter**, if you have a **hole puncher** it will make your life easier or if you want it square then you don't need this tool. As I can remember, It took me for approx 30 minutes to finish the project, well actually it depends on how crafty you are. Fyi if you have kids around I suppose you need to pause the project, because this project will need a bit of precision. 
 
 ## Cut The Cardboard
 
