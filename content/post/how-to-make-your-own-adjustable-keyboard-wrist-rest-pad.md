@@ -28,7 +28,7 @@ First things first you need to cut each cardboard into 3 parts with the size of 
 
 ## Stack The Cardboard
 
-Get all the 7 parts into a stack so it will form a rectangle block, **you may want to number each cardboard from top to bottom, 1st to 7th stack**, don't mark each side, just a small mark at the top right corner will do. This stack will roughly have **1.5cm thickness** combined, if you want it thicker then you can use all the parts.
+Get all the 7 parts into a stack so it will form a rectangle block, **you may want to number each cardboard from 1st top to 7th bottom stack**, don't mark each side, just a small mark at the top right corner will do. This stack will roughly have **1.5cm thickness** combined, if you want it thicker then you can use all the parts.
 
 ## Draw a Hole Pattern
 
@@ -58,4 +58,8 @@ So here is the result, I've done some customization for a small wrist staircase 
 
 ![](/images/20210625_093452.jpeg)
 
-I'm currently happy with the result, if you have a sweaty wrist, you may need to spray the cardboard with acrylic paint to prolong the usage.
+I'm currently happy with the result, maybe you can put some paint art on it, if you have a sweaty wrist, you may need to spray the cardboard with acrylic paint to prolong the usage.
+
+> _I think frugality drives innovation, just like other constraints do. One of the only ways to get out of a tight box is to invent your way out._ 
+>
+> **_\~ Jeff Bezos_**
