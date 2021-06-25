@@ -4,21 +4,51 @@
   
   <url>
     <loc>https://khal.web.id/</loc>
-    <lastmod>2021-06-22T20:00:00+07:00</lastmod>
+    <lastmod>2021-06-25T22:00:00+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://khal.web.id/tags/cardboard/</loc>
+    <lastmod>2021-06-25T22:00:00+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://khal.web.id/tags/diy/</loc>
+    <lastmod>2021-06-25T22:00:00+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://khal.web.id/2021/06/26/how-to-make-your-own-adjustable-keyboard-wrist-rest-pad/</loc>
+    <lastmod>2021-06-25T22:00:00+07:00</lastmod>
   </url>
   
   <url>
     <loc>https://khal.web.id/post/</loc>
-    <lastmod>2021-06-22T20:00:00+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://khal.web.id/2021/06/22/quick-navigation-on-vscode-with-these-keyboard-shortcuts/</loc>
-    <lastmod>2021-06-22T20:00:00+07:00</lastmod>
+    <lastmod>2021-06-25T22:00:00+07:00</lastmod>
   </url>
   
   <url>
     <loc>https://khal.web.id/tags/</loc>
+    <lastmod>2021-06-25T22:00:00+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://khal.web.id/tags/tutorial/</loc>
+    <lastmod>2021-06-25T22:00:00+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://khal.web.id/tags/wfh/</loc>
+    <lastmod>2021-06-25T22:00:00+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://khal.web.id/tags/wristrest/</loc>
+    <lastmod>2021-06-25T22:00:00+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://khal.web.id/2021/06/22/quick-navigation-on-vscode-with-these-keyboard-shortcuts/</loc>
     <lastmod>2021-06-22T20:00:00+07:00</lastmod>
   </url>
   
@@ -39,11 +69,6 @@
   
   <url>
     <loc>https://khal.web.id/tags/golang/</loc>
-    <lastmod>2021-03-13T11:35:00+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://khal.web.id/tags/tutorial/</loc>
     <lastmod>2021-03-13T11:35:00+07:00</lastmod>
   </url>
   
