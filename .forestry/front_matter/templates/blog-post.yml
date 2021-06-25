@@ -26,3 +26,5 @@ fields:
 - type: text
   name: url
   label: url
+pages:
+- content/post/how-to-make-your-own-adjustable-keyboard-wrist-rest-pad.md
