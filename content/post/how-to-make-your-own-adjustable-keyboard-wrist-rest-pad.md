@@ -1,8 +1,8 @@
 +++
 author = ""
 comments = false
-date = 2021-06-26T05:00:00Z
-draft = true
+date = 2021-06-25T22:00:00+07:00
+draft = false
 image = "/images/20210625_093216.jpeg"
 share = false
 tags = ["wristrest", "wfh", "cardboard", "tutorial", "diy"]
@@ -10,9 +10,9 @@ title = "How to make your own adjustable keyboard wrist rest pad"
 url = "/2021/06/26/how-to-make-your-own-adjustable-keyboard-wrist-rest-pad"
 
 +++
-Hi, this is actually my depression in finding any wrist pad which I can adjust accordingly to the height of the keyboard. I've been googling around, going back and forth on any e-commerce sites but still couldn't find anything to my preferences.
+Hi, this is actually my depression in finding a wrist pad that I can adjust accordingly to the height of the keyboard. I've been googling around, going back and forth on any e-commerce sites but still couldn't find anything to my preferences.
 
-So I came up with an idea, what's a big deal, it's just a pad and then I'm starting to research for any wrist pad product out there. I was drawing my attention to the size of the wrist pad, the height, the length, and the thickness. Then I grab some cardboard from my stationery supplies and start to make my own product.
+So I came up with an idea to make my own, I'm starting to research for any wrist pad product out there. I'm focusing on the size of the wrist pad, the height, the length, and the thickness.
 
 This project doesn't need any specific tool, do not let your creativity down because you miss a tool. The type of wrist pad I'm going to make is the same size as the length of A4 paper. Fortunately, I have some A4 cardboard leftover with 2 mm thickness, so I thought this is going to be a good fit for the project.
 
@@ -26,7 +26,7 @@ As I can remember, It took me for **approx 30-45 minutes to finish the project**
 
 ![](/images/a4cut.jpg)
 
-First, you need to cut each cardboard into 3 parts of 7cm x 29.7cm, there will be 9 parts, I actually only use 7 parts, I kept the rest in case I messed up.
+First, you need to cut each cardboard into 3 parts of 7cm x 29.7cm. I actually only use 7 parts, I kept the rest in case I messed up.
 
 ## Stack The Cardboard
 
@@ -46,19 +46,19 @@ So here comes the tricky part, you're going to **make a plug on each part of the
 
 ![](/images/20210625_094644.jpg)
 
-I recommend starting from the bottom of the stack which is the **7th** stack. I'm starting to cut the **yellow holes** and make sure the **round caps** can be easily unplugged.
+I recommend starting from the bottom of the stack which is the **7th** stack. Cut the **yellow holes** and after that make sure the cut **round caps** can be easily unplugged.
 
 Lay the 7th stack on the table, plug back the caps to the hole and then put glue on the top of both caps, just the top of the cap, don't glue any of the surrounded areas.
 
-And then, put the 6th stack on top of it, you may need to reposition for alignment, press it for a while until the hole caps from the 7th stack glued to the bottom side of the 6th stack, then disassemble the 6th stack. 
+And then, put the 6th stack on top of it, you may need to reposition for alignment, press it for a while until the hole caps from the 7th stack glued to the bottom side of the 6th stack, and then release the 6th stack.  
 
-Now you're going to cut the **red hole** on the 6th stack and glue the caps to the 5th stack.
+Now the 6th stack will have 2 caps glued on the bottom side that will fit the hole on the 7th stack, and then you're going to cut the **red hole** on the 6th stack and glue the caps to the 5th stack.
 
 **Repeat this way alternately between yellow and red holes until you reach the top of the stack.**
 
 ## Final Result
 
-So here is the result, I've done some customization for a small wrist staircase approx 2-3mm width, I don't use any precise size so it's only a hunch.
+So here is the result, I’ve done some customization for a 2mm width staircase, I don’t use any precise size, only with a hunch.
 
 ![](/images/20210625_093452.jpeg)
 
