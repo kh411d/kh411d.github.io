@@ -18,9 +18,9 @@ This project doesn't need any specific tool, do not let your creativity down bec
 
 ![](/images/20210625_094151.jpg)
 
-As you see in the picture above, you will need **2 to 3 A4 cardboards with 2mm thickness**, repositionable glue, **cutter**, **pencil**, **ruler**, **cutting mat**, and lastly, a **round cutter**, if you have a **hole puncher** it will make your life easier or if you want it square, triangle or else then you don't need this tool.
+As you see in the picture above, you will need **2 to 3 A4 cardboards with 2mm thickness**, **repositionable glue**, **cutter**, **pencil**, **ruler**, **cutting mat**, and lastly, a **round cutter**, if you have a **hole puncher** it will make your life easier or if you want it **square**, **triangle** or else then you don't need this tool.
 
-As I can remember, It took me for approx 30-45 minutes to finish the project, well actually it depends on how crafty you are. FYI if you have kids around I suppose you need to pause the project because this project will need a bit of precision, concentration, and also you're playing with sharp tools.
+As I can remember, It took me for **approx 30-45 minutes to finish the project**, well actually it depends on how crafty you are. FYI if you have kids around I suppose you need to pause the project because this project will need a bit of precision, concentration, and also you're playing with sharp tools.
 
 ## Cut The Cardboard
 
@@ -28,25 +28,27 @@ First things first you need to cut each cardboard into 3 parts with the size of 
 
 ## Stack The Cardboard
 
-Get all the 7 parts into a stack so it will form a rectangle block, **you may want to number each cardboard from top to bottom, 1 to 7**, don't mark each side, just a small mark at the top right corner will do. This stack will roughly have **1.5cm thickness** combined, if you want it thicker then you can use all the parts.
+Get all the 7 parts into a stack so it will form a rectangle block, **you may want to number each cardboard from top to bottom, 1st to 7th stack**, don't mark each side, just a small mark at the top right corner will do. This stack will roughly have **1.5cm thickness** combined, if you want it thicker then you can use all the parts.
 
 ## Draw a Hole Pattern
 
-Before creating the plughole, we need to first draw a pattern for where later we're going to cut the hole. The pattern for each part of the cardboard will be like the picture below.
+Before creating the plughole, we need to first draw a pattern to cut the hole later. The pattern for each part of the cardboard will be like the picture below.
 
 ![](/images/padpattern.jpg)
 
-Draw the dashed line pattern with your pencil, divide all the area as described, your cut hole should be in the center of the intersection line. Cut the hole alternately, either start with the **ALT 1** hole or the **ALT 2** hole, you may only have **2 holes on each cardboard**. The cut hole size depends on your preferences **as long as not overlapping between the yellow and the red hole**.
+Draw the dashed line pattern with your pencil, divide all the area as described, your cut hole should be in the center of the intersection line. You're going to cut the hole alternately, either start with the **yellow or the red hole**, you can only have **2 holes on each cardboard**. The cut hole size depends on your preferences **as long as not overlapping between the yellow and the red**.
 
 ## Cut The Plug
 
-So here comes the tricky part, you're going to **make a hole on each part of the cardboard alternately**, from top to bottom of the stack.
+So here comes the tricky part, you're going to **make a plug on each part of the cardboard alternately**, from top to bottom of the stack.
 
 ![](/images/20210625_094644.jpg)
 
-I recommend starting from the bottom of the stack which is part number 7. I'm starting with the **yellow hole** **(ALT1)** after cut the 2 holes, make sure the plug you've just cut can be easily plugged or unplugged easily and then put the plug/caps back to both holes.
+I recommend starting from the bottom of the stack which is the 7th stack. I'm starting to cut the **two yellow holes** and make sure the **round caps** can be easily unplugged. 
 
-For the sake of functionality and precision, I'm going to cheat a bit here, put glue on the top of both caps, just the top of the cap don't glue any of the surrounded areas. And then put part number 6 to the top of it, you may need to position to align both parts, it's important to use repositionable glue, press it for a while, then unplug part number 6. Now you're going to cut the **red hole (ALT2)** on part number 6.
+While the 7th stack on the table, plug back the caps to the hole and then put glue on the top of both caps, just the top of the cap, don't glue any of the surrounded areas. 
+
+And then put the 6th stack on top of it, you may need to position to align the stack, it's important to use repositionable glue, and then press it for a while, then disassemble the 6th stack. Now you're going to cut the **red hole (ALT2)** on the 6th stack and glue the caps to the 5th stack.
 
 **Repeat this way alternately between the yellow hole and the red hole until you reach the top of the stack.**
 
