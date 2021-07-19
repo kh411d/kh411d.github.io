@@ -20,4 +20,8 @@ Have you seen any levers on your laptop now? there is a 99% chance the answer wi
 
 ![](/images/laptop.jpg "laptop")
 
+Have you wondered why the numeric is not staggered? the easiest answer is because there is no numeric pad back then on the typewriter 😂
+
+![](/images/fullsizekeeb.jpg)
+
 So why would every industry keep using this staggered layout?
