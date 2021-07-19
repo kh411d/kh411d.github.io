@@ -1,7 +1,7 @@
 +++
 author = ""
 comments = false
-date = 2021-07-19T07:00:00Z
+date = 2021-07-19T13:00:00Z
 draft = true
 image = "/images/staggeredkeys.jpg"
 share = false
@@ -34,15 +34,15 @@ I'm not a speed typist, my average is 75-90 wpm but this staggered layout seems 
 
 Keyboards without staggered keys are generally much easier to type on, but hard to find. Fortunately, there's a lot of the so-called _"Ortholinear"_ keyboard out there, or maybe an _"Ergonomic"_ keyboard. Several keyboards that come to my preference such as portability, ergonomic, and ease of use.
 
-My first look is at the customize [Planck keyboard from Drop](https://drop.com/buy/massdrop-x-olkb-planck-light-mechanical-keyboard) with a low-profile switch and also a slimmer build and weight in just around 200gr.
+My first look is at the customize [Planck keyboard from Drop](https://drop.com/buy/massdrop-x-olkb-planck-light-mechanical-keyboard) with a low-profile switch and also a slimmer build and weighs in just around 200gr.
 
 ![](/images/massdropplanck.jpg)
 
-And then the ergonomic [Atreus from keyboard.io](https://shop.keyboard.io/products/keyboardio-atreus "atreus") this keyboard is very small, compact, ergonomic, and weight in just around 300gr.
+And then the ergonomic [Atreus from keyboard.io](https://shop.keyboard.io/products/keyboardio-atreus "atreus") this keyboard is very small, compact, ergonomic, and weighs in just around 300gr.
 
 ![](/images/atreuskeeb.jpg)
 
-Lastly, the [Corne LP from boardsource.xyz](https://boardsource.xyz/store/5f2efc462902de7151495057 "cornelp")  it's a split keyboard so it suppose to have more cables than the regular one, comes with a low-profile hot swap switch, and weight in just around 350gr.
+Lastly, the [Corne LP from boardsource.xyz](https://boardsource.xyz/store/5f2efc462902de7151495057 "cornelp") it's a split keyboard so it supposes to have more cables than the regular one, comes with a low-profile hot-swap switch, and weighs in just around 350gr.
 
 ![](/images/cornelp.jpg)
 
