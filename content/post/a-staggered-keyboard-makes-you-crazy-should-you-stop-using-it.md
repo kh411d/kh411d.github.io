@@ -48,7 +48,7 @@ Lastly, the [Corne LP from boardsource.xyz](https://boardsource.xyz/store/5f2efc
 
 So what do you think? Should you move on from the staggering keyboard?
 
-Well, if you feel much more comfortable with the current keyboard, I believe you don't need to switch but if you feel adventurous or for a health reason then I think you should try any of that keyboard above, it won't cost you a fortune, hmm maybe on the shipping cost, and the custom tax 😂
+Well, if you feel much more comfortable with the current keyboard, I believe you don't need to switch but if you feel adventurous or for a health reason then I think you should try any of those keyboards, it won't cost you a fortune, hmm maybe on the shipping cost, and the custom tax 😂
 
 To be honest I haven't decided what I want or what to buy by the time this article is written, because of the current pandemic situation everything gets complicated 😔
 
