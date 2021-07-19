@@ -10,9 +10,9 @@ title = "A staggered keyboard makes you crazy, should you stop using it?"
 url = "/2021/07/19/a-staggered-keyboard-makes-you-crazy-should-you-stop-using-it"
 
 +++
-If you see the picture of the typewriter above, yes, that is staggered. It means that the keys are not in a linear position. And also, looking at your keyboard now, there is a 90% chance your keyboard is also staggered.
+If you see the picture of the typewriter above, yes, that is staggered. It means that the keys are not in a linear position. And also, looking at your keyboard now, there is a 90% chance your keyboard is also staggered. So, what's wrong with the staggered keyboard? Honestly, there is nothing wrong with it if we currently live in the typewriter era. 
 
-So, what's wrong with the staggered keyboard? Honestly, there is nothing wrong with it if we currently live in the typewriter era. Originally keyboards had to have a staggered layout to fit the mechanical linkages between the keys and the levers/arm, allows all the mechanical levers connected to the keys to having their own lane to move up and down and not collide with the levers of other keys.
+Originally keyboards had to have a staggered layout to fit the mechanical linkages between the keys and the levers/arm, allows all the mechanical levers connected to the keys to having their own lane to move up and down and not collide with the levers of other keys.
 
 ![](/images/typewriter_keys.jpeg)
 
