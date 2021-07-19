@@ -16,9 +16,7 @@ So, what's wrong with the staggered keyboard? Honestly, there is nothing wrong w
 
 ![](/images/typewriter_keys.jpeg)
 
-Have you seen any levers on your laptop now?
-Nope.
-
+Have you seen any levers on your laptop now? Nope.  
 Have you wondered why the numeric pad is not staggered?
 Hmm.. maybe because there is no numeric pad back then on the typewriter 😂
 
@@ -26,9 +24,7 @@ Hmm.. maybe because there is no numeric pad back then on the typewriter 😂
 
 ### So why would the industry keep using this staggered layout?
 
-The answer is because that's what people know, and that’s how it’s always been done.  Maybe they're not willing to put sales at risk. They might also think like why would you sell a flat spoon instead of the usual one.
-
-Unfortunately, any new typist will actually have to get used to the staggered layout, which happened to me also, the first time I learned to type is with an old **Brother** typewriter in my 6th grade.
+The answer is because that's what people know, and that’s how it’s always been done. Unfortunately, any new typist will have to get used to the staggered layout, which happened to me also, the first time I learned to type is with an old **Brother** typewriter in my 6th grade.
 
 I remembered how to replace the ink tape, **Tipp-Ex**, ripping off the paper because you just had to, and then the IBM computer came, of course, with a big staggered keyboard.
 
