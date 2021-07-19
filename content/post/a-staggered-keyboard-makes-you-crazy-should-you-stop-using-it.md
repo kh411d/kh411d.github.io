@@ -36,9 +36,9 @@ So, unfortunately, any new typist will actually have to get used to the staggere
 
 This staggered layout seems to have driven me crazy these days. I kept mistyping everything, especially for the symbols and numbers. I don't know if it's because me getting tired of stretching my fingers to get all those symbols typed correctly, or maybe it's because the pain I felt on my wrist.
 
-**Keyboards without staggered keys are generally much easier to type on, but hard to find.** Fortunately, there's a lot of the so-called **"Ortholinear"** keyboard out there, or maybe an **"Ergonomic"** keyboard. Several keyboards has come to my preference such as portability, ergonomic, and ease of use.
+**Keyboards without staggered keys are generally much easier to type on, but hard to find.** Fortunately, there's a lot of the so-called **"Ortholinear"** keyboard out there, or maybe an **"Ergonomic"** keyboard. Several keyboards that come to my preference such as portability, ergonomic, and ease of use.
 
-My first look is at the customize [Planck keyboard from Drop](https://drop.com/buy/massdrop-x-olkb-planck-light-mechanical-keyboard) with low-profile switch and also a slimmer build and weight in just around 200gr.
+My first look is at the customize [Planck keyboard from Drop](https://drop.com/buy/massdrop-x-olkb-planck-light-mechanical-keyboard) with a low-profile switch and also a slimmer build and weight in just around 200gr.
 
 ![](/images/massdropplanck.jpg)
 
@@ -46,6 +46,10 @@ And then the ergonomic [Atreus from keyboard.io](https://shop.keyboard.io/produc
 
 ![](/images/atreuskeeb.jpg)
 
-Lastly, the [**Corne LP** split keyboard from boardsource.xyz](https://boardsource.xyz/store/5f2efc462902de7151495057 "cornelp")  it's a split keyboard so it suppose to have more cables than the regular one, comes with a low-profile hot swap switch, and weight in just around 350gr.
+Lastly, the [Corne LP from boardsource.xyz](https://boardsource.xyz/store/5f2efc462902de7151495057 "cornelp")  it's a split keyboard so it suppose to have more cables than the regular one, comes with a low-profile hot swap switch, and weight in just around 350gr.
 
 ![](/images/cornelp.jpg)
+
+So what do you think? should you move on from the staggering keyboard?
+
+Well, if you feel much more comfortable with the current keyboard, I believe you don't need to switch but if you feel adventurous or for a healthy reason then I think you should try any of those keyboard above, it won't cost you a fortune, hmm maybe on the shipping cost, and the custom tax 😂
