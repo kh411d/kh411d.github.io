@@ -26,4 +26,4 @@ Have you wondered why the numeric pad is not staggered? the easiest answer is be
 
 So why would the industry keep using this staggered layout? The answer is because that's what people know, and that’s how it’s always been done.  They don't want to put the sales at risk also. They might think like why would you sell a flat spoon instead of the usual one. 
 
-So accidentally, any new typist will actually have to get used to the staggered layout, which happened to me also, the first time I learned to type is with my grandfather old royal typewriter,
+So, unfortunately, any new typist will actually have to get used to the staggered layout, which happened to me also, the first time I learned to type is with my grandfather old **Brother** typewriter in my 6th grade, I remembered how it gets me lazy to change the ink tape, correcting a letter with **Tipp-Ex**, get flip out when the lever arm get collapsed each other and then the IBM computer came also with a staggered keyboard.
