@@ -34,9 +34,9 @@ The answer is because that's what people know, and that’s how it’s always be
 
 So, unfortunately, any new typist will actually have to get used to the staggered layout, which happened to me also, the first time I learned to type is with an old **Brother** typewriter in my 6th grade, I remembered how to replace the ink tape, **Tipp-Ex**, ripping off the paper because you just had to, and then the IBM computer came, of course, with a big staggered keyboard 😂
 
-This staggered layout seems to have driven me crazy these days. I kept mistyping everything, especially for the symbols and numbers. I don't know if it's because me getting tired of stretching my fingers to get all those symbols typed correctly, or maybe it's because the pain I felt on my wrist.
+I'm not a speed typist, my average wpm is 75 to 90 wpm but this staggered layout seems to have driven me crazy these days. I kept mistyping everything, especially for the symbols and numbers. I don't know if it's because me getting tired of stretching my fingers to get all those symbols typed correctly, or maybe it's because of the pain I felt on my wrist.
 
-**Keyboards without staggered keys are generally much easier to type on, but hard to find.** Fortunately, there's a lot of the so-called **"Ortholinear"** keyboard out there, or maybe an **"Ergonomic"** keyboard. Several keyboards that come to my preference such as portability, ergonomic, and ease of use.
+Keyboards without staggered keys are generally much easier to type on, but hard to find. Fortunately, there's a lot of the so-called _"Ortholinear"_ keyboard out there, or maybe an _"Ergonomic"_ keyboard. Several keyboards that come to my preference such as portability, ergonomic, and ease of use.
 
 My first look is at the customize [Planck keyboard from Drop](https://drop.com/buy/massdrop-x-olkb-planck-light-mechanical-keyboard) with a low-profile switch and also a slimmer build and weight in just around 200gr.
 
