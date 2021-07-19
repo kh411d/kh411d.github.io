@@ -32,7 +32,7 @@ So why would the industry keep using this staggered layout?
 
 The answer is because that's what people know, and that’s how it’s always been done.  Maybe they're not willing to put sales at risk. They might also think like why would you sell a flat spoon instead of the usual one.
 
-So, unfortunately, any new typist will actually have to get used to the staggered layout, which happened to me also, the first time I learned to type is with an old **Brother** typewriter in my 6th grade, I remembered how it gets me lazy to change the ink tape, correcting a letter with a **Tipp-Ex**, ripping off the paper because the lever gets jammed, and then the IBM computer came, of course, with a big staggered keyboard 😂
+So, unfortunately, any new typist will actually have to get used to the staggered layout, which happened to me also, the first time I learned to type is with an old **Brother** typewriter in my 6th grade, I remembered how to replace the ink tape, **Tipp-Ex**, ripping off the paper because you just had to, and then the IBM computer came, of course, with a big staggered keyboard 😂
 
 This staggered layout seems to have driven me crazy these days. I kept mistyping everything, especially for the symbols and numbers. I don't know if it's because me getting tired of stretching my fingers to get all those symbols typed correctly, or maybe it's because the pain I felt on my wrist.
 
