@@ -8,10 +8,28 @@
     <language>en-us</language>
     <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
     <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
-    <lastBuildDate>Fri, 25 Jun 2021 22:00:00 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 19 Jul 2021 13:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://khal.web.id/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>keyboard</title>
+      <link>https://khal.web.id/tags/keyboard/</link>
+      <pubDate>Mon, 19 Jul 2021 13:00:00 +0000</pubDate>
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <guid>https://khal.web.id/tags/keyboard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>typewriter</title>
+      <link>https://khal.web.id/tags/typewriter/</link>
+      <pubDate>Mon, 19 Jul 2021 13:00:00 +0000</pubDate>
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <guid>https://khal.web.id/tags/typewriter/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>cardboard</title>
