@@ -8,11 +8,7 @@
     <language>en-us</language>
     <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
     <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
-    <lastBuildDate>Tue, 08 Sep 2020 19:08:09 +0700</lastBuildDate>
-    
-	<atom:link href="https://khal.web.id/tags/cheatsheet/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 08 Sep 2020 19:08:09 +0700</lastBuildDate><atom:link href="https://khal.web.id/tags/cheatsheet/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Markdown Rises</title>
       <link>https://khal.web.id/2020/09/08/The-Markdown-Rises/</link>

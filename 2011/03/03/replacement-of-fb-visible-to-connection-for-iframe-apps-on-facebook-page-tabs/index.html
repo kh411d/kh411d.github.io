@@ -74,7 +74,7 @@
     <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <meta name="generator" content="Hugo 0.74.3" />
+    <meta name="generator" content="Hugo 0.85.0" />
     
     
 <script type="application/javascript">
@@ -266,34 +266,34 @@ if (!doNotTrack) {
 </span><span class="lnt">28
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-php" data-lang="php">function parse_signed_request($signed_request = null, $secret = null) {
-    $signed_request = $signed_request ? $signed_request : $_REQUEST[&#39;signed_request&#39;];
-    $secret = $secret ? $secret : APP_SECRET;
+<pre class="chroma"><code class="language-php" data-lang="php"><span class="k">function</span> <span class="nf">parse_signed_request</span><span class="p">(</span><span class="nv">$signed_request</span> <span class="o">=</span> <span class="k">null</span><span class="p">,</span> <span class="nv">$secret</span> <span class="o">=</span> <span class="k">null</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nv">$signed_request</span> <span class="o">=</span> <span class="nv">$signed_request</span> <span class="o">?</span> <span class="nv">$signed_request</span> <span class="o">:</span> <span class="nv">$_REQUEST</span><span class="p">[</span><span class="s1">&#39;signed_request&#39;</span><span class="p">];</span>
+    <span class="nv">$secret</span> <span class="o">=</span> <span class="nv">$secret</span> <span class="o">?</span> <span class="nv">$secret</span> <span class="o">:</span> <span class="nx">APP_SECRET</span><span class="p">;</span>
     
-    list($encoded_sig, $payload) = explode(&#39;.&#39;, $signed_request, 2);
+    <span class="k">list</span><span class="p">(</span><span class="nv">$encoded_sig</span><span class="p">,</span> <span class="nv">$payload</span><span class="p">)</span> <span class="o">=</span> <span class="nx">explode</span><span class="p">(</span><span class="s1">&#39;.&#39;</span><span class="p">,</span> <span class="nv">$signed_request</span><span class="p">,</span> <span class="mi">2</span><span class="p">);</span>
     
-    // decode the data
-    $sig = base64_url_decode($encoded_sig);
-    $data = json_decode(base64_url_decode($payload), true);
+    <span class="c1">// decode the data
+</span><span class="c1"></span>    <span class="nv">$sig</span> <span class="o">=</span> <span class="nx">base64_url_decode</span><span class="p">(</span><span class="nv">$encoded_sig</span><span class="p">);</span>
+    <span class="nv">$data</span> <span class="o">=</span> <span class="nx">json_decode</span><span class="p">(</span><span class="nx">base64_url_decode</span><span class="p">(</span><span class="nv">$payload</span><span class="p">),</span> <span class="k">true</span><span class="p">);</span>
     
-    if (strtoupper($data[&#39;algorithm&#39;]) !== &#39;HMAC-SHA256&#39;) {
-        error_log(&#39;Unknown algorithm. Expected HMAC-SHA256&#39;);
-        return null;
-    }
+    <span class="k">if</span> <span class="p">(</span><span class="nx">strtoupper</span><span class="p">(</span><span class="nv">$data</span><span class="p">[</span><span class="s1">&#39;algorithm&#39;</span><span class="p">])</span> <span class="o">!==</span> <span class="s1">&#39;HMAC-SHA256&#39;</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">error_log</span><span class="p">(</span><span class="s1">&#39;Unknown algorithm. Expected HMAC-SHA256&#39;</span><span class="p">);</span>
+        <span class="k">return</span> <span class="k">null</span><span class="p">;</span>
+    <span class="p">}</span>
     
-    // check sig
-    $expected_sig = hash_hmac(&#39;sha256&#39;, $payload, $secret, $raw = true);
-    if ($sig !== $expected_sig) {
-        error_log(&#39;Bad Signed JSON signature!&#39;);
-        return null;
-    }
+    <span class="c1">// check sig
+</span><span class="c1"></span>    <span class="nv">$expected_sig</span> <span class="o">=</span> <span class="nx">hash_hmac</span><span class="p">(</span><span class="s1">&#39;sha256&#39;</span><span class="p">,</span> <span class="nv">$payload</span><span class="p">,</span> <span class="nv">$secret</span><span class="p">,</span> <span class="nv">$raw</span> <span class="o">=</span> <span class="k">true</span><span class="p">);</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nv">$sig</span> <span class="o">!==</span> <span class="nv">$expected_sig</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">error_log</span><span class="p">(</span><span class="s1">&#39;Bad Signed JSON signature!&#39;</span><span class="p">);</span>
+        <span class="k">return</span> <span class="k">null</span><span class="p">;</span>
+    <span class="p">}</span>
     
-    return $data;
-}
+    <span class="k">return</span> <span class="nv">$data</span><span class="p">;</span>
+<span class="p">}</span>
     
-function base64_url_decode($input) {
-    return base64_decode(strtr($input, &#39;-_&#39;, &#39;+/&#39;));
-}
+<span class="k">function</span> <span class="nf">base64_url_decode</span><span class="p">(</span><span class="nv">$input</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="nx">base64_decode</span><span class="p">(</span><span class="nx">strtr</span><span class="p">(</span><span class="nv">$input</span><span class="p">,</span> <span class="s1">&#39;-_&#39;</span><span class="p">,</span> <span class="s1">&#39;+/&#39;</span><span class="p">));</span>
+<span class="p">}</span>
 </code></pre></td></tr></table>
 </div>
 </div>

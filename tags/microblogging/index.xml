@@ -8,11 +8,7 @@
     <language>en-us</language>
     <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
     <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
-    <lastBuildDate>Mon, 23 Dec 2013 11:42:34 +0700</lastBuildDate>
-    
-	<atom:link href="https://khal.web.id/tags/microblogging/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 23 Dec 2013 11:42:34 +0700</lastBuildDate><atom:link href="https://khal.web.id/tags/microblogging/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Registrasi gratis aplikasi microblogging App.net</title>
       <link>https://khal.web.id/2013/12/23/registrasi-app-net/</link>

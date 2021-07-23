@@ -8,11 +8,7 @@
     <language>en-us</language>
     <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
     <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
-    <lastBuildDate>Thu, 25 Jan 2018 00:40:18 +0700</lastBuildDate>
-    
-	<atom:link href="https://khal.web.id/tags/linux/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 25 Jan 2018 00:40:18 +0700</lastBuildDate><atom:link href="https://khal.web.id/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rusty Macbook Air getting new Air from Archlinux</title>
       <link>https://khal.web.id/2018/01/25/Rusty-Macbook-Air-getting-new-Air-from-Archlinux/</link>

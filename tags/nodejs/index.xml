@@ -8,11 +8,7 @@
     <language>en-us</language>
     <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
     <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
-    <lastBuildDate>Wed, 19 Feb 2014 07:55:27 +0700</lastBuildDate>
-    
-	<atom:link href="https://khal.web.id/tags/nodejs/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 19 Feb 2014 07:55:27 +0700</lastBuildDate><atom:link href="https://khal.web.id/tags/nodejs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[NOTE] Upgrade NodeJS lokal via NPM dan &#34;n&#34; module</title>
       <link>https://khal.web.id/2014/02/19/note-upgrade-nodejs-lokal-via-npm-dan-n-module/</link>

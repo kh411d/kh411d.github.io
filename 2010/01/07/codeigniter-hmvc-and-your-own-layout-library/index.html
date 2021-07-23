@@ -74,7 +74,7 @@
     <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <meta name="generator" content="Hugo 0.74.3" />
+    <meta name="generator" content="Hugo 0.85.0" />
     
     
 <script type="application/javascript">
@@ -175,7 +175,7 @@ if (!doNotTrack) {
 <pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-php" data-lang="php">    $this-&gt;obj =<span class="err">&amp;</span> get_instance();
+<pre class="chroma"><code class="language-php" data-lang="php">    <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">obj</span> <span class="o">=&amp;</span> <span class="nx">get_instance</span><span class="p">();</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>and then I&rsquo;m trying to load a view from some module,</p>
@@ -184,7 +184,7 @@ if (!doNotTrack) {
 <pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-php" data-lang="php">    $this-&gt;obj-&gt;load-&gt;view($view,$data);
+<pre class="chroma"><code class="language-php" data-lang="php">    <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">obj</span><span class="o">-&gt;</span><span class="na">load</span><span class="o">-&gt;</span><span class="na">view</span><span class="p">(</span><span class="nv">$view</span><span class="p">,</span><span class="nv">$data</span><span class="p">);</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>This will resulting errors, it turns out <code>$this-&gt;obj</code> is only loading the global view of CI i.e. <code>./application/views/</code> HMVC is not overriding the default view of CI, you might have to pass your controller object <code>$this</code> from your controller to your layout library,</p>
@@ -201,14 +201,14 @@ if (!doNotTrack) {
 </span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-php" data-lang="php">    class Post extends Controller {
-        function Post(){
-            parent::Controller();
-        }
-        function Read(){
-            $this-&gt;layout-&gt;load(&#39;read.php&#39;, $this);
-        }
-    }
+<pre class="chroma"><code class="language-php" data-lang="php">    <span class="k">class</span> <span class="nc">Post</span> <span class="k">extends</span> <span class="nx">Controller</span> <span class="p">{</span>
+        <span class="k">function</span> <span class="nf">Post</span><span class="p">(){</span>
+            <span class="k">parent</span><span class="o">::</span><span class="na">Controller</span><span class="p">();</span>
+        <span class="p">}</span>
+        <span class="k">function</span> <span class="nf">Read</span><span class="p">(){</span>
+            <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">layout</span><span class="o">-&gt;</span><span class="na">load</span><span class="p">(</span><span class="s1">&#39;read.php&#39;</span><span class="p">,</span> <span class="nv">$this</span><span class="p">);</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>On your Layout library :</p>
@@ -223,13 +223,13 @@ if (!doNotTrack) {
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-php" data-lang="php">    function load($view,$controller){
-        $partial = $controller-&gt;load-&gt;view($view,true);
+<pre class="chroma"><code class="language-php" data-lang="php">    <span class="k">function</span> <span class="nf">load</span><span class="p">(</span><span class="nv">$view</span><span class="p">,</span><span class="nv">$controller</span><span class="p">){</span>
+        <span class="nv">$partial</span> <span class="o">=</span> <span class="nv">$controller</span><span class="o">-&gt;</span><span class="na">load</span><span class="o">-&gt;</span><span class="na">view</span><span class="p">(</span><span class="nv">$view</span><span class="p">,</span><span class="k">true</span><span class="p">);</span>
 
-        //parse to your big layout
-        $data[&#39;content_module&#39;] = $partial;
-        $controller-&gt;load-&gt;view($path_to_layout,$data);
-    }
+        <span class="c1">//parse to your big layout
+</span><span class="c1"></span>        <span class="nv">$data</span><span class="p">[</span><span class="s1">&#39;content_module&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="nv">$partial</span><span class="p">;</span>
+        <span class="nv">$controller</span><span class="o">-&gt;</span><span class="na">load</span><span class="o">-&gt;</span><span class="na">view</span><span class="p">(</span><span class="nv">$path_to_layout</span><span class="p">,</span><span class="nv">$data</span><span class="p">);</span>
+    <span class="p">}</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>Hope this will help for somebody who have some problem like myself</p>

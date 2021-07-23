@@ -71,7 +71,7 @@
     <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <meta name="generator" content="Hugo 0.74.3" />
+    <meta name="generator" content="Hugo 0.85.0" />
     
     
 <script type="application/javascript">
@@ -197,22 +197,22 @@ if (!doNotTrack) {
 </span><span class="lnt">16
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-php" data-lang="php">function getXSPF(){
-	$XSPFurl = &#39;http://xxx.xxx.xxx.xxx:8000/mount.xspf&#39;;
-	$xml = simplexml_load_file($XSPFurl);
-	$stream[&#39;info&#39;][&#39;title&#39;] = (string) $xml-&gt;trackList-&gt;track-&gt;title;
-	$stream[&#39;info&#39;][&#39;location&#39;] = (string) $xml-&gt;trackList-&gt;track-&gt;location;
+<pre class="chroma"><code class="language-php" data-lang="php"><span class="k">function</span> <span class="nf">getXSPF</span><span class="p">(){</span>
+	<span class="nv">$XSPFurl</span> <span class="o">=</span> <span class="s1">&#39;http://xxx.xxx.xxx.xxx:8000/mount.xspf&#39;</span><span class="p">;</span>
+	<span class="nv">$xml</span> <span class="o">=</span> <span class="nx">simplexml_load_file</span><span class="p">(</span><span class="nv">$XSPFurl</span><span class="p">);</span>
+	<span class="nv">$stream</span><span class="p">[</span><span class="s1">&#39;info&#39;</span><span class="p">][</span><span class="s1">&#39;title&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="nx">string</span><span class="p">)</span> <span class="nv">$xml</span><span class="o">-&gt;</span><span class="na">trackList</span><span class="o">-&gt;</span><span class="na">track</span><span class="o">-&gt;</span><span class="na">title</span><span class="p">;</span>
+	<span class="nv">$stream</span><span class="p">[</span><span class="s1">&#39;info&#39;</span><span class="p">][</span><span class="s1">&#39;location&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="nx">string</span><span class="p">)</span> <span class="nv">$xml</span><span class="o">-&gt;</span><span class="na">trackList</span><span class="o">-&gt;</span><span class="na">track</span><span class="o">-&gt;</span><span class="na">location</span><span class="p">;</span>
 
-	preg_match_all(&#39;/^(.*):(.*)/m&#39;, (string) $xml-&gt;trackList-&gt;track-&gt;annotation,$matches);
-	if(isset($matches[1]) <span class="err">&amp;&amp;</span> isset($matches[2])){
-		$t = array_combine($matches[1], $matches[2]);
-		foreach($t as $key =&gt; $val){
-			$fkey = str_replace(&#34; &#34;, &#34;_&#34;,$key);
-			$stream[&#39;info&#39;][strtolower($fkey)] = trim($val);
-		}
-	}
-	return $stream;
-}
+	<span class="nx">preg_match_all</span><span class="p">(</span><span class="s1">&#39;/^(.*):(.*)/m&#39;</span><span class="p">,</span> <span class="p">(</span><span class="nx">string</span><span class="p">)</span> <span class="nv">$xml</span><span class="o">-&gt;</span><span class="na">trackList</span><span class="o">-&gt;</span><span class="na">track</span><span class="o">-&gt;</span><span class="na">annotation</span><span class="p">,</span><span class="nv">$matches</span><span class="p">);</span>
+	<span class="k">if</span><span class="p">(</span><span class="nx">isset</span><span class="p">(</span><span class="nv">$matches</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> <span class="o">&amp;&amp;</span> <span class="nx">isset</span><span class="p">(</span><span class="nv">$matches</span><span class="p">[</span><span class="mi">2</span><span class="p">])){</span>
+		<span class="nv">$t</span> <span class="o">=</span> <span class="nx">array_combine</span><span class="p">(</span><span class="nv">$matches</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="nv">$matches</span><span class="p">[</span><span class="mi">2</span><span class="p">]);</span>
+		<span class="k">foreach</span><span class="p">(</span><span class="nv">$t</span> <span class="k">as</span> <span class="nv">$key</span> <span class="o">=&gt;</span> <span class="nv">$val</span><span class="p">){</span>
+			<span class="nv">$fkey</span> <span class="o">=</span> <span class="nx">str_replace</span><span class="p">(</span><span class="s2">&#34; &#34;</span><span class="p">,</span> <span class="s2">&#34;_&#34;</span><span class="p">,</span><span class="nv">$key</span><span class="p">);</span>
+			<span class="nv">$stream</span><span class="p">[</span><span class="s1">&#39;info&#39;</span><span class="p">][</span><span class="nx">strtolower</span><span class="p">(</span><span class="nv">$fkey</span><span class="p">)]</span> <span class="o">=</span> <span class="nx">trim</span><span class="p">(</span><span class="nv">$val</span><span class="p">);</span>
+		<span class="p">}</span>
+	<span class="p">}</span>
+	<span class="k">return</span> <span class="nv">$stream</span><span class="p">;</span>
+<span class="p">}</span>
 </code></pre></td></tr></table>
 </div>
 </div><ol start="3">
@@ -225,9 +225,9 @@ if (!doNotTrack) {
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-php" data-lang="php">require_once &#34;xspf_function.php&#34;
-$stream = getXSPF();
-echo $stream[&#39;info&#39;][&#39;title&#39;];
+<pre class="chroma"><code class="language-php" data-lang="php"><span class="k">require_once</span> <span class="s2">&#34;xspf_function.php&#34;</span>
+<span class="nv">$stream</span> <span class="o">=</span> <span class="nx">getXSPF</span><span class="p">();</span>
+<span class="k">echo</span> <span class="nv">$stream</span><span class="p">[</span><span class="s1">&#39;info&#39;</span><span class="p">][</span><span class="s1">&#39;title&#39;</span><span class="p">];</span>
 </code></pre></td></tr></table>
 </div>
 </div><ol start="4">

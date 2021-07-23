@@ -8,11 +8,7 @@
     <language>en-us</language>
     <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
     <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
-    <lastBuildDate>Tue, 12 Aug 2014 05:04:45 +0700</lastBuildDate>
-    
-	<atom:link href="https://khal.web.id/tags/online-streaming/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 12 Aug 2014 05:04:45 +0700</lastBuildDate><atom:link href="https://khal.web.id/tags/online-streaming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to get realtime Now Playing info from Ice Cast</title>
       <link>https://khal.web.id/2014/08/12/how-to-get-realtime-now-playing-info-from-ice-cast/</link>
