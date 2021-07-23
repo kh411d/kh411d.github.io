@@ -35,7 +35,7 @@ Keyboards without staggered keys are generally much easier to type on, but hard 
 
 My first look is at the customize [Planck keyboard from Drop](https://drop.com/buy/massdrop-x-olkb-planck-light-mechanical-keyboard) with a low-profile switch and also a slimmer build and weighs in just around 200gr.
 
-![](/images/massdropplanck.jpg)
+![](/images/plancklp.jpg)
 
 And then the ergonomic [Atreus from keyboard.io](https://shop.keyboard.io/products/keyboardio-atreus "atreus") this keyboard is very small, compact, ergonomic, and weighs in just around 300gr.
 
@@ -43,7 +43,11 @@ And then the ergonomic [Atreus from keyboard.io](https://shop.keyboard.io/produc
 
 Lastly, the [Corne LP from boardsource.xyz](https://boardsource.xyz/store/5f2efc462902de7151495057 "cornelp") it's a split keyboard so it supposes to have more cables than the regular one, comes with a low-profile hot-swap switch, and weighs in just around 350gr.
 
-![](/images/cornelp.jpg)
+![](/images/cornelpbig.jpg)
+
+Updates!! Not a while ago I found [the Gergoplex from g Heavy Industries](https://www.gboards.ca/product/gergoplex), it’s a split keyboard similar to Corne LP but with a slimmer body, because the controller is already included on the PCB, no double-decker mounting, and also much lighter maybe weighs in just around 250gr.
+
+![](/images/gergoplex.jpg)
 
 So what do you think? Should you move on from the staggering keyboard?
 
