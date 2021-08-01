@@ -30,8 +30,8 @@ You can read how to flash from the Kali Linux site, it's explained very well. Ju
 
 The current kernel version by the time this article is written, `5.4.83-Re4son`
 
-### Configure the Autologin
+### One-time configuration
 
 If you're on Linux PC then you don't need a keyboard for the RPi. I'm going to use the RPi as a headless Kali Linux box, no monitor is needed. But first, we need to set an autologin and enabling the SSH, it is a one-time configuration so you don't need to repeat it.
 
-When you're in a new public space you're going to rely on your phone WIFI hotspot, so then you need to register your phone hotspot SSID to the RPi to be auto-logged in, from there you could just SSH to the RPi and then switch to the new public WIFI.
+When you're in a new public WIFI you might want the RPi autologin to your phone WIFI hotspot, so then you could SSH to the RPi from your phone then switch to the new public WIFI.
