@@ -26,7 +26,7 @@ I'm using a 16Gb sd card, add two heatsinks because it's overclocked, and a wire
 
 The last thing you need to get is the [Kali Linux ARM image from their site](https://www.kali.org/get-kali/#kali-arm), flash the image to the sd card either using `dd` _(careful accidentally erasing your laptop drive)_ or an app such as Etcher just to be safe. The size of the image is quite big 1 to 2Gb so it would take a longer time to flash, please be patient.
 
-You can read how to the flashing from the Kali Linux site, it's explained very well. Just follow the step-by-step instructions.
+You can read how to flash from the Kali Linux site, it's explained very well. Just follow the step-by-step instructions.
 
 The current kernel version by the time this article is written, `5.4.83-Re4son`
 
