@@ -14,4 +14,4 @@ Have you ever been insecure while you are using any public WIFI? Did you suspect
 
 All of these might happened if you're using any WIFI connection in a coffee shop, a cafe, a coworking place, in a conference room, on your own office, or maybe in your neighborhood.
 
-Of course, you can prevent this by using a VPN on a public network, but sometimes it just can't work, or maybe you are just too cheap for that expensive VPN subscription. If this happened, this Raspberry Pi hack box could be a low-cost alternative to protect you from cyberattacks which might be handy in another day.
+Of course, you can prevent this by using a VPN on a public network, but sometimes it just can't work, or maybe you are just too cheap for that expensive VPN subscription. If this happened, this Raspberry Pi hack box could be a low-cost alternative to protect you from cyberattacks which might come in handy another day.
