@@ -32,6 +32,86 @@ The current kernel version by the time this article is written, `5.4.83-Re4son`
 
 ### One-time configuration
 
-If you're on Linux PC then you don't need a keyboard for the RPi. I'm going to use the RPi as a headless Kali Linux box, no monitor is needed. But first, we need to set an autologin and enabling the SSH, it is a one-time configuration so you don't need to repeat it.
+I'm going to make a headless RPi, so no monitor is needed. But first, we need to set an autologin and enabling the SSH, it is a one-time configuration so you don't need to repeat it.
 
 When you're in a new public WIFI you might want the RPi autologin to your phone WIFI hotspot, so then you could SSH to the RPi from your phone then switch to the new public WIFI.
+
+##### Linux PC
+
+Linux could easily mount the image root folder and add all the configuration files directly to that image file.
+
+##### macOS or Windows PC
+
+Unless you want to follow these two solutions you can skip the last solution,
+
+* Follow the instruction on [the Github page of fuse-ext2](https://github.com/alperakcan/fuse-ext2). You can read/write on ext2, ext3, and ext4 partitions.
+* Or you can pay for **extFS for Mac** by Paragon Software
+
+Last resort, boot the SD card with the RPi, plug in your monitor and keyboard, wait until you get to the login GUI, press `CTRL + ALT + F1` to get to the shell-based interface, and then login as a user `kali` with a password `kali`.
+
+##### User Autologin
+
+The wlan connection only works for succesful login, because we need the RPi to be headless without having to use the GUI then we need to set autologin for the default user `kali`, to do that we need to configure the `lightdm`
+
+    kali@kali:~$ sudo nano /etc/lightdm/lightdm.conf
+
+Find the seat configuration and uncomment these options,
+
+    [Seat:*]
+    pam-autologin-service=lightdm-autologin
+    autologin-user=kali
+    autologin-user-timeout=0
+
+##### Add your phone WIFI hotspot configuration
+
+Let's say your phone WIFI ap is `myPhoneWIFISSID` and password is `myPhoneWIFIPassword`
+
+    kali@kali:~$ sudo nano /etc/NetworkManager/system-connections/myPhoneWIFISSID.nmconnection
+
+Add this configuration,
+
+    [connection]
+    id=myPhoneWIFISSID
+    type=wifi
+    autoconnect-priority=99
+    autoconnect=true
+    interface-name=wlan0
+    permissions=
+    
+    [wifi]
+    mac-address-blacklist=
+    mode=infrastructure
+    ssid=myPhoneWIFISSID
+    
+    [wifi-security]
+    key-mgmt=wpa-psk
+    psk=myPhoneWIFIPassword
+    
+    [ipv4]
+    dns-search=
+    method=auto
+    
+    [ipv6]
+    addr-gen-mode=stable-privacy
+    dns-search=
+    method=auto
+    
+    [proxy]
+
+If you notice `autoconnect-priority=99` the RPi will always connect to your phone hotspot if it's available, keep in mind that you're going to use this configuration every time you need to add a new WIFI network, so you might want to keep a note.
+
+To add a new WIFI ap you need to SSH from your phone, and then use the `nmcli` tool
+
+    kali@kali:~$ nmcli dev wifi
+    IN-USE  BSSID              SSID       		MODE   CHAN  RATE        SIGNAL  BARS  SECURITY
+    *       10:C1:F9:78:B2:1B  myPhoneWIFISSID  Infra  10    130 Mbit/s  80      ***   WPA1 WPA2
+            14:A0:F8:E8:2E:14  RIFA       		Infra  5     130 Mbit/s  40      **    WPA1 WPA2
+            5C:3A:3D:01:D9:66  MOONLIGHT  		Infra  9     130 Mbit/s  30      *     WPA1 WPA2
+
+e.g. to add `RIFA` WIFI then you need to create `RIFA.nmconnection` file with the WIFI credential, don't forget to set the `autoconnect-priority` lower than 99. 
+
+And then try to connect to the WIFI,
+
+    kali@kali:~$ nmcli connection up RIFA
+
+After that, your current SSH connection will close or hung up.
