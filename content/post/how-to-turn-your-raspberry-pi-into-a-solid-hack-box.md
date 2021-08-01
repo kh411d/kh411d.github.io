@@ -49,6 +49,12 @@ Unless you want to follow these two solutions you can skip the last solution,
 
 Last resort, boot the SD card with the RPi, plug in your monitor and keyboard, wait until you get to the login GUI, press `CTRL + ALT + F1` to get to the shell-based interface, and then login as a user `kali` with a password `kali`.
 
+##### Enabling SSH
+
+From your macOS or PC, mount the sd card and then put a blank file named `SSH` and do not add any extension to the file.
+
+	boot % touch SSH
+
 ##### User Autologin
 
 The wlan connection only works for succesful login, because we need the RPi to be headless without having to use the GUI then we need to set autologin for the default user `kali`, to do that we need to configure the `lightdm`
