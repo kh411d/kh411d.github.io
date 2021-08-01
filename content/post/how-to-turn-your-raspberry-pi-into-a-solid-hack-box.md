@@ -32,6 +32,6 @@ The current kernel version by the time this article is written, `5.4.83-Re4son`
 
 ### Configure the Autologin
 
-If you're on Linux PC then you don't need a keyboard for the RPi, but if you're on Mac or Windows then you'll need one. 
+If you're on Linux PC then you don't need a keyboard for the RPi, you'll need one for Mac or Windows. I'm going to use the RPi as a headless Linux box so there is no need for a monitor, so we need to set up an autologin and enabling the SSH.
 
-I'm going to use the RPi as a headless Linux box so there is no need for a monitor, so we need to set up an autologin and enabling the SSH. So every time you're in a new public space you're going to rely on your phone WIFI hotspot for the first time, you need to add your phone hotspot SSID to the RPi to be auto-logged in, from there you can register a new public SSID to the RPi and switch the network.
+Every time you're in a new public space you're going to rely on your phone WIFI hotspot for the first time, so then you need to add your phone hotspot SSID to the RPi to be auto-logged in, from there you could just SSH to the RPi and then register a new public SSID.
