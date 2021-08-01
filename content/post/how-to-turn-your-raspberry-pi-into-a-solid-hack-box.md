@@ -18,4 +18,6 @@ Of course, you can prevent this by using a VPN on a public network, but sometime
 
 ### So let's get started 
 
-The RPi that I'm going to use is the 1st gen model B version. Yeah, I know it's 2021, so why not the 4th version. It's an advantage that the 1st gen doesn't need a lot of power to turn it on, so you can plug it into a laptop, power bank, or maybe even a smartphone. The current that comes from those appliances probably these days would be around 3 Ampere that was more than enough.
+The RPi that I'm going to use is the 1st gen model B version. Yeah, I know it's 2021, so why not the 4th version. It's an advantage that the 1st gen doesn't need a lot of power to turn it on, so you can plug it into a laptop, power bank, phone charger, or maybe even the phone itself. The current that comes from those appliances probably these days would be around 3 Ampere that was more than enough.
+
+![](/images/raspi1bheatsinkedimax.jpg)
