@@ -38,7 +38,7 @@ When you're in a new public WIFI you might want the RPi to auto-connect to your 
 
 #### Enable SSH
 
-From your macOS or PC, mount the sd card and then create a blank file named `SSH` on the mounted folder and do not add any extension to the file.
+From your macOS or PC, mount the sd card and then create a blank file named `SSH` on the mounted folder and do not add any extension to the file. 
 
     boot % touch SSH
 
@@ -48,8 +48,7 @@ Linux could easily mount the image Linux root folder and add all the configurati
 
 #### macOS or Windows PC
 
-Unless you want to follow these two solutions you can skip the last solution,
-
+Unless you want to follow these two solutions you can skip the last solution,  
 * Follow the instruction on [the Github page of fuse-ext2](https://github.com/alperakcan/fuse-ext2). You can read/write on ext2, ext3, and ext4 partitions.
 * Or you can pay for **"extFS for Mac"** by Paragon Software
 
