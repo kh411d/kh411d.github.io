@@ -22,7 +22,7 @@ The RPi that I'm going to use is the **_1st gen model B version_**. It is an adv
 
 ![](/images/raspi1bheatsinkedimax.jpg)
 
-I'm using a 16Gb sd card, two heatsinks because it's overclocked, and a wireless adapter from [Edimax (EW-7811Un)](http://amzn.to/2ixrZY2) because the 1st gen doesn't have any built-in wifi yet, so you need one.
+I'm using SanDisk 16 Gb micro sd, two heatsinks because it's overclocked, and a wireless adapter from [Edimax (EW-7811Un)](http://amzn.to/2ixrZY2) because the 1st gen doesn't have any built-in wifi yet, so you need one.
 
 The last thing you need to get is the [Kali Linux ARM image from their site](https://www.kali.org/get-kali/#kali-arm), flash the image to the sd card either using `dd` _(careful accidentally erasing your laptop drive)_ or an app such as Etcher just to be safe. The size of the image is quite big approx 2Gb so it would take a longer time to flash, please be patient.
 
@@ -116,8 +116,8 @@ To add a new WIFI ap you need to SSH from your phone, and then use the `nmcli` t
 
 e.g. to add `RIFA` WIFI then you need to create `RIFA.nmconnection` file with the WIFI credential, don't forget to set the `autoconnect-priority` lower than 99.
 
-And then try to connect to the WIFI,
+And then try to connect to the WIFI, after changing the connection, your current SSH connection will close or hung up.
 
     kali@kali:~$ nmcli connection up RIFA
 
-After changing the connection, your current SSH connection will close or hung up.
+I guess this is all roundup, you can now use your RPi as a plug n play hack box device and play with the kali Linux tools provided.
