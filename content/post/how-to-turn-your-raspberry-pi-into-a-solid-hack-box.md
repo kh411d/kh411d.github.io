@@ -2,7 +2,7 @@
 author = ""
 comments = false
 date = 2021-08-01T08:00:00Z
-draft = true
+draft = false
 image = "/images/kaliraspi2.jpg"
 share = false
 tags = ["tutorial", "hacking", "raspberrypi", "kali", "linux"]
@@ -80,7 +80,9 @@ Let's say your phone WIFI ap is `myPhoneWIFISSID` and password is `myPhoneWIFIPa
 
 Create a `myPhoneWIFISSID.nmconnection` file, name this file the same as your WIFI SSID.
 
-    kali@kali:~$ sudo nano /etc/NetworkManager/system-connections/myPhoneWIFISSID.nmconnection
+```bash
+kali@kali:~$ sudo nano /etc/NetworkManager/system-connections/myPhoneWIFISSID.nmconnection
+```
 
 Copy-paste this configuration and edit as needed, usually, you only need to change the `connection.id`, `wifi.ssid`, and the `wifi-security.psk`
 
