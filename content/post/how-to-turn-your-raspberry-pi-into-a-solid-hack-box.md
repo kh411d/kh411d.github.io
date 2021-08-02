@@ -38,7 +38,7 @@ When you're in a new public WIFI you might want the RPi to auto-connect to your 
 
 ### Enable SSH
 
-From your macOS or PC, mount the sd card and then create a blank file named `SSH` on the mounted folder and do not add any extension to the file. 
+From your macOS or PC, mount the sd card and then create a blank file named `SSH` on the mounted folder and do not add any extension to the file.
 
 ```bash
 boot % touch SSH
@@ -50,7 +50,8 @@ Linux could easily mount the image Linux root folder and add all the configurati
 
 ### macOS or Windows PC
 
-Unless you want to follow these two solutions you can skip the last solution,  
+Unless you want to follow these two solutions you can skip the last solution,
+
 * Follow the instruction on [the Github page of fuse-ext2](https://github.com/alperakcan/fuse-ext2). You can read/write on ext2, ext3, and ext4 partitions.
 * Or you can pay for **"extFS for Mac"** by Paragon Software
 
@@ -63,7 +64,9 @@ The WIFI connection only works for successful login, the RPi is going to be head
 ```bash
 kali@kali:~$ sudo nano /etc/lightdm/lightdm.conf
 ```
+
 Find the seat configuration and uncomment these options,
+
 ```bash
 [Seat:*]
 pam-autologin-service=lightdm-autologin
@@ -112,6 +115,7 @@ Add this configuration,
 If you notice `autoconnect-priority=99` the RPi will always connect to your phone hotspot if it's available, keep in mind that you're going to use this configuration every time you need to add a new WIFI network, so you might want to keep a note.
 
 To add a new WIFI ap you need to SSH from your phone, and then use the `nmcli` tool
+
 ```bash
 kali@kali:~$ nmcli dev wifi
 IN-USE  BSSID              SSID       		MODE   CHAN  RATE        SIGNAL  BARS  SECURITY
@@ -119,14 +123,21 @@ IN-USE  BSSID              SSID       		MODE   CHAN  RATE        SIGNAL  BARS  S
         14:A0:F8:E8:2E:14  RIFA       		Infra  5     130 Mbit/s  40      **    WPA1 WPA2
         5C:3A:3D:01:D9:66  MOONLIGHT  		Infra  9     130 Mbit/s  30      *     WPA1 WPA2
 ```
+
 e.g. to add `RIFA` WIFI then you need to create `RIFA.nmconnection` file with the WIFI credential, don't forget to set the `autoconnect-priority` lower than 99.
 
 And then try to connect to the WIFI, after changing the connection, your current SSH connection will close or hung up.
+
 ```bash
 kali@kali:~$ nmcli connection up RIFA
 ```
 
 I guess this is all roundup, you can now use the RPi as a plug n play hack box device and play with the kali Linux tools provided.
+
+* Turn on your mobile hotspot
+* Power on the RPi, it should auto-connect to your phone hotspot 
+* Check for the RPi IP e.g. `192.168.8.156` from your phone
+* And then SSH to the RPi `ssh kali@192.168.8.156` use `kali` as password.
 
 There are lots of tools on Kali Linux such as you can detect if someone is on the network doing a MITM attack, network packets monitoring, assessing the public WIFI, etc. Maybe on another article.
 
