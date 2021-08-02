@@ -36,9 +36,15 @@ I'm going to make a headless RPi, so no monitor is needed. But first, we need to
 
 When you're in a new public WIFI you might want the RPi to auto-connect to your phone WIFI hotspot, so then you could SSH to the RPi from your phone then switch to the new public WIFI.
 
+##### Enable SSH
+
+From your macOS or PC, mount the sd card and then create a blank file named `SSH` on the mounted folder and do not add any extension to the file.
+
+    boot % touch SSH
+
 ##### Linux PC
 
-Linux could easily mount the image root folder and add all the configuration files directly to that image file.
+Linux could easily mount the image Linux root folder and add all the configuration files directly to that image file.
 
 ##### macOS or Windows PC
 
@@ -48,12 +54,6 @@ Unless you want to follow these two solutions you can skip the last solution,
 * Or you can pay for **"extFS for Mac"** by Paragon Software
 
 Last resort, boot the SD card from the RPi, plug in your monitor and keyboard, wait until you get to the login GUI, press `CTRL + ALT + F1` to get to the shell-based interface, and then login as a user `kali` with a password `kali`.
-
-##### Enabling SSH
-
-From your macOS or PC, mount the sd card and then put a blank file named `SSH` and do not add any extension to the file.
-
-    boot % touch SSH
 
 ##### User Autologin
 
@@ -120,4 +120,4 @@ And then try to connect to the WIFI, after changing the connection, your current
 
     kali@kali:~$ nmcli connection up RIFA
 
-I guess this is all roundup, you can now use your RPi as a plug n play hack box device and play with the kali Linux tools provided.
+I guess this is all roundup, you can now use the RPi as a plug n play hack box device and play with the kali Linux tools provided.
