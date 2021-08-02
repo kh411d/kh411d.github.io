@@ -32,7 +32,7 @@ The current kernel version by the time this article is written, `5.4.83-Re4son`
 
 ## One-time configuration
 
-I'm going to make a headless RPi, so no monitor is needed. But first, we need to set an autologin and enabling the SSH, it is a one-time configuration so you don't need to repeat it.
+I'm going to make a headless RPi, so it's going to be a plug n play device. But first, we need to set an autologin and enabling the SSH, it is a one-time configuration so you don't need to repeat it.
 
 When you're in a new public WIFI you might want the RPi to auto-connect to your phone WIFI hotspot, so then you could SSH to the RPi from your phone then switch to the new public WIFI.
 
