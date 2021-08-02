@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    
+    <meta name="twitter:title" content="How to turn your Raspberry Pi into a solid hack box"/>
+    <meta name="twitter:description" content="Have you ever been insecure while you are using any public WIFI? Did you suspect someone sniffing on your network, stealing your credential, phishing your network?
+All of these might happened if you&rsquo;re using any WIFI connection in a coffee shop, a cafe, a coworking place, in a conference room, on your own office, or maybe in your neighborhood.
+Of course, you can prevent this by using a VPN on a public network, but sometimes it just can&rsquo;t work, or maybe you are just too cheap for that expensive VPN subscription."/>
+    <meta name="twitter:site" content="@khalidity"/>
+    
+    
+    
+      
+      <meta name="twitter:card" content="summary_large_image"/>
+      <meta name="twitter:image" content="https://khal.web.id/images/kaliraspi2.jpg"/>
+    
+
+  	<meta property="og:title" content="How to turn your Raspberry Pi into a solid hack box &middot; Khalid&#39;s Blog" />
+  	<meta property="og:site_name" content="Khalid&#39;s Blog" />
+  	<meta property="og:url" content="https://khal.web.id/2021/08/01/how-to-turn-your-raspberry-pi-into-a-solid-hack-box/" />
+
+    
+       <meta property="og:image" content="/images/kaliraspi2.jpg"/>
+    
+
+    
+    <meta property="og:description" content="Have you ever been insecure while you are using any public WIFI? Did you suspect someone sniffing on your network, stealing your credential, phishing your network?
+All of these might happened if you&rsquo;re using any WIFI connection in a coffee shop, a cafe, a coworking place, in a conference room, on your own office, or maybe in your neighborhood.
+Of course, you can prevent this by using a VPN on a public network, but sometimes it just can&rsquo;t work, or maybe you are just too cheap for that expensive VPN subscription." />
+  	<meta property="og:type" content="article" />
+    <meta property="article:published_time" content="2021-08-01T08:00:00Z" />
+
+    
+    <meta property="article:tag" content="tutorial" />
+    
+    <meta property="article:tag" content="hacking" />
+    
+    <meta property="article:tag" content="raspberrypi" />
+    
+    <meta property="article:tag" content="kali" />
+    
+    <meta property="article:tag" content="linux" />
+    
+    
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>How to turn your Raspberry Pi into a solid hack box - Khalid&#39;s Blog</title>
+    
+    <meta name="description" content="Have you ever been insecure while you are using any public WIFI? Did you suspect someone sniffing on your network, stealing your credential, phishing your network?
+All of these might happened if you&rsquo;re using any WIFI connection in a coffee shop, a cafe, a coworking place, in a conference room, on your own office, or maybe in your neighborhood.
+Of course, you can prevent this by using a VPN on a public network, but sometimes it just can&rsquo;t work, or maybe you are just too cheap for that expensive VPN subscription.">
+    <meta name="author" content="Khalid Adisendjaja">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://khal.web.id/an-old-hope.min.css" rel="stylesheet">
+    <link href="https://khal.web.id/style.css" rel="stylesheet">
+    <link href="https://khal.web.id/custom.css" rel="stylesheet">
+    <link href="https://khal.web.id/syntax.css" rel="stylesheet">
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel='icon' type='image/png' href='/images/favicon.png'>
+    <link rel="manifest" href="/images/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta name="generator" content="Hugo 0.85.0" />
+    
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-8671044-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    
+    <script src="https://khal.web.id/bundle.js"></script>
+    <script src="https://khal.web.id/lazyload.min.js"></script>
+  </head>
+  <body class="single">
+    <header class="header lazy post-head"data-bg="/images/kaliraspi2.jpg">
+      <nav class="nav">
+        <a class="logo" href="https://khal.web.id/"><img src="/images/logo.jpeg" alt="Home" /></a>
+        <ul class="menu">
+          
+          <li>
+              <a class="logo" href="mailto:contact@khal.web.id" target="_blank">
+                  <span class="icon-mail" style="color:var(--primary);font-size:2em;text-shadow: 0 0 5px white;"></span>
+              </a>
+          </li>
+          
+          <li>
+            <a class="logo" href="https://www.linkedin.com/in/khalidadisendjaja" target="_blank">
+              <span class="icon-linkedin" style="color:var(--primary);font-size:2em;text-shadow: 0 0 5px white;"></span>
+          </a>
+          </li>
+
+          
+          <li>
+              <a class="logo" href="https://github.com/kh411d" target="_blank">
+              <span class="icon-github" style="color:var(--primary);font-size:2em;text-shadow: 0 0 5px white;"></span>
+              </a>
+            </li>
+          
+
+          
+          <li>
+            <a class="logo" href="https://twitter.com/khalidity" target="_blank">
+                  <span class="icon-twitter" style="color:var(--primary);font-size:2em;text-shadow: 0 0 5px white;"></span>
+              </a>
+            </li>
+          
+
+          
+
+          
+          
+          <li>
+            <a class="logo" href="https://www.eyeem.com/u/khalidity" target="_blank">
+                  <span class="icon-image" style="color:var(--primary);font-size:2em;text-shadow: 0 0 5px white;"></span>
+              </a>
+          </li>
+          
+        </ul>
+      </nav>
+    </header>
+    <main class="main">     
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">How to turn your Raspberry Pi into a solid hack box</h1>
+    <div class="post-meta">Khalid Adisendjaja · August 1, 2021</div>
+  </header><div class="sticky-container">
+    <div class="share sticky-top sticky-top-offset">
+        <ul>       
+            <li class="ml-1 mr-1">
+                <clap-it style="width:2.2em;height:2.2em;fill:grey;stroke:grey;color:grey;margin:14px auto;" api="https://clapi.vercel.app/api/handler"/>
+            </li>
+            <li class="ml-1 mr-1">
+            <a target="_blank" href="https://twitter.com/intent/tweet?text=How%20to%20turn%20your%20Raspberry%20Pi%20into%20a%20solid%20hack%20box %23tutorial  %23hacking  %23raspberrypi  %23kali  %23linux &url=https%3a%2f%2fkhal.web.id%2f2021%2f08%2f01%2fhow-to-turn-your-raspberry-pi-into-a-solid-hack-box%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=435');return false;">
+            <i class="icon-twitter" style="font-size:1.8em"></i>
+            </a>
+            </li>
+            
+            <li class="ml-1 mr-1">
+            <a target="_blank" href="https://facebook.com/sharer.php?u=https%3a%2f%2fkhal.web.id%2f2021%2f08%2f01%2fhow-to-turn-your-raspberry-pi-into-a-solid-hack-box%2f" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
+            <i class="icon-facebook" style="font-size:1.8em"></i>
+            </a>
+            </li>
+            <li class="ml-1 mr-1">
+                <a data-flip-widget="shareflip" href="https://flipboard.com"><img src="https://cdn.flipboard.com/badges/flipboard_sbsw.png" style="opacity: 45%;margin-top: 12px;margin-left: 5px;" /></a><script src="https://cdn.flipboard.com/web/buttons/js/flbuttons.min.js" type="text/javascript"></script>
+            </li>     
+        </ul>
+
+        
+    </div>
+</div><div class="post-content">
+    <p>Have you ever been insecure while you are using any public WIFI? Did you suspect someone sniffing on your network, stealing your credential, phishing your network?</p>
+<p>All of these might happened if you&rsquo;re using any WIFI connection in a coffee shop, a cafe, a coworking place, in a conference room, on your own office, or maybe in your neighborhood.</p>
+<p>Of course, you can prevent this by using a VPN on a public network, but sometimes it just can&rsquo;t work, or maybe you are just too cheap for that expensive VPN subscription. If this happened, this Raspberry Pi (RPi) hack box could be a low-cost alternative to protect you from cyberattacks which might come in handy another day.</p>
+<h2 id="so-lets-get-started">So let&rsquo;s get started</h2>
+<p>The RPi that I&rsquo;m going to use is the <strong><em>1st gen model B version</em></strong>. It is an advantage that the 1st gen doesn&rsquo;t need a lot of electrical power, so you can plug it into a laptop, power bank, or phone charger. The current that comes from those appliances probably these days would be around 3 Ampere that was more than enough.</p>
+<p><figure>
+    <img src="/images/raspi1bheatsinkedimax.jpg" alt="">
+    <figcaption style="font-size:0.6em"></figcaption>
+  </figure></p>
+<p>I&rsquo;m using SanDisk 16 Gb micro sd, two heatsinks because it&rsquo;s overclocked, and a wireless adapter from <a href="http://amzn.to/2ixrZY2" target="_blank">Edimax (EW-7811Un)</a> because the 1st gen doesn&rsquo;t have any built-in wifi yet, so you need one.</p>
+<p>The last thing you need to get is the <a href="https://www.kali.org/get-kali/#kali-arm" target="_blank">Kali Linux ARM image from their site</a>, flash the image to the sd card either using <code>dd</code> <em>(careful accidentally erasing your laptop drive)</em> or an app such as Etcher just to be safe. The size of the image is quite big approx 2Gb so it would take a longer time to flash, please be patient.</p>
+<p>You can read how to flash from the Kali Linux site, it&rsquo;s explained very well. Just follow the step-by-step instructions.</p>
+<p>The current kernel version by the time this article is written, <code>5.4.83-Re4son</code></p>
+<h2 id="one-time-configuration">One-time configuration</h2>
+<p>I&rsquo;m going to make a headless RPi, so it&rsquo;s going to be a plug n play device. But first, we need to set an autologin and enabling the SSH, it is a one-time configuration so you don&rsquo;t need to repeat it.</p>
+<p>When you&rsquo;re in a new public WIFI you might want the RPi to auto-connect to your phone WIFI hotspot, so then you could SSH to the RPi from your phone then switch to the new public WIFI.</p>
+<h3 id="enable-ssh">Enable SSH</h3>
+<p>From your macOS or PC, mount the sd card and then create a blank file named <code>SSH</code> on the mounted folder and do not add any extension to the file.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">boot % touch SSH
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="linux-pc">Linux PC</h3>
+<p>Linux could easily mount the image Linux root folder and add all the configuration files directly to that image file.</p>
+<h3 id="macos-or-windows-pc">macOS or Windows PC</h3>
+<p>Unless you want to follow these two solutions you can skip the last solution,</p>
+<ul>
+<li>Follow the instruction on <a href="https://github.com/alperakcan/fuse-ext2" target="_blank">the Github page of fuse-ext2</a>. You can read/write on ext2, ext3, and ext4 partitions.</li>
+<li>Or you can pay for <strong>&ldquo;extFS for Mac&rdquo;</strong> by Paragon Software</li>
+</ul>
+<p>Last resort, boot the SD card from the RPi, plug in your monitor and keyboard, wait until you get to the login GUI, press <code>CTRL + ALT + F1</code> to get to the shell-based interface, and then login as a user <code>kali</code> with a password <code>kali</code>.</p>
+<h3 id="user-autologin">User Autologin</h3>
+<p>The WIFI connection only works for successful login, the RPi is going to be headless without having to use the GUI, so we need to set autologin for the default user <code>kali</code>, to do that we need to configure the <code>lightdm</code></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">kali@kali:~$ sudo nano /etc/lightdm/lightdm.conf
+</code></pre></td></tr></table>
+</div>
+</div><p>Find the seat configuration and uncomment these options,</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="o">[</span>Seat:*<span class="o">]</span>
+pam-autologin-service<span class="o">=</span>lightdm-autologin
+autologin-user<span class="o">=</span>kali
+autologin-user-timeout<span class="o">=</span><span class="m">0</span>
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="add-your-phone-wifi-hotspot-configuration">Add your phone WIFI hotspot configuration</h3>
+<p>Let&rsquo;s say your phone WIFI ap is <code>myPhoneWIFISSID</code> and password is <code>myPhoneWIFIPassword</code></p>
+<p>Create a <code>myPhoneWIFISSID.nmconnection</code> file, name this file the same as your WIFI SSID.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">kali@kali:~$ sudo nano /etc/NetworkManager/system-connections/myPhoneWIFISSID.nmconnection
+</code></pre></td></tr></table>
+</div>
+</div><p>Copy-paste this configuration and edit as needed, usually, you only need to change the <code>connection.id</code>, <code>wifi.ssid</code>, and the <code>wifi-security.psk</code></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">    <span class="o">[</span>connection<span class="o">]</span>
+    <span class="nv">id</span><span class="o">=</span>myPhoneWIFISSID
+    <span class="nv">type</span><span class="o">=</span>wifi
+    autoconnect-priority<span class="o">=</span><span class="m">99</span>
+    <span class="nv">autoconnect</span><span class="o">=</span><span class="nb">true</span>
+    interface-name<span class="o">=</span>wlan0
+    <span class="nv">permissions</span><span class="o">=</span>
+    
+    <span class="o">[</span>wifi<span class="o">]</span>
+    mac-address-blacklist<span class="o">=</span>
+    <span class="nv">mode</span><span class="o">=</span>infrastructure
+    <span class="nv">ssid</span><span class="o">=</span>myPhoneWIFISSID
+    
+    <span class="o">[</span>wifi-security<span class="o">]</span>
+    key-mgmt<span class="o">=</span>wpa-psk
+    <span class="nv">psk</span><span class="o">=</span>myPhoneWIFIPassword
+    
+    <span class="o">[</span>ipv4<span class="o">]</span>
+    dns-search<span class="o">=</span>
+    <span class="nv">method</span><span class="o">=</span>auto
+    
+    <span class="o">[</span>ipv6<span class="o">]</span>
+    addr-gen-mode<span class="o">=</span>stable-privacy
+    dns-search<span class="o">=</span>
+    <span class="nv">method</span><span class="o">=</span>auto
+    
+    <span class="o">[</span>proxy<span class="o">]</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>If you notice <code>autoconnect-priority=99</code> the RPi will always connect to your phone hotspot if it&rsquo;s available, keep in mind that you&rsquo;re going to use this configuration every time you need to add a new WIFI network, so you might want to keep a note.</p>
+<p>To add a new WIFI ap you need to SSH from your phone, and then use the <code>nmcli</code> tool</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">kali@kali:~$ nmcli dev wifi
+IN-USE  BSSID              SSID       		MODE   CHAN  RATE        SIGNAL  BARS  SECURITY
+*       10:C1:F9:78:B2:1B  myPhoneWIFISSID  Infra  <span class="m">10</span>    <span class="m">130</span> Mbit/s  <span class="m">80</span>      ***   WPA1 WPA2
+        14:A0:F8:E8:2E:14  RIFA       		Infra  <span class="m">5</span>     <span class="m">130</span> Mbit/s  <span class="m">40</span>      **    WPA1 WPA2
+        5C:3A:3D:01:D9:66  MOONLIGHT  		Infra  <span class="m">9</span>     <span class="m">130</span> Mbit/s  <span class="m">30</span>      *     WPA1 WPA2
+</code></pre></td></tr></table>
+</div>
+</div><p>e.g. to add <code>RIFA</code> WIFI then you need to create <code>RIFA.nmconnection</code> file with the WIFI credential, don&rsquo;t forget to set the <code>autoconnect-priority</code> lower than 99.</p>
+<p>And then try to connect to the WIFI, after changing the connection, your current SSH connection will close or hung up.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">kali@kali:~$ nmcli connection up RIFA
+</code></pre></td></tr></table>
+</div>
+</div><p>I guess this is all roundup, you can now use the RPi as a plug n play hack box device and play with the kali Linux tools provided.</p>
+<ul>
+<li>Turn on your mobile hotspot</li>
+<li>Power on the RPi, it should auto-connect to your phone hotspot</li>
+<li>Check for the RPi IP from your phone through your hotspot management, e.g. <code>192.168.8.156</code></li>
+<li>And then SSH to the RPi using any SSH client from your phone.</li>
+</ul>
+<p><code>ssh kali@192.168.8.156</code> with password <code>kali</code>.</p>
+<p>There are lots of tools on Kali Linux such as you can detect if someone is on the network doing a MITM attack, network packets monitoring, assessing the public WIFI, etc. Maybe on another article.</p>
+<blockquote>
+<p><strong><em>The quieter you become, the more you are able to hear
+~ Kali Linux</em></strong></p>
+</blockquote>
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://khal.web.id/tags/tutorial">tutorial</a></li>
+      <li><a href="https://khal.web.id/tags/hacking">hacking</a></li>
+      <li><a href="https://khal.web.id/tags/raspberrypi">raspberrypi</a></li>
+      <li><a href="https://khal.web.id/tags/kali">kali</a></li>
+      <li><a href="https://khal.web.id/tags/linux">linux</a></li>
+    </ul>
+  </footer>
+  
+</article></main>
+<footer class="footer">
+  <span>&copy; 2009 - 2021 <a href="https://khal.web.id/">Khalid&#39;s Blog</a></span>
+  <span>&middot;</span>
+  <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
+</footer>
+<script>
+  var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+  });
+</script>
+</body>
+</html>
+

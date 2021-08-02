@@ -8,7 +8,19 @@
     <language>en-us</language>
     <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
     <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
-    <lastBuildDate>Mon, 19 Jul 2021 13:00:00 +0000</lastBuildDate><atom:link href="https://khal.web.id/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Aug 2021 08:00:00 +0000</lastBuildDate><atom:link href="https://khal.web.id/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to turn your Raspberry Pi into a solid hack box</title>
+      <link>https://khal.web.id/2021/08/01/how-to-turn-your-raspberry-pi-into-a-solid-hack-box/</link>
+      <pubDate>Sun, 01 Aug 2021 08:00:00 +0000</pubDate>
+      <author>Khalid Adisendjaja</author>
+      <guid>https://khal.web.id/2021/08/01/how-to-turn-your-raspberry-pi-into-a-solid-hack-box/</guid>
+      <description>Have you ever been insecure while you are using any public WIFI? Did you suspect someone sniffing on your network, stealing your credential, phishing your network?
+All of these might happened if you&amp;rsquo;re using any WIFI connection in a coffee shop, a cafe, a coworking place, in a conference room, on your own office, or maybe in your neighborhood.
+Of course, you can prevent this by using a VPN on a public network, but sometimes it just can&amp;rsquo;t work, or maybe you are just too cheap for that expensive VPN subscription.</description>
+       <enclosure url="http://khal.web.id/images/kaliraspi2.jpg" length="101765" type="image/jpg" /><category>tutorial</category>
+    </item>
+    
     <item>
       <title>A staggered keyboard makes you crazy, should you stop using it?</title>
       <link>https://khal.web.id/2021/07/19/a-staggered-keyboard-makes-you-crazy-should-you-stop-using-it/</link>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>linux on Khalid&#39;s Blog</title>
-    <link>https://khal.web.id/tags/linux/</link>
-    <description>Recent content in linux on Khalid&#39;s Blog</description>
+    <title>kali on Khalid&#39;s Blog</title>
+    <link>https://khal.web.id/tags/kali/</link>
+    <description>Recent content in kali on Khalid&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
     <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
-    <lastBuildDate>Sun, 01 Aug 2021 08:00:00 +0000</lastBuildDate><atom:link href="https://khal.web.id/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Aug 2021 08:00:00 +0000</lastBuildDate><atom:link href="https://khal.web.id/tags/kali/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to turn your Raspberry Pi into a solid hack box</title>
       <link>https://khal.web.id/2021/08/01/how-to-turn-your-raspberry-pi-into-a-solid-hack-box/</link>
@@ -18,15 +18,6 @@
       <description>Have you ever been insecure while you are using any public WIFI? Did you suspect someone sniffing on your network, stealing your credential, phishing your network?
 All of these might happened if you&amp;rsquo;re using any WIFI connection in a coffee shop, a cafe, a coworking place, in a conference room, on your own office, or maybe in your neighborhood.
 Of course, you can prevent this by using a VPN on a public network, but sometimes it just can&amp;rsquo;t work, or maybe you are just too cheap for that expensive VPN subscription.</description>
-    </item>
-    
-    <item>
-      <title>Rusty Macbook Air getting new Air from Archlinux</title>
-      <link>https://khal.web.id/2018/01/25/Rusty-Macbook-Air-getting-new-Air-from-Archlinux/</link>
-      <pubDate>Thu, 25 Jan 2018 00:40:18 +0700</pubDate>
-      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
-      <guid>https://khal.web.id/2018/01/25/Rusty-Macbook-Air-getting-new-Air-from-Archlinux/</guid>
-      <description>Today I accidentally deleted my primary OSX partition from my very old MacBook air 4,2 (2011) with the last installed os was el Capitan. From the beginning, I just want to give my MacBook some extra space but it turns out cleaning all the HDD &amp;hellip;LOL, I seriously don&amp;rsquo;t know how in the hell this could happen, this is a lesson for not to clean your HDD in the middle of the night.</description>
     </item>
     
   </channel>
