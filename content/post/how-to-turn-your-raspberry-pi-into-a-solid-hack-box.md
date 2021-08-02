@@ -135,11 +135,13 @@ kali@kali:~$ nmcli connection up RIFA
 I guess this is all roundup, you can now use the RPi as a plug n play hack box device and play with the kali Linux tools provided.
 
 * Turn on your mobile hotspot
-* Power on the RPi, it should auto-connect to your phone hotspot 
+* Power on the RPi, it should auto-connect to your phone hotspot
 * Check for the RPi IP from your phone through your hotspot management, e.g. `192.168.8.156`
-* And then SSH to the RPi `ssh kali@192.168.8.156` use `kali` as password.
+* And then SSH to the RPi using any SSH client from your phone.
+
+`ssh kali@192.168.8.156` use `kali` as password.
 
 There are lots of tools on Kali Linux such as you can detect if someone is on the network doing a MITM attack, network packets monitoring, assessing the public WIFI, etc. Maybe on another article.
 
-> **_The quieter you become, the more you are able to hear 
-> ~ Kali Linux_**
+> **_The quieter you become, the more you are able to hear
+> \~ Kali Linux_**
