@@ -36,17 +36,17 @@ I'm going to make a headless RPi, so no monitor is needed. But first, we need to
 
 When you're in a new public WIFI you might want the RPi to auto-connect to your phone WIFI hotspot, so then you could SSH to the RPi from your phone then switch to the new public WIFI.
 
-##### Enable SSH
+#### Enable SSH
 
 From your macOS or PC, mount the sd card and then create a blank file named `SSH` on the mounted folder and do not add any extension to the file.
 
     boot % touch SSH
 
-##### Linux PC
+#### Linux PC
 
 Linux could easily mount the image Linux root folder and add all the configuration files directly to that image file.
 
-##### macOS or Windows PC
+#### macOS or Windows PC
 
 Unless you want to follow these two solutions you can skip the last solution,
 
@@ -55,7 +55,7 @@ Unless you want to follow these two solutions you can skip the last solution,
 
 Last resort, boot the SD card from the RPi, plug in your monitor and keyboard, wait until you get to the login GUI, press `CTRL + ALT + F1` to get to the shell-based interface, and then login as a user `kali` with a password `kali`.
 
-##### User Autologin
+#### User Autologin
 
 The WIFI connection only works for successful login, the RPi is going to be headless without having to use the GUI, so we need to set autologin for the default user `kali`, to do that we need to configure the `lightdm`
 
@@ -68,7 +68,7 @@ Find the seat configuration and uncomment these options,
     autologin-user=kali
     autologin-user-timeout=0
 
-##### Add your phone WIFI hotspot configuration
+#### Add your phone WIFI hotspot configuration
 
 Let's say your phone WIFI ap is `myPhoneWIFISSID` and password is `myPhoneWIFIPassword`
 
@@ -124,4 +124,5 @@ I guess this is all roundup, you can now use the RPi as a plug n play hack box d
 
 There are lots of tools on Kali Linux such as you can detect if someone is on the network doing a MITM attack, network packets monitoring, assessing the public WIFI, etc. Maybe on another article.
 
-> **_The quieter you become, the more you are able to hear - Kali Linux_**
+> **_The quieter you become, the more you are able to hear
+> \~ Kali Linux_**
