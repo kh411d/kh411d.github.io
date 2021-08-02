@@ -16,7 +16,7 @@ All of these might happened if you're using any WIFI connection in a coffee shop
 
 Of course, you can prevent this by using a VPN on a public network, but sometimes it just can't work, or maybe you are just too cheap for that expensive VPN subscription. If this happened, this Raspberry Pi (RPi) hack box could be a low-cost alternative to protect you from cyberattacks which might come in handy another day.
 
-### So let's get started
+## So let's get started
 
 The RPi that I'm going to use is the **_1st gen model B version_**. It is an advantage that the 1st gen doesn't need a lot of electrical power, so you can plug it into a laptop, power bank, or phone charger. The current that comes from those appliances probably these days would be around 3 Ampere that was more than enough.
 
@@ -30,23 +30,23 @@ You can read how to flash from the Kali Linux site, it's explained very well. Ju
 
 The current kernel version by the time this article is written, `5.4.83-Re4son`
 
-### One-time configuration
+## One-time configuration
 
 I'm going to make a headless RPi, so no monitor is needed. But first, we need to set an autologin and enabling the SSH, it is a one-time configuration so you don't need to repeat it.
 
 When you're in a new public WIFI you might want the RPi to auto-connect to your phone WIFI hotspot, so then you could SSH to the RPi from your phone then switch to the new public WIFI.
 
-#### Enable SSH
+### Enable SSH
 
 From your macOS or PC, mount the sd card and then create a blank file named `SSH` on the mounted folder and do not add any extension to the file. 
 
     boot % touch SSH
 
-#### Linux PC
+### Linux PC
 
 Linux could easily mount the image Linux root folder and add all the configuration files directly to that image file.
 
-#### macOS or Windows PC
+### macOS or Windows PC
 
 Unless you want to follow these two solutions you can skip the last solution,  
 * Follow the instruction on [the Github page of fuse-ext2](https://github.com/alperakcan/fuse-ext2). You can read/write on ext2, ext3, and ext4 partitions.
@@ -54,7 +54,7 @@ Unless you want to follow these two solutions you can skip the last solution,
 
 Last resort, boot the SD card from the RPi, plug in your monitor and keyboard, wait until you get to the login GUI, press `CTRL + ALT + F1` to get to the shell-based interface, and then login as a user `kali` with a password `kali`.
 
-#### User Autologin
+### User Autologin
 
 The WIFI connection only works for successful login, the RPi is going to be headless without having to use the GUI, so we need to set autologin for the default user `kali`, to do that we need to configure the `lightdm`
 
@@ -67,7 +67,7 @@ Find the seat configuration and uncomment these options,
     autologin-user=kali
     autologin-user-timeout=0
 
-#### Add your phone WIFI hotspot configuration
+### Add your phone WIFI hotspot configuration
 
 Let's say your phone WIFI ap is `myPhoneWIFISSID` and password is `myPhoneWIFIPassword`
 
