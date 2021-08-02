@@ -121,3 +121,7 @@ And then try to connect to the WIFI, after changing the connection, your current
     kali@kali:~$ nmcli connection up RIFA
 
 I guess this is all roundup, you can now use the RPi as a plug n play hack box device and play with the kali Linux tools provided.
+
+There are lots of tools on Kali Linux such as you can detect if someone is on the network doing a MITM attack, network packets monitoring, assessing the public WIFI, etc. Maybe on another article.
+
+> **_The quieter you become, the more you are able to hear - Kali Linux_**
