@@ -78,9 +78,11 @@ autologin-user-timeout=0
 
 Let's say your phone WIFI ap is `myPhoneWIFISSID` and password is `myPhoneWIFIPassword`
 
+Create a `myPhoneWIFISSID.nmconnection` file, name this file the same as your WIFI SSID.
+
     kali@kali:~$ sudo nano /etc/NetworkManager/system-connections/myPhoneWIFISSID.nmconnection
 
-Add this configuration,
+Copy-paste this configuration and edit as needed, usually, you only need to change the `connection.id`, `wifi.ssid`, and the `wifi-security.psk`
 
 ```bash
     [connection]
@@ -139,7 +141,7 @@ I guess this is all roundup, you can now use the RPi as a plug n play hack box d
 * Check for the RPi IP from your phone through your hotspot management, e.g. `192.168.8.156`
 * And then SSH to the RPi using any SSH client from your phone.
 
-`ssh kali@192.168.8.156` use `kali` as password.
+`ssh kali@192.168.8.156` with password `kali`.
 
 There are lots of tools on Kali Linux such as you can detect if someone is on the network doing a MITM attack, network packets monitoring, assessing the public WIFI, etc. Maybe on another article.
 
