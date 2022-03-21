@@ -17,3 +17,17 @@ But, most likely, for people like me with a tight budget and got lazy to do all 
 A 3D printing service could help your model get printed rather quickly, mostly in 3-4 days your printed model will get delivered to your doorstep. Some services also provide a click and order through their website making less interaction with customer service, and some services also required a model inquiry through chat messenger before ordering.
 
 I prefer the second one because I can talk with the expert/customer service and ask their opinion whether my 3D print setting (layer thickness, infill, etc) is good enough or need some modification on the model. After all the setting is agreed upon and calculated then they will come up with the price.
+
+Before ordering there are things that you need to consider regarding the material, the volume of the model, the usage of the model, etc. 
+
+#### How big is the model?
+
+Common 3D printers can only print a medium/small model (20x20x25)mm, (220x220x220)mm, etc. So, you'll need to ask whether your model fit their 3D printer or not, some service could also provide a tricky way to align your model diagonally or lift up the model with additional support so the model can fit with the printer dimensions. I don't recommend this way because the final result will lose some precisions.
+
+Usually, after inquiring they will send you some images that show you how your model fits the printer.
+
+\[image here\]
+
+#### How much stiffness does the model needs?
+
+#### Is it for Outdoor/Indoor use?
