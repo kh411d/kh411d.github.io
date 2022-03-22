@@ -8,7 +8,34 @@
     <language>en-us</language>
     <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
     <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
-    <lastBuildDate>Sun, 01 Aug 2021 08:00:00 +0000</lastBuildDate><atom:link href="https://khal.web.id/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Mar 2022 05:00:00 +0000</lastBuildDate><atom:link href="https://khal.web.id/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3dprint</title>
+      <link>https://khal.web.id/tags/3dprint/</link>
+      <pubDate>Tue, 22 Mar 2022 05:00:00 +0000</pubDate>
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <guid>https://khal.web.id/tags/3dprint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>diy</title>
+      <link>https://khal.web.id/tags/diy/</link>
+      <pubDate>Tue, 22 Mar 2022 05:00:00 +0000</pubDate>
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <guid>https://khal.web.id/tags/diy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tutorial</title>
+      <link>https://khal.web.id/tags/tutorial/</link>
+      <pubDate>Tue, 22 Mar 2022 05:00:00 +0000</pubDate>
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <guid>https://khal.web.id/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>hacking</title>
       <link>https://khal.web.id/tags/hacking/</link>
@@ -46,15 +73,6 @@
     </item>
     
     <item>
-      <title>tutorial</title>
-      <link>https://khal.web.id/tags/tutorial/</link>
-      <pubDate>Sun, 01 Aug 2021 08:00:00 +0000</pubDate>
-      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
-      <guid>https://khal.web.id/tags/tutorial/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>keyboard</title>
       <link>https://khal.web.id/tags/keyboard/</link>
       <pubDate>Mon, 19 Jul 2021 13:00:00 +0000</pubDate>
@@ -78,15 +96,6 @@
       <pubDate>Fri, 25 Jun 2021 22:00:00 +0700</pubDate>
       <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/cardboard/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>diy</title>
-      <link>https://khal.web.id/tags/diy/</link>
-      <pubDate>Fri, 25 Jun 2021 22:00:00 +0700</pubDate>
-      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
-      <guid>https://khal.web.id/tags/diy/</guid>
       <description></description>
     </item>
     
