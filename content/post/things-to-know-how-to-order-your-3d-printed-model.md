@@ -24,7 +24,7 @@ Don't look only for a single 3D printing service, most of the time I was looking
 
 Common 3D printers can only print a medium/small model (20x20x25)mm, (220x220x220)mm, 300mm, etc and for a larger model, you'll going to need an industrial 3D printer. So, you'll need to ask whether your model fits their 3D printers or not, some services could also provide a tricky way to align your model diagonally or lift up the model with additional support so the model can fit with the printer dimensions. I don't recommend this way because the final result will lose some precisions.
 
-Usually, after inquiring they will send you some images that show you how your model fits the printer. These are some examples, I went to some 3D printing services and I compare each of them.
+Usually, after inquiring they will send you some images that show you how your model fits the printer. These are some examples, I went to some 3D printing services and I compare each of them, all the vendors are given the same file.
 
 **Vendor A**
 
