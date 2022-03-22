@@ -52,4 +52,18 @@ The bed is so wide and all the models can be put side by side, this is perfect a
 
 #### How much stiffness does the model needs?
 
+The stiffness of your model needs depends on the material that you're going to use and also the setting of wall thickness and the infill, I can only find 3 materials from my local vendors ordered from the stiffest, **PLA >>>> ABS/ASA ≥ PETG**.
+
+PETG is the less stiff material, it's more flex than the other two, you would want to have a lot of infill and wall thickness for this material. ABS/ASA is actually the same but I will go for the ASA, which is a bit stiffer than the PETG. PLA is way stiffest among those two.
+
+You can do your own research on articles and youtube to have more confidence in the materials.
+
 #### Is it for Outdoor/Indoor use?
+
+This is related to whether your model needs to be heat resistant or not. If you're going to use the model outdoor then you need to have a sunproof material. Ordered from the most heat resistant, **ABS/ASA >> PETG >>>>>> PLA**.
+
+As you can see that PLA kryptonite is heat, even if the heat is only 30°C it will bend or deform the model, you really need to keep away the model from the sunlight. Do not use PLA for outdoor activity.
+
+PETG is good enough to withstand the sunlight heat, it would resist the heat up to 60°C. Good enough for outdoor activity the cons is PETG is actually the less stiff material.
+
+ABS/ASA is the strongest against heat, it's way strong as it could stand the heat up to 95°C, between ABS and ASA, most likely the ASA has UV protection so if you print with white material it wouldn't get yellow easily.
