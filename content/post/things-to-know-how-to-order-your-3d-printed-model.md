@@ -88,3 +88,5 @@ I did my research from my own experience and also from any articles and youtube 
 * ABS can also be used for indoor/outdoor usage, heat resistant, impact-proof, and stiff enough, I would definitely go for this one for any usage.
 * PETG could be an alternative to ABS, durable enough but it's a bit more flexible, you might want to set the wall thickness and infill more than 50%.
 * For good print quality, I would choose PLA, PETG, and then ABS. ABS could get worst from printing small detail, PLA has the best print quality among others.
+* If you're tight on a budget, PLA is cheaper compared with PETG and the most expensive is ABS/ASA.
+* If possible, get your model printed with less support, using too much support will get the price higher than you expect and it's quite a hassle to clear all the support.
