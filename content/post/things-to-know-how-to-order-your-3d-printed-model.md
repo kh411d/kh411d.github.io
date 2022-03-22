@@ -87,3 +87,4 @@ I did my research from my own experience and also from any articles and youtube 
 * Don't use PLA for outdoor usage, if you did use PLA, don't get exposed to the sunlight. I might use this material for figurines, bathroom appliances, and indoor decoration.
 * ABS can also be used for indoor/outdoor usage, heat resistant, impact-proof, and stiff enough, I would definitely go for this one for any usage.
 * PETG could be an alternative to ABS, durable enough but it's a bit more flexible, you might want to set the wall thickness and infill more than 50%.
+* For good print quality, I would choose PLA, PETG, and then ABS. ABS could get worst from printing small detail, PLA has the best print quality among others.
