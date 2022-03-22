@@ -70,7 +70,7 @@
     <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <meta name="generator" content="Hugo 0.85.0" />
+    <meta name="generator" content="Hugo 0.92.0" />
     
     
 <script type="application/javascript">
@@ -187,16 +187,16 @@ It would be better if you could just use the iso that you can download here <a h
 <p>After boot system is up, check your available drive,</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-text" data-lang="text">$ lsblk
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">$ lsblk
 </code></pre></td></tr></table>
 </div>
 </div><p>Delete all partitions on your ssd, and then create 4 partitions, these are partitions from my current installation,</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -209,7 +209,7 @@ It would be better if you could just use the iso that you can download here <a h
 </span><span class="lnt">11
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-text" data-lang="text">$ lsblk
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">$ lsblk
 NAME MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
 sda    8:0    0  113G  0 disk 
 ├─sda1
@@ -225,7 +225,7 @@ sda    8:0    0  113G  0 disk
 </div><p>As you can see my boot partition is 1G, this was actually unintended, everything could go wrong if you did this in the middle of the night. 256Mb should be enough for /boot partition.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -237,7 +237,7 @@ sda    8:0    0  113G  0 disk
 </span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-text" data-lang="text">Disk: /dev/sda
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">Disk: /dev/sda
               Size: 113 GiB, 121332826112 bytes, 236978176 sectors
           Label: gpt, identifier: F17EF130-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 
@@ -252,16 +252,16 @@ sda    8:0    0  113G  0 disk
 </div><p>I&rsquo;m always keep this url open while partitioning <a href="https://www.rodsbooks.com/gdisk/cgdisk-walkthrough.html" target="_blank">cgdisk-walkthrough</a></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-text" data-lang="text"># cgdisk /dev/sda
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"># cgdisk /dev/sda
 </code></pre></td></tr></table>
 </div>
 </div><p>After you&rsquo;re done, format and mount your newly created partition, File system root <strong>/</strong> inside the terminal belongs to USB stick, while everything mounted inside <strong>/mnt</strong> is the target media AKA your SSD.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -271,7 +271,7 @@ sda    8:0    0  113G  0 disk
 </span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-text" data-lang="text"># mkfs.vfat -F32 /dev/sda1
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"># mkfs.vfat -F32 /dev/sda1
 # mkswap /dev/sda2
 # mkfs.ext4 /dev/sda3
 # mkfs.ext4 /dev/sda4
@@ -284,43 +284,43 @@ sda    8:0    0  113G  0 disk
 </div><h4 id="installation">Installation</h4>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-text" data-lang="text"># pacstrap /mnt base base-devel
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"># pacstrap /mnt base base-devel
 # genfstab -U -p /mnt &gt;&gt; /mnt/etc/fstab
 </code></pre></td></tr></table>
 </div>
 </div><p>Modify fstab configuration for SSD drive type, this is important, do not skip.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-text" data-lang="text"># nano /mnt/etc/fstab
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"># nano /mnt/etc/fstab
 </code></pre></td></tr></table>
 </div>
 </div><p>add additional parameters,</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-text" data-lang="text">rw,relatime,data=ordered,discard
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">rw,relatime,data=ordered,discard
 </code></pre></td></tr></table>
 </div>
 </div><p>Mine will look like this,</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-text" data-lang="text"># /dev/sda3
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"># /dev/sda3
 UUID=b532cc5e-70c4-431c-80e5-bd9d40440606   /           ext4        rw,relatime,data=ordered,discard    0 1
 
 # /dev/sda4
@@ -331,14 +331,14 @@ UUID=d5a039d9-c08e-4b26-8e12-9e38bec1fd46   /home       ext4        rw,relatime,
 <p>If you&rsquo;re using ethernet cable or usb cable, you may check your network interface with this,</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-text" data-lang="text"># ip link
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"># ip link
 1: lo: &lt;LOOPBACK,UP,LOWER_UP&gt; mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
 2: wlp2s0b1: &lt;BROADCAST,MULTICAST,UP,LOWER_UP&gt; mtu 1500 qdisc mq state UP mode DORMANT group default qlen 1000
@@ -348,33 +348,33 @@ UUID=d5a039d9-c08e-4b26-8e12-9e38bec1fd46   /home       ext4        rw,relatime,
 </div><p>My interface is <strong>wlp2s0b1</strong></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-text" data-lang="text"># dhcpcd wlp2s0b1
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"># dhcpcd wlp2s0b1
 # ping google.com
 </code></pre></td></tr></table>
 </div>
 </div><p>If you can use WiFi, connect it with this command,</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-text" data-lang="text"># wifi-menu
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"># wifi-menu
 </code></pre></td></tr></table>
 </div>
 </div><h4 id="system-configuration">System Configuration</h4>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-text" data-lang="text"># arch-chroot /mnt /bin/bash 
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"># arch-chroot /mnt /bin/bash 
 # echo archer &gt; /etc/hostname  #Your hostname
 # ln -s /usr/share/zoneinfo/Asia/Jakarta /etc/localtime 
 # hwclock --systohc --utc 
@@ -382,71 +382,71 @@ UUID=d5a039d9-c08e-4b26-8e12-9e38bec1fd46   /home       ext4        rw,relatime,
 </div>
 </div><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-text" data-lang="text"># nano /etc/local.gen
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"># nano /etc/local.gen
 </code></pre></td></tr></table>
 </div>
 </div><p>Uncomment UTF8 locale,</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-text" data-lang="text">#en_SG ISO-8859-1
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">#en_SG ISO-8859-1
 en_US.UTF-8 UTF-8
 #en_US ISO-8859-1
 </code></pre></td></tr></table>
 </div>
 </div><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-text" data-lang="text"># locale-gen
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"># locale-gen
 # echo LANG=en_US.UTF-8 &gt; /etc/locale.conf
 </code></pre></td></tr></table>
 </div>
 </div><p>Add user account,</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-text" data-lang="text"># useradd -m -g users -G wheel -s /bin/bash yourself &amp;&amp; passwd yourself
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"># useradd -m -g users -G wheel -s /bin/bash yourself &amp;&amp; passwd yourself
 </code></pre></td></tr></table>
 </div>
 </div><p>Change <strong>yourself</strong> to your liking.</p>
 <p>Give yourself sudo rights,</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-text" data-lang="text"># nano /etc/sudoers # uncomment wheel line
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"># nano /etc/sudoers # uncomment wheel line
 </code></pre></td></tr></table>
 </div>
 </div><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-text" data-lang="text"> %wheel ALL=(ALL) NOPASSWD: ALL
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"> %wheel ALL=(ALL) NOPASSWD: ALL
 </code></pre></td></tr></table>
 </div>
 </div><h3 id="the-bootloader">The Bootloader</h3>
 <p>I&rsquo;m not goin to dualboot this macbook so then I&rsquo;m not gonna use GRUB nor REFIND for booting into the system, I&rsquo;m gonna use <a href="https://wiki.archlinux.org/index.php/systemd-boot" target="_blank">&lt;strong&gt;systemd-boot&lt;/strong&gt;</a> to boot into archlinux,</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-text" data-lang="text"># pacman -S dosfstools intel-ucode
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"># pacman -S dosfstools intel-ucode
 # bootctl --path=/boot install
 </code></pre></td></tr></table>
 </div>
@@ -454,34 +454,34 @@ en_US.UTF-8 UTF-8
 <p>Create a file for boot entry within this directory path,</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-text" data-lang="text">/boot/loader/entries/arch.conf
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">/boot/loader/entries/arch.conf
 </code></pre></td></tr></table>
 </div>
 </div><p>First you need to get your root &ldquo;/&rdquo; (/dev/sda3) PARTUUID,</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-text" data-lang="text"># blkid -s PARTUUID -o value /dev/sda3
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"># blkid -s PARTUUID -o value /dev/sda3
 ed724519-29ca-4e08-b27a-b4852d310dee
 </code></pre></td></tr></table>
 </div>
 </div><p>Edit the arch.conf file add this entry, replace root PARTUUID with this one <em>ed724519-29ca-4e08-b27a-b4852d310dee</em></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-text" data-lang="text">title Arch Linux 
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">title Arch Linux 
 linux /vmlinuz-linux 
 initrd /intel-ucode.img 
 initrd /initramfs-linux.img 
@@ -491,31 +491,31 @@ options root=PARTUUID=ed724519-29ca-4e08-b27a-b4852d310dee rw quiet
 </div><p>And now lets tell the boot manager to use this arch.conf configuration,</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-text" data-lang="text"># echo &#34;default arch&#34; &gt; /boot/loader/loader.conf
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"># echo &#34;default arch&#34; &gt; /boot/loader/loader.conf
 </code></pre></td></tr></table>
 </div>
 </div><p>Before rebooting, you may want to install some network tools,</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-text" data-lang="text"># pacman install iw wireless_tools wpa_supplicant dialog
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"># pacman install iw wireless_tools wpa_supplicant dialog
 </code></pre></td></tr></table>
 </div>
 </div><p>also install networkmanager and enable it using NetworkManager.service. <a href="https://wiki.archlinux.org/index.php/NetworkManager" target="_blank">Read Arch wiki for more info</a>.</p>
 <p>You&rsquo;re done now for installation, lets reboot,</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-text" data-lang="text"># exit
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"># exit
 # umount -R /mnt
 # sudo reboot // or systemctl reboot
 </code></pre></td></tr></table>
@@ -525,13 +525,13 @@ options root=PARTUUID=ed724519-29ca-4e08-b27a-b4852d310dee rw quiet
 <p>You can use wifi-menu, netctl, dhcpd or anything to connect, here we try to use network manager,</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-text" data-lang="text">$ sudo systemctl disable dhcpcd
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">$ sudo systemctl disable dhcpcd
 $ sudo pacman -S networkmanager network-manager-applet
 $ sudo systemctl enable NetworkManager
 $ nmcli dev wifi connect &lt;wifi-name&gt; password &lt;password&gt;
@@ -540,42 +540,42 @@ $ nmcli dev wifi connect &lt;wifi-name&gt; password &lt;password&gt;
 </div><h3 id="install-cpu-tools">Install CPU tools</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-text" data-lang="text">$ sudo pacman -S cpupower
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">$ sudo pacman -S cpupower
 $ sudo systemctl enable cpupower
 </code></pre></td></tr></table>
 </div>
 </div><p>Edit /etc/default/cpupower</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-text" data-lang="text"># Define CPUs governor
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"># Define CPUs governor
 governor=&#39;powersave&#39;
 </code></pre></td></tr></table>
 </div>
 </div><h3 id="sound-utilities">Sound Utilities</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-text" data-lang="text">$ sudo pacman -S alsa-utils alsa-plugins
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">$ sudo pacman -S alsa-utils alsa-plugins
 </code></pre></td></tr></table>
 </div>
 </div><h3 id="install-xorg">Install Xorg</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-text" data-lang="text">$ sudo pacman -S xorg acpid
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">$ sudo pacman -S xorg acpid
 $ systemctl enable acpid
 </code></pre></td></tr></table>
 </div>
@@ -583,21 +583,21 @@ $ systemctl enable acpid
 <p>There is so many <a href="https://wiki.archlinux.org/index.php/desktop_environment#List_of_desktop_environments" target="_blank">desktop GUI</a> that you may want to experience yourself, but <a href="https://wiki.archlinux.org/index.php/xfce#Installation" target="_blank">XFCE4</a> is become my first choice because of speed and flexibility.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-text" data-lang="text">$ sudo pacman -S xfce4 xfce4-goodies
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">$ sudo pacman -S xfce4 xfce4-goodies
 </code></pre></td></tr></table>
 </div>
 </div><h3 id="install-display-manager-user-login">Install Display Manager (User Login)</h3>
 <p>Same as desktop GUI, there is so many <a href="https://wiki.archlinux.org/index.php/Display_manager" target="_blank">display manager</a> to experience yourself, as my choice fell to <a href="https://wiki.archlinux.org/index.php/LightDM" target="_blank">LightDM</a></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-text" data-lang="text">$ sudo pacman -S lightdm lightdm-gtk-greeter-setting
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">$ sudo pacman -S lightdm lightdm-gtk-greeter-setting
 $ systemctl enable lightdm.service
 </code></pre></td></tr></table>
 </div>
@@ -640,7 +640,7 @@ Things you may need to know, ArchLinux has a <a href="https://aur.archlinux.org/
   
 </article></main>
 <footer class="footer">
-  <span>&copy; 2009 - 2021 <a href="https://khal.web.id/">Khalid&#39;s Blog</a></span>
+  <span>&copy; 2009 - 2022 <a href="https://khal.web.id/">Khalid&#39;s Blog</a></span>
   <span>&middot;</span>
   <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
 </footer>

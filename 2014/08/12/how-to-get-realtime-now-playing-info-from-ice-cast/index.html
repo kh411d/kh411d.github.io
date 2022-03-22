@@ -71,7 +71,7 @@
     <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <meta name="generator" content="Hugo 0.85.0" />
+    <meta name="generator" content="Hugo 0.92.0" />
     
     
 <script type="application/javascript">
@@ -179,7 +179,7 @@ if (!doNotTrack) {
 </ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -197,7 +197,7 @@ if (!doNotTrack) {
 </span><span class="lnt">16
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-php" data-lang="php"><span class="k">function</span> <span class="nf">getXSPF</span><span class="p">(){</span>
+<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="k">function</span> <span class="nf">getXSPF</span><span class="p">(){</span>
 	<span class="nv">$XSPFurl</span> <span class="o">=</span> <span class="s1">&#39;http://xxx.xxx.xxx.xxx:8000/mount.xspf&#39;</span><span class="p">;</span>
 	<span class="nv">$xml</span> <span class="o">=</span> <span class="nx">simplexml_load_file</span><span class="p">(</span><span class="nv">$XSPFurl</span><span class="p">);</span>
 	<span class="nv">$stream</span><span class="p">[</span><span class="s1">&#39;info&#39;</span><span class="p">][</span><span class="s1">&#39;title&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="nx">string</span><span class="p">)</span> <span class="nv">$xml</span><span class="o">-&gt;</span><span class="na">trackList</span><span class="o">-&gt;</span><span class="na">track</span><span class="o">-&gt;</span><span class="na">title</span><span class="p">;</span>
@@ -220,12 +220,12 @@ if (!doNotTrack) {
 </ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-php" data-lang="php"><span class="k">require_once</span> <span class="s2">&#34;xspf_function.php&#34;</span>
+<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="k">require_once</span> <span class="s2">&#34;xspf_function.php&#34;</span>
 <span class="nv">$stream</span> <span class="o">=</span> <span class="nx">getXSPF</span><span class="p">();</span>
 <span class="k">echo</span> <span class="nv">$stream</span><span class="p">[</span><span class="s1">&#39;info&#39;</span><span class="p">][</span><span class="s1">&#39;title&#39;</span><span class="p">];</span>
 </code></pre></td></tr></table>
@@ -235,7 +235,7 @@ if (!doNotTrack) {
 </ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -244,7 +244,7 @@ if (!doNotTrack) {
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="o">&lt;</span><span class="nx">script</span> <span class="nx">src</span><span class="o">=</span><span class="s2">&#34;//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js&#34;</span> <span class="nx">type</span><span class="o">=</span><span class="s2">&#34;text/javascript&#34;</span><span class="o">&gt;&lt;</span><span class="err">/script&gt;</span>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="o">&lt;</span><span class="nx">script</span> <span class="nx">src</span><span class="o">=</span><span class="s2">&#34;//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js&#34;</span> <span class="nx">type</span><span class="o">=</span><span class="s2">&#34;text/javascript&#34;</span><span class="o">&gt;&lt;</span><span class="err">/script&gt;</span>
 <span class="o">&lt;</span><span class="nx">script</span> <span class="nx">type</span><span class="o">=</span><span class="s2">&#34;text/javascript&#34;</span><span class="o">&gt;</span>
 	<span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>     
 		<span class="nx">setInterval</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>        
@@ -290,7 +290,7 @@ if (!doNotTrack) {
   
 </article></main>
 <footer class="footer">
-  <span>&copy; 2009 - 2021 <a href="https://khal.web.id/">Khalid&#39;s Blog</a></span>
+  <span>&copy; 2009 - 2022 <a href="https://khal.web.id/">Khalid&#39;s Blog</a></span>
   <span>&middot;</span>
   <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
 </footer>

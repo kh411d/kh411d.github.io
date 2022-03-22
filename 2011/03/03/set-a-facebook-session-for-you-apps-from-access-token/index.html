@@ -74,7 +74,7 @@
     <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <meta name="generator" content="Hugo 0.85.0" />
+    <meta name="generator" content="Hugo 0.92.0" />
     
     
 <script type="application/javascript">
@@ -172,16 +172,16 @@ if (!doNotTrack) {
     <p>In some situation you will want to create a facebook session for your app, for example you get the <code>code</code> query string after user granted your app, now you can construct the url like below,</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-php" data-lang="php"><span class="nx">https</span><span class="o">://</span><span class="nx">graph</span><span class="o">.</span><span class="nx">facebook</span><span class="o">.</span><span class="nx">com</span><span class="o">/</span><span class="nx">oauth</span><span class="o">/</span><span class="nx">access_token</span><span class="o">?</span><span class="nx">client_id</span><span class="o">=</span><span class="nx">YOUR_APP_ID</span><span class="o">&amp;</span><span class="nx">redirect_uri</span><span class="o">=</span><span class="nx">YOUR_URL</span><span class="o">&amp;</span><span class="nx">client_secret</span><span class="o">=</span><span class="nx">YOUR_APP_SECRET</span><span class="o">&amp;</span><span class="nx">code</span><span class="o">=</span><span class="nx">THE_CODE_FROM_ABOVE</span>
+<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="nx">https</span><span class="o">://</span><span class="nx">graph</span><span class="o">.</span><span class="nx">facebook</span><span class="o">.</span><span class="nx">com</span><span class="o">/</span><span class="nx">oauth</span><span class="o">/</span><span class="nx">access_token</span><span class="o">?</span><span class="nx">client_id</span><span class="o">=</span><span class="nx">YOUR_APP_ID</span><span class="o">&amp;</span><span class="nx">redirect_uri</span><span class="o">=</span><span class="nx">YOUR_URL</span><span class="o">&amp;</span><span class="nx">client_secret</span><span class="o">=</span><span class="nx">YOUR_APP_SECRET</span><span class="o">&amp;</span><span class="nx">code</span><span class="o">=</span><span class="nx">THE_CODE_FROM_ABOVE</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>And then you need to construct session variables base from the access token, these are functions that might help you,</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -214,7 +214,7 @@ if (!doNotTrack) {
 </span><span class="lnt">31
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-php" data-lang="php">    <span class="c1">//Build your session variables
+<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php">    <span class="c1">//Build your session variables
 </span><span class="c1"></span>    <span class="k">function</span> <span class="nf">generateSessionVars</span><span class="p">(</span><span class="nv">$accessToken</span><span class="p">)</span>
     <span class="p">{</span>
         <span class="nv">$e</span> <span class="o">=</span> <span class="nx">explode</span><span class="p">(</span><span class="s1">&#39;|&#39;</span><span class="p">,</span><span class="nv">$accessToken</span><span class="p">);</span>
@@ -250,7 +250,7 @@ if (!doNotTrack) {
 </div><p>Usage,</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -259,7 +259,7 @@ if (!doNotTrack) {
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-php" data-lang="php">    <span class="nv">$accessToken</span> <span class="o">=</span> <span class="nx">file_get_contents</span><span class="p">(</span><span class="s2">&#34;https://graph.facebook.com/oauth/access_token?client_id=YOUR_APP_ID&amp;redirect_uri=YOUR_URL&amp;client_secret=YOUR_APP_SECRET&amp;code=THE_CODE_FROM_ABOVE&#34;</span><span class="p">);</span>
+<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php">    <span class="nv">$accessToken</span> <span class="o">=</span> <span class="nx">file_get_contents</span><span class="p">(</span><span class="s2">&#34;https://graph.facebook.com/oauth/access_token?client_id=YOUR_APP_ID&amp;redirect_uri=YOUR_URL&amp;client_secret=YOUR_APP_SECRET&amp;code=THE_CODE_FROM_ABOVE&#34;</span><span class="p">);</span>
 
     <span class="c1">//get session variables
 </span><span class="c1"></span>    <span class="nv">$params</span> <span class="o">=</span> <span class="nx">generateSessionVars</span><span class="p">(</span><span class="nv">$accessToken</span><span class="p">);</span>
@@ -305,7 +305,7 @@ if (!doNotTrack) {
   
 </article></main>
 <footer class="footer">
-  <span>&copy; 2009 - 2021 <a href="https://khal.web.id/">Khalid&#39;s Blog</a></span>
+  <span>&copy; 2009 - 2022 <a href="https://khal.web.id/">Khalid&#39;s Blog</a></span>
   <span>&middot;</span>
   <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
 </footer>

@@ -74,7 +74,7 @@
     <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <meta name="generator" content="Hugo 0.85.0" />
+    <meta name="generator" content="Hugo 0.92.0" />
     
     
 <script type="application/javascript">
@@ -172,26 +172,26 @@ if (!doNotTrack) {
     <p>I&rsquo;m trying to make a partial output from hmvc module,</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-php" data-lang="php">    <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">obj</span> <span class="o">=&amp;</span> <span class="nx">get_instance</span><span class="p">();</span>
+<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php">    <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">obj</span> <span class="o">=&amp;</span> <span class="nx">get_instance</span><span class="p">();</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>and then I&rsquo;m trying to load a view from some module,</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-php" data-lang="php">    <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">obj</span><span class="o">-&gt;</span><span class="na">load</span><span class="o">-&gt;</span><span class="na">view</span><span class="p">(</span><span class="nv">$view</span><span class="p">,</span><span class="nv">$data</span><span class="p">);</span>
+<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php">    <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">obj</span><span class="o">-&gt;</span><span class="na">load</span><span class="o">-&gt;</span><span class="na">view</span><span class="p">(</span><span class="nv">$view</span><span class="p">,</span><span class="nv">$data</span><span class="p">);</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>This will resulting errors, it turns out <code>$this-&gt;obj</code> is only loading the global view of CI i.e. <code>./application/views/</code> HMVC is not overriding the default view of CI, you might have to pass your controller object <code>$this</code> from your controller to your layout library,</p>
 <p>On your module controller :</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -201,7 +201,7 @@ if (!doNotTrack) {
 </span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-php" data-lang="php">    <span class="k">class</span> <span class="nc">Post</span> <span class="k">extends</span> <span class="nx">Controller</span> <span class="p">{</span>
+<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php">    <span class="k">class</span> <span class="nc">Post</span> <span class="k">extends</span> <span class="nx">Controller</span> <span class="p">{</span>
         <span class="k">function</span> <span class="nf">Post</span><span class="p">(){</span>
             <span class="k">parent</span><span class="o">::</span><span class="na">Controller</span><span class="p">();</span>
         <span class="p">}</span>
@@ -214,7 +214,7 @@ if (!doNotTrack) {
 </div><p>On your Layout library :</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -223,7 +223,7 @@ if (!doNotTrack) {
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-php" data-lang="php">    <span class="k">function</span> <span class="nf">load</span><span class="p">(</span><span class="nv">$view</span><span class="p">,</span><span class="nv">$controller</span><span class="p">){</span>
+<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php">    <span class="k">function</span> <span class="nf">load</span><span class="p">(</span><span class="nv">$view</span><span class="p">,</span><span class="nv">$controller</span><span class="p">){</span>
         <span class="nv">$partial</span> <span class="o">=</span> <span class="nv">$controller</span><span class="o">-&gt;</span><span class="na">load</span><span class="o">-&gt;</span><span class="na">view</span><span class="p">(</span><span class="nv">$view</span><span class="p">,</span><span class="k">true</span><span class="p">);</span>
 
         <span class="c1">//parse to your big layout
@@ -269,7 +269,7 @@ if (!doNotTrack) {
   
 </article></main>
 <footer class="footer">
-  <span>&copy; 2009 - 2021 <a href="https://khal.web.id/">Khalid&#39;s Blog</a></span>
+  <span>&copy; 2009 - 2022 <a href="https://khal.web.id/">Khalid&#39;s Blog</a></span>
   <span>&middot;</span>
   <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
 </footer>

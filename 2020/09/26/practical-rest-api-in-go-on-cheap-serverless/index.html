@@ -79,7 +79,7 @@ But it sometimes often makes extensive use of third-party services (such as data
     <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <meta name="generator" content="Hugo 0.85.0" />
+    <meta name="generator" content="Hugo 0.92.0" />
     
     
 <script type="application/javascript">
@@ -239,13 +239,13 @@ Fork the repository
 <p>Let&rsquo;s take a look at the handler file <code>/api/handler.go</code>, you&rsquo;ll see that I have 2 different handlers, one to serve <code>net/http</code> listener on Localhost and Fly, also to be served as a function on Vercel.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-go" data-lang="go"><span class="c1">//ServeHTTP net/http handler
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="c1">//ServeHTTP net/http handler
 </span><span class="c1"></span><span class="kd">func</span> <span class="nf">ServeHTTP</span><span class="p">(</span><span class="nx">w</span> <span class="nx">http</span><span class="p">.</span><span class="nx">ResponseWriter</span><span class="p">,</span> <span class="nx">r</span> <span class="o">*</span><span class="nx">http</span><span class="p">.</span><span class="nx">Request</span><span class="p">)</span> <span class="p">{</span>
     <span class="o">...</span> 
 <span class="p">}</span>
@@ -254,13 +254,13 @@ Fork the repository
 </div><p>And another one to serve AWS Lambda RPC <em>(Remote Procedure Call)</em></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-go" data-lang="go"><span class="c1">//ServeLambda AWS lambda event handler
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="c1">//ServeLambda AWS lambda event handler
 </span><span class="c1"></span><span class="kd">func</span> <span class="nf">ServeLambda</span><span class="p">(</span><span class="nx">r</span> <span class="nx">events</span><span class="p">.</span><span class="nx">APIGatewayProxyRequest</span><span class="p">)</span> <span class="p">(</span><span class="o">*</span><span class="nx">events</span><span class="p">.</span><span class="nx">APIGatewayProxyResponse</span><span class="p">,</span> <span class="kt">error</span><span class="p">)</span> <span class="p">{</span>
     <span class="o">...</span>
 <span class="p">}</span>
@@ -269,7 +269,7 @@ Fork the repository
 </div><p>So now let see the main package, <code>/main.go</code>, it will check <code>AWS_LAMBDA_FUNCTION_NAME</code> variable whether to serve Http or AWS Lambda RPC.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -280,7 +280,7 @@ Fork the repository
 </span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-go" data-lang="go"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
 	<span class="k">if</span> <span class="nx">os</span><span class="p">.</span><span class="nf">Getenv</span><span class="p">(</span><span class="s">&#34;AWS_LAMBDA_FUNCTION_NAME&#34;</span><span class="p">)</span> <span class="o">==</span> <span class="s">&#34;&#34;</span> <span class="p">{</span>
 		<span class="nx">http</span><span class="p">.</span><span class="nf">HandleFunc</span><span class="p">(</span><span class="s">&#34;/&#34;</span><span class="p">,</span> <span class="nx">api</span><span class="p">.</span><span class="nx">ServeHTTP</span><span class="p">)</span>
 		<span class="nx">http</span><span class="p">.</span><span class="nf">ListenAndServe</span><span class="p">(</span><span class="s">&#34;:3000&#34;</span><span class="p">,</span> <span class="kc">nil</span><span class="p">)</span>
@@ -294,7 +294,7 @@ Fork the repository
 </div><p>Now you see that each provider has a different way to compile your code into a function, and another thing to catch on, each provider usually has their own configuration file that needed upon deployment (CI/CD), Take a look at <code>/netlify.toml</code> file,</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -302,7 +302,7 @@ Fork the repository
 </span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">build</span><span class="p">]</span>
+<pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">build</span><span class="p">]</span>
   <span class="nx">command</span> <span class="p">=</span> <span class="s2">&#34;make build&#34;</span> <span class="err">//</span><span class="nx">Your</span> <span class="nx">app</span> <span class="nx">build</span> <span class="nx">command</span>
   <span class="nx">functions</span> <span class="p">=</span> <span class="s2">&#34;functions&#34;</span> <span class="err">//</span><span class="nx">Your</span> <span class="nx">app</span> <span class="nx">function</span> <span class="nx">exec</span><span class="err">/</span><span class="nx">binary</span> <span class="nx">directory</span>
 <span class="p">[</span><span class="nx">build</span><span class="p">.</span><span class="nx">environment</span><span class="p">]</span>
@@ -313,13 +313,13 @@ Fork the repository
 </div><p>The build command should correspond to toml configuration, as you see below, the go binary should be put in the <code>functions</code> directory as it specified on the toml configurations.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-makefile" data-lang="makefile"><span class="nf">build</span><span class="o">:</span>
+<pre tabindex="0" class="chroma"><code class="language-makefile" data-lang="makefile"><span class="nf">build</span><span class="o">:</span>
 	mkdir -p functions      // create functions dir as specified in toml
 	go get ./...            // install all dependencies
 	go build -o functions/clapi  // build and output the binary to functions directory
@@ -331,7 +331,7 @@ Fork the repository
 <p>Lastly, we need a storage to put all the count, as I mentioned before, we&rsquo;re going to use FaunaDB and Redis as an option, take a look at <code>/api/handler.go</code>, if there is no FaunaDB configuration then it will look for Redis configuration.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -345,7 +345,7 @@ Fork the repository
 </span><span class="lnt">12
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-go" data-lang="go"><span class="kd">func</span> <span class="nf">init</span><span class="p">()</span> <span class="p">{</span>
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="kd">func</span> <span class="nf">init</span><span class="p">()</span> <span class="p">{</span>
 <span class="o">...</span>
 <span class="k">if</span> <span class="nx">conf</span><span class="p">.</span><span class="nf">Get</span><span class="p">(</span><span class="s">&#34;FAUNADB_SECRET_KEY&#34;</span><span class="p">)</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>
     <span class="nx">dbconn</span><span class="p">,</span> <span class="nx">err</span> <span class="p">=</span> <span class="nx">db</span><span class="p">.</span><span class="nf">NewFaunaDB</span><span class="p">()</span>
@@ -362,7 +362,7 @@ Fork the repository
 </div><p>There is a couple of steps to set up these databases, it will be explained on the README file. All the database code is in <code>/db</code> directory, and each database driver should follow this interface <code>/db/kv.go</code>,</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -373,7 +373,7 @@ Fork the repository
 </span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-go" data-lang="go"><span class="kd">type</span> <span class="nx">KV</span> <span class="kd">interface</span> <span class="p">{</span>
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="kd">type</span> <span class="nx">KV</span> <span class="kd">interface</span> <span class="p">{</span>
 	<span class="nf">Add</span><span class="p">(</span><span class="kt">string</span><span class="p">,</span> <span class="p">[]</span><span class="kt">byte</span><span class="p">,</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Duration</span><span class="p">)</span> <span class="kt">error</span>
 	<span class="nf">Set</span><span class="p">(</span><span class="kt">string</span><span class="p">,</span> <span class="p">[]</span><span class="kt">byte</span><span class="p">,</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Duration</span><span class="p">)</span> <span class="kt">error</span>
 	<span class="nf">Delete</span><span class="p">(</span><span class="kt">string</span><span class="p">)</span> <span class="kt">error</span>
@@ -428,7 +428,7 @@ Fork the repository
   
 </article></main>
 <footer class="footer">
-  <span>&copy; 2009 - 2021 <a href="https://khal.web.id/">Khalid&#39;s Blog</a></span>
+  <span>&copy; 2009 - 2022 <a href="https://khal.web.id/">Khalid&#39;s Blog</a></span>
   <span>&middot;</span>
   <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
 </footer>

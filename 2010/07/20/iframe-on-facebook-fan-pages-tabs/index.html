@@ -74,7 +74,7 @@ I just figured out that apps on Fan Pages Tab need an action from user, so then 
     <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <meta name="generator" content="Hugo 0.85.0" />
+    <meta name="generator" content="Hugo 0.92.0" />
     
     
 <script type="application/javascript">
@@ -175,31 +175,31 @@ if (!doNotTrack) {
 <li>In your Tab Url file i.e. <code>index.php</code>, create a href tag, that will link to <code>somefile.php</code>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;somefile.php&#34;</span><span class="p">&gt;</span>Click here to begin<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;somefile.php&#34;</span><span class="p">&gt;</span>Click here to begin<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
 </code></pre></td></tr></table>
 </div>
 </div></li>
 <li>Edit your somefile.php and insert <code>&lt;iframe&gt;</code> tag or <code>&lt;fb:iframe/&gt;</code> tag
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">fb:iframe</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;&#34;</span> <span class="na">width</span><span class="o">=</span><span class="s">&#34;&#34;</span> <span class="na">height</span><span class="o">=</span><span class="s">&#34;&#34;</span> <span class="p">/&gt;</span>
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">fb:iframe</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;&#34;</span> <span class="na">width</span><span class="o">=</span><span class="s">&#34;&#34;</span> <span class="na">height</span><span class="o">=</span><span class="s">&#34;&#34;</span> <span class="p">/&gt;</span>
 </code></pre></td></tr></table>
 </div>
 </div></li>
 <li>You might want to make a dummy loading image, just to attract user to click the image,
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-html" data-lang="html">   <span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;url to loading image&#34;</span> <span class="p">/&gt;</span>
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html">   <span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;url to loading image&#34;</span> <span class="p">/&gt;</span>
    <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;somefile.php&#34;</span><span class="p">&gt;</span>Click here to begin<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
 </code></pre></td></tr></table>
 </div>
@@ -209,7 +209,7 @@ if (!doNotTrack) {
 <p>The script from the article look like this,</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -224,7 +224,7 @@ if (!doNotTrack) {
 </span><span class="lnt">13
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-javascript" data-lang="javascript">    <span class="o">&lt;</span><span class="nx">a</span> <span class="nx">onClick</span><span class="o">=</span><span class="s2">&#34;outside_location.setInnerFBML(location_two);&#34;</span> <span class="nx">style</span><span class="o">=</span><span class="s2">&#34;cursor: pointer;&#34;</span><span class="o">&gt;</span>
+<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript">    <span class="o">&lt;</span><span class="nx">a</span> <span class="nx">onClick</span><span class="o">=</span><span class="s2">&#34;outside_location.setInnerFBML(location_two);&#34;</span> <span class="nx">style</span><span class="o">=</span><span class="s2">&#34;cursor: pointer;&#34;</span><span class="o">&gt;</span>
       <span class="nx">Click</span> <span class="nx">here</span> <span class="nx">to</span> <span class="nx">launch</span> <span class="nx">game</span><span class="p">.</span>
       <span class="o">&lt;</span><span class="nx">div</span> <span class="nx">id</span><span class="o">=</span><span class="s2">&#34;outside_location&#34;</span><span class="o">&gt;</span>
          <span class="o">&lt;</span><span class="nx">img</span> <span class="nx">src</span><span class="o">=</span><span class="s1">&#39;[Enter a url to an image here]&#39;</span> <span class="o">/&gt;&lt;</span><span class="nx">br</span> <span class="o">/&gt;</span> <span class="o">&lt;</span><span class="nx">fb</span><span class="o">:</span><span class="nx">iframe</span> <span class="nx">width</span><span class="o">=</span><span class="s2">&#34;760&#34;</span> <span class="nx">height</span><span class="o">=</span><span class="s2">&#34;760&#34;</span> <span class="nx">frameborder</span><span class="o">=</span><span class="s2">&#34;0&#34;</span> <span class="nx">src</span><span class="o">=</span><span class="s2">&#34;http://www.facebook.com/MotherStore&#34;</span> <span class="o">/&gt;</span> 
@@ -275,7 +275,7 @@ if (!doNotTrack) {
   
 </article></main>
 <footer class="footer">
-  <span>&copy; 2009 - 2021 <a href="https://khal.web.id/">Khalid&#39;s Blog</a></span>
+  <span>&copy; 2009 - 2022 <a href="https://khal.web.id/">Khalid&#39;s Blog</a></span>
   <span>&middot;</span>
   <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
 </footer>

@@ -80,7 +80,7 @@ Of course, you can prevent this by using a VPN on a public network, but sometime
     <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <meta name="generator" content="Hugo 0.85.0" />
+    <meta name="generator" content="Hugo 0.92.0" />
     
     
 <script type="application/javascript">
@@ -195,10 +195,10 @@ if (!doNotTrack) {
 <p>From your macOS or PC, mount the sd card and then create a blank file named <code>SSH</code> on the mounted folder and do not add any extension to the file.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">boot % touch SSH
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">boot % touch SSH
 </code></pre></td></tr></table>
 </div>
 </div><h3 id="linux-pc">Linux PC</h3>
@@ -214,22 +214,22 @@ if (!doNotTrack) {
 <p>The WIFI connection only works for successful login, the RPi is going to be headless without having to use the GUI, so we need to set autologin for the default user <code>kali</code>, to do that we need to configure the <code>lightdm</code></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">kali@kali:~$ sudo nano /etc/lightdm/lightdm.conf
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">kali@kali:~$ sudo nano /etc/lightdm/lightdm.conf
 </code></pre></td></tr></table>
 </div>
 </div><p>Find the seat configuration and uncomment these options,</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="o">[</span>Seat:*<span class="o">]</span>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="o">[</span>Seat:*<span class="o">]</span>
 pam-autologin-service<span class="o">=</span>lightdm-autologin
 autologin-user<span class="o">=</span>kali
 autologin-user-timeout<span class="o">=</span><span class="m">0</span>
@@ -240,16 +240,16 @@ autologin-user-timeout<span class="o">=</span><span class="m">0</span>
 <p>Create a <code>myPhoneWIFISSID.nmconnection</code> file, name this file the same as your WIFI SSID.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">kali@kali:~$ sudo nano /etc/NetworkManager/system-connections/myPhoneWIFISSID.nmconnection
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">kali@kali:~$ sudo nano /etc/NetworkManager/system-connections/myPhoneWIFISSID.nmconnection
 </code></pre></td></tr></table>
 </div>
 </div><p>Copy-paste this configuration and edit as needed, usually, you only need to change the <code>connection.id</code>, <code>wifi.ssid</code>, and the <code>wifi-security.psk</code></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -278,7 +278,7 @@ autologin-user-timeout<span class="o">=</span><span class="m">0</span>
 </span><span class="lnt">27
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">    <span class="o">[</span>connection<span class="o">]</span>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">    <span class="o">[</span>connection<span class="o">]</span>
     <span class="nv">id</span><span class="o">=</span>myPhoneWIFISSID
     <span class="nv">type</span><span class="o">=</span>wifi
     autoconnect-priority<span class="o">=</span><span class="m">99</span>
@@ -311,14 +311,14 @@ autologin-user-timeout<span class="o">=</span><span class="m">0</span>
 <p>To add a new WIFI ap you need to SSH from your phone, and then use the <code>nmcli</code> tool</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">kali@kali:~$ nmcli dev wifi
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">kali@kali:~$ nmcli dev wifi
 IN-USE  BSSID              SSID       		MODE   CHAN  RATE        SIGNAL  BARS  SECURITY
 *       10:C1:F9:78:B2:1B  myPhoneWIFISSID  Infra  <span class="m">10</span>    <span class="m">130</span> Mbit/s  <span class="m">80</span>      ***   WPA1 WPA2
         14:A0:F8:E8:2E:14  RIFA       		Infra  <span class="m">5</span>     <span class="m">130</span> Mbit/s  <span class="m">40</span>      **    WPA1 WPA2
@@ -329,10 +329,10 @@ IN-USE  BSSID              SSID       		MODE   CHAN  RATE        SIGNAL  BARS  S
 <p>And then try to connect to the WIFI, after changing the connection, your current SSH connection will close or hung up.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">kali@kali:~$ nmcli connection up RIFA
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">kali@kali:~$ nmcli connection up RIFA
 </code></pre></td></tr></table>
 </div>
 </div><p>I guess this is all roundup, you can now use the RPi as a plug n play hack box device and play with the kali Linux tools provided.</p>
@@ -363,7 +363,7 @@ IN-USE  BSSID              SSID       		MODE   CHAN  RATE        SIGNAL  BARS  S
   
 </article></main>
 <footer class="footer">
-  <span>&copy; 2009 - 2021 <a href="https://khal.web.id/">Khalid&#39;s Blog</a></span>
+  <span>&copy; 2009 - 2022 <a href="https://khal.web.id/">Khalid&#39;s Blog</a></span>
   <span>&middot;</span>
   <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
 </footer>

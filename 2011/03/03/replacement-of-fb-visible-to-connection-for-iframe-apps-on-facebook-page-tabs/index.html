@@ -74,7 +74,7 @@
     <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <meta name="generator" content="Hugo 0.85.0" />
+    <meta name="generator" content="Hugo 0.92.0" />
     
     
 <script type="application/javascript">
@@ -172,12 +172,12 @@ if (!doNotTrack) {
     <p>Developing an Iframe app an somehow you want to use this FBML tag below.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-html" data-lang="html">    <span class="p">&lt;</span><span class="nt">fb:visible-to-connection</span><span class="p">&gt;</span>
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html">    <span class="p">&lt;</span><span class="nt">fb:visible-to-connection</span><span class="p">&gt;</span>
         Only connections should view this..
     <span class="p">&lt;/</span><span class="nt">fb:visible-to-connection</span><span class="p">&gt;</span>
 </code></pre></td></tr></table>
@@ -185,7 +185,7 @@ if (!doNotTrack) {
 </div><p>On each call from page tab you can get a <code>signed_request</code> variable, the value is like this below,</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -209,7 +209,7 @@ if (!doNotTrack) {
 </span><span class="lnt">22
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-html" data-lang="html">    Array (
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html">    Array (
         [algorithm] =&gt; HMAC-SHA256
         [expires] =&gt; 0
         [issued_at] =&gt; 1299140579
@@ -236,7 +236,7 @@ if (!doNotTrack) {
 </div><p>And then you can use &ldquo;page.liked&rdquo; attribute to determine whether the user already like the page. The next question is how can you extract the signed request? you can use &ldquo;parseSignedRequest&rdquo; method from PHP-SDK or you can try to use the code below,</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -266,7 +266,7 @@ if (!doNotTrack) {
 </span><span class="lnt">28
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-php" data-lang="php"><span class="k">function</span> <span class="nf">parse_signed_request</span><span class="p">(</span><span class="nv">$signed_request</span> <span class="o">=</span> <span class="k">null</span><span class="p">,</span> <span class="nv">$secret</span> <span class="o">=</span> <span class="k">null</span><span class="p">)</span> <span class="p">{</span>
+<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="k">function</span> <span class="nf">parse_signed_request</span><span class="p">(</span><span class="nv">$signed_request</span> <span class="o">=</span> <span class="k">null</span><span class="p">,</span> <span class="nv">$secret</span> <span class="o">=</span> <span class="k">null</span><span class="p">)</span> <span class="p">{</span>
     <span class="nv">$signed_request</span> <span class="o">=</span> <span class="nv">$signed_request</span> <span class="o">?</span> <span class="nv">$signed_request</span> <span class="o">:</span> <span class="nv">$_REQUEST</span><span class="p">[</span><span class="s1">&#39;signed_request&#39;</span><span class="p">];</span>
     <span class="nv">$secret</span> <span class="o">=</span> <span class="nv">$secret</span> <span class="o">?</span> <span class="nv">$secret</span> <span class="o">:</span> <span class="nx">APP_SECRET</span><span class="p">;</span>
     
@@ -332,7 +332,7 @@ if (!doNotTrack) {
   
 </article></main>
 <footer class="footer">
-  <span>&copy; 2009 - 2021 <a href="https://khal.web.id/">Khalid&#39;s Blog</a></span>
+  <span>&copy; 2009 - 2022 <a href="https://khal.web.id/">Khalid&#39;s Blog</a></span>
   <span>&middot;</span>
   <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
 </footer>
