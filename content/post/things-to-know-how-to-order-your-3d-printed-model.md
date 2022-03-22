@@ -18,7 +18,7 @@ A 3D printing service could help your model get printed rather quickly, mostly i
 
 I prefer the second one because I can talk with the expert/customer service and ask their opinion whether my 3D print setting (layer thickness, infill, etc) is good enough or need some modification on the model. After all the setting is agreed upon and calculated then they will come up with the price.
 
-Don't look only for a single 3D printing service, most of the time I was looking at several 3D printing services I could find, and then I compare each of them before making a purchase. Before ordering, there are things that you need to consider regarding the material, the volume of the model, the usage of the model, etc. 
+Don't look only for a single 3D printing service, most of the time I was looking at several 3D printing services I could find, and then I compare each of them before making a purchase. Before ordering, there are things that you need to consider regarding the material, the volume of the model, the usage of the model, etc.
 
 ## How big is the model?
 
@@ -36,7 +36,7 @@ They can't align the model horizontally because it won't fit the model so they m
 
 ![](/images/3dprintb.jpg "Vendor B: Vertical Diagonal printing")
 
-The 3D printer is a lot smaller than Vendor A, so the model can't lie down on the bed position, they need to put a lot of support for this (the green one) I'm afraid it will lose some stability when printing the model so you're going to lose some precision also. You're also going to pay for the support that will cost you 30% more. Most likely I'm going to pass this vendor.
+The 3D printer is a lot smaller than Vendor A, so the model can't lie down on the bed position, they need to put a lot of support for this (the layer with cyan color) I'm afraid it will lose some stability when printing the model so you're going to lose some precision also. You're also going to pay for the support that will cost you 30% more, not to mention you have to remove and clear the support. Most likely I'm going to pass this vendor.
 
 **Vendor C**
 
@@ -52,7 +52,7 @@ The bed is so wide and all the models can be put side by side, this is perfect a
 
 ## How much stiffness does the model needs?
 
-The stiffness of your model needs depends on the material that you're going to use and also the setting of wall thickness and the infill, I can only find 3 materials from my local vendors ordered from the stiffest, 
+The stiffness of your model needs depends on the material that you're going to use and also the setting of wall thickness and the infill, I can only find 3 materials from my local vendors ordered from the stiffest,
 
     PLA >>>>>> ABS/ASA >> PETG
 
@@ -60,7 +60,7 @@ PETG is the less stiff material, it's more flex than the other two, you would wa
 
 ## Does the model need to have impact resistance?
 
-This is rather important because it will define whether your model could break easily upon impact or maybe when you drop the model. Ordered from the most resistance, 
+This is rather important because it will define whether your model could break easily upon impact or maybe when you drop the model. Ordered from the most resistance,
 
     ABS/ASA >>>>>> PETG >>>> PLA
 
@@ -68,7 +68,7 @@ ABS is way more resistant to impact despite the stiffness. if you're making a pr
 
 ## Is it for Outdoor/Indoor use?
 
-This is related to whether your model needs to be heat resistant or not. If you're going to use the model outdoor then you need to have a sunproof material. Ordered from the most heat resistant, 
+This is related to whether your model needs to be heat resistant or not. If you're going to use the model outdoor then you need to have a sunproof material. Ordered from the most heat resistant,
 
     ABS/ASA >> PETG >>>>>> PLA
 
