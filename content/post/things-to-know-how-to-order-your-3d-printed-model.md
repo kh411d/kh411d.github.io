@@ -20,7 +20,7 @@ I prefer the second one because I can talk with the expert/customer service and 
 
 Don't look only for a single 3D printing service, most of the time I was looking at several 3D printing services I could find, and then I compare each of them before making a purchase. Before ordering, there are things that you need to consider regarding the material, the volume of the model, the usage of the model, etc. 
 
-#### How big is the model?
+## How big is the model?
 
 Common 3D printers can only print a medium/small model (20x20x25)mm, (220x220x220)mm, 300mm, etc and for a larger model, you'll going to need an industrial 3D printer. So, you'll need to ask whether your model fit their 3D printers lineup or not, some service could also provide a tricky way to align your model diagonally or lift up the model with additional support so the model can fit with the printer dimensions. I don't recommend this way because the final result will lose some precisions.
 
@@ -50,19 +50,19 @@ As you can see, the model doesn't fit, even though it might fit if you put it di
 
 The bed is so wide and all the models can be put side by side, this is perfect and this might be the one that I'm looking for, a wide bed, no extra support, and all the models fit the bed. So this must be the winner.
 
-#### How much stiffness does the model needs?
+## How much stiffness does the model needs?
 
 The stiffness of your model needs depends on the material that you're going to use and also the setting of wall thickness and the infill, I can only find 3 materials from my local vendors ordered from the stiffest, **PLA >>>> ABS/ASA ≥ PETG**.
 
 PETG is the less stiff material, it's more flex than the other two, you would want to have a lot of infill and wall thickness for this material. ABS/ASA is actually the same but I will go for the ASA, which is a bit stiffer than the PETG. PLA is way stiffest among those two.
 
-#### Does the model need to have impact resistance?
+## Does the model need to have impact resistance?
 
 This is rather important because it will define whether your model could break easily upon impact or maybe when you drop the model. Ordered from the most resistance, **ABS/ASA >>>>>> PETG >>> PLA.**
 
 ABS is way more resistant to impact despite the stiffness. if you're making a protection tool I would definitely go for this material. PETG is a bit more resistant than PLA this might be because PETG has a flexible material.
 
-#### Is it for Outdoor/Indoor use?
+## Is it for Outdoor/Indoor use?
 
 This is related to whether your model needs to be heat resistant or not. If you're going to use the model outdoor then you need to have a sunproof material. Ordered from the most heat resistant, **ABS/ASA >> PETG >>>>>> PLA**.
 
@@ -72,6 +72,6 @@ PETG is good enough to withstand the sunlight heat, it would resist the heat up 
 
 ABS/ASA is the strongest against heat, it's way strong as it could stand the heat up to 95°C, between ABS and ASA, most likely the ASA has UV protection so if you print with white material it wouldn't get yellow easily.
 
-#### Conclusion
+## Conclusion
 
 I did my research from my own experience and also from any articles and youtube videos I could find. I kinda summarize all the things I found in this article, hopefully, this might help you to find a perfect material for your model depending on the usage and the budget of course.
