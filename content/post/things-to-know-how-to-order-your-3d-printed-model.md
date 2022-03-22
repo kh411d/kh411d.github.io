@@ -10,7 +10,7 @@ title = "Things to know: How to order your 3D printed model"
 url = "/2022/03/22/things-to-know-how-to-order-your-3d-printed-model"
 
 +++
-Nowadays, a 3D printer is pretty much common among hobbyists, there are now a lot of variants of 3D printers, you can pick which one could print the fastest, which one could print a bigger volume, low maintenance, sophisticate, etc. People can buy from the very cheap to the most expensive machine depending on their budget and their need.
+Nowadays, a 3D printer is pretty much common among hobbyists, there are now many kinds of 3D printers, you can pick which one could print the fastest, which one could print a bigger volume, low maintenance, sophisticate, cheap, expensive, etc. People can also make living by opening a 3D printing service from their garage/basement.
 
 But, most likely, for people like me with a tight budget and got lazy to do all the maintenance and etc. Well, I guess it's easier to just order it from any local 3D printing service you could find.
 
