@@ -34,19 +34,19 @@ They can't align the model horizontally because it won't fit the model so they m
 
 **Vendor B**
 
-![](/images/3dprintb.jpg)
+![](/images/3dprintb.jpg "Vendor B: Vertical Diagonal printing")
 
 The 3D printer is a lot smaller than Vendor A, so the model can't lie down on the bed position, they need to put a lot of support for this (the green one) I'm afraid it will lose some stability when printing the model so you're going to lose some precision also. You're also going to pay for the support that will cost you 30% more. Most likely I'm going to pass this vendor.
 
 **Vendor C**
 
-![](/images/3dprintc.jpg)
+![](/images/3dprintc.jpg "Vendor C: Not fit the bed")
 
 As you can see, the model doesn't fit, even though it might fit if you put it diagonally as vendor C did but they wouldn't recommend it because of the same reason. So, I would pass this vendor also, and thank you for being honest.
 
 **Vendor D**
 
-![](/images/3dprintd.jpg)
+![](/images/3dprintd.jpg "Vendor D: wide bed")
 
 The bed is so wide and all the models can be put side by side, this is perfect and this might be the one that I'm looking for, a wide bed, no extra support, and all the models fit the bed. So this must be the winner.
 
