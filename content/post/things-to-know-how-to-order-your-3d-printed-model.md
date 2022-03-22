@@ -10,7 +10,7 @@ title = "Things to know: How to order your 3D printed model"
 url = "/2022/03/22/things-to-know-how-to-order-your-3d-printed-model"
 
 +++
-Nowadays, a 3D printer is pretty much common among hobbyists, there are now many kinds of 3D printers, you can pick which one could print the fastest, which one could print a bigger volume, low maintenance, sophisticate, cheap, expensive, etc. People can also make living by opening a 3D printing service from their garage/basement.
+Nowadays, a 3D printer is pretty much common among hobbyists, there are now many kinds of 3D printers, you can choose which one could print the fastest, big volume,  low maintenance, sophisticated, etc. People can also make a living by opening a 3D printing service from their garage/basement.
 
 But, most likely, for people like me with a tight budget and got lazy to do all the maintenance and etc. Well, I guess it's easier to just order it from any local 3D printing service I could find.
 
@@ -26,37 +26,37 @@ Common 3D printers can only print a medium/small model (20x20x25)mm, (220x220x22
 
 Usually, after inquiring they will send you some images that show you how your model fits the printer. These are some examples, I went to some 3D printing services and I compare each of them, all the vendors are given the same file.
 
-**Vendor A**
+> **Vendor A**
 
-![](/images/3dprinta.jpg "Vendor A: Diagonal printing")
+![](/images/3dprinta.jpg "Vendor A: Diagonal bed position")
 
-They can't align the model horizontally because it won't fit the model so they make it diagonally, the cons are there will be diagonal thin lines instead of horizontal, for some people this could be annoying, the bed is also too tight so you might lose some precision here and the pros are if the model is lying down on the bed position that means it will have less support and less cost for the material, much cheaper.
+They cannot align the model horizontally because it won’t fit the printer, so they place it diagonally. The cons are there will be diagonal thin lines around the model instead of horizontal, for some people this could be annoying, the bed is also too tight so you might lose some precision.  The pros if the model is lying down on the bed position that means it will have less support and less cost for the material, much cheaper.
 
-**Vendor B**
+> **Vendor B**
 
-![](/images/3dprintb.jpg "Vendor B: Vertical Diagonal printing")
+![](/images/3dprintb.jpg "Vendor B: Standing diagonal position")
 
-The 3D printer is a lot smaller than Vendor A, so the model can't lie down on the bed position, they need to put a lot of support for this (the layer with cyan color) I'm afraid it will lose some stability when printing the model so you're going to lose some precision also. You're also going to pay for the support that will cost you 30% more, not to mention you have to remove and clear the support. Most likely I'm going to pass this vendor.
+The 3D printer is a lot smaller than Vendor A. The model can't be placed lying down on the bed position. So, they need to make the object in a standing position and create a lot of support for this (the layer with cyan color) It's possible to lose some stability when printing the model and lose some precision. You're also going to pay for the support that will cost you 30% more, not to mention you have to remove and clear the support. Most likely, I'm going to pass this vendor.
 
-**Vendor C**
+> **Vendor C**
 
 ![](/images/3dprintc.jpg "Vendor C: Not fit the bed")
 
-As you can see, the model doesn't fit, even though it might fit if you put it diagonally as vendor C did but they wouldn't recommend it because of the same reason. So, I would pass this vendor also, and thank you for being honest.
+As you can see, the model is too large for the printer, even though it might fit if you put it diagonally as vendor C did but they wouldn't recommend it because of the same reason. So, I would pass this vendor also, and thank you for being honest.
 
-**Vendor D**
+> **Vendor D**
 
 ![](/images/3dprintd.jpg "Vendor D: wide bed")
 
-The bed is so wide and all the models can be put side by side, this is perfect and this might be the one that I'm looking for, a wide bed, no extra support, and all the models fit the bed. So this must be the winner.
+There is a lot of space on the bed and all the models can fit altogether, this is perfect and might be the one that I'm looking for, a wide bed, no extra support, and all the models fit the bed. So this must be the winner.
 
 ## How much stiffness does the model needs?
 
-The stiffness of your model needs depends on the material that you're going to use and also the setting of wall thickness and the infill, I can only find 3 materials from my local vendors ordered from the stiffest,
+The stiffness of your model needs depends on the material that you're going to use and also the setting of _wall thickness and the infill_, I can only find 3 materials from my local vendors ordered from the stiffest,
 
     PLA >>>>>> ABS/ASA >> PETG
 
-PETG is the less stiff material, it's more flex than the other two, you would want to have a lot of infill and wall thickness for this material. ABS/ASA is actually the same but I will go for the ASA, which is a bit stiffer than the PETG. PLA is way stiffest among those two.
+PETG is the less stiff material and more flex than the other two, you would want to have a lot of infill and wall thickness for this material. ABS/ASA is the same, but I will go with the ASA. PLA is way stiffest among those two.
 
 ## Does the model need to have impact resistance?
 
@@ -64,11 +64,11 @@ This is rather important because it will define whether your model could break e
 
     ABS/ASA >>>>>> PETG >>>> PLA
 
-ABS is way more resistant to impact despite the stiffness. if you're making a protection tool I would definitely go for this material. PETG is a bit more resistant than PLA this might be because PETG has a flexible material.
+ABS is way more resistant to impact despite the stiffness. if you're making a protection tool I would definitely go with this material. PETG is a bit more resistant than PLA this might be because PETG has a flexible material.
 
 ## Is it for Outdoor/Indoor use?
 
-This is related to whether your model needs to be heat resistant or not. If you're going to use the model outdoor then you need to have a sunproof material. Ordered from the most heat resistant,
+IMO this is related to whether your model needs to be heat resistant or not. If you're going to use the model outdoor, then you need to have a sunproof material. Ordered from the most heat resistant,
 
     ABS/ASA >> PETG >>>>>> PLA
 
