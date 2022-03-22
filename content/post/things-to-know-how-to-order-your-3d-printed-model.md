@@ -12,7 +12,7 @@ url = "/2022/03/22/things-to-know-how-to-order-your-3d-printed-model"
 +++
 Nowadays, a 3D printer is pretty much common among hobbyists, there are now many kinds of 3D printers, you can pick which one could print the fastest, which one could print a bigger volume, low maintenance, sophisticate, cheap, expensive, etc. People can also make living by opening a 3D printing service from their garage/basement.
 
-But, most likely, for people like me with a tight budget and got lazy to do all the maintenance and etc. Well, I guess it's easier to just order it from any local 3D printing service you could find.
+But, most likely, for people like me with a tight budget and got lazy to do all the maintenance and etc. Well, I guess it's easier to just order it from any local 3D printing service I could find.
 
 A 3D printing service could help your model get printed rather quickly, mostly in 3-4 days your printed model will get delivered to your doorstep. Some services also provide a click and order through their website making less interaction with customer service, and some small business services also required a model inquiry through chat messenger before ordering.
 
@@ -81,3 +81,9 @@ ABS/ASA is the strongest against heat, it's way strong as it could stand the hea
 ## Conclusion
 
 I did my research from my own experience and also from any articles and youtube videos I could find. I kinda summarize all the things I found in this article, hopefully, this might help you to find a perfect material for your model depending on the usage and the budget of course.
+
+> **Tips**
+
+* Don't use PLA for outdoor usage, if you did use PLA, don't get exposed to the sunlight. I might use this material for figurines, bathroom appliances, and indoor decoration.
+* ABS can also be used for indoor/outdoor usage, heat resistant, impact-proof, and stiff enough, I would definitely go for this one for any usage.
+* PETG could be an alternative to ABS, durable enough but it's a bit more flexible, you might want to set the wall thickness and infill more than 50%.
