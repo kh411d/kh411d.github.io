@@ -20,21 +20,21 @@ layout: "page"
     <li>
         <a class="clickme gmail-clr" href="mailto:contact@khal.web.id" target="_blank">
             <span class="icon-mail">
-            Send me email!
+            Send me Email
             </span>
         </a>
     </li>
     <li>
         <a class="clickme whatsapp-clr" href="whatsapp://send?phone=+62818228467&text=Hi!%20" target="_blank">
             <span class="icon-chat">
-            Whatsapp me!
+            Whatsapp Chat
             </span>
         </a>
     </li>
     <li>
         <a class="clickme telegram-clr" href="https://t.me/khalidity" target="_blank">
             <span class="icon-chat">
-            Telegram me!
+            Telegram Chat
             </span>
         </a>
     </li>
@@ -47,16 +47,11 @@ layout: "page"
     </li>
     <li>
         <a class="clickme android-clr" href="sms:+62818228467" target="_blank">
-            <span class="icon-comment">
-            Send me SMS!
-            </span>
-        </a>
-    </li>
-    <li>
-        <a class="clickme android-clr" href="tel:+62818228467" target="_blank">
             <span class="icon-phone">
-            Gimme a call!
+            Urgent? Send me SMS!
             </span>
+            <br>
+            <span>I'll call back in a minute</span>
         </a>
     </li>
 </ul>
