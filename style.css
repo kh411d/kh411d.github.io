@@ -152,7 +152,8 @@ img {
   display:block;
   vertical-align: middle;
   line-height: normal;
-  width: 70%;
+  width: 100%;
+  text-align: center;
 }
 .gmail-clr {
   background-color: #BB001B;
