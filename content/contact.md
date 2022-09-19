@@ -1,6 +1,6 @@
 ---
 author: "Khalid Adisendjaja"
-title: "Looking for me?"
+title: "Hi! It's me Khalid"
 layout: "page"
 #image: "/images/sidebar.jpg"
 ---
@@ -13,46 +13,40 @@ layout: "page"
 <ul class="findme" style="list-style:none;">
     <li>
     <div style="margin-bottom:20px;font-size:2rem;">
-<h1>Hi! it's me Khalid</h1>
-<h5>Ask me by...</h5>
+<h5>Looking for me? Reach me by</h5>
 </div>
     </li>
     <li>
-        <a class="clickme gmail-clr" href="mailto:contact@khal.web.id" target="_blank">
-            <span class="icon-mail">
-            Send me Email
-            </span>
-        </a>
+        <button class="clickme gmail-clr" href="mailto:contact@khal.web.id" target="_blank" onclick="location.href='mailto:contact@khal.web.id'" tabindex="1">
+           Send Me Email
+        </button>
     </li>
     <li>
-        <a class="clickme whatsapp-clr" href="whatsapp://send?phone=+62818228467&text=Hi!%20" target="_blank">
-            <span class="icon-chat">
-            Whatsapp Chat
-            </span>
-        </a>
+        <button class="clickme whatsapp-clr" href="whatsapp://send?phone=+62818228467&text=Hi!%20" target="_blank" onclick="location.href='whatsapp://send?phone=+62818228467&text=Hi!%20'" tabindex="2">
+            Whatsapp!
+        </button>
     </li>
     <li>
-        <a class="clickme telegram-clr" href="https://t.me/khalidity" target="_blank">
-            <span class="icon-chat">
-            Telegram Chat
-            </span>
-        </a>
+        <button class="clickme telegram-clr" href="https://t.me/khalidity" target="_blank" onclick="location.href='https://t.me/khalidity'" tabindex="3">
+            Telegram!
+        </button>
     </li>
     <li>
-        <a class="clickme twitter-clr" href="https://twitter.com/messages/compose?recipient_id=14636911&text=Hi,%20" target="_blank">
-            <span class="icon-twitter" >
-            DM @khalidity
-            </span>
-        </a>
+        <button class="clickme twitter-clr" href="https://twitter.com/messages/compose?recipient_id=14636911&text=Hi,%20" target="_blank" onclick="location.href='https://twitter.com/messages/compose?recipient_id=14636911&text=Hi,%20'" tabindex="4">
+            Tweet!
+        </button>
     </li>
     <li>
-        <a class="clickme android-clr" href="sms:+62818228467" target="_blank">
-            <span class="icon-phone">
-            Urgent? Send me SMS!
-            </span>
-            <br>
-            <span>I'll call back in a minute</span>
-        </a>
+        <button class="clickme android-clr" href="sms:+62818228467" target="_blank" onclick="location.href='sms:+62818228467'" tabindex="5">
+            Send me SMS! <br/>
+            <span style="font-size:0.7em">I'll call back later</span>
+        </button>
+    </li>
+    <li>
+        <button class="clickme android-clr" href="tel:+62818228467" target="_blank" onclick="location.href='tel:+62818228467'" tabindex="6">
+            Gimme a call! <br/>
+            <span style="font-size:0.7em">Contact exchange needed</span>
+        </button>
     </li>
 </ul>
 {{< /rawhtml >}}
