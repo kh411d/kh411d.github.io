@@ -71,11 +71,7 @@ Locate your Ice Cast Server url, usually it will look like this http://xxx.">
     <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-<<<<<<< HEAD
     <meta name="generator" content="Hugo 0.103.1" />
-=======
-    <meta name="generator" content="Hugo 0.92.0" />
->>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
     
     
 <script type="application/javascript">
@@ -201,7 +197,6 @@ if (!doNotTrack) {
 </span><span class="lnt">16
 </span></code></pre></td>
 <td class="lntd">
-<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl"><span class="k">function</span> <span class="nf">getXSPF</span><span class="p">(){</span>
 </span></span><span class="line"><span class="cl">	<span class="nv">$XSPFurl</span> <span class="o">=</span> <span class="s1">&#39;http://xxx.xxx.xxx.xxx:8000/mount.xspf&#39;</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">	<span class="nv">$xml</span> <span class="o">=</span> <span class="nx">simplexml_load_file</span><span class="p">(</span><span class="nv">$XSPFurl</span><span class="p">);</span>
@@ -219,25 +214,6 @@ if (!doNotTrack) {
 </span></span><span class="line"><span class="cl">	<span class="k">return</span> <span class="nv">$stream</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></td></tr></table>
-=======
-<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="k">function</span> <span class="nf">getXSPF</span><span class="p">(){</span>
-	<span class="nv">$XSPFurl</span> <span class="o">=</span> <span class="s1">&#39;http://xxx.xxx.xxx.xxx:8000/mount.xspf&#39;</span><span class="p">;</span>
-	<span class="nv">$xml</span> <span class="o">=</span> <span class="nx">simplexml_load_file</span><span class="p">(</span><span class="nv">$XSPFurl</span><span class="p">);</span>
-	<span class="nv">$stream</span><span class="p">[</span><span class="s1">&#39;info&#39;</span><span class="p">][</span><span class="s1">&#39;title&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="nx">string</span><span class="p">)</span> <span class="nv">$xml</span><span class="o">-&gt;</span><span class="na">trackList</span><span class="o">-&gt;</span><span class="na">track</span><span class="o">-&gt;</span><span class="na">title</span><span class="p">;</span>
-	<span class="nv">$stream</span><span class="p">[</span><span class="s1">&#39;info&#39;</span><span class="p">][</span><span class="s1">&#39;location&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="nx">string</span><span class="p">)</span> <span class="nv">$xml</span><span class="o">-&gt;</span><span class="na">trackList</span><span class="o">-&gt;</span><span class="na">track</span><span class="o">-&gt;</span><span class="na">location</span><span class="p">;</span>
-
-	<span class="nx">preg_match_all</span><span class="p">(</span><span class="s1">&#39;/^(.*):(.*)/m&#39;</span><span class="p">,</span> <span class="p">(</span><span class="nx">string</span><span class="p">)</span> <span class="nv">$xml</span><span class="o">-&gt;</span><span class="na">trackList</span><span class="o">-&gt;</span><span class="na">track</span><span class="o">-&gt;</span><span class="na">annotation</span><span class="p">,</span><span class="nv">$matches</span><span class="p">);</span>
-	<span class="k">if</span><span class="p">(</span><span class="nx">isset</span><span class="p">(</span><span class="nv">$matches</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> <span class="o">&amp;&amp;</span> <span class="nx">isset</span><span class="p">(</span><span class="nv">$matches</span><span class="p">[</span><span class="mi">2</span><span class="p">])){</span>
-		<span class="nv">$t</span> <span class="o">=</span> <span class="nx">array_combine</span><span class="p">(</span><span class="nv">$matches</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="nv">$matches</span><span class="p">[</span><span class="mi">2</span><span class="p">]);</span>
-		<span class="k">foreach</span><span class="p">(</span><span class="nv">$t</span> <span class="k">as</span> <span class="nv">$key</span> <span class="o">=&gt;</span> <span class="nv">$val</span><span class="p">){</span>
-			<span class="nv">$fkey</span> <span class="o">=</span> <span class="nx">str_replace</span><span class="p">(</span><span class="s2">&#34; &#34;</span><span class="p">,</span> <span class="s2">&#34;_&#34;</span><span class="p">,</span><span class="nv">$key</span><span class="p">);</span>
-			<span class="nv">$stream</span><span class="p">[</span><span class="s1">&#39;info&#39;</span><span class="p">][</span><span class="nx">strtolower</span><span class="p">(</span><span class="nv">$fkey</span><span class="p">)]</span> <span class="o">=</span> <span class="nx">trim</span><span class="p">(</span><span class="nv">$val</span><span class="p">);</span>
-		<span class="p">}</span>
-	<span class="p">}</span>
-	<span class="k">return</span> <span class="nv">$stream</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
->>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><ol start="3">
 <li>Setup your ajax php file, <code>current_track.php</code></li>
@@ -249,17 +225,10 @@ if (!doNotTrack) {
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl"><span class="k">require_once</span> <span class="s2">&#34;xspf_function.php&#34;</span>
 </span></span><span class="line"><span class="cl"><span class="nv">$stream</span> <span class="o">=</span> <span class="nx">getXSPF</span><span class="p">();</span>
 </span></span><span class="line"><span class="cl"><span class="k">echo</span> <span class="nv">$stream</span><span class="p">[</span><span class="s1">&#39;info&#39;</span><span class="p">][</span><span class="s1">&#39;title&#39;</span><span class="p">];</span>
 </span></span></code></pre></td></tr></table>
-=======
-<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="k">require_once</span> <span class="s2">&#34;xspf_function.php&#34;</span>
-<span class="nv">$stream</span> <span class="o">=</span> <span class="nx">getXSPF</span><span class="p">();</span>
-<span class="k">echo</span> <span class="nv">$stream</span><span class="p">[</span><span class="s1">&#39;info&#39;</span><span class="p">][</span><span class="s1">&#39;title&#39;</span><span class="p">];</span>
-</code></pre></td></tr></table>
->>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><ol start="4">
 <li>And then, put this script before the end of html head tag</li>
@@ -275,7 +244,6 @@ if (!doNotTrack) {
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="o">&lt;</span><span class="nx">script</span> <span class="nx">src</span><span class="o">=</span><span class="s2">&#34;//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js&#34;</span> <span class="nx">type</span><span class="o">=</span><span class="s2">&#34;text/javascript&#34;</span><span class="o">&gt;&lt;</span><span class="err">/script&gt;</span>
 </span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="nx">script</span> <span class="nx">type</span><span class="o">=</span><span class="s2">&#34;text/javascript&#34;</span><span class="o">&gt;</span>
 </span></span><span class="line"><span class="cl">	<span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>     
@@ -284,16 +252,6 @@ if (!doNotTrack) {
 </span></span><span class="line"><span class="cl">		<span class="p">},</span> <span class="mi">10</span> <span class="o">*</span> <span class="mi">1000</span><span class="p">);</span>    <span class="p">});</span>
 </span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="err">/script&gt;</span>
 </span></span></code></pre></td></tr></table>
-=======
-<pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="o">&lt;</span><span class="nx">script</span> <span class="nx">src</span><span class="o">=</span><span class="s2">&#34;//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js&#34;</span> <span class="nx">type</span><span class="o">=</span><span class="s2">&#34;text/javascript&#34;</span><span class="o">&gt;&lt;</span><span class="err">/script&gt;</span>
-<span class="o">&lt;</span><span class="nx">script</span> <span class="nx">type</span><span class="o">=</span><span class="s2">&#34;text/javascript&#34;</span><span class="o">&gt;</span>
-	<span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>     
-		<span class="nx">setInterval</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>        
-			<span class="nx">$</span><span class="p">(</span><span class="s2">&#34;#current-track&#34;</span><span class="p">).</span><span class="nx">load</span><span class="p">(</span><span class="s2">&#34;current_track.php&#34;</span><span class="p">);</span>      
-		<span class="p">},</span> <span class="mi">10</span> <span class="o">*</span> <span class="mi">1000</span><span class="p">);</span>    <span class="p">});</span>
-<span class="o">&lt;</span><span class="err">/script&gt;</span>
-</code></pre></td></tr></table>
->>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>The <code>setInterval()</code> function will periodically execute an ajax request to fetch new content from icecast xspf mount point.</p>
 
@@ -331,13 +289,8 @@ if (!doNotTrack) {
   </footer>
   
 </article></main>
-<<<<<<< HEAD
 <footer class="footer" aria-hidden="true">
   <span>&copy; 2009 - 2022 <a href="https://khal.web.id/" style="speak:none;">Khalid&#39;s Blog</a></span>
-=======
-<footer class="footer">
-  <span>&copy; 2009 - 2022 <a href="https://khal.web.id/">Khalid&#39;s Blog</a></span>
->>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
   <span>&middot;</span>
   <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank" style="speak:none;">Hugo️️</a>️</span>
 </footer>

@@ -77,11 +77,7 @@ So then I found this article path_info, orig_path_info, apache and php, well I g
     <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-<<<<<<< HEAD
     <meta name="generator" content="Hugo 0.103.1" />
-=======
-    <meta name="generator" content="Hugo 0.92.0" />
->>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
     
     
 <script type="application/javascript">
@@ -182,13 +178,8 @@ if (!doNotTrack) {
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl">    <span class="nv">$config</span><span class="p">[</span><span class="s1">&#39;uri_protocol&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&#34;PATH_INFO&#34;</span><span class="p">;</span>
 </span></span></code></pre></td></tr></table>
-=======
-<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php">    <span class="nv">$config</span><span class="p">[</span><span class="s1">&#39;uri_protocol&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&#34;PATH_INFO&#34;</span><span class="p">;</span>
-</code></pre></td></tr></table>
->>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>And then the app crashed!?? I had to debug the code for quite sometimes 😫</p>
 <p>Debugging the <code>$_SERVER</code> variable, and turns out the <code>PATH_INFO</code> variable wasn&rsquo;t exist, but the <code>ORIG_PATH_INFO</code> variable is exist, hmm is it the PHP version problem?</p>
@@ -229,13 +220,8 @@ if (!doNotTrack) {
   </footer>
   
 </article></main>
-<<<<<<< HEAD
 <footer class="footer" aria-hidden="true">
   <span>&copy; 2009 - 2022 <a href="https://khal.web.id/" style="speak:none;">Khalid&#39;s Blog</a></span>
-=======
-<footer class="footer">
-  <span>&copy; 2009 - 2022 <a href="https://khal.web.id/">Khalid&#39;s Blog</a></span>
->>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
   <span>&middot;</span>
   <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank" style="speak:none;">Hugo️️</a>️</span>
 </footer>
