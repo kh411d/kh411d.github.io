@@ -8,11 +8,7 @@
     <language>en-us</language>
     <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
     <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
-    <lastBuildDate>Tue, 10 Aug 2010 09:30:57 +0700</lastBuildDate>
-    
-	<atom:link href="https://khal.web.id/tags/codeigniter/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 10 Aug 2010 09:30:57 +0700</lastBuildDate><atom:link href="https://khal.web.id/tags/codeigniter/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>path_info or orig_path_info</title>
       <link>https://khal.web.id/2010/08/10/path_info-or-orig_path_info/</link>
@@ -20,8 +16,9 @@
       <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2010/08/10/path_info-or-orig_path_info/</guid>
       <description>The story begin when I was migrating my Codeigniter app from php4 to php5 hosting environment and then I change the uri_protocol config,
-1  $config[&amp;#39;uri_protocol&amp;#39;] = &amp;#34;PATH_INFO&amp;#34;;   And then the app crashed!?? I had to debug the code for quite sometimes 😫
-Debugging the $_SERVER variable, and turns out the PATH_INFO variable wasn&amp;rsquo;t exist, but the ORIG_PATH_INFO variable is exist, hmm is it the PHP version problem?</description>
+1 $config[&amp;#39;uri_protocol&amp;#39;] = &amp;#34;PATH_INFO&amp;#34;; And then the app crashed!?? I had to debug the code for quite sometimes 😫
+Debugging the $_SERVER variable, and turns out the PATH_INFO variable wasn&amp;rsquo;t exist, but the ORIG_PATH_INFO variable is exist, hmm is it the PHP version problem?
+So then I found this article path_info, orig_path_info, apache and php, well I guess that explained very well, on his condition mentioned in the article, the problem happened when he use .</description>
     </item>
     
     <item>
@@ -31,8 +28,8 @@ Debugging the $_SERVER variable, and turns out the PATH_INFO variable wasn&amp;r
       <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2010/01/07/codeigniter-hmvc-and-your-own-layout-library/</guid>
       <description>I&amp;rsquo;m trying to make a partial output from hmvc module,
-1  $this-&amp;gt;obj =&amp;amp; get_instance();   and then I&amp;rsquo;m trying to load a view from some module,
-1  $this-&amp;gt;obj-&amp;gt;load-&amp;gt;view($view,$data);   This will resulting errors, it turns out $this-&amp;gt;obj is only loading the global view of CI i.e. ./application/views/ HMVC is not overriding the default view of CI, you might have to pass your controller object $this from your controller to your layout library,</description>
+1 $this-&amp;gt;obj =&amp;amp; get_instance(); and then I&amp;rsquo;m trying to load a view from some module,
+1 $this-&amp;gt;obj-&amp;gt;load-&amp;gt;view($view,$data); This will resulting errors, it turns out $this-&amp;gt;obj is only loading the global view of CI i.e. ./application/views/ HMVC is not overriding the default view of CI, you might have to pass your controller object $this from your controller to your layout library,</description>
     </item>
     
   </channel>

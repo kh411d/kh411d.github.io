@@ -8,11 +8,7 @@
     <language>en-us</language>
     <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
     <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
-    <lastBuildDate>Sat, 13 Mar 2021 11:35:00 +0700</lastBuildDate>
-    
-	<atom:link href="https://khal.web.id/tags/golang/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 13 Mar 2021 11:35:00 +0700</lastBuildDate><atom:link href="https://khal.web.id/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Go extending Array with a Real-time Observer</title>
       <link>https://khal.web.id/2021/03/13/go-extending-array-with-a-real-time-observer/</link>
@@ -20,7 +16,7 @@
       <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2021/03/13/go-extending-array-with-a-real-time-observer/</guid>
       <description>Let say, an array in which each element holds a random countdown value, so when its time ended, it needs to spawn a worker (i.e. go-routine) as soon as possible. Luckily, in Go, we can create a custom type variable and benefit from the go-routine itself. For this tutorial, we&amp;rsquo;re going to have an array that has an observer to monitor its values.
-1 2  var theArray []string theArray = append(theArray,&amp;#34;Hello, There!</description>
+1 2 var theArray []string theArray = append(theArray,&amp;#34;Hello, There!</description>
     </item>
     
     <item>

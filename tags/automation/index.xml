@@ -8,11 +8,7 @@
     <language>en-us</language>
     <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
     <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
-    <lastBuildDate>Fri, 11 Jul 2014 09:03:57 +0700</lastBuildDate>
-    
-	<atom:link href="https://khal.web.id/tags/automation/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 11 Jul 2014 09:03:57 +0700</lastBuildDate><atom:link href="https://khal.web.id/tags/automation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Aplikasi mobile IFTTT bakal bikin Android lo makin canggih!</title>
       <link>https://khal.web.id/2014/07/11/aplikasi-mobile-ifttt-bakal-bikin-android-lo-makin-canggih/</link>
@@ -31,8 +27,8 @@ Banyak banget resep IFTTT yang bisa lo bikin, dari yang paling berguna buat hidu
       <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2012/09/05/rahasia-dibalik-otomatisasi-tweet-gue/</guid>
       <description>Pada mulanya karena kebanyakan artikel yang gue baca berasal dari Google Reader,
- Gue males banget
- Kalo sharing lewat button share, soalnya ribet, begitu klik, login dulu facebook ato twitter, terus muncul popup, terus harus mencet lagi tombol send, belum lagi gue harus ngedit isi konten share-nya, terus aja terus.. Doh come on man! hari gini ribet 😫
+Gue males banget
+Kalo sharing lewat button share, soalnya ribet, begitu klik, login dulu facebook ato twitter, terus muncul popup, terus harus mencet lagi tombol send, belum lagi gue harus ngedit isi konten share-nya, terus aja terus.. Doh come on man! hari gini ribet 😫
 Nah, aplikasi pertama yang gue temukan adalah BufferApp, aplikasi ini dapat menampung semua tweet lo yang nantinya akan di publish otomatis berdasarkan jadwal publish yang sudah lo tentukan.</description>
     </item>
     

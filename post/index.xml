@@ -8,10 +8,27 @@
     <language>en-us</language>
     <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
     <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
-    <lastBuildDate>Mon, 19 Jul 2021 13:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Mar 2022 05:00:00 +0000</lastBuildDate><atom:link href="https://khal.web.id/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Things to know: How to order your 3D printed model</title>
+      <link>https://khal.web.id/2022/03/22/things-to-know-how-to-order-your-3d-printed-model/</link>
+      <pubDate>Tue, 22 Mar 2022 05:00:00 +0000</pubDate>
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <guid>https://khal.web.id/2022/03/22/things-to-know-how-to-order-your-3d-printed-model/</guid>
+      <description>Nowadays, a 3D printer is pretty much common among hobbyists, there are now many kinds of 3D printers, you can choose which one could print the fastest, big volume, low maintenance, sophisticated, etc. People can also make a living by opening a 3D printing service from their garage/basement.
+But, most likely, for people like me with a tight budget and got lazy to do all the maintenance and etc. Well, I guess it&amp;rsquo;s easier to just order it from any local 3D printing service I could find.</description>
+    </item>
     
-	<atom:link href="https://khal.web.id/post/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title>How to turn your Raspberry Pi into a solid hack box</title>
+      <link>https://khal.web.id/2021/08/01/how-to-turn-your-raspberry-pi-into-a-solid-hack-box/</link>
+      <pubDate>Sun, 01 Aug 2021 08:00:00 +0000</pubDate>
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <guid>https://khal.web.id/2021/08/01/how-to-turn-your-raspberry-pi-into-a-solid-hack-box/</guid>
+      <description>Have you ever been insecure while you are using any public WIFI? Did you suspect someone sniffing on your network, stealing your credential, phishing your network?
+All of these might happened if you&amp;rsquo;re using any WIFI connection in a coffee shop, a cafe, a coworking place, in a conference room, on your own office, or maybe in your neighborhood.
+Of course, you can prevent this by using a VPN on a public network, but sometimes it just can&amp;rsquo;t work, or maybe you are just too cheap for that expensive VPN subscription.</description>
+    </item>
     
     <item>
       <title>A staggered keyboard makes you crazy, should you stop using it?</title>
@@ -50,7 +67,7 @@ I used a Macbook for development so these shortcuts might be different for any o
       <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2021/03/13/go-extending-array-with-a-real-time-observer/</guid>
       <description>Let say, an array in which each element holds a random countdown value, so when its time ended, it needs to spawn a worker (i.e. go-routine) as soon as possible. Luckily, in Go, we can create a custom type variable and benefit from the go-routine itself. For this tutorial, we&amp;rsquo;re going to have an array that has an observer to monitor its values.
-1 2  var theArray []string theArray = append(theArray,&amp;#34;Hello, There!</description>
+1 2 var theArray []string theArray = append(theArray,&amp;#34;Hello, There!</description>
     </item>
     
     <item>
@@ -81,7 +98,6 @@ Each government of respective countries has been driving its system and campaign
       <guid>https://khal.web.id/2020/09/30/no-good-compact-phone-is-the-best-option/</guid>
       <description>Aren’t you get tired of that weighty phone? The one that you might currently hold right now, questioning why my hand gets smaller and the phone getting bigger and heavier.
 Some vendors even outsmart it by folding the phone, but still, double the weight, double the size, double the price. There’s must be a mistake here, or is it?
-  
 The phone used to be compact, lightweight, pocket friendly and could stand the test of time.</description>
     </item>
     
@@ -152,7 +168,6 @@ Lack of testing and hasty actions to reopen public activities on a wide scale ha
       <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2020/09/13/How-to-Not-Flaunt-Your-Github-Face-on-Social-Media/</guid>
       <description>Your Github&amp;rsquo;s face, Mostly, a user who had a Github personal account is using their typical profile picture, which is his part of the body from the waist to the head, and it&amp;rsquo;s meant to show up his face on purpose.
-  
 Sadly, your face will always be flaunted when you shared one of your repos in social media. Some users might be happy with that, but some might be inconveniences by sharing his/her face on public media.</description>
     </item>
     
@@ -204,8 +219,8 @@ So let me introduce Portainer IO. This tool will let you manage all the containe
       <guid>https://khal.web.id/2018/01/02/Thanks-Jekyll.-Hello-Hugo/</guid>
       <description>I guess it&amp;rsquo;s time to say goodbye to Jekyll and thank you. I just can&amp;rsquo;t go further, I feel like Ruby is too much, struggling with all dependencies, build errors, etc.
 Let me introduce Hugo, I can&amp;rsquo;t say much about Hugo but that&amp;rsquo;s a good thing, means that Hugo is so damn simple. Easy installation, easy to customize, easy to maintain.
- Hugo is so damn fast, no joke.
- Hugo is single, yup Hugo is only a single binary file no Dependency Hell included, no worries if I updated my OS something would break, and it offers the same feature as Jekyll did.</description>
+Hugo is so damn fast, no joke.
+Hugo is single, yup Hugo is only a single binary file no Dependency Hell included, no worries if I updated my OS something would break, and it offers the same feature as Jekyll did.</description>
     </item>
     
     <item>
@@ -393,7 +408,7 @@ Most of all, when all of that features are packed into a smartwatch, I bet you&a
       <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2014/08/12/how-to-get-realtime-now-playing-info-from-ice-cast/</guid>
       <description>Getting a #NowPlaying info from your Ice Cast 2 server is pretty dead simple. You can get current track information from scrapping the XSPF url periodically by using CURL command. Here I&amp;rsquo;m going to explain how it works, I&amp;rsquo;m going to make a short javascript code to periodically update the current playing track and a simple php script to curl the xspf endpoint.
- Locate your Ice Cast Server url, usually it will look like this http://xxx.</description>
+Locate your Ice Cast Server url, usually it will look like this http://xxx.</description>
     </item>
     
     <item>
@@ -424,7 +439,6 @@ Aplikasi Android/Iphone bernama Yo ini punya moto &amp;ldquo;Zero-character comm
       <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2014/06/12/yay-twitter-featuring-piala-dunia-2014/</guid>
       <description>Sepertinya untuk Piala Dunia 2014 ini, Twitter benar-benar memberikan wadah pada para tweeps untuk turut menyemarakan suasana piala dunia di sisi online digital social media, bisa dilihat pada tampilan home terbaru dari Twitter.com versi website, di bagian sidebar sebelah kanan sudah tersedia jadwal pertandingan dan para pengguna twitter bisa memantau pertandingan lewat twitter hashtag yang sudah disediakan oleh twitter,
-  
 Setelah tombol &amp;ldquo;Choose your side&amp;rdquo; diklik, Tweeps akan diminta untuk memilih tim kesebelasan andalan-nya yang tentunya sudah eligible untuk Piala Dunia 2014 ini,</description>
     </item>
     
@@ -467,7 +481,7 @@ Proses pengalihan/redirecting inilah yang menjadi celah yang memungkinkan para a
       <description>Kabar gembira buat lo semua yang baru aja memulai bisnis resto/cafe/rumah makan/warteg atau yang sejenisnya.
 Facebook baru2x aja merilis fitur baru dari Facebook Fan Pages dimana setiap user yang mempunyai facebook fan pages berkategorikan “Restaurant/Cafe” akan mempunyai opsi2x untuk menambahkan detil-detil tentang restoran yang dikelola oleh user tersebut.
 Opsi2x yang diberikan oleh facebook berupa,
- Menu Restoran bisa di upload melalui PDF atau kedepannya user bisa menggunakan akun di Constant Contact (*yg saat ini baru tersedia untuk user US/Canada) untuk menampilkan menu secara otomatis di facebook page user.</description>
+Menu Restoran bisa di upload melalui PDF atau kedepannya user bisa menggunakan akun di Constant Contact (*yg saat ini baru tersedia untuk user US/Canada) untuk menampilkan menu secara otomatis di facebook page user.</description>
     </item>
     
     <item>
@@ -517,11 +531,12 @@ Bahayanya adalah domain &amp;ldquo;*.com.com&amp;rdquo; adalah senjata typo pali
       <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2014/02/19/note-upgrade-nodejs-lokal-via-npm-dan-n-module/</guid>
       <description>Sebelum NodeJS-nya di-upgrade, cek dulu versi yang ter-install,
-1 2  $ node -v v0.10.12   Bersih2x NPM Cache,
-1  $ sudo npm cache clean -f   Install &amp;ldquo;n&amp;rdquo; Node binary manager ,
-1  $ sudo npm install -g n   Upgrade Node ke versi terakhir,
-1  $ sudo n 0.10.26   Atau bisa langsung upgrade ke versi stable terakhir,
-1  $ sudo n stable   Cek versi node yg telah terupgrade,</description>
+1 2 $ node -v v0.10.12 Bersih2x NPM Cache,
+1 $ sudo npm cache clean -f Install &amp;ldquo;n&amp;rdquo; Node binary manager ,
+1 $ sudo npm install -g n Upgrade Node ke versi terakhir,
+1 $ sudo n 0.10.26 Atau bisa langsung upgrade ke versi stable terakhir,
+1 $ sudo n stable Cek versi node yg telah terupgrade,
+1 2 $ node -v v0.</description>
     </item>
     
     <item>
@@ -591,7 +606,7 @@ Kabar baik untuk pengguna WordPress karenna dengan menggunakan sebuah plugin off
       <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2013/12/31/olahraga-7-menit/</guid>
       <description>Hayo2x yg masih di kasur,
- Cuman 7 menit. Olahraga hemat tempat. Cuman butuh kursi dan dinding ato sandaran hati (*sori curcol) Ulangin 2-3x, udah kayak lari 10km ciyus ga boong. Keringet pasti berserakan, setiap gerakan harus intens sebanyak2xnya pake timer. Klo dah slese, coba tarik nafas dalem2x, rasakan sensasi bau badan sendiri :)) Aplikasi timernya banyak kok, ada di android, iphone, windows, pebble watch, search aja dgn keyword-nya &amp;ldquo;7 minute workout&amp;rdquo;.</description>
+Cuman 7 menit. Olahraga hemat tempat. Cuman butuh kursi dan dinding ato sandaran hati (*sori curcol) Ulangin 2-3x, udah kayak lari 10km ciyus ga boong. Keringet pasti berserakan, setiap gerakan harus intens sebanyak2xnya pake timer. Klo dah slese, coba tarik nafas dalem2x, rasakan sensasi bau badan sendiri :)) Aplikasi timernya banyak kok, ada di android, iphone, windows, pebble watch, search aja dgn keyword-nya &amp;ldquo;7 minute workout&amp;rdquo;.</description>
     </item>
     
     <item>
@@ -601,8 +616,8 @@ Kabar baik untuk pengguna WordPress karenna dengan menggunakan sebuah plugin off
       <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2013/12/23/registrasi-app-net/</guid>
       <description>Mungkin dulu ada yg tau soal microblogging platform yg satu ini, namanya App.Net, tanpa sengaja dan tak tahu mengapa tiba2x gue memebuka url untuk registrasi di App.Net yg notabene, dulunya user yg mau menggunakan platform ini harus nembayar $35/tahun atau $5/bulan.
- a service that put user first
- Artinya user tidak akan melihat Iklan/Ads sama sekali, ternyata kayaknya sih yang mendaftar terlalu sedikit, jadi pada akhirnya bulan desember ini mereka memberikan paket gratis buat user baru tapi limitasinya lumayan juga, cekidot aja di http://alpha.</description>
+a service that put user first
+Artinya user tidak akan melihat Iklan/Ads sama sekali, ternyata kayaknya sih yang mendaftar terlalu sedikit, jadi pada akhirnya bulan desember ini mereka memberikan paket gratis buat user baru tapi limitasinya lumayan juga, cekidot aja di http://alpha.</description>
     </item>
     
     <item>
@@ -623,8 +638,7 @@ Versi update terakhir pada saat artikel ini ditulis adalah Firmware 2.</descript
       <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2013/12/15/nike-werun-jakarta-2013-bajakjkt-finisher/</guid>
       <description>Yay! 10000 finisher complete #bajakjkt #werun Lumayan jauh juga ternyata, kalo dari Nike plus gw, jarak yg tercatat sekitar 12 km,
- #BajakJKT run track 
-Race yg satu ini sebenernya udah termasuk murah, Rp.175ribu sudah beserta 2 T-Shirt original NikeRunning Dri Fit ( Race &amp;amp; Finisher Tees ) plus Nike sport water Bottle-nya, dan race tag yg di pakai adalah tipe DTAG produksi dari ChronoTrack sebuah antena RFID untuk mencatat lap time/Nett Time dari para runner.</description>
+#BajakJKT run track Race yg satu ini sebenernya udah termasuk murah, Rp.175ribu sudah beserta 2 T-Shirt original NikeRunning Dri Fit ( Race &amp;amp; Finisher Tees ) plus Nike sport water Bottle-nya, dan race tag yg di pakai adalah tipe DTAG produksi dari ChronoTrack sebuah antena RFID untuk mencatat lap time/Nett Time dari para runner.</description>
     </item>
     
     <item>
@@ -673,8 +687,8 @@ Hasil akhir dari crowdfunding tersebut cukup memuaskan, ada sekitar kurang lebih
       <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2012/09/05/rahasia-dibalik-otomatisasi-tweet-gue/</guid>
       <description>Pada mulanya karena kebanyakan artikel yang gue baca berasal dari Google Reader,
- Gue males banget
- Kalo sharing lewat button share, soalnya ribet, begitu klik, login dulu facebook ato twitter, terus muncul popup, terus harus mencet lagi tombol send, belum lagi gue harus ngedit isi konten share-nya, terus aja terus.. Doh come on man! hari gini ribet 😫
+Gue males banget
+Kalo sharing lewat button share, soalnya ribet, begitu klik, login dulu facebook ato twitter, terus muncul popup, terus harus mencet lagi tombol send, belum lagi gue harus ngedit isi konten share-nya, terus aja terus.. Doh come on man! hari gini ribet 😫
 Nah, aplikasi pertama yang gue temukan adalah BufferApp, aplikasi ini dapat menampung semua tweet lo yang nantinya akan di publish otomatis berdasarkan jadwal publish yang sudah lo tentukan.</description>
     </item>
     
@@ -699,7 +713,7 @@ Disini saya akan memberikan sedikit review dari beberapa aplikasi Fotografi untu
 Test User is a tool that could be handy when you need to have some users to interact with your application, facebook currently provide this through Graph Api.
 I&amp;rsquo;ve made this simple php class consuming only facebook test account API, you may copy-paste from github
 Some example,
-1 2 3 4 5 6 7 8 9 10  $acc = new Facebook_TestAccount($appID,$Secret,$app_access_token); //Create N User $acc-&amp;gt;createMany($_REQUEST[&amp;#39;n&amp;#39;],$parameter) //Delete All User created by App $acc-&amp;gt;deleteAll() //Listing all user created by App Access Token $acc-&amp;gt;access()   </description>
+1 2 3 4 5 6 7 8 9 10 $acc = new Facebook_TestAccount($appID,$Secret,$app_access_token); //Create N User $acc-&amp;gt;createMany($_REQUEST[&amp;#39;n&amp;#39;],$parameter) //Delete All User created by App $acc-&amp;gt;deleteAll() //Listing all user created by App Access Token $acc-&amp;gt;access() </description>
     </item>
     
     <item>
@@ -753,7 +767,7 @@ Every post on your News Feed (Photos, Photo Album, Video, Status, notes) will ha
       <description>Sometime when you made some apps, there were another user who wants to check about the insight of the app, or maybe just want to test the apps, back then you might have to give all access to a user through www.facebook.com/developer.
 These day facebook make a flexibility to define access permission per user,
 I&amp;rsquo;m trying to explain in a simple way,
-   Access Technical Dashboard Manage users Insights Dashboard Adv Reset App Secret Delete App Sandbox Mode     Administrator o o o o o o o   Developer o x o x x o o   Tester x x x x x o x   Insights x x o x x x o    So if you see the table above, adding users to your apps, only works if you have a permission as an administrator, an insight user cannot view the apps when on sandbox mode, but the tester can and without any verification to test it.</description>
+Access Technical Dashboard Manage users Insights Dashboard Adv Reset App Secret Delete App Sandbox Mode Administrator o o o o o o o Developer o x o x x o o Tester x x x x x o x Insights x x o x x x o So if you see the table above, adding users to your apps, only works if you have a permission as an administrator, an insight user cannot view the apps when on sandbox mode, but the tester can and without any verification to test it.</description>
     </item>
     
     <item>
@@ -763,8 +777,8 @@ I&amp;rsquo;m trying to explain in a simple way,
       <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2011/03/03/set-a-facebook-session-for-you-apps-from-access-token/</guid>
       <description>In some situation you will want to create a facebook session for your app, for example you get the code query string after user granted your app, now you can construct the url like below,
-1  https://graph.facebook.com/oauth/access_token?client_id=YOUR_APP_ID&amp;amp;redirect_uri=YOUR_URL&amp;amp;client_secret=YOUR_APP_SECRET&amp;amp;code=THE_CODE_FROM_ABOVE   And then you need to construct session variables base from the access token, these are functions that might help you,
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31  //Build your session variables function generateSessionVars($accessToken) { $e = explode(&amp;#39;|&amp;#39;,$accessToken); $s = explode(&amp;#39;-&amp;#39;,$e[1]); $params = array( &amp;#39;uid&amp;#39;=&amp;gt;trim($s[1]), &amp;#39;access_token&amp;#39; =&amp;gt; trim($accessToken) ); $params[&amp;#39;sig&amp;#39;] = generateSignature($params,APP_SECRET); return $params; } //Generate session signature base on you App Secret function generateSignature($params,$secret) { // work with sorted data ksort($params); // generate the base string $base_string = &amp;#39;&amp;#39;; foreach($params as $key =&amp;gt; $value) { $base_string .</description>
+1 https://graph.facebook.com/oauth/access_token?client_id=YOUR_APP_ID&amp;amp;redirect_uri=YOUR_URL&amp;amp;client_secret=YOUR_APP_SECRET&amp;amp;code=THE_CODE_FROM_ABOVE And then you need to construct session variables base from the access token, these are functions that might help you,
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 //Build your session variables function generateSessionVars($accessToken) { $e = explode(&amp;#39;|&amp;#39;,$accessToken); $s = explode(&amp;#39;-&amp;#39;,$e[1]); $params = array( &amp;#39;uid&amp;#39;=&amp;gt;trim($s[1]), &amp;#39;access_token&amp;#39; =&amp;gt; trim($accessToken) ); $params[&amp;#39;sig&amp;#39;] = generateSignature($params,APP_SECRET); return $params; } //Generate session signature base on you App Secret function generateSignature($params,$secret) { // work with sorted data ksort($params); // generate the base string $base_string = &amp;#39;&amp;#39;; foreach($params as $key =&amp;gt; $value) { $base_string .</description>
     </item>
     
     <item>
@@ -774,8 +788,8 @@ I&amp;rsquo;m trying to explain in a simple way,
       <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2011/03/03/replacement-of-fb-visible-to-connection-for-iframe-apps-on-facebook-page-tabs/</guid>
       <description>Developing an Iframe app an somehow you want to use this FBML tag below.
-1 2 3  &amp;lt;fb:visible-to-connection&amp;gt; Only connections should view this.. &amp;lt;/fb:visible-to-connection&amp;gt;   On each call from page tab you can get a signed_request variable, the value is like this below,
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22  Array ( [algorithm] =&amp;gt; HMAC-SHA256 [expires] =&amp;gt; 0 [issued_at] =&amp;gt; 1299140579 [oauth_token] =&amp;gt; xxxxxxxxx|xxxxxxxxxxxxxxxx-xxxxxxxx|xxxxxx-xxxxxxxxxxxxxx [page] =&amp;gt; Array ( [id] =&amp;gt; xxxxxxxxxxxxxxxx [liked] =&amp;gt; 1 [admin] =&amp;gt; 1 ) [user] =&amp;gt; Array ( [country] =&amp;gt; id [locale] =&amp;gt; en_US [age] =&amp;gt; Array ( [min] =&amp;gt; 21 ) ) [user_id] =&amp;gt; xxxxxxxxxxx )   And then you can use &amp;ldquo;page.</description>
+1 2 3 &amp;lt;fb:visible-to-connection&amp;gt; Only connections should view this.. &amp;lt;/fb:visible-to-connection&amp;gt; On each call from page tab you can get a signed_request variable, the value is like this below,
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 Array ( [algorithm] =&amp;gt; HMAC-SHA256 [expires] =&amp;gt; 0 [issued_at] =&amp;gt; 1299140579 [oauth_token] =&amp;gt; xxxxxxxxx|xxxxxxxxxxxxxxxx-xxxxxxxx|xxxxxx-xxxxxxxxxxxxxx [page] =&amp;gt; Array ( [id] =&amp;gt; xxxxxxxxxxxxxxxx [liked] =&amp;gt; 1 [admin] =&amp;gt; 1 ) [user] =&amp;gt; Array ( [country] =&amp;gt; id [locale] =&amp;gt; en_US [age] =&amp;gt; Array ( [min] =&amp;gt; 21 ) ) [user_id] =&amp;gt; xxxxxxxxxxx ) And then you can use &amp;ldquo;page.</description>
     </item>
     
     <item>
@@ -786,8 +800,8 @@ I&amp;rsquo;m trying to explain in a simple way,
       <guid>https://khal.web.id/2011/03/03/two-ways-to-login-or-authenticate-using-facebook-js-sdk-dialog-box/</guid>
       <description>There is two easy way to authenticate a user with Facebook JS SDK,
 Using FB.UI,
-1 2 3 4 5 6 7 8 9 10 11 12 13  FB.ui( { method: &amp;#39;oauth&amp;#39;, display:&amp;#39;iframe&amp;#39;, perms:APP_EXT_PERMISSIONS }, function(response) { if(response.session) { console.dir(response); if(redirectURL) location.href = redirectURL; } } );   Using FB.DIALOG,
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19  FB.</description>
+1 2 3 4 5 6 7 8 9 10 11 12 13 FB.ui( { method: &amp;#39;oauth&amp;#39;, display:&amp;#39;iframe&amp;#39;, perms:APP_EXT_PERMISSIONS }, function(response) { if(response.session) { console.dir(response); if(redirectURL) location.href = redirectURL; } } ); Using FB.DIALOG,
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 FB.login(function(response) { if (response.</description>
     </item>
     
     <item>
@@ -797,9 +811,9 @@ Using FB.UI,
       <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2010/10/28/getting-ready-for-iframe-facebook-app-based/</guid>
       <description>At this time you need to be ready to migrate your facebook apps to Iframe based apps, because as it written on Facebook Developer Roadmap
- &amp;ldquo;We will stop allowing new FBML applications, but will continue to support existing FBML tabs and applications. Instead, we recommend using IFrames.&amp;rdquo; at the End of 2010.
- And then OAUTH 2.0 will required for new applications,
- &amp;ldquo;We will remove the ability for new applications to use our old authentication mechanism, but will continue to support existing applications using our old method.</description>
+&amp;ldquo;We will stop allowing new FBML applications, but will continue to support existing FBML tabs and applications. Instead, we recommend using IFrames.&amp;rdquo; at the End of 2010.
+And then OAUTH 2.0 will required for new applications,
+&amp;ldquo;We will remove the ability for new applications to use our old authentication mechanism, but will continue to support existing applications using our old method.</description>
     </item>
     
     <item>
@@ -809,8 +823,9 @@ Using FB.UI,
       <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2010/08/10/path_info-or-orig_path_info/</guid>
       <description>The story begin when I was migrating my Codeigniter app from php4 to php5 hosting environment and then I change the uri_protocol config,
-1  $config[&amp;#39;uri_protocol&amp;#39;] = &amp;#34;PATH_INFO&amp;#34;;   And then the app crashed!?? I had to debug the code for quite sometimes 😫
-Debugging the $_SERVER variable, and turns out the PATH_INFO variable wasn&amp;rsquo;t exist, but the ORIG_PATH_INFO variable is exist, hmm is it the PHP version problem?</description>
+1 $config[&amp;#39;uri_protocol&amp;#39;] = &amp;#34;PATH_INFO&amp;#34;; And then the app crashed!?? I had to debug the code for quite sometimes 😫
+Debugging the $_SERVER variable, and turns out the PATH_INFO variable wasn&amp;rsquo;t exist, but the ORIG_PATH_INFO variable is exist, hmm is it the PHP version problem?
+So then I found this article path_info, orig_path_info, apache and php, well I guess that explained very well, on his condition mentioned in the article, the problem happened when he use .</description>
     </item>
     
     <item>
@@ -821,7 +836,7 @@ Debugging the $_SERVER variable, and turns out the PATH_INFO variable wasn&amp;r
       <guid>https://khal.web.id/2010/07/20/iframe-on-facebook-fan-pages-tabs/</guid>
       <description>Iframe will not be supported on facebook fan pages tab, the strange thing is, it only happened on first load and the you&amp;rsquo;ll get this error iframe not supported
 I just figured out that apps on Fan Pages Tab need an action from user, so then to get an iframe working on tab,
- In your Tab Url file i.e. index.php, create a href tag, that will link to somefile.php 1  &amp;lt;a href=&amp;#34;somefile.</description>
+In your Tab Url file i.e. index.php, create a href tag, that will link to somefile.php 1 &amp;lt;a href=&amp;#34;somefile.</description>
     </item>
     
     <item>
@@ -847,8 +862,8 @@ The most well-known web server for PHP is Apache and Nginx.
       <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2010/01/07/codeigniter-hmvc-and-your-own-layout-library/</guid>
       <description>I&amp;rsquo;m trying to make a partial output from hmvc module,
-1  $this-&amp;gt;obj =&amp;amp; get_instance();   and then I&amp;rsquo;m trying to load a view from some module,
-1  $this-&amp;gt;obj-&amp;gt;load-&amp;gt;view($view,$data);   This will resulting errors, it turns out $this-&amp;gt;obj is only loading the global view of CI i.e. ./application/views/ HMVC is not overriding the default view of CI, you might have to pass your controller object $this from your controller to your layout library,</description>
+1 $this-&amp;gt;obj =&amp;amp; get_instance(); and then I&amp;rsquo;m trying to load a view from some module,
+1 $this-&amp;gt;obj-&amp;gt;load-&amp;gt;view($view,$data); This will resulting errors, it turns out $this-&amp;gt;obj is only loading the global view of CI i.e. ./application/views/ HMVC is not overriding the default view of CI, you might have to pass your controller object $this from your controller to your layout library,</description>
     </item>
     
     <item>
@@ -867,8 +882,8 @@ The most well-known web server for PHP is Apache and Nginx.
       <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2009/11/19/bespin-a-collaborative-coding-dengan-teman2x-kamu-somewhere-out-there-in-the-cloud/</guid>
       <description>Bespin from Mozilla Labs adalah sebuah code editor dengan berbasis web, tentunya bertujuan untuk meningkatkan produktivitas dari developer, karena editor ini berbasis web maka bespin bisa di gunakan oleh developer dimanapun berada, sayangnya tidak semua browser bisa menunjang aplikasi ini.
- &amp;ldquo;Code In The Cloud&amp;rdquo; - Bespin
- Feature-feature yang ada pada Bespin cukup banyak, satu hal yang menarik perhatian gw adalah feature collaborative coding. Hal pertama yang harus lo lakukan adalah melakukan registrasi dan login ke bespin.</description>
+&amp;ldquo;Code In The Cloud&amp;rdquo; - Bespin
+Feature-feature yang ada pada Bespin cukup banyak, satu hal yang menarik perhatian gw adalah feature collaborative coding. Hal pertama yang harus lo lakukan adalah melakukan registrasi dan login ke bespin.</description>
     </item>
     
     <item>
@@ -879,7 +894,7 @@ The most well-known web server for PHP is Apache and Nginx.
       <guid>https://khal.web.id/2009/11/11/gimana-caranya-bikin-tampilan-firefox-lo-jadi-kaya-chrome/</guid>
       <description>Salah satu hal yang gw suka dari Chrome adalah themes nya yang simple clean dan enteng di liat deh pokoknya &amp;hellip;, masalahnya gw jarang pake tuh yang namanya Chrome kalo untuk development (Can&amp;rsquo;t live whitout firefox), ya udah deh gw mulai cari sana sini gimana caranya bisa bikin tampilan firefox jadi kaya chrome, mudah2x nih artikel berguna dah &amp;hellip;
 Ada beberapa firefox extension yang kudu di install &amp;hellip;
- Chrome Themes : https://addons.</description>
+Chrome Themes : https://addons.</description>
     </item>
     
     <item>
@@ -889,8 +904,8 @@ Ada beberapa firefox extension yang kudu di install &amp;hellip;
       <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2009/05/04/PNG-fix-for-IE/</guid>
       <description>Thanks to Angus Turnbull who made this fix and made PNG image looks good on IE, these are two files that you need to implement,
- iepngfix.htc iepngfix_tilebg.js  Usage Include iepngfix.htc on your css style file
-&amp;lt;pre name=&amp;quot;code&amp;quot; class=&amp;quot;css&amp;quot; &amp;gt; *html img, *html #anydivid { behavior: url(style/iepngfix.htc); border:0; padding:0; } &amp;lt;/pre&amp;gt;  include this iepngfix_tilebg.js on you html header, it&amp;rsquo;s support transparent image on background position and repeat.
+iepngfix.htc iepngfix_tilebg.js Usage Include iepngfix.htc on your css style file
+&amp;lt;pre name=&amp;quot;code&amp;quot; class=&amp;quot;css&amp;quot; &amp;gt; *html img, *html #anydivid { behavior: url(style/iepngfix.htc); border:0; padding:0; } &amp;lt;/pre&amp;gt; include this iepngfix_tilebg.js on you html header, it&amp;rsquo;s support transparent image on background position and repeat.
 More complete detail &amp;hellip; you can check his website http://www.</description>
     </item>
     

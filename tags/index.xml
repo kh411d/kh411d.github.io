@@ -8,10 +8,69 @@
     <language>en-us</language>
     <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
     <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
-    <lastBuildDate>Mon, 19 Jul 2021 13:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Mar 2022 05:00:00 +0000</lastBuildDate><atom:link href="https://khal.web.id/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3dprint</title>
+      <link>https://khal.web.id/tags/3dprint/</link>
+      <pubDate>Tue, 22 Mar 2022 05:00:00 +0000</pubDate>
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <guid>https://khal.web.id/tags/3dprint/</guid>
+      <description></description>
+    </item>
     
-	<atom:link href="https://khal.web.id/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>diy</title>
+      <link>https://khal.web.id/tags/diy/</link>
+      <pubDate>Tue, 22 Mar 2022 05:00:00 +0000</pubDate>
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <guid>https://khal.web.id/tags/diy/</guid>
+      <description></description>
+    </item>
     
+    <item>
+      <title>tutorial</title>
+      <link>https://khal.web.id/tags/tutorial/</link>
+      <pubDate>Tue, 22 Mar 2022 05:00:00 +0000</pubDate>
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <guid>https://khal.web.id/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hacking</title>
+      <link>https://khal.web.id/tags/hacking/</link>
+      <pubDate>Sun, 01 Aug 2021 08:00:00 +0000</pubDate>
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <guid>https://khal.web.id/tags/hacking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kali</title>
+      <link>https://khal.web.id/tags/kali/</link>
+      <pubDate>Sun, 01 Aug 2021 08:00:00 +0000</pubDate>
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <guid>https://khal.web.id/tags/kali/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://khal.web.id/tags/linux/</link>
+      <pubDate>Sun, 01 Aug 2021 08:00:00 +0000</pubDate>
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <guid>https://khal.web.id/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>raspberrypi</title>
+      <link>https://khal.web.id/tags/raspberrypi/</link>
+      <pubDate>Sun, 01 Aug 2021 08:00:00 +0000</pubDate>
+      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <guid>https://khal.web.id/tags/raspberrypi/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>keyboard</title>
@@ -37,24 +96,6 @@
       <pubDate>Fri, 25 Jun 2021 22:00:00 +0700</pubDate>
       <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/cardboard/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>diy</title>
-      <link>https://khal.web.id/tags/diy/</link>
-      <pubDate>Fri, 25 Jun 2021 22:00:00 +0700</pubDate>
-      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
-      <guid>https://khal.web.id/tags/diy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tutorial</title>
-      <link>https://khal.web.id/tags/tutorial/</link>
-      <pubDate>Fri, 25 Jun 2021 22:00:00 +0700</pubDate>
-      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
-      <guid>https://khal.web.id/tags/tutorial/</guid>
       <description></description>
     </item>
     
@@ -433,15 +474,6 @@
       <pubDate>Thu, 25 Jan 2018 00:40:18 +0700</pubDate>
       <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/tags/archlinux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>https://khal.web.id/tags/linux/</link>
-      <pubDate>Thu, 25 Jan 2018 00:40:18 +0700</pubDate>
-      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
-      <guid>https://khal.web.id/tags/linux/</guid>
       <description></description>
     </item>
     

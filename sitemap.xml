@@ -1,1048 +1,648 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://khal.web.id/</loc>
-    <lastmod>2021-07-19T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-03-22T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://khal.web.id/tags/3dprint/</loc>
+    <lastmod>2022-03-22T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://khal.web.id/tags/diy/</loc>
+    <lastmod>2022-03-22T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://khal.web.id/post/</loc>
+    <lastmod>2022-03-22T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://khal.web.id/tags/</loc>
+    <lastmod>2022-03-22T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://khal.web.id/2022/03/22/things-to-know-how-to-order-your-3d-printed-model/</loc>
+    <lastmod>2022-03-22T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://khal.web.id/tags/tutorial/</loc>
+    <lastmod>2022-03-22T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://khal.web.id/tags/hacking/</loc>
+    <lastmod>2021-08-01T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://khal.web.id/2021/08/01/how-to-turn-your-raspberry-pi-into-a-solid-hack-box/</loc>
+    <lastmod>2021-08-01T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://khal.web.id/tags/kali/</loc>
+    <lastmod>2021-08-01T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://khal.web.id/tags/linux/</loc>
+    <lastmod>2021-08-01T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://khal.web.id/tags/raspberrypi/</loc>
+    <lastmod>2021-08-01T08:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://khal.web.id/2021/07/19/a-staggered-keyboard-makes-you-crazy-should-you-stop-using-it/</loc>
     <lastmod>2021-07-19T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/keyboard/</loc>
     <lastmod>2021-07-19T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://khal.web.id/post/</loc>
-    <lastmod>2021-07-19T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://khal.web.id/tags/</loc>
-    <lastmod>2021-07-19T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/typewriter/</loc>
     <lastmod>2021-07-19T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/cardboard/</loc>
     <lastmod>2021-06-25T22:00:00+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://khal.web.id/tags/diy/</loc>
-    <lastmod>2021-06-25T22:00:00+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2021/06/26/how-to-make-your-own-adjustable-keyboard-wrist-rest-pad/</loc>
     <lastmod>2021-06-25T22:00:00+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://khal.web.id/tags/tutorial/</loc>
-    <lastmod>2021-06-25T22:00:00+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/wfh/</loc>
     <lastmod>2021-06-25T22:00:00+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/wristrest/</loc>
     <lastmod>2021-06-25T22:00:00+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2021/06/22/quick-navigation-on-vscode-with-these-keyboard-shortcuts/</loc>
     <lastmod>2021-06-22T20:00:00+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/tips/</loc>
     <lastmod>2021-06-22T20:00:00+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/vscode/</loc>
     <lastmod>2021-06-22T20:00:00+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2021/03/13/go-extending-array-with-a-real-time-observer/</loc>
     <lastmod>2021-03-13T11:35:00+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/golang/</loc>
     <lastmod>2021-03-13T11:35:00+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2020/10/08/how-is-surging-remote-work-taking-its-ripple-effect/</loc>
     <lastmod>2020-10-08T06:53:54+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/telecommuting/</loc>
     <lastmod>2020-10-08T06:53:54+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/workfromhome/</loc>
     <lastmod>2020-10-08T06:53:54+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/coronavirus/</loc>
     <lastmod>2020-10-02T09:30:48+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/qrcodes/</loc>
     <lastmod>2020-10-02T09:30:48+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2020/10/02/quite-useful-qr-scans-overcome-coronavirus-in-the-world/</loc>
     <lastmod>2020-10-02T09:30:48+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/world/</loc>
     <lastmod>2020-10-02T09:30:48+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/apple/</loc>
     <lastmod>2020-09-30T12:00:00+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/asus/</loc>
     <lastmod>2020-09-30T12:00:00+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/google/</loc>
     <lastmod>2020-09-30T12:00:00+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/iphone/</loc>
     <lastmod>2020-09-30T12:00:00+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2020/09/30/no-good-compact-phone-is-the-best-option/</loc>
     <lastmod>2020-09-30T12:00:00+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/samsung/</loc>
     <lastmod>2020-09-30T12:00:00+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/smartphone/</loc>
     <lastmod>2020-09-30T12:00:00+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2020/09/28/cloud-gaming-soar-how-is-it-matters/</loc>
     <lastmod>2020-09-28T07:31:36+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/cloudgaming/</loc>
     <lastmod>2020-09-28T07:31:36+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/gaming/</loc>
     <lastmod>2020-09-28T07:31:36+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/flyio/</loc>
     <lastmod>2020-09-26T06:34:11+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/netlify/</loc>
     <lastmod>2020-09-26T06:34:11+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2020/09/26/practical-rest-api-in-go-on-cheap-serverless/</loc>
     <lastmod>2020-09-26T06:34:11+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/rest-api/</loc>
     <lastmod>2020-09-26T06:34:11+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/serverless/</loc>
     <lastmod>2020-09-26T06:34:11+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/vercel/</loc>
     <lastmod>2020-09-26T06:34:11+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/2020/</loc>
     <lastmod>2020-09-24T04:58:35+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/emoji/</loc>
     <lastmod>2020-09-24T04:58:35+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2020/09/24/emoji-in-actions-during-this-2020-awkwardness/</loc>
     <lastmod>2020-09-24T04:58:35+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/pandemic/</loc>
     <lastmod>2020-09-24T04:58:35+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/unicode/</loc>
     <lastmod>2020-09-24T04:58:35+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2020/09/23/build-a-medium-like-clap-button-using-svelte-custom-element-api/</loc>
     <lastmod>2020-09-23T07:48:16+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/html5/</loc>
     <lastmod>2020-09-23T07:48:16+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/SPA/</loc>
     <lastmod>2020-09-23T07:48:16+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/svelte/</loc>
     <lastmod>2020-09-23T07:48:16+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/FAAS/</loc>
     <lastmod>2020-09-20T13:20:21+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2020/09/20/serverless-faas-providers-with-no-credit-card-required/</loc>
     <lastmod>2020-09-20T13:20:21+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/zeit/</loc>
     <lastmod>2020-09-20T13:20:21+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/covid19/</loc>
     <lastmod>2020-09-14T09:29:37+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/indonesia/</loc>
     <lastmod>2020-09-14T09:29:37+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2020/09/14/indonesia-skyrocketing-corona-outbreak/</loc>
     <lastmod>2020-09-14T09:29:37+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/github/</loc>
     <lastmod>2020-09-13T19:58:58+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2020/09/13/How-to-Not-Flaunt-Your-Github-Face-on-Social-Media/</loc>
     <lastmod>2020-09-13T19:58:58+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/socialmedia/</loc>
     <lastmod>2020-09-13T19:58:58+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/cheatsheet/</loc>
     <lastmod>2020-09-08T19:08:09+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/markdown/</loc>
     <lastmod>2020-09-08T19:08:09+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2020/09/08/The-Markdown-Rises/</loc>
     <lastmod>2020-09-08T19:08:09+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/smartwatch/</loc>
     <lastmod>2018-08-06T23:08:09+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2018/08/06/20-Shades-of-Smartwatch/</loc>
     <lastmod>2018-08-06T23:08:09+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/docker/</loc>
     <lastmod>2018-02-18T13:38:36+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2018/02/18/Meet-Docker-managers-for-human/</loc>
     <lastmod>2018-02-18T13:38:36+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/portainer/</loc>
     <lastmod>2018-02-18T13:38:36+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/archlinux/</loc>
     <lastmod>2018-01-25T00:40:18+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://khal.web.id/tags/linux/</loc>
-    <lastmod>2018-01-25T00:40:18+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/macos/</loc>
     <lastmod>2018-01-25T00:40:18+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2018/01/25/Rusty-Macbook-Air-getting-new-Air-from-Archlinux/</loc>
     <lastmod>2018-01-25T00:40:18+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/hugo/</loc>
     <lastmod>2018-01-02T23:18:55+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/jekyll/</loc>
     <lastmod>2018-01-02T23:18:55+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/static-site-generator/</loc>
     <lastmod>2018-01-02T23:18:55+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2018/01/02/Thanks-Jekyll.-Hello-Hugo/</loc>
     <lastmod>2018-01-02T23:18:55+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2016/09/01/apa-sih-iot/</loc>
     <lastmod>2016-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/iot/</loc>
     <lastmod>2016-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2016/05/16/how-to-retro-gaming-with-retroarch/</loc>
     <lastmod>2016-05-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/retroarch/</loc>
     <lastmod>2016-05-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2016/05/03/bye-wordpress-hello/</loc>
     <lastmod>2016-05-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/wordpress/</loc>
     <lastmod>2016-05-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/android/</loc>
     <lastmod>2016-01-25T13:02:42+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2016/01/25/nge-mix-android-di-macbookpc/</loc>
     <lastmod>2016-01-25T13:02:42+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/remixos/</loc>
     <lastmod>2016-01-25T13:02:42+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/elcapitan/</loc>
     <lastmod>2016-01-13T01:15:44+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2016/01/13/os-x-el-capitan-taktik-marketing-terbaru-apple/</loc>
     <lastmod>2016-01-13T01:15:44+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/osx/</loc>
     <lastmod>2016-01-13T01:15:44+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/boardgame/</loc>
     <lastmod>2016-01-11T06:59:10+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2016/01/11/kopi-kental-manis-team-building-dan-boardgaming/</loc>
     <lastmod>2016-01-11T06:59:10+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/jokes/</loc>
     <lastmod>2015-12-21T05:25:19+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/movie/</loc>
     <lastmod>2015-12-21T05:25:19+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2015/12/21/star-wars-versi-cerpen-buat-yang-males/</loc>
     <lastmod>2015-12-21T05:25:19+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2015/12/20/cara-maksa-3ghspa-only-di-android-kamu/</loc>
     <lastmod>2015-12-20T04:18:37+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/telco/</loc>
     <lastmod>2015-12-20T04:18:37+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2015/08/26/bokek-nih-gimana-kalo-saweran-biar-keren-bilang-aja-crowdfunding/</loc>
     <lastmod>2015-08-26T08:56:02+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/crowdfunding/</loc>
     <lastmod>2015-08-26T08:56:02+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2015/05/02/android-on-body-phone-lock-pinter-juga-neh/</loc>
     <lastmod>2015-05-02T08:50:00+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/security/</loc>
     <lastmod>2015-05-02T08:50:00+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/bitcoin/</loc>
     <lastmod>2015-04-23T10:48:39+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/blockchain/</loc>
     <lastmod>2015-04-23T10:48:39+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2015/04/23/pdkt-sama-uang-dunia-maya-bernama-bitcoin/</loc>
     <lastmod>2015-04-23T10:48:39+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/app/</loc>
     <lastmod>2015-04-20T03:00:00+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/cloud/</loc>
     <lastmod>2015-04-20T03:00:00+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/music/</loc>
     <lastmod>2015-04-20T03:00:00+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/opensource/</loc>
     <lastmod>2015-04-20T03:00:00+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/socialnetwork/</loc>
     <lastmod>2015-04-20T03:00:00+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2015/04/20/tomahawk-cara-males-dengerin-musik-buat-penggila-musik/</loc>
     <lastmod>2015-04-20T03:00:00+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/tomahawk-player/</loc>
     <lastmod>2015-04-20T03:00:00+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/clickjacking/</loc>
     <lastmod>2015-04-19T08:42:06+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/cybersecurity/</loc>
     <lastmod>2015-04-19T08:42:06+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/frame-busting/</loc>
     <lastmod>2015-04-19T08:42:06+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2015/04/19/ulah-nakal-isp-praktik-browser-frame-busting/</loc>
     <lastmod>2015-04-19T08:42:06+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2015/03/31/bisnis-missed-call-yang-luar-biasa-dibalik-zero-marketing/</loc>
     <lastmod>2015-03-31T11:14:06+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/business/</loc>
     <lastmod>2015-03-31T11:14:06+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/startup/</loc>
     <lastmod>2015-03-31T11:14:06+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/ventures/</loc>
     <lastmod>2015-03-31T11:14:06+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/zipdial/</loc>
     <lastmod>2015-03-31T11:14:06+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/icann/</loc>
     <lastmod>2015-03-26T07:49:58+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2015/03/26/nah-ini-dia-daftar-gtld-kocak-dan-sedikit-absurd/</loc>
     <lastmod>2015-03-26T07:49:58+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2015/03/17/belenggu-sosial-dari-what-to-be-called-a-parasite-apps/</loc>
     <lastmod>2015-03-17T06:12:12+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/parasite/</loc>
     <lastmod>2015-03-17T06:12:12+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2014/08/18/ahh-a-dreadful-battery-life-is-it-a-smartwatch-a-cellphone-or-just-another-complicated-gadget/</loc>
     <lastmod>2014-08-18T06:39:28+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2014/08/12/how-to-get-realtime-now-playing-info-from-ice-cast/</loc>
     <lastmod>2014-08-12T05:04:45+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/icecast/</loc>
     <lastmod>2014-08-12T05:04:45+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/online-streaming/</loc>
     <lastmod>2014-08-12T05:04:45+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2014/07/11/aplikasi-mobile-ifttt-bakal-bikin-android-lo-makin-canggih/</loc>
     <lastmod>2014-07-11T09:03:57+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/automation/</loc>
     <lastmod>2014-07-11T09:03:57+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/ifttt/</loc>
     <lastmod>2014-07-11T09:03:57+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2014/06/19/nanti-gue-yo-aja-ya/</loc>
     <lastmod>2014-06-19T09:20:34+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/yoapp/</loc>
     <lastmod>2014-06-19T09:20:34+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/soccer/</loc>
     <lastmod>2014-06-12T08:53:39+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/twitter/</loc>
     <lastmod>2014-06-12T08:53:39+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/worldcup/</loc>
     <lastmod>2014-06-12T08:53:39+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2014/06/12/yay-twitter-featuring-piala-dunia-2014/</loc>
     <lastmod>2014-06-12T08:53:39+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/foursquare/</loc>
     <lastmod>2014-06-10T13:29:10+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2014/06/10/sekilas-tentang-swarm-dan-the-new-foursquare-app/</loc>
     <lastmod>2014-06-10T13:29:10+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/swarm-app/</loc>
     <lastmod>2014-06-10T13:29:10+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/facebook/</loc>
     <lastmod>2014-06-05T07:25:20+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2014/06/05/uhuk-facebook-ask-buat-gombalin-cewek-jomblo-lumayan-neh/</loc>
     <lastmod>2014-06-05T07:25:20+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2014/05/28/aplikasi-3rd-party-facebookpaypaldll-aman-gituh-lo-harus-tahu/</loc>
     <lastmod>2014-05-28T13:08:25+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/oauth/</loc>
     <lastmod>2014-05-28T13:08:25+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/open-redirect/</loc>
     <lastmod>2014-05-28T13:08:25+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/openid/</loc>
     <lastmod>2014-05-28T13:08:25+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2014/05/26/mau-punya-restoran-di-facebook-cekidot-gan/</loc>
     <lastmod>2014-05-26T05:02:01+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2014/05/07/pathwebsite-no-official-no-related-indeed-suspicious/</loc>
     <lastmod>2014-05-06T19:15:44+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/path/</loc>
     <lastmod>2014-05-06T19:15:44+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/firechat/</loc>
     <lastmod>2014-04-17T11:41:02+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/messaging/</loc>
     <lastmod>2014-04-17T11:41:02+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2014/04/17/ngobrol-unik-bareng-firechat/</loc>
     <lastmod>2014-04-17T11:41:02+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/bugfix/</loc>
     <lastmod>2014-04-11T08:51:42+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/heartbleed/</loc>
     <lastmod>2014-04-11T08:51:42+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2014/04/11/internet-geger-gegara-heartbleed-bugs/</loc>
     <lastmod>2014-04-11T08:51:42+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2014/04/01/hati-hati-domain-com-com/</loc>
     <lastmod>2014-04-01T05:09:39+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2014/02/19/note-upgrade-nodejs-lokal-via-npm-dan-n-module/</loc>
     <lastmod>2014-02-19T07:55:27+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/nodejs/</loc>
     <lastmod>2014-02-19T07:55:27+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2014/02/17/bicara-flow-kreatifitas-dalam-segi-internet-teknologi-dan-keseharian/</loc>
     <lastmod>2014-02-17T11:43:31+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/design/</loc>
     <lastmod>2014-02-17T11:43:31+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/flow/</loc>
     <lastmod>2014-02-17T11:43:31+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/pebblewatch/</loc>
     <lastmod>2014-02-05T06:23:00+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2014/02/05/woh-pebble-appstore-beta-android-tarik-gan/</loc>
     <lastmod>2014-02-05T06:23:00+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2014/01/23/low-ram-android-no-worry/</loc>
     <lastmod>2014-01-23T06:40:58+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2014/01/15/hardening-your-password-and-yet-still-easy-to-remember-it/</loc>
     <lastmod>2014-01-15T12:16:53+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/internet/</loc>
     <lastmod>2014-01-13T09:33:33+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2014/01/13/punya-nama-domain-sendiri-penting-gak-sih/</loc>
     <lastmod>2014-01-13T09:33:33+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2014/01/10/wordpress-ke-path-ke-wordpress-kemana-aja-boleeeeh/</loc>
     <lastmod>2014-01-10T08:51:34+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2013/12/31/olahraga-7-menit/</loc>
     <lastmod>2013-12-31T09:17:45+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/workout/</loc>
     <lastmod>2013-12-31T09:17:45+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/microblogging/</loc>
     <lastmod>2013-12-23T11:42:34+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2013/12/23/registrasi-app-net/</loc>
     <lastmod>2013-12-23T11:42:34+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2013/12/16/cara-update-firmware-pebble-ke-sdk-2-beta-version/</loc>
     <lastmod>2013-12-16T15:18:10+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/bajakjkt/</loc>
     <lastmod>2013-12-15T03:17:29+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/nike/</loc>
     <lastmod>2013-12-15T03:17:29+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2013/12/15/nike-werun-jakarta-2013-bajakjkt-finisher/</loc>
     <lastmod>2013-12-15T03:17:29+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/werun/</loc>
     <lastmod>2013-12-15T03:17:29+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2013/12/12/bicara-soal-people-talking-about-this-nya-facebook-fan-page/</loc>
     <lastmod>2013-12-12T09:50:44+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2013/11/11/apa-siapa-dimana-bagaimana-kenapa-pebble/</loc>
     <lastmod>2013-11-11T10:37:11+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2013/11/07/mari-berbagi-soal-privasi-di-sosial-media-online/</loc>
     <lastmod>2013-11-07T07:21:35+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2013/10/17/ada-media-blogging-terbaru-namanya-ghost/</loc>
     <lastmod>2013-10-17T07:42:15+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/ghost/</loc>
     <lastmod>2013-10-17T07:42:15+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2012/09/05/rahasia-dibalik-otomatisasi-tweet-gue/</loc>
     <lastmod>2012-09-05T09:51:54+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2011/12/11/berbagi-fotografi-dengan-aplikasi-android-gratis/</loc>
     <lastmod>2011-12-11T11:39:24+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/mobile-photography/</loc>
     <lastmod>2011-12-11T11:39:24+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2011/07/27/using-facebook-test-user/</loc>
     <lastmod>2011-07-27T08:59:35+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2011/07/06/facebook-php-sdk-v3-01-now-free-cookies/</loc>
     <lastmod>2011-07-06T13:38:44+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2011/06/24/profil-facebook-lo-jadi-lapak-migrasi-deh-ke-fan-page/</loc>
     <lastmod>2011-06-24T10:00:12+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/indiegame/</loc>
     <lastmod>2011-05-26T13:23:08+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2011/05/26/mainan-lama-yang-gw-bikin-iseng2x-jaman-kuliah-dulu-haha/</loc>
     <lastmod>2011-05-26T13:23:08+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2011/03/15/getting-people-likes-and-comments-from-facebook-comment-post/</loc>
     <lastmod>2011-03-15T07:19:33+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2011/03/07/facebook-add-access-permission-to-application-security/</loc>
     <lastmod>2011-03-07T08:45:37+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2011/03/03/set-a-facebook-session-for-you-apps-from-access-token/</loc>
     <lastmod>2011-03-03T08:52:36+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2011/03/03/replacement-of-fb-visible-to-connection-for-iframe-apps-on-facebook-page-tabs/</loc>
     <lastmod>2011-03-03T08:31:09+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2011/03/03/two-ways-to-login-or-authenticate-using-facebook-js-sdk-dialog-box/</loc>
     <lastmod>2011-03-03T08:09:05+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2010/10/28/getting-ready-for-iframe-facebook-app-based/</loc>
     <lastmod>2010-10-28T06:58:22+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/codeigniter/</loc>
     <lastmod>2010-08-10T09:30:57+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2010/08/10/path_info-or-orig_path_info/</loc>
     <lastmod>2010-08-10T09:30:57+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/php/</loc>
     <lastmod>2010-08-10T09:30:57+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2010/07/20/iframe-on-facebook-fan-pages-tabs/</loc>
     <lastmod>2010-07-20T09:47:33+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2010/07/12/things-you-should-know-when-you-start-php-ing/</loc>
     <lastmod>2010-07-12T08:41:43+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2010/01/07/codeigniter-hmvc-and-your-own-layout-library/</loc>
     <lastmod>2010-01-07T13:12:51+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2009/11/25/apaan-tuh-google-wave-robots-apaan-aja-sih/</loc>
     <lastmod>2009-11-25T03:45:09+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/googlewave/</loc>
     <lastmod>2009-11-25T03:45:09+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/bespin/</loc>
     <lastmod>2009-11-19T08:10:30+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2009/11/19/bespin-a-collaborative-coding-dengan-teman2x-kamu-somewhere-out-there-in-the-cloud/</loc>
     <lastmod>2009-11-19T08:10:30+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/chrome/</loc>
     <lastmod>2009-11-11T07:55:29+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/firefox/</loc>
     <lastmod>2009-11-11T07:55:29+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2009/11/11/gimana-caranya-bikin-tampilan-firefox-lo-jadi-kaya-chrome/</loc>
     <lastmod>2009-11-11T07:55:29+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/tags/ie6/</loc>
     <lastmod>2009-05-04T11:22:20+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/2009/05/04/PNG-fix-for-IE/</loc>
     <lastmod>2009-05-04T11:22:20+07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://khal.web.id/contact/</loc>
   </url>
-  
 </urlset>

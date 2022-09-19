@@ -8,11 +8,7 @@
     <language>en-us</language>
     <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
     <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
-    <lastBuildDate>Fri, 11 Apr 2014 08:51:42 +0700</lastBuildDate>
-    
-	<atom:link href="https://khal.web.id/tags/bugfix/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 11 Apr 2014 08:51:42 +0700</lastBuildDate><atom:link href="https://khal.web.id/tags/bugfix/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Internet geger gegara HeartBleed [BUG] </title>
       <link>https://khal.web.id/2014/04/11/internet-geger-gegara-heartbleed-bugs/</link>
@@ -30,8 +26,8 @@ Ada beberapa pihak yang menyalahgunakan bug ini untuk mencuri data-data pengguna
       <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2009/05/04/PNG-fix-for-IE/</guid>
       <description>Thanks to Angus Turnbull who made this fix and made PNG image looks good on IE, these are two files that you need to implement,
- iepngfix.htc iepngfix_tilebg.js  Usage Include iepngfix.htc on your css style file
-&amp;lt;pre name=&amp;quot;code&amp;quot; class=&amp;quot;css&amp;quot; &amp;gt; *html img, *html #anydivid { behavior: url(style/iepngfix.htc); border:0; padding:0; } &amp;lt;/pre&amp;gt;  include this iepngfix_tilebg.js on you html header, it&amp;rsquo;s support transparent image on background position and repeat.
+iepngfix.htc iepngfix_tilebg.js Usage Include iepngfix.htc on your css style file
+&amp;lt;pre name=&amp;quot;code&amp;quot; class=&amp;quot;css&amp;quot; &amp;gt; *html img, *html #anydivid { behavior: url(style/iepngfix.htc); border:0; padding:0; } &amp;lt;/pre&amp;gt; include this iepngfix_tilebg.js on you html header, it&amp;rsquo;s support transparent image on background position and repeat.
 More complete detail &amp;hellip; you can check his website http://www.</description>
     </item>
     
