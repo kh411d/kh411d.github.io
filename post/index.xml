@@ -713,7 +713,11 @@ Disini saya akan memberikan sedikit review dari beberapa aplikasi Fotografi untu
 Test User is a tool that could be handy when you need to have some users to interact with your application, facebook currently provide this through Graph Api.
 I&amp;rsquo;ve made this simple php class consuming only facebook test account API, you may copy-paste from github
 Some example,
+<<<<<<< HEAD
 1 2 3 4 5 6 7 8 9 10 $acc = new Facebook_TestAccount($appID,$Secret,$app_access_token); //Create N User $acc-&amp;gt;createMany($_REQUEST[&amp;#39;n&amp;#39;],$parameter) //Delete All User created by App $acc-&amp;gt;deleteAll() //Listing all user created by App Access Token $acc-&amp;gt;access() </description>
+=======
+1 2 3 4 5 6 7 8 9 10  $acc = new Facebook_TestAccount($appID,$Secret,$app_access_token); //Create N User  $acc-&amp;gt;createMany($_REQUEST[&amp;#39;n&amp;#39;],$parameter) //Delete All User created by App  $acc-&amp;gt;deleteAll() //Listing all user created by App Access Token  $acc-&amp;gt;access()   </description>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
     </item>
     
     <item>
@@ -777,8 +781,13 @@ Access Technical Dashboard Manage users Insights Dashboard Adv Reset App Secret 
       <author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2011/03/03/set-a-facebook-session-for-you-apps-from-access-token/</guid>
       <description>In some situation you will want to create a facebook session for your app, for example you get the code query string after user granted your app, now you can construct the url like below,
+<<<<<<< HEAD
 1 https://graph.facebook.com/oauth/access_token?client_id=YOUR_APP_ID&amp;amp;redirect_uri=YOUR_URL&amp;amp;client_secret=YOUR_APP_SECRET&amp;amp;code=THE_CODE_FROM_ABOVE And then you need to construct session variables base from the access token, these are functions that might help you,
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 //Build your session variables function generateSessionVars($accessToken) { $e = explode(&amp;#39;|&amp;#39;,$accessToken); $s = explode(&amp;#39;-&amp;#39;,$e[1]); $params = array( &amp;#39;uid&amp;#39;=&amp;gt;trim($s[1]), &amp;#39;access_token&amp;#39; =&amp;gt; trim($accessToken) ); $params[&amp;#39;sig&amp;#39;] = generateSignature($params,APP_SECRET); return $params; } //Generate session signature base on you App Secret function generateSignature($params,$secret) { // work with sorted data ksort($params); // generate the base string $base_string = &amp;#39;&amp;#39;; foreach($params as $key =&amp;gt; $value) { $base_string .</description>
+=======
+1  https://graph.facebook.com/oauth/access_token?client_id=YOUR_APP_ID&amp;amp;redirect_uri=YOUR_URL&amp;amp;client_secret=YOUR_APP_SECRET&amp;amp;code=THE_CODE_FROM_ABOVE   And then you need to construct session variables base from the access token, these are functions that might help you,
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31  //Build your session variables  function generateSessionVars($accessToken) { $e = explode(&amp;#39;|&amp;#39;,$accessToken); $s = explode(&amp;#39;-&amp;#39;,$e[1]); $params = array( &amp;#39;uid&amp;#39;=&amp;gt;trim($s[1]), &amp;#39;access_token&amp;#39; =&amp;gt; trim($accessToken) ); $params[&amp;#39;sig&amp;#39;] = generateSignature($params,APP_SECRET); return $params; } //Generate session signature base on you App Secret  function generateSignature($params,$secret) { // work with sorted data  ksort($params); // generate the base string  $base_string = &amp;#39;&amp;#39;; foreach($params as $key =&amp;gt; $value) { $base_string .</description>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
     </item>
     
     <item>

@@ -79,7 +79,11 @@ But it sometimes often makes extensive use of third-party services (such as data
     <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
+<<<<<<< HEAD
     <meta name="generator" content="Hugo 0.103.1" />
+=======
+    <meta name="generator" content="Hugo 0.92.0" />
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
     
     
 <script type="application/javascript">
@@ -245,11 +249,19 @@ Fork the repository
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="c1">//ServeHTTP net/http handler
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">func</span> <span class="nf">ServeHTTP</span><span class="p">(</span><span class="nx">w</span> <span class="nx">http</span><span class="p">.</span><span class="nx">ResponseWriter</span><span class="p">,</span> <span class="nx">r</span> <span class="o">*</span><span class="nx">http</span><span class="p">.</span><span class="nx">Request</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="o">...</span> 
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="c1">//ServeHTTP net/http handler
+</span><span class="c1"></span><span class="kd">func</span> <span class="nf">ServeHTTP</span><span class="p">(</span><span class="nx">w</span> <span class="nx">http</span><span class="p">.</span><span class="nx">ResponseWriter</span><span class="p">,</span> <span class="nx">r</span> <span class="o">*</span><span class="nx">http</span><span class="p">.</span><span class="nx">Request</span><span class="p">)</span> <span class="p">{</span>
+    <span class="o">...</span> 
+<span class="p">}</span>
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>And another one to serve AWS Lambda RPC <em>(Remote Procedure Call)</em></p>
 <div class="highlight"><div class="chroma">
@@ -260,11 +272,19 @@ Fork the repository
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="c1">//ServeLambda AWS lambda event handler
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">func</span> <span class="nf">ServeLambda</span><span class="p">(</span><span class="nx">r</span> <span class="nx">events</span><span class="p">.</span><span class="nx">APIGatewayProxyRequest</span><span class="p">)</span> <span class="p">(</span><span class="o">*</span><span class="nx">events</span><span class="p">.</span><span class="nx">APIGatewayProxyResponse</span><span class="p">,</span> <span class="kt">error</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="o">...</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="c1">//ServeLambda AWS lambda event handler
+</span><span class="c1"></span><span class="kd">func</span> <span class="nf">ServeLambda</span><span class="p">(</span><span class="nx">r</span> <span class="nx">events</span><span class="p">.</span><span class="nx">APIGatewayProxyRequest</span><span class="p">)</span> <span class="p">(</span><span class="o">*</span><span class="nx">events</span><span class="p">.</span><span class="nx">APIGatewayProxyResponse</span><span class="p">,</span> <span class="kt">error</span><span class="p">)</span> <span class="p">{</span>
+    <span class="o">...</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>So now let see the main package, <code>/main.go</code>, it will check <code>AWS_LAMBDA_FUNCTION_NAME</code> variable whether to serve Http or AWS Lambda RPC.</p>
 <div class="highlight"><div class="chroma">
@@ -280,6 +300,7 @@ Fork the repository
 </span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">	<span class="k">if</span> <span class="nx">os</span><span class="p">.</span><span class="nf">Getenv</span><span class="p">(</span><span class="s">&#34;AWS_LAMBDA_FUNCTION_NAME&#34;</span><span class="p">)</span> <span class="o">==</span> <span class="s">&#34;&#34;</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">		<span class="nx">http</span><span class="p">.</span><span class="nf">HandleFunc</span><span class="p">(</span><span class="s">&#34;/&#34;</span><span class="p">,</span> <span class="nx">api</span><span class="p">.</span><span class="nx">ServeHTTP</span><span class="p">)</span>
@@ -290,6 +311,18 @@ Fork the repository
 </span></span><span class="line"><span class="cl">	<span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+	<span class="k">if</span> <span class="nx">os</span><span class="p">.</span><span class="nf">Getenv</span><span class="p">(</span><span class="s">&#34;AWS_LAMBDA_FUNCTION_NAME&#34;</span><span class="p">)</span> <span class="o">==</span> <span class="s">&#34;&#34;</span> <span class="p">{</span>
+		<span class="nx">http</span><span class="p">.</span><span class="nf">HandleFunc</span><span class="p">(</span><span class="s">&#34;/&#34;</span><span class="p">,</span> <span class="nx">api</span><span class="p">.</span><span class="nx">ServeHTTP</span><span class="p">)</span>
+		<span class="nx">http</span><span class="p">.</span><span class="nf">ListenAndServe</span><span class="p">(</span><span class="s">&#34;:3000&#34;</span><span class="p">,</span> <span class="kc">nil</span><span class="p">)</span>
+	<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+		<span class="c1">// Make the handler available for Remote Procedure Call by AWS Lambda
+</span><span class="c1"></span>		<span class="nx">lambda</span><span class="p">.</span><span class="nf">Start</span><span class="p">(</span><span class="nx">api</span><span class="p">.</span><span class="nx">ServeLambda</span><span class="p">)</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>Now you see that each provider has a different way to compile your code into a function, and another thing to catch on, each provider usually has their own configuration file that needed upon deployment (CI/CD), Take a look at <code>/netlify.toml</code> file,</p>
 <div class="highlight"><div class="chroma">
@@ -302,6 +335,7 @@ Fork the repository
 </span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[</span><span class="nx">build</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl">  <span class="nx">command</span> <span class="p">=</span> <span class="s2">&#34;make build&#34;</span> <span class="err">//</span><span class="nx">Your</span> <span class="nx">app</span> <span class="nx">build</span> <span class="nx">command</span>
 </span></span><span class="line"><span class="cl">  <span class="nx">functions</span> <span class="p">=</span> <span class="s2">&#34;functions&#34;</span> <span class="err">//</span><span class="nx">Your</span> <span class="nx">app</span> <span class="nx">function</span> <span class="nx">exec</span><span class="err">/</span><span class="nx">binary</span> <span class="nx">directory</span>
@@ -309,6 +343,15 @@ Fork the repository
 </span></span><span class="line"><span class="cl">  <span class="c"># Change this path with the path to your repository</span>
 </span></span><span class="line"><span class="cl">  <span class="nx">GO_IMPORT_PATH</span> <span class="p">=</span> <span class="s2">&#34;github.com/kh411d/clapi&#34;</span> <span class="err">//</span><span class="nx">Your</span> <span class="nx">git</span> <span class="nx">provider</span> <span class="nx">repository</span> <span class="nx">path</span>
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">build</span><span class="p">]</span>
+  <span class="nx">command</span> <span class="p">=</span> <span class="s2">&#34;make build&#34;</span> <span class="err">//</span><span class="nx">Your</span> <span class="nx">app</span> <span class="nx">build</span> <span class="nx">command</span>
+  <span class="nx">functions</span> <span class="p">=</span> <span class="s2">&#34;functions&#34;</span> <span class="err">//</span><span class="nx">Your</span> <span class="nx">app</span> <span class="nx">function</span> <span class="nx">exec</span><span class="err">/</span><span class="nx">binary</span> <span class="nx">directory</span>
+<span class="p">[</span><span class="nx">build</span><span class="p">.</span><span class="nx">environment</span><span class="p">]</span>
+  <span class="c"># Change this path with the path to your repository</span>
+  <span class="nx">GO_IMPORT_PATH</span> <span class="p">=</span> <span class="s2">&#34;github.com/kh411d/clapi&#34;</span> <span class="err">//</span><span class="nx">Your</span> <span class="nx">git</span> <span class="nx">provider</span> <span class="nx">repository</span> <span class="nx">path</span>
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>The build command should correspond to toml configuration, as you see below, the go binary should be put in the <code>functions</code> directory as it specified on the toml configurations.</p>
 <div class="highlight"><div class="chroma">
@@ -319,11 +362,19 @@ Fork the repository
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-makefile" data-lang="makefile"><span class="line"><span class="cl"><span class="nf">build</span><span class="o">:</span>
 </span></span><span class="line"><span class="cl">	mkdir -p functions      // create functions dir as specified in toml
 </span></span><span class="line"><span class="cl">	go get ./...            // install all dependencies
 </span></span><span class="line"><span class="cl">	go build -o functions/clapi  // build and output the binary to functions directory
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-makefile" data-lang="makefile"><span class="nf">build</span><span class="o">:</span>
+	mkdir -p functions      // create functions dir as specified in toml
+	go get ./...            // install all dependencies
+	go build -o functions/clapi  // build and output the binary to functions directory
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>To ease deployment (CI/CD), Vercel and Netlify make use of Git provider integration (Github/Gitlab/BitBucket) and they both have their own web-dashboard that shows you a deployment status, domain, logs, etc.</p>
 <p>Fly required you to install <code>flyctl</code> on your local device, it&rsquo;s a cli tool that lets you create an account and deploy the app. <code>flyctl</code> will be your <a href="https://fly.io/docs/getting-started/working-with-fly-apps/" target="_blank">cli-dashboard</a></p>
@@ -345,6 +396,7 @@ Fork the repository
 </span><span class="lnt">12
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">init</span><span class="p">()</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl"><span class="o">...</span>
 </span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="nx">conf</span><span class="p">.</span><span class="nf">Get</span><span class="p">(</span><span class="s">&#34;FAUNADB_SECRET_KEY&#34;</span><span class="p">)</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>
@@ -358,6 +410,21 @@ Fork the repository
 </span></span><span class="line"><span class="cl"><span class="o">...</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="kd">func</span> <span class="nf">init</span><span class="p">()</span> <span class="p">{</span>
+<span class="o">...</span>
+<span class="k">if</span> <span class="nx">conf</span><span class="p">.</span><span class="nf">Get</span><span class="p">(</span><span class="s">&#34;FAUNADB_SECRET_KEY&#34;</span><span class="p">)</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>
+    <span class="nx">dbconn</span><span class="p">,</span> <span class="nx">err</span> <span class="p">=</span> <span class="nx">db</span><span class="p">.</span><span class="nf">NewFaunaDB</span><span class="p">()</span>
+    <span class="o">...</span>
+<span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="nx">conf</span><span class="p">.</span><span class="nf">Get</span><span class="p">(</span><span class="s">&#34;REDIS_HOST&#34;</span><span class="p">)</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>
+    <span class="c1">//use redis instead
+</span><span class="c1"></span>    <span class="nx">dbconn</span><span class="p">,</span> <span class="nx">err</span> <span class="p">=</span> <span class="nx">db</span><span class="p">.</span><span class="nf">NewRedisDB</span><span class="p">()</span>
+    <span class="o">...</span>
+<span class="p">}</span> 
+<span class="o">...</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>There is a couple of steps to set up these databases, it will be explained on the README file. All the database code is in <code>/db</code> directory, and each database driver should follow this interface <code>/db/kv.go</code>,</p>
 <div class="highlight"><div class="chroma">
@@ -373,6 +440,7 @@ Fork the repository
 </span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">type</span> <span class="nx">KV</span> <span class="kd">interface</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">	<span class="nf">Add</span><span class="p">(</span><span class="kt">string</span><span class="p">,</span> <span class="p">[]</span><span class="kt">byte</span><span class="p">,</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Duration</span><span class="p">)</span> <span class="kt">error</span>
 </span></span><span class="line"><span class="cl">	<span class="nf">Set</span><span class="p">(</span><span class="kt">string</span><span class="p">,</span> <span class="p">[]</span><span class="kt">byte</span><span class="p">,</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Duration</span><span class="p">)</span> <span class="kt">error</span>
@@ -383,6 +451,18 @@ Fork the repository
 </span></span><span class="line"><span class="cl">	<span class="nf">WithContext</span><span class="p">(</span><span class="nx">context</span><span class="p">.</span><span class="nx">Context</span><span class="p">)</span> <span class="nx">KV</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="kd">type</span> <span class="nx">KV</span> <span class="kd">interface</span> <span class="p">{</span>
+	<span class="nf">Add</span><span class="p">(</span><span class="kt">string</span><span class="p">,</span> <span class="p">[]</span><span class="kt">byte</span><span class="p">,</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Duration</span><span class="p">)</span> <span class="kt">error</span>
+	<span class="nf">Set</span><span class="p">(</span><span class="kt">string</span><span class="p">,</span> <span class="p">[]</span><span class="kt">byte</span><span class="p">,</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Duration</span><span class="p">)</span> <span class="kt">error</span>
+	<span class="nf">Delete</span><span class="p">(</span><span class="kt">string</span><span class="p">)</span> <span class="kt">error</span>
+	<span class="nf">Get</span><span class="p">(</span><span class="kt">string</span><span class="p">)</span> <span class="p">([]</span><span class="kt">byte</span><span class="p">,</span> <span class="kt">error</span><span class="p">)</span>
+	<span class="nf">Incr</span><span class="p">(</span><span class="kt">string</span><span class="p">)</span> <span class="kt">error</span>
+	<span class="nf">IncrBy</span><span class="p">(</span><span class="kt">string</span><span class="p">,</span> <span class="kt">int64</span><span class="p">)</span> <span class="kt">error</span>
+	<span class="nf">WithContext</span><span class="p">(</span><span class="nx">context</span><span class="p">.</span><span class="nx">Context</span><span class="p">)</span> <span class="nx">KV</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>All the rest of the deployment notes already on the README file along with the repository. FaunaDB is a bit new for me, it&rsquo;s not meant to be a key-value database and the query might need improvement. The code shown might not fit for production release, so feel free to modified and use it at your own risk.</p>
 <blockquote>
@@ -427,8 +507,13 @@ Fork the repository
   </footer>
   
 </article></main>
+<<<<<<< HEAD
 <footer class="footer" aria-hidden="true">
   <span>&copy; 2009 - 2022 <a href="https://khal.web.id/" style="speak:none;">Khalid&#39;s Blog</a></span>
+=======
+<footer class="footer">
+  <span>&copy; 2009 - 2022 <a href="https://khal.web.id/">Khalid&#39;s Blog</a></span>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
   <span>&middot;</span>
   <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank" style="speak:none;">Hugo️️</a>️</span>
 </footer>

@@ -74,7 +74,11 @@
     <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
+<<<<<<< HEAD
     <meta name="generator" content="Hugo 0.103.1" />
+=======
+    <meta name="generator" content="Hugo 0.92.0" />
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
     
     
 <script type="application/javascript">
@@ -177,10 +181,17 @@ if (!doNotTrack) {
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">fb:visible-to-connection</span><span class="p">&gt;</span>
 </span></span><span class="line"><span class="cl">        Only connections should view this..
 </span></span><span class="line"><span class="cl">    <span class="p">&lt;/</span><span class="nt">fb:visible-to-connection</span><span class="p">&gt;</span>
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html">    <span class="p">&lt;</span><span class="nt">fb:visible-to-connection</span><span class="p">&gt;</span>
+        Only connections should view this..
+    <span class="p">&lt;/</span><span class="nt">fb:visible-to-connection</span><span class="p">&gt;</span>
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>On each call from page tab you can get a <code>signed_request</code> variable, the value is like this below,</p>
 <div class="highlight"><div class="chroma">
@@ -209,6 +220,7 @@ if (!doNotTrack) {
 </span><span class="lnt">22
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl">    Array (
 </span></span><span class="line"><span class="cl">        [algorithm] =&gt; HMAC-SHA256
 </span></span><span class="line"><span class="cl">        [expires] =&gt; 0
@@ -232,6 +244,31 @@ if (!doNotTrack) {
 </span></span><span class="line"><span class="cl">        [user_id] =&gt; xxxxxxxxxxx
 </span></span><span class="line"><span class="cl">    )
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html">    Array (
+        [algorithm] =&gt; HMAC-SHA256
+        [expires] =&gt; 0
+        [issued_at] =&gt; 1299140579
+        [oauth_token] =&gt; xxxxxxxxx|xxxxxxxxxxxxxxxx-xxxxxxxx|xxxxxx-xxxxxxxxxxxxxx
+        [page] =&gt; Array
+            (
+                [id] =&gt; xxxxxxxxxxxxxxxx
+                [liked] =&gt; 1
+                [admin] =&gt; 1
+            )
+        [user] =&gt; Array
+            (
+                [country] =&gt; id
+                [locale] =&gt; en_US
+                [age] =&gt; Array
+                    (
+                        [min] =&gt; 21
+                    )
+            )
+        [user_id] =&gt; xxxxxxxxxxx
+    )
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>And then you can use &ldquo;page.liked&rdquo; attribute to determine whether the user already like the page. The next question is how can you extract the signed request? you can use &ldquo;parseSignedRequest&rdquo; method from PHP-SDK or you can try to use the code below,</p>
 <div class="highlight"><div class="chroma">
@@ -266,6 +303,7 @@ if (!doNotTrack) {
 </span><span class="lnt">28
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl"><span class="k">function</span> <span class="nf">parse_signed_request</span><span class="p">(</span><span class="nv">$signed_request</span> <span class="o">=</span> <span class="k">null</span><span class="p">,</span> <span class="nv">$secret</span> <span class="o">=</span> <span class="k">null</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="nv">$signed_request</span> <span class="o">=</span> <span class="nv">$signed_request</span> <span class="o">?</span> <span class="nv">$signed_request</span> <span class="o">:</span> <span class="nv">$_REQUEST</span><span class="p">[</span><span class="s1">&#39;signed_request&#39;</span><span class="p">];</span>
 </span></span><span class="line"><span class="cl">    <span class="nv">$secret</span> <span class="o">=</span> <span class="nv">$secret</span> <span class="o">?</span> <span class="nv">$secret</span> <span class="o">:</span> <span class="nx">APP_SECRET</span><span class="p">;</span>
@@ -295,6 +333,37 @@ if (!doNotTrack) {
 </span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="nx">base64_decode</span><span class="p">(</span><span class="nx">strtr</span><span class="p">(</span><span class="nv">$input</span><span class="p">,</span> <span class="s1">&#39;-_&#39;</span><span class="p">,</span> <span class="s1">&#39;+/&#39;</span><span class="p">));</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="k">function</span> <span class="nf">parse_signed_request</span><span class="p">(</span><span class="nv">$signed_request</span> <span class="o">=</span> <span class="k">null</span><span class="p">,</span> <span class="nv">$secret</span> <span class="o">=</span> <span class="k">null</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nv">$signed_request</span> <span class="o">=</span> <span class="nv">$signed_request</span> <span class="o">?</span> <span class="nv">$signed_request</span> <span class="o">:</span> <span class="nv">$_REQUEST</span><span class="p">[</span><span class="s1">&#39;signed_request&#39;</span><span class="p">];</span>
+    <span class="nv">$secret</span> <span class="o">=</span> <span class="nv">$secret</span> <span class="o">?</span> <span class="nv">$secret</span> <span class="o">:</span> <span class="nx">APP_SECRET</span><span class="p">;</span>
+    
+    <span class="k">list</span><span class="p">(</span><span class="nv">$encoded_sig</span><span class="p">,</span> <span class="nv">$payload</span><span class="p">)</span> <span class="o">=</span> <span class="nx">explode</span><span class="p">(</span><span class="s1">&#39;.&#39;</span><span class="p">,</span> <span class="nv">$signed_request</span><span class="p">,</span> <span class="mi">2</span><span class="p">);</span>
+    
+    <span class="c1">// decode the data
+</span><span class="c1"></span>    <span class="nv">$sig</span> <span class="o">=</span> <span class="nx">base64_url_decode</span><span class="p">(</span><span class="nv">$encoded_sig</span><span class="p">);</span>
+    <span class="nv">$data</span> <span class="o">=</span> <span class="nx">json_decode</span><span class="p">(</span><span class="nx">base64_url_decode</span><span class="p">(</span><span class="nv">$payload</span><span class="p">),</span> <span class="k">true</span><span class="p">);</span>
+    
+    <span class="k">if</span> <span class="p">(</span><span class="nx">strtoupper</span><span class="p">(</span><span class="nv">$data</span><span class="p">[</span><span class="s1">&#39;algorithm&#39;</span><span class="p">])</span> <span class="o">!==</span> <span class="s1">&#39;HMAC-SHA256&#39;</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">error_log</span><span class="p">(</span><span class="s1">&#39;Unknown algorithm. Expected HMAC-SHA256&#39;</span><span class="p">);</span>
+        <span class="k">return</span> <span class="k">null</span><span class="p">;</span>
+    <span class="p">}</span>
+    
+    <span class="c1">// check sig
+</span><span class="c1"></span>    <span class="nv">$expected_sig</span> <span class="o">=</span> <span class="nx">hash_hmac</span><span class="p">(</span><span class="s1">&#39;sha256&#39;</span><span class="p">,</span> <span class="nv">$payload</span><span class="p">,</span> <span class="nv">$secret</span><span class="p">,</span> <span class="nv">$raw</span> <span class="o">=</span> <span class="k">true</span><span class="p">);</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nv">$sig</span> <span class="o">!==</span> <span class="nv">$expected_sig</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">error_log</span><span class="p">(</span><span class="s1">&#39;Bad Signed JSON signature!&#39;</span><span class="p">);</span>
+        <span class="k">return</span> <span class="k">null</span><span class="p">;</span>
+    <span class="p">}</span>
+    
+    <span class="k">return</span> <span class="nv">$data</span><span class="p">;</span>
+<span class="p">}</span>
+    
+<span class="k">function</span> <span class="nf">base64_url_decode</span><span class="p">(</span><span class="nv">$input</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="nx">base64_decode</span><span class="p">(</span><span class="nx">strtr</span><span class="p">(</span><span class="nv">$input</span><span class="p">,</span> <span class="s1">&#39;-_&#39;</span><span class="p">,</span> <span class="s1">&#39;+/&#39;</span><span class="p">));</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div>
   </div>
@@ -331,8 +400,13 @@ if (!doNotTrack) {
   </footer>
   
 </article></main>
+<<<<<<< HEAD
 <footer class="footer" aria-hidden="true">
   <span>&copy; 2009 - 2022 <a href="https://khal.web.id/" style="speak:none;">Khalid&#39;s Blog</a></span>
+=======
+<footer class="footer">
+  <span>&copy; 2009 - 2022 <a href="https://khal.web.id/">Khalid&#39;s Blog</a></span>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
   <span>&middot;</span>
   <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank" style="speak:none;">Hugo️️</a>️</span>
 </footer>

@@ -70,7 +70,11 @@
     <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
+<<<<<<< HEAD
     <meta name="generator" content="Hugo 0.103.1" />
+=======
+    <meta name="generator" content="Hugo 0.92.0" />
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
     
     
 <script type="application/javascript">
@@ -190,8 +194,13 @@ It would be better if you could just use the iso that you can download here <a h
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">$ lsblk
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">$ lsblk
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>Delete all partitions on your ssd, and then create 4 partitions, these are partitions from my current installation,</p>
 <div class="highlight"><div class="chroma">
@@ -209,6 +218,7 @@ It would be better if you could just use the iso that you can download here <a h
 </span><span class="lnt">11
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">$ lsblk
 </span></span><span class="line"><span class="cl">NAME MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
 </span></span><span class="line"><span class="cl">sda    8:0    0  113G  0 disk 
@@ -221,10 +231,25 @@ It would be better if you could just use the iso that you can download here <a h
 </span></span><span class="line"><span class="cl">└─sda4
 </span></span><span class="line"><span class="cl">       8:4    0 79.5G  0 part /home
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">$ lsblk
+NAME MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda    8:0    0  113G  0 disk 
+├─sda1
+│      8:1    0    1G  0 part /boot
+├─sda2
+│      8:2    0  512M  0 part [SWAP]
+├─sda3
+│      8:3    0   32G  0 part /
+└─sda4
+       8:4    0 79.5G  0 part /home
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>As you can see my boot partition is 1G, this was actually unintended, everything could go wrong if you did this in the middle of the night. 256Mb should be enough for /boot partition.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
@@ -246,6 +271,31 @@ It would be better if you could just use the iso that you can download here <a h
 </span></span><span class="line"><span class="cl">    /dev/sda3       3147776    70256639    67108864     32G Linux root (x86-64)
 </span></span><span class="line"><span class="cl">    /dev/sda4      70256640   236978142   166721503   79.5G Linux home
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">Disk: /dev/sda
+              Size: 113 GiB, 121332826112 bytes, 236978176 sectors
+          Label: gpt, identifier: F17EF130-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+
+    Device            Start         End     Sectors    Size Type
+    /dev/sda1          2048     2099199     2097152      1G EFI System          
+    /dev/sda2       2099200     3147775     1048576    512M Linux swap
+    /dev/sda3       3147776    70256639    67108864     32G Linux root (x86-64)
+    /dev/sda4      70256640   236978142   166721503   79.5G Linux home
+
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>I&rsquo;m always keep this url open while partitioning <a href="https://www.rodsbooks.com/gdisk/cgdisk-walkthrough.html" target="_blank">cgdisk-walkthrough</a></p>
 <div class="highlight"><div class="chroma">
@@ -253,8 +303,13 @@ It would be better if you could just use the iso that you can download here <a h
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl"># cgdisk /dev/sda
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"># cgdisk /dev/sda
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>After you&rsquo;re done, format and mount your newly created partition, File system root <strong>/</strong> inside the terminal belongs to USB stick, while everything mounted inside <strong>/mnt</strong> is the target media AKA your SSD.</p>
 <div class="highlight"><div class="chroma">
@@ -269,6 +324,7 @@ It would be better if you could just use the iso that you can download here <a h
 </span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl"># mkfs.vfat -F32 /dev/sda1
 </span></span><span class="line"><span class="cl"># mkswap /dev/sda2
 </span></span><span class="line"><span class="cl"># mkfs.ext4 /dev/sda3
@@ -278,6 +334,17 @@ It would be better if you could just use the iso that you can download here <a h
 </span></span><span class="line"><span class="cl"># mount /dev/sda3 /mnt
 </span></span><span class="line"><span class="cl"># swapon /dev/sda2
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"># mkfs.vfat -F32 /dev/sda1
+# mkswap /dev/sda2
+# mkfs.ext4 /dev/sda3
+# mkfs.ext4 /dev/sda4
+# mkdir /mnt/boot &amp;&amp; mount /dev/sda1 /mnt/boot
+# mkdir /mnt/home &amp;&amp; mount /dev/sda4 /mnt/home
+# mount /dev/sda3 /mnt
+# swapon /dev/sda2
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><h4 id="installation">Installation</h4>
 <div class="highlight"><div class="chroma">
@@ -286,9 +353,15 @@ It would be better if you could just use the iso that you can download here <a h
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl"># pacstrap /mnt base base-devel
 </span></span><span class="line"><span class="cl"># genfstab -U -p /mnt &gt;&gt; /mnt/etc/fstab
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"># pacstrap /mnt base base-devel
+# genfstab -U -p /mnt &gt;&gt; /mnt/etc/fstab
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>Modify fstab configuration for SSD drive type, this is important, do not skip.</p>
 <div class="highlight"><div class="chroma">
@@ -296,8 +369,13 @@ It would be better if you could just use the iso that you can download here <a h
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl"># nano /mnt/etc/fstab
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"># nano /mnt/etc/fstab
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>add additional parameters,</p>
 <div class="highlight"><div class="chroma">
@@ -305,8 +383,13 @@ It would be better if you could just use the iso that you can download here <a h
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">rw,relatime,data=ordered,discard
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">rw,relatime,data=ordered,discard
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>Mine will look like this,</p>
 <div class="highlight"><div class="chroma">
@@ -318,12 +401,21 @@ It would be better if you could just use the iso that you can download here <a h
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl"># /dev/sda3
 </span></span><span class="line"><span class="cl">UUID=b532cc5e-70c4-431c-80e5-bd9d40440606   /           ext4        rw,relatime,data=ordered,discard    0 1
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"># /dev/sda4
 </span></span><span class="line"><span class="cl">UUID=d5a039d9-c08e-4b26-8e12-9e38bec1fd46   /home       ext4        rw,relatime,data=ordered,discard    0 2
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"># /dev/sda3
+UUID=b532cc5e-70c4-431c-80e5-bd9d40440606   /           ext4        rw,relatime,data=ordered,discard    0 1
+
+# /dev/sda4
+UUID=d5a039d9-c08e-4b26-8e12-9e38bec1fd46   /home       ext4        rw,relatime,data=ordered,discard    0 2
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><h4 id="connect-the-internet">Connect the internet</h4>
 <p>If you&rsquo;re using ethernet cable or usb cable, you may check your network interface with this,</p>
@@ -336,12 +428,21 @@ It would be better if you could just use the iso that you can download here <a h
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl"># ip link
 </span></span><span class="line"><span class="cl">1: lo: &lt;LOOPBACK,UP,LOWER_UP&gt; mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
 </span></span><span class="line"><span class="cl">    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
 </span></span><span class="line"><span class="cl">2: wlp2s0b1: &lt;BROADCAST,MULTICAST,UP,LOWER_UP&gt; mtu 1500 qdisc mq state UP mode DORMANT group default qlen 1000
 </span></span><span class="line"><span class="cl">    link/ether 10:40:f3:8c:30:f4 brd ff:ff:ff:ff:ff:ff
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"># ip link
+1: lo: &lt;LOOPBACK,UP,LOWER_UP&gt; mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+2: wlp2s0b1: &lt;BROADCAST,MULTICAST,UP,LOWER_UP&gt; mtu 1500 qdisc mq state UP mode DORMANT group default qlen 1000
+    link/ether 10:40:f3:8c:30:f4 brd ff:ff:ff:ff:ff:ff
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>My interface is <strong>wlp2s0b1</strong></p>
 <div class="highlight"><div class="chroma">
@@ -350,9 +451,15 @@ It would be better if you could just use the iso that you can download here <a h
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl"># dhcpcd wlp2s0b1
 </span></span><span class="line"><span class="cl"># ping google.com
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"># dhcpcd wlp2s0b1
+# ping google.com
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>If you can use WiFi, connect it with this command,</p>
 <div class="highlight"><div class="chroma">
@@ -360,8 +467,13 @@ It would be better if you could just use the iso that you can download here <a h
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl"># wifi-menu
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"># wifi-menu
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><h4 id="system-configuration">System Configuration</h4>
 <div class="highlight"><div class="chroma">
@@ -372,19 +484,32 @@ It would be better if you could just use the iso that you can download here <a h
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl"># arch-chroot /mnt /bin/bash 
 </span></span><span class="line"><span class="cl"># echo archer &gt; /etc/hostname  #Your hostname
 </span></span><span class="line"><span class="cl"># ln -s /usr/share/zoneinfo/Asia/Jakarta /etc/localtime 
 </span></span><span class="line"><span class="cl"># hwclock --systohc --utc 
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"># arch-chroot /mnt /bin/bash 
+# echo archer &gt; /etc/hostname  #Your hostname
+# ln -s /usr/share/zoneinfo/Asia/Jakarta /etc/localtime 
+# hwclock --systohc --utc 
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl"># nano /etc/local.gen
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"># nano /etc/local.gen
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>Uncomment UTF8 locale,</p>
 <div class="highlight"><div class="chroma">
@@ -394,10 +519,17 @@ It would be better if you could just use the iso that you can download here <a h
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">#en_SG ISO-8859-1
 </span></span><span class="line"><span class="cl">en_US.UTF-8 UTF-8
 </span></span><span class="line"><span class="cl">#en_US ISO-8859-1
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">#en_SG ISO-8859-1
+en_US.UTF-8 UTF-8
+#en_US ISO-8859-1
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -405,9 +537,15 @@ It would be better if you could just use the iso that you can download here <a h
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl"># locale-gen
 </span></span><span class="line"><span class="cl"># echo LANG=en_US.UTF-8 &gt; /etc/locale.conf
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"># locale-gen
+# echo LANG=en_US.UTF-8 &gt; /etc/locale.conf
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>Add user account,</p>
 <div class="highlight"><div class="chroma">
@@ -415,8 +553,13 @@ It would be better if you could just use the iso that you can download here <a h
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl"># useradd -m -g users -G wheel -s /bin/bash yourself &amp;&amp; passwd yourself
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"># useradd -m -g users -G wheel -s /bin/bash yourself &amp;&amp; passwd yourself
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>Change <strong>yourself</strong> to your liking.</p>
 <p>Give yourself sudo rights,</p>
@@ -425,16 +568,26 @@ It would be better if you could just use the iso that you can download here <a h
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl"># nano /etc/sudoers # uncomment wheel line
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"># nano /etc/sudoers # uncomment wheel line
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl"> %wheel ALL=(ALL) NOPASSWD: ALL
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"> %wheel ALL=(ALL) NOPASSWD: ALL
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><h3 id="the-bootloader">The Bootloader</h3>
 <p>I&rsquo;m not goin to dualboot this macbook so then I&rsquo;m not gonna use GRUB nor REFIND for booting into the system, I&rsquo;m gonna use <a href="https://wiki.archlinux.org/index.php/systemd-boot" target="_blank">&lt;strong&gt;systemd-boot&lt;/strong&gt;</a> to boot into archlinux,</p>
@@ -444,9 +597,15 @@ It would be better if you could just use the iso that you can download here <a h
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl"># pacman -S dosfstools intel-ucode
 </span></span><span class="line"><span class="cl"># bootctl --path=/boot install
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"># pacman -S dosfstools intel-ucode
+# bootctl --path=/boot install
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>After the systemd-boot (gummiboot) installed, we need to add a boot entries for archlinux.</p>
 <p>Create a file for boot entry within this directory path,</p>
@@ -455,8 +614,13 @@ It would be better if you could just use the iso that you can download here <a h
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">/boot/loader/entries/arch.conf
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">/boot/loader/entries/arch.conf
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>First you need to get your root &ldquo;/&rdquo; (/dev/sda3) PARTUUID,</p>
 <div class="highlight"><div class="chroma">
@@ -465,9 +629,15 @@ It would be better if you could just use the iso that you can download here <a h
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl"># blkid -s PARTUUID -o value /dev/sda3
 </span></span><span class="line"><span class="cl">ed724519-29ca-4e08-b27a-b4852d310dee
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"># blkid -s PARTUUID -o value /dev/sda3
+ed724519-29ca-4e08-b27a-b4852d310dee
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>Edit the arch.conf file add this entry, replace root PARTUUID with this one <em>ed724519-29ca-4e08-b27a-b4852d310dee</em></p>
 <div class="highlight"><div class="chroma">
@@ -479,12 +649,21 @@ It would be better if you could just use the iso that you can download here <a h
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">title Arch Linux 
 </span></span><span class="line"><span class="cl">linux /vmlinuz-linux 
 </span></span><span class="line"><span class="cl">initrd /intel-ucode.img 
 </span></span><span class="line"><span class="cl">initrd /initramfs-linux.img 
 </span></span><span class="line"><span class="cl">options root=PARTUUID=ed724519-29ca-4e08-b27a-b4852d310dee rw quiet
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">title Arch Linux 
+linux /vmlinuz-linux 
+initrd /intel-ucode.img 
+initrd /initramfs-linux.img 
+options root=PARTUUID=ed724519-29ca-4e08-b27a-b4852d310dee rw quiet
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>And now lets tell the boot manager to use this arch.conf configuration,</p>
 <div class="highlight"><div class="chroma">
@@ -492,8 +671,13 @@ It would be better if you could just use the iso that you can download here <a h
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl"># echo &#34;default arch&#34; &gt; /boot/loader/loader.conf
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"># echo &#34;default arch&#34; &gt; /boot/loader/loader.conf
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>Before rebooting, you may want to install some network tools,</p>
 <div class="highlight"><div class="chroma">
@@ -501,8 +685,13 @@ It would be better if you could just use the iso that you can download here <a h
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl"># pacman install iw wireless_tools wpa_supplicant dialog
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"># pacman install iw wireless_tools wpa_supplicant dialog
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>also install networkmanager and enable it using NetworkManager.service. <a href="https://wiki.archlinux.org/index.php/NetworkManager" target="_blank">Read Arch wiki for more info</a>.</p>
 <p>You&rsquo;re done now for installation, lets reboot,</p>
@@ -513,10 +702,17 @@ It would be better if you could just use the iso that you can download here <a h
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl"># exit
 </span></span><span class="line"><span class="cl"># umount -R /mnt
 </span></span><span class="line"><span class="cl"># sudo reboot // or systemctl reboot
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"># exit
+# umount -R /mnt
+# sudo reboot // or systemctl reboot
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><h1 id="post-installation">Post Installation</h1>
 <h3 id="configure-your-wifi">Configure your wifi</h3>
@@ -529,11 +725,19 @@ It would be better if you could just use the iso that you can download here <a h
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">$ sudo systemctl disable dhcpcd
 </span></span><span class="line"><span class="cl">$ sudo pacman -S networkmanager network-manager-applet
 </span></span><span class="line"><span class="cl">$ sudo systemctl enable NetworkManager
 </span></span><span class="line"><span class="cl">$ nmcli dev wifi connect &lt;wifi-name&gt; password &lt;password&gt;
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">$ sudo systemctl disable dhcpcd
+$ sudo pacman -S networkmanager network-manager-applet
+$ sudo systemctl enable NetworkManager
+$ nmcli dev wifi connect &lt;wifi-name&gt; password &lt;password&gt;
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><h3 id="install-cpu-tools">Install CPU tools</h3>
 <div class="highlight"><div class="chroma">
@@ -542,9 +746,15 @@ It would be better if you could just use the iso that you can download here <a h
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">$ sudo pacman -S cpupower
 </span></span><span class="line"><span class="cl">$ sudo systemctl enable cpupower
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">$ sudo pacman -S cpupower
+$ sudo systemctl enable cpupower
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>Edit /etc/default/cpupower</p>
 <div class="highlight"><div class="chroma">
@@ -553,9 +763,15 @@ It would be better if you could just use the iso that you can download here <a h
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl"># Define CPUs governor
 </span></span><span class="line"><span class="cl">governor=&#39;powersave&#39;
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"># Define CPUs governor
+governor=&#39;powersave&#39;
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><h3 id="sound-utilities">Sound Utilities</h3>
 <div class="highlight"><div class="chroma">
@@ -563,8 +779,13 @@ It would be better if you could just use the iso that you can download here <a h
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">$ sudo pacman -S alsa-utils alsa-plugins
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">$ sudo pacman -S alsa-utils alsa-plugins
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><h3 id="install-xorg">Install Xorg</h3>
 <div class="highlight"><div class="chroma">
@@ -573,9 +794,15 @@ It would be better if you could just use the iso that you can download here <a h
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">$ sudo pacman -S xorg acpid
 </span></span><span class="line"><span class="cl">$ systemctl enable acpid
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">$ sudo pacman -S xorg acpid
+$ systemctl enable acpid
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><h3 id="install-desktop-gui">Install Desktop GUI</h3>
 <p>There is so many <a href="https://wiki.archlinux.org/index.php/desktop_environment#List_of_desktop_environments" target="_blank">desktop GUI</a> that you may want to experience yourself, but <a href="https://wiki.archlinux.org/index.php/xfce#Installation" target="_blank">XFCE4</a> is become my first choice because of speed and flexibility.</p>
@@ -584,8 +811,13 @@ It would be better if you could just use the iso that you can download here <a h
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">$ sudo pacman -S xfce4 xfce4-goodies
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">$ sudo pacman -S xfce4 xfce4-goodies
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><h3 id="install-display-manager-user-login">Install Display Manager (User Login)</h3>
 <p>Same as desktop GUI, there is so many <a href="https://wiki.archlinux.org/index.php/Display_manager" target="_blank">display manager</a> to experience yourself, as my choice fell to <a href="https://wiki.archlinux.org/index.php/LightDM" target="_blank">LightDM</a></p>
@@ -595,9 +827,15 @@ It would be better if you could just use the iso that you can download here <a h
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">$ sudo pacman -S lightdm lightdm-gtk-greeter-setting
 </span></span><span class="line"><span class="cl">$ systemctl enable lightdm.service
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">$ sudo pacman -S lightdm lightdm-gtk-greeter-setting
+$ systemctl enable lightdm.service
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>Now you&rsquo;re all set, reboot and enjoy your new Macbook Arch.
 Things you may need to know, ArchLinux has a <a href="https://aur.archlinux.org/" target="_blank">community driven repository</a> that you can download and build yourself or using some package manager such as <strong>yaourt</strong>, <strong>pacaur</strong>, or <strong>trizen</strong> for easy install. I&rsquo;m not goin to explain all of these things it depends to your liking. I&rsquo;ll leave this to you to explore and have fun with it.</p>
@@ -637,8 +875,13 @@ Things you may need to know, ArchLinux has a <a href="https://aur.archlinux.org/
   </footer>
   
 </article></main>
+<<<<<<< HEAD
 <footer class="footer" aria-hidden="true">
   <span>&copy; 2009 - 2022 <a href="https://khal.web.id/" style="speak:none;">Khalid&#39;s Blog</a></span>
+=======
+<footer class="footer">
+  <span>&copy; 2009 - 2022 <a href="https://khal.web.id/">Khalid&#39;s Blog</a></span>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
   <span>&middot;</span>
   <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank" style="speak:none;">Hugo️️</a>️</span>
 </footer>

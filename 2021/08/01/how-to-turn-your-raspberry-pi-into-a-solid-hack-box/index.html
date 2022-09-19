@@ -18,7 +18,11 @@ Of course, you can prevent this by using a VPN on a public network, but sometime
       <meta name="twitter:image" content="https://khal.web.id/images/kaliraspi2.jpg"/>
     
 
+<<<<<<< HEAD
   	<meta property="og:title" content="Khalid&#39;s Blog" />
+=======
+  	<meta property="og:title" content="How to turn your Raspberry Pi into a solid hack box &middot; Khalid&#39;s Blog" />
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
   	<meta property="og:site_name" content="Khalid&#39;s Blog" />
   	<meta property="og:url" content="https://khal.web.id/2021/08/01/how-to-turn-your-raspberry-pi-into-a-solid-hack-box/" />
 
@@ -80,7 +84,11 @@ Of course, you can prevent this by using a VPN on a public network, but sometime
     <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
+<<<<<<< HEAD
     <meta name="generator" content="Hugo 0.103.1" />
+=======
+    <meta name="generator" content="Hugo 0.92.0" />
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
     
     
 <script type="application/javascript">
@@ -101,7 +109,11 @@ if (!doNotTrack) {
   <body class="single">
     <header class="header lazy post-head"data-bg="/images/kaliraspi2.jpg">
       <nav class="nav">
+<<<<<<< HEAD
         <a class="logo" href="https://khal.web.id/"><img src="/images/logo.jpeg" alt="Home" style="speak:none;" /></a>
+=======
+        <a class="logo" href="https://khal.web.id/"><img src="/images/logo.jpeg" alt="Home" /></a>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
         <ul class="menu">
           
           <li>
@@ -198,8 +210,13 @@ if (!doNotTrack) {
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">boot % touch SSH
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">boot % touch SSH
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><h3 id="linux-pc">Linux PC</h3>
 <p>Linux could easily mount the image Linux root folder and add all the configuration files directly to that image file.</p>
@@ -217,8 +234,13 @@ if (!doNotTrack) {
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">kali@kali:~$ sudo nano /etc/lightdm/lightdm.conf
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">kali@kali:~$ sudo nano /etc/lightdm/lightdm.conf
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>Find the seat configuration and uncomment these options,</p>
 <div class="highlight"><div class="chroma">
@@ -229,11 +251,19 @@ if (!doNotTrack) {
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="o">[</span>Seat:*<span class="o">]</span>
 </span></span><span class="line"><span class="cl">pam-autologin-service<span class="o">=</span>lightdm-autologin
 </span></span><span class="line"><span class="cl">autologin-user<span class="o">=</span>kali
 </span></span><span class="line"><span class="cl">autologin-user-timeout<span class="o">=</span><span class="m">0</span>
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="o">[</span>Seat:*<span class="o">]</span>
+pam-autologin-service<span class="o">=</span>lightdm-autologin
+autologin-user<span class="o">=</span>kali
+autologin-user-timeout<span class="o">=</span><span class="m">0</span>
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><h3 id="add-your-phone-wifi-hotspot-configuration">Add your phone WIFI hotspot configuration</h3>
 <p>Let&rsquo;s say your phone WIFI ap is <code>myPhoneWIFISSID</code> and password is <code>myPhoneWIFIPassword</code></p>
@@ -243,8 +273,13 @@ if (!doNotTrack) {
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">kali@kali:~$ sudo nano /etc/NetworkManager/system-connections/myPhoneWIFISSID.nmconnection
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">kali@kali:~$ sudo nano /etc/NetworkManager/system-connections/myPhoneWIFISSID.nmconnection
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>Copy-paste this configuration and edit as needed, usually, you only need to change the <code>connection.id</code>, <code>wifi.ssid</code>, and the <code>wifi-security.psk</code></p>
 <div class="highlight"><div class="chroma">
@@ -278,6 +313,7 @@ if (!doNotTrack) {
 </span><span class="lnt">27
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">    <span class="o">[</span>connection<span class="o">]</span>
 </span></span><span class="line"><span class="cl">    <span class="nv">id</span><span class="o">=</span>myPhoneWIFISSID
 </span></span><span class="line"><span class="cl">    <span class="nv">type</span><span class="o">=</span>wifi
@@ -306,6 +342,36 @@ if (!doNotTrack) {
 </span></span><span class="line"><span class="cl">    
 </span></span><span class="line"><span class="cl">    <span class="o">[</span>proxy<span class="o">]</span>
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">    <span class="o">[</span>connection<span class="o">]</span>
+    <span class="nv">id</span><span class="o">=</span>myPhoneWIFISSID
+    <span class="nv">type</span><span class="o">=</span>wifi
+    autoconnect-priority<span class="o">=</span><span class="m">99</span>
+    <span class="nv">autoconnect</span><span class="o">=</span><span class="nb">true</span>
+    interface-name<span class="o">=</span>wlan0
+    <span class="nv">permissions</span><span class="o">=</span>
+    
+    <span class="o">[</span>wifi<span class="o">]</span>
+    mac-address-blacklist<span class="o">=</span>
+    <span class="nv">mode</span><span class="o">=</span>infrastructure
+    <span class="nv">ssid</span><span class="o">=</span>myPhoneWIFISSID
+    
+    <span class="o">[</span>wifi-security<span class="o">]</span>
+    key-mgmt<span class="o">=</span>wpa-psk
+    <span class="nv">psk</span><span class="o">=</span>myPhoneWIFIPassword
+    
+    <span class="o">[</span>ipv4<span class="o">]</span>
+    dns-search<span class="o">=</span>
+    <span class="nv">method</span><span class="o">=</span>auto
+    
+    <span class="o">[</span>ipv6<span class="o">]</span>
+    addr-gen-mode<span class="o">=</span>stable-privacy
+    dns-search<span class="o">=</span>
+    <span class="nv">method</span><span class="o">=</span>auto
+    
+    <span class="o">[</span>proxy<span class="o">]</span>
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>If you notice <code>autoconnect-priority=99</code> the RPi will always connect to your phone hotspot if it&rsquo;s available, keep in mind that you&rsquo;re going to use this configuration every time you need to add a new WIFI network, so you might want to keep a note.</p>
 <p>To add a new WIFI ap you need to SSH from your phone, and then use the <code>nmcli</code> tool</p>
@@ -318,12 +384,21 @@ if (!doNotTrack) {
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">kali@kali:~$ nmcli dev wifi
 </span></span><span class="line"><span class="cl">IN-USE  BSSID              SSID       		MODE   CHAN  RATE        SIGNAL  BARS  SECURITY
 </span></span><span class="line"><span class="cl">*       10:C1:F9:78:B2:1B  myPhoneWIFISSID  Infra  <span class="m">10</span>    <span class="m">130</span> Mbit/s  <span class="m">80</span>      ***   WPA1 WPA2
 </span></span><span class="line"><span class="cl">        14:A0:F8:E8:2E:14  RIFA       		Infra  <span class="m">5</span>     <span class="m">130</span> Mbit/s  <span class="m">40</span>      **    WPA1 WPA2
 </span></span><span class="line"><span class="cl">        5C:3A:3D:01:D9:66  MOONLIGHT  		Infra  <span class="m">9</span>     <span class="m">130</span> Mbit/s  <span class="m">30</span>      *     WPA1 WPA2
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">kali@kali:~$ nmcli dev wifi
+IN-USE  BSSID              SSID       		MODE   CHAN  RATE        SIGNAL  BARS  SECURITY
+*       10:C1:F9:78:B2:1B  myPhoneWIFISSID  Infra  <span class="m">10</span>    <span class="m">130</span> Mbit/s  <span class="m">80</span>      ***   WPA1 WPA2
+        14:A0:F8:E8:2E:14  RIFA       		Infra  <span class="m">5</span>     <span class="m">130</span> Mbit/s  <span class="m">40</span>      **    WPA1 WPA2
+        5C:3A:3D:01:D9:66  MOONLIGHT  		Infra  <span class="m">9</span>     <span class="m">130</span> Mbit/s  <span class="m">30</span>      *     WPA1 WPA2
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>e.g. to add <code>RIFA</code> WIFI then you need to create <code>RIFA.nmconnection</code> file with the WIFI credential, don&rsquo;t forget to set the <code>autoconnect-priority</code> lower than 99.</p>
 <p>And then try to connect to the WIFI, after changing the connection, your current SSH connection will close or hung up.</p>
@@ -332,8 +407,13 @@ if (!doNotTrack) {
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">kali@kali:~$ nmcli connection up RIFA
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">kali@kali:~$ nmcli connection up RIFA
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>I guess this is all roundup, you can now use the RPi as a plug n play hack box device and play with the kali Linux tools provided.</p>
 <ul>
@@ -362,10 +442,17 @@ if (!doNotTrack) {
   </footer>
   
 </article></main>
+<<<<<<< HEAD
 <footer class="footer" aria-hidden="true">
   <span>&copy; 2009 - 2022 <a href="https://khal.web.id/" style="speak:none;">Khalid&#39;s Blog</a></span>
   <span>&middot;</span>
   <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank" style="speak:none;">Hugo️️</a>️</span>
+=======
+<footer class="footer">
+  <span>&copy; 2009 - 2022 <a href="https://khal.web.id/">Khalid&#39;s Blog</a></span>
+  <span>&middot;</span>
+  <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </footer>
 <script>
   var lazyLoadInstance = new LazyLoad({

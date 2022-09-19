@@ -80,7 +80,11 @@
     <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
+<<<<<<< HEAD
     <meta name="generator" content="Hugo 0.103.1" />
+=======
+    <meta name="generator" content="Hugo 0.92.0" />
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
     
     
 <script type="application/javascript">
@@ -202,10 +206,17 @@ if (!doNotTrack) {
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">Handler</span><span class="p">(</span><span class="nx">w</span> <span class="nx">http</span><span class="p">.</span><span class="nx">ResponseWriter</span><span class="p">,</span> <span class="nx">r</span> <span class="o">*</span><span class="nx">http</span><span class="p">.</span><span class="nx">Request</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="o">...</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="kd">func</span> <span class="nf">Handler</span><span class="p">(</span><span class="nx">w</span> <span class="nx">http</span><span class="p">.</span><span class="nx">ResponseWriter</span><span class="p">,</span> <span class="nx">r</span> <span class="o">*</span><span class="nx">http</span><span class="p">.</span><span class="nx">Request</span><span class="p">)</span> <span class="p">{</span>
+    <span class="o">...</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>Deployment(CI/CD) is handled by Github integration, you need to give access to Vercel to manage deployment. For free registration, you will have,</p>
 <ul>
@@ -225,10 +236,17 @@ if (!doNotTrack) {
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">handler</span><span class="p">(</span><span class="nx">ctx</span> <span class="nx">context</span><span class="p">.</span><span class="nx">Context</span><span class="p">,</span> <span class="nx">request</span> <span class="nx">events</span><span class="p">.</span><span class="nx">APIGatewayProxyRequest</span><span class="p">)</span> <span class="p">(</span><span class="o">*</span><span class="nx">events</span><span class="p">.</span><span class="nx">APIGatewayProxyResponse</span><span class="p">,</span> <span class="kt">error</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">  <span class="err">#</span> <span class="nx">Your</span> <span class="nx">server</span><span class="o">-</span><span class="nx">side</span> <span class="nx">functionality</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="kd">func</span> <span class="nf">handler</span><span class="p">(</span><span class="nx">ctx</span> <span class="nx">context</span><span class="p">.</span><span class="nx">Context</span><span class="p">,</span> <span class="nx">request</span> <span class="nx">events</span><span class="p">.</span><span class="nx">APIGatewayProxyRequest</span><span class="p">)</span> <span class="p">(</span><span class="o">*</span><span class="nx">events</span><span class="p">.</span><span class="nx">APIGatewayProxyResponse</span><span class="p">,</span> <span class="kt">error</span><span class="p">)</span> <span class="p">{</span>
+  <span class="err">#</span> <span class="nx">Your</span> <span class="nx">server</span><span class="o">-</span><span class="nx">side</span> <span class="nx">functionality</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>and the response must be compatible with the AWS API Gateway response:</p>
 <div class="highlight"><div class="chroma">
@@ -239,11 +257,19 @@ if (!doNotTrack) {
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="k">return</span> <span class="o">&amp;</span><span class="nx">events</span><span class="p">.</span><span class="nx">APIGatewayProxyResponse</span><span class="p">{</span>
 </span></span><span class="line"><span class="cl">        <span class="nx">StatusCode</span><span class="p">:</span> <span class="mi">200</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">        <span class="nx">Body</span><span class="p">:</span>       <span class="s">&#34;Hello, World&#34;</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">    <span class="p">},</span> <span class="kc">nil</span>
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="k">return</span> <span class="o">&amp;</span><span class="nx">events</span><span class="p">.</span><span class="nx">APIGatewayProxyResponse</span><span class="p">{</span>
+        <span class="nx">StatusCode</span><span class="p">:</span> <span class="mi">200</span><span class="p">,</span>
+        <span class="nx">Body</span><span class="p">:</span>       <span class="s">&#34;Hello, World&#34;</span><span class="p">,</span>
+    <span class="p">},</span> <span class="kc">nil</span>
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>and then in your main package,</p>
 <div class="highlight"><div class="chroma">
@@ -255,12 +281,21 @@ if (!doNotTrack) {
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kn">package</span> <span class="nx">main</span>
 </span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="c1">// Make the handler available for Remote Procedure Call by AWS Lambda
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nx">lambda</span><span class="p">.</span><span class="nf">Start</span><span class="p">(</span><span class="nx">handler</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="kn">package</span> <span class="nx">main</span>
+<span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="c1">// Make the handler available for Remote Procedure Call by AWS Lambda
+</span><span class="c1"></span>    <span class="nx">lambda</span><span class="p">.</span><span class="nf">Start</span><span class="p">(</span><span class="nx">handler</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>Netlify can build your source Go functions into AWS Lambda compatible binaries. Before building your Go source, Netlify needs to know the expected Go import path for your project. Use the <code>GO_IMPORT_PATH</code> environment variable to set the right import path. You can do this in your <em>netlify.toml</em> file. The path value should point to your source repository on your Git provider.</p>
 <p>Deployment(CI/CD) also handled by Github integration, for a starter account you&rsquo;ll get,</p>
@@ -322,8 +357,13 @@ if (!doNotTrack) {
   </footer>
   
 </article></main>
+<<<<<<< HEAD
 <footer class="footer" aria-hidden="true">
   <span>&copy; 2009 - 2022 <a href="https://khal.web.id/" style="speak:none;">Khalid&#39;s Blog</a></span>
+=======
+<footer class="footer">
+  <span>&copy; 2009 - 2022 <a href="https://khal.web.id/">Khalid&#39;s Blog</a></span>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
   <span>&middot;</span>
   <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank" style="speak:none;">Hugo️️</a>️</span>
 </footer>

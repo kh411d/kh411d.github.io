@@ -71,7 +71,11 @@
     <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
+<<<<<<< HEAD
     <meta name="generator" content="Hugo 0.103.1" />
+=======
+    <meta name="generator" content="Hugo 0.92.0" />
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
     
     
 <script type="application/javascript">
@@ -173,9 +177,15 @@ if (!doNotTrack) {
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">var</span> <span class="nx">theArray</span> <span class="p">[]</span><span class="kt">string</span>
 </span></span><span class="line"><span class="cl"><span class="nx">theArray</span> <span class="p">=</span> <span class="nb">append</span><span class="p">(</span><span class="nx">theArray</span><span class="p">,</span><span class="s">&#34;Hello, There!&#34;</span><span class="p">)</span>
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="kd">var</span> <span class="nx">theArray</span> <span class="p">[]</span><span class="kt">string</span>
+<span class="nx">theArray</span> <span class="p">=</span> <span class="nb">append</span><span class="p">(</span><span class="nx">theArray</span><span class="p">,</span><span class="s">&#34;Hello, There!&#34;</span><span class="p">)</span>
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>The idea, every time a value is added to the observed variable <code>theArray</code>, the observer could immediately take action in real-time, as long as the main thread has not ended yet.</p>
 <p>Rather than using the default type <code>[]string</code>, let&rsquo;s make a custom type called <code>observee</code> so later we can freely extend the type.</p>
@@ -190,6 +200,7 @@ if (!doNotTrack) {
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">type</span> <span class="nx">observee</span> <span class="p">[]</span><span class="kt">string</span>
 </span></span><span class="line"><span class="cl"><span class="c1">//initialize
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">var</span> <span class="nx">theArray</span> <span class="nx">observee</span>
@@ -198,6 +209,16 @@ if (!doNotTrack) {
 </span></span><span class="line"><span class="cl"><span class="c1">//append array
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">theArray</span> <span class="p">=</span> <span class="nb">append</span><span class="p">(</span><span class="nx">theArray</span><span class="p">,</span><span class="s">&#34;Hi! I&#39;m the one to be observed&#34;</span><span class="p">)</span>
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="kd">type</span> <span class="nx">observee</span> <span class="p">[]</span><span class="kt">string</span>
+<span class="c1">//initialize
+</span><span class="c1"></span><span class="kd">var</span> <span class="nx">theArray</span> <span class="nx">observee</span>
+<span class="c1">//start the observer
+</span><span class="c1"></span><span class="nx">theArray</span><span class="p">.</span><span class="nf">observer</span><span class="p">()</span>
+<span class="c1">//append array
+</span><span class="c1"></span><span class="nx">theArray</span> <span class="p">=</span> <span class="nb">append</span><span class="p">(</span><span class="nx">theArray</span><span class="p">,</span><span class="s">&#34;Hi! I&#39;m the one to be observed&#34;</span><span class="p">)</span>
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>After the <code>theArray</code> initialized, we then call the observer function to start observing, which extended from the <code>observee</code> type itself.</p>
 <div class="highlight"><div class="chroma">
@@ -209,12 +230,21 @@ if (!doNotTrack) {
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">type</span> <span class="nx">observee</span> <span class="p">[]</span><span class="kt">string</span>
 </span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="p">(</span><span class="nx">o</span> <span class="o">*</span><span class="nx">observee</span><span class="p">)</span> <span class="nf">observer</span><span class="p">(</span><span class="nx">fn</span> <span class="kd">func</span><span class="p">(</span><span class="nx">observee</span><span class="p">)){</span>
 </span></span><span class="line"><span class="cl">    <span class="c1">//Do something!!!
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nf">fn</span><span class="p">(</span><span class="o">*</span><span class="nx">o</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="kd">type</span> <span class="nx">observee</span> <span class="p">[]</span><span class="kt">string</span>
+<span class="kd">func</span> <span class="p">(</span><span class="nx">o</span> <span class="o">*</span><span class="nx">observee</span><span class="p">)</span> <span class="nf">observer</span><span class="p">(</span><span class="nx">fn</span> <span class="kd">func</span><span class="p">(</span><span class="nx">observee</span><span class="p">)){</span>
+    <span class="c1">//Do something!!!
+</span><span class="c1"></span>    <span class="nf">fn</span><span class="p">(</span><span class="o">*</span><span class="nx">o</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>As you noticed that I&rsquo;m using a pointer <code>*o</code>, feel free to remove the pointer and see what happened. If we <a href="https://play.golang.org/p/LXkuKtSDacy" target="_blank">run the code</a> below, the observer will print and monitor the values of the <code>theArray</code> after its appended.</p>
 <div class="highlight"><div class="chroma">
@@ -238,6 +268,7 @@ if (!doNotTrack) {
 </span><span class="lnt">17
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nx">theArray</span> <span class="nx">observee</span>
 </span></span><span class="line"><span class="cl">    <span class="c1">//empty values
@@ -256,6 +287,26 @@ if (!doNotTrack) {
 </span></span><span class="line"><span class="cl">    <span class="p">})</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">theArray</span> <span class="nx">observee</span>
+    <span class="c1">//empty values
+</span><span class="c1"></span>    <span class="nx">theArray</span><span class="p">.</span><span class="nf">observer</span><span class="p">(</span><span class="kd">func</span><span class="p">(</span><span class="nx">o</span> <span class="nx">observee</span><span class="p">){</span>
+        <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">o</span><span class="p">)</span>
+    <span class="p">})</span>
+    <span class="c1">//append 1
+</span><span class="c1"></span>    <span class="nx">theArray</span> <span class="p">=</span> <span class="nb">append</span><span class="p">(</span><span class="nx">theArray</span><span class="p">,</span><span class="s">&#34;Hi! it&#39;s me&#34;</span><span class="p">)</span>
+    <span class="nx">theArray</span><span class="p">.</span><span class="nf">observer</span><span class="p">(</span><span class="kd">func</span><span class="p">(</span><span class="nx">o</span> <span class="nx">observee</span><span class="p">){</span>
+        <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">o</span><span class="p">)</span>
+    <span class="p">})</span>
+    <span class="c1">//append 2
+</span><span class="c1"></span>    <span class="nx">theArray</span> <span class="p">=</span> <span class="nb">append</span><span class="p">(</span><span class="nx">theArray</span><span class="p">,</span><span class="s">&#34;Hi! another me&#34;</span><span class="p">)</span>
+    <span class="nx">theArray</span><span class="p">.</span><span class="nf">observer</span><span class="p">(</span><span class="kd">func</span><span class="p">(</span><span class="nx">o</span> <span class="nx">observee</span><span class="p">){</span>
+        <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">o</span><span class="p">)</span>
+    <span class="p">})</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -264,10 +315,17 @@ if (!doNotTrack) {
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">[]
 </span></span><span class="line"><span class="cl">[Hi! it&#39;s me]
 </span></span><span class="line"><span class="cl">[Hi! it&#39;s me Hi! another me]
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">[]
+[Hi! it&#39;s me]
+[Hi! it&#39;s me Hi! another me]
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>Furthermore, to make the observation happen in real-time we need to create the observer&rsquo;s routine. In other words, the observer needs to have its lifespan and continuously giving information to its caller.</p>
 <p>But before that, let&rsquo;s create the worker first, <code>theArray</code> value will hold detail about when will the worker launched, and because all the workers need to finish together then it needs to be synchronized.</p>
@@ -308,6 +366,7 @@ if (!doNotTrack) {
 </span><span class="lnt">33
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">type</span> <span class="nx">work</span> <span class="kd">struct</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="nx">wg</span> <span class="o">*</span><span class="nx">sync</span><span class="p">.</span><span class="nx">WaitGroup</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
@@ -342,6 +401,42 @@ if (!doNotTrack) {
 </span></span><span class="line"><span class="cl">    <span class="k">return</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="kd">type</span> <span class="nx">work</span> <span class="kd">struct</span> <span class="p">{</span>
+    <span class="nx">wg</span> <span class="o">*</span><span class="nx">sync</span><span class="p">.</span><span class="nx">WaitGroup</span>
+<span class="p">}</span>
+
+<span class="kd">func</span> <span class="p">(</span><span class="nx">w</span> <span class="o">*</span><span class="nx">work</span><span class="p">)</span> <span class="nf">countdown</span><span class="p">(</span><span class="nx">workerID</span> <span class="kt">int</span><span class="p">)</span> <span class="kt">string</span> <span class="p">{</span>
+    <span class="c1">// return &#34;[worker id]-[time(sec) to launch]-[timestamp added]&#34;
+</span><span class="c1"></span>    <span class="k">return</span> <span class="nx">fmt</span><span class="p">.</span><span class="nf">Sprintf</span><span class="p">(</span><span class="s">&#34;%d-%d-%d&#34;</span><span class="p">,</span> <span class="nx">workerID</span><span class="p">,</span> <span class="nx">rand</span><span class="p">.</span><span class="nf">Intn</span><span class="p">(</span><span class="mi">5</span><span class="p">),</span> <span class="nx">time</span><span class="p">.</span><span class="nf">Now</span><span class="p">().</span><span class="nf">UnixNano</span><span class="p">())</span>
+<span class="p">}</span>
+<span class="kd">func</span> <span class="p">(</span><span class="nx">w</span> <span class="o">*</span><span class="nx">work</span><span class="p">)</span> <span class="nf">ready</span><span class="p">(</span><span class="nx">v</span> <span class="kt">string</span><span class="p">)</span> <span class="p">(</span><span class="nx">launchID</span> <span class="kt">int</span><span class="p">,</span> <span class="nx">ok</span> <span class="kt">bool</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">id</span><span class="p">,</span> <span class="nx">tx</span><span class="p">,</span> <span class="nx">ts</span> <span class="o">:=</span> <span class="nx">w</span><span class="p">.</span><span class="nf">data</span><span class="p">(</span><span class="nx">v</span><span class="p">)</span>
+    <span class="k">if</span> <span class="nx">id</span> <span class="p">&gt;</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="nx">time</span><span class="p">.</span><span class="nf">Now</span><span class="p">().</span><span class="nf">Sub</span><span class="p">(</span><span class="nx">time</span><span class="p">.</span><span class="nf">Unix</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nx">ts</span><span class="p">)).</span><span class="nf">Seconds</span><span class="p">()</span> <span class="p">&gt;</span> <span class="nb">float64</span><span class="p">(</span><span class="nx">tx</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">launchID</span> <span class="p">=</span> <span class="nx">id</span>
+        <span class="nx">ok</span> <span class="p">=</span> <span class="kc">true</span>
+    <span class="p">}</span>
+    <span class="k">return</span>
+<span class="p">}</span>
+<span class="kd">func</span> <span class="p">(</span><span class="nx">w</span> <span class="o">*</span><span class="nx">work</span><span class="p">)</span> <span class="nf">launch</span><span class="p">(</span><span class="nx">i</span> <span class="kt">int</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">w</span><span class="p">.</span><span class="nx">wg</span><span class="p">.</span><span class="nf">Add</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="k">go</span> <span class="kd">func</span><span class="p">(</span><span class="nx">i</span> <span class="kt">int</span><span class="p">,</span> <span class="nx">wg</span> <span class="o">*</span><span class="nx">sync</span><span class="p">.</span><span class="nx">WaitGroup</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">defer</span> <span class="nx">wg</span><span class="p">.</span><span class="nf">Done</span><span class="p">()</span>
+        <span class="nx">fmt</span><span class="p">.</span><span class="nf">Printf</span><span class="p">(</span><span class="s">&#34;worker %d is launched\n&#34;</span><span class="p">,</span> <span class="nx">i</span><span class="p">)</span>
+    <span class="p">}(</span><span class="nx">i</span><span class="p">,</span> <span class="nx">w</span><span class="p">.</span><span class="nx">wg</span><span class="p">)</span>
+<span class="p">}</span>
+<span class="kd">func</span> <span class="p">(</span><span class="nx">w</span> <span class="o">*</span><span class="nx">work</span><span class="p">)</span> <span class="nf">data</span><span class="p">(</span><span class="nx">v</span> <span class="kt">string</span><span class="p">)</span> <span class="p">(</span><span class="nx">id</span> <span class="kt">int</span><span class="p">,</span> <span class="nx">tx</span> <span class="kt">int</span><span class="p">,</span> <span class="nx">ts</span> <span class="kt">int64</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="nx">v</span> <span class="o">==</span> <span class="s">&#34;&#34;</span> <span class="p">{</span>
+        <span class="k">return</span>
+    <span class="p">}</span>
+    <span class="nx">s</span> <span class="o">:=</span> <span class="nx">strings</span><span class="p">.</span><span class="nf">Split</span><span class="p">(</span><span class="nx">v</span><span class="p">,</span> <span class="s">&#34;-&#34;</span><span class="p">)</span>
+    <span class="nx">id</span><span class="p">,</span> <span class="nx">_</span> <span class="p">=</span> <span class="nx">strconv</span><span class="p">.</span><span class="nf">Atoi</span><span class="p">(</span><span class="nb">string</span><span class="p">(</span><span class="nx">s</span><span class="p">[</span><span class="mi">0</span><span class="p">]))</span>
+    <span class="nx">tx</span><span class="p">,</span> <span class="nx">_</span> <span class="p">=</span> <span class="nx">strconv</span><span class="p">.</span><span class="nf">Atoi</span><span class="p">(</span><span class="nb">string</span><span class="p">(</span><span class="nx">s</span><span class="p">[</span><span class="mi">1</span><span class="p">]))</span>
+    <span class="nx">ts</span><span class="p">,</span> <span class="nx">_</span> <span class="p">=</span> <span class="nx">strconv</span><span class="p">.</span><span class="nf">ParseInt</span><span class="p">(</span><span class="nb">string</span><span class="p">(</span><span class="nx">s</span><span class="p">[</span><span class="mi">2</span><span class="p">]),</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">64</span><span class="p">)</span>
+    <span class="k">return</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>And for the observee we modified a little bit so it will loop through each element of <code>theArray</code> and send information to caller function such as the array index and the value,</p>
 <div class="highlight"><div class="chroma">
@@ -367,6 +462,7 @@ if (!doNotTrack) {
 </span><span class="lnt">19
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">type</span> <span class="nx">observee</span> <span class="p">[]</span><span class="kt">string</span>
 </span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="p">(</span><span class="nx">o</span> <span class="o">*</span><span class="nx">observee</span><span class="p">)</span> <span class="nf">observer</span><span class="p">(</span><span class="nx">fn</span> <span class="kd">func</span><span class="p">(</span><span class="kt">int</span><span class="p">,</span> <span class="kt">string</span><span class="p">,</span> <span class="o">*</span><span class="nx">sync</span><span class="p">.</span><span class="nx">Mutex</span><span class="p">))</span> <span class="o">*</span><span class="nx">sync</span><span class="p">.</span><span class="nx">Mutex</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nx">mu</span> <span class="nx">sync</span><span class="p">.</span><span class="nx">Mutex</span>
@@ -387,6 +483,28 @@ if (!doNotTrack) {
 </span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="o">&amp;</span><span class="nx">mu</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="kd">type</span> <span class="nx">observee</span> <span class="p">[]</span><span class="kt">string</span>
+<span class="kd">func</span> <span class="p">(</span><span class="nx">o</span> <span class="o">*</span><span class="nx">observee</span><span class="p">)</span> <span class="nf">observer</span><span class="p">(</span><span class="nx">fn</span> <span class="kd">func</span><span class="p">(</span><span class="kt">int</span><span class="p">,</span> <span class="kt">string</span><span class="p">,</span> <span class="o">*</span><span class="nx">sync</span><span class="p">.</span><span class="nx">Mutex</span><span class="p">))</span> <span class="o">*</span><span class="nx">sync</span><span class="p">.</span><span class="nx">Mutex</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">mu</span> <span class="nx">sync</span><span class="p">.</span><span class="nx">Mutex</span>
+    <span class="c1">//Start a go routine
+</span><span class="c1"></span>    <span class="k">go</span> <span class="kd">func</span><span class="p">(</span><span class="nx">mu</span> <span class="o">*</span><span class="nx">sync</span><span class="p">.</span><span class="nx">Mutex</span><span class="p">)</span> <span class="p">{</span>
+        <span class="c1">//Forever loop through each array element
+</span><span class="c1"></span>        <span class="nx">nextIdx</span> <span class="o">:=</span> <span class="mi">0</span>
+        <span class="k">for</span> <span class="p">{</span>
+            <span class="k">if</span> <span class="nx">x</span> <span class="o">:=</span> <span class="o">*</span><span class="nx">o</span><span class="p">;</span> <span class="nx">x</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>
+                <span class="nf">fn</span><span class="p">(</span><span class="nx">nextIdx</span><span class="p">,</span> <span class="nx">x</span><span class="p">[</span><span class="nx">nextIdx</span><span class="p">],</span> <span class="nx">mu</span><span class="p">)</span>
+                <span class="nx">nextIdx</span><span class="o">++</span>
+                <span class="k">if</span> <span class="nx">nextIdx</span> <span class="o">==</span> <span class="nb">len</span><span class="p">(</span><span class="nx">x</span><span class="p">)</span> <span class="p">{</span>
+                    <span class="nx">nextIdx</span> <span class="p">=</span> <span class="mi">0</span>
+                <span class="p">}</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">}(</span><span class="o">&amp;</span><span class="nx">mu</span><span class="p">)</span>
+    <span class="k">return</span> <span class="o">&amp;</span><span class="nx">mu</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>Ok then, let&rsquo;s try it.</p>
 <div class="highlight"><div class="chroma">
@@ -414,6 +532,7 @@ if (!doNotTrack) {
 </span><span class="lnt">21
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nx">theArray</span> <span class="nx">observee</span>
 </span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nx">wg</span> <span class="nx">sync</span><span class="p">.</span><span class="nx">WaitGroup</span>
@@ -436,6 +555,30 @@ if (!doNotTrack) {
 </span></span><span class="line"><span class="cl">    <span class="nx">time</span><span class="p">.</span><span class="nf">Sleep</span><span class="p">(</span><span class="mi">5</span> <span class="o">*</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Second</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">theArray</span> <span class="nx">observee</span>
+    <span class="kd">var</span> <span class="nx">wg</span> <span class="nx">sync</span><span class="p">.</span><span class="nx">WaitGroup</span>
+    <span class="nx">worker</span> <span class="o">:=</span> <span class="o">&amp;</span><span class="nx">work</span><span class="p">{</span>
+        <span class="nx">wg</span><span class="p">:</span> <span class="o">&amp;</span><span class="nx">wg</span><span class="p">,</span>
+    <span class="p">}</span>
+    <span class="c1">//Observe and launch worker
+</span><span class="c1"></span>    <span class="nx">theArray</span><span class="p">.</span><span class="nf">observer</span><span class="p">(</span><span class="kd">func</span><span class="p">(</span><span class="nx">i</span> <span class="kt">int</span><span class="p">,</span> <span class="nx">v</span> <span class="kt">string</span><span class="p">,</span> <span class="nx">mu</span> <span class="o">*</span><span class="nx">sync</span><span class="p">.</span><span class="nx">Mutex</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="nx">id</span><span class="p">,</span> <span class="nx">ok</span> <span class="o">:=</span> <span class="nx">worker</span><span class="p">.</span><span class="nf">ready</span><span class="p">(</span><span class="nx">v</span><span class="p">);</span> <span class="nx">ok</span> <span class="p">{</span>
+            <span class="nx">theArray</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="p">=</span> <span class="s">&#34;&#34;</span>
+            <span class="nx">worker</span><span class="p">.</span><span class="nf">launch</span><span class="p">(</span><span class="nx">id</span><span class="p">)</span>
+        <span class="p">}</span>
+    <span class="p">})</span>
+    <span class="c1">//Append workers to array
+</span><span class="c1"></span>    <span class="k">for</span> <span class="nx">i</span> <span class="o">:=</span> <span class="mi">1</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;=</span> <span class="mi">10</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span> <span class="p">{</span>
+        <span class="nx">theArray</span> <span class="p">=</span> <span class="nb">append</span><span class="p">(</span><span class="nx">theArray</span><span class="p">,</span> <span class="nx">worker</span><span class="p">.</span><span class="nf">countdown</span><span class="p">(</span><span class="nx">i</span><span class="p">))</span>
+    <span class="p">}</span>
+
+    <span class="nx">wg</span><span class="p">.</span><span class="nf">Wait</span><span class="p">()</span>
+    <span class="nx">time</span><span class="p">.</span><span class="nf">Sleep</span><span class="p">(</span><span class="mi">5</span> <span class="o">*</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Second</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>If we <a href="https://play.golang.org/p/SpabGsAIIJq" target="_blank">run the code</a> above, the observer will continuously try to launch a worker from <code>theArray</code>. However, running a go-routine without knowing how to stop is not a good idea. So, what if we create a more controllable observer? In which we can restart/kill the observer and modify the observe duration like a ticker.</p>
 <div class="highlight"><div class="chroma">
@@ -467,6 +610,7 @@ if (!doNotTrack) {
 </span><span class="lnt">25
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">type</span> <span class="nx">observee</span> <span class="p">[]</span><span class="kt">string</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="p">(</span><span class="nx">o</span> <span class="o">*</span><span class="nx">observee</span><span class="p">)</span> <span class="nf">observer</span><span class="p">(</span><span class="nx">fn</span> <span class="kd">func</span><span class="p">(</span><span class="kt">int</span><span class="p">,</span> <span class="kt">string</span><span class="p">,</span> <span class="o">*</span><span class="nx">sync</span><span class="p">.</span><span class="nx">Mutex</span><span class="p">),</span> <span class="nx">td</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Duration</span><span class="p">)</span> <span class="p">(</span><span class="o">*</span><span class="nx">sync</span><span class="p">.</span><span class="nx">Mutex</span><span class="p">,</span> <span class="o">*</span><span class="nx">time</span><span class="p">.</span><span class="nx">Ticker</span><span class="p">)</span> <span class="p">{</span>
@@ -493,6 +637,34 @@ if (!doNotTrack) {
 </span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="o">&amp;</span><span class="nx">mu</span><span class="p">,</span> <span class="nx">t</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="kd">type</span> <span class="nx">observee</span> <span class="p">[]</span><span class="kt">string</span>
+
+<span class="kd">func</span> <span class="p">(</span><span class="nx">o</span> <span class="o">*</span><span class="nx">observee</span><span class="p">)</span> <span class="nf">observer</span><span class="p">(</span><span class="nx">fn</span> <span class="kd">func</span><span class="p">(</span><span class="kt">int</span><span class="p">,</span> <span class="kt">string</span><span class="p">,</span> <span class="o">*</span><span class="nx">sync</span><span class="p">.</span><span class="nx">Mutex</span><span class="p">),</span> <span class="nx">td</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Duration</span><span class="p">)</span> <span class="p">(</span><span class="o">*</span><span class="nx">sync</span><span class="p">.</span><span class="nx">Mutex</span><span class="p">,</span> <span class="o">*</span><span class="nx">time</span><span class="p">.</span><span class="nx">Ticker</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">mu</span> <span class="nx">sync</span><span class="p">.</span><span class="nx">Mutex</span>
+    <span class="nx">t</span> <span class="o">:=</span> <span class="nx">time</span><span class="p">.</span><span class="nf">NewTicker</span><span class="p">(</span><span class="nx">td</span><span class="p">)</span>
+    <span class="c1">//Start a go routine
+</span><span class="c1"></span>    <span class="k">go</span> <span class="kd">func</span><span class="p">(</span><span class="nx">mu</span> <span class="o">*</span><span class="nx">sync</span><span class="p">.</span><span class="nx">Mutex</span><span class="p">)</span> <span class="p">{</span>
+        <span class="c1">//Forever loop through each array element
+</span><span class="c1"></span>        <span class="nx">nextIdx</span> <span class="o">:=</span> <span class="mi">0</span>
+        <span class="k">for</span> <span class="p">{</span>
+            <span class="k">select</span> <span class="p">{</span>
+            <span class="k">case</span> <span class="o">&lt;-</span><span class="nx">t</span><span class="p">.</span><span class="nx">C</span><span class="p">:</span>
+                <span class="k">if</span> <span class="nx">x</span> <span class="o">:=</span> <span class="o">*</span><span class="nx">o</span><span class="p">;</span> <span class="nx">x</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>
+                    <span class="nf">fn</span><span class="p">(</span><span class="nx">nextIdx</span><span class="p">,</span> <span class="nx">x</span><span class="p">[</span><span class="nx">nextIdx</span><span class="p">],</span> <span class="nx">mu</span><span class="p">)</span>
+                    <span class="nx">nextIdx</span><span class="o">++</span>
+                    <span class="k">if</span> <span class="nx">nextIdx</span> <span class="o">==</span> <span class="nb">len</span><span class="p">(</span><span class="nx">x</span><span class="p">)</span> <span class="p">{</span>
+                        <span class="nx">nextIdx</span> <span class="p">=</span> <span class="mi">0</span>
+                    <span class="p">}</span>
+                <span class="p">}</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">}(</span><span class="o">&amp;</span><span class="nx">mu</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="o">&amp;</span><span class="nx">mu</span><span class="p">,</span> <span class="nx">t</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>The code below will simulate how is the ticker stops the observer and then continued as we set manually.</p>
 <div class="highlight"><div class="chroma">
@@ -530,6 +702,7 @@ if (!doNotTrack) {
 </span><span class="lnt">31
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nx">theArray</span> <span class="nx">observee</span>
 </span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nx">wg</span> <span class="nx">sync</span><span class="p">.</span><span class="nx">WaitGroup</span>
@@ -562,6 +735,40 @@ if (!doNotTrack) {
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">theArray</span> <span class="nx">observee</span>
+    <span class="kd">var</span> <span class="nx">wg</span> <span class="nx">sync</span><span class="p">.</span><span class="nx">WaitGroup</span>
+    <span class="nx">worker</span> <span class="o">:=</span> <span class="o">&amp;</span><span class="nx">work</span><span class="p">{</span>
+        <span class="nx">wg</span><span class="p">:</span> <span class="o">&amp;</span><span class="nx">wg</span><span class="p">,</span>
+    <span class="p">}</span>
+
+    <span class="nx">_</span><span class="p">,</span> <span class="nx">t</span> <span class="o">:=</span> <span class="nx">theArray</span><span class="p">.</span><span class="nf">observer</span><span class="p">(</span><span class="kd">func</span><span class="p">(</span><span class="nx">i</span> <span class="kt">int</span><span class="p">,</span> <span class="nx">v</span> <span class="kt">string</span><span class="p">,</span> <span class="nx">mu</span> <span class="o">*</span><span class="nx">sync</span><span class="p">.</span><span class="nx">Mutex</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="nx">id</span><span class="p">,</span> <span class="nx">ok</span> <span class="o">:=</span> <span class="nx">worker</span><span class="p">.</span><span class="nf">ready</span><span class="p">(</span><span class="nx">v</span><span class="p">);</span> <span class="nx">ok</span> <span class="p">{</span>
+            <span class="nx">theArray</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="p">=</span> <span class="s">&#34;&#34;</span>
+            <span class="nx">worker</span><span class="p">.</span><span class="nf">launch</span><span class="p">(</span><span class="nx">id</span><span class="p">)</span>
+        <span class="p">}</span>
+    <span class="p">},</span> <span class="mi">1</span><span class="o">*</span><span class="nx">time</span><span class="p">.</span><span class="nx">Nanosecond</span><span class="p">)</span> <span class="c1">//observing each element per 1 Nanosecond
+</span><span class="c1"></span>
+    <span class="k">for</span> <span class="nx">i</span> <span class="o">:=</span> <span class="mi">1</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;=</span> <span class="mi">10</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span> <span class="p">{</span>
+        <span class="nx">theArray</span> <span class="p">=</span> <span class="nb">append</span><span class="p">(</span><span class="nx">theArray</span><span class="p">,</span> <span class="nx">worker</span><span class="p">.</span><span class="nf">countdown</span><span class="p">(</span><span class="nx">i</span><span class="p">))</span>
+    <span class="p">}</span>
+
+    <span class="nx">wg</span><span class="p">.</span><span class="nf">Wait</span><span class="p">()</span>
+
+    <span class="nx">time</span><span class="p">.</span><span class="nf">Sleep</span><span class="p">(</span><span class="mi">1</span> <span class="o">*</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Second</span><span class="p">)</span>
+    <span class="nx">t</span><span class="p">.</span><span class="nf">Stop</span><span class="p">()</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Stop observer, and wait for 5 secs\nno worker will launched\n&#34;</span><span class="p">)</span>
+    <span class="nx">time</span><span class="p">.</span><span class="nf">Sleep</span><span class="p">(</span><span class="mi">5</span> <span class="o">*</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Second</span><span class="p">)</span>
+
+    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Ticker reset, continue observing&#34;</span><span class="p">)</span>
+    <span class="nx">t</span><span class="p">.</span><span class="nf">Reset</span><span class="p">(</span><span class="mi">1</span> <span class="o">*</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Nanosecond</span><span class="p">)</span>
+
+    <span class="nx">time</span><span class="p">.</span><span class="nf">Sleep</span><span class="p">(</span><span class="mi">3</span> <span class="o">*</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Second</span><span class="p">)</span>
+
+<span class="p">}</span>
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p><a href="https://play.golang.org/p/XjHrXUUVChF" target="_blank">Run the code</a>,</p>
 <div class="highlight"><div class="chroma">
@@ -583,6 +790,7 @@ if (!doNotTrack) {
 </span><span class="lnt">15
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">$ go run 
 </span></span><span class="line"><span class="cl">worker 8 is launched
 </span></span><span class="line"><span class="cl">worker 7 is launched
@@ -599,6 +807,24 @@ if (!doNotTrack) {
 </span></span><span class="line"><span class="cl">worker 4 is launched
 </span></span><span class="line"><span class="cl">worker 6 is launched
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">$ go run 
+worker 8 is launched
+worker 7 is launched
+worker 10 is launched
+worker 1 is launched
+worker 5 is launched
+worker 9 is launched
+Stop observer, and wait for 5 secs
+no worker will launched
+
+Ticker reset, continue observing
+worker 3 is launched
+worker 2 is launched
+worker 4 is launched
+worker 6 is launched
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>Hey, wait a sec! If we could reset and resume the ticker, then it means that the go-routine wasn&rsquo;t actually killed, right? the go-routine will be alive until the main thread is shutdown. Let&rsquo;s modified the code so we can kill the observer before the main thread is ended.</p>
 <div class="highlight"><div class="chroma">
@@ -632,6 +858,7 @@ if (!doNotTrack) {
 </span><span class="lnt">27
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">type</span> <span class="nx">observee</span> <span class="p">[]</span><span class="kt">string</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="p">(</span><span class="nx">o</span> <span class="o">*</span><span class="nx">observee</span><span class="p">)</span> <span class="nf">observer</span><span class="p">(</span><span class="nx">fn</span> <span class="kd">func</span><span class="p">(</span><span class="kt">int</span><span class="p">,</span> <span class="kt">string</span><span class="p">,</span> <span class="o">*</span><span class="nx">sync</span><span class="p">.</span><span class="nx">Mutex</span><span class="p">),</span> <span class="nx">td</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Duration</span><span class="p">)</span> <span class="p">(</span><span class="o">*</span><span class="nx">sync</span><span class="p">.</span><span class="nx">Mutex</span><span class="p">,</span> <span class="kd">chan</span><span class="o">&lt;-</span> <span class="kd">struct</span><span class="p">{})</span> <span class="p">{</span>
@@ -660,6 +887,36 @@ if (!doNotTrack) {
 </span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="o">&amp;</span><span class="nx">mu</span><span class="p">,</span> <span class="nx">done</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="kd">type</span> <span class="nx">observee</span> <span class="p">[]</span><span class="kt">string</span>
+
+<span class="kd">func</span> <span class="p">(</span><span class="nx">o</span> <span class="o">*</span><span class="nx">observee</span><span class="p">)</span> <span class="nf">observer</span><span class="p">(</span><span class="nx">fn</span> <span class="kd">func</span><span class="p">(</span><span class="kt">int</span><span class="p">,</span> <span class="kt">string</span><span class="p">,</span> <span class="o">*</span><span class="nx">sync</span><span class="p">.</span><span class="nx">Mutex</span><span class="p">),</span> <span class="nx">td</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Duration</span><span class="p">)</span> <span class="p">(</span><span class="o">*</span><span class="nx">sync</span><span class="p">.</span><span class="nx">Mutex</span><span class="p">,</span> <span class="kd">chan</span><span class="o">&lt;-</span> <span class="kd">struct</span><span class="p">{})</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">mu</span> <span class="nx">sync</span><span class="p">.</span><span class="nx">Mutex</span>
+    <span class="nx">done</span> <span class="o">:=</span> <span class="nb">make</span><span class="p">(</span><span class="kd">chan</span> <span class="kd">struct</span><span class="p">{})</span>
+    <span class="c1">//Start a go routine
+</span><span class="c1"></span>    <span class="k">go</span> <span class="kd">func</span><span class="p">(</span><span class="nx">mu</span> <span class="o">*</span><span class="nx">sync</span><span class="p">.</span><span class="nx">Mutex</span><span class="p">)</span> <span class="p">{</span>
+        <span class="c1">//Forever loop through each array element
+</span><span class="c1"></span>        <span class="nx">nextIdx</span> <span class="o">:=</span> <span class="mi">0</span>
+        <span class="k">for</span> <span class="p">{</span>
+            <span class="k">select</span> <span class="p">{</span>
+            <span class="k">case</span> <span class="o">&lt;-</span><span class="nx">done</span><span class="p">:</span>
+                <span class="k">return</span>
+            <span class="k">case</span> <span class="o">&lt;-</span><span class="nx">time</span><span class="p">.</span><span class="nf">NewTicker</span><span class="p">(</span><span class="nx">td</span><span class="p">).</span><span class="nx">C</span><span class="p">:</span>
+                <span class="k">if</span> <span class="nx">x</span> <span class="o">:=</span> <span class="o">*</span><span class="nx">o</span><span class="p">;</span> <span class="nx">x</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>
+                    <span class="nf">fn</span><span class="p">(</span><span class="nx">nextIdx</span><span class="p">,</span> <span class="nx">x</span><span class="p">[</span><span class="nx">nextIdx</span><span class="p">],</span> <span class="nx">mu</span><span class="p">)</span>
+                    <span class="nx">nextIdx</span><span class="o">++</span>
+                    <span class="k">if</span> <span class="nx">nextIdx</span> <span class="o">==</span> <span class="nb">len</span><span class="p">(</span><span class="nx">x</span><span class="p">)</span> <span class="p">{</span>
+                        <span class="nx">nextIdx</span> <span class="p">=</span> <span class="mi">0</span>
+                    <span class="p">}</span>
+                <span class="p">}</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">}(</span><span class="o">&amp;</span><span class="nx">mu</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="o">&amp;</span><span class="nx">mu</span><span class="p">,</span> <span class="nx">done</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>So instead of using the ticker, we&rsquo;re going to use a <code>done</code> channel to kill the observer,</p>
 <div class="highlight"><div class="chroma">
@@ -704,6 +961,7 @@ if (!doNotTrack) {
 </span><span class="lnt">38
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nx">theArray</span> <span class="nx">observee</span>
 </span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nx">wg</span> <span class="nx">sync</span><span class="p">.</span><span class="nx">WaitGroup</span>
@@ -743,6 +1001,47 @@ if (!doNotTrack) {
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">theArray</span> <span class="nx">observee</span>
+    <span class="kd">var</span> <span class="nx">wg</span> <span class="nx">sync</span><span class="p">.</span><span class="nx">WaitGroup</span>
+    <span class="nx">worker</span> <span class="o">:=</span> <span class="o">&amp;</span><span class="nx">work</span><span class="p">{</span>
+        <span class="nx">wg</span><span class="p">:</span> <span class="o">&amp;</span><span class="nx">wg</span><span class="p">,</span>
+    <span class="p">}</span>
+
+    <span class="nx">_</span><span class="p">,</span> <span class="nx">t</span> <span class="o">:=</span> <span class="nx">theArray</span><span class="p">.</span><span class="nf">observer</span><span class="p">(</span><span class="kd">func</span><span class="p">(</span><span class="nx">i</span> <span class="kt">int</span><span class="p">,</span> <span class="nx">v</span> <span class="kt">string</span><span class="p">,</span> <span class="nx">mu</span> <span class="o">*</span><span class="nx">sync</span><span class="p">.</span><span class="nx">Mutex</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">mu</span><span class="p">.</span><span class="nf">Lock</span><span class="p">()</span> <span class="c1">//Lock the process so there will be no leftover
+</span><span class="c1"></span>        <span class="k">if</span> <span class="nx">id</span><span class="p">,</span> <span class="nx">ok</span> <span class="o">:=</span> <span class="nx">worker</span><span class="p">.</span><span class="nf">ready</span><span class="p">(</span><span class="nx">v</span><span class="p">);</span> <span class="nx">ok</span> <span class="p">{</span>
+            <span class="nx">theArray</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="p">=</span> <span class="s">&#34;&#34;</span>
+            <span class="nx">worker</span><span class="p">.</span><span class="nf">launch</span><span class="p">(</span><span class="nx">id</span><span class="p">)</span>
+        <span class="p">}</span>
+        <span class="nx">mu</span><span class="p">.</span><span class="nf">Unlock</span><span class="p">()</span>
+    <span class="p">},</span> <span class="mi">1</span><span class="o">*</span><span class="nx">time</span><span class="p">.</span><span class="nx">Nanosecond</span><span class="p">)</span> <span class="c1">//observing each element per 1 Nanosecond
+</span><span class="c1"></span>
+    <span class="k">for</span> <span class="nx">i</span> <span class="o">:=</span> <span class="mi">1</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;=</span> <span class="mi">10</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span> <span class="p">{</span>
+        <span class="nx">theArray</span> <span class="p">=</span> <span class="nb">append</span><span class="p">(</span><span class="nx">theArray</span><span class="p">,</span> <span class="nx">worker</span><span class="p">.</span><span class="nf">countdown</span><span class="p">(</span><span class="nx">i</span><span class="p">))</span>
+    <span class="p">}</span>
+
+    <span class="nx">wg</span><span class="p">.</span><span class="nf">Wait</span><span class="p">()</span>
+
+    <span class="nx">time</span><span class="p">.</span><span class="nf">Sleep</span><span class="p">(</span><span class="mi">1</span> <span class="o">*</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Second</span><span class="p">)</span>
+    <span class="nx">t</span> <span class="o">&lt;-</span> <span class="kd">struct</span><span class="p">{}{}</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Stop observer, and wait for 5 secs\nno worker will launched\n&#34;</span><span class="p">)</span>
+    <span class="nx">time</span><span class="p">.</span><span class="nf">Sleep</span><span class="p">(</span><span class="mi">5</span> <span class="o">*</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Second</span><span class="p">)</span>
+
+    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Append another worker to array, there will be no observer to launch the worker&#34;</span><span class="p">)</span>
+    <span class="k">for</span> <span class="nx">i</span> <span class="o">:=</span> <span class="mi">11</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;=</span> <span class="mi">13</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span> <span class="p">{</span>
+        <span class="nx">theArray</span> <span class="p">=</span> <span class="nb">append</span><span class="p">(</span><span class="nx">theArray</span><span class="p">,</span> <span class="nx">worker</span><span class="p">.</span><span class="nf">countdown</span><span class="p">(</span><span class="nx">i</span><span class="p">))</span>
+    <span class="p">}</span>
+
+    <span class="nx">time</span><span class="p">.</span><span class="nf">Sleep</span><span class="p">(</span><span class="mi">5</span> <span class="o">*</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Second</span><span class="p">)</span>
+
+    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Failed to launch:&#34;</span><span class="p">)</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">theArray</span><span class="p">)</span>
+
+<span class="p">}</span>
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p><a href="https://play.golang.org/p/K5fdj8WswQD" target="_blank">Run the code</a>, as you see, the observer doesn&rsquo;t launch any worker when the appending is resumed.</p>
 <div class="highlight"><div class="chroma">
@@ -761,6 +1060,7 @@ if (!doNotTrack) {
 </span><span class="lnt">12
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">$ go run
 </span></span><span class="line"><span class="cl">worker 10 is launched
 </span></span><span class="line"><span class="cl">worker 8 is launched
@@ -774,6 +1074,21 @@ if (!doNotTrack) {
 </span></span><span class="line"><span class="cl">Failed to launch:
 </span></span><span class="line"><span class="cl">[ 2-2-1615865175011360000 3-2-1615865175011362000 4-4-1615865175011362000 5-1-1615865175011363000 6-3-1615865175011373000 11-4-1615865181014639000 12-1-1615865181014644000 13-2-1615865181014645000]
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">$ go run
+worker 10 is launched
+worker 8 is launched
+worker 7 is launched
+worker 9 is launched
+worker 1 is launched
+Stop observer, and wait for 5 secs
+no worker will launched
+
+Append another worker to array, there will be no observer to launch the worker
+Failed to launch:
+[ 2-2-1615865175011360000 3-2-1615865175011362000 4-4-1615865175011362000 5-1-1615865175011363000 6-3-1615865175011373000 11-4-1615865181014639000 12-1-1615865181014644000 13-2-1615865181014645000]
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>Ok, we&rsquo;re not done yet, as you see that the observer is only listening to changes that occurred from the main thread, the <code>func main()</code>, What if the observer must listen to changes from multiple routines? Let&rsquo;s give it a try.</p>
 <div class="highlight"><div class="chroma">
@@ -810,6 +1125,7 @@ if (!doNotTrack) {
 </span><span class="lnt">30
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nx">theArray</span> <span class="nx">observee</span>
 </span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nx">wg</span> <span class="nx">sync</span><span class="p">.</span><span class="nx">WaitGroup</span>
@@ -841,6 +1157,39 @@ if (!doNotTrack) {
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">theArray</span> <span class="nx">observee</span>
+    <span class="kd">var</span> <span class="nx">wg</span> <span class="nx">sync</span><span class="p">.</span><span class="nx">WaitGroup</span>
+    <span class="nx">worker</span> <span class="o">:=</span> <span class="o">&amp;</span><span class="nx">work</span><span class="p">{</span>
+        <span class="nx">wg</span><span class="p">:</span> <span class="o">&amp;</span><span class="nx">wg</span><span class="p">,</span>
+    <span class="p">}</span>
+
+    <span class="nx">mu</span><span class="p">,</span> <span class="nx">t</span> <span class="o">:=</span> <span class="nx">theArray</span><span class="p">.</span><span class="nf">observer</span><span class="p">(</span><span class="kd">func</span><span class="p">(</span><span class="nx">i</span> <span class="kt">int</span><span class="p">,</span> <span class="nx">v</span> <span class="kt">string</span><span class="p">,</span> <span class="nx">mu</span> <span class="o">*</span><span class="nx">sync</span><span class="p">.</span><span class="nx">Mutex</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">mu</span><span class="p">.</span><span class="nf">Lock</span><span class="p">()</span>
+        <span class="k">if</span> <span class="nx">id</span><span class="p">,</span> <span class="nx">ok</span> <span class="o">:=</span> <span class="nx">worker</span><span class="p">.</span><span class="nf">ready</span><span class="p">(</span><span class="nx">v</span><span class="p">);</span> <span class="nx">ok</span> <span class="p">{</span>
+            <span class="nx">theArray</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="p">=</span> <span class="s">&#34;&#34;</span>
+            <span class="nx">worker</span><span class="p">.</span><span class="nf">launch</span><span class="p">(</span><span class="nx">id</span><span class="p">)</span>
+        <span class="p">}</span>
+        <span class="nx">mu</span><span class="p">.</span><span class="nf">Unlock</span><span class="p">()</span>
+    <span class="p">},</span> <span class="mi">1</span><span class="o">*</span><span class="nx">time</span><span class="p">.</span><span class="nx">Nanosecond</span><span class="p">)</span> <span class="c1">//observing each element per 1 Nanosecond
+</span><span class="c1"></span>
+    <span class="k">for</span> <span class="nx">i</span> <span class="o">:=</span> <span class="mi">1</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;=</span> <span class="mi">10</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span> <span class="p">{</span>
+        <span class="k">go</span> <span class="kd">func</span><span class="p">(</span><span class="nx">mu</span> <span class="o">*</span><span class="nx">sync</span><span class="p">.</span><span class="nx">Mutex</span><span class="p">,</span> <span class="nx">i</span> <span class="kt">int</span><span class="p">)</span> <span class="p">{</span>
+            <span class="nx">mu</span><span class="p">.</span><span class="nf">Lock</span><span class="p">()</span>
+            <span class="nx">theArray</span> <span class="p">=</span> <span class="nb">append</span><span class="p">(</span><span class="nx">theArray</span><span class="p">,</span> <span class="nx">worker</span><span class="p">.</span><span class="nf">countdown</span><span class="p">(</span><span class="nx">i</span><span class="p">))</span>
+            <span class="nx">mu</span><span class="p">.</span><span class="nf">Unlock</span><span class="p">()</span>
+        <span class="p">}(</span><span class="nx">mu</span><span class="p">,</span> <span class="nx">i</span><span class="p">)</span>
+    <span class="p">}</span>
+
+    <span class="nx">wg</span><span class="p">.</span><span class="nf">Wait</span><span class="p">()</span>
+
+    <span class="nx">time</span><span class="p">.</span><span class="nf">Sleep</span><span class="p">(</span><span class="mi">5</span> <span class="o">*</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Second</span><span class="p">)</span>
+    <span class="nx">t</span> <span class="o">&lt;-</span> <span class="kd">struct</span><span class="p">{}{}</span>
+
+<span class="p">}</span>
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p><a href="https://play.golang.org/p/yiMjZv3V7bx" target="_blank">Run the code</a> I guess it went well too, as you see that I&rsquo;m using <code>mu.Lock()</code> and <code>mu.Unlock()</code> before and after appending <code>theArray</code> feel free to comment those lines and see what happened.</p>
 <div class="highlight"><div class="chroma">
@@ -858,6 +1207,7 @@ if (!doNotTrack) {
 </span><span class="lnt">11
 </span></code></pre></td>
 <td class="lntd">
+<<<<<<< HEAD
 <pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">$ go run 
 </span></span><span class="line"><span class="cl">worker 2 is launched
 </span></span><span class="line"><span class="cl">worker 6 is launched
@@ -870,6 +1220,20 @@ if (!doNotTrack) {
 </span></span><span class="line"><span class="cl">worker 1 is launched
 </span></span><span class="line"><span class="cl">worker 8 is launched
 </span></span></code></pre></td></tr></table>
+=======
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">$ go run 
+worker 2 is launched
+worker 6 is launched
+worker 4 is launched
+worker 9 is launched
+worker 5 is launched
+worker 3 is launched
+worker 10 is launched
+worker 7 is launched
+worker 1 is launched
+worker 8 is launched
+</code></pre></td></tr></table>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
 </div>
 </div><p>Ok, that’s a wrap. If you have any questions, suggestions or if I made a mistake, don’t hesitate to poke me on Twitter or email.</p>
 
@@ -907,8 +1271,13 @@ if (!doNotTrack) {
   </footer>
   
 </article></main>
+<<<<<<< HEAD
 <footer class="footer" aria-hidden="true">
   <span>&copy; 2009 - 2022 <a href="https://khal.web.id/" style="speak:none;">Khalid&#39;s Blog</a></span>
+=======
+<footer class="footer">
+  <span>&copy; 2009 - 2022 <a href="https://khal.web.id/">Khalid&#39;s Blog</a></span>
+>>>>>>> a40cce886f56df1fa0cd94f1050732bcc952edbb
   <span>&middot;</span>
   <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank" style="speak:none;">Hugo️️</a>️</span>
 </footer>
