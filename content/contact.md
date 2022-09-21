@@ -1,52 +1,49 @@
 ---
 author: "Khalid Adisendjaja"
-title: "Hi! It's me Khalid"
+title: "Hi! Welcome to Khalid's contact page"
 layout: "page"
 #image: "/images/sidebar.jpg"
 ---
 {{< rawhtml >}}
-<style>
-    .findme li {
-        margin-bottom:20px;
-    }
-    </style>
-<ul class="findme" style="list-style:none;">
-    <li>
-    <div style="margin-bottom:20px;font-size:2rem;">
-<h5>Looking for me? Reach me by</h5>
+<style>.findme li {margin-bottom:20px;}</style>
+   
+<div style="margin-bottom:20px;font-size:2rem;line-height:0.6em;">
+    <span style="font-size: 0.5em;font-weight: bold;" tabindex="0" aria-label="Tap any button below to reach me by, See you later!">Tap any button below to reach me by, <span style="display:inline-block;">See you later!</span></span>
 </div>
-    </li>
+<div>   
+<ul class="findme" style="list-style:none;" tabindex="-1">
     <li>
-        <button class="clickme gmail-clr" href="mailto:contact@khal.web.id" target="_blank" onclick="location.href='mailto:contact@khal.web.id'" tabindex="1">
+        <button class="clickme gmail-clr" href="mailto:contact@khal.web.id" target="_blank" onclick="location.href='mailto:contact@khal.web.id'" aria-label="Send Me Email">
            Send Me Email
         </button>
     </li>
     <li>
-        <button class="clickme whatsapp-clr" href="whatsapp://send?phone=+62818228467&text=Hi!%20" target="_blank" onclick="location.href='whatsapp://send?phone=+62818228467&text=Hi!%20'" tabindex="2">
-            Whatsapp!
+        <button class="clickme whatsapp-clr" href="whatsapp://send?phone=+62818228467" target="_blank" onclick="location.href='whatsapp://send?phone=+62818228467'" aria-label="Chat Me on Whatsapp">
+            Chat Me on Whatsapp
         </button>
     </li>
     <li>
-        <button class="clickme telegram-clr" href="https://t.me/khalidity" target="_blank" onclick="location.href='https://t.me/khalidity'" tabindex="3">
-            Telegram!
+        <button class="clickme telegram-clr" href="https://t.me/khalidity" target="_blank" onclick="location.href='https://t.me/khalidity'" aria-label="Chat Me on Telegram">
+            Chat Me on Telegram
         </button>
     </li>
     <li>
-        <button class="clickme twitter-clr" href="https://twitter.com/messages/compose?recipient_id=14636911&text=Hi,%20" target="_blank" onclick="location.href='https://twitter.com/messages/compose?recipient_id=14636911&text=Hi,%20'" tabindex="4">
-            Tweet!
+        <button class="clickme twitter-clr" aria-label="Message me on Twitter" href="https://twitter.com/messages/compose?recipient_id=14636911" target="_blank" onclick="location.href='https://twitter.com/messages/compose?recipient_id=14636911'" >
+            Message Me on Twitter
         </button>
     </li>
     <li>
-        <button class="clickme android-clr" href="sms:+62818228467" target="_blank" onclick="location.href='sms:+62818228467'" tabindex="5">
-            Send me SMS! <br/>
+        <button class="clickme android-clr" aria-label="Send Me SMS, and I'll call back later" href="sms:+62818228467" target="_blank" onclick="location.href='sms:+62818228467'" >
+            Send me SMS<br/>
             <span style="font-size:0.7em">I'll call back later</span>
         </button>
     </li>
     <li>
-        <button class="clickme android-clr" href="tel:+62818228467" target="_blank" onclick="location.href='tel:+62818228467'" tabindex="6">
-            Gimme a call! <br/>
-            <span style="font-size:0.7em">Contact exchange needed</span>
+        <button class="clickme android-clr" aria-label="Gimme a call, note: contact exchange needed" href="tel:+62818228467" target="_blank" onclick="location.href='tel:+62818228467'" >
+            Gimme a call<br/>
+            <span style="font-size:0.7em">Note: Contact exchange needed</span>
         </button>
     </li>
 </ul>
+</div>
 {{< /rawhtml >}}
