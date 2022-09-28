@@ -10,8 +10,7 @@ layout: "page"
 <div style="margin-bottom:20px;font-size:2rem;line-height:0.6em;">
     <span style="font-size: 0.5em;font-weight: bold;" tabindex="0" aria-label="Tap any button below to reach me by, See you later!">Tap any button below to reach me by, <span style="display:inline-block;">See you later!</span></span>
 </div>
-<div>   
-<ul class="findme" style="list-style:none;" tabindex="-1">
+<ul class="findme" style="list-style:none;" tabindex="-1" aria-label="List of buttons">
     <li>
         <button class="clickme gmail-clr" href="mailto:contact@khal.web.id" target="_blank" onclick="location.href='mailto:contact@khal.web.id'" aria-label="Send Me Email">
            Send Me Email
@@ -45,5 +44,4 @@ layout: "page"
         </button>
     </li>
 </ul>
-</div>
 {{< /rawhtml >}}
