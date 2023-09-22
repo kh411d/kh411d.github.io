@@ -343,6 +343,9 @@ img {
 .icon-image:before {
   content: "\f102";
 }
+.icon-youtube:before {
+  content:"\f213";
+}
 
 /* Main
 -------------------------------------------------- */
