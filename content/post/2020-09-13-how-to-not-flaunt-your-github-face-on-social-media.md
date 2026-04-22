@@ -33,7 +33,7 @@ It makes more sense right? Yes, because the image that I used is kinda telling a
 
 On the Github repository setting, you may upload your image on the __Social preview__ option, images should be at least 640x320px (1280x640px for best display), after the image uploaded, try your repo link first on the URL linter correspond to social media that you are willing to use.
 
-- [Twitter Card Validator](https://cards-dev.twitter.com/validator)
+- [Twitter Card Validator](https://cards-dev.x.com/validator)
 - [Facebook URL Linter](https://developers.facebook.com/tools/debug/)
 - [Linkedin Post Inspector](https://www.linkedin.com/post-inspector/)
 

@@ -25,7 +25,7 @@ Pebble sebenarnya ditujukan sebagai pendamping/sidekick untuk pengguna IPhone/An
 5. [LetsMuv](http://letsmuv.com/)  
  Nah ini buat orang yg pengen banget punya gadget kaya Fitbit ato Nike fuel band app yg satu ini kayaknya cocok banget, meskipun masih dalam versi beta 2 tapi aplikasi ini akan melakukan tracking movement pengguna dan mengkalkulasi kalori yg sudah terbuang.
 6. [Bawrista](http://forums.getpebble.com/discussion/4625/watch-app-2-0-bawrista)  
- Buat pecinta kopi dan punya alat yg namanya [Aeropress](http://aerobie.com/products/aeropress.htm) (\*Buat bikin espresso gitu deh, kurang gitu tau gw... maklum gw cuman tau cara minumnya doang, buat lebih jelas tanya aja [@tukangkopi](https://twitter.com/tukangkopi)) jadi aplikasi ini bisa digunakan sebagai timer untuk steeping dan pressing pada saat menggunakan Aeropress.
+ Buat pecinta kopi dan punya alat yg namanya [Aeropress](http://aerobie.com/products/aeropress.htm) (\*Buat bikin espresso gitu deh, kurang gitu tau gw... maklum gw cuman tau cara minumnya doang, buat lebih jelas tanya aja [@tukangkopi](https://x.com/tukangkopi)) jadi aplikasi ini bisa digunakan sebagai timer untuk steeping dan pressing pada saat menggunakan Aeropress.
 7. [Watchface](mypebblefaces.com)  
  Watchface adalah bisa dibilang tampilan jam pada saat standby, jadi watchface pada pebble sangat dimungkinkan untuk di custom, klo dilihat dari website ini mypebblefaces.com lo bisa download tampilan yg unik dan lucu2x kayak akoh gitu deh hehe (\*peace)
 

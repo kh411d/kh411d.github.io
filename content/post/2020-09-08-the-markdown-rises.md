@@ -268,7 +268,7 @@ You may use either an absolute or relative path
 ```
 ### Links `<a/>`
 ```text
-[Check out my Twitter @khalidity](https://twitter.com/khalidity)
+[Check out my Twitter @khalidity](https://x.com/khalidity)
 ```
 ### Reference-style links `<a/>`
 

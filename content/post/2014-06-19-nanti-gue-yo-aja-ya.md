@@ -28,4 +28,4 @@ Misal contoh seperti dibawah,
 
 Sumpah nih aplikasi antara penting dan ga penting tapi sebenernya sih .... ga tau deh ... binun gw juga, penggunaan miss call pun sebenernya skarang juga udah jarang banget, tapi ya coba aja dulu, gratis juga :)
 
-Intinya adalah para developer Yo ini hanya ingin menyerderhanakan cara komunikasi yang tidak bertele-tele, silakan cek akun twitter Yo di [@YoAppStatus](http://twitter.com/YoAppStatus)
+Intinya adalah para developer Yo ini hanya ingin menyerderhanakan cara komunikasi yang tidak bertele-tele, silakan cek akun twitter Yo di [@YoAppStatus](http://x.com/YoAppStatus)

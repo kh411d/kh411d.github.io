@@ -2,20 +2,19 @@ baseURL: https://khal.web.id/
 disablePathToLower: true
 languageCode: en-us
 title: Khalid's Blog
-Author:
-  name: Khalid Adisendjaja
-  email: contact@khal.web.id
 DefaultContentLanguage: "en"
 enableInlineShortcodes: true
 permalinks:
   post: /:year/:month/:day/:title/
 params:
+  author:
+    name: Khalid Adisendjaja
+    email: contact@khal.web.id
   description: "to code is to mess, to write is to keep"
   AuthorName: "Khalid Adisendjaja"
   GitHubUser: "kh411d"
   SidebarRecentLimit: 5
   cover: "/images/sidebar.jpg"
-  author: "Khalid Adisendjaja"
   authorlocation: "Jakarta, Indonesia"
   authorwebsite: "https://khal.web.id"
   authorbio: "a #Coder with a bit #InfoJunkie, proud #Muslim and also #Indonesian"
@@ -30,7 +29,7 @@ params:
   #hjsStyle: "default"
   baseURL: "https://khal.web.id/"
   summaryLength: 70
-#disqusShortname: khal-web-id
+  #disqusShortname: khal-web-id
 theme: paper
 enableEmoji: true
 #summaryLength: 70

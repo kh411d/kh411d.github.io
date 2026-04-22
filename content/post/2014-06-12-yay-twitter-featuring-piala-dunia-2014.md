@@ -9,7 +9,7 @@ url: /2014/06/12/yay-twitter-featuring-piala-dunia-2014/
 image: /images/twitterworldcup2014.jpg
 ---
 
-Sepertinya untuk Piala Dunia 2014 ini, Twitter benar-benar memberikan wadah pada para tweeps untuk turut menyemarakan suasana piala dunia di sisi online digital social media, bisa dilihat pada tampilan home terbaru dari Twitter.com versi website, di bagian sidebar sebelah kanan sudah tersedia jadwal pertandingan dan para pengguna twitter bisa memantau pertandingan lewat twitter hashtag yang sudah disediakan oleh twitter,
+Sepertinya untuk Piala Dunia 2014 ini, Twitter benar-benar memberikan wadah pada para tweeps untuk turut menyemarakan suasana piala dunia di sisi online digital social media, bisa dilihat pada tampilan home terbaru dari x.com versi website, di bagian sidebar sebelah kanan sudah tersedia jadwal pertandingan dan para pengguna twitter bisa memantau pertandingan lewat twitter hashtag yang sudah disediakan oleh twitter,
 
 ![twitter_wc1](/images/twitter_wc11.jpg)
 
@@ -35,4 +35,4 @@ Untuk versi official Twitter mobile app (Android,Iphone) Twitter menyediakan fit
 
 ![IMG_20140613_022553](/images/IMG_20140613_022553.jpg)
 
-Gitu deh, ga punya tivi ... yaaaa ... having fun aja nonton worldcup di Twitter, cekidot <https://twitter.com/hashtag/worldcup>
+Gitu deh, ga punya tivi ... yaaaa ... having fun aja nonton worldcup di Twitter, cekidot <https://x.com/hashtag/worldcup>
