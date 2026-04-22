@@ -1,73 +1,56 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>cybersecurity on Khalid&#39;s Blog</title>
+    <title>Cybersecurity on Khalid&#39;s Blog</title>
     <link>https://khal.web.id/tags/cybersecurity/</link>
-    <description>Recent content in cybersecurity on Khalid&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Cybersecurity on Khalid&#39;s Blog</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
     <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
-    <lastBuildDate>Sun, 19 Apr 2015 08:42:06 +0700</lastBuildDate><atom:link href="https://khal.web.id/tags/cybersecurity/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Apr 2015 08:42:06 +0700</lastBuildDate>
+    <atom:link href="https://khal.web.id/tags/cybersecurity/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ulah nakal ISP praktik clickjacking</title>
       <link>https://khal.web.id/2015/04/19/ulah-nakal-isp-praktik-browser-frame-busting/</link>
-      <pubDate>Sun, 19 Apr 2015 08:42:06 +0700</pubDate>
-      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <pubDate>Sun, 19 Apr 2015 08:42:06 +0700</pubDate><author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2015/04/19/ulah-nakal-isp-praktik-browser-frame-busting/</guid>
-      <description>Beberapa ISP di indonesia tanpa konsumen sadari sebenarnya sangat sering melakukan praktik clickjacking hampir di semua website yg konsumen kunjungi, alasan ISP melakukan hal ini tidak lain adalah penempatan iklan gratis dari ISP tersebut tanpa sepengetahuan si empunya website.
-Lalu, bagaimanakah cara kerja clickjacking ini? Ketika user mengunjungi sebuah website misal &amp;ldquo;Forbes .com&amp;rdquo;, ISP akan membungkus &amp;ldquo;Forbes .com&amp;rdquo; dalam sebuah iframe yang lalu ditampilkan pada browser user, bagian luar iframe biasanya akan menampilkan baner iklan liar dari ISP tersebut.</description>
+      <description>&lt;p&gt;Beberapa ISP di indonesia tanpa konsumen sadari sebenarnya sangat sering melakukan praktik &lt;em&gt;clickjacking&lt;/em&gt; hampir di semua website yg konsumen kunjungi, alasan ISP melakukan hal ini tidak lain adalah penempatan iklan gratis dari ISP tersebut tanpa sepengetahuan si empunya website.&lt;/p&gt;&#xA;&lt;p&gt;Lalu, bagaimanakah cara kerja &lt;em&gt;clickjacking&lt;/em&gt; ini? Ketika &lt;em&gt;user&lt;/em&gt; mengunjungi sebuah website misal &amp;ldquo;Forbes .com&amp;rdquo;, ISP akan membungkus &amp;ldquo;Forbes .com&amp;rdquo; dalam sebuah &lt;em&gt;iframe&lt;/em&gt; yang lalu ditampilkan pada browser &lt;em&gt;user&lt;/em&gt;, bagian luar iframe biasanya akan menampilkan baner iklan liar dari ISP tersebut.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Amankah login dengan akun sosial media pada aplikasi lain?</title>
       <link>https://khal.web.id/2014/05/28/aplikasi-3rd-party-facebookpaypaldll-aman-gituh-lo-harus-tahu/</link>
-      <pubDate>Wed, 28 May 2014 13:08:25 +0700</pubDate>
-      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <pubDate>Wed, 28 May 2014 13:08:25 +0700</pubDate><author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2014/05/28/aplikasi-3rd-party-facebookpaypaldll-aman-gituh-lo-harus-tahu/</guid>
-      <description>Tentunya banyak dari kamu yang menggunakan aplikasi dengan opsi untuk login menggunakan beberapa akun sosial media yang kamu miliki seperti facebook, twitter, google, linkedin dll. Misal ketika kamu login menggunakan facebook, dalam prosesnya, biasanya pengguna akan dialihkan ke halaman login facebook agar kamu bisa memberikan izin otorisasi, akhirnya facebook akan memberikan access token yang kemudian mengalihkan kamu kembali kepada aplikasi tersebut.
-https://www.facebook.com/dialog/oauth?client_id=app-id&amp;amp;redirect_uri=http://app-site.com
-Proses pengalihan/redirecting inilah yang menjadi celah yang memungkinkan para attacker mendapatkan data login pengguna, jika kamu lihat url diatas, attacker mungkin saja merekonstruksi link menjadi,</description>
+      <description>&lt;p&gt;Tentunya banyak dari kamu yang menggunakan aplikasi dengan opsi untuk login menggunakan beberapa akun sosial media yang kamu miliki seperti facebook, twitter, google, linkedin dll. Misal ketika kamu login menggunakan facebook, dalam prosesnya, biasanya pengguna akan dialihkan ke halaman login facebook agar kamu bisa memberikan izin otorisasi, akhirnya facebook akan memberikan &lt;strong&gt;access token&lt;/strong&gt; yang kemudian mengalihkan kamu kembali kepada aplikasi tersebut.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;https://www.facebook.com/dialog/oauth?client_id=app-id&amp;amp;redirect_uri=http://app-site.com&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Proses pengalihan/&lt;em&gt;redirecting&lt;/em&gt; inilah yang menjadi celah yang memungkinkan para &lt;em&gt;attacker&lt;/em&gt; mendapatkan data login pengguna, jika kamu lihat url diatas, &lt;em&gt;attacker&lt;/em&gt; mungkin saja merekonstruksi link menjadi,&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Internet geger gegara HeartBleed [BUG] </title>
       <link>https://khal.web.id/2014/04/11/internet-geger-gegara-heartbleed-bugs/</link>
-      <pubDate>Fri, 11 Apr 2014 08:51:42 +0700</pubDate>
-      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <pubDate>Fri, 11 Apr 2014 08:51:42 +0700</pubDate><author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2014/04/11/internet-geger-gegara-heartbleed-bugs/</guid>
-      <description>2 atau 3 hari yang lalu sekitar 66% website di seluruh dunia sempat geger dengan adanya bug pada OpenSSL (*yaitu sebuah software kriptografi yang banyak dipakai di sekian banyak aplikasi website dan berguna untuk melindungi data koneksi pengguna ketika sedang melakukan aktivitas internet)
-Ada beberapa pihak yang menyalahgunakan bug ini untuk mencuri data-data pengguna internet yang bisa berupa password, kartu kredit, email, dll. Beberapa situs besar seperti Yahoo-pun terkena dampaknya, sebuah perusahaan security men-demokan mencuri username dan password, dengan menggunakan Heartbleed script.</description>
+      <description>&lt;p&gt;2 atau 3 hari yang lalu sekitar 66% website di seluruh dunia sempat geger dengan adanya &lt;em&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Software_bug&#34; target=&#34;_blank&#34;&gt;bug&lt;/a&gt;&lt;/em&gt; pada &lt;em&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Openssl&#34; target=&#34;_blank&#34;&gt;OpenSSL&lt;/a&gt;&lt;/em&gt; (*yaitu sebuah software kriptografi yang banyak dipakai di sekian banyak aplikasi website dan berguna untuk melindungi data koneksi pengguna ketika sedang melakukan aktivitas internet)&lt;/p&gt;&#xA;&lt;p&gt;Ada beberapa pihak yang menyalahgunakan bug ini untuk mencuri data-data pengguna internet yang bisa berupa password, kartu kredit, email, dll. Beberapa situs besar seperti Yahoo-pun terkena dampaknya, sebuah &lt;a href=&#34;http://www.cnet.com/news/heartbleed-bug-undoes-web-encryption-reveals-user-passwords/&#34; target=&#34;_blank&#34;&gt;perusahaan security men-demokan mencuri username dan password&lt;/a&gt;, dengan menggunakan Heartbleed script. Ada beberapa website lokal seperti Kaskus juga mengalami hal ini.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Hati-hati domain &#34;.com.com&#34;</title>
       <link>https://khal.web.id/2014/04/01/hati-hati-domain-com-com/</link>
-      <pubDate>Tue, 01 Apr 2014 05:09:39 +0700</pubDate>
-      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <pubDate>Tue, 01 Apr 2014 05:09:39 +0700</pubDate><author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2014/04/01/hati-hati-domain-com-com/</guid>
-      <description>Hati-hati sama domain yang namanya &amp;ldquo;*.com.com&amp;rdquo; gue gak tau kenapa, percaya gak percaya ini domain bisa exist, domain yg satu ini bisa sangat mirip sama domain &amp;ldquo;*.com&amp;rdquo;, ya secara TLD .com penggunaan terbesar sejagad internet.
-Bahayanya adalah domain &amp;ldquo;*.com.com&amp;rdquo; adalah senjata typo paling ampuh, contoh misalnya lo dapat referensi email user@yahoo.com.com ato mungkin phising twitter.com.com atau misal lo mau donlot update dari microsoft.com.com huahahahaaa soalnya kebanyakan orang gak sadar dan mengira domain itu sama-lah seperti domain &amp;ldquo;.</description>
+      <description>&lt;p&gt;Hati-hati sama domain yang namanya &amp;ldquo;*.com.com&amp;rdquo; gue gak tau kenapa, percaya gak percaya ini domain bisa exist, domain yg satu ini bisa sangat mirip sama domain &amp;ldquo;*.com&amp;rdquo;, ya secara TLD .com penggunaan terbesar sejagad internet.&lt;/p&gt;&#xA;&lt;p&gt;Bahayanya adalah domain &amp;ldquo;*.com.com&amp;rdquo; adalah senjata typo paling ampuh, contoh misalnya lo dapat referensi email &lt;strong&gt;&lt;a href=&#34;mailto:user@yahoo.com.com&#34;&gt;user@yahoo.com.com&lt;/a&gt;&lt;/strong&gt; ato mungkin &lt;em&gt;&lt;a href=&#34;http://khalidadisendjaja.web.id/2013/11/07/mari-berbagi-soal-privasi-di-sosial-media-online/&#34; target=&#34;_blank&#34;&gt;phising&lt;/a&gt;&lt;/em&gt; &lt;strong&gt;x.com.com&lt;/strong&gt; atau misal lo mau donlot update dari &lt;strong&gt;microsoft.com.com&lt;/strong&gt; huahahahaaa soalnya kebanyakan orang gak sadar dan mengira domain itu sama-lah seperti domain &amp;ldquo;.com&amp;rdquo;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Hardening your password and yet still easy to remember it</title>
       <link>https://khal.web.id/2014/01/15/hardening-your-password-and-yet-still-easy-to-remember-it/</link>
-      <pubDate>Wed, 15 Jan 2014 12:16:53 +0700</pubDate>
-      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <pubDate>Wed, 15 Jan 2014 12:16:53 +0700</pubDate><author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2014/01/15/hardening-your-password-and-yet-still-easy-to-remember-it/</guid>
-      <description>A password is a key for accessing your online properties on the internet. Many people like your friends, brothers, or maybe your colleague been using an easy guess password, such as his dog name, mother name, his last name, or maybe the very most favorite everyone password 12345. The easier a password to remember, the easier for an attacker to guess.
-Please don&amp;rsquo;t use Just hackme password. There are so many ways how people could easily guess your password, as easy as looking behind your shoulder while you&amp;rsquo;re typing a password at the computer or maybe an ATM machine, according to Wikipedia this is called Shoulder Surfing</description>
+      <description>&lt;p&gt;A password is a key for accessing your online properties on the internet. Many people like your friends, brothers, or maybe your colleague been using an easy guess password, such as his dog name, mother name, his last name, or maybe the very most favorite everyone password 12345. The easier a password to remember, the easier for an attacker to guess.&lt;/p&gt;&#xA;&lt;p&gt;Please don&amp;rsquo;t use &lt;strong&gt;&lt;a href=&#34;http://www.nytimes.com/2010/01/21/technology/21password.html?_r=0&#34; target=&#34;_blank&#34;&gt;Just hackme&lt;/a&gt;&lt;/strong&gt; password. There are so many ways how people could easily guess your password, as easy as looking behind your shoulder while you&amp;rsquo;re typing a password at the computer or maybe an ATM machine, according to Wikipedia this is called &lt;strong&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Shoulder_surfing_%28computer_security%29&#34; target=&#34;_blank&#34;&gt;Shoulder Surfing&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Mari berbagi soal Privasi di Sosial Media Online</title>
       <link>https://khal.web.id/2013/11/07/mari-berbagi-soal-privasi-di-sosial-media-online/</link>
-      <pubDate>Thu, 07 Nov 2013 07:21:35 +0700</pubDate>
-      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <pubDate>Thu, 07 Nov 2013 07:21:35 +0700</pubDate><author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2013/11/07/mari-berbagi-soal-privasi-di-sosial-media-online/</guid>
-      <description>Sebelum kita ngomongin soal privasi di sosial media online, tentunya kita harus tau dulu bentukan dari sosial media itu atau &amp;ldquo;Apa sih sosial media itu?&amp;rdquo;, sebenernya mudah saja untuk semua orang mendefinisikan artian dari sosial media (*baca: SosMed), tapi pada intinya SosMed adalah sebuah wadah dimana semua member/pengguna/partisipan bisa membangun relasi dan koneksi dengan member lain, tempat dimana kita bisa selalu terhubung dengan teman2x, menjalin hubungan baru, berbagi interest dan ide.</description>
+      <description>&lt;p&gt;Sebelum kita ngomongin soal privasi di sosial media online, tentunya kita harus tau dulu bentukan dari sosial media itu atau &amp;ldquo;Apa sih sosial media itu?&amp;rdquo;, sebenernya mudah saja untuk semua orang mendefinisikan artian dari sosial media (*baca: SosMed), tapi pada intinya SosMed adalah sebuah wadah dimana semua member/pengguna/partisipan bisa membangun relasi dan koneksi dengan member lain, tempat dimana kita bisa selalu terhubung dengan teman2x, menjalin hubungan baru, berbagi interest dan ide. Namun, banyak orang selain teman-teman dan kenalan tertarik pada informasi yang kita kirimkan ke sosial media, contoh sederhana yg mungkin kita sering dengar seperti pencurian identitas, penipuan kartu kredit, &lt;em&gt;stalkers,&lt;/em&gt; atau mungkin data pribadi kita dipergunakan untuk keperluan advertising sebuah brand2x ternama. Perlu diketahui juga bahwa sosial media menyimpan informasi jauh di &lt;em&gt;server&lt;/em&gt; mereka, bukan di komputer pribadi pengguna.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

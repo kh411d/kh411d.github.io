@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>clickjacking on Khalid&#39;s Blog</title>
+    <title>Clickjacking on Khalid&#39;s Blog</title>
     <link>https://khal.web.id/tags/clickjacking/</link>
-    <description>Recent content in clickjacking on Khalid&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Clickjacking on Khalid&#39;s Blog</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
     <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
-    <lastBuildDate>Sun, 19 Apr 2015 08:42:06 +0700</lastBuildDate><atom:link href="https://khal.web.id/tags/clickjacking/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Apr 2015 08:42:06 +0700</lastBuildDate>
+    <atom:link href="https://khal.web.id/tags/clickjacking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ulah nakal ISP praktik clickjacking</title>
       <link>https://khal.web.id/2015/04/19/ulah-nakal-isp-praktik-browser-frame-busting/</link>
-      <pubDate>Sun, 19 Apr 2015 08:42:06 +0700</pubDate>
-      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <pubDate>Sun, 19 Apr 2015 08:42:06 +0700</pubDate><author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2015/04/19/ulah-nakal-isp-praktik-browser-frame-busting/</guid>
-      <description>Beberapa ISP di indonesia tanpa konsumen sadari sebenarnya sangat sering melakukan praktik clickjacking hampir di semua website yg konsumen kunjungi, alasan ISP melakukan hal ini tidak lain adalah penempatan iklan gratis dari ISP tersebut tanpa sepengetahuan si empunya website.
-Lalu, bagaimanakah cara kerja clickjacking ini? Ketika user mengunjungi sebuah website misal &amp;ldquo;Forbes .com&amp;rdquo;, ISP akan membungkus &amp;ldquo;Forbes .com&amp;rdquo; dalam sebuah iframe yang lalu ditampilkan pada browser user, bagian luar iframe biasanya akan menampilkan baner iklan liar dari ISP tersebut.</description>
+      <description>&lt;p&gt;Beberapa ISP di indonesia tanpa konsumen sadari sebenarnya sangat sering melakukan praktik &lt;em&gt;clickjacking&lt;/em&gt; hampir di semua website yg konsumen kunjungi, alasan ISP melakukan hal ini tidak lain adalah penempatan iklan gratis dari ISP tersebut tanpa sepengetahuan si empunya website.&lt;/p&gt;&#xA;&lt;p&gt;Lalu, bagaimanakah cara kerja &lt;em&gt;clickjacking&lt;/em&gt; ini? Ketika &lt;em&gt;user&lt;/em&gt; mengunjungi sebuah website misal &amp;ldquo;Forbes .com&amp;rdquo;, ISP akan membungkus &amp;ldquo;Forbes .com&amp;rdquo; dalam sebuah &lt;em&gt;iframe&lt;/em&gt; yang lalu ditampilkan pada browser &lt;em&gt;user&lt;/em&gt;, bagian luar iframe biasanya akan menampilkan baner iklan liar dari ISP tersebut.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

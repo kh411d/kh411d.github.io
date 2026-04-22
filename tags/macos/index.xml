@@ -1,33 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>macos on Khalid&#39;s Blog</title>
+    <title>Macos on Khalid&#39;s Blog</title>
     <link>https://khal.web.id/tags/macos/</link>
-    <description>Recent content in macos on Khalid&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Macos on Khalid&#39;s Blog</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
     <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
-    <lastBuildDate>Thu, 25 Jan 2018 00:40:18 +0700</lastBuildDate><atom:link href="https://khal.web.id/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Jan 2018 00:40:18 +0700</lastBuildDate>
+    <atom:link href="https://khal.web.id/tags/macos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rusty Macbook Air getting new Air from Archlinux</title>
       <link>https://khal.web.id/2018/01/25/Rusty-Macbook-Air-getting-new-Air-from-Archlinux/</link>
-      <pubDate>Thu, 25 Jan 2018 00:40:18 +0700</pubDate>
-      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <pubDate>Thu, 25 Jan 2018 00:40:18 +0700</pubDate><author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2018/01/25/Rusty-Macbook-Air-getting-new-Air-from-Archlinux/</guid>
-      <description>Today I accidentally deleted my primary OSX partition from my very old MacBook air 4,2 (2011) with the last installed os was el Capitan. From the beginning, I just want to give my MacBook some extra space but it turns out cleaning all the HDD &amp;hellip;LOL, I seriously don&amp;rsquo;t know how in the hell this could happen, this is a lesson for not to clean your HDD in the middle of the night.</description>
+      <description>&lt;p&gt;Today I accidentally deleted my primary OSX partition from my very old MacBook air 4,2 (2011) with the last installed os was el Capitan. From the beginning, I just want to give my MacBook some extra space but it turns out cleaning all the HDD &amp;hellip;LOL, I seriously don&amp;rsquo;t know how in the hell this could happen, this is a lesson for not to clean your HDD in the middle of the night.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Nge-mix Android di Macbook/PC</title>
       <link>https://khal.web.id/2016/01/25/nge-mix-android-di-macbookpc/</link>
-      <pubDate>Mon, 25 Jan 2016 13:02:42 +0700</pubDate>
-      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <pubDate>Mon, 25 Jan 2016 13:02:42 +0700</pubDate><author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2016/01/25/nge-mix-android-di-macbookpc/</guid>
-      <description>Mungkin banyak yg sudah pada tahu kelebihan Android ini, tetapi kebanyakan orang terbiasa tahu bahwa android hanya running di henpon, tablet, IOT devices, atau mini PC dengan USB stick.
-Meskipun bisa di install di banyak device, akan tetapi Operating System yang terinstall pun adalah notabene sama seperti yg kita lihat pada android phone/tablet kebanyakan, misal meski bernama android mini PC, OS yg terinstall pun adalah varian untuk tablet device.
-Berawal dari sebuah company bernama JIDE Technology yg diusung oleh 3 ex-Google membuat sebuah OS bernama Remix OS berdasarkan project open source Android-X86.</description>
+      <description>&lt;p&gt;Mungkin banyak yg sudah pada tahu kelebihan Android ini, tetapi kebanyakan orang terbiasa tahu bahwa android hanya running di henpon, tablet, IOT devices, atau mini PC dengan USB stick.&lt;/p&gt;&#xA;&lt;p&gt;Meskipun bisa di install di banyak device, akan tetapi Operating System yang terinstall pun adalah notabene sama seperti yg kita lihat pada android phone/tablet kebanyakan, misal meski bernama android mini PC, OS yg terinstall pun adalah varian untuk tablet device.&lt;/p&gt;&#xA;&lt;p&gt;Berawal dari sebuah company bernama JIDE Technology yg diusung oleh 3 ex-Google membuat sebuah OS bernama Remix OS berdasarkan project open source Android-X86.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

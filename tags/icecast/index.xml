@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>icecast on Khalid&#39;s Blog</title>
+    <title>Icecast on Khalid&#39;s Blog</title>
     <link>https://khal.web.id/tags/icecast/</link>
-    <description>Recent content in icecast on Khalid&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Icecast on Khalid&#39;s Blog</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
     <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
-    <lastBuildDate>Tue, 12 Aug 2014 05:04:45 +0700</lastBuildDate><atom:link href="https://khal.web.id/tags/icecast/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Aug 2014 05:04:45 +0700</lastBuildDate>
+    <atom:link href="https://khal.web.id/tags/icecast/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to get realtime Now Playing info from Ice Cast</title>
       <link>https://khal.web.id/2014/08/12/how-to-get-realtime-now-playing-info-from-ice-cast/</link>
-      <pubDate>Tue, 12 Aug 2014 05:04:45 +0700</pubDate>
-      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <pubDate>Tue, 12 Aug 2014 05:04:45 +0700</pubDate><author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2014/08/12/how-to-get-realtime-now-playing-info-from-ice-cast/</guid>
-      <description>Getting a #NowPlaying info from your Ice Cast 2 server is pretty dead simple. You can get current track information from scrapping the XSPF url periodically by using CURL command. Here I&amp;rsquo;m going to explain how it works, I&amp;rsquo;m going to make a short javascript code to periodically update the current playing track and a simple php script to curl the xspf endpoint.
- Locate your Ice Cast Server url, usually it will look like this http://xxx.</description>
+      <description>&lt;p&gt;Getting a #NowPlaying info from your Ice Cast 2 server is pretty dead simple. You can get current track information from scrapping the XSPF url periodically by using CURL command. Here I&amp;rsquo;m going to explain how it works, I&amp;rsquo;m going to make a short javascript code to periodically update the current playing track and a simple php script to curl the xspf endpoint.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Locate your Ice Cast Server url, usually it will look like this &lt;code&gt;http://xxx.xxx.xxx.xxx:8000/status.xsl&lt;/code&gt;, check your mount point, ex: &lt;code&gt;/mount&lt;/code&gt;. So your xspf url will be &lt;code&gt;http://xxx.xxx.xxx.xxx:8000/mount.xspf&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;figure&gt;&#xA;    &lt;img src=&#34;https://khal.web.id/images/Screen_Shot_2014-08-12_at_11_33_32_AM.jpg&#34; alt=&#34;Screen_Shot_2014-08-12_at_11_33_32_AM&#34;&gt;&#xA;    &lt;figcaption style=&#34;font-size:0.6em&#34;&gt;&lt;/figcaption&gt;&#xA;  &lt;/figure&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

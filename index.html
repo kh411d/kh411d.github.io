@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     
-    <meta name="twitter:title" content=""/>
-    <meta name="twitter:description" content="to code is to mess, to write is to keep"/>
-    <meta name="twitter:site" content="@khalidity"/>
+    <meta name="x:title" content=""/>
+    <meta name="x:description" content="to code is to mess, to write is to keep"/>
+    <meta name="x:site" content="@"/>
     
     
     
       
-        <meta name="twitter:card" content="summary_large_image"/>
-        <meta name="twitter:image" content="https://khal.web.id/images/sidebar.jpg"/>
+        <meta name="x:card" content="summary_large_image"/>
+        <meta name="x:image" content="https://khal.web.id/images/sidebar.jpg"/>
       
     
 
@@ -64,69 +64,30 @@
     <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <meta name="generator" content="Hugo 0.92.0" />
+    <meta name="generator" content="Hugo 0.160.1">
     
     <link rel="alternate" type="application/rss+xml" href="https://khal.web.id/index.xml" title="Khalid's Blog" />
     
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-8671044-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LG0R68E43H"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-LG0R68E43H');
+</script>
     
     <script src="https://khal.web.id/bundle.js"></script>
     <script src="https://khal.web.id/lazyload.min.js"></script>
+    <script>
+      async function getGravatarProfile(){try{let e=await fetch("https://api.gravatar.com/v3/profiles/khalidity",{method:"GET",headers:{Authorization:"Bearer 8648:gk-9GJROwPfjaGLcF2yZ6krpE-MNjoKm1qjSc_NctPmCmqqOGAK-2wD6y9BSWS0Z","Content-Type":"application/json"}});if(!e.ok)throw Error("Profile not found");let a=await e.json(),t=document.querySelector("ul.menu");t.insertAdjacentHTML("beforeend",`<li><a class="logo" href="mailto:`+a.contact_info.email+`" target="_blank"><img src="https://secure.gravatar.com/icons/mail.svg" alt="email" style="width:5em;height:5em;"></a></li>`),a.verified_accounts.forEach(e=>{e.is_hidden||t.insertAdjacentHTML("beforeend",`<li><a class="logo" href="`+e.url+`" target="_blank"><img src="`+e.service_icon+'" alt="'+e.service_label+`" style="width:5em;height:5em;"></a></li>`)})}catch(r){console.error("Error fetching Gravatar:",r)}}
+    </script>
   </head>
-  <body class="list home">
-    <header class="header">
+  <body class="list home" onload="getGravatarProfile()">
+    <header class="header" >
       <nav class="nav">
-        <a class="logo" href="https://khal.web.id/"><img src="/images/logo.jpeg" alt="Home" style="speak:none;" /></a>
+        <a class="logo" href="https://khal.web.id/"><img src="https://gravatar.com/avatar/715dbdfe1973e789f70625174e56c99c4b8bb1d0c3c1cb2d9c39b512be0e1ecd" alt="Home" style="speak:none;" /></a>
         <ul class="menu">
-          
-          <li>
-              <a class="logo" href="mailto:contact@khal.web.id" target="_blank">
-                  <span class="icon-mail" style="color:var(--primary);font-size:2em;text-shadow: 0 0 5px white;"></span>
-              </a>
-          </li>
-          
-          <li>
-            <a class="logo" href="https://www.linkedin.com/in/khalidadisendjaja" target="_blank">
-              <span class="icon-linkedin" style="color:var(--primary);font-size:2em;text-shadow: 0 0 5px white;"></span>
-          </a>
-          </li>
-
-          
-          <li>
-              <a class="logo" href="https://github.com/kh411d" target="_blank">
-              <span class="icon-github" style="color:var(--primary);font-size:2em;text-shadow: 0 0 5px white;"></span>
-              </a>
-            </li>
-          
-
-          
-          <li>
-            <a class="logo" href="https://twitter.com/khalidity" target="_blank">
-                  <span class="icon-twitter" style="color:var(--primary);font-size:2em;text-shadow: 0 0 5px white;"></span>
-              </a>
-            </li>
-          
-
-          
-
-          
-          
-          <li>
-            <a class="logo" href="https://www.eyeem.com/u/khalidity/photos" target="_blank">
-                  <span class="icon-image" style="color:var(--primary);font-size:2em;text-shadow: 0 0 5px white;"></span>
-              </a>
-          </li>
-          
         </ul>
       </nav>
     </header>
@@ -138,7 +99,8 @@ if (!doNotTrack) {
   </header>
   <section class="entry-content">
    <p>Nowadays, a 3D printer is pretty much common among hobbyists, there are now many kinds of 3D printers, you can choose which one could print the fastest, big volume, low maintenance, sophisticated, etc. People can also make a living by opening a 3D printing service from their garage/basement.
-But, most likely, for people like me with a tight budget and got lazy to do all the maintenance and etc. Well, I guess it’s easier to just order it from any local 3D printing service I could find....</p>
+But, most likely, for people like me with a tight budget and got lazy to do all the maintenance and etc. Well, I guess it’s easier to just order it from any local 3D printing service I could find.
+...</p>
   </section>
   <footer class="entry-footer">
     <time>March 22, 2022</time>
@@ -193,13 +155,53 @@ But, most likely, for people like me with a tight budget and got lazy to do all 
   </footer>
   <a class="entry-link" href="https://khal.web.id/2020/10/08/how-is-surging-remote-work-taking-its-ripple-effect/"></a>
 </article>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/nzcovidtracercover.jpg)">
+  <footer class="entry-footer">
+    <h3>Quite useful QR scans overcome Coronavirus in The World</h3>
+    <time>October 2, 2020</time>
+  </footer>
+  <a class="entry-link" href="https://khal.web.id/2020/10/02/quite-useful-qr-scans-overcome-coronavirus-in-the-world/"></a>
+</article>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/compactphonecover.jpg)">
+  <footer class="entry-footer">
+    <h3>No Good Compact Phone is The Best Option</h3>
+    <time>September 30, 2020</time>
+  </footer>
+  <a class="entry-link" href="https://khal.web.id/2020/09/30/no-good-compact-phone-is-the-best-option/"></a>
+</article>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/cloudgamingcover2.jpg)">
+  <footer class="entry-footer">
+    <h3>Cloud gaming soar, how is it matters?</h3>
+    <time>September 28, 2020</time>
+  </footer>
+  <a class="entry-link" href="https://khal.web.id/2020/09/28/cloud-gaming-soar-how-is-it-matters/"></a>
+</article>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/gopherdockersea.jpg)">
+  <footer class="entry-footer">
+    <h3>Practical Rest Api in Go on Cheap Serverless</h3>
+    <time>September 26, 2020</time>
+  </footer>
+  <a class="entry-link" href="https://khal.web.id/2020/09/26/practical-rest-api-in-go-on-cheap-serverless/"></a>
+</article>
+
+<article class="post-entry lazy" data-bg-multi="linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(/images/smileywallcover.jpg)">
+  <footer class="entry-footer">
+    <h3>Emoji in Actions during this 2020 Awkwardness</h3>
+    <time>September 24, 2020</time>
+  </footer>
+  <a class="entry-link" href="https://khal.web.id/2020/09/24/emoji-in-actions-during-this-2020-awkwardness/"></a>
+</article>
 <footer class="page-footer">
   <nav class="pagination">
     <a class="next" href="/page/2/">Next Page →</a>
   </nav>
 </footer></main>
 <footer class="footer" aria-hidden="true" tabindex="-1">
-  <span>&copy; 2009 - 2022 <a href="https://khal.web.id/" tabindex="-1">Khalid&#39;s Blog</a></span>
+  <span>&copy; 2009 - 2026 <a href="https://khal.web.id/" tabindex="-1">Khalid&#39;s Blog</a></span>
   <span>&middot;</span>
   <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank" tabindex="-1">Hugo️️</a>️</span>
 </footer>

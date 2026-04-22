@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>security on Khalid&#39;s Blog</title>
+    <title>Security on Khalid&#39;s Blog</title>
     <link>https://khal.web.id/tags/security/</link>
-    <description>Recent content in security on Khalid&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Security on Khalid&#39;s Blog</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
     <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
-    <lastBuildDate>Sat, 02 May 2015 08:50:00 +0700</lastBuildDate><atom:link href="https://khal.web.id/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 May 2015 08:50:00 +0700</lastBuildDate>
+    <atom:link href="https://khal.web.id/tags/security/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Android On-Body phone lock, pinter juga neh!</title>
       <link>https://khal.web.id/2015/05/02/android-on-body-phone-lock-pinter-juga-neh/</link>
-      <pubDate>Sat, 02 May 2015 08:50:00 +0700</pubDate>
-      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <pubDate>Sat, 02 May 2015 08:50:00 +0700</pubDate><author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2015/05/02/android-on-body-phone-lock-pinter-juga-neh/</guid>
-      <description>Tentunya penting buat kita semua untuk menjaga privasi dan keamanan henpon pribadi entah dari kelalaian kita sendiri atau tangan-tangan usil lainnya.
-Oleh karena itulah pada umumnya setiap henpon memiliki beberapa sistem keamanan dan salah satunya adalah Lock Screen system, yang berguna untuk mengunci henpon pengguna dengan sebuah PIN atau Pattern matching ketika henpon sedang berada dalam kondisi tidak digunakan.
-Pernahkah kamu pada suatu waktu sedang menggunakan henpon, diselingi dengan mengobrol dengan teman atau bermain game puzzle yg perlu mikir lama atau kegiatan lainnya, lalu kemudian henpon dengan sendirinya mengunci, karena ketika kita sedang mengobrol dengan teman, henpon masuk dalam keadaan idle atau sedang tidak digunakan.</description>
+      <description>&lt;p&gt;Tentunya penting buat kita semua untuk menjaga privasi dan keamanan henpon pribadi entah dari kelalaian kita sendiri atau tangan-tangan usil lainnya.&lt;/p&gt;&#xA;&lt;p&gt;Oleh karena itulah pada umumnya setiap henpon memiliki beberapa sistem keamanan dan salah satunya adalah Lock Screen system, yang berguna untuk mengunci henpon pengguna dengan sebuah PIN atau Pattern matching ketika henpon sedang berada dalam kondisi tidak digunakan.&lt;/p&gt;&#xA;&lt;p&gt;Pernahkah kamu pada suatu waktu sedang menggunakan henpon, diselingi dengan mengobrol dengan teman atau bermain game puzzle yg perlu mikir lama atau kegiatan lainnya, lalu kemudian henpon dengan sendirinya mengunci, karena ketika kita sedang mengobrol dengan teman, henpon masuk dalam keadaan idle atau sedang tidak digunakan.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

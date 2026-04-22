@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ghost on Khalid&#39;s Blog</title>
+    <title>Ghost on Khalid&#39;s Blog</title>
     <link>https://khal.web.id/tags/ghost/</link>
-    <description>Recent content in ghost on Khalid&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Ghost on Khalid&#39;s Blog</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
     <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
-    <lastBuildDate>Thu, 17 Oct 2013 07:42:15 +0700</lastBuildDate><atom:link href="https://khal.web.id/tags/ghost/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Oct 2013 07:42:15 +0700</lastBuildDate>
+    <atom:link href="https://khal.web.id/tags/ghost/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ada media blogging terbaru namanya ghost, ngintip yuk!</title>
       <link>https://khal.web.id/2013/10/17/ada-media-blogging-terbaru-namanya-ghost/</link>
-      <pubDate>Thu, 17 Oct 2013 07:42:15 +0700</pubDate>
-      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <pubDate>Thu, 17 Oct 2013 07:42:15 +0700</pubDate><author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2013/10/17/ada-media-blogging-terbaru-namanya-ghost/</guid>
-      <description>Mungkin beberapa dari lo, sudah mendengar soal media blogging yang satu ini, Ghost pertama kali dicetuskan oleh John O&amp;rsquo;Nolan anggota dari Core Wordpress UI team. Berawal dari sebuah thread pada Hacker News membicarakan bagaimana sih seharusnya media blogging platform itu.
-Karena banyak mendapat respon yang cukup tinggi, proyek ini dimulai dengan menggunakan sebuah crowdfunding platform Kickstarter di pertengahan tahun 2013 untuk mencari seberapa besarkah minat para blogger.
-Hasil akhir dari crowdfunding tersebut cukup memuaskan, ada sekitar kurang lebih 5000 backers dan terkumpul dana sekitar US$190K ternyata masih banyak user yang memang membutuhkan sebuah media blogging yang memang hanya dikhususkan untuk blogging.</description>
+      <description>&lt;p&gt;Mungkin beberapa dari lo, sudah mendengar soal media blogging yang satu ini, &lt;strong&gt;Ghost&lt;/strong&gt; pertama kali dicetuskan oleh John O&amp;rsquo;Nolan anggota dari Core Wordpress UI team. Berawal dari sebuah thread pada &lt;a href=&#34;http://news.ycombinator.com/item?id=4743245&#34; title=&#34;Rethinking Wordpress&#34; target=&#34;_blank&#34;&gt;Hacker News&lt;/a&gt; membicarakan bagaimana sih seharusnya media blogging platform itu.&lt;/p&gt;&#xA;&lt;p&gt;Karena banyak mendapat respon yang cukup tinggi, proyek ini dimulai dengan menggunakan sebuah crowdfunding platform &lt;a href=&#34;http://www.kickstarter.com/projects/johnonolan/ghost-just-a-blogging-platform&#34; title=&#34;Ghost Kickstarter&#34; target=&#34;_blank&#34;&gt;Kickstarter&lt;/a&gt; di pertengahan tahun 2013 untuk mencari seberapa besarkah minat para blogger.&lt;/p&gt;&#xA;&lt;p&gt;Hasil akhir dari crowdfunding tersebut cukup memuaskan, ada sekitar kurang lebih 5000 backers dan terkumpul dana sekitar US$190K ternyata masih banyak user yang memang membutuhkan sebuah media blogging yang memang hanya dikhususkan untuk blogging.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ie6 on Khalid&#39;s Blog</title>
+    <title>Ie6 on Khalid&#39;s Blog</title>
     <link>https://khal.web.id/tags/ie6/</link>
-    <description>Recent content in ie6 on Khalid&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Ie6 on Khalid&#39;s Blog</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
     <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
-    <lastBuildDate>Mon, 04 May 2009 11:22:20 +0700</lastBuildDate><atom:link href="https://khal.web.id/tags/ie6/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 May 2009 11:22:20 +0700</lastBuildDate>
+    <atom:link href="https://khal.web.id/tags/ie6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PNG fix for IE</title>
       <link>https://khal.web.id/2009/05/04/PNG-fix-for-IE/</link>
-      <pubDate>Mon, 04 May 2009 11:22:20 +0700</pubDate>
-      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <pubDate>Mon, 04 May 2009 11:22:20 +0700</pubDate><author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2009/05/04/PNG-fix-for-IE/</guid>
-      <description>Thanks to Angus Turnbull who made this fix and made PNG image looks good on IE, these are two files that you need to implement,
- iepngfix.htc iepngfix_tilebg.js  Usage Include iepngfix.htc on your css style file
-&amp;lt;pre name=&amp;quot;code&amp;quot; class=&amp;quot;css&amp;quot; &amp;gt; *html img, *html #anydivid { behavior: url(style/iepngfix.htc); border:0; padding:0; } &amp;lt;/pre&amp;gt;  include this iepngfix_tilebg.js on you html header, it&amp;rsquo;s support transparent image on background position and repeat.
-More complete detail &amp;hellip; you can check his website http://www.</description>
+      <description>&lt;p&gt;Thanks to Angus Turnbull who made this fix and made PNG image looks good on IE, these are two files that you need to implement,&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://code.google.com/p/widgetfx/source/browse/widgetfx.org/iepngfix.htc&#34; target=&#34;_blank&#34;&gt;iepngfix.htc&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://code.google.com/p/widgetfx/source/browse/widgetfx.org/iepngfix%5c_tilebg.js?r=144&#34; target=&#34;_blank&#34;&gt;iepngfix_tilebg.js&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;usage&#34;&gt;Usage&lt;/h3&gt;&#xA;&lt;p&gt;Include iepngfix.htc on your css style file&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;&amp;lt;pre name=&amp;quot;code&amp;quot; class=&amp;quot;css&amp;quot; &amp;gt;  &#xA;    *html img, *html #anydivid {  &#xA;    behavior: url(style/iepngfix.htc);  &#xA;    border:0;  &#xA;    padding:0; }  &#xA;&amp;lt;/pre&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;include this &lt;code&gt;iepngfix_tilebg.js&lt;/code&gt; on you html header, it&amp;rsquo;s support transparent image on background position and repeat.&lt;/p&gt;&#xA;&lt;p&gt;More complete detail &amp;hellip; you can check his website &lt;a href=&#34;http://www.twinhelix.com/css/iepngfix/&#34; target=&#34;_blank&#34;&gt;http://www.twinhelix.com/css/iepngfix/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

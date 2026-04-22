@@ -4,9 +4,10 @@
     <title>Categories on Khalid&#39;s Blog</title>
     <link>https://khal.web.id/categories/</link>
     <description>Recent content in Categories on Khalid&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
-    <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster><atom:link href="https://khal.web.id/categories/index.xml" rel="self" type="application/rss+xml" />
+    <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
+    <atom:link href="https://khal.web.id/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

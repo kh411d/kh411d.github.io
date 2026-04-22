@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     
-    <meta name="twitter:title" content="Practical Rest Api in Go on Cheap Serverless"/>
-    <meta name="twitter:description" content="By doing serverless and FAAS, you will have more focus on shipping code instead of worrying about the servers or runtimes. It simplifies your infrastructure stack, cheaper pricing model, auto-scale, and ease of use.
+    <meta name="x:title" content="Practical Rest Api in Go on Cheap Serverless"/>
+    <meta name="x:description" content="By doing serverless and FAAS, you will have more focus on shipping code instead of worrying about the servers or runtimes. It simplifies your infrastructure stack, cheaper pricing model, auto-scale, and ease of use.
 But it sometimes often makes extensive use of third-party services (such as databases, auth services, message queues, caching, searching, etc) So, bear in mind that your code is only a function which works when it&rsquo;s paired with other functions."/>
-    <meta name="twitter:site" content="@khalidity"/>
+    <meta name="x:site" content="@"/>
     
     
     
       
-      <meta name="twitter:card" content="summary_large_image"/>
-      <meta name="twitter:image" content="https://khal.web.id/images/gopherdockersea.jpg"/>
+      <meta name="x:card" content="summary_large_image"/>
+      <meta name="x:image" content="https://khal.web.id/images/gopherdockersea.jpg"/>
     
 
   	<meta property="og:title" content="Khalid&#39;s Blog" />
@@ -79,76 +79,37 @@ But it sometimes often makes extensive use of third-party services (such as data
     <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <meta name="generator" content="Hugo 0.92.0" />
+    <meta name="generator" content="Hugo 0.160.1">
     
     
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-8671044-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LG0R68E43H"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-LG0R68E43H');
+</script>
     
       <script async defer src="https://buttons.github.io/buttons.js"></script>
     
     <script src="https://khal.web.id/bundle.js"></script>
     <script src="https://khal.web.id/lazyload.min.js"></script>
+    <script>
+      async function getGravatarProfile(){try{let e=await fetch("https://api.gravatar.com/v3/profiles/khalidity",{method:"GET",headers:{Authorization:"Bearer 8648:gk-9GJROwPfjaGLcF2yZ6krpE-MNjoKm1qjSc_NctPmCmqqOGAK-2wD6y9BSWS0Z","Content-Type":"application/json"}});if(!e.ok)throw Error("Profile not found");let a=await e.json(),t=document.querySelector("ul.menu");t.insertAdjacentHTML("beforeend",`<li><a class="logo" href="mailto:`+a.contact_info.email+`" target="_blank"><img src="https://secure.gravatar.com/icons/mail.svg" alt="email" style="width:5em;height:5em;"></a></li>`),a.verified_accounts.forEach(e=>{e.is_hidden||t.insertAdjacentHTML("beforeend",`<li><a class="logo" href="`+e.url+`" target="_blank"><img src="`+e.service_icon+'" alt="'+e.service_label+`" style="width:5em;height:5em;"></a></li>`)})}catch(r){console.error("Error fetching Gravatar:",r)}}
+    </script>
   </head>
-  <body class="single">
-    <header class="header lazy post-head"data-bg="/images/gopherdockersea.jpg">
+  <body class="single" onload="getGravatarProfile()">
+    <header class="header" >
       <nav class="nav">
-        <a class="logo" href="https://khal.web.id/"><img src="/images/logo.jpeg" alt="Home" style="speak:none;" /></a>
+        <a class="logo" href="https://khal.web.id/"><img src="https://gravatar.com/avatar/715dbdfe1973e789f70625174e56c99c4b8bb1d0c3c1cb2d9c39b512be0e1ecd" alt="Home" style="speak:none;" /></a>
         <ul class="menu">
-          
-          <li>
-              <a class="logo" href="mailto:contact@khal.web.id" target="_blank">
-                  <span class="icon-mail" style="color:var(--primary);font-size:2em;text-shadow: 0 0 5px white;"></span>
-              </a>
-          </li>
-          
-          <li>
-            <a class="logo" href="https://www.linkedin.com/in/khalidadisendjaja" target="_blank">
-              <span class="icon-linkedin" style="color:var(--primary);font-size:2em;text-shadow: 0 0 5px white;"></span>
-          </a>
-          </li>
-
-          
-          <li>
-              <a class="logo" href="https://github.com/kh411d" target="_blank">
-              <span class="icon-github" style="color:var(--primary);font-size:2em;text-shadow: 0 0 5px white;"></span>
-              </a>
-            </li>
-          
-
-          
-          <li>
-            <a class="logo" href="https://twitter.com/khalidity" target="_blank">
-                  <span class="icon-twitter" style="color:var(--primary);font-size:2em;text-shadow: 0 0 5px white;"></span>
-              </a>
-            </li>
-          
-
-          
-
-          
-          
-          <li>
-            <a class="logo" href="https://www.eyeem.com/u/khalidity/photos" target="_blank">
-                  <span class="icon-image" style="color:var(--primary);font-size:2em;text-shadow: 0 0 5px white;"></span>
-              </a>
-          </li>
-          
         </ul>
       </nav>
     </header>
     <main class="main">     
 <article class="post-single">
-  <header class="post-header">
+  <header class="post-header pakehome">
     <h1 class="post-title">Practical Rest Api in Go on Cheap Serverless</h1>
     <div class="post-meta">Khalid Adisendjaja · September 26, 2020</div>
   </header><div class="sticky-container">
@@ -158,8 +119,8 @@ if (!doNotTrack) {
                 <clap-it style="width:2.2em;height:2.2em;fill:grey;stroke:grey;color:grey;margin:14px auto;" api="https://clapi.vercel.app/api/handler"/>
             </li>
             <li class="ml-1 mr-1">
-            <a target="_blank" href="https://twitter.com/intent/tweet?text=Practical%20Rest%20Api%20in%20Go%20on%20Cheap%20Serverless %23serverless  %23golang  %23rest-api  %23netlify  %23vercel  %23flyio &url=https%3a%2f%2fkhal.web.id%2f2020%2f09%2f26%2fpractical-rest-api-in-go-on-cheap-serverless%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=435');return false;">
-            <i class="icon-twitter" style="font-size:1.8em"></i>
+            <a target="_blank" href="https://x.com/intent/x?text=Practical%20Rest%20Api%20in%20Go%20on%20Cheap%20Serverless %23serverless  %23golang  %23rest-api  %23netlify  %23vercel  %23flyio &url=https%3a%2f%2fkhal.web.id%2f2020%2f09%2f26%2fpractical-rest-api-in-go-on-cheap-serverless%2f" onclick="window.open(this.href, 'x-share', 'width=550,height=435');return false;">
+            <i class="icon-x" style="font-size:1.8em"></i>
             </a>
             </li>
             
@@ -181,7 +142,7 @@ if (!doNotTrack) {
 <h3 id="why-choose-go">Why choose Go?</h3>
 <p>Go have advantages on the packaging system, cross-platform compilation, and easy deployment. Go compiles to machine code, so it natively runs on the host machine. Go also have built-in <em>goroutines</em> that make it easy to do concurrent requests. <a href="https://dave.cheney.net/2016/12/22/never-start-a-goroutine-without-knowing-how-it-will-stop" target="_blank">We can benefit from Go concurrency to keep a small memory footprint and short runtime</a> that relate to the provider&rsquo;s runtime and memory limits.</p>
 <h3 id="the-code">The Code</h3>
-<h2 id="hahahugoshortcode-s0-hbhb">
+<h2 id="hahahugoshortcode81s0hbhb">
 
 
 
@@ -245,11 +206,11 @@ Fork the repository
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="c1">//ServeHTTP net/http handler
-</span><span class="c1"></span><span class="kd">func</span> <span class="nf">ServeHTTP</span><span class="p">(</span><span class="nx">w</span> <span class="nx">http</span><span class="p">.</span><span class="nx">ResponseWriter</span><span class="p">,</span> <span class="nx">r</span> <span class="o">*</span><span class="nx">http</span><span class="p">.</span><span class="nx">Request</span><span class="p">)</span> <span class="p">{</span>
-    <span class="o">...</span> 
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="cp">//ServeHTTP net/http handler</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="kd">func</span><span class="w"> </span><span class="nf">ServeHTTP</span><span class="p">(</span><span class="nx">w</span><span class="w"> </span><span class="nx">http</span><span class="p">.</span><span class="nx">ResponseWriter</span><span class="p">,</span><span class="w"> </span><span class="nx">r</span><span class="w"> </span><span class="o">*</span><span class="nx">http</span><span class="p">.</span><span class="nx">Request</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="o">...</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="p">}</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>And another one to serve AWS Lambda RPC <em>(Remote Procedure Call)</em></p>
 <div class="highlight"><div class="chroma">
@@ -260,11 +221,11 @@ Fork the repository
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="c1">//ServeLambda AWS lambda event handler
-</span><span class="c1"></span><span class="kd">func</span> <span class="nf">ServeLambda</span><span class="p">(</span><span class="nx">r</span> <span class="nx">events</span><span class="p">.</span><span class="nx">APIGatewayProxyRequest</span><span class="p">)</span> <span class="p">(</span><span class="o">*</span><span class="nx">events</span><span class="p">.</span><span class="nx">APIGatewayProxyResponse</span><span class="p">,</span> <span class="kt">error</span><span class="p">)</span> <span class="p">{</span>
-    <span class="o">...</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="cp">//ServeLambda AWS lambda event handler</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="kd">func</span><span class="w"> </span><span class="nf">ServeLambda</span><span class="p">(</span><span class="nx">r</span><span class="w"> </span><span class="nx">events</span><span class="p">.</span><span class="nx">APIGatewayProxyRequest</span><span class="p">)</span><span class="w"> </span><span class="p">(</span><span class="o">*</span><span class="nx">events</span><span class="p">.</span><span class="nx">APIGatewayProxyResponse</span><span class="p">,</span><span class="w"> </span><span class="kt">error</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="o">...</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">}</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>So now let see the main package, <code>/main.go</code>, it will check <code>AWS_LAMBDA_FUNCTION_NAME</code> variable whether to serve Http or AWS Lambda RPC.</p>
 <div class="highlight"><div class="chroma">
@@ -280,16 +241,16 @@ Fork the repository
 </span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-	<span class="k">if</span> <span class="nx">os</span><span class="p">.</span><span class="nf">Getenv</span><span class="p">(</span><span class="s">&#34;AWS_LAMBDA_FUNCTION_NAME&#34;</span><span class="p">)</span> <span class="o">==</span> <span class="s">&#34;&#34;</span> <span class="p">{</span>
-		<span class="nx">http</span><span class="p">.</span><span class="nf">HandleFunc</span><span class="p">(</span><span class="s">&#34;/&#34;</span><span class="p">,</span> <span class="nx">api</span><span class="p">.</span><span class="nx">ServeHTTP</span><span class="p">)</span>
-		<span class="nx">http</span><span class="p">.</span><span class="nf">ListenAndServe</span><span class="p">(</span><span class="s">&#34;:3000&#34;</span><span class="p">,</span> <span class="kc">nil</span><span class="p">)</span>
-	<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-		<span class="c1">// Make the handler available for Remote Procedure Call by AWS Lambda
-</span><span class="c1"></span>		<span class="nx">lambda</span><span class="p">.</span><span class="nf">Start</span><span class="p">(</span><span class="nx">api</span><span class="p">.</span><span class="nx">ServeLambda</span><span class="p">)</span>
-	<span class="p">}</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">func</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="k">if</span><span class="w"> </span><span class="nx">os</span><span class="p">.</span><span class="nf">Getenv</span><span class="p">(</span><span class="s">&#34;AWS_LAMBDA_FUNCTION_NAME&#34;</span><span class="p">)</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s">&#34;&#34;</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="nx">http</span><span class="p">.</span><span class="nf">HandleFunc</span><span class="p">(</span><span class="s">&#34;/&#34;</span><span class="p">,</span><span class="w"> </span><span class="nx">api</span><span class="p">.</span><span class="nx">ServeHTTP</span><span class="p">)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="nx">http</span><span class="p">.</span><span class="nf">ListenAndServe</span><span class="p">(</span><span class="s">&#34;:3000&#34;</span><span class="p">,</span><span class="w"> </span><span class="kc">nil</span><span class="p">)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="c1">// Make the handler available for Remote Procedure Call by AWS Lambda</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="nx">lambda</span><span class="p">.</span><span class="nf">Start</span><span class="p">(</span><span class="nx">api</span><span class="p">.</span><span class="nx">ServeLambda</span><span class="p">)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">}</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>Now you see that each provider has a different way to compile your code into a function, and another thing to catch on, each provider usually has their own configuration file that needed upon deployment (CI/CD), Take a look at <code>/netlify.toml</code> file,</p>
 <div class="highlight"><div class="chroma">
@@ -302,13 +263,13 @@ Fork the repository
 </span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">build</span><span class="p">]</span>
-  <span class="nx">command</span> <span class="p">=</span> <span class="s2">&#34;make build&#34;</span> <span class="err">//</span><span class="nx">Your</span> <span class="nx">app</span> <span class="nx">build</span> <span class="nx">command</span>
-  <span class="nx">functions</span> <span class="p">=</span> <span class="s2">&#34;functions&#34;</span> <span class="err">//</span><span class="nx">Your</span> <span class="nx">app</span> <span class="nx">function</span> <span class="nx">exec</span><span class="err">/</span><span class="nx">binary</span> <span class="nx">directory</span>
-<span class="p">[</span><span class="nx">build</span><span class="p">.</span><span class="nx">environment</span><span class="p">]</span>
-  <span class="c"># Change this path with the path to your repository</span>
-  <span class="nx">GO_IMPORT_PATH</span> <span class="p">=</span> <span class="s2">&#34;github.com/kh411d/clapi&#34;</span> <span class="err">//</span><span class="nx">Your</span> <span class="nx">git</span> <span class="nx">provider</span> <span class="nx">repository</span> <span class="nx">path</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[</span><span class="nx">build</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">command</span> <span class="p">=</span> <span class="s2">&#34;make build&#34;</span> <span class="err">//</span><span class="nx">Your</span> <span class="nx">app</span> <span class="nx">build</span> <span class="nx">command</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">functions</span> <span class="p">=</span> <span class="s2">&#34;functions&#34;</span> <span class="err">//</span><span class="nx">Your</span> <span class="nx">app</span> <span class="nx">function</span> <span class="nx">exec</span><span class="err">/</span><span class="nx">binary</span> <span class="nx">directory</span>
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">build</span><span class="p">.</span><span class="nx">environment</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">  <span class="c"># Change this path with the path to your repository</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">GO_IMPORT_PATH</span> <span class="p">=</span> <span class="s2">&#34;github.com/kh411d/clapi&#34;</span> <span class="err">//</span><span class="nx">Your</span> <span class="nx">git</span> <span class="nx">provider</span> <span class="nx">repository</span> <span class="nx">path</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>The build command should correspond to toml configuration, as you see below, the go binary should be put in the <code>functions</code> directory as it specified on the toml configurations.</p>
 <div class="highlight"><div class="chroma">
@@ -319,11 +280,11 @@ Fork the repository
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-makefile" data-lang="makefile"><span class="nf">build</span><span class="o">:</span>
-	mkdir -p functions      // create functions dir as specified in toml
-	go get ./...            // install all dependencies
-	go build -o functions/clapi  // build and output the binary to functions directory
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-makefile" data-lang="makefile"><span class="line"><span class="cl"><span class="nf">build</span><span class="o">:</span>
+</span></span><span class="line"><span class="cl">	mkdir -p functions      // create functions dir as specified in toml
+</span></span><span class="line"><span class="cl">	go get ./...            // install all dependencies
+</span></span><span class="line"><span class="cl">	go build -o functions/clapi  // build and output the binary to functions directory
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>To ease deployment (CI/CD), Vercel and Netlify make use of Git provider integration (Github/Gitlab/BitBucket) and they both have their own web-dashboard that shows you a deployment status, domain, logs, etc.</p>
 <p>Fly required you to install <code>flyctl</code> on your local device, it&rsquo;s a cli tool that lets you create an account and deploy the app. <code>flyctl</code> will be your <a href="https://fly.io/docs/getting-started/working-with-fly-apps/" target="_blank">cli-dashboard</a></p>
@@ -345,19 +306,19 @@ Fork the repository
 </span><span class="lnt">12
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="kd">func</span> <span class="nf">init</span><span class="p">()</span> <span class="p">{</span>
-<span class="o">...</span>
-<span class="k">if</span> <span class="nx">conf</span><span class="p">.</span><span class="nf">Get</span><span class="p">(</span><span class="s">&#34;FAUNADB_SECRET_KEY&#34;</span><span class="p">)</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>
-    <span class="nx">dbconn</span><span class="p">,</span> <span class="nx">err</span> <span class="p">=</span> <span class="nx">db</span><span class="p">.</span><span class="nf">NewFaunaDB</span><span class="p">()</span>
-    <span class="o">...</span>
-<span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="nx">conf</span><span class="p">.</span><span class="nf">Get</span><span class="p">(</span><span class="s">&#34;REDIS_HOST&#34;</span><span class="p">)</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>
-    <span class="c1">//use redis instead
-</span><span class="c1"></span>    <span class="nx">dbconn</span><span class="p">,</span> <span class="nx">err</span> <span class="p">=</span> <span class="nx">db</span><span class="p">.</span><span class="nf">NewRedisDB</span><span class="p">()</span>
-    <span class="o">...</span>
-<span class="p">}</span> 
-<span class="o">...</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">func</span><span class="w"> </span><span class="nf">init</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="o">...</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="k">if</span><span class="w"> </span><span class="nx">conf</span><span class="p">.</span><span class="nf">Get</span><span class="p">(</span><span class="s">&#34;FAUNADB_SECRET_KEY&#34;</span><span class="p">)</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="kc">nil</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nx">dbconn</span><span class="p">,</span><span class="w"> </span><span class="nx">err</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nx">db</span><span class="p">.</span><span class="nf">NewFaunaDB</span><span class="p">()</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="o">...</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="nx">conf</span><span class="p">.</span><span class="nf">Get</span><span class="p">(</span><span class="s">&#34;REDIS_HOST&#34;</span><span class="p">)</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="kc">nil</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="cp">//use redis instead</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nx">dbconn</span><span class="p">,</span><span class="w"> </span><span class="nx">err</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nx">db</span><span class="p">.</span><span class="nf">NewRedisDB</span><span class="p">()</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="o">...</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">}</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="o">...</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">}</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>There is a couple of steps to set up these databases, it will be explained on the README file. All the database code is in <code>/db</code> directory, and each database driver should follow this interface <code>/db/kv.go</code>,</p>
 <div class="highlight"><div class="chroma">
@@ -373,16 +334,16 @@ Fork the repository
 </span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="kd">type</span> <span class="nx">KV</span> <span class="kd">interface</span> <span class="p">{</span>
-	<span class="nf">Add</span><span class="p">(</span><span class="kt">string</span><span class="p">,</span> <span class="p">[]</span><span class="kt">byte</span><span class="p">,</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Duration</span><span class="p">)</span> <span class="kt">error</span>
-	<span class="nf">Set</span><span class="p">(</span><span class="kt">string</span><span class="p">,</span> <span class="p">[]</span><span class="kt">byte</span><span class="p">,</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Duration</span><span class="p">)</span> <span class="kt">error</span>
-	<span class="nf">Delete</span><span class="p">(</span><span class="kt">string</span><span class="p">)</span> <span class="kt">error</span>
-	<span class="nf">Get</span><span class="p">(</span><span class="kt">string</span><span class="p">)</span> <span class="p">([]</span><span class="kt">byte</span><span class="p">,</span> <span class="kt">error</span><span class="p">)</span>
-	<span class="nf">Incr</span><span class="p">(</span><span class="kt">string</span><span class="p">)</span> <span class="kt">error</span>
-	<span class="nf">IncrBy</span><span class="p">(</span><span class="kt">string</span><span class="p">,</span> <span class="kt">int64</span><span class="p">)</span> <span class="kt">error</span>
-	<span class="nf">WithContext</span><span class="p">(</span><span class="nx">context</span><span class="p">.</span><span class="nx">Context</span><span class="p">)</span> <span class="nx">KV</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">type</span><span class="w"> </span><span class="nx">KV</span><span class="w"> </span><span class="kd">interface</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="nf">Add</span><span class="p">(</span><span class="kt">string</span><span class="p">,</span><span class="w"> </span><span class="p">[]</span><span class="kt">byte</span><span class="p">,</span><span class="w"> </span><span class="nx">time</span><span class="p">.</span><span class="nx">Duration</span><span class="p">)</span><span class="w"> </span><span class="kt">error</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="nf">Set</span><span class="p">(</span><span class="kt">string</span><span class="p">,</span><span class="w"> </span><span class="p">[]</span><span class="kt">byte</span><span class="p">,</span><span class="w"> </span><span class="nx">time</span><span class="p">.</span><span class="nx">Duration</span><span class="p">)</span><span class="w"> </span><span class="kt">error</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="nf">Delete</span><span class="p">(</span><span class="kt">string</span><span class="p">)</span><span class="w"> </span><span class="kt">error</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="nf">Get</span><span class="p">(</span><span class="kt">string</span><span class="p">)</span><span class="w"> </span><span class="p">([]</span><span class="kt">byte</span><span class="p">,</span><span class="w"> </span><span class="kt">error</span><span class="p">)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="nf">Incr</span><span class="p">(</span><span class="kt">string</span><span class="p">)</span><span class="w"> </span><span class="kt">error</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="nf">IncrBy</span><span class="p">(</span><span class="kt">string</span><span class="p">,</span><span class="w"> </span><span class="kt">int64</span><span class="p">)</span><span class="w"> </span><span class="kt">error</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="nf">WithContext</span><span class="p">(</span><span class="nx">context</span><span class="p">.</span><span class="nx">Context</span><span class="p">)</span><span class="w"> </span><span class="nx">KV</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">}</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>All the rest of the deployment notes already on the README file along with the repository. FaunaDB is a bit new for me, it&rsquo;s not meant to be a key-value database and the query might need improvement. The code shown might not fit for production release, so feel free to modified and use it at your own risk.</p>
 <blockquote>
@@ -397,9 +358,9 @@ Fork the repository
       <clap-it style="width:45px;height:45px;fill:var(--secondary);stroke:var(--secondary);color:var(--secondary);margin:5px 0px;" api="https://clapi.vercel.app/api/handler"/>
     </li>
       <li>
-        <a  style="font-size: 2.5em" href="https://twitter.com/share?text=Practical%20Rest%20Api%20in%20Go%20on%20Cheap%20Serverless&nbsp;-&nbsp;Khalid%27s%20Blog&amp;url=https%3a%2f%2fkhal.web.id%2f2020%2f09%2f26%2fpractical-rest-api-in-go-on-cheap-serverless%2f"
-        onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-            <span class="icon-twitter" style="color:var(--secondary);"></span>
+        <a  style="font-size: 2.5em" href="https://x.com/share?text=Practical%20Rest%20Api%20in%20Go%20on%20Cheap%20Serverless&nbsp;-&nbsp;Khalid%27s%20Blog&amp;url=https%3a%2f%2fkhal.web.id%2f2020%2f09%2f26%2fpractical-rest-api-in-go-on-cheap-serverless%2f"
+        onclick="window.open(this.href, 'x-share', 'width=550,height=235');return false;">
+            <span class="icon-x" style="color:var(--secondary);"></span>
         </a>
       </li>
       <li>
@@ -428,7 +389,7 @@ Fork the repository
   
 </article></main>
 <footer class="footer" aria-hidden="true" tabindex="-1">
-  <span>&copy; 2009 - 2022 <a href="https://khal.web.id/" tabindex="-1">Khalid&#39;s Blog</a></span>
+  <span>&copy; 2009 - 2026 <a href="https://khal.web.id/" tabindex="-1">Khalid&#39;s Blog</a></span>
   <span>&middot;</span>
   <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank" tabindex="-1">Hugo️️</a>️</span>
 </footer>

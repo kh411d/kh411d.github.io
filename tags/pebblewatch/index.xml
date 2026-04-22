@@ -1,44 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>pebblewatch on Khalid&#39;s Blog</title>
+    <title>Pebblewatch on Khalid&#39;s Blog</title>
     <link>https://khal.web.id/tags/pebblewatch/</link>
-    <description>Recent content in pebblewatch on Khalid&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Pebblewatch on Khalid&#39;s Blog</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
     <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
-    <lastBuildDate>Wed, 05 Feb 2014 06:23:00 +0700</lastBuildDate><atom:link href="https://khal.web.id/tags/pebblewatch/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Feb 2014 06:23:00 +0700</lastBuildDate>
+    <atom:link href="https://khal.web.id/tags/pebblewatch/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Woh! Pebble AppStore BETA Android tarik gan!!</title>
       <link>https://khal.web.id/2014/02/05/woh-pebble-appstore-beta-android-tarik-gan/</link>
-      <pubDate>Wed, 05 Feb 2014 06:23:00 +0700</pubDate>
-      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <pubDate>Wed, 05 Feb 2014 06:23:00 +0700</pubDate><author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2014/02/05/woh-pebble-appstore-beta-android-tarik-gan/</guid>
-      <description>Akhirnya di release juga Pebble AppStore untuk pengguna Android, buat yang mau download harus lewat developer portal pebble karena masih BETA released, jadi belum bisa di download lewat google play. Cara download dan instalasi sama seperti artikel gue sebelumnya klik disini , semua bisa Lo lakukan lewat browser henpon saja.
-Di postingan ini gue cuman mau ngasih tips n trick sebelum nyobain appstore beta yang satu ini, supaya prosedur instalasi lancar jaya.</description>
+      <description>&lt;p&gt;Akhirnya di release juga Pebble AppStore untuk pengguna Android, buat yang mau download harus lewat developer portal pebble karena masih BETA released, jadi belum bisa di download lewat google play. Cara download dan instalasi sama seperti artikel gue sebelumnya &lt;a href=&#34;http://khalidadisendjaja.web.id/2013/12/16/cara-update-firmware-pebble-ke-sdk-2-beta-version/&#34; target=&#34;_blank&#34;&gt;klik disini &lt;/a&gt;, semua bisa Lo lakukan lewat browser henpon saja.&lt;/p&gt;&#xA;&lt;p&gt;Di postingan ini gue cuman mau ngasih tips n trick sebelum nyobain appstore beta yang satu ini, supaya prosedur instalasi lancar jaya.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Cara update Firmware Pebble ke SDK 2 Beta version</title>
       <link>https://khal.web.id/2013/12/16/cara-update-firmware-pebble-ke-sdk-2-beta-version/</link>
-      <pubDate>Mon, 16 Dec 2013 15:18:10 +0700</pubDate>
-      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <pubDate>Mon, 16 Dec 2013 15:18:10 +0700</pubDate><author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2013/12/16/cara-update-firmware-pebble-ke-sdk-2-beta-version/</guid>
-      <description>Update: Semua intruksi dibawah ini bisa dilakukan hanya dengan menggunakan browser henpon.
-Halo Pebble&amp;rsquo;ers (*ha ha namanya ga asik) belakangan ini Pebble mengeluarkan versi Firmware Beta untuk SDK2, update salah satunya adalah mengaktifkan kegunaan Accelerometer yg bisa mengukur movement dari pemakai dan Javascript Kit yg memudahkan developer untuk mengintegrasikan aplikasi pebble dengan web service semacam facebook, foursquare, yahoo weather, dll tanpa menggunakan 3rd party app seperti httpebble.
-Versi update terakhir pada saat artikel ini ditulis adalah Firmware 2.</description>
+      <description>&lt;p&gt;&lt;strong&gt;Update: Semua intruksi dibawah ini bisa dilakukan hanya dengan menggunakan browser henpon.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Halo Pebble&amp;rsquo;ers (*ha ha namanya ga asik) belakangan ini Pebble mengeluarkan versi Firmware Beta untuk SDK2, update salah satunya adalah mengaktifkan kegunaan Accelerometer yg bisa mengukur movement dari pemakai dan &lt;a href=&#34;https://developer.getpebble.com/2/guides/javascript-guide.html&#34; target=&#34;_blank&#34;&gt;Javascript Kit&lt;/a&gt; yg memudahkan developer untuk mengintegrasikan aplikasi pebble dengan web service semacam facebook, foursquare, yahoo weather, dll tanpa menggunakan 3rd party app seperti &lt;a href=&#34;http://forums.getpebble.com/discussion/5384/httpebble-framework-for-http-communication-and-other-things-via-watch-apps&#34; target=&#34;_blank&#34;&gt;httpebble&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Versi update terakhir pada saat artikel ini ditulis adalah &lt;a href=&#34;https://developer.getpebble.com/2/releasenotice-beta3.html&#34; target=&#34;_blank&#34;&gt;Firmware 2.0 Beta 3&lt;/a&gt; , versi ini kalo gw lihat sudah cukup stabil dan reliable. Pada versi BETA 2 sebelumnya masih terjadi kendala di Javascript Kit yg mengharuskan Pebble Android app harus berada di foreground. Untuk bisa melakukan instalasi firmware ini pemakai diharuskan registrasi terlebih dahulu di portal &lt;a href=&#34;https://auth.getpebble.com/&#34; target=&#34;_blank&#34;&gt;auth.getpebble.com &lt;/a&gt; setelah login semua langkah dan prosedur instalasi bisa dilakukan di &lt;a href=&#34;https://developer.getpebble.com/2/getting-started/&#34; target=&#34;_blank&#34;&gt;developer.getpebble.com&lt;/a&gt; , artikel ini hanya penjelasan tambahan untuk prosedur instalasi.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Apa, siapa, dimana, bagaimana, kenapa Pebble ?</title>
       <link>https://khal.web.id/2013/11/11/apa-siapa-dimana-bagaimana-kenapa-pebble/</link>
-      <pubDate>Mon, 11 Nov 2013 10:37:11 +0700</pubDate>
-      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <pubDate>Mon, 11 Nov 2013 10:37:11 +0700</pubDate><author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2013/11/11/apa-siapa-dimana-bagaimana-kenapa-pebble/</guid>
-      <description>Hmm dari judulnya panjang ya&amp;hellip; sumpah males deh nerusin artikelnya, gw juga ga rajin2x amet nge-blog, tapi pengen aja sharing sama yg lain, banyak yg nanya soal gadget unik yg satu ini yg namanya &amp;lt;strong&amp;gt;Pebble&amp;lt;/strong&amp;gt;, mungkin banyak &amp;ldquo;anak bertanya pada bapaknya&amp;hellip; buat apa berlapar2x puasa &amp;hellip; tadarus tarawih apalah gunanya&amp;rdquo; (*Halaaaah, ngaco kan, knapa jadi Bimbo, sori ya, Bimbo ama Pebble ga da hubungannya sama skali, titik. *disclaimer )
-Huaaaaah &amp;hellip; lanjut deh, jadinya &amp;hellip; Apa sih Pebble itu?</description>
+      <description>&lt;p&gt;Hmm dari judulnya panjang ya&amp;hellip; sumpah males deh nerusin artikelnya, gw juga ga rajin2x amet nge-blog, tapi pengen aja sharing sama yg lain, banyak yg nanya soal gadget unik yg satu ini yg namanya &lt;a href=&#34;http://getpebble.com&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Pebble&lt;/strong&gt;&lt;/a&gt;, mungkin banyak &amp;ldquo;anak bertanya pada bapaknya&amp;hellip; buat apa berlapar2x puasa &amp;hellip; tadarus tarawih apalah gunanya&amp;rdquo; (*Halaaaah, ngaco kan, knapa jadi Bimbo, sori ya, Bimbo ama Pebble ga da hubungannya sama skali, titik. *disclaimer )&lt;/p&gt;&#xA;&lt;p&gt;Huaaaaah &amp;hellip; lanjut deh, jadinya &amp;hellip; Apa sih Pebble itu? apakah sejenis Batu2x-an? Keramik? Produk alat dapur? Toko swalayan kah? Merek Panci? Kalkulator? Alat Olahraga? He he .. jadi klo lo googling keyword &amp;ldquo;Pebble&amp;rdquo; di &lt;a href=&#34;https://www.google.com/search?site=&amp;amp;tbm=isch&amp;amp;source=hp&amp;amp;biw=1440&amp;amp;bih=748&amp;amp;q=pebble&amp;amp;oq=pebble&#34; target=&#34;_blank&#34;&gt;images.google.com&lt;/a&gt; lo bakal banyak melihat gambar batu dan jam tangan, jadi bisa ditarik kesimpulan, Pebble itu adalah Jam tangan yg dikutuk jadi batu sama ibunya (*Ya elaaaahh, ngaco lagi kan, knapa jadi malin kundang) skali lagi maaf, Malin Kundang dan Pebble Smartwatch ga da hubungan sama skali, titik. *disclaimer)&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

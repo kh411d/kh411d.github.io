@@ -1,36 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ifttt on Khalid&#39;s Blog</title>
+    <title>Ifttt on Khalid&#39;s Blog</title>
     <link>https://khal.web.id/tags/ifttt/</link>
-    <description>Recent content in ifttt on Khalid&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Ifttt on Khalid&#39;s Blog</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
     <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
-    <lastBuildDate>Fri, 11 Jul 2014 09:03:57 +0700</lastBuildDate><atom:link href="https://khal.web.id/tags/ifttt/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Jul 2014 09:03:57 +0700</lastBuildDate>
+    <atom:link href="https://khal.web.id/tags/ifttt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Aplikasi mobile IFTTT bakal bikin Android lo makin canggih!</title>
       <link>https://khal.web.id/2014/07/11/aplikasi-mobile-ifttt-bakal-bikin-android-lo-makin-canggih/</link>
-      <pubDate>Fri, 11 Jul 2014 09:03:57 +0700</pubDate>
-      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <pubDate>Fri, 11 Jul 2014 09:03:57 +0700</pubDate><author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2014/07/11/aplikasi-mobile-ifttt-bakal-bikin-android-lo-makin-canggih/</guid>
-      <description>IFTTT adalah sebuah alat yang akan memudahkan otomatisasi kegiatan lo sehari-hari dengan dunia internet. Cara pemakaian IFTTT pun cukup mudah, sama sekali gak perlu ngerti IT banget. Sumpah gak boong :-)
-IFTTT baru-baru ini mengenalkan aplikasi untuk smartphone Android, yang nantinya berguna untuk meng-otomatisasi fitur smartphone seperti, sms, call, location, photo, dan notification.
-Banyak banget resep IFTTT yang bisa lo bikin, dari yang paling berguna buat hidup lo sampai yang paling absurd sekalipun</description>
+      <description>&lt;p&gt;IFTTT adalah sebuah alat yang akan memudahkan otomatisasi kegiatan lo sehari-hari dengan dunia internet. &lt;a href=&#34;http://khal.web.id/2012/09/05/rahasia-dibalik-otomatisasi-tweet-gue/&#34; target=&#34;_blank&#34;&gt;Cara pemakaian IFTTT&lt;/a&gt; pun cukup mudah, sama sekali gak perlu ngerti IT banget. Sumpah gak boong :-)&lt;/p&gt;&#xA;&lt;p&gt;IFTTT baru-baru ini mengenalkan aplikasi untuk smartphone Android, yang nantinya berguna untuk meng-otomatisasi fitur smartphone seperti, sms, call, location, photo, dan notification.&lt;/p&gt;&#xA;&lt;p&gt;Banyak banget resep IFTTT yang bisa lo bikin, dari yang paling berguna buat hidup lo sampai yang paling absurd sekalipun&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Cara nge-tweet otomatis</title>
       <link>https://khal.web.id/2012/09/05/rahasia-dibalik-otomatisasi-tweet-gue/</link>
-      <pubDate>Wed, 05 Sep 2012 09:51:54 +0700</pubDate>
-      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <pubDate>Wed, 05 Sep 2012 09:51:54 +0700</pubDate><author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2012/09/05/rahasia-dibalik-otomatisasi-tweet-gue/</guid>
-      <description>Pada mulanya karena kebanyakan artikel yang gue baca berasal dari Google Reader,
- Gue males banget
- Kalo sharing lewat button share, soalnya ribet, begitu klik, login dulu facebook ato twitter, terus muncul popup, terus harus mencet lagi tombol send, belum lagi gue harus ngedit isi konten share-nya, terus aja terus.. Doh come on man! hari gini ribet 😫
-Nah, aplikasi pertama yang gue temukan adalah BufferApp, aplikasi ini dapat menampung semua tweet lo yang nantinya akan di publish otomatis berdasarkan jadwal publish yang sudah lo tentukan.</description>
+      <description>&lt;p&gt;Pada mulanya karena kebanyakan artikel yang gue baca berasal dari &lt;strong&gt;Google Reader&lt;/strong&gt;,&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Gue males banget&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Kalo sharing lewat button share, soalnya ribet, begitu klik, login dulu facebook ato twitter, terus muncul popup, terus harus mencet lagi tombol send, belum lagi gue harus ngedit isi konten &lt;em&gt;share&lt;/em&gt;-nya, terus aja terus.. Doh come on man! hari gini ribet &amp;#x1f62b;&lt;/p&gt;&#xA;&lt;p&gt;Nah, aplikasi pertama yang gue temukan adalah &lt;strong&gt;&lt;a href=&#34;https://buffer.com/&#34; target=&#34;_blank&#34;&gt;BufferApp&lt;/a&gt;&lt;/strong&gt;, aplikasi ini dapat menampung semua tweet lo yang nantinya akan di publish otomatis berdasarkan jadwal &lt;em&gt;publish&lt;/em&gt; yang sudah lo tentukan.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

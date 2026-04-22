@@ -5,17 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     
-    <meta name="twitter:title" content="How to turn your Raspberry Pi into a solid hack box"/>
-    <meta name="twitter:description" content="Have you ever been insecure while you are using any public WIFI? Did you suspect someone sniffing on your network, stealing your credential, phishing your network?
+    <meta name="x:title" content="How to turn your Raspberry Pi into a solid hack box"/>
+    <meta name="x:description" content="Have you ever been insecure while you are using any public WIFI? Did you suspect someone sniffing on your network, stealing your credential, phishing your network?
 All of these might happened if you&rsquo;re using any WIFI connection in a coffee shop, a cafe, a coworking place, in a conference room, on your own office, or maybe in your neighborhood.
-Of course, you can prevent this by using a VPN on a public network, but sometimes it just can&rsquo;t work, or maybe you are just too cheap for that expensive VPN subscription."/>
-    <meta name="twitter:site" content="@khalidity"/>
+Of course, you can prevent this by using a VPN on a public network, but sometimes it just can&rsquo;t work, or maybe you are just too cheap for that expensive VPN subscription. If this happened, this Raspberry Pi (RPi) hack box could be a low-cost alternative to protect you from cyberattacks which might come in handy another day."/>
+    <meta name="x:site" content="@"/>
     
     
     
       
-      <meta name="twitter:card" content="summary_large_image"/>
-      <meta name="twitter:image" content="https://khal.web.id/images/kaliraspi2.jpg"/>
+      <meta name="x:card" content="summary_large_image"/>
+      <meta name="x:image" content="https://khal.web.id/images/kaliraspi2.jpg"/>
     
 
   	<meta property="og:title" content="Khalid&#39;s Blog" />
@@ -29,7 +29,7 @@ Of course, you can prevent this by using a VPN on a public network, but sometime
     
     <meta property="og:description" content="Have you ever been insecure while you are using any public WIFI? Did you suspect someone sniffing on your network, stealing your credential, phishing your network?
 All of these might happened if you&rsquo;re using any WIFI connection in a coffee shop, a cafe, a coworking place, in a conference room, on your own office, or maybe in your neighborhood.
-Of course, you can prevent this by using a VPN on a public network, but sometimes it just can&rsquo;t work, or maybe you are just too cheap for that expensive VPN subscription." />
+Of course, you can prevent this by using a VPN on a public network, but sometimes it just can&rsquo;t work, or maybe you are just too cheap for that expensive VPN subscription. If this happened, this Raspberry Pi (RPi) hack box could be a low-cost alternative to protect you from cyberattacks which might come in handy another day." />
   	<meta property="og:type" content="article" />
     <meta property="article:published_time" content="2021-08-01T08:00:00Z" />
 
@@ -52,7 +52,7 @@ Of course, you can prevent this by using a VPN on a public network, but sometime
     
     <meta name="description" content="Have you ever been insecure while you are using any public WIFI? Did you suspect someone sniffing on your network, stealing your credential, phishing your network?
 All of these might happened if you&rsquo;re using any WIFI connection in a coffee shop, a cafe, a coworking place, in a conference room, on your own office, or maybe in your neighborhood.
-Of course, you can prevent this by using a VPN on a public network, but sometimes it just can&rsquo;t work, or maybe you are just too cheap for that expensive VPN subscription.">
+Of course, you can prevent this by using a VPN on a public network, but sometimes it just can&rsquo;t work, or maybe you are just too cheap for that expensive VPN subscription. If this happened, this Raspberry Pi (RPi) hack box could be a low-cost alternative to protect you from cyberattacks which might come in handy another day.">
     <meta name="author" content="Khalid Adisendjaja">
     
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
@@ -80,74 +80,35 @@ Of course, you can prevent this by using a VPN on a public network, but sometime
     <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <meta name="generator" content="Hugo 0.92.0" />
+    <meta name="generator" content="Hugo 0.160.1">
     
     
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-8671044-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LG0R68E43H"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-LG0R68E43H');
+</script>
     
     <script src="https://khal.web.id/bundle.js"></script>
     <script src="https://khal.web.id/lazyload.min.js"></script>
+    <script>
+      async function getGravatarProfile(){try{let e=await fetch("https://api.gravatar.com/v3/profiles/khalidity",{method:"GET",headers:{Authorization:"Bearer 8648:gk-9GJROwPfjaGLcF2yZ6krpE-MNjoKm1qjSc_NctPmCmqqOGAK-2wD6y9BSWS0Z","Content-Type":"application/json"}});if(!e.ok)throw Error("Profile not found");let a=await e.json(),t=document.querySelector("ul.menu");t.insertAdjacentHTML("beforeend",`<li><a class="logo" href="mailto:`+a.contact_info.email+`" target="_blank"><img src="https://secure.gravatar.com/icons/mail.svg" alt="email" style="width:5em;height:5em;"></a></li>`),a.verified_accounts.forEach(e=>{e.is_hidden||t.insertAdjacentHTML("beforeend",`<li><a class="logo" href="`+e.url+`" target="_blank"><img src="`+e.service_icon+'" alt="'+e.service_label+`" style="width:5em;height:5em;"></a></li>`)})}catch(r){console.error("Error fetching Gravatar:",r)}}
+    </script>
   </head>
-  <body class="single">
-    <header class="header lazy post-head"data-bg="/images/kaliraspi2.jpg">
+  <body class="single" onload="getGravatarProfile()">
+    <header class="header" >
       <nav class="nav">
-        <a class="logo" href="https://khal.web.id/"><img src="/images/logo.jpeg" alt="Home" style="speak:none;" /></a>
+        <a class="logo" href="https://khal.web.id/"><img src="https://gravatar.com/avatar/715dbdfe1973e789f70625174e56c99c4b8bb1d0c3c1cb2d9c39b512be0e1ecd" alt="Home" style="speak:none;" /></a>
         <ul class="menu">
-          
-          <li>
-              <a class="logo" href="mailto:contact@khal.web.id" target="_blank">
-                  <span class="icon-mail" style="color:var(--primary);font-size:2em;text-shadow: 0 0 5px white;"></span>
-              </a>
-          </li>
-          
-          <li>
-            <a class="logo" href="https://www.linkedin.com/in/khalidadisendjaja" target="_blank">
-              <span class="icon-linkedin" style="color:var(--primary);font-size:2em;text-shadow: 0 0 5px white;"></span>
-          </a>
-          </li>
-
-          
-          <li>
-              <a class="logo" href="https://github.com/kh411d" target="_blank">
-              <span class="icon-github" style="color:var(--primary);font-size:2em;text-shadow: 0 0 5px white;"></span>
-              </a>
-            </li>
-          
-
-          
-          <li>
-            <a class="logo" href="https://twitter.com/khalidity" target="_blank">
-                  <span class="icon-twitter" style="color:var(--primary);font-size:2em;text-shadow: 0 0 5px white;"></span>
-              </a>
-            </li>
-          
-
-          
-
-          
-          
-          <li>
-            <a class="logo" href="https://www.eyeem.com/u/khalidity/photos" target="_blank">
-                  <span class="icon-image" style="color:var(--primary);font-size:2em;text-shadow: 0 0 5px white;"></span>
-              </a>
-          </li>
-          
         </ul>
       </nav>
     </header>
     <main class="main">     
 <article class="post-single">
-  <header class="post-header">
+  <header class="post-header pakehome">
     <h1 class="post-title">How to turn your Raspberry Pi into a solid hack box</h1>
     <div class="post-meta">Khalid Adisendjaja · August 1, 2021</div>
   </header><div class="sticky-container">
@@ -157,8 +118,8 @@ if (!doNotTrack) {
                 <clap-it style="width:2.2em;height:2.2em;fill:grey;stroke:grey;color:grey;margin:14px auto;" api="https://clapi.vercel.app/api/handler"/>
             </li>
             <li class="ml-1 mr-1">
-            <a target="_blank" href="https://twitter.com/intent/tweet?text=How%20to%20turn%20your%20Raspberry%20Pi%20into%20a%20solid%20hack%20box %23tutorial  %23hacking  %23raspberrypi  %23kali  %23linux &url=https%3a%2f%2fkhal.web.id%2f2021%2f08%2f01%2fhow-to-turn-your-raspberry-pi-into-a-solid-hack-box%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=435');return false;">
-            <i class="icon-twitter" style="font-size:1.8em"></i>
+            <a target="_blank" href="https://x.com/intent/x?text=How%20to%20turn%20your%20Raspberry%20Pi%20into%20a%20solid%20hack%20box %23tutorial  %23hacking  %23raspberrypi  %23kali  %23linux &url=https%3a%2f%2fkhal.web.id%2f2021%2f08%2f01%2fhow-to-turn-your-raspberry-pi-into-a-solid-hack-box%2f" onclick="window.open(this.href, 'x-share', 'width=550,height=435');return false;">
+            <i class="icon-x" style="font-size:1.8em"></i>
             </a>
             </li>
             
@@ -198,8 +159,8 @@ if (!doNotTrack) {
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">boot % touch SSH
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">boot % touch SSH
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="linux-pc">Linux PC</h3>
 <p>Linux could easily mount the image Linux root folder and add all the configuration files directly to that image file.</p>
@@ -217,8 +178,8 @@ if (!doNotTrack) {
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">kali@kali:~$ sudo nano /etc/lightdm/lightdm.conf
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">kali@kali:~$ sudo nano /etc/lightdm/lightdm.conf
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Find the seat configuration and uncomment these options,</p>
 <div class="highlight"><div class="chroma">
@@ -229,11 +190,11 @@ if (!doNotTrack) {
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="o">[</span>Seat:*<span class="o">]</span>
-pam-autologin-service<span class="o">=</span>lightdm-autologin
-autologin-user<span class="o">=</span>kali
-autologin-user-timeout<span class="o">=</span><span class="m">0</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="o">[</span>Seat:*<span class="o">]</span>
+</span></span><span class="line"><span class="cl">pam-autologin-service<span class="o">=</span>lightdm-autologin
+</span></span><span class="line"><span class="cl">autologin-user<span class="o">=</span>kali
+</span></span><span class="line"><span class="cl">autologin-user-timeout<span class="o">=</span><span class="m">0</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="add-your-phone-wifi-hotspot-configuration">Add your phone WIFI hotspot configuration</h3>
 <p>Let&rsquo;s say your phone WIFI ap is <code>myPhoneWIFISSID</code> and password is <code>myPhoneWIFIPassword</code></p>
@@ -243,8 +204,8 @@ autologin-user-timeout<span class="o">=</span><span class="m">0</span>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">kali@kali:~$ sudo nano /etc/NetworkManager/system-connections/myPhoneWIFISSID.nmconnection
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">kali@kali:~$ sudo nano /etc/NetworkManager/system-connections/myPhoneWIFISSID.nmconnection
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Copy-paste this configuration and edit as needed, usually, you only need to change the <code>connection.id</code>, <code>wifi.ssid</code>, and the <code>wifi-security.psk</code></p>
 <div class="highlight"><div class="chroma">
@@ -278,34 +239,34 @@ autologin-user-timeout<span class="o">=</span><span class="m">0</span>
 </span><span class="lnt">27
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">    <span class="o">[</span>connection<span class="o">]</span>
-    <span class="nv">id</span><span class="o">=</span>myPhoneWIFISSID
-    <span class="nv">type</span><span class="o">=</span>wifi
-    autoconnect-priority<span class="o">=</span><span class="m">99</span>
-    <span class="nv">autoconnect</span><span class="o">=</span><span class="nb">true</span>
-    interface-name<span class="o">=</span>wlan0
-    <span class="nv">permissions</span><span class="o">=</span>
-    
-    <span class="o">[</span>wifi<span class="o">]</span>
-    mac-address-blacklist<span class="o">=</span>
-    <span class="nv">mode</span><span class="o">=</span>infrastructure
-    <span class="nv">ssid</span><span class="o">=</span>myPhoneWIFISSID
-    
-    <span class="o">[</span>wifi-security<span class="o">]</span>
-    key-mgmt<span class="o">=</span>wpa-psk
-    <span class="nv">psk</span><span class="o">=</span>myPhoneWIFIPassword
-    
-    <span class="o">[</span>ipv4<span class="o">]</span>
-    dns-search<span class="o">=</span>
-    <span class="nv">method</span><span class="o">=</span>auto
-    
-    <span class="o">[</span>ipv6<span class="o">]</span>
-    addr-gen-mode<span class="o">=</span>stable-privacy
-    dns-search<span class="o">=</span>
-    <span class="nv">method</span><span class="o">=</span>auto
-    
-    <span class="o">[</span>proxy<span class="o">]</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">    <span class="o">[</span>connection<span class="o">]</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">id</span><span class="o">=</span>myPhoneWIFISSID
+</span></span><span class="line"><span class="cl">    <span class="nv">type</span><span class="o">=</span>wifi
+</span></span><span class="line"><span class="cl">    autoconnect-priority<span class="o">=</span><span class="m">99</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">autoconnect</span><span class="o">=</span><span class="nb">true</span>
+</span></span><span class="line"><span class="cl">    interface-name<span class="o">=</span>wlan0
+</span></span><span class="line"><span class="cl">    <span class="nv">permissions</span><span class="o">=</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="o">[</span>wifi<span class="o">]</span>
+</span></span><span class="line"><span class="cl">    mac-address-blacklist<span class="o">=</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">mode</span><span class="o">=</span>infrastructure
+</span></span><span class="line"><span class="cl">    <span class="nv">ssid</span><span class="o">=</span>myPhoneWIFISSID
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="o">[</span>wifi-security<span class="o">]</span>
+</span></span><span class="line"><span class="cl">    key-mgmt<span class="o">=</span>wpa-psk
+</span></span><span class="line"><span class="cl">    <span class="nv">psk</span><span class="o">=</span>myPhoneWIFIPassword
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="o">[</span>ipv4<span class="o">]</span>
+</span></span><span class="line"><span class="cl">    dns-search<span class="o">=</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">method</span><span class="o">=</span>auto
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="o">[</span>ipv6<span class="o">]</span>
+</span></span><span class="line"><span class="cl">    addr-gen-mode<span class="o">=</span>stable-privacy
+</span></span><span class="line"><span class="cl">    dns-search<span class="o">=</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">method</span><span class="o">=</span>auto
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="o">[</span>proxy<span class="o">]</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>If you notice <code>autoconnect-priority=99</code> the RPi will always connect to your phone hotspot if it&rsquo;s available, keep in mind that you&rsquo;re going to use this configuration every time you need to add a new WIFI network, so you might want to keep a note.</p>
 <p>To add a new WIFI ap you need to SSH from your phone, and then use the <code>nmcli</code> tool</p>
@@ -318,12 +279,12 @@ autologin-user-timeout<span class="o">=</span><span class="m">0</span>
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">kali@kali:~$ nmcli dev wifi
-IN-USE  BSSID              SSID       		MODE   CHAN  RATE        SIGNAL  BARS  SECURITY
-*       10:C1:F9:78:B2:1B  myPhoneWIFISSID  Infra  <span class="m">10</span>    <span class="m">130</span> Mbit/s  <span class="m">80</span>      ***   WPA1 WPA2
-        14:A0:F8:E8:2E:14  RIFA       		Infra  <span class="m">5</span>     <span class="m">130</span> Mbit/s  <span class="m">40</span>      **    WPA1 WPA2
-        5C:3A:3D:01:D9:66  MOONLIGHT  		Infra  <span class="m">9</span>     <span class="m">130</span> Mbit/s  <span class="m">30</span>      *     WPA1 WPA2
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">kali@kali:~$ nmcli dev wifi
+</span></span><span class="line"><span class="cl">IN-USE  BSSID              SSID       		MODE   CHAN  RATE        SIGNAL  BARS  SECURITY
+</span></span><span class="line"><span class="cl">*       10:C1:F9:78:B2:1B  myPhoneWIFISSID  Infra  <span class="m">10</span>    <span class="m">130</span> Mbit/s  <span class="m">80</span>      ***   WPA1 WPA2
+</span></span><span class="line"><span class="cl">        14:A0:F8:E8:2E:14  RIFA       		Infra  <span class="m">5</span>     <span class="m">130</span> Mbit/s  <span class="m">40</span>      **    WPA1 WPA2
+</span></span><span class="line"><span class="cl">        5C:3A:3D:01:D9:66  MOONLIGHT  		Infra  <span class="m">9</span>     <span class="m">130</span> Mbit/s  <span class="m">30</span>      *     WPA1 WPA2
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>e.g. to add <code>RIFA</code> WIFI then you need to create <code>RIFA.nmconnection</code> file with the WIFI credential, don&rsquo;t forget to set the <code>autoconnect-priority</code> lower than 99.</p>
 <p>And then try to connect to the WIFI, after changing the connection, your current SSH connection will close or hung up.</p>
@@ -332,8 +293,8 @@ IN-USE  BSSID              SSID       		MODE   CHAN  RATE        SIGNAL  BARS  S
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">kali@kali:~$ nmcli connection up RIFA
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">kali@kali:~$ nmcli connection up RIFA
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>I guess this is all roundup, you can now use the RPi as a plug n play hack box device and play with the kali Linux tools provided.</p>
 <ul>
@@ -363,7 +324,7 @@ IN-USE  BSSID              SSID       		MODE   CHAN  RATE        SIGNAL  BARS  S
   
 </article></main>
 <footer class="footer" aria-hidden="true" tabindex="-1">
-  <span>&copy; 2009 - 2022 <a href="https://khal.web.id/" tabindex="-1">Khalid&#39;s Blog</a></span>
+  <span>&copy; 2009 - 2026 <a href="https://khal.web.id/" tabindex="-1">Khalid&#39;s Blog</a></span>
   <span>&middot;</span>
   <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank" tabindex="-1">Hugo️️</a>️</span>
 </footer>

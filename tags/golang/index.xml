@@ -1,42 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>golang on Khalid&#39;s Blog</title>
+    <title>Golang on Khalid&#39;s Blog</title>
     <link>https://khal.web.id/tags/golang/</link>
-    <description>Recent content in golang on Khalid&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Golang on Khalid&#39;s Blog</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
     <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
-    <lastBuildDate>Sat, 13 Mar 2021 11:35:00 +0700</lastBuildDate><atom:link href="https://khal.web.id/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Mar 2021 11:35:00 +0700</lastBuildDate>
+    <atom:link href="https://khal.web.id/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Go extending Array with a Real-time Observer</title>
       <link>https://khal.web.id/2021/03/13/go-extending-array-with-a-real-time-observer/</link>
-      <pubDate>Sat, 13 Mar 2021 11:35:00 +0700</pubDate>
-      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <pubDate>Sat, 13 Mar 2021 11:35:00 +0700</pubDate><author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2021/03/13/go-extending-array-with-a-real-time-observer/</guid>
-      <description>Let say, an array in which each element holds a random countdown value, so when its time ended, it needs to spawn a worker (i.e. go-routine) as soon as possible. Luckily, in Go, we can create a custom type variable and benefit from the go-routine itself. For this tutorial, we&amp;rsquo;re going to have an array that has an observer to monitor its values.
-1 2  var theArray []string theArray = append(theArray,&amp;#34;Hello, There!</description>
+      <description>&lt;p&gt;Let say, an array in which each element holds a random countdown value, so when its time ended, it needs to spawn a worker (i.e. go-routine) as soon as possible. Luckily, in Go, we can create a custom type variable and benefit from the go-routine itself. For this tutorial, we&amp;rsquo;re going to have an array that has an observer to monitor its values.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;&#xA;&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2&#xA;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&#xA;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;theArray&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[]&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;string&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;theArray&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;append&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;theArray&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Hello, There!&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&lt;p&gt;The idea, every time a value is added to the observed variable &lt;code&gt;theArray&lt;/code&gt;, the observer could immediately take action in real-time, as long as the main thread has not ended yet.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Practical Rest Api in Go on Cheap Serverless</title>
       <link>https://khal.web.id/2020/09/26/practical-rest-api-in-go-on-cheap-serverless/</link>
-      <pubDate>Sat, 26 Sep 2020 06:34:11 +0700</pubDate>
-      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <pubDate>Sat, 26 Sep 2020 06:34:11 +0700</pubDate><author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2020/09/26/practical-rest-api-in-go-on-cheap-serverless/</guid>
-      <description>By doing serverless and FAAS, you will have more focus on shipping code instead of worrying about the servers or runtimes. It simplifies your infrastructure stack, cheaper pricing model, auto-scale, and ease of use.
-But it sometimes often makes extensive use of third-party services (such as databases, auth services, message queues, caching, searching, etc) So, bear in mind that your code is only a function which works when it&amp;rsquo;s paired with other functions.</description>
+      <description>&lt;p&gt;By doing serverless and FAAS, you will have more focus on shipping code instead of worrying about the servers or runtimes. It simplifies your infrastructure stack, cheaper pricing model, auto-scale, and ease of use.&lt;/p&gt;&#xA;&lt;p&gt;But it sometimes often makes extensive use of third-party services (such as databases, auth services, message queues, caching, searching, etc) So, bear in mind that your code is only a function which works when it&amp;rsquo;s paired with other functions.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Serverless/FAAS Providers With No Credit Card Required</title>
       <link>https://khal.web.id/2020/09/20/serverless-faas-providers-with-no-credit-card-required/</link>
-      <pubDate>Sun, 20 Sep 2020 13:20:21 +0700</pubDate>
-      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <pubDate>Sun, 20 Sep 2020 13:20:21 +0700</pubDate><author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2020/09/20/serverless-faas-providers-with-no-credit-card-required/</guid>
-      <description>Have you ever been in a situation where you met a strange girl, asking her out for an easy walk in a sunny afternoon, introduce each other, giving your number, email, Facebook, Github account, even your home address, and then suddenly she&amp;rsquo;s asking you for a credit card, she said, it&amp;rsquo;s for our good, I won&amp;rsquo;t do evil. What would you do? well, in my experience, that makes no sense at all, at least it never happened though.</description>
+      <description>&lt;p&gt;Have you ever been in a situation where you met a strange girl, asking her out for an easy walk in a sunny afternoon, introduce each other, giving your number, email, Facebook, Github account, even your home address, and then suddenly she&amp;rsquo;s asking you for a credit card, she said, it&amp;rsquo;s for our good, I won&amp;rsquo;t do evil. What would you do? well, in my experience, that makes no sense at all, at least it never happened though.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

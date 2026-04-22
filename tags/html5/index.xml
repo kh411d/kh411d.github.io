@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>html5 on Khalid&#39;s Blog</title>
+    <title>Html5 on Khalid&#39;s Blog</title>
     <link>https://khal.web.id/tags/html5/</link>
-    <description>Recent content in html5 on Khalid&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Html5 on Khalid&#39;s Blog</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
     <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
-    <lastBuildDate>Wed, 23 Sep 2020 07:48:16 +0700</lastBuildDate><atom:link href="https://khal.web.id/tags/html5/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Sep 2020 07:48:16 +0700</lastBuildDate>
+    <atom:link href="https://khal.web.id/tags/html5/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Build a Medium-Like Clap Button using Svelte Custom Element API</title>
       <link>https://khal.web.id/2020/09/23/build-a-medium-like-clap-button-using-svelte-custom-element-api/</link>
-      <pubDate>Wed, 23 Sep 2020 07:48:16 +0700</pubDate>
-      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <pubDate>Wed, 23 Sep 2020 07:48:16 +0700</pubDate><author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2020/09/23/build-a-medium-like-clap-button-using-svelte-custom-element-api/</guid>
-      <description>Short stories, In August 2017, Medium replaced their Recommend button with a &amp;ldquo;clap&amp;rdquo; button, which readers can click as many times as they want to show how much they enjoyed the article. Back then, this is how the Medium writers are going to be paid.
-Yeah I know, the one that I build is so last years and outdated, but Hey! Why not? It still matters and It doesn’t cost a thing.</description>
+      <description>&lt;p&gt;Short stories, In August 2017, Medium replaced their Recommend button with a &amp;ldquo;clap&amp;rdquo; button, which readers can click as many times as they want to show how much they enjoyed the article. Back then, this is how the Medium writers are going to be paid.&lt;/p&gt;&#xA;&lt;p&gt;Yeah I know, the one that I build is so last years and outdated, but Hey! Why not? It still matters and It doesn’t cost a thing. The clap button still providing good feedback to writers, and it helps them to know which posts do well and which could use some work and hopefully helping people to be better at writing.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>design on Khalid&#39;s Blog</title>
+    <title>Design on Khalid&#39;s Blog</title>
     <link>https://khal.web.id/tags/design/</link>
-    <description>Recent content in design on Khalid&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Design on Khalid&#39;s Blog</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
     <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
-    <lastBuildDate>Mon, 17 Feb 2014 11:43:31 +0700</lastBuildDate><atom:link href="https://khal.web.id/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 17 Feb 2014 11:43:31 +0700</lastBuildDate>
+    <atom:link href="https://khal.web.id/tags/design/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bicara &#34;Flow&#34; kreatifitas dalam segi internet, teknologi, dan keseharian </title>
       <link>https://khal.web.id/2014/02/17/bicara-flow-kreatifitas-dalam-segi-internet-teknologi-dan-keseharian/</link>
-      <pubDate>Mon, 17 Feb 2014 11:43:31 +0700</pubDate>
-      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <pubDate>Mon, 17 Feb 2014 11:43:31 +0700</pubDate><author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2014/02/17/bicara-flow-kreatifitas-dalam-segi-internet-teknologi-dan-keseharian/</guid>
-      <description>Flow disini adalah sebuah desain psikologis yang menggunakan kondisi mental dan kejiwaan dari seseorang. Bagaimana dan mengapa seseorang bisa mencurahkan segala fokus dan konsentrasinya dalam satu aktivitas, dengan jangka waktu yang sangat lama, tanpa merasa bosan, enjoy dan bahkan menjadi ketagihan.
-Konsep ini diperkenalkan oleh seorang professor dari Univ. Chicago, Mihaly Csikszentmihalyi dalam sebuah wawancaranya dengan Wired Magazine di tahun 1996 Go With The Flow.
-Beliau berpendapat bahwa sebuah website yg menerapkan konsep flow bisa dibayangkan seperti Gourmet, yakni masakan bercita rasa tinggi yang di sajikan secara eksklusif, dimulai dengan hidangan pembuka, utama sampai penutup.</description>
+      <description>&lt;p&gt;Flow disini adalah sebuah desain psikologis yang menggunakan kondisi mental dan kejiwaan dari seseorang. Bagaimana dan mengapa seseorang bisa mencurahkan segala fokus dan konsentrasinya dalam satu aktivitas, dengan jangka waktu yang sangat lama, tanpa merasa bosan, &lt;em&gt;enjoy&lt;/em&gt; dan bahkan menjadi ketagihan.&lt;/p&gt;&#xA;&lt;p&gt;Konsep ini diperkenalkan oleh seorang professor dari Univ. Chicago, Mihaly Csikszentmihalyi dalam sebuah wawancaranya dengan Wired Magazine di tahun 1996 &lt;a href=&#34;https://www.wired.com/1996/09/czik/&#34; target=&#34;_blank&#34;&gt;Go With The Flow&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Beliau berpendapat bahwa sebuah website yg menerapkan konsep flow bisa dibayangkan seperti &lt;em&gt;Gourmet&lt;/em&gt;, yakni masakan bercita rasa tinggi yang di sajikan secara eksklusif, dimulai dengan hidangan pembuka, utama sampai penutup.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

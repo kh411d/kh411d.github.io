@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>asus on Khalid&#39;s Blog</title>
+    <title>Asus on Khalid&#39;s Blog</title>
     <link>https://khal.web.id/tags/asus/</link>
-    <description>Recent content in asus on Khalid&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Asus on Khalid&#39;s Blog</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
     <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
-    <lastBuildDate>Wed, 30 Sep 2020 12:00:00 +0700</lastBuildDate><atom:link href="https://khal.web.id/tags/asus/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Sep 2020 12:00:00 +0700</lastBuildDate>
+    <atom:link href="https://khal.web.id/tags/asus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>No Good Compact Phone is The Best Option</title>
       <link>https://khal.web.id/2020/09/30/no-good-compact-phone-is-the-best-option/</link>
-      <pubDate>Wed, 30 Sep 2020 12:00:00 +0700</pubDate>
-      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <pubDate>Wed, 30 Sep 2020 12:00:00 +0700</pubDate><author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2020/09/30/no-good-compact-phone-is-the-best-option/</guid>
-      <description>Aren’t you get tired of that weighty phone? The one that you might currently hold right now, questioning why my hand gets smaller and the phone getting bigger and heavier.
-Some vendors even outsmart it by folding the phone, but still, double the weight, double the size, double the price. There’s must be a mistake here, or is it?
-  
-The phone used to be compact, lightweight, pocket friendly and could stand the test of time.</description>
+      <description>&lt;p&gt;Aren’t you get tired of that weighty phone? The one that you might currently hold right now, questioning why my hand gets smaller and the phone getting bigger and heavier.&lt;/p&gt;&#xA;&lt;p&gt;Some vendors even outsmart it by folding the phone, but still, double the weight, double the size, double the price. There’s must be a mistake here, or is it?&lt;/p&gt;&#xA;&lt;p&gt;&lt;figure&gt;&#xA;    &lt;img src=&#34;https://khal.web.id/images/phonegetbig.jpg&#34; alt=&#34;Phone get big&#34;&gt;&#xA;    &lt;figcaption style=&#34;font-size:0.6em&#34;&gt;&lt;/figcaption&gt;&#xA;  &lt;/figure&gt;&lt;/p&gt;&#xA;&lt;p&gt;The phone used to be compact, lightweight, pocket friendly and could stand the test of time. I still remembered my 4 Inch &lt;a href=&#34;https://www.gsmarena.com/samsung_google_nexus_s-3620.php&#34; target=&#34;_blank&#34;&gt;Nexus S&lt;/a&gt; could last for five years until it gets laggy on running new apps.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

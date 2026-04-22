@@ -5,17 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     
-    <meta name="twitter:title" content="Cara update Firmware Pebble ke SDK 2 Beta version"/>
-    <meta name="twitter:description" content="Update: Semua intruksi dibawah ini bisa dilakukan hanya dengan menggunakan browser henpon.
+    <meta name="x:title" content="Cara update Firmware Pebble ke SDK 2 Beta version"/>
+    <meta name="x:description" content="Update: Semua intruksi dibawah ini bisa dilakukan hanya dengan menggunakan browser henpon.
 Halo Pebble&rsquo;ers (*ha ha namanya ga asik) belakangan ini Pebble mengeluarkan versi Firmware Beta untuk SDK2, update salah satunya adalah mengaktifkan kegunaan Accelerometer yg bisa mengukur movement dari pemakai dan Javascript Kit yg memudahkan developer untuk mengintegrasikan aplikasi pebble dengan web service semacam facebook, foursquare, yahoo weather, dll tanpa menggunakan 3rd party app seperti httpebble.
-Versi update terakhir pada saat artikel ini ditulis adalah Firmware 2."/>
-    <meta name="twitter:site" content="@khalidity"/>
+Versi update terakhir pada saat artikel ini ditulis adalah Firmware 2.0 Beta 3 , versi ini kalo gw lihat sudah cukup stabil dan reliable. Pada versi BETA 2 sebelumnya masih terjadi kendala di Javascript Kit yg mengharuskan Pebble Android app harus berada di foreground. Untuk bisa melakukan instalasi firmware ini pemakai diharuskan registrasi terlebih dahulu di portal auth.getpebble.com  setelah login semua langkah dan prosedur instalasi bisa dilakukan di developer.getpebble.com , artikel ini hanya penjelasan tambahan untuk prosedur instalasi."/>
+    <meta name="x:site" content="@"/>
     
     
     
       
-      <meta name="twitter:card" content="summary_large_image"/>
-      <meta name="twitter:image" content="https://khal.web.id/images/pebblewatch.jpg"/>
+      <meta name="x:card" content="summary_large_image"/>
+      <meta name="x:image" content="https://khal.web.id/images/pebblewatch.jpg"/>
     
 
   	<meta property="og:title" content="Khalid&#39;s Blog" />
@@ -29,7 +29,7 @@ Versi update terakhir pada saat artikel ini ditulis adalah Firmware 2."/>
     
     <meta property="og:description" content="Update: Semua intruksi dibawah ini bisa dilakukan hanya dengan menggunakan browser henpon.
 Halo Pebble&rsquo;ers (*ha ha namanya ga asik) belakangan ini Pebble mengeluarkan versi Firmware Beta untuk SDK2, update salah satunya adalah mengaktifkan kegunaan Accelerometer yg bisa mengukur movement dari pemakai dan Javascript Kit yg memudahkan developer untuk mengintegrasikan aplikasi pebble dengan web service semacam facebook, foursquare, yahoo weather, dll tanpa menggunakan 3rd party app seperti httpebble.
-Versi update terakhir pada saat artikel ini ditulis adalah Firmware 2." />
+Versi update terakhir pada saat artikel ini ditulis adalah Firmware 2.0 Beta 3 , versi ini kalo gw lihat sudah cukup stabil dan reliable. Pada versi BETA 2 sebelumnya masih terjadi kendala di Javascript Kit yg mengharuskan Pebble Android app harus berada di foreground. Untuk bisa melakukan instalasi firmware ini pemakai diharuskan registrasi terlebih dahulu di portal auth.getpebble.com  setelah login semua langkah dan prosedur instalasi bisa dilakukan di developer.getpebble.com , artikel ini hanya penjelasan tambahan untuk prosedur instalasi." />
   	<meta property="og:type" content="article" />
     <meta property="article:published_time" content="2013-12-16T15:18:10&#43;07:00" />
 
@@ -44,7 +44,7 @@ Versi update terakhir pada saat artikel ini ditulis adalah Firmware 2." />
     
     <meta name="description" content="Update: Semua intruksi dibawah ini bisa dilakukan hanya dengan menggunakan browser henpon.
 Halo Pebble&rsquo;ers (*ha ha namanya ga asik) belakangan ini Pebble mengeluarkan versi Firmware Beta untuk SDK2, update salah satunya adalah mengaktifkan kegunaan Accelerometer yg bisa mengukur movement dari pemakai dan Javascript Kit yg memudahkan developer untuk mengintegrasikan aplikasi pebble dengan web service semacam facebook, foursquare, yahoo weather, dll tanpa menggunakan 3rd party app seperti httpebble.
-Versi update terakhir pada saat artikel ini ditulis adalah Firmware 2.">
+Versi update terakhir pada saat artikel ini ditulis adalah Firmware 2.0 Beta 3 , versi ini kalo gw lihat sudah cukup stabil dan reliable. Pada versi BETA 2 sebelumnya masih terjadi kendala di Javascript Kit yg mengharuskan Pebble Android app harus berada di foreground. Untuk bisa melakukan instalasi firmware ini pemakai diharuskan registrasi terlebih dahulu di portal auth.getpebble.com  setelah login semua langkah dan prosedur instalasi bisa dilakukan di developer.getpebble.com , artikel ini hanya penjelasan tambahan untuk prosedur instalasi.">
     <meta name="author" content="Khalid Adisendjaja">
     
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
@@ -72,74 +72,35 @@ Versi update terakhir pada saat artikel ini ditulis adalah Firmware 2.">
     <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <meta name="generator" content="Hugo 0.92.0" />
+    <meta name="generator" content="Hugo 0.160.1">
     
     
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-8671044-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LG0R68E43H"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-LG0R68E43H');
+</script>
     
     <script src="https://khal.web.id/bundle.js"></script>
     <script src="https://khal.web.id/lazyload.min.js"></script>
+    <script>
+      async function getGravatarProfile(){try{let e=await fetch("https://api.gravatar.com/v3/profiles/khalidity",{method:"GET",headers:{Authorization:"Bearer 8648:gk-9GJROwPfjaGLcF2yZ6krpE-MNjoKm1qjSc_NctPmCmqqOGAK-2wD6y9BSWS0Z","Content-Type":"application/json"}});if(!e.ok)throw Error("Profile not found");let a=await e.json(),t=document.querySelector("ul.menu");t.insertAdjacentHTML("beforeend",`<li><a class="logo" href="mailto:`+a.contact_info.email+`" target="_blank"><img src="https://secure.gravatar.com/icons/mail.svg" alt="email" style="width:5em;height:5em;"></a></li>`),a.verified_accounts.forEach(e=>{e.is_hidden||t.insertAdjacentHTML("beforeend",`<li><a class="logo" href="`+e.url+`" target="_blank"><img src="`+e.service_icon+'" alt="'+e.service_label+`" style="width:5em;height:5em;"></a></li>`)})}catch(r){console.error("Error fetching Gravatar:",r)}}
+    </script>
   </head>
-  <body class="single">
-    <header class="header lazy post-head"data-bg="/images/pebblewatch.jpg">
+  <body class="single" onload="getGravatarProfile()">
+    <header class="header" >
       <nav class="nav">
-        <a class="logo" href="https://khal.web.id/"><img src="/images/logo.jpeg" alt="Home" style="speak:none;" /></a>
+        <a class="logo" href="https://khal.web.id/"><img src="https://gravatar.com/avatar/715dbdfe1973e789f70625174e56c99c4b8bb1d0c3c1cb2d9c39b512be0e1ecd" alt="Home" style="speak:none;" /></a>
         <ul class="menu">
-          
-          <li>
-              <a class="logo" href="mailto:contact@khal.web.id" target="_blank">
-                  <span class="icon-mail" style="color:var(--primary);font-size:2em;text-shadow: 0 0 5px white;"></span>
-              </a>
-          </li>
-          
-          <li>
-            <a class="logo" href="https://www.linkedin.com/in/khalidadisendjaja" target="_blank">
-              <span class="icon-linkedin" style="color:var(--primary);font-size:2em;text-shadow: 0 0 5px white;"></span>
-          </a>
-          </li>
-
-          
-          <li>
-              <a class="logo" href="https://github.com/kh411d" target="_blank">
-              <span class="icon-github" style="color:var(--primary);font-size:2em;text-shadow: 0 0 5px white;"></span>
-              </a>
-            </li>
-          
-
-          
-          <li>
-            <a class="logo" href="https://twitter.com/khalidity" target="_blank">
-                  <span class="icon-twitter" style="color:var(--primary);font-size:2em;text-shadow: 0 0 5px white;"></span>
-              </a>
-            </li>
-          
-
-          
-
-          
-          
-          <li>
-            <a class="logo" href="https://www.eyeem.com/u/khalidity/photos" target="_blank">
-                  <span class="icon-image" style="color:var(--primary);font-size:2em;text-shadow: 0 0 5px white;"></span>
-              </a>
-          </li>
-          
         </ul>
       </nav>
     </header>
     <main class="main">     
 <article class="post-single">
-  <header class="post-header">
+  <header class="post-header pakehome">
     <h1 class="post-title">Cara update Firmware Pebble ke SDK 2 Beta version</h1>
     <div class="post-meta">Khalid Adisendjaja · December 16, 2013</div>
   </header><div class="sticky-container">
@@ -149,8 +110,8 @@ if (!doNotTrack) {
                 <clap-it style="width:2.2em;height:2.2em;fill:grey;stroke:grey;color:grey;margin:14px auto;" api="https://clapi.vercel.app/api/handler"/>
             </li>
             <li class="ml-1 mr-1">
-            <a target="_blank" href="https://twitter.com/intent/tweet?text=Cara%20update%20Firmware%20Pebble%20ke%20SDK%202%20Beta%20version %23pebblewatch &url=https%3a%2f%2fkhal.web.id%2f2013%2f12%2f16%2fcara-update-firmware-pebble-ke-sdk-2-beta-version%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=435');return false;">
-            <i class="icon-twitter" style="font-size:1.8em"></i>
+            <a target="_blank" href="https://x.com/intent/x?text=Cara%20update%20Firmware%20Pebble%20ke%20SDK%202%20Beta%20version %23pebblewatch &url=https%3a%2f%2fkhal.web.id%2f2013%2f12%2f16%2fcara-update-firmware-pebble-ke-sdk-2-beta-version%2f" onclick="window.open(this.href, 'x-share', 'width=550,height=435');return false;">
+            <i class="icon-x" style="font-size:1.8em"></i>
             </a>
             </li>
             
@@ -178,7 +139,7 @@ if (!doNotTrack) {
 <li>Uninstall Pebble &ldquo;Android App&rdquo; yang terinstall di henpon, pastikan pada setting android di bagian security - Device administration box &ldquo;Unknown Source&rdquo; sudah di cek, gunanya untuk mengizinkan instalasi aplikasi selain dari Play Store.</li>
 <li>Lalu lakukan instalasi file &ldquo;<strong>PebbleApp-2.0-BETA3.apk</strong>&rdquo; dari folder explorer, di-klik saja lalu pilih &ldquo;package installer&rdquo; (logo android) untuk instalasi, pastikan pebble android app sudah terinstall.</li>
 <li>Setelah Pebble Android App terinstall, lakukan instalasi <strong>Pebble-2.0-BETA3-[ev2_4 atau v1_5].pbz</strong> dari folder explorer, di-klik saja, nanti file akan dikenali oleh Pebble Android App, proses &ldquo;Updating&rdquo; akan segera berlangsung, tunggu sekitar 2-3 menit sampai proses instalasi selesai, Jam tangan akan melakukan reboot ketika update firmware telah selesai.</li>
-<li>Setelah semua selesai, silahkan sujud sukur, potong kambing, tumpengan atau undang tetangga buat tahlilan 😆</li>
+<li>Setelah semua selesai, silahkan sujud sukur, potong kambing, tumpengan atau undang tetangga buat tahlilan &#x1f606;</li>
 </ol>
 <p>Setelah itu lo bisa langsung menuju <a href="http://www.mypebblefaces.com/" target="_blank">MyPebbleFaces.com</a> silahkan di filter result berdasarkan SDK 2.0, ada beberapa aplikasi yg menurut gw cukup menarik seperti,</p>
 <ol>
@@ -195,8 +156,8 @@ if (!doNotTrack) {
     <img src="/images/wpid-Screenshot_2013-12-17-00-30-16.png" alt="image">
     <figcaption style="font-size:0.6em"></figcaption>
   </figure></p>
-<p>Wokeh Bro Sis gitu deh, catatan aja, langkah diatas udah gw coba berulang2x di android dan sukses2x aja, untuk aplikasi IOS gw belum pernah coba, tapi kalo gw pikir sih mirip aja ya, sori banget nih kalo gw kurang nge-bantu 😄</p>
-<p>Selamat mencoba!! Break a leg 😏</p>
+<p>Wokeh Bro Sis gitu deh, catatan aja, langkah diatas udah gw coba berulang2x di android dan sukses2x aja, untuk aplikasi IOS gw belum pernah coba, tapi kalo gw pikir sih mirip aja ya, sori banget nih kalo gw kurang nge-bantu &#x1f604;</p>
+<p>Selamat mencoba!! Break a leg &#x1f60f;</p>
 
   </div>
 <section class="share-footer">
@@ -206,9 +167,9 @@ if (!doNotTrack) {
       <clap-it style="width:45px;height:45px;fill:var(--secondary);stroke:var(--secondary);color:var(--secondary);margin:5px 0px;" api="https://clapi.vercel.app/api/handler"/>
     </li>
       <li>
-        <a  style="font-size: 2.5em" href="https://twitter.com/share?text=Cara%20update%20Firmware%20Pebble%20ke%20SDK%202%20Beta%20version&nbsp;-&nbsp;Khalid%27s%20Blog&amp;url=https%3a%2f%2fkhal.web.id%2f2013%2f12%2f16%2fcara-update-firmware-pebble-ke-sdk-2-beta-version%2f"
-        onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-            <span class="icon-twitter" style="color:var(--secondary);"></span>
+        <a  style="font-size: 2.5em" href="https://x.com/share?text=Cara%20update%20Firmware%20Pebble%20ke%20SDK%202%20Beta%20version&nbsp;-&nbsp;Khalid%27s%20Blog&amp;url=https%3a%2f%2fkhal.web.id%2f2013%2f12%2f16%2fcara-update-firmware-pebble-ke-sdk-2-beta-version%2f"
+        onclick="window.open(this.href, 'x-share', 'width=550,height=235');return false;">
+            <span class="icon-x" style="color:var(--secondary);"></span>
         </a>
       </li>
       <li>
@@ -232,7 +193,7 @@ if (!doNotTrack) {
   
 </article></main>
 <footer class="footer" aria-hidden="true" tabindex="-1">
-  <span>&copy; 2009 - 2022 <a href="https://khal.web.id/" tabindex="-1">Khalid&#39;s Blog</a></span>
+  <span>&copy; 2009 - 2026 <a href="https://khal.web.id/" tabindex="-1">Khalid&#39;s Blog</a></span>
   <span>&middot;</span>
   <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank" tabindex="-1">Hugo️️</a>️</span>
 </footer>

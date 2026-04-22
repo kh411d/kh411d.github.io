@@ -1,65 +1,49 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>android on Khalid&#39;s Blog</title>
+    <title>Android on Khalid&#39;s Blog</title>
     <link>https://khal.web.id/tags/android/</link>
-    <description>Recent content in android on Khalid&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Android on Khalid&#39;s Blog</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
     <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
-    <lastBuildDate>Mon, 25 Jan 2016 13:02:42 +0700</lastBuildDate><atom:link href="https://khal.web.id/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Jan 2016 13:02:42 +0700</lastBuildDate>
+    <atom:link href="https://khal.web.id/tags/android/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nge-mix Android di Macbook/PC</title>
       <link>https://khal.web.id/2016/01/25/nge-mix-android-di-macbookpc/</link>
-      <pubDate>Mon, 25 Jan 2016 13:02:42 +0700</pubDate>
-      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <pubDate>Mon, 25 Jan 2016 13:02:42 +0700</pubDate><author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2016/01/25/nge-mix-android-di-macbookpc/</guid>
-      <description>Mungkin banyak yg sudah pada tahu kelebihan Android ini, tetapi kebanyakan orang terbiasa tahu bahwa android hanya running di henpon, tablet, IOT devices, atau mini PC dengan USB stick.
-Meskipun bisa di install di banyak device, akan tetapi Operating System yang terinstall pun adalah notabene sama seperti yg kita lihat pada android phone/tablet kebanyakan, misal meski bernama android mini PC, OS yg terinstall pun adalah varian untuk tablet device.
-Berawal dari sebuah company bernama JIDE Technology yg diusung oleh 3 ex-Google membuat sebuah OS bernama Remix OS berdasarkan project open source Android-X86.</description>
+      <description>&lt;p&gt;Mungkin banyak yg sudah pada tahu kelebihan Android ini, tetapi kebanyakan orang terbiasa tahu bahwa android hanya running di henpon, tablet, IOT devices, atau mini PC dengan USB stick.&lt;/p&gt;&#xA;&lt;p&gt;Meskipun bisa di install di banyak device, akan tetapi Operating System yang terinstall pun adalah notabene sama seperti yg kita lihat pada android phone/tablet kebanyakan, misal meski bernama android mini PC, OS yg terinstall pun adalah varian untuk tablet device.&lt;/p&gt;&#xA;&lt;p&gt;Berawal dari sebuah company bernama JIDE Technology yg diusung oleh 3 ex-Google membuat sebuah OS bernama Remix OS berdasarkan project open source Android-X86.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Android On-Body phone lock, pinter juga neh!</title>
       <link>https://khal.web.id/2015/05/02/android-on-body-phone-lock-pinter-juga-neh/</link>
-      <pubDate>Sat, 02 May 2015 08:50:00 +0700</pubDate>
-      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <pubDate>Sat, 02 May 2015 08:50:00 +0700</pubDate><author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2015/05/02/android-on-body-phone-lock-pinter-juga-neh/</guid>
-      <description>Tentunya penting buat kita semua untuk menjaga privasi dan keamanan henpon pribadi entah dari kelalaian kita sendiri atau tangan-tangan usil lainnya.
-Oleh karena itulah pada umumnya setiap henpon memiliki beberapa sistem keamanan dan salah satunya adalah Lock Screen system, yang berguna untuk mengunci henpon pengguna dengan sebuah PIN atau Pattern matching ketika henpon sedang berada dalam kondisi tidak digunakan.
-Pernahkah kamu pada suatu waktu sedang menggunakan henpon, diselingi dengan mengobrol dengan teman atau bermain game puzzle yg perlu mikir lama atau kegiatan lainnya, lalu kemudian henpon dengan sendirinya mengunci, karena ketika kita sedang mengobrol dengan teman, henpon masuk dalam keadaan idle atau sedang tidak digunakan.</description>
+      <description>&lt;p&gt;Tentunya penting buat kita semua untuk menjaga privasi dan keamanan henpon pribadi entah dari kelalaian kita sendiri atau tangan-tangan usil lainnya.&lt;/p&gt;&#xA;&lt;p&gt;Oleh karena itulah pada umumnya setiap henpon memiliki beberapa sistem keamanan dan salah satunya adalah Lock Screen system, yang berguna untuk mengunci henpon pengguna dengan sebuah PIN atau Pattern matching ketika henpon sedang berada dalam kondisi tidak digunakan.&lt;/p&gt;&#xA;&lt;p&gt;Pernahkah kamu pada suatu waktu sedang menggunakan henpon, diselingi dengan mengobrol dengan teman atau bermain game puzzle yg perlu mikir lama atau kegiatan lainnya, lalu kemudian henpon dengan sendirinya mengunci, karena ketika kita sedang mengobrol dengan teman, henpon masuk dalam keadaan idle atau sedang tidak digunakan.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Aplikasi mobile IFTTT bakal bikin Android lo makin canggih!</title>
       <link>https://khal.web.id/2014/07/11/aplikasi-mobile-ifttt-bakal-bikin-android-lo-makin-canggih/</link>
-      <pubDate>Fri, 11 Jul 2014 09:03:57 +0700</pubDate>
-      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <pubDate>Fri, 11 Jul 2014 09:03:57 +0700</pubDate><author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2014/07/11/aplikasi-mobile-ifttt-bakal-bikin-android-lo-makin-canggih/</guid>
-      <description>IFTTT adalah sebuah alat yang akan memudahkan otomatisasi kegiatan lo sehari-hari dengan dunia internet. Cara pemakaian IFTTT pun cukup mudah, sama sekali gak perlu ngerti IT banget. Sumpah gak boong :-)
-IFTTT baru-baru ini mengenalkan aplikasi untuk smartphone Android, yang nantinya berguna untuk meng-otomatisasi fitur smartphone seperti, sms, call, location, photo, dan notification.
-Banyak banget resep IFTTT yang bisa lo bikin, dari yang paling berguna buat hidup lo sampai yang paling absurd sekalipun</description>
+      <description>&lt;p&gt;IFTTT adalah sebuah alat yang akan memudahkan otomatisasi kegiatan lo sehari-hari dengan dunia internet. &lt;a href=&#34;http://khal.web.id/2012/09/05/rahasia-dibalik-otomatisasi-tweet-gue/&#34; target=&#34;_blank&#34;&gt;Cara pemakaian IFTTT&lt;/a&gt; pun cukup mudah, sama sekali gak perlu ngerti IT banget. Sumpah gak boong :-)&lt;/p&gt;&#xA;&lt;p&gt;IFTTT baru-baru ini mengenalkan aplikasi untuk smartphone Android, yang nantinya berguna untuk meng-otomatisasi fitur smartphone seperti, sms, call, location, photo, dan notification.&lt;/p&gt;&#xA;&lt;p&gt;Banyak banget resep IFTTT yang bisa lo bikin, dari yang paling berguna buat hidup lo sampai yang paling absurd sekalipun&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Nanti gue &#34;Yo!&#34; aja ya...</title>
       <link>https://khal.web.id/2014/06/19/nanti-gue-yo-aja-ya/</link>
-      <pubDate>Thu, 19 Jun 2014 09:20:34 +0700</pubDate>
-      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <pubDate>Thu, 19 Jun 2014 09:20:34 +0700</pubDate><author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2014/06/19/nanti-gue-yo-aja-ya/</guid>
-      <description>Yo, yo , yoooooo! &amp;hellip;. Ha ha, satu lagi terobosan baru cara berkomunikasi dengan temen-temen lo, sebenernya sih ga baru-baru amet, kalo dulu jaman gw baru2x masuk kuliah taun 90-an pasti lo tau deh yang namanya &amp;ldquo;Miss Call&amp;rdquo; cuman buat ngasih tau kalo lo dah nyampe kelas, ato buat ngasih tau dah nyampe tempat janjian misalnya di mall, kafe, dll.
-Aplikasi Android/Iphone bernama Yo ini punya moto &amp;ldquo;Zero-character communication tool&amp;rdquo; ya cara kerjanya mirip-mirip sama miss call gitu deh, buat yang mau coba silakan kunjungi websitenya di http://www.</description>
+      <description>&lt;p&gt;Yo, yo , yoooooo! &amp;hellip;. Ha ha, satu lagi terobosan baru cara berkomunikasi dengan temen-temen lo, sebenernya sih ga baru-baru amet, kalo dulu jaman gw baru2x masuk kuliah taun 90-an pasti lo tau deh yang namanya &amp;ldquo;Miss Call&amp;rdquo; cuman buat ngasih tau kalo lo dah nyampe kelas, ato buat ngasih tau dah nyampe tempat janjian misalnya di mall, kafe, dll.&lt;/p&gt;&#xA;&lt;p&gt;Aplikasi Android/Iphone bernama Yo ini punya moto &amp;ldquo;Zero-character communication tool&amp;rdquo; ya cara kerjanya mirip-mirip sama miss call gitu deh, buat yang mau coba silakan kunjungi websitenya di &lt;a href=&#34;http://www.justyo.co/&#34; target=&#34;_blank&#34;&gt;http://www.justyo.co/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Low RAM Android? No Worry at All</title>
       <link>https://khal.web.id/2014/01/23/low-ram-android-no-worry/</link>
-      <pubDate>Thu, 23 Jan 2014 06:40:58 +0700</pubDate>
-      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <pubDate>Thu, 23 Jan 2014 06:40:58 +0700</pubDate><author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2014/01/23/low-ram-android-no-worry/</guid>
-      <description>Ever think to change my old android smartphone into a much better one, however, the android market seems to change very fast, in every year you will see how many new android devices being shipped with their new technology, hardware, and new operating system, which is IMHO I don&amp;rsquo;t think that the enhancement they made, is having a big difference in a way I use my phone. So I somehow manage to wait for another 3 or 5 years for replacing my devices.</description>
+      <description>&lt;p&gt;Ever think to change my old android smartphone into a much better one, however, the android market seems to change very fast, in every year you will see how many new android devices being shipped with their new technology, hardware, and new operating system, which is IMHO I don&amp;rsquo;t think that the enhancement they made, is having a big difference in a way I use my phone. So I somehow manage to wait for another 3 or 5 years for replacing my devices.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

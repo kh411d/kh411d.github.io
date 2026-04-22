@@ -5,17 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     
-    <meta name="twitter:title" content="Aplikasi mobile IFTTT bakal bikin Android lo makin canggih!"/>
-    <meta name="twitter:description" content="IFTTT adalah sebuah alat yang akan memudahkan otomatisasi kegiatan lo sehari-hari dengan dunia internet. Cara pemakaian IFTTT pun cukup mudah, sama sekali gak perlu ngerti IT banget. Sumpah gak boong :-)
+    <meta name="x:title" content="Aplikasi mobile IFTTT bakal bikin Android lo makin canggih!"/>
+    <meta name="x:description" content="IFTTT adalah sebuah alat yang akan memudahkan otomatisasi kegiatan lo sehari-hari dengan dunia internet. Cara pemakaian IFTTT pun cukup mudah, sama sekali gak perlu ngerti IT banget. Sumpah gak boong :-)
 IFTTT baru-baru ini mengenalkan aplikasi untuk smartphone Android, yang nantinya berguna untuk meng-otomatisasi fitur smartphone seperti, sms, call, location, photo, dan notification.
 Banyak banget resep IFTTT yang bisa lo bikin, dari yang paling berguna buat hidup lo sampai yang paling absurd sekalipun"/>
-    <meta name="twitter:site" content="@khalidity"/>
+    <meta name="x:site" content="@"/>
     
     
     
       
-      <meta name="twitter:card" content="summary_large_image"/>
-      <meta name="twitter:image" content="https://khal.web.id/images/ifttt.png"/>
+      <meta name="x:card" content="summary_large_image"/>
+      <meta name="x:image" content="https://khal.web.id/images/ifttt.png"/>
     
 
   	<meta property="og:title" content="Khalid&#39;s Blog" />
@@ -78,74 +78,35 @@ Banyak banget resep IFTTT yang bisa lo bikin, dari yang paling berguna buat hidu
     <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <meta name="generator" content="Hugo 0.92.0" />
+    <meta name="generator" content="Hugo 0.160.1">
     
     
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-8671044-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LG0R68E43H"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-LG0R68E43H');
+</script>
     
     <script src="https://khal.web.id/bundle.js"></script>
     <script src="https://khal.web.id/lazyload.min.js"></script>
+    <script>
+      async function getGravatarProfile(){try{let e=await fetch("https://api.gravatar.com/v3/profiles/khalidity",{method:"GET",headers:{Authorization:"Bearer 8648:gk-9GJROwPfjaGLcF2yZ6krpE-MNjoKm1qjSc_NctPmCmqqOGAK-2wD6y9BSWS0Z","Content-Type":"application/json"}});if(!e.ok)throw Error("Profile not found");let a=await e.json(),t=document.querySelector("ul.menu");t.insertAdjacentHTML("beforeend",`<li><a class="logo" href="mailto:`+a.contact_info.email+`" target="_blank"><img src="https://secure.gravatar.com/icons/mail.svg" alt="email" style="width:5em;height:5em;"></a></li>`),a.verified_accounts.forEach(e=>{e.is_hidden||t.insertAdjacentHTML("beforeend",`<li><a class="logo" href="`+e.url+`" target="_blank"><img src="`+e.service_icon+'" alt="'+e.service_label+`" style="width:5em;height:5em;"></a></li>`)})}catch(r){console.error("Error fetching Gravatar:",r)}}
+    </script>
   </head>
-  <body class="single">
-    <header class="header lazy post-head"data-bg="/images/ifttt.png">
+  <body class="single" onload="getGravatarProfile()">
+    <header class="header" >
       <nav class="nav">
-        <a class="logo" href="https://khal.web.id/"><img src="/images/logo.jpeg" alt="Home" style="speak:none;" /></a>
+        <a class="logo" href="https://khal.web.id/"><img src="https://gravatar.com/avatar/715dbdfe1973e789f70625174e56c99c4b8bb1d0c3c1cb2d9c39b512be0e1ecd" alt="Home" style="speak:none;" /></a>
         <ul class="menu">
-          
-          <li>
-              <a class="logo" href="mailto:contact@khal.web.id" target="_blank">
-                  <span class="icon-mail" style="color:var(--primary);font-size:2em;text-shadow: 0 0 5px white;"></span>
-              </a>
-          </li>
-          
-          <li>
-            <a class="logo" href="https://www.linkedin.com/in/khalidadisendjaja" target="_blank">
-              <span class="icon-linkedin" style="color:var(--primary);font-size:2em;text-shadow: 0 0 5px white;"></span>
-          </a>
-          </li>
-
-          
-          <li>
-              <a class="logo" href="https://github.com/kh411d" target="_blank">
-              <span class="icon-github" style="color:var(--primary);font-size:2em;text-shadow: 0 0 5px white;"></span>
-              </a>
-            </li>
-          
-
-          
-          <li>
-            <a class="logo" href="https://twitter.com/khalidity" target="_blank">
-                  <span class="icon-twitter" style="color:var(--primary);font-size:2em;text-shadow: 0 0 5px white;"></span>
-              </a>
-            </li>
-          
-
-          
-
-          
-          
-          <li>
-            <a class="logo" href="https://www.eyeem.com/u/khalidity/photos" target="_blank">
-                  <span class="icon-image" style="color:var(--primary);font-size:2em;text-shadow: 0 0 5px white;"></span>
-              </a>
-          </li>
-          
         </ul>
       </nav>
     </header>
     <main class="main">     
 <article class="post-single">
-  <header class="post-header">
+  <header class="post-header pakehome">
     <h1 class="post-title">Aplikasi mobile IFTTT bakal bikin Android lo makin canggih!</h1>
     <div class="post-meta">Khalid Adisendjaja · July 11, 2014</div>
   </header><div class="sticky-container">
@@ -155,8 +116,8 @@ if (!doNotTrack) {
                 <clap-it style="width:2.2em;height:2.2em;fill:grey;stroke:grey;color:grey;margin:14px auto;" api="https://clapi.vercel.app/api/handler"/>
             </li>
             <li class="ml-1 mr-1">
-            <a target="_blank" href="https://twitter.com/intent/tweet?text=Aplikasi%20mobile%20IFTTT%20bakal%20bikin%20Android%20lo%20makin%20canggih%21 %23app  %23android  %23automation  %23ifttt &url=https%3a%2f%2fkhal.web.id%2f2014%2f07%2f11%2faplikasi-mobile-ifttt-bakal-bikin-android-lo-makin-canggih%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=435');return false;">
-            <i class="icon-twitter" style="font-size:1.8em"></i>
+            <a target="_blank" href="https://x.com/intent/x?text=Aplikasi%20mobile%20IFTTT%20bakal%20bikin%20Android%20lo%20makin%20canggih%21 %23app  %23android  %23automation  %23ifttt &url=https%3a%2f%2fkhal.web.id%2f2014%2f07%2f11%2faplikasi-mobile-ifttt-bakal-bikin-android-lo-makin-canggih%2f" onclick="window.open(this.href, 'x-share', 'width=550,height=435');return false;">
+            <i class="icon-x" style="font-size:1.8em"></i>
             </a>
             </li>
             
@@ -195,9 +156,9 @@ if (!doNotTrack) {
       <clap-it style="width:45px;height:45px;fill:var(--secondary);stroke:var(--secondary);color:var(--secondary);margin:5px 0px;" api="https://clapi.vercel.app/api/handler"/>
     </li>
       <li>
-        <a  style="font-size: 2.5em" href="https://twitter.com/share?text=Aplikasi%20mobile%20IFTTT%20bakal%20bikin%20Android%20lo%20makin%20canggih%21&nbsp;-&nbsp;Khalid%27s%20Blog&amp;url=https%3a%2f%2fkhal.web.id%2f2014%2f07%2f11%2faplikasi-mobile-ifttt-bakal-bikin-android-lo-makin-canggih%2f"
-        onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-            <span class="icon-twitter" style="color:var(--secondary);"></span>
+        <a  style="font-size: 2.5em" href="https://x.com/share?text=Aplikasi%20mobile%20IFTTT%20bakal%20bikin%20Android%20lo%20makin%20canggih%21&nbsp;-&nbsp;Khalid%27s%20Blog&amp;url=https%3a%2f%2fkhal.web.id%2f2014%2f07%2f11%2faplikasi-mobile-ifttt-bakal-bikin-android-lo-makin-canggih%2f"
+        onclick="window.open(this.href, 'x-share', 'width=550,height=235');return false;">
+            <span class="icon-x" style="color:var(--secondary);"></span>
         </a>
       </li>
       <li>
@@ -224,7 +185,7 @@ if (!doNotTrack) {
   
 </article></main>
 <footer class="footer" aria-hidden="true" tabindex="-1">
-  <span>&copy; 2009 - 2022 <a href="https://khal.web.id/" tabindex="-1">Khalid&#39;s Blog</a></span>
+  <span>&copy; 2009 - 2026 <a href="https://khal.web.id/" tabindex="-1">Khalid&#39;s Blog</a></span>
   <span>&middot;</span>
   <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank" tabindex="-1">Hugo️️</a>️</span>
 </footer>

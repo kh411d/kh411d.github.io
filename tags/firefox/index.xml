@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>firefox on Khalid&#39;s Blog</title>
+    <title>Firefox on Khalid&#39;s Blog</title>
     <link>https://khal.web.id/tags/firefox/</link>
-    <description>Recent content in firefox on Khalid&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Firefox on Khalid&#39;s Blog</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>contact@khal.web.id (Khalid Adisendjaja)</managingEditor>
     <webMaster>contact@khal.web.id (Khalid Adisendjaja)</webMaster>
-    <lastBuildDate>Wed, 11 Nov 2009 07:55:29 +0700</lastBuildDate><atom:link href="https://khal.web.id/tags/firefox/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Nov 2009 07:55:29 +0700</lastBuildDate>
+    <atom:link href="https://khal.web.id/tags/firefox/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gimana caranya bikin tampilan Firefox lo jadi kaya Chrome</title>
       <link>https://khal.web.id/2009/11/11/gimana-caranya-bikin-tampilan-firefox-lo-jadi-kaya-chrome/</link>
-      <pubDate>Wed, 11 Nov 2009 07:55:29 +0700</pubDate>
-      <author>contact@khal.web.id (Khalid Adisendjaja)</author>
+      <pubDate>Wed, 11 Nov 2009 07:55:29 +0700</pubDate><author>contact@khal.web.id (Khalid Adisendjaja)</author>
       <guid>https://khal.web.id/2009/11/11/gimana-caranya-bikin-tampilan-firefox-lo-jadi-kaya-chrome/</guid>
-      <description>Salah satu hal yang gw suka dari Chrome adalah themes nya yang simple clean dan enteng di liat deh pokoknya &amp;hellip;, masalahnya gw jarang pake tuh yang namanya Chrome kalo untuk development (Can&amp;rsquo;t live whitout firefox), ya udah deh gw mulai cari sana sini gimana caranya bisa bikin tampilan firefox jadi kaya chrome, mudah2x nih artikel berguna dah &amp;hellip;
-Ada beberapa firefox extension yang kudu di install &amp;hellip;
- Chrome Themes : https://addons.</description>
+      <description>&lt;p&gt;Salah satu hal yang gw suka dari Chrome adalah themes nya yang simple clean dan enteng di liat deh pokoknya &amp;hellip;, masalahnya gw jarang pake tuh yang namanya Chrome kalo untuk development (Can&amp;rsquo;t live whitout firefox), ya udah deh gw mulai cari sana sini gimana caranya bisa bikin tampilan firefox jadi kaya chrome, mudah2x nih artikel berguna dah &amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;Ada beberapa firefox extension yang kudu di install &amp;hellip;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Chrome Themes : &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/10339&#34; target=&#34;_blank&#34;&gt;https://addons.mozilla.org/en-US/firefox/addon/10339&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/10674&#34; target=&#34;_blank&#34;&gt;https://addons.mozilla.org/en-US/firefox/addon/10674&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Personal Menu : &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/3895&#34; target=&#34;_blank&#34;&gt;https://addons.mozilla.org/en-US/firefox/addon/3895&lt;/a&gt;&lt;br&gt;&#xA;untuk ngebuat menu sendiri.**&lt;/li&gt;&#xA;&lt;li&gt;Dom Inspector : &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/6622&#34; target=&#34;_blank&#34;&gt;https://addons.mozilla.org/en-US/firefox/addon/6622&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Prism : &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/6665&#34; target=&#34;_blank&#34;&gt;https://addons.mozilla.org/en-US/firefox/addon/6665&lt;/a&gt;&lt;br&gt;&#xA;(untuk &amp;ldquo;make application dari browser&amp;rdquo;)&lt;/li&gt;&#xA;&lt;li&gt;Resizable textarea : &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/3818&#34; target=&#34;_blank&#34;&gt;https://addons.mozilla.org/en-US/firefox/addon/3818&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Stealther : &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/1306&#34; target=&#34;_blank&#34;&gt;https://addons.mozilla.org/en-US/firefox/addon/1306&lt;/a&gt;&lt;br&gt;&#xA;(meniru stealthnya chrome).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Nah skarang untuk ngilangin menu (File edit tools help , dlll), klik kanan di daerah toolbar atas Uncheck &amp;ldquo;Menu Toolbars&amp;rdquo;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

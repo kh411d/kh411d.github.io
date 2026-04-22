@@ -159,7 +159,7 @@ img {
   background-color: #BB001B;
   color: #FFFFFF;
 }
-.twitter-clr {
+.x-clr {
   background-color: #08a0e9;
   color: #e8f5fd
 }
@@ -292,7 +292,7 @@ img {
 .icon-feed:before {
     content: "\f413";
 }
-.icon-twitter:before {
+.icon-x:before {
     content: "\f202";
 }
 .icon-flickr:before {

@@ -5,19 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     
-    <meta name="twitter:title" content="Using Facebook Test User"/>
-    <meta name="twitter:description" content="If you don&rsquo;t know what Facebook Test User is? you may check the documentation on http://developers.facebook.com/docs/test_users/
+    <meta name="x:title" content="Using Facebook Test User"/>
+    <meta name="x:description" content="If you don&rsquo;t know what Facebook Test User is? you may check the documentation on http://developers.facebook.com/docs/test_users/
 Test User is a tool that could be handy when you need to have some users to interact with your application, facebook currently provide this through Graph Api.
 I&rsquo;ve made this simple php class consuming only facebook test account API, you may copy-paste from github
 Some example,
-1 2 3 4 5 6 7 8 9 10  $acc = new Facebook_TestAccount($appID,$Secret,$app_access_token); //Create N User  $acc-&gt;createMany($_REQUEST[&#39;n&#39;],$parameter) //Delete All User created by App  $acc-&gt;deleteAll() //Listing all user created by App Access Token  $acc-&gt;access()   "/>
-    <meta name="twitter:site" content="@khalidity"/>
+
+
+ 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+
+
+    $acc = new Facebook_TestAccount($appID,$Secret,$app_access_token);
+    
+    //Create N User
+    $acc-&gt;createMany($_REQUEST[&#39;n&#39;],$parameter)
+    
+    //Delete All User created by App
+    $acc-&gt;deleteAll()
+    
+    //Listing all user created by App Access Token
+    $acc-&gt;access()
+
+
+"/>
+    <meta name="x:site" content="@"/>
     
     
     
       
-      <meta name="twitter:card" content="summary_large_image"/>
-      <meta name="twitter:image" content="https://khal.web.id/images/facebookdev.jpg"/>
+      <meta name="x:card" content="summary_large_image"/>
+      <meta name="x:image" content="https://khal.web.id/images/facebookdev.jpg"/>
     
 
   	<meta property="og:title" content="Khalid&#39;s Blog" />
@@ -33,7 +59,33 @@ Some example,
 Test User is a tool that could be handy when you need to have some users to interact with your application, facebook currently provide this through Graph Api.
 I&rsquo;ve made this simple php class consuming only facebook test account API, you may copy-paste from github
 Some example,
-1 2 3 4 5 6 7 8 9 10  $acc = new Facebook_TestAccount($appID,$Secret,$app_access_token); //Create N User  $acc-&gt;createMany($_REQUEST[&#39;n&#39;],$parameter) //Delete All User created by App  $acc-&gt;deleteAll() //Listing all user created by App Access Token  $acc-&gt;access()   " />
+
+
+ 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+
+
+    $acc = new Facebook_TestAccount($appID,$Secret,$app_access_token);
+    
+    //Create N User
+    $acc-&gt;createMany($_REQUEST[&#39;n&#39;],$parameter)
+    
+    //Delete All User created by App
+    $acc-&gt;deleteAll()
+    
+    //Listing all user created by App Access Token
+    $acc-&gt;access()
+
+
+" />
   	<meta property="og:type" content="article" />
     <meta property="article:published_time" content="2011-07-27T08:59:35&#43;07:00" />
 
@@ -52,7 +104,33 @@ Some example,
 Test User is a tool that could be handy when you need to have some users to interact with your application, facebook currently provide this through Graph Api.
 I&rsquo;ve made this simple php class consuming only facebook test account API, you may copy-paste from github
 Some example,
-1 2 3 4 5 6 7 8 9 10  $acc = new Facebook_TestAccount($appID,$Secret,$app_access_token); //Create N User  $acc-&gt;createMany($_REQUEST[&#39;n&#39;],$parameter) //Delete All User created by App  $acc-&gt;deleteAll() //Listing all user created by App Access Token  $acc-&gt;access()   ">
+
+
+ 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+
+
+    $acc = new Facebook_TestAccount($appID,$Secret,$app_access_token);
+    
+    //Create N User
+    $acc-&gt;createMany($_REQUEST[&#39;n&#39;],$parameter)
+    
+    //Delete All User created by App
+    $acc-&gt;deleteAll()
+    
+    //Listing all user created by App Access Token
+    $acc-&gt;access()
+
+
+">
     <meta name="author" content="Khalid Adisendjaja">
     
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
@@ -80,74 +158,35 @@ Some example,
     <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <meta name="generator" content="Hugo 0.92.0" />
+    <meta name="generator" content="Hugo 0.160.1">
     
     
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-8671044-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LG0R68E43H"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-LG0R68E43H');
+</script>
     
     <script src="https://khal.web.id/bundle.js"></script>
     <script src="https://khal.web.id/lazyload.min.js"></script>
+    <script>
+      async function getGravatarProfile(){try{let e=await fetch("https://api.gravatar.com/v3/profiles/khalidity",{method:"GET",headers:{Authorization:"Bearer 8648:gk-9GJROwPfjaGLcF2yZ6krpE-MNjoKm1qjSc_NctPmCmqqOGAK-2wD6y9BSWS0Z","Content-Type":"application/json"}});if(!e.ok)throw Error("Profile not found");let a=await e.json(),t=document.querySelector("ul.menu");t.insertAdjacentHTML("beforeend",`<li><a class="logo" href="mailto:`+a.contact_info.email+`" target="_blank"><img src="https://secure.gravatar.com/icons/mail.svg" alt="email" style="width:5em;height:5em;"></a></li>`),a.verified_accounts.forEach(e=>{e.is_hidden||t.insertAdjacentHTML("beforeend",`<li><a class="logo" href="`+e.url+`" target="_blank"><img src="`+e.service_icon+'" alt="'+e.service_label+`" style="width:5em;height:5em;"></a></li>`)})}catch(r){console.error("Error fetching Gravatar:",r)}}
+    </script>
   </head>
-  <body class="single">
-    <header class="header lazy post-head"data-bg="/images/facebookdev.jpg">
+  <body class="single" onload="getGravatarProfile()">
+    <header class="header" >
       <nav class="nav">
-        <a class="logo" href="https://khal.web.id/"><img src="/images/logo.jpeg" alt="Home" style="speak:none;" /></a>
+        <a class="logo" href="https://khal.web.id/"><img src="https://gravatar.com/avatar/715dbdfe1973e789f70625174e56c99c4b8bb1d0c3c1cb2d9c39b512be0e1ecd" alt="Home" style="speak:none;" /></a>
         <ul class="menu">
-          
-          <li>
-              <a class="logo" href="mailto:contact@khal.web.id" target="_blank">
-                  <span class="icon-mail" style="color:var(--primary);font-size:2em;text-shadow: 0 0 5px white;"></span>
-              </a>
-          </li>
-          
-          <li>
-            <a class="logo" href="https://www.linkedin.com/in/khalidadisendjaja" target="_blank">
-              <span class="icon-linkedin" style="color:var(--primary);font-size:2em;text-shadow: 0 0 5px white;"></span>
-          </a>
-          </li>
-
-          
-          <li>
-              <a class="logo" href="https://github.com/kh411d" target="_blank">
-              <span class="icon-github" style="color:var(--primary);font-size:2em;text-shadow: 0 0 5px white;"></span>
-              </a>
-            </li>
-          
-
-          
-          <li>
-            <a class="logo" href="https://twitter.com/khalidity" target="_blank">
-                  <span class="icon-twitter" style="color:var(--primary);font-size:2em;text-shadow: 0 0 5px white;"></span>
-              </a>
-            </li>
-          
-
-          
-
-          
-          
-          <li>
-            <a class="logo" href="https://www.eyeem.com/u/khalidity/photos" target="_blank">
-                  <span class="icon-image" style="color:var(--primary);font-size:2em;text-shadow: 0 0 5px white;"></span>
-              </a>
-          </li>
-          
         </ul>
       </nav>
     </header>
     <main class="main">     
 <article class="post-single">
-  <header class="post-header">
+  <header class="post-header pakehome">
     <h1 class="post-title">Using Facebook Test User</h1>
     <div class="post-meta">Khalid Adisendjaja · July 27, 2011</div>
   </header><div class="sticky-container">
@@ -157,8 +196,8 @@ if (!doNotTrack) {
                 <clap-it style="width:2.2em;height:2.2em;fill:grey;stroke:grey;color:grey;margin:14px auto;" api="https://clapi.vercel.app/api/handler"/>
             </li>
             <li class="ml-1 mr-1">
-            <a target="_blank" href="https://twitter.com/intent/tweet?text=Using%20Facebook%20Test%20User %23facebook  %23tutorial &url=https%3a%2f%2fkhal.web.id%2f2011%2f07%2f27%2fusing-facebook-test-user%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=435');return false;">
-            <i class="icon-twitter" style="font-size:1.8em"></i>
+            <a target="_blank" href="https://x.com/intent/x?text=Using%20Facebook%20Test%20User %23facebook  %23tutorial &url=https%3a%2f%2fkhal.web.id%2f2011%2f07%2f27%2fusing-facebook-test-user%2f" onclick="window.open(this.href, 'x-share', 'width=550,height=435');return false;">
+            <i class="icon-x" style="font-size:1.8em"></i>
             </a>
             </li>
             
@@ -193,17 +232,17 @@ if (!doNotTrack) {
 </span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php">    <span class="nv">$acc</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Facebook_TestAccount</span><span class="p">(</span><span class="nv">$appID</span><span class="p">,</span><span class="nv">$Secret</span><span class="p">,</span><span class="nv">$app_access_token</span><span class="p">);</span>
-    
-    <span class="c1">//Create N User
-</span><span class="c1"></span>    <span class="nv">$acc</span><span class="o">-&gt;</span><span class="na">createMany</span><span class="p">(</span><span class="nv">$_REQUEST</span><span class="p">[</span><span class="s1">&#39;n&#39;</span><span class="p">],</span><span class="nv">$parameter</span><span class="p">)</span>
-    
-    <span class="c1">//Delete All User created by App
-</span><span class="c1"></span>    <span class="nv">$acc</span><span class="o">-&gt;</span><span class="na">deleteAll</span><span class="p">()</span>
-    
-    <span class="c1">//Listing all user created by App Access Token
-</span><span class="c1"></span>    <span class="nv">$acc</span><span class="o">-&gt;</span><span class="na">access</span><span class="p">()</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-php" data-lang="php"><span class="line"><span class="cl">    <span class="nv">$acc</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Facebook_TestAccount</span><span class="p">(</span><span class="nv">$appID</span><span class="p">,</span><span class="nv">$Secret</span><span class="p">,</span><span class="nv">$app_access_token</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="c1">//Create N User
+</span></span></span><span class="line"><span class="cl">    <span class="nv">$acc</span><span class="o">-&gt;</span><span class="na">createMany</span><span class="p">(</span><span class="nv">$_REQUEST</span><span class="p">[</span><span class="s1">&#39;n&#39;</span><span class="p">],</span><span class="nv">$parameter</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="c1">//Delete All User created by App
+</span></span></span><span class="line"><span class="cl">    <span class="nv">$acc</span><span class="o">-&gt;</span><span class="na">deleteAll</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="c1">//Listing all user created by App Access Token
+</span></span></span><span class="line"><span class="cl">    <span class="nv">$acc</span><span class="o">-&gt;</span><span class="na">access</span><span class="p">()</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div>
   </div>
@@ -214,9 +253,9 @@ if (!doNotTrack) {
       <clap-it style="width:45px;height:45px;fill:var(--secondary);stroke:var(--secondary);color:var(--secondary);margin:5px 0px;" api="https://clapi.vercel.app/api/handler"/>
     </li>
       <li>
-        <a  style="font-size: 2.5em" href="https://twitter.com/share?text=Using%20Facebook%20Test%20User&nbsp;-&nbsp;Khalid%27s%20Blog&amp;url=https%3a%2f%2fkhal.web.id%2f2011%2f07%2f27%2fusing-facebook-test-user%2f"
-        onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-            <span class="icon-twitter" style="color:var(--secondary);"></span>
+        <a  style="font-size: 2.5em" href="https://x.com/share?text=Using%20Facebook%20Test%20User&nbsp;-&nbsp;Khalid%27s%20Blog&amp;url=https%3a%2f%2fkhal.web.id%2f2011%2f07%2f27%2fusing-facebook-test-user%2f"
+        onclick="window.open(this.href, 'x-share', 'width=550,height=235');return false;">
+            <span class="icon-x" style="color:var(--secondary);"></span>
         </a>
       </li>
       <li>
@@ -241,7 +280,7 @@ if (!doNotTrack) {
   
 </article></main>
 <footer class="footer" aria-hidden="true" tabindex="-1">
-  <span>&copy; 2009 - 2022 <a href="https://khal.web.id/" tabindex="-1">Khalid&#39;s Blog</a></span>
+  <span>&copy; 2009 - 2026 <a href="https://khal.web.id/" tabindex="-1">Khalid&#39;s Blog</a></span>
   <span>&middot;</span>
   <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank" tabindex="-1">Hugo️️</a>️</span>
 </footer>
